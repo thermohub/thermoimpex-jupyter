@@ -532,7 +532,7 @@
           "class": "ErrorDistribution",
           "required": "optional"
         },
-       {
+        {
           "key": 6,
           "name": "units",
           "typeId": "list",
@@ -540,8 +540,8 @@
             "typeId": "list",
             "elemTypeId": "i32"
           },
-          "doc": "Units of measurement, default - unscaled SI units: enum validated with class MeasurementUnits\n",
-          "class": "MeasurementUnits",
+          "doc": "Units of measurement: enum validated with class MeasurementUnits\n",
+          "class": "MeasurementUnits",  
           "required": "optional"
         },
         {

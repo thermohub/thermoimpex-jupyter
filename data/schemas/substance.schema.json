@@ -558,7 +558,7 @@
         },
         {
           "key": 20,
-          "name": "sm_heat_capacity_P",
+          "name": "sm_heat_capacity_p",
           "typeId": "struct",
           "type": {
             "typeId": "struct",
@@ -650,7 +650,7 @@
         },
         {
           "key": 27,
-          "name": "m_heat_capacity_pt_coeffs",
+          "name": "m_heat_capacity_p_t_coeffs",
           "typeId": "struct",
           "type": {
             "typeId": "struct",
