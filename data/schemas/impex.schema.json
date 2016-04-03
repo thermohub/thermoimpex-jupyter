@@ -1,0 +1,744 @@
+{
+  "name": "impex",
+  "doc": "Apache Thrift IDL definition for text import-export interfaces\n",
+  "namespaces": {
+    "*": "impex"
+  },
+  "includes": [
+  ],
+  "enums": [
+  ],
+  "typedefs": [
+    {
+      "name": "Format",
+      "typeId": "string",
+      "doc": "Format string in scanf\/printf syntax \"%s\" | \"in\" | \"out\" | \"endl\" | \"txel\" | \"txkw\"\n"
+    },
+    {
+      "name": "Value",
+      "typeId": "string",
+      "doc": "Intermediate value read from file (import) or to be printed to file\n"
+    },
+    {
+      "name": "DataObject",
+      "typeId": "string",
+      "doc": "Thrift key of data object \"8\" or \"3.8\" or \"2.3.8\" or \"\" to ignore (import); any string not starting from a digit as comment (export)\n"
+    },
+    {
+      "name": "Keyword",
+      "typeId": "string",
+      "doc": "Keyword in key-value pair\n"
+    }
+  ],
+  "structs": [
+    {
+      "name": "DataValue",
+      "doc": "Definition of the data value\n",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "value",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "string",
+            "valueTypeId": "string"
+          },
+          "doc": "Format, Value pair (formats: \"%s\" | \"in\" | \"out\" | \"endl\" | \"txel\" | \"txkw\" )\n",
+          "required": "req_out"
+        },
+        {
+          "key": 2,
+          "name": "vs",
+          "typeId": "string",
+          "doc": "Value separator (for arrays) \" \" | \",\" | \"\\t\" | \"integer\" (fixed field width)\n",
+          "required": "req_out"
+        },
+        {
+          "key": 3,
+          "name": "ls",
+          "typeId": "string",
+          "doc": "line separator \"\\n\" ...\n",
+          "required": "req_out"
+        },
+        {
+          "key": 4,
+          "name": "factor",
+          "typeId": "double",
+          "doc": "Factor != 0, default 1; Each num.value is multiplied (import) or divided (export) by factor\n",
+          "required": "optional"
+        },
+        {
+          "key": 5,
+          "name": "increment",
+          "typeId": "double",
+          "doc": "Increment, default 0; added to each numerical value (import) or subtracted from (export)\n",
+          "required": "optional"
+        },
+        {
+          "key": 6,
+          "name": "fscript",
+          "typeId": "string",
+          "doc": "Default \"\" or contains ECMA function script for operation on data value TBD\n",
+          "required": "optional"
+        }
+      ]
+    },
+    {
+      "name": "TextLine",
+      "doc": "Definition of text line in file, for mapping values to internal data objects\n",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "line",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "struct",
+            "valueTypeId": "string",
+            "keyType": {
+              "typeId": "struct",
+              "class": "DataValue"
+            }
+          },
+          "doc": "One or more Value,DataObject pairs\n",
+          "required": "req_out"
+        },
+        {
+          "key": 2,
+          "name": "ls",
+          "typeId": "string",
+          "doc": "Line separator, default \"\\n\" ...\n",
+          "required": "optional"
+        }
+      ]
+    },
+    {
+      "name": "TextBlock",
+      "doc": "Text block in file corresponding to one database document (record)\n",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "block",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "struct",
+            "elemType": {
+              "typeId": "struct",
+              "class": "TextLine"
+            }
+          },
+          "doc": "One or more text lines with data\n",
+          "required": "req_out"
+        },
+        {
+          "key": 2,
+          "name": "bs_head",
+          "typeId": "string",
+          "doc": "Head block separator - any characteristic string e.g. \"{\" or just \"\\n\"\n",
+          "required": "req_out"
+        },
+        {
+          "key": 3,
+          "name": "bs_end",
+          "typeId": "string",
+          "doc": "end block separator - any characteristic string e.g. \"}\" or \"\\n\"\n",
+          "required": "req_out"
+        },
+        {
+          "key": 4,
+          "name": "Ndata",
+          "typeId": "i32",
+          "doc": "number of data items per block\n",
+          "required": "optional"
+        }
+      ]
+    },
+    {
+      "name": "TextFile",
+      "doc": "Definition of text data file\n",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "blocks",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "struct",
+            "elemType": {
+              "typeId": "struct",
+              "class": "TextBlock"
+            }
+          },
+          "doc": "One or more blocks for data records\n",
+          "required": "required"
+        },
+        {
+          "key": 3,
+          "name": "label",
+          "typeId": "string",
+          "doc": "Label of data type (vertex type), e.g. \"datasource\", \"element\" ...\n",
+          "required": "required"
+        },
+        {
+          "key": 4,
+          "name": "comment",
+          "typeId": "string",
+          "doc": "Export: the whole comment text; Import: the comment begin markup string (to skip until endl)\n",
+          "required": "optional"
+        },
+        {
+          "key": 5,
+          "name": "fname",
+          "typeId": "string",
+          "doc": "File name or \"console\" for export\n",
+          "required": "optional"
+        },
+        {
+          "key": 6,
+          "name": "eod",
+          "typeId": "string",
+          "doc": "string indicating end of data in file or \"\" as default (end of file)\n",
+          "required": "optional"
+        },
+        {
+          "key": 7,
+          "name": "encoding",
+          "typeId": "string",
+          "doc": "encoding (\"\" for standard system encoding)\n",
+          "required": "optional"
+        },
+        {
+          "key": 8,
+          "name": "Nblocks",
+          "typeId": "i32",
+          "doc": "number of data block in file >=1, 0 if unknown\n",
+          "required": "optional"
+        },
+        {
+          "key": 9,
+          "name": "Nlines",
+          "typeId": "i32",
+          "doc": "number of text lines in file (>=1), 0 if unknown\n",
+          "required": "optional"
+        },
+        {
+          "key": 10,
+          "name": "Nchars",
+          "typeId": "i32",
+          "doc": "total number of characters in file, 0 if unknown\n",
+          "required": "optional"
+        }
+      ]
+    },
+    {
+      "name": "HeaderColumnValue",
+      "doc": "Definition of header column value\n",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "value",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "string",
+            "valueTypeId": "string"
+          },
+          "doc": "Format,Value pair for value(s)\n",
+          "required": "req_out"
+        },
+        {
+          "key": 2,
+          "name": "vs",
+          "typeId": "string",
+          "doc": "value separator (for arrays)\n",
+          "required": "req_out"
+        },
+        {
+          "key": 3,
+          "name": "ls",
+          "typeId": "string",
+          "doc": "line separator \"\\n\" ...\n",
+          "required": "req_out"
+        }
+      ]
+    },
+    {
+      "name": "HeaderRow",
+      "doc": "Definition of the header row\n",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "header_columns",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "struct",
+            "elemType": {
+              "typeId": "struct",
+              "class": "HeaderColumnValue"
+            }
+          },
+          "doc": "header columns (in the same order as data in data rows)\n",
+          "required": "req_out"
+        }
+      ]
+    },
+    {
+      "name": "TableHeader",
+      "doc": "Definition of table header - can have 1 or more rows\n",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "header_rows",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "struct",
+            "elemType": {
+              "typeId": "struct",
+              "class": "HeaderRow"
+            }
+          },
+          "doc": "This list (table) to be analyzed to identify data objects\n",
+          "required": "req_out"
+        },
+        {
+          "key": 2,
+          "name": "col_keys",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "i32",
+            "valueTypeId": "string"
+          },
+          "doc": "Mapping of header index to internal thrift data object keyword\n",
+          "required": "req_out"
+        },
+        {
+          "key": 3,
+          "name": "his",
+          "typeId": "string",
+          "doc": "header item separator \",\" for csv file, \"\\t\" for tsv, \"\" for fixed\n",
+          "required": "req_out"
+        },
+        {
+          "key": 4,
+          "name": "hs",
+          "typeId": "string",
+          "doc": "end of header row separator e.g. \"\\n\" for csv file\n",
+          "required": "optional"
+        },
+        {
+          "key": 5,
+          "name": "Ncols",
+          "typeId": "i32",
+          "doc": "Number of colums in the table >=1, 0 if unknown\n",
+          "required": "optional"
+        },
+        {
+          "key": 6,
+          "name": "Nhrows",
+          "typeId": "i32",
+          "doc": "Number of rows in the table header, default 1, 0 if unknown\n",
+          "required": "optional"
+        }
+      ]
+    },
+    {
+      "name": "DataColumnValue",
+      "doc": "Definition of data column value\n",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "value",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "string",
+            "valueTypeId": "string"
+          },
+          "doc": "Format,Value pair for value(s)\n",
+          "required": "req_out"
+        },
+        {
+          "key": 2,
+          "name": "vs",
+          "typeId": "string",
+          "doc": "value separator (for arrays), \",\" for csv, \"\\t\" for tsv files, \"<integer>\" for fixed, etc.\n",
+          "required": "req_out"
+        },
+        {
+          "key": 3,
+          "name": "ls",
+          "typeId": "string",
+          "doc": "line separator \"\\n\" ...\n",
+          "required": "req_out"
+        },
+        {
+          "key": 4,
+          "name": "factor",
+          "typeId": "double",
+          "doc": "Factor, != 0, default 1; Each num.value is multiplied (import) or divided (export) by factor\n",
+          "required": "optional"
+        },
+        {
+          "key": 5,
+          "name": "increment",
+          "typeId": "double",
+          "doc": "Increment, default 0; added to each numerical value (import) or subtracted from (export)\n",
+          "required": "optional"
+        },
+        {
+          "key": 6,
+          "name": "fscript",
+          "typeId": "string",
+          "doc": "Default \"\" or contains ECMA function script for operation on data value TBD\n",
+          "required": "optional"
+        }
+      ]
+    },
+    {
+      "name": "TableRow",
+      "doc": "Definition of table row\n",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "col_data",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "struct",
+            "elemType": {
+              "typeId": "struct",
+              "class": "DataColumnValue"
+            }
+          },
+          "doc": "Array of column data forming table row. For mapping, see TableHeader (to avoid duplication)\n",
+          "required": "req_out"
+        },
+        {
+          "key": 2,
+          "name": "dis",
+          "typeId": "string",
+          "doc": "data item separator \",\" for csv file, \"\\t\" for tsv, \"<integer>\" for fixed field width\n",
+          "required": "req_out"
+        },
+        {
+          "key": 3,
+          "name": "rs",
+          "typeId": "string",
+          "doc": "end of row separator e.g. \"\\n\" for csv file\n",
+          "required": "req_out"
+        }
+      ]
+    },
+    {
+      "name": "TableFile",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "header",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "TableHeader"
+          },
+          "doc": "Table header\n",
+          "required": "required"
+        },
+        {
+          "key": 2,
+          "name": "rows",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "struct",
+            "elemType": {
+              "typeId": "struct",
+              "class": "TableRow"
+            }
+          },
+          "doc": "Table data (one or more rows)\n",
+          "required": "required"
+        },
+        {
+          "key": 3,
+          "name": "label",
+          "typeId": "string",
+          "doc": "Label of data type (vertex type), e.g. \"datasource\", \"element\" ...\n",
+          "required": "required"
+        },
+        {
+          "key": 4,
+          "name": "comment",
+          "typeId": "string",
+          "doc": "Export: the whole comment text; Import: the comment begin markup string (to skip until endl)\n",
+          "required": "optional"
+        },
+        {
+          "key": 5,
+          "name": "fname",
+          "typeId": "string",
+          "doc": "File name or \"console\" for export\n",
+          "required": "optional"
+        },
+        {
+          "key": 6,
+          "name": "eod",
+          "typeId": "string",
+          "doc": "String indicating end of data in file or \"\" as default (end of file)\n",
+          "required": "optional"
+        },
+        {
+          "key": 7,
+          "name": "encoding",
+          "typeId": "string",
+          "doc": "Encoding (\"\" for standard system encoding)\n",
+          "required": "optional"
+        },
+        {
+          "key": 8,
+          "name": "Ncols",
+          "typeId": "i32",
+          "doc": "Number of colums in the table >=1, 0 if unknown\n",
+          "required": "optional"
+        },
+        {
+          "key": 9,
+          "name": "Nhrows",
+          "typeId": "i32",
+          "doc": "Number of rows in the table header 1 or more, 0 if unknown\n",
+          "required": "optional"
+        },
+        {
+          "key": 10,
+          "name": "Ndrows",
+          "typeId": "i32",
+          "doc": "Number of rows in the table data >=1, 0 if unknown\n",
+          "required": "optional"
+        }
+      ]
+    },
+    {
+      "name": "KeyValuePair",
+      "doc": "Definition of key-value pair (line) in file\n",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "keyword",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "string",
+            "valueTypeId": "string"
+          },
+          "doc": "Format,Data pair for keyword\n",
+          "required": "req_out"
+        },
+        {
+          "key": 2,
+          "name": "value",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "string",
+            "valueTypeId": "string"
+          },
+          "doc": "Format,Data pair for value(s)\n",
+          "required": "req_out"
+        },
+        {
+          "key": 3,
+          "name": "kwvs",
+          "typeId": "string",
+          "doc": "keyword- value separator\n",
+          "required": "req_out"
+        },
+        {
+          "key": 4,
+          "name": "factor",
+          "typeId": "double",
+          "doc": "Factor != 0, default 1; Each num.value is multiplied (import) or divided (export) by factor\n",
+          "required": "optional"
+        },
+        {
+          "key": 5,
+          "name": "increment",
+          "typeId": "double",
+          "doc": "Increment, default 0; added to each numerical value (import) or subtracted from (export)\n",
+          "required": "optional"
+        },
+        {
+          "key": 6,
+          "name": "fscript",
+          "typeId": "string",
+          "doc": "Default \"\" or contains ECMA function script for operation on data value TBD\n",
+          "required": "optional"
+        },
+        {
+          "key": 7,
+          "name": "ls",
+          "typeId": "string",
+          "doc": "Text line separator, default \"\\n\" ...\n",
+          "required": "optional"
+        }
+      ]
+    },
+    {
+      "name": "KeyValueBlock",
+      "doc": "Text block in file corresponding to one database document (record)\n",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "block",
+          "typeId": "set",
+          "type": {
+            "typeId": "set",
+            "elemTypeId": "struct",
+            "elemType": {
+              "typeId": "struct",
+              "class": "KeyValuePair"
+            }
+          },
+          "doc": "one or more keyword-value pairs\n",
+          "required": "req_out"
+        },
+        {
+          "key": 2,
+          "name": "match",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "string",
+            "valueTypeId": "string"
+          },
+          "doc": "mapping of Keywords to (thrift-schema-defined) data\n",
+          "required": "req_out"
+        },
+        {
+          "key": 3,
+          "name": "bs_head",
+          "typeId": "string",
+          "doc": "head block separator - any characteristic string e.g. \"{\" or just \"\\n\"\n",
+          "required": "req_out"
+        },
+        {
+          "key": 4,
+          "name": "bs_end",
+          "typeId": "string",
+          "doc": "end block separator - any characteristic string e.g. \"}\" or \"\\n\"\n",
+          "required": "req_out"
+        }
+      ]
+    },
+    {
+      "name": "KeyValueFile",
+      "doc": "Definition of text file with key-value pair data\n",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "blocks",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "struct",
+            "elemType": {
+              "typeId": "struct",
+              "class": "KeyValueBlock"
+            }
+          },
+          "doc": "one or more blocks for data records\n",
+          "required": "required"
+        },
+        {
+          "key": 3,
+          "name": "label",
+          "typeId": "string",
+          "doc": "Label of data type (vertex type), e.g. \"datasource\", \"element\" ...\n",
+          "required": "required"
+        },
+        {
+          "key": 4,
+          "name": "comment",
+          "typeId": "string",
+          "doc": "Export: the whole comment text; Import: the comment begin markup string (to skip until endl)\n",
+          "required": "optional"
+        },
+        {
+          "key": 5,
+          "name": "fname",
+          "typeId": "string",
+          "doc": "File name or \"console\" for export\n",
+          "required": "optional"
+        },
+        {
+          "key": 6,
+          "name": "eod",
+          "typeId": "string",
+          "doc": "string indicating end of data in file or \"\" as default (end of file)\n",
+          "required": "optional"
+        },
+        {
+          "key": 7,
+          "name": "encoding",
+          "typeId": "string",
+          "doc": "encoding (\"\" for standard system encoding)\n",
+          "required": "optional"
+        },
+        {
+          "key": 8,
+          "name": "Nkeys",
+          "typeId": "i32",
+          "doc": "max. number of keywords >= 1 in data block, 0 if unknown\n",
+          "required": "optional"
+        },
+        {
+          "key": 9,
+          "name": "Nblocks",
+          "typeId": "i32",
+          "doc": "number of data blocks (records) >=1, 0 if unknown\n",
+          "required": "optional"
+        },
+        {
+          "key": 10,
+          "name": "Nlines",
+          "typeId": "i32",
+          "doc": "total number of text lines in the file, 0 if unknown\n",
+          "required": "optional"
+        }
+      ]
+    }
+  ],
+  "constants": [
+  ],
+  "services": [
+  ]
+}
