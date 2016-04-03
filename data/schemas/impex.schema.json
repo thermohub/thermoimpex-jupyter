@@ -87,7 +87,7 @@
       ]
     },
     {
-      "name": "TextLine",
+      "name": "TextLineFormat",
       "doc": "Definition of text line in file, for mapping values to internal data objects\n",
       "isException": false,
       "isUnion": false,
@@ -118,8 +118,8 @@
       ]
     },
     {
-      "name": "TextBlock",
-      "doc": "Text block in file corresponding to one database document (record)\n",
+      "name": "TextBlockFormat",
+      "doc": "Text block format in file corresponding to one database document (record)\n",
       "isException": false,
       "isUnion": false,
       "fields": [
@@ -132,7 +132,7 @@
             "elemTypeId": "struct",
             "elemType": {
               "typeId": "struct",
-              "class": "TextLine"
+              "class": "TextLineFormat"
             }
           },
           "doc": "One or more text lines with data\n",
@@ -162,24 +162,20 @@
       ]
     },
     {
-      "name": "TextFile",
-      "doc": "Definition of text data file\n",
+      "name": "TextFileFormat",
+      "doc": "Definition of text data file format\n",
       "isException": false,
       "isUnion": false,
       "fields": [
         {
           "key": 1,
-          "name": "blocks",
-          "typeId": "list",
+          "name": "data_block",
+          "typeId": "struct",
           "type": {
-            "typeId": "list",
-            "elemTypeId": "struct",
-            "elemType": {
-              "typeId": "struct",
-              "class": "TextBlock"
-            }
+            "typeId": "struct",
+            "class": "TextBlockFormat"
           },
-          "doc": "One or more blocks for data records\n",
+          "doc": "Format definition for one or more blocks for data records\n",
           "required": "required"
         },
         {
@@ -298,7 +294,7 @@
       ]
     },
     {
-      "name": "TableHeader",
+      "name": "TableHeaderFormat",
       "doc": "Definition of table header - can have 1 or more rows\n",
       "isException": false,
       "isUnion": false,
@@ -416,8 +412,8 @@
       ]
     },
     {
-      "name": "TableRow",
-      "doc": "Definition of table row\n",
+      "name": "TableRowFormat",
+      "doc": "Definition of table row format\n",
       "isException": false,
       "isUnion": false,
       "fields": [
@@ -453,7 +449,8 @@
       ]
     },
     {
-      "name": "TableFile",
+      "name": "TableFileFormat",
+      "doc": "Definition of table text file format\n",
       "isException": false,
       "isUnion": false,
       "fields": [
@@ -463,24 +460,20 @@
           "typeId": "struct",
           "type": {
             "typeId": "struct",
-            "class": "TableHeader"
+            "class": "TableHeaderFormat"
           },
           "doc": "Table header\n",
           "required": "required"
         },
         {
           "key": 2,
-          "name": "rows",
-          "typeId": "list",
+          "name": "data_row",
+          "typeId": "struct",
           "type": {
-            "typeId": "list",
-            "elemTypeId": "struct",
-            "elemType": {
-              "typeId": "struct",
-              "class": "TableRow"
-            }
+            "typeId": "struct",
+            "class": "TableRowFormat"
           },
-          "doc": "Table data (one or more rows)\n",
+          "doc": "Format for table data (one or more rows)\n",
           "required": "required"
         },
         {
@@ -542,7 +535,7 @@
       ]
     },
     {
-      "name": "KeyValuePair",
+      "name": "KeyValuePairFormat",
       "doc": "Definition of key-value pair (line) in file\n",
       "isException": false,
       "isUnion": false,
@@ -609,7 +602,7 @@
       ]
     },
     {
-      "name": "KeyValueBlock",
+      "name": "KeyValueBlockFormat",
       "doc": "Text block in file corresponding to one database document (record)\n",
       "isException": false,
       "isUnion": false,
@@ -623,7 +616,7 @@
             "elemTypeId": "struct",
             "elemType": {
               "typeId": "struct",
-              "class": "KeyValuePair"
+              "class": "KeyValuePairFormat"
             }
           },
           "doc": "one or more keyword-value pairs\n",
@@ -658,24 +651,20 @@
       ]
     },
     {
-      "name": "KeyValueFile",
+      "name": "KeyValueFileFormat",
       "doc": "Definition of text file with key-value pair data\n",
       "isException": false,
       "isUnion": false,
       "fields": [
         {
           "key": 1,
-          "name": "blocks",
-          "typeId": "list",
+          "name": "data_block",
+          "typeId": "struct",
           "type": {
-            "typeId": "list",
-            "elemTypeId": "struct",
-            "elemType": {
-              "typeId": "struct",
-              "class": "KeyValueBlock"
-            }
+            "typeId": "struct",
+            "class": "KeyValueBlockFormat"
           },
-          "doc": "one or more blocks for data records\n",
+          "doc": "Format for one or more blocks for data records\n",
           "required": "required"
         },
         {
