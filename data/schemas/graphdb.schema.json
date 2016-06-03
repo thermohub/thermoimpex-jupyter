@@ -22,11 +22,12 @@
       "doc": "Datasource vertex document\n",
       "isException": false,
       "isUnion": false,
+      "to_select": [ "3", "4.1" ],
       "fields": [
         {
           "key": 1,
           "name": "_id",
-          "typeId": "i32",
+          "typeId": "string",
           "doc": "Database ID (0 if not known)\n",
           "required": "required"
         },
@@ -55,7 +56,6 @@
             "class": "datasource.DataSource"
           },
           "doc": "properties of datasource as embedded object\n",
-          "to_select": [ "3", "4.1", "1" ],
           "required": "req_out"
         }
       ]
@@ -65,11 +65,12 @@
       "doc": "Element vertex document\n",
       "isException": false,
       "isUnion": false,
+      "to_select": [ "3", "4.1", "4.2", "4.3" ],
       "fields": [
         {
           "key": 1,
           "name": "_id",
-          "typeId": "i32",
+          "typeId": "string",
           "doc": "Database ID (0 if not known)\n",
           "required": "required"
         },
@@ -98,7 +99,6 @@
             "class": "element.Element"
           },
           "doc": "properties of element as embedded object\n",
-          "to_select": [ "3", "4.1", "4.2", "4.3", "1" ],
           "required": "req_out"
         }
       ]
@@ -108,11 +108,12 @@
       "doc": "Substance vertex document\n",
       "isException": false,
       "isUnion": false,
+       "to_select": [ "3", "4.1", "4.2", "4.3" ],
       "fields": [
         {
           "key": 1,
           "name": "_id",
-          "typeId": "i32",
+          "typeId": "string",
           "doc": "Database ID (0 if not known)\n",
           "required": "required"
         },
@@ -141,7 +142,6 @@
             "class": "substance.Substance"
           },
           "doc": "properties of substance as embedded object\n",
-          "to_select": [ "3", "4.1", "4.2", "4.3", "1" ],
           "required": "req_out"
         }
       ]
@@ -151,11 +151,12 @@
       "doc": "Reaction vertex document\n",
       "isException": false,
       "isUnion": false,
+      "to_select": [ "3", "4.1", "4.2", "4.3" ],
       "fields": [
         {
           "key": 1,
           "name": "_id",
-          "typeId": "i32",
+          "typeId": "string",
           "doc": "Database ID (0 if not known)\n",
           "required": "required"
         },
@@ -184,7 +185,6 @@
             "class": "reaction.Reaction"
           },
           "doc": "properties of reaction as embedded object\n",
-          "to_select": [ "3", "4.1", "4.2", "4.3", "1" ],
           "required": "req_out"
         }
       ]
@@ -194,11 +194,12 @@
       "doc": "Reactionset vertex document\n",
       "isException": false,
       "isUnion": false,
+      "to_select": [ "3", "4.1", "4.2", "4.3" ],
       "fields": [
         {
           "key": 1,
           "name": "_id",
-          "typeId": "i32",
+          "typeId": "string",
           "doc": "Database ID (0 if not known)\n",
           "required": "required"
         },
@@ -227,7 +228,6 @@
             "class": "reactionset.ReactionSet"
           },
           "doc": "properties of reaction as embedded object\n",
-          "to_select": [ "3", "4.1", "4.2", "4.3", "1" ],
           "required": "req_out"
         }
       ]
@@ -256,7 +256,7 @@
         {
           "key": 1,
           "name": "_id",
-          "typeId": "i32",
+          "typeId": "string",
           "doc": "id of this edge record or 0 if unknown\n",
           "required": "required"
         },
@@ -271,14 +271,14 @@
         {
           "key": 3,
           "name": "_outV",
-          "typeId": "i32",
+          "typeId": "string",
           "doc": "id of outgoing vertex of any type\n",
           "required": "required"
         },
         {
           "key": 4,
           "name": "_inV",
-          "typeId": "i32",
+          "typeId": "string",
           "doc": "id of incoming datasource vertex\n",
           "required": "required"
         },
@@ -334,7 +334,7 @@
         {
           "key": 1,
           "name": "_id",
-          "typeId": "i32",
+          "typeId": "string",
           "doc": "id of this edge record or 0 if unknown\n",
           "required": "required"
         },
@@ -349,14 +349,14 @@
         {
           "key": 3,
           "name": "_outV",
-          "typeId": "i32",
+          "typeId": "string",
           "doc": "id of outgoing vertex from which the property is inherited\n",
           "required": "required"
         },
         {
           "key": 4,
           "name": "_inV",
-          "typeId": "i32",
+          "typeId": "string",
           "doc": "id of incoming vertex which inherits the property\n",
           "required": "required"
         },
@@ -405,7 +405,7 @@
         {
           "key": 1,
           "name": "_id",
-          "typeId": "i32",
+          "typeId": "string",
           "doc": "id of this edge record or 0 if unknown\n",
           "required": "required"
         },
@@ -420,14 +420,14 @@
         {
           "key": 3,
           "name": "_outV",
-          "typeId": "i32",
+          "typeId": "string",
           "doc": "id of outgoing element vertex\n",
           "required": "required"
         },
         {
           "key": 4,
           "name": "_inV",
-          "typeId": "i32",
+          "typeId": "string",
           "doc": "id of incoming substance vertex\n",
           "required": "required"
         },
@@ -491,7 +491,7 @@
         {
           "key": 1,
           "name": "_id",
-          "typeId": "i32",
+          "typeId": "string",
           "doc": "id of this edge record or 0 if unknown\n",
           "required": "required"
         },
@@ -506,14 +506,14 @@
         {
           "key": 3,
           "name": "_outV",
-          "typeId": "i32",
+          "typeId": "string",
           "doc": "id of outgoing reaction vertex\n",
           "required": "required"
         },
         {
           "key": 4,
           "name": "_inV",
-          "typeId": "i32",
+          "typeId": "string",
           "doc": "id of incoming substance vertex\n",
           "required": "required"
         },
@@ -569,7 +569,7 @@
         {
           "key": 1,
           "name": "_id",
-          "typeId": "i32",
+          "typeId": "string",
           "doc": "id of this edge record or 0 if unknown\n",
           "required": "required"
         },
@@ -584,14 +584,14 @@
         {
           "key": 3,
           "name": "_outV",
-          "typeId": "i32",
+          "typeId": "string",
           "doc": "id of outgoing reaction vertex\n",
           "required": "required"
         },
         {
           "key": 4,
           "name": "_inV",
-          "typeId": "i32",
+          "typeId": "string",
           "doc": "id of incoming species vertex\n",
           "required": "required"
         },
@@ -641,7 +641,7 @@
         {
           "key": 1,
           "name": "_id",
-          "typeId": "i32",
+          "typeId": "string",
           "doc": "id of this edge record or 0 if unknown\n",
           "required": "required"
         },
@@ -656,14 +656,14 @@
         {
           "key": 3,
           "name": "_outV",
-          "typeId": "i32",
+          "typeId": "string",
           "doc": "id of outgoing reactionset vertex\n",
           "required": "required"
         },
         {
           "key": 4,
           "name": "_inV",
-          "typeId": "i32",
+          "typeId": "string",
           "doc": "id of incoming species vertex\n",
           "required": "required"
         },
@@ -713,7 +713,7 @@
         {
           "key": 1,
           "name": "_id",
-          "typeId": "i32",
+          "typeId": "string",
           "doc": "id of this edge record or 0 if unknown\n",
           "required": "required"
         },
@@ -728,14 +728,14 @@
         {
           "key": 3,
           "name": "_outV",
-          "typeId": "i32",
+          "typeId": "string",
           "doc": "id of outgoing reactionset vertex\n",
           "required": "required"
         },
         {
           "key": 4,
           "name": "_inV",
-          "typeId": "i32",
+          "typeId": "string",
           "doc": "id of incoming species vertex\n",
           "required": "required"
         },
@@ -791,7 +791,7 @@
         {
           "key": 1,
           "name": "_id",
-          "typeId": "i32",
+          "typeId": "string",
           "doc": "id of this edge record or 0 if unknown\n",
           "required": "required"
         },
@@ -806,14 +806,14 @@
         {
           "key": 3,
           "name": "_outV",
-          "typeId": "i32",
+          "typeId": "string",
           "doc": "id of outgoing reactionset vertex\n",
           "required": "required"
         },
         {
           "key": 4,
           "name": "_inV",
-          "typeId": "i32",
+          "typeId": "string",
           "doc": "id of incoming reaction vertex\n",
           "required": "required"
         },

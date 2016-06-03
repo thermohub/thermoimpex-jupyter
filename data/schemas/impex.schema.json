@@ -70,6 +70,28 @@
       ]
     },
     {
+      "name": "DataType",
+      "doc": "Type of object from the imported or exported file (for use in keyword lookup list or map)\n",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "datatype",
+          "typeId": "string",
+          "doc": "Basis type \"string\" | \"float\" | \"double\" | \"i16\" | \"i32\" | \"bool\" | ...\n",
+          "required": "req_out"
+        },
+        {
+          "key": 2,
+          "name": "organization",
+          "typeId": "string",
+          "doc": "Organization: \"\" | \"list\" | \"set\" | \"map\" | \"embedded\" | ...\n",
+          "required": "req_out"
+        }
+      ]
+    },
+    {
       "name": "DataObject",
       "doc": "Thrift key of data object \"8\" or \"3.8\" or \"2.3.8\" or \"\" to ignore (import); any string not starting from a digit as comment (export)\n",
       "isException": false,
@@ -77,25 +99,36 @@
       "fields": [
         {
           "key": 1,
-          "name": "fieldkey",
+          "name": "field",
           "typeId": "string",
-          "doc": "Thrift key of data object \"8\" or \"3.8\" or \"2.3.8\" or \"\"\n",
+          "doc": "Either Thrift key or name of the data field in recursive form (s e.g. \"4.3.1\" or name1.name2 )\n",
           "required": "req_out"
         },
         {
           "key": 2,
-          "name": "fieldname",
-          "typeId": "string",
-          "doc": "String name of data object (any string not starting with a digit as comment (export)\n",
-          "required": "req_out"
+          "name": "ignore",
+          "typeId": "bool",
+          "doc": "Set to true if the corresponding value in file has to be ignored (default: false)\n",
+          "required": "optional"
         },
         {
           "key": 3,
-          "name": "ignore",
-          "typeId": "bool",
-          "doc": "Set to true if the corresponding value in file has to be ignored\n",
-          "required": "req_out",
-          "default": 0
+          "name": "script",
+          "typeId": "string",
+          "doc": "Default \"\" or contains ECMA function script for operation on data values in block TBD\n",
+          "required": "optional"
+        },
+        {
+          "key": 4,
+          "name": "convert",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "string",
+            "valueTypeId": "string"
+          },
+          "doc": "Default empty or contains pair(s) read_value : saved_value e.g. \"e\": \"4\" (usually for setting enum values)\n",
+          "required": "optional"
         }
       ]
     },
@@ -164,55 +197,79 @@
       ]
     },
     {
-      "name": "FormatTextBlock",
+      "name": "FormatBlock",
       "doc": "Text block format in file corresponding to one database document (record)\n",
       "isException": false,
       "isUnion": false,
       "fields": [
         {
           "key": 1,
-          "name": "block",
+          "name": "defaults",
           "typeId": "map",
           "type": {
             "typeId": "map",
-            "keyTypeId": "struct",
+            "keyTypeId": "string",
+            "valueTypeId": "string"
+          },
+          "doc": "Default Key, Value pairs to DOM\n",
+          "required": "req_out"
+        },
+        {
+          "key": 2,
+          "name": "pairs",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "string",
             "valueTypeId": "struct",
-            "keyType": {
+            "valueType": {
               "typeId": "struct",
-              "class": "FormatValue"
-            },
+              "class": "DataType"
+            }
+          },
+          "doc": "Lookup map of keyword-value pair format\n",
+          "required": "req_out"
+        },
+        {
+          "key": 3,
+          "name": "matches",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "string",
+            "valueTypeId": "struct",
             "valueType": {
               "typeId": "struct",
               "class": "DataObject"
             }
           },
-          "doc": ">=1 FormatValue, DataObject pairs connecting the block of data in file with DOM\n",
+          "doc": ">=1 keywd, DataObject pairs connecting the block of data in file with DOM\n",
           "required": "req_out"
         },
         {
-          "key": 2,
+          "key": 4,
           "name": "head_delim",
           "typeId": "string",
           "doc": "Head block delimiter - any characteristic string e.g. \"{\" or just \"\\n\"\n",
           "required": "optional"
         },
         {
-          "key": 3,
+          "key": 5,
           "name": "end_delim",
           "typeId": "string",
           "doc": "End block delimiter - any characteristic string e.g. \"}\" or \"\\n\"\n",
           "required": "optional"
         },
         {
-          "key": 4,
+          "key": 6,
           "name": "Ndata",
           "typeId": "i32",
           "doc": "number of data items per block (0 if not set)\n",
           "required": "optional"
         },
         {
-          "key": 5,
-          "name": "func_script",
+          "key": 7,
+          "name": "script",
           "typeId": "string",
           "doc": "Default \"\" or contains ECMA function script for operation on data values in block TBD\n",
           "required": "optional"
@@ -227,17 +284,24 @@
       "fields": [
         {
           "key": 1,
-          "name": "blocks",
+          "name": "block",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "FormatBlock"
+          },
+          "doc": "Format definition for one or more blocks for data records - default 1 block\n",
+          "required": "required"
+        },
+        {
+          "key": 2,
+          "name": "lines",
           "typeId": "list",
           "type": {
             "typeId": "list",
-            "elemTypeId": "struct",
-            "elemType": {
-              "typeId": "struct",
-              "class": "FormatTextBlock"
-            }
+            "elemTypeId": "string"
           },
-          "doc": "Format definition for one or more blocks for data records - default 1 block\n",
+          "doc": "Will be format lines list\n",
           "required": "required"
         },
         {
@@ -296,6 +360,129 @@
       ]
     },
     {
+      "name": "FormatKeyValuePair",
+      "doc": "Definition of key-value pair (line) in file\n",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "formatkey",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "FormatKeyword"
+          },
+          "doc": "Format for keyword\n",
+          "required": "req_out"
+        },
+        {
+          "key": 2,
+          "name": "formatvalue",
+          "typeId": "string",
+          "doc": "Format for data value(s)\n",
+          "required": "req_out"
+        },
+        {
+          "key": 3,
+          "name": "kwvs",
+          "typeId": "string",
+          "doc": "keyword- value separator e.g. \"=\" | \":\" ...\n",
+          "required": "req_out"
+        },
+        {
+          "key": 4,
+          "name": "kvp_delim_end",
+          "typeId": "string",
+          "doc": "Key-Value pair end delimiter, default \"\\n\" ...\n",
+          "required": "optional"
+        }
+      ]
+    },
+    {
+      "name": "FormatKeyValueFile",
+      "doc": "Definition of text file with key-value pair data\n",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "block",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "FormatBlock"
+          },
+          "doc": "Format for one or more blocks for data records\n",
+          "required": "required"
+        },
+        {
+          "key": 2,
+          "name": "line",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "FormatKeyValuePair"
+          },
+          "doc": "Definition of key-value pair (line) in file\n",
+          "required": "required"
+        },
+        {
+          "key": 3,
+          "name": "renderer",
+          "typeId": "string",
+          "doc": "Rendering syntax for the foreign key-value file \"GEMS3K\" | \"BIB\" | \"RIS\" | ...\n",
+          "required": "required"
+        },
+        {
+          "key": 4,
+          "name": "label",
+          "typeId": "string",
+          "doc": "Label of data type (vertex type), e.g. \"datasource\", \"element\" ...\n",
+          "required": "required"
+        },
+        {
+          "key": 5,
+          "name": "separators",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "Separators"
+          },
+          "doc": "Definition of value, line, row, block, comment, end-of-data separators\n",
+          "required": "req_out"
+        },
+        {
+          "key": 6,
+          "name": "comment",
+          "typeId": "string",
+          "doc": "Export: the whole comment text; Import: the comment begin markup string (to skip until endl)\n",
+          "required": "optional"
+        },
+        {
+          "key": 7,
+          "name": "fname",
+          "typeId": "string",
+          "doc": "File name or \"console\" for export\n",
+          "required": "optional"
+        },
+        {
+          "key": 8,
+          "name": "Nblocks",
+          "typeId": "i32",
+          "doc": "number of data blocks (records) >=1, 0 if unknown\n",
+          "required": "optional"
+        },
+        {
+          "key": 9,
+          "name": "Nlines",
+          "typeId": "i32",
+          "doc": "total number of text lines in the file, 0 if unknown\n",
+          "required": "optional"
+        }
+      ]
+    },
+    {
       "name": "FormatTableHeaderRow",
       "doc": "Definition of header row values\n",
       "isException": false,
@@ -307,11 +494,7 @@
           "typeId": "list",
           "type": {
             "typeId": "list",
-            "elemTypeId": "struct",
-            "elemType": {
-              "typeId": "struct",
-              "class": "FormatKeyword"
-            }
+            "elemTypeId": "string"
           },
           "doc": "Format,Value pairs for value(s) - number of map elements as Ncols\n",
           "required": "req_out"
@@ -383,12 +566,8 @@
           "typeId": "map",
           "type": {
             "typeId": "map",
-            "keyTypeId": "struct",
+            "keyTypeId": "string",
             "valueTypeId": "struct",
-            "keyType": {
-              "typeId": "struct",
-              "class": "FormatValue"
-            },
             "valueType": {
               "typeId": "struct",
               "class": "DataObject"
@@ -490,296 +669,6 @@
       ]
     },
     {
-      "name": "Keyword",
-      "doc": "Keyword from the imported or exported file (for use in keyword lookup list or map)\n",
-      "isException": false,
-      "isUnion": false,
-      "fields": [
-        {
-          "key": 1,
-          "name": "key_long",
-          "typeId": "string",
-          "doc": "Keyword (long)\n",
-          "required": "req_out"
-        },
-        {
-          "key": 2,
-          "name": "key_short",
-          "typeId": "string",
-          "doc": "Keyword (short)\n",
-          "required": "req_out"
-        }
-      ]
-    },
-    {
-      "name": "DataType",
-      "doc": "Type of object from the imported or exported file (for use in keyword lookup list or map)\n",
-      "isException": false,
-      "isUnion": false,
-      "fields": [
-        {
-          "key": 1,
-          "name": "datatype",
-          "typeId": "string",
-          "doc": "Basis type \"string\" | \"float\" | \"double\" | \"i16\" | \"i32\" | \"bool\" | ...\n",
-          "required": "req_out"
-        },
-        {
-          "key": 2,
-          "name": "organization",
-          "typeId": "string",
-          "doc": "Organization: \"\" | \"list\" | \"set\" | \"map\" | \"embedded\" | ...\n",
-          "required": "req_out"
-        }
-      ]
-    },
-    {
-      "name": "FormatKeyValuePair",
-      "doc": "Definition of key-value pair (line) in file\n",
-      "isException": false,
-      "isUnion": false,
-      "fields": [
-        {
-          "key": 1,
-          "name": "formatkey",
-          "typeId": "string",
-          "doc": "Format for keyword\n",
-          "required": "req_out"
-        },
-        {
-          "key": 2,
-          "name": "formatvalue",
-          "typeId": "string",
-          "doc": "Format for data value(s)\n",
-          "required": "req_out"
-        },
-        {
-          "key": 3,
-          "name": "kwvs",
-          "typeId": "string",
-          "doc": "keyword- value separator e.g. \"=\" | \":\" ...\n",
-          "required": "req_out"
-        },
-        {
-          "key": 4,
-          "name": "kvp_delim_end",
-          "typeId": "string",
-          "doc": "Key-Value pair end delimiter, default \"\\n\" ...\n",
-          "required": "optional"
-        },
-        {
-          "key": 5,
-          "name": "factor",
-          "typeId": "double",
-          "doc": "Factor != 0, default 1; Each num.value is multiplied (import) or divided (export) by factor\n",
-          "required": "optional"
-        },
-        {
-          "key": 6,
-          "name": "increment",
-          "typeId": "double",
-          "doc": "Increment, default 0; added to each numerical value (import) or subtracted from (export)\n",
-          "required": "optional"
-        }
-      ]
-    },
-    {
-      "name": "FormatKeyValueBlock",
-      "doc": "Data block in file corresponding to one database document (record)\n",
-      "isException": false,
-      "isUnion": false,
-      "fields": [
-        {
-          "key": 1,
-          "name": "pairs",
-          "typeId": "map",
-          "type": {
-            "typeId": "map",
-            "keyTypeId": "struct",
-            "valueTypeId": "struct",
-            "keyType": {
-              "typeId": "struct",
-              "class": "FormatKeyValuePair"
-            },
-            "valueType": {
-              "typeId": "struct",
-              "class": "DataType"
-            }
-          },
-          "doc": "Lookup map of keyword-value pair format\n",
-          "required": "req_out"
-        },
-        {
-          "key": 2,
-          "name": "match",
-          "typeId": "map",
-          "type": {
-            "typeId": "map",
-            "keyTypeId": "struct",
-            "valueTypeId": "struct",
-            "keyType": {
-              "typeId": "struct",
-              "class": "Keyword"
-            },
-            "valueType": {
-              "typeId": "struct",
-              "class": "DataObject"
-            }
-          },
-          "doc": "mapping of Keywords from file to data objects in DOM - many elements to be provided\n",
-          "required": "req_out"
-        },
-        {
-          "key": 3,
-          "name": "head_delim",
-          "typeId": "string",
-          "doc": "head block delimiter - any characteristic string e.g. \"{\" or just \"\\n\"\n",
-          "required": "optional"
-        },
-        {
-          "key": 4,
-          "name": "end_delim",
-          "typeId": "string",
-          "doc": "end block delimiter - any characteristic string e.g. \"}\" or \"\\n\"\n",
-          "required": "optional"
-        },
-        {
-          "key": 5,
-          "name": "Nkwds",
-          "typeId": "i32",
-          "doc": "max. number of keywords >= 1 in data block, 0 if unknown\n",
-          "required": "optional"
-        }
-      ]
-    },
-    {
-      "name": "FormatKeyValueFile",
-      "doc": "Definition of text file with key-value pair data\n",
-      "isException": false,
-      "isUnion": false,
-      "fields": [
-        {
-          "key": 1,
-          "name": "block",
-          "typeId": "struct",
-          "type": {
-            "typeId": "struct",
-            "class": "FormatKeyValueBlock"
-          },
-          "doc": "Format for one or more blocks for data records\n",
-          "required": "required"
-        },
-        {
-          "key": 2,
-          "name": "renderer",
-          "typeId": "string",
-          "doc": "Rendering syntax for the foreign key-value file \"GEMS3K\" | \"BIB\" | \"RIS\" | ...\n",
-          "required": "required"
-        },
-        {
-          "key": 3,
-          "name": "label",
-          "typeId": "string",
-          "doc": "Label of data type (vertex type), e.g. \"datasource\", \"element\" ...\n",
-          "required": "required"
-        },
-        {
-          "key": 4,
-          "name": "separators",
-          "typeId": "struct",
-          "type": {
-            "typeId": "struct",
-            "class": "Separators"
-          },
-          "doc": "Definition of value, line, row, block, comment, end-of-data separators\n",
-          "required": "req_out"
-        },
-        {
-          "key": 5,
-          "name": "comment",
-          "typeId": "string",
-          "doc": "Export: the whole comment text; Import: the comment begin markup string (to skip until endl)\n",
-          "required": "optional"
-        },
-        {
-          "key": 6,
-          "name": "fname",
-          "typeId": "string",
-          "doc": "File name or \"console\" for export\n",
-          "required": "optional"
-        },
-        {
-          "key": 7,
-          "name": "Nblocks",
-          "typeId": "i32",
-          "doc": "number of data blocks (records) >=1, 0 if unknown\n",
-          "required": "optional"
-        },
-        {
-          "key": 8,
-          "name": "Nlines",
-          "typeId": "i32",
-          "doc": "total number of text lines in the file, 0 if unknown\n",
-          "required": "optional"
-        }
-      ]
-    },
-    {
-      "name": "FormatStructDataBlock",
-      "doc": "Data block in structured data file corresponding to one database document (record)\n",
-      "isException": false,
-      "isUnion": false,
-      "fields": [
-        {
-          "key": 1,
-          "name": "pairs",
-          "typeId": "map",
-          "type": {
-            "typeId": "map",
-            "keyTypeId": "struct",
-            "valueTypeId": "struct",
-            "keyType": {
-              "typeId": "struct",
-              "class": "Keyword"
-            },
-            "valueType": {
-              "typeId": "struct",
-              "class": "DataType"
-            }
-          },
-          "doc": "Lookup map of keywords and types from the external JSON file\n",
-          "required": "req_out"
-        },
-        {
-          "key": 2,
-          "name": "match",
-          "typeId": "map",
-          "type": {
-            "typeId": "map",
-            "keyTypeId": "struct",
-            "valueTypeId": "struct",
-            "keyType": {
-              "typeId": "struct",
-              "class": "FormatValue"
-            },
-            "valueType": {
-              "typeId": "struct",
-              "class": "DataObject"
-            }
-          },
-          "doc": "mapping of data from file to data objects in DOM - many elements to be provided\n",
-          "required": "req_out"
-        },
-        {
-          "key": 3,
-          "name": "Nkeys",
-          "typeId": "i32",
-          "doc": "max. number of lookup keywords >= 1 in data block, 0 if unknown\n",
-          "required": "optional"
-        }
-      ]
-    },
-    {
       "name": "FormatStructDataFile",
       "doc": "Definition of foreign structured data JSON\/YAML\/XML text file\n",
       "isException": false,
@@ -791,7 +680,7 @@
           "typeId": "struct",
           "type": {
             "typeId": "struct",
-            "class": "FormatStructDataBlock"
+            "class": "FormatBlock"
           },
           "doc": "Format for one or more blocks for data records\n",
           "required": "required"
