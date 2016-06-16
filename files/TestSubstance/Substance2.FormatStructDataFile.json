@@ -1,5 +1,11 @@
 {
      "block" :   {
+          "defaults" :   {
+
+          },
+          "pairs" :   {
+
+          },
           "matches" :   {
                "key.0.fv" :   {
                     "field" :   "properties.aggregate_state",
@@ -138,20 +144,20 @@
                "dod.4.val" :   {
                     "field" :   "properties.mass_per_mole"
                },
-               "dod.5.val" :   {
-                    "field" :   "4.15.3"
+               "dod.5.val.0" :   {
+                    "field" :   "properties.sm_volume.values"
                },
-               "dod.6.val" :   {
-                    "field" :   "4.16.3"
+               "dod.6.val.0" :   {
+                    "field" :   "properties.sm_gibbs_energy.values"
                },
-               "dod.7.val" :   {
-                    "field" :   "4.17.3"
+               "dod.7.val.0" :   {
+                    "field" :   "properties.sm_enthalpy.values"
                },
-               "dod.8.val" :   {
-                    "field" :   "4.18.3"
+               "dod.8.val.0" :   {
+                    "field" :   "properties.sm_entropy_f.values"
                },
-               "dod.9.val" :   {
-                    "field" :   "4.20.3"
+               "dod.9.val.0" :   {
+                    "field" :   "properties.sm_heat_capacity_p.values"
                },
                "dod.12.val.0" :   {
                     "field" :   "properties.m_compressibility.values"
@@ -198,14 +204,23 @@
                },
                "dod.17.val.1" :   {
                     "field" :   "properties.limitsTP.upperT",
-                    "script" :   "field = field+273.15"
+                    "script" :   "field = field + 273.15"
+               },
+               "dod.6.val.1" :   {
+                    "field" :   "properties.sm_gibbs_energy.errors"
+               },
+               "dod.5.val.1" :   {
+                    "field" :   "properties.sm_volume.errors"
+               },
+               "dod.7.val.1" :   {
+                    "field" :   "properties.sm_enthalpy.errors"
+               },
+               "dod.8.val.1" :   {
+                    "field" :   "properties.sm_entropy_f.errors"
+               },
+               "dod.9.val.1" :   {
+                    "field" :   "properties.sm_heat_capacity_p.errors"
                }
-          },
-          "defaults" :   {
-
-          },
-          "pairs" :   {
-
           }
      },
      "renderer" :   "JSON",
