@@ -111,71 +111,71 @@
       "members": [
         {
           "name": "CTPM_CPT",
-          "value": 100
+          "value": 0
         },
         {
           "name": "CTPM_HKF",
-          "value": 101
+          "value": 1
         },
         {
           "name": "CTPM_REA",
-          "value": 102
+          "value": 2
         },
         {
           "name": "CTPM_EOS",
-          "value": 103
+          "value": 3
         },
         {
           "name": "CTPM_ISO",
-          "value": 104
+          "value": 4
         },
         {
           "name": "CTPM_SOR",
-          "value": 105
+          "value": 5
         },
         {
           "name": "CEM_OFF",
-          "value": 106
+          "value": 6
         },
         {
           "name": "CEM_GAS",
-          "value": 107
+          "value": 7
         },
         {
           "name": "CEM_H2O",
-          "value": 108
+          "value": 8
         },
         {
           "name": "CEM_CO2",
-          "value": 109
+          "value": 9
         },
         {
           "name": "CEM_CH4",
-          "value": 110
+          "value": 10
         },
         {
           "name": "CEM_N2",
-          "value": 111
+          "value": 11
         },
         {
           "name": "CEM_H2",
-          "value": 112
+          "value": 12
         },
         {
           "name": "CEM_O2",
-          "value": 113
+          "value": 13
         },
         {
           "name": "CEM_AR",
-          "value": 114
+          "value": 14
         },
         {
           "name": "CEM_PO",
-          "value": 115
+          "value": 15
         },
         {
           "name": "CEM_NP",
-          "value": 116
+          "value": 16
         }
       ]
     },
@@ -185,87 +185,87 @@
       "members": [
         {
           "name": "CTM_CST",
-          "value": 200
+          "value": 0
         },
         {
           "name": "CTM_CHP",
-          "value": 201
+          "value": 1
         },
         {
           "name": "CTM_BER",
-          "value": 202
+          "value": 2
         },
         {
           "name": "CTM_FEI",
-          "value": 203
+          "value": 3
         },
         {
           "name": "CTM_LGX",
-          "value": 204
+          "value": 4
         },
         {
           "name": "CTM_HKF",
-          "value": 205
+          "value": 5
         },
         {
           "name": "CTM_WAT",
-          "value": 206
+          "value": 6
         },
         {
           "name": "CTM_WAS",
-          "value": 207
+          "value": 7
         },
         {
           "name": "CTM_LGK",
-          "value": 208
+          "value": 8
         },
         {
           "name": "CTM_EK0",
-          "value": 209
+          "value": 9
         },
         {
           "name": "CTM_EK1",
-          "value": 210
+          "value": 10
         },
         {
           "name": "CTM_EK2",
-          "value": 211
+          "value": 11
         },
         {
           "name": "CTM_EK3",
-          "value": 212
+          "value": 12
         },
         {
           "name": "CTM_IKZ",
-          "value": 213
+          "value": 13
         },
         {
           "name": "CTM_DKR",
-          "value": 214
+          "value": 14
         },
         {
           "name": "CTM_PPE",
-          "value": 215
+          "value": 15
         },
         {
           "name": "CTM_MRB",
-          "value": 216
+          "value": 16
         },
         {
           "name": "CTM_CPG",
-          "value": 217
+          "value": 17
         },
         {
           "name": "CTM_IFG",
-          "value": 218
+          "value": 18
         },
         {
           "name": "CTM_KAS",
-          "value": 219
+          "value": 19
         },
         {
           "name": "CTM_DAS",
-          "value": 220
+          "value": 20
         }
       ]
     },
@@ -275,95 +275,95 @@
       "members": [
         {
           "name": "CPM_OFF",
-          "value": 300
+          "value": 0
         },
         {
           "name": "CPM_NUL",
-          "value": 301
+          "value": 1
         },
         {
           "name": "CPM_ONE",
-          "value": 302
+          "value": 2
         },
         {
           "name": "CPM_TWO",
-          "value": 303
+          "value": 3
         },
         {
           "name": "CPM_TRI",
-          "value": 304
+          "value": 4
         },
         {
           "name": "CPM_CON",
-          "value": 305
+          "value": 5
         },
         {
           "name": "CPM_VKE",
-          "value": 306
+          "value": 6
         },
         {
           "name": "CPM_VBE",
-          "value": 307
+          "value": 7
         },
         {
           "name": "CPM_VBM",
-          "value": 308
+          "value": 8
         },
         {
           "name": "CPM_CEH",
-          "value": 309
+          "value": 9
         },
         {
           "name": "CPM_VTA",
-          "value": 310
+          "value": 10
         },
         {
           "name": "CPM_GAS",
-          "value": 311
+          "value": 11
         },
         {
           "name": "CPM_PRSV",
-          "value": 312
+          "value": 12
         },
         {
           "name": "CPM_EMP",
-          "value": 313
+          "value": 13
         },
         {
           "name": "CPM_SRK",
-          "value": 314
+          "value": 14
         },
         {
           "name": "CPM_STP",
-          "value": 315
+          "value": 15
         },
         {
           "name": "CPM_PR78",
-          "value": 316
+          "value": 16
         },
         {
           "name": "CPM_CORK",
-          "value": 317
+          "value": 17
         },
         {
           "name": "CPM_REFL",
-          "value": 318
+          "value": 18
         },
         {
           "name": "CPM_HKF",
-          "value": 319
+          "value": 19
         },
         {
           "name": "CPM_AKI",
-          "value": 320
+          "value": 20
         },
         {
           "name": "CPM_PCR",
-          "value": 321
+          "value": 21
         },
         {
           "name": "CPM_INK",
-          "value": 322
+          "value": 22
         }
       ]
     }

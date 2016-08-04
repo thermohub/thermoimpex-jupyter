@@ -80,11 +80,23 @@
         },
         {
           "name": "PROTON",
-          "value": 6
+          "value": 6,
+          "doc": "Proton decay\n"
         },
         {
           "name": "OTHER_DT",
-          "value": 7
+          "value": 7,
+          "doc": "Other type of decay\n"
+        },
+        {
+          "name": "FISSION",
+          "value": 8,
+          "doc": "Fission\n"
+        },
+        {
+          "name": "TRANSMUTATION",
+          "value": 9,
+          "doc": "Transmutation\n"
         }
       ]
     }
@@ -135,16 +147,24 @@
         },
         {
           "key": 4,
-          "name": "daughter",
-          "typeId": "string",
-          "doc": "Symbol of the daugther (product) isotope\n",
+          "name": "daughters",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "string"
+          },
+          "doc": "Symbols of daugther (product) isotopes\n",
           "required": "req_out"
         },
         {
           "key": 5,
-          "name": "isotope_mass",
-          "typeId": "i16",
-          "doc": "Mass of the daughter isotope (at. units)\n",
+          "name": "isotope_masses",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "i32"
+          },
+          "doc": "Mass of daughter isotopes (at. units)\n",
           "required": "req_out"
         }
       ]
