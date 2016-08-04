@@ -2,9 +2,9 @@
      "block" :   {
           "defaults" :   {
                "properties.aggregate_state" :   "4",
-               "properties.method_genEoS" :   "1",
-               "properties.method_corrT" :   "5",
-               "properties.method_corrP" :   "19",
+               "properties.method_genEoS" :   "101",
+               "properties.method_corrT" :   "205",
+               "properties.method_corrP" :   "319",
                "properties.substance_class" :   "2",
                "properties.Tst" :   "298.15",
                "properties.Pst" :   "1.0e5",
