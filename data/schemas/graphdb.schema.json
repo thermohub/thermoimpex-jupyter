@@ -242,7 +242,7 @@
           "key": 1,
           "name": "for_field",
           "typeId": "string",
-          "doc": "Citing datasource for data field { \"for_field\": \"logK\" }\n",
+          "doc": "Data field path connected to DS e.g. { \"for_field\": \"properties.entropy.values.0\" }\n",
           "required": "req_out"
         }
       ]
@@ -311,9 +311,9 @@
       "fields": [
         {
           "key": 1,
-          "name": "for_prop",
+          "name": "for_property",
           "typeId": "string",
-          "doc": "This string contains one of the keywords for substance properties, e.g. \"for_prop\" \"sG0\"\n",
+          "doc": "Fieldpath or short name for property, e.g. \"for_property\" \"sG0\"\n",
           "required": "req_out"
         },
         {

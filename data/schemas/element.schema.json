@@ -99,6 +99,102 @@
           "doc": "Transmutation\n"
         }
       ]
+    },
+    {
+      "name": "SourceTDB",
+      "doc": "Codes of source thermodynamic data sets for substances and reactions\n",
+      "members": [
+        {
+          "name": "CODATA",
+          "value": 0,
+          "doc": "CODATA 1989\n"
+        },
+        {
+          "name": "NIST",
+          "value": 1,
+          "doc": "NIST Wagman et al. 1989\n"
+        },
+        {
+          "name": "SUPCRT",
+          "value": 2,
+          "doc": "SUPCRT slop98.dat\n"
+        },
+        {
+          "name": "HOLLAND_POWELL",
+          "value": 3,
+          "doc": "Holland and Powell 2001\n"
+        },
+        {
+          "name": "BERMAN_BROWN",
+          "value": 4,
+          "doc": "Berman and Brown 1998\n"
+        },
+        {
+          "name": "ROBIE_HEMINGWAY",
+          "value": 5,
+          "doc": "Robie and Hemingway 1995\n"
+        },
+        {
+          "name": "GOTTSCHALK",
+          "value": 6,
+          "doc": "Gottschalk 1999\n"
+        },
+        {
+          "name": "BABUSHKIN",
+          "value": 7,
+          "doc": "Babushkin et al. 1986\n"
+        },
+        {
+          "name": "KUBASCHEWSKI",
+          "value": 8,
+          "doc": "Kubaschewski er al. 1993\n"
+        },
+        {
+          "name": "KONINGS",
+          "value": 9,
+          "doc": "Konings et al. 1998\n"
+        },
+        {
+          "name": "REID_GL",
+          "value": 10,
+          "doc": "Reid et al. 1987 (gases and liquids)\n"
+        },
+        {
+          "name": "NEA",
+          "value": 11,
+          "doc": "NEA TDB Project\n"
+        },
+        {
+          "name": "THEREDA",
+          "value": 12,
+          "doc": "THEREDA Project\n"
+        },
+        {
+          "name": "THERMODDEM",
+          "value": 13,
+          "doc": "TERMODDEM Project\n"
+        },
+        {
+          "name": "SMITH_MARTELL",
+          "value": 14,
+          "doc": "Smith and Martell 1978\n"
+        },
+        {
+          "name": "PSI_NAGRA",
+          "value": 15,
+          "doc": "PSI-Nagra TDB 12\/07\n"
+        },
+        {
+          "name": "OTHER",
+          "value": 16,
+          "doc": "Other data sources\n"
+        },
+        {
+          "name": "MOIETY",
+          "value": 17,
+          "doc": "Moiety in multi-site phase models (no TDB source)\n"
+        }
+      ]
     }
   ],
   "typedefs": [
@@ -298,6 +394,14 @@
           "name": "number",
           "typeId": "i16",
           "doc": "Number in periodic table; 0 if not a true chemical element\n",
+          "required": "optional"
+        },
+        {
+          "key": 14,
+          "name": "sourcetdb",
+          "typeId": "i32",
+          "doc": "Source DB: enum validated with class SourceDB\n",
+  	  "class": "SourceTDB",
           "required": "optional"
         },
         {
