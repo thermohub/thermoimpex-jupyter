@@ -1,0 +1,31 @@
+{
+     "block" :   {
+          "defaults" :   {
+
+          },
+          "pairs" :   {
+
+          },
+          "matches" :   {
+               "title" :   {
+                    "field" :   "properties.title"
+               }
+          },
+          "head_delim" :   "@",
+          "end_delim" :   "}",
+          "Ndata" :   0
+     },
+     "line" :   {
+          "formatkey" :   {
+               "format" :   "%s",
+               "delim_begin" :   "\n",
+               "delim_end" :   "="
+          },
+          "formatvalue" :   "%s",
+          "kwvs" :   "=",
+          "kvp_delim_end" :   ","
+     },
+     "renderer" :   "BIB",
+     "label" :   "VertexDataSource",
+     "comment" :   "test"
+}
