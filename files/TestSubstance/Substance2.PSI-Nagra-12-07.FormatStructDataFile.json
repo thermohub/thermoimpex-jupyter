@@ -1,7 +1,7 @@
 {
      "block" :   {
           "defaults" :   {
-
+               "properties.sourcetdb" :   "15"
           },
           "pairs" :   {
 
@@ -20,8 +20,11 @@
                "dod.14.val" :   {
                     "field" :   "properties.substance_name"
                },
+               "dod.15.val" :   {
+                    "field" :   "properties.formula"
+               },
                "dod.0.val.0" :   {
-                    "field" :   "properties.method_genEoS",
+                    "field" :   "4.23",
                     "convert" :   {
                          "C" :   "100",
                          "H" :   "101",
@@ -214,13 +217,10 @@
                },
                "dod.9.val.1" :   {
                     "field" :   "properties.sm_heat_capacity_p.errors"
-               },
-               "35" :   {
-                    "field" :   "properties.sm_heat_capacity_p.errors"
                }
           }
      },
      "renderer" :   "JSON",
      "label" :   "VertexSubstance",
-     "comment" :   "first test"
+     "comment" :   "Second test"
 }

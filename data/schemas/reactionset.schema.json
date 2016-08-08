@@ -207,6 +207,14 @@
           "required": "optional"
         },
         {
+          "key": 8,
+          "name": "sourcetdb",
+          "typeId": "i32",
+          "doc": "Source TDB: enum validated with class SourceTDB\n",
+          "class": "SourceTDB",
+          "required": "optional"
+        },
+        {
           "key": 10,
           "name": "TPlimits",
           "typeId": "map",
