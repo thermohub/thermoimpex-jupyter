@@ -348,6 +348,13 @@
           "typeId": "string",
           "doc": "Key, in bibtex schema\n",
           "required": "optional"
+        },
+        {
+          "key": 32,
+          "name": "abstracttext",
+          "typeId": "string",
+          "doc": "Abstract in bibtex schema, thrift does not allow the use of abstract\n",
+          "required": "optional"
         }
       ]
     }
