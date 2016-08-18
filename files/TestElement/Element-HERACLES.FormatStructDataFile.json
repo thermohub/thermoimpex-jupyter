@@ -3,7 +3,8 @@
           "defaults" :   {
                "4.19.1" :   "0",
                "properties.radioactivity.half_life_lambda.values" :   "[ 0 ]",
-               "properties.datasources" :   "[\"HERACLES\"]"
+               "properties.datasources" :   "[\"HERACLES\"]",
+               "properties.sourcetdb" :   "16"
           },
           "pairs" :   {
 
