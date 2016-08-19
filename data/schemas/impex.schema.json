@@ -177,7 +177,7 @@
           "key": 6,
           "name": "eod",
           "typeId": "string",
-          "doc": "string indicating end of data in file or \"\" as default (end of file)\n",
+          "doc": "string indicating end of data (as list of blocks) in file or \"\" as default ']' (end of file)\n",
           "required": "optional"
         },
         {
@@ -192,6 +192,13 @@
           "name": "str_delim",
           "typeId": "string",
           "doc": "Delimiter for strings - default \"\\\"\"\n",
+          "required": "optional"
+        },
+        {
+          "key": 9,
+          "name": "bod",
+          "typeId": "string",
+          "doc": "string indicating begin of data (as list of blocks) in file or \"\" as default '['\n",
           "required": "optional"
         }
       ]
@@ -244,31 +251,10 @@
             }
           },
           "doc": ">=1 keywd, DataObject pairs connecting the block of data in file with DOM\n",
-          "required": "req_out"
+          "required": "required"
         },
         {
           "key": 4,
-          "name": "head_delim",
-          "typeId": "string",
-          "doc": "Head block delimiter - any characteristic string e.g. \"{\" or just \"\\n\"\n",
-          "required": "optional"
-        },
-        {
-          "key": 5,
-          "name": "end_delim",
-          "typeId": "string",
-          "doc": "End block delimiter - any characteristic string e.g. \"}\" or \"\\n\"\n",
-          "required": "optional"
-        },
-        {
-          "key": 6,
-          "name": "Ndata",
-          "typeId": "i32",
-          "doc": "number of data items per block (0 if not set)\n",
-          "required": "optional"
-        },
-        {
-          "key": 7,
           "name": "script",
           "typeId": "string",
           "doc": "Default \"\" or contains ECMA function script for operation on data values in block TBD\n",
@@ -360,41 +346,66 @@
       ]
     },
     {
-      "name": "FormatKeyValuePair",
-      "doc": "Definition of key-value pair (line) in file\n",
+      "name": "FormatKeyValue",
+      "doc": "Definition of key-value input format\n",
       "isException": false,
       "isUnion": false,
       "fields": [
         {
           "key": 1,
-          "name": "formatkey",
-          "typeId": "struct",
-          "type": {
-            "typeId": "struct",
-            "class": "FormatKeyword"
-          },
-          "doc": "Format for keyword\n",
-          "required": "req_out"
+          "name": "head_regexp",
+          "typeId": "string",
+          "doc": "Regular Expression for head of block\n",
+          "required": "required"
         },
         {
           "key": 2,
-          "name": "formatvalue",
+          "name": "end_regexp",
           "typeId": "string",
-          "doc": "Format for data value(s)\n",
-          "required": "req_out"
+          "doc": "Regular Expression for end of block\n",
+          "required": "required"
         },
         {
           "key": 3,
-          "name": "kwvs",
+          "name": "key_regexp",
           "typeId": "string",
-          "doc": "keyword- value separator e.g. \"=\" | \":\" ...\n",
-          "required": "req_out"
+          "doc": "Regular Expression for keyword\n",
+          "required": "required"
         },
         {
           "key": 4,
-          "name": "kvp_delim_end",
+          "name": "value_regexp",
           "typeId": "string",
-          "doc": "Key-Value pair end delimiter, default \"\\n\" ...\n",
+          "doc": "Regular Expression for data value(s)\n",
+          "required": "req_out"
+        },
+        {
+          "key": 5,
+          "name": "value_next",
+          "typeId": "string",
+          "doc": "Key-Value pair end delimiter (used if empty value_regexp )\n",
+          "required": "req_out",
+          "default": "\n"
+        },
+        {
+          "key": 6,
+          "name": "value_token_regexp",
+          "typeId": "string",
+          "doc": "Regular Expression to iterate over matches  (used to convert value to string list)\n",
+          "required": "optional"
+        },
+        {
+          "key": 7,
+          "name": "comment_regexp",
+          "typeId": "string",
+          "doc": "Regular Expression for skip comments\n",
+          "required": "optional"
+        },
+        {
+          "key": 8,
+          "name": "Ndata",
+          "typeId": "i32",
+          "doc": "number of data items per block (0 if not set)\n",
           "required": "optional"
         }
       ]
@@ -418,13 +429,13 @@
         },
         {
           "key": 2,
-          "name": "line",
+          "name": "format",
           "typeId": "struct",
           "type": {
             "typeId": "struct",
-            "class": "FormatKeyValuePair"
+            "class": "FormatKeyValue"
           },
-          "doc": "Definition of key-value pair (line) in file\n",
+          "doc": "Definition of key-value block in file\n",
           "required": "required"
         },
         {
