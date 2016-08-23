@@ -355,6 +355,17 @@
           "typeId": "string",
           "doc": "Abstract in bibtex schema, thrift does not allow the use of abstract\n",
           "required": "optional"
+        },
+        {
+          "key": 33,
+          "name": "keywords",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "string"
+          },
+          "doc": "List of reference keywords\n",
+          "required": "optional"
         }
       ]
     }

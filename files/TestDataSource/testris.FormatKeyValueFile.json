@@ -79,6 +79,9 @@
                },
                "DO" :   {
                     "field" :   "properties.identifiers"
+               },
+                "KW" :   {
+                    "field" :   "properties.keywords"
                }
           },
           "script" :   "if rintable.properties.shortname == \'\'  or rintable.properties.shortname == nil then rintable.properties.shortname = rintable.properties.author[1] end; if rintable.properties.bibliographic_type ~= 1 and rintable.properties.bibliographic_type ~= 2 and rintable.properties.bibliographic_type ~= 4 and rintable.properties.bibliographic_type ~= 6 then rintable.properties.booktitle = \'\' end; if rintable.properties.bibliographic_type == 1 then rintable.properties.booktitle = rintable.properties.title end;"
