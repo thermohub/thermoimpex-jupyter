@@ -176,6 +176,22 @@
         {
           "name": "CEM_NP",
           "value": 116
+        },
+        {
+          "name": "CTPM_WJNR",
+          "value": 117
+        },
+        {
+          "name": "CTPM_WJNG",
+          "value": 118
+        },
+        {
+          "name": "CTPM_HKFR",
+          "value": 119
+        },
+        {
+          "name": "CTPM_WSV14",
+          "value": 120
         }
       ]
     },
@@ -266,6 +282,18 @@
         {
           "name": "CTM_DAS",
           "value": 220
+        },
+        {
+          "name": "CTM_WAR",
+          "value": 221
+        },
+        {
+          "name": "CTM_WWP",
+          "value": 222
+        },
+        {
+          "name": "CTM_WZD",
+          "value": 223
         }
       ]
     },
