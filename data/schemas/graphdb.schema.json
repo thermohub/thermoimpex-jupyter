@@ -22,7 +22,7 @@
       "doc": "Datasource vertex document\n",
       "isException": false,
       "isUnion": false,
-      "to_select": [ "3", "4.1" ],
+      "to_select": [ "3", "4.1", "4.3", "4.2" ],
       "fields": [
         {
           "key": 1,
@@ -108,7 +108,7 @@
       "doc": "Substance vertex document\n",
       "isException": false,
       "isUnion": false,
-       "to_select": [ "3", "4.1", "4.2", "4.3" ],
+       "to_select": [ "3", "4.1", "4.2", "4.5", "4.3" ],
       "fields": [
         {
           "key": 1,
@@ -151,7 +151,7 @@
       "doc": "Reaction vertex document\n",
       "isException": false,
       "isUnion": false,
-      "to_select": [ "3", "4.1", "4.2", "4.3" ],
+      "to_select": [ "3", "4.1", "4.2", "4.4", "4.3", "4.11.3.0" ],
       "fields": [
         {
           "key": 1,
@@ -194,7 +194,7 @@
       "doc": "Reactionset vertex document\n",
       "isException": false,
       "isUnion": false,
-      "to_select": [ "3", "4.1", "4.2", "4.3" ],
+      "to_select": [ "3", "4.1", "4.2", "4.3", "4.4", "4.8" ],
       "fields": [
         {
           "key": 1,
@@ -252,6 +252,7 @@
       "doc": "Edge of type \"citing\" definition\n",
       "isException": false,
       "isUnion": false,
+      "to_select": [ "1", "2", "3", "4", "5", "6.1" ],
       "fields": [
         {
           "key": 1,
@@ -330,6 +331,7 @@
       "doc": "Edge of type \"inherits\" definition\n",
       "isException": false,
       "isUnion": false,
+      "to_select": [ "1", "2", "3", "4", "5", "6.1", "6.2" ],
       "fields": [
         {
           "key": 1,
@@ -401,6 +403,7 @@
       "doc": "Edge of type \"sstate\" definition\n",
       "isException": false,
       "isUnion": false,
+      "to_select": [ "1", "2", "3", "4", "5", "6.1" ],
       "fields": [
         {
           "key": 1,
@@ -487,6 +490,7 @@
       "doc": "Edge of type \"takes\" definition\n",
       "isException": false,
       "isUnion": false,
+      "to_select": [ "1", "2", "3", "4", "5", "6.1", "6.2", "6.3" ],
       "fields": [
         {
           "key": 1,
@@ -565,6 +569,7 @@
       "doc": "Edge of type \"defines\" definition\n",
       "isException": false,
       "isUnion": false,
+      "to_select": [ "1", "2", "3", "4", "5", "6.1", "6.2" ],
       "fields": [
         {
           "key": 1,
@@ -637,6 +642,7 @@
       "doc": "Edge of type \"defines\" definition\n",
       "isException": false,
       "isUnion": false,
+      "to_select": [ "1", "2", "3", "4", "5", "6.1" ],
       "fields": [
         {
           "key": 1,
@@ -709,6 +715,7 @@
       "doc": "Edge of type \"defines\" definition\n",
       "isException": false,
       "isUnion": false,
+      "to_select": [ "1", "2", "3", "4", "5", "6.1" ],
       "fields": [
         {
           "key": 1,
@@ -787,6 +794,7 @@
       "doc": "Edge of type \"prodreac\" definition\n",
       "isException": false,
       "isUnion": false,
+      "to_select": [ "1", "2", "3", "4", "5", "6.1", "6.2" ],
       "fields": [
         {
           "key": 1,
