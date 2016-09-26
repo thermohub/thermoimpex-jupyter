@@ -22,7 +22,7 @@
       "doc": "Datasource vertex document\n",
       "isException": false,
       "isUnion": false,
-      "to_select": [ "3", "4.1", "4.3", "4.2" ],
+      "to_select": [ "3", "4.1", "4.3.0", "4.2" ],
       "fields": [
         {
           "key": 1,
