@@ -139,14 +139,14 @@
       "fields": [
         {
           "key": 1,
-          "name": "reactionset_symbol",
+          "name": "symbol",
           "typeId": "string",
           "doc": "Unique name\/ID of this reaction set\n",
           "required": "required"
         },
         {
           "key": 2,
-          "name": "reactionset_stype",
+          "name": "stype",
           "typeId": "i32",
           "doc": "cClass of reactionset - validate with clas ReactionSetType\n",
           "class": "ReactionSetType",
@@ -155,7 +155,7 @@
         },
         {
           "key": 3,
-          "name": "reaction_level",
+          "name": "level",
           "typeId": "i32",
           "doc": "Level of the reactionset\n",
           "required": "required",

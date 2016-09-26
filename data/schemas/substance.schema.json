@@ -420,7 +420,7 @@
       "fields": [
         {
           "key": 1,
-          "name": "substance_symbol",
+          "name": "symbol",
           "typeId": "string",
           "doc": "Unique name\/ID of this substance (e.g. abbreviated mineral name)\n",
           "required": "required"
@@ -442,14 +442,14 @@
         },
         {
           "key": 5,
-          "name": "substance_name",
+          "name": "name",
           "typeId": "string",
           "doc": "Name of the substance (chemical or mineral nomenclature)\n",
           "required": "req_out"
         },
         {
           "key": 6,
-          "name": "substance_class",
+          "name": "class",
           "typeId": "i32",
           "doc": "Class of substance: enum validated with class SubstanceClass\n",
           "class": "SubstanceClass",

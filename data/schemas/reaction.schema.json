@@ -111,7 +111,7 @@
       "fields": [
         {
           "key": 1,
-          "name": "reaction_symbol",
+          "name": "symbol",
           "typeId": "string",
           "doc": "Unique name\/ID of this reaction (e.g. product species name)\n",
           "required": "required"
@@ -126,7 +126,7 @@
         },
         {
           "key": 3,
-          "name": "reaction_level",
+          "name": "level",
           "typeId": "i32",
           "doc": "Level of the reaction (for superimposed IC or LMA reaction sets)\n",
           "required": "required",

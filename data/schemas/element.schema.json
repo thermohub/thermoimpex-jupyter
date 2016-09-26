@@ -273,7 +273,7 @@
       "fields": [
         {
           "key": 1,
-          "name": "element_symbol",
+          "name": "symbol",
           "typeId": "string",
           "doc": "Element symbol max 6 characters, 1st uppercase, other lowercase letters\n",
           "required": "required"
@@ -287,7 +287,7 @@
         },
         {
           "key": 3,
-          "name": "element_name",
+          "name": "name",
           "typeId": "string",
           "doc": "Element name e.g. Oxygen\n",
           "required": "required"
@@ -308,7 +308,7 @@
         },
         {
           "key": 5,
-          "name": "element_class",
+          "name": "class",
           "typeId": "i32",
           "doc": "Class of element: enum validated with class ElementClass\n",
           "class": "ElementClass",
@@ -316,7 +316,7 @@
         },
         {
           "key": 6,
-          "name": "element_aggregate_state",
+          "name": "aggregate_state",
           "typeId": "i32",
           "doc": "(Standard) state of this element: enum validated with class AggregateState\n",
           "class": "AggregateState",
