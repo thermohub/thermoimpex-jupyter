@@ -5,7 +5,7 @@
                "properties.method_genEoS" :   "101",
                "properties.method_corrT" :   "205",
                "properties.method_corrP" :   "319",
-               "properties.substance_class" :   "2",
+               "properties.class" :   "2",
                "properties.Tst" :   "298.15",
                "properties.Pst" :   "1.0e5",
                "properties.eos_hkf_coeffs.list_size" :   "7",
@@ -18,10 +18,10 @@
           },
           "matches" :   {
                "Name" :   {
-                    "field" :   "properties.substance_name"
+                    "field" :   "properties.name"
                },
                "Symbol" :   {
-                    "field" :   "properties.substance_symbol"
+                    "field" :   "properties.symbol"
                },
                "Comments" :   {
                     "field" :   "properties.comment"
@@ -38,7 +38,7 @@
                     "script" :   "field[1] = field[1] * 4.184;"
                },
                "S0" :   {
-                    "field" :   "properties.sm_entropy_f.values",
+                    "field" :   "properties.sm_entropy_abs.values",
                     "script" :   "field[1] = field[1] * 4.184;"
                },
                "Cp0" :   {
@@ -51,32 +51,32 @@
                },
                "a1x10" :   {
                     "field" :   "properties.eos_hkf_coeffs.values.0",
-                    "script" :   "field[1] = field[1] / 10;"
+                    "script" :   "field = field / 10;"
                },
                "a2x10-2" :   {
                     "field" :   "properties.eos_hkf_coeffs.values.1",
-                    "script" :   "field[2] = field[2] / 1e-02;"
+                    "script" :   "field = field / 1e-02;"
                },
                "a3" :   {
                     "field" :   "properties.eos_hkf_coeffs.values.2"
                },
                "a4x10-4" :   {
                     "field" :   "properties.eos_hkf_coeffs.values.3",
-                    "script" :   "field[4] = field[4] / 1e-04;"
+                    "script" :   "field = field / 1e-04;"
                },
                "c1" :   {
                     "field" :   "properties.eos_hkf_coeffs.values.4"
                },
                "c2x10-4" :   {
                     "field" :   "properties.eos_hkf_coeffs.values.5",
-                    "script" :   "field[6] = field[6] / 1e-04;"
+                    "script" :   "field = field / 1e-04;"
                },
                "ωx10-5" :   {
                     "field" :   "properties.eos_hkf_coeffs.values.6",
-                    "script" :   "field[7] = field[7] / 1e-05;"
+                    "script" :   "field = field / 1e-05;"
                }
           },
-          "script" :   "rintable.properties.formula = rintable.properties.element_symbol;rintable.properties.eos_hkf_coeffs.values.1 = rintable.properties.eos_hkf_coeffs.values.1 * 10;"
+          "script" :   "rintable.properties.formula = rintable.properties.symbol;rintable.properties.eos_hkf_coeffs.values[1] = rintable.properties.eos_hkf_coeffs.values[1] * 1;"
      },
      "renderer" :   "JSON",
      "label" :   "VertexSubstance",

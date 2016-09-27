@@ -5,7 +5,7 @@
                "properties.method_genEoS" :   "101",
                "properties.method_corrT" :   "205",
                "properties.method_corrP" :   "319",
-               "properties.substance_class" :   "2",
+               "properties.class" :   "2",
                "properties.Tst" :   "298.15",
                "properties.Pst" :   "1.0e5",
                "properties.eos_hkf_coeffs.list_size" :   "7",
@@ -17,10 +17,10 @@
           },
           "matches" :   {
                "Name" :   {
-                    "field" :   "properties.substance_name"
+                    "field" :   "properties.name"
                },
                "Symbol" :   {
-                    "field" :   "properties.substance_symbol"
+                    "field" :   "properties.symbol"
                },
                "Comments" :   {
                     "field" :   "properties.comment"
@@ -36,7 +36,7 @@
                     "script" :   "field = field * 4.184"
                },
                "S0" :   {
-                    "field" :   "properties.sm_entropy_f.values"
+                    "field" :   "properties.sm_entropy_abs.values"
                },
                "Cp0" :   {
                     "field" :   "properties.sm_heat_capacity_p.values"
