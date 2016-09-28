@@ -274,7 +274,7 @@
         },
         {
           "key": 21,
-          "name": "TPlimits",
+          "name": "limitsTP",
           "typeId": "map",
           "type": {
             "typeId": "map",
@@ -285,16 +285,16 @@
           "required": "req_out",
           "default": [
             {
-              "loT": 273.15
+              "lowerT": 273.15
             },
             {
-              "upT": 298.15
+              "upperT": 298.15
             },
             {
-              "loP": 1
+              "lowerP": 1
             },
             {
-              "upP": 1000000
+              "upperP": 1000000
             }
           ]
         },
