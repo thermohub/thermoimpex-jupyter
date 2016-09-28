@@ -9,9 +9,10 @@
                "properties.Tst" :   "298.15",
                "properties.Pst" :   "1.0e5",
                "properties.eos_hkf_coeffs.list_size" :   "7",
-               "properties.sourcetdb" :   "16",
+               "properties.sourcetdb" :   "18",
                "properties.standard_cscale" :   "2",
-               "properties.eos_hkf_coeffs.values" :   "[ 0, 0, 0, 0, 0, 0, 0 ]"
+               "properties.eos_hkf_coeffs.values" :   "[ 0, 0, 0, 0, 0, 0, 0 ]",
+               "properties.datasources" :   "[\"DEW_Model_11.0.1\"]"
           },
           "pairs" :   {
 

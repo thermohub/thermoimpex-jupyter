@@ -179,19 +179,23 @@
         },
         {
           "name": "CTPM_WJNR",
-          "value": 117
+          "value": 117,
+          "doc": "Water dielectric properites usin Jhonson and Norton (1991) model as implemented in Reaktoro\n"
         },
         {
           "name": "CTPM_WJNG",
-          "value": 118
+          "value": 118,
+          "doc": "Water dielectric properites using Jhonson and Norton (1991) model as implemented in GEMS\n"
         },
         {
           "name": "CTPM_HKFR",
-          "value": 119
+          "value": 119,
+          "doc": "Helgeson-Kirkham-Flowers EOS for aqueous species as implemented in Reaktoro\n"
         },
         {
           "name": "CTPM_WSV14",
-          "value": 120
+          "value": 120,
+          "doc": "Water dielectric properites using Sverjensky et al. (2014) model\n"
         }
       ]
     },
@@ -285,15 +289,18 @@
         },
         {
           "name": "CTM_WAR",
-          "value": 221
+          "value": 221,
+          "doc": "Water properties using Haar-Gallagher-Kell (1984) equation of state as implemented in Reaktoro\n"
         },
         {
           "name": "CTM_WWP",
-          "value": 222
+          "value": 222,
+          "doc": "Water properties using Wagner and Pruss 1995 (IAWPS95) EOS as implemented in Reaktoro\n"
         },
         {
           "name": "CTM_WZD",
-          "value": 223
+          "value": 223,
+          "doc": "Water properties using Zhang and Duan (2005) EOS\n"
         }
       ]
     },
