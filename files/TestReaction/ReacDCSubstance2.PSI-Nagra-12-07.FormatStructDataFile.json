@@ -18,8 +18,63 @@
                "dod.16.val" :   {
                     "field" :   "properties.name"
                },
+               "key.0.fv" :   {
+                    "field" :   "properties.aggregate_state",
+                    "convert" :   {
+                         "a" :   "4",
+                         "g" :   "0",
+                         "s" :   "3",
+                         "c" :   "5",
+                         "l" :   "1"
+                    }
+               },
+               "dod.1.val.0" :   {
+                    "field" :   "properties.class",
+                    "convert" :   {
+                         "d" :   "---",
+                         "r" :   "---",
+                         "n" :   "---",
+                         "i" :   "---",
+                         "f" :   "---",
+                         "T" :   "---",
+                         "E" :   "---",
+                         "S" :   "2",
+                         "K" :   "4",
+                         "W" :   "3",
+                         "L" :   "---",
+                         "G" :   "1",
+                         "V" :   "---",
+                         "C" :   "---",
+                         "H" :   "---",
+                         "N" :   "---",
+                         "I" :   "---",
+                         "J" :   "---",
+                         "M" :   "---",
+                         "F" :   "---",
+                         "D" :   "---",
+                         "Q" :   "---",
+                         "P" :   "---",
+                         "R" :   "---",
+                         "0" :   "---",
+                         "2" :   "---",
+                         "4" :   "---",
+                         "6" :   "---",
+                         "8" :   "---",
+                         "1" :   "---",
+                         "3" :   "---",
+                         "5" :   "---",
+                         "7" :   "---",
+                         "9" :   "---",
+                         "A" :   "---",
+                         "B" :   "---",
+                         "X" :   "5",
+                         "Y" :   "---",
+                         "Z" :   "---",
+                         "O" :   "0"
+                    }
+               },
                "dod.0.val.0" :   {
-                    "field" :   "4.18",
+                    "field" :   "4.23",
                     "convert" :   {
                          "C" :   "100",
                          "H" :   "101",
@@ -31,7 +86,7 @@
                     }
                },
                "dod.0.val.1" :   {
-                    "field" :   "properties.method_corrT",
+                    "field" :   "4.24",
                     "convert" :   {
                          "S" :   "200",
                          "H" :   "201",
@@ -55,7 +110,7 @@
                     }
                },
                "dod.0.val.2" :   {
-                    "field" :   "4.20",
+                    "field" :   "4.25",
                     "convert" :   {
                          "N" :   "300",
                          "0" :   "301",
@@ -81,61 +136,11 @@
                          "P" :   "321",
                          "Z" :   "322"
                     }
-               },
-               "dod.6.val.1" :   {
-                    "field" :   "properties.logKr.values"
-               },
-               "dod.7.val.0" :   {
-                    "field" :   "properties.drsm_gibbs_energy.values"
-               },
-               "dod.8.val.0" :   {
-                    "field" :   "properties.drsm_enthalpy.values"
-               },
-               "dod.9.val.0" :   {
-                    "field" :   "properties.drsm_entropy.values"
-               },
-               "dod.10.val.0" :   {
-                    "field" :   "properties.drsm_heat_capacity_p.values"
-               },
-               "dod.11.val.0" :   {
-                    "field" :   "properties.drsm_volume.values"
-               },
-               "dod.13.val.0" :   {
-                    "field" :   "properties.Pst",
-                    "script" :   "field = field * 1e05"
-               },
-               "dod.13.val.1" :   {
-                    "field" :   "properties.Tst",
-                    "script" :   "field = field + 273.15"
-               },
-               "dod.22.val.0" :   {
-                    "field" :   "properties.limitsTP.lowerT",
-                    "script" :   "field = field + 273.15"
-               },
-               "dod.22.val.1" :   {
-                    "field" :   "properties.limitsTP.upperT",
-                    "script" :   "field = field + 273.15"
-               },
-               "dod.23.val.0" :   {
-                    "field" :   "properties.limitsTP.lowerP",
-                    "script" :   "field = field * 1e05"
-               },
-               "dod.23.val.1" :   {
-                    "field" :   "properties.limitsTP.upperP",
-                    "script" :   "field = field * 1e05"
-               },
-               "dod.28.val" :   {
-                    "field" :   "properties.logk_ft_coeffs.values"
-               },
-               "dod.26.val" :   {
-                    "field" :   "properties.dr_volume_pt_coeffs.values"
-               },
-               "dod.24.val" :   {
-                    "field" :   "properties.dr_heat_aapacity_p_t_coeffs.values"
                }
-          }
+          },
+          "script" :   "rintable.properties.formula = rintable.properties.symbol"
      },
      "renderer" :   "JSON",
-     "label" :   "VertexReaction",
+     "label" :   "VertexSubstance",
      "comment" :   "test"
 }
