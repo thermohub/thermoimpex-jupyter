@@ -550,13 +550,20 @@
       "fields": [
         {
           "key": 1,
+          "name": "stoi_coeff",
+          "typeId": "double",
+          "doc": "Stoichiometry coefficient: negative for reactants, positive for products { \"SC\": -0.5 }\n",
+          "required": "req_out"
+        },
+        {
+          "key": 2,
           "name": "for_prop",
           "typeId": "string",
           "doc": "This string contains one of the keywords for substance properties, e.g. \"for_prop\" \"whole\"\n",
           "required": "req_out"
         },
         {
-          "key": 2,
+          "key": 3,
           "name": "asop",
           "typeId": "string",
           "doc": "This string identifies the relation: { \"asop\": \"retrieved\" } | ...\n",
