@@ -813,6 +813,7 @@
       "name": "ImpexFormat",
       "doc": "description of import\/export format record\n",
       "isException": false,
+      "to_select": [ "2", "3", "4", "5" ],
       "isUnion": false,
       "fields": [
         {
@@ -841,7 +842,7 @@
           "name": "schema",
           "typeId": "string",
           "doc": "record schema\n",
-          "required": "required"
+          "required": "req_out"
         },
         {
           "key": 5,
@@ -859,28 +860,24 @@
         },
         {
           "key": 7,
-          "name": "format",
+          "name": "impex",
           "typeId": "string",
-          "doc": "Id\/description of foreign file format\n",
-          "required": "req_out"
+          "doc": "format structure\n",
+          "required": "required"
         },
         {
           "key": 8,
-          "name": "extension",
+          "name": "format",
           "typeId": "string",
-          "doc": "file extension\n",
-          "required": "req_out"
+          "doc": "Id\/description of foreign file format\n",
+          "required": "optional"
         },
         {
           "key": 9,
-          "name": "impex",
-          "typeId": "union",
-          "type": {
-            "typeId": "union",
-            "class": "FormatImportExportFile"
-          },
-          "doc": "format structure\n",
-          "required": "req_out"
+          "name": "extension",
+          "typeId": "string",
+          "doc": "file extension\n",
+          "required": "optional"
         }
       ]
     }
