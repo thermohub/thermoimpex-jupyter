@@ -18,7 +18,7 @@
                     }
                },
                "dod.14.val" :   {
-                    "field" :   "properties.substance_name"
+                    "field" :   "properties.name"
                },
                "dod.0.val.0" :   {
                     "field" :   "properties.method_genEoS",
@@ -85,10 +85,10 @@
                     }
                },
                "key.2.fv" :   {
-                    "field" :   "properties.substance_symbol"
+                    "field" :   "properties.symbol"
                },
                "dod.1.val.0" :   {
-                    "field" :   "properties.substance_class",
+                    "field" :   "properties.class_",
                     "convert" :   {
                          "d" :   "---",
                          "r" :   "---",

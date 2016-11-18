@@ -1,5 +1,5 @@
 {
-  "name": "graph",
+  "name": "graphdb",
   "doc": "Apache Thrift IDL definition for GraphSON and TitanDB graph database interface\n",
   "namespaces": {
     "*": "graph"
@@ -867,7 +867,7 @@
             "typeId": "struct",
             "class": "VertexDataSource"
           },
-          "required": "req_out"
+          "required": "optional"
         },
         {
           "key": 2,
@@ -877,7 +877,7 @@
             "typeId": "struct",
             "class": "VertexElement"
           },
-          "required": "req_out"
+          "required": "optional"
         },
         {
           "key": 3,
@@ -887,7 +887,7 @@
             "typeId": "struct",
             "class": "VertexSubstance"
           },
-          "required": "req_out"
+          "required": "optional"
         },
         {
           "key": 4,
@@ -897,7 +897,7 @@
             "typeId": "struct",
             "class": "VertexReaction"
           },
-          "required": "req_out"
+          "required": "optional"
         },
         {
           "key": 5,
@@ -907,7 +907,7 @@
             "typeId": "struct",
             "class": "VertexReactionSet"
           },
-          "required": "req_out"
+          "required": "optional"
         }
       ]
     },
@@ -925,7 +925,7 @@
             "typeId": "struct",
             "class": "EdgeCiting"
           },
-          "required": "req_out"
+          "required": "optional"
         },
         {
           "key": 2,
@@ -935,7 +935,7 @@
             "typeId": "struct",
             "class": "EdgeInherits"
           },
-          "required": "req_out"
+          "required": "optional"
         },
         {
           "key": 3,
@@ -945,7 +945,7 @@
             "typeId": "struct",
             "class": "EdgeSstate"
           },
-          "required": "req_out"
+          "required": "optional"
         },
         {
           "key": 4,
@@ -955,7 +955,7 @@
             "typeId": "struct",
             "class": "EdgeTakes"
           },
-          "required": "req_out"
+          "required": "optional"
         },
         {
           "key": 5,
@@ -965,7 +965,7 @@
             "typeId": "struct",
             "class": "EdgeDefines"
           },
-          "required": "req_out"
+          "required": "optional"
         },
         {
           "key": 6,
@@ -975,7 +975,7 @@
             "typeId": "struct",
             "class": "EdgeMaster"
           },
-          "required": "req_out"
+          "required": "optional"
         },
         {
           "key": 7,
@@ -985,7 +985,7 @@
             "typeId": "struct",
             "class": "EdgeProduct"
           },
-          "required": "req_out"
+          "required": "optional"
         },
         {
           "key": 8,
@@ -995,7 +995,7 @@
             "typeId": "struct",
             "class": "EdgeProdreac"
           },
-          "required": "req_out"
+          "required": "optional"
         }
       ]
     },
