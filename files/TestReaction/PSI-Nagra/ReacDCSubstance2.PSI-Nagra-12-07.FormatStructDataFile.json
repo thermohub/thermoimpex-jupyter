@@ -1,7 +1,7 @@
 {
      "block" :   {
           "defaults" :   {
-               "properties.sourcetdb" :   "2",
+               "properties.sourcetdb" :   "15",
                "properties.datasources" :   "[\"PSI-Nagra-12-07\"]",
                "properties.reactyp" :   "1"
           },
@@ -12,7 +12,7 @@
                "dod.30.val" :   {
                     "field" :   "properties.comment"
                },
-               "dod.17.val" :   {
+               "key.2.fv" :   {
                     "field" :   "properties.symbol"
                },
                "dod.16.val" :   {
