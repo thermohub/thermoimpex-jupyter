@@ -136,9 +136,11 @@
                          "P" :   "321",
                          "Z" :   "322"
                     }
+               },
+               "dod.17.val" :   {
+                    "field" :   "properties.formula"
                }
-          },
-          "script" :   "rintable.properties.formula = rintable.properties.symbol"
+          }
      },
      "renderer" :   "JSON",
      "label" :   "VertexSubstance",
