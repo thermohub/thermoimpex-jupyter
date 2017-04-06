@@ -861,13 +861,20 @@
       "fields": [
         {
           "key": 1,
+          "name": "coeff",
+          "typeId": "double",
+          "doc": "coefficient of the combined reaction\n",
+          "required": "req_out"
+        },
+        {
+          "key": 2,
           "name": "rc_type",
           "typeId": "i32",
           "doc": "Type of combined reaction, INVESTIGATED or MODEL\n",
           "required": "req_out"
         },
         {
-          "key": 2,
+          "key": 3,
           "name": "level",
           "typeId": "i32",
           "doc": "Level (of alternative or generated reaction)\n",
