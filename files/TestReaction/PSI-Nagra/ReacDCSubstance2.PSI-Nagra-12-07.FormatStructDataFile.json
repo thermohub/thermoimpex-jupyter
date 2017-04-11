@@ -139,6 +139,21 @@
                },
                "dod.17.val" :   {
                     "field" :   "properties.formula"
+               },
+               "dod.7.val.1" :   {
+                    "field" :   "properties.sm_gibbs_energy.values"
+               },
+               "dod.8.val.1" :   {
+                    "field" :   "properties.sm_enthalpy.values"
+               },
+               "dod.9.val.1" :   {
+                    "field" :   "properties.sm_entropy_abs.values"
+               },
+               "dod.10.val.1" :   {
+                    "field" :   "properties.sm_heat_capacity_p.values"
+               },
+               "dod.11.val.1" :   {
+                    "field" :   "properties.sm_volume.values"
                }
           }
      },

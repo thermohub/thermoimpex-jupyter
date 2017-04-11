@@ -3,7 +3,8 @@
           "defaults" :   {
                "properties.sourcetdb" :   "15",
                "properties.datasources" :   "[\"PSI-Nagra-12-07\"]",
-               "properties.reactyp" :   "1"
+               "properties.reactyp" :   "1",
+               "properties.level" :   "0"
           },
           "pairs" :   {
 
