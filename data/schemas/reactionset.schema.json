@@ -34,6 +34,11 @@
           "name": "OTHER_RS",
           "value": 3,
           "doc": "Other type of reaction set\n"
+        },
+        {
+          "name": "MODEL",
+          "value": 4,
+          "doc": "Model reactions used for generating isocoulombic reactions\n"
         }
       ]
     },
