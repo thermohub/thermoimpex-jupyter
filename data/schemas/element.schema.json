@@ -470,6 +470,36 @@
           "required": "optional"
         }
       ]
+    },
+    {
+      "name": "Info",
+      "doc": "Short description of element (independent component)\n",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "symbol",
+          "typeId": "string",
+          "doc": "Element symbol max 6 characters, 1st uppercase, other lowercase letters\n",
+          "required": "req_out"
+        },
+        {
+          "key": 2,
+          "name": "isotope_mass",
+          "typeId": "i32",
+          "doc": "Isotope mass or 0 if natural mixture of isotopes\n",
+          "required": "req_out"
+        },
+        {
+          "key": 3,
+          "name": "class_",
+          "typeId": "i32",
+          "doc": "Class of element: enum validated with class ElementClass\n",
+          "class": "ElementClass",
+          "required": "req_out"
+        }
+      ]
     }
   ],
   "constants": [
