@@ -506,21 +506,6 @@
           "required": "required"
         },
         {
-          "key": 4,
-          "name": "elements",
-          "typeId": "list",
-          "type": {
-            "typeId": "list",
-            "elemTypeId": "struct",
-            "elemType": {
-              "typeId": "struct",
-              "class": "element.Info"
-            }
-          },
-          "doc": "Set of elements present in the substance\n",
-          "required": "req_out"
-        },
-        {
           "key": 5,
           "name": "name",
           "typeId": "string",
