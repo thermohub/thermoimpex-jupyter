@@ -475,13 +475,6 @@
           "doc": "Reaction component type: enum validated with class ReactionComponentType\n",
           "class": "ReactionComponentType",
           "required": "req_out"
-        },
-        {
-          "key": 3,
-          "name": "level",
-          "typeId": "i32",
-          "doc": "Level (color) of this reaction 0 | 1 | 2 | 3 | 4 | ...\n",
-          "required": "req_out"
         }
       ]
     },
