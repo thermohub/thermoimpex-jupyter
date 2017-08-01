@@ -57,7 +57,7 @@ _All set for saving the generated reactions_
 ![Saved Reactions Set](images/SavedGenReacSet.png =840x "Saved Reactions Set")  
 _A data entry in the database for a saved Reactions set_
 
-![Saved Reactions](images/SaveReactions.png =840x "Saved Reactions")  
+![Saved Reactions in the database](images/SavedGenReact.png =840x "Saved Reactions in the database")  
 _Entries in the database for saved generated reactions_
 
 ## Application Menu 
