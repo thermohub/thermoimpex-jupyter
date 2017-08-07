@@ -108,7 +108,8 @@
       "doc": "Substance vertex document\n",
       "isException": false,
       "isUnion": false,
-       "to_select": [ "3", "4.1", "4.2", "4.5", "4.3" ],
+      "to_select": [ "3", "4.1", "4.2", "4.5", "4.3" ],
+      "to_unique": [ "properties.symbol", "properties.sourcetdb" ],
       "fields": [
         {
           "key": 1,
@@ -152,6 +153,7 @@
       "isException": false,
       "isUnion": false,
       "to_select": [ "3", "4.1", "4.2", "4.4", "4.3", "4.11.3.0" ],
+      "to_unique": [ "properties.symbol", "properties.sourcetdb" ],
       "fields": [
         {
           "key": 1,
