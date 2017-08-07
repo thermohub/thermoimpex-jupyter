@@ -212,7 +212,12 @@
         {
           "name": "CTPM_WSV14",
           "value": 120,
-          "doc": "Water dielectric properites using Sverjensky et al. (2014) model\n"
+          "doc": "Water electro-chemical properties using Sverjensky et al. (2014) dielectric constant model\n"
+        },
+        {
+          "name": "CTPM_WF97",
+          "value": 121,
+          "doc": "Water electro-chemical properties using the Fernandez et al. (1997) dielectric constant model\n"
         }
       ]
     },
