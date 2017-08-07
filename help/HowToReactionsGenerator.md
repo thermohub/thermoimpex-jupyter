@@ -49,8 +49,6 @@ When saving the generated reactions, the symbol of the saved reactions is set th
 
 > When saving the reactions, if a reaction with the same symbol is already exists in the database the symbol of the saved reaction will be the symbol of the defined substance underscore _ and the level number. For example: CaCO3@_1. 
 
-> When saving the reactions, if a reaction dependent substance is already dependent on one or many reactions (already in the database). The level of the reaction to be saved is calculated as the maximum existing level for this substance plus 1. For example: the substance with the symbol CaCO3@ has already 3 reactions which is dependent on stored in the database with levels 0, 1, 2. The symbol for the new reaction will be CaCO3@_3 and the level will be 3.  
-
 ![Save Reactions](images/SaveReactions.png =840x "Save Reactions")  
 _All set for saving the generated reactions_
 
