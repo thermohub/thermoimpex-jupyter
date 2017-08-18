@@ -234,6 +234,21 @@
           "required": "optional"
         },
         {
+          "key": 9,
+          "name": "elements",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "struct",
+            "elemType": {
+              "typeId": "struct",
+              "class": "element.Info"
+            }
+          },
+          "doc": "List of element symbols covered by this reactionset - may be replaced by a graph\n",
+          "required": "req_out"
+        },
+        {
           "key": 10,
           "name": "TPlimits",
           "typeId": "map",
