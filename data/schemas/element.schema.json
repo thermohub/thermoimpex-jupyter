@@ -203,6 +203,31 @@
           "name": "MINES",
           "value": 19,
           "doc": "Mines16 TDB, Gysi, 2016\n"
+        },
+        {
+          "name": "AQ17",
+          "value": 20,
+          "doc": "Aq17 TDB, Miron et al., 2017\n"
+        },
+        {
+          "name": "WORK1",
+          "value": 1001,
+          "doc": "SourceTDB code for data under work\/development\n"
+        },
+        {
+          "name": "WORK2",
+          "value": 1002,
+          "doc": "SourceTDB code for data under work\/development\n"
+        },
+        {
+          "name": "WORK3",
+          "value": 1003,
+          "doc": "SourceTDB code for data under work\/development\n"
+        },
+        {
+          "name": "WORK4",
+          "value": 1004,
+          "doc": "SourceTDB code for data under work\/development\n"
         }
       ]
     }
