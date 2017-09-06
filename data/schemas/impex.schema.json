@@ -358,6 +358,14 @@
           "typeId": "i32",
           "doc": "total number of characters in file, 0 if unknown\n",
           "required": "optional"
+        },
+        {
+          "key": 10,
+          "name": "direction",
+          "typeId": "i32",
+          "doc": "direction\n",
+          "class": "DirectionType",
+          "required": "req_out"
         }
       ]
     },
@@ -506,6 +514,14 @@
           "typeId": "i32",
           "doc": "total number of text lines in the file, 0 if unknown\n",
           "required": "optional"
+        },
+        {
+          "key": 10,
+          "name": "direction",
+          "typeId": "i32",
+          "doc": "direction\n",
+          "class": "DirectionType",
+          "required": "req_out"
         }
       ]
     },
@@ -683,6 +699,14 @@
           "typeId": "i32",
           "doc": "total number of text lines in the file, 0 if unknown\n",
           "required": "optional"
+        },
+        {
+          "key": 10,
+          "name": "direction",
+          "typeId": "i32",
+          "doc": "direction\n",
+          "class": "DirectionType",
+          "required": "req_out"
         }
       ]
     },
@@ -745,6 +769,14 @@
           "typeId": "i32",
           "doc": "total number of text lines in the file, 0 if unknown\n",
           "required": "optional"
+        },
+        {
+          "key": 10,
+          "name": "direction",
+          "typeId": "i32",
+          "doc": "direction\n",
+          "class": "DirectionType",
+          "required": "req_out"
         }
       ]
     },
@@ -847,6 +879,7 @@
           "name": "direction",
           "typeId": "i32",
           "doc": "direction\n",
+          "class": "DirectionType",
           "required": "req_out"
         },
         {
