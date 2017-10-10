@@ -131,7 +131,7 @@
           "key": 3,
           "name": "script",
           "typeId": "string",
-          "doc": "Default \"\" or contains ECMA function script for operation on data values in block TBD\n",
+          "doc": "Default \"\" or contains lua script for operation on data values in block\n",
           "required": "optional"
         },
         {
@@ -234,7 +234,7 @@
             "keyTypeId": "string",
             "valueTypeId": "string"
           },
-          "doc": "Default Key, Value pairs to DOM\n",
+          "doc": "Default Key, Value pairs to DOM (import)  or to output (export)\n",
           "required": "req_out"
         },
         {
@@ -266,14 +266,14 @@
               "class": "DataObject"
             }
           },
-          "doc": ">=1 keywd, DataObject pairs connecting the block of data in file with DOM\n",
+          "doc": ">=1 keywd, DataObject pairs connecting the block of data in file with DOM.\n",
           "required": "required"
         },
         {
           "key": 4,
           "name": "script",
           "typeId": "string",
-          "doc": "Default \"\" or contains ECMA function script for operation on data values in block TBD\n",
+          "doc": "Default \"\" or contains lua script for operation on data values in full DOM\n",
           "required": "optional"
         }
       ]
@@ -371,7 +371,7 @@
     },
     {
       "name": "FormatKeyValue",
-      "doc": "Definition of key-value input format\n",
+      "doc": "Definition of key-value import\/export format\nWe use Regular Expression in case of import and Print Format in case of export.\nUse names \"head0\", ..., \"headN\", \"end0\", ..., \"endN\" to import\/export data from\/to head and end part\n",
       "isException": false,
       "isUnion": false,
       "fields": [
@@ -379,35 +379,35 @@
           "key": 1,
           "name": "head_regexp",
           "typeId": "string",
-          "doc": "Regular Expression for head of block\n",
+          "doc": "Head of Block:  \"\\\\s*([^\\\\s]+)\\\\s*;\\\\s*(([\\\\w\\\\t \\\\+\\\\-\\\\(\\\\):\\\\.]+)\\\\s*=\\\\s*([^;]+))\" (import)\nor  \"\\n%head0\\n\\t%head1\\n\" (export)\n",
           "required": "required"
         },
         {
           "key": 2,
           "name": "end_regexp",
           "typeId": "string",
-          "doc": "Regular Expression for end of block\n",
+          "doc": "End of Block: \"([^\\n]+)\" (import)  or  \"%end0\\n\" (export)\n",
           "required": "required"
         },
         {
           "key": 3,
           "name": "key_regexp",
           "typeId": "string",
-          "doc": "Regular Expression for keyword\n",
+          "doc": "Keyword:  \"\\\\s*;\\\\s*\\\\-{0,1}([a-zA-Z]\\\\w*)\\\\s*\" (import)  or  \"\\t-%key\\t\" (export)\n",
           "required": "required"
         },
         {
           "key": 4,
           "name": "value_regexp",
           "typeId": "string",
-          "doc": "Regular Expression for data value(s)\n",
+          "doc": "Data Value(s):  \"\\\\s*([^#\\\\n;]*)\" (import)  or  \"%value\" (export)\n",
           "required": "req_out"
         },
         {
           "key": 5,
           "name": "value_next",
           "typeId": "string",
-          "doc": "Key-Value pair end delimiter (used if empty value_regexp )\n",
+          "doc": "Key-Value pair end delimiter (used if empty value_regexp or export mode )\n",
           "required": "req_out",
           "default": "\n"
         },
@@ -415,8 +415,9 @@
           "key": 6,
           "name": "value_token_regexp",
           "typeId": "string",
-          "doc": "Regular Expression to iterate over matches  (used to convert value to string list)\n",
-          "required": "optional"
+          "doc": "Regular Expression to iterate over matches  (used to convert value to string list or if export mode )\n",
+          "required": "optional",
+          "default": " "
         },
         {
           "key": 7,
@@ -430,6 +431,24 @@
           "name": "Ndata",
           "typeId": "i32",
           "doc": "number of data items per block (0 if not set)\n",
+          "required": "optional"
+        },
+        {
+          "key": 9,
+          "name": "strvalue_exp",
+          "typeId": "string",
+          "doc": "Data String Value(s): only for export  \"\\'%value\\'\"\n",
+          "required": "req_out"
+        },
+        {
+          "key": 10,
+          "name": "key_order",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "string"
+          },
+          "doc": "Keyword order list:  only for export\n",
           "required": "optional"
         }
       ]
