@@ -283,12 +283,12 @@
           },
           "doc": "Lower and upper T, P limits for T,P corrections\n",
           "required": "req_out",
-          "default":  {
-              "lowerT": 273.15,
-              "upperT": 298.15,
-              "lowerP": 1,
-              "upperP": 1000000
-            }
+          "default": {
+            "lowerT": 273.15,
+            "upperT": 298.15,
+            "lowerP": 1,
+            "upperP": 1000000
+          }
         },
         {
           "key": 22,
