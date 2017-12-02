@@ -111,7 +111,7 @@
           "key": 2,
           "name": "stype",
           "typeId": "i32",
-          "doc": "Type of thermodataset - validate with class ThermoDataSetType\n",
+          "doc": "Type of thermodataset - validated with class ThermoDataSetType\n",
           "class": "ThermoDataSetType",
           "required": "required",
           "default": 2
@@ -169,7 +169,7 @@
             "typeId": "list",
             "elemTypeId": "i32"
           },
-          "doc": "Source TDB: list of enums validate with the class SourceTDB\n",
+          "doc": "Source TDB: list of enums validated with the class SourceTDB\n",
           "class": "SourceTDB",
           "required": "optional"
         },

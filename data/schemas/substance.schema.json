@@ -858,6 +858,66 @@
       ]
     },
     {
+      "name": "Info",
+      "doc": "Short description of substance (for using in ChemSysDef etc.)\n",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "symbol",
+          "typeId": "string",
+          "doc": "Unique name\/ID of this substance (e.g. abbreviated mineral name)\n",
+          "required": "req_out"
+        },
+        {
+          "key": 2,
+          "name": "formula",
+          "typeId": "string",
+          "doc": "Formula of substance in GEMS syntax, in elements, can include moiety symbols\n",
+          "required": "req_out"
+        },
+        {
+          "key": 3,
+          "name": "class_",
+          "typeId": "i32",
+          "doc": "Class of substance: enum validated with class SubstanceClass\n",
+          "class": "SubstanceClass",           
+          "required": "req_out"
+        },
+        {
+          "key": 4,
+          "name": "aggregate_state",
+          "typeId": "i32",
+          "doc": "(Standard) state of this substance: enum validated with class AggregateState\n",
+          "class": "AggregateState", 
+          "required": "req_out"
+        },
+        {
+          "key": 5,
+          "name": "standard_cscale",
+          "typeId": "i32",
+          "doc": "(Standard) concentration scale: enum validated with class ConcentrationScales\n",
+          "class": "ConcentrationScales", 
+          "required": "req_out"
+        },
+        {
+          "key": 6,
+          "name": "formula_charge",
+          "typeId": "double",
+          "doc": "Formula charge, default 0 (usually calculated from parsed formula)\n",
+          "required": "req_out"
+        },
+        {
+          "key": 7,
+          "name": "mass_per_mole",
+          "typeId": "double",
+          "doc": "Mass per 1 mole of this substance \"mM\" kg\/mol (calculated with fCharge)\n",
+          "required": "req_out"
+        }
+      ]
+    },
+    {
       "name": "ElementData",
       "doc": "Data structure for processing the elements\n",
       "isException": false,

@@ -265,7 +265,7 @@
           "key": 2,
           "name": "sourcekdb",
           "typeId": "i32",
-          "doc": "Source KDB: enum validate with class SourceTDB\n",
+          "doc": "Source KDB: enum validated with class SourceTDB\n",
           "class": "SourceTDB",
           "required": "required"
         },
@@ -288,7 +288,7 @@
           "key": 5,
           "name": "kinmod",
           "typeId": "i32",
-          "doc": "Code of kinetic rate model; validate with class KineticModel\n",
+          "doc": "Code of kinetic rate model; validated with class KineticModel\n",
           "class": "KineticModel",
           "required": "req_out",
           "default": 1
@@ -297,7 +297,7 @@
           "key": 6,
           "name": "kintype",
           "typeId": "i32",
-          "doc": "Code of kinetics type - validate with class KineticType\n",
+          "doc": "Code of kinetics type - validated with class KineticType\n",
           "class": "KineticType",
           "required": "req_out",
           "default": 1

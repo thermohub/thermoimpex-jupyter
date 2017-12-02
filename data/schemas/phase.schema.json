@@ -45,7 +45,7 @@
           "key": 2,
           "name": "sourcetdb",
           "typeId": "i32",
-          "doc": "Source TDB: enum validate with class SourceTDB\n",
+          "doc": "Source TDB: enum validated with class SourceTDB\n",
           "class": "SourceTDB",
           "required": "required"
         },
@@ -301,6 +301,143 @@
           },
           "doc": "Timestamp when the record was created or modified\n",
           "required": "optional"
+        }
+      ]
+    },
+    {
+      "name": "Info",
+      "doc": "Short description of phase (for using in ChemSysDef etc.)\n",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "symbol",
+          "typeId": "string",
+          "doc": "unique name\/ID of this phase (e.g. \"bentpw\")\n",
+          "required": "required"
+        },
+        {
+          "key": 2,
+          "name": "aggregate_state",
+          "typeId": "i32",
+          "doc": "Aggregate state of this phase: enum validated with class AggregateState\n",
+          "class": "AggregateState",          
+          "required": "req_out"
+        },
+        {
+          "key": 3,
+          "name": "mixmod",
+          "typeId": "i32",
+          "doc": "Model of mixing - validate using class MixModel in interaction\n",
+          "class": "MixModel",
+          "required": "req_out"
+        },
+        {
+          "key": 4,
+          "name": "kinratemod",
+          "typeId": "i32",
+          "doc": "Kinetic rate model - validate using class RateModel in kineticrate\n",
+          "class": "RateModel",
+          "required": "req_out"
+        },
+        {
+          "key": 5,
+          "name": "Ncomps",
+          "typeId": "i32",
+          "doc": "Number of phase components incl solvents\n",
+          "required": "req_out"
+        }
+      ]
+    },
+    {
+      "name": "SurfKin",
+      "doc": "Description of surface and kinetic properties of phase\n",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "symbol",
+          "typeId": "string",
+          "doc": "unique name\/ID of this phase (e.g. \"bentpw\")\n",
+          "required": "required"
+        },
+        {
+          "key": 2,
+          "name": "aggregate_state",
+          "typeId": "i32",
+          "doc": "Aggregate state of this phase: enum validated with class AggregateState\n",
+          "class": "AggregateState",           
+          "required": "req_out"
+        },
+        {
+          "key": 4,
+          "name": "kinratemod",
+          "typeId": "i32",
+          "doc": "Kinetic rate model - validate using class RateModel in kineticrate\n",
+          "class": "RateModel",           
+          "required": "req_out"
+        },
+        {
+          "key": 7,
+          "name": "SpecSurfaceArea",
+          "typeId": "double",
+          "doc": "Specific surface area of (carrier) phase\n",
+          "required": "req_out"
+        },
+        {
+          "key": 11,
+          "name": "SpecInterfaceEnergy",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "double"
+          },
+          "doc": "SigmaA surface energy of solid-aqueous interface and other interfaces\n",
+          "required": "req_out"
+        },
+        {
+          "key": 15,
+          "name": "SpecPoreVolume",
+          "typeId": "double",
+          "doc": "new: Specific pore volume of (carrier) phase, m3\/g (default: 0)\n",
+          "required": "req_out"
+        },
+        {
+          "key": 16,
+          "name": "SurfaceAreaFraction",
+          "typeId": "double",
+          "doc": "new: fraction of surface area of the sorbent (ref. in lPh) occupied by this surface tile (def. 1)\n",
+          "required": "req_out"
+        },
+        {
+          "key": 17,
+          "name": "PoreVolumeFraction",
+          "typeId": "double",
+          "doc": "new: fraction of phase pore volume occupied by this Donnan electrolyte (default 1)\n",
+          "required": "req_out"
+        },
+        {
+          "key": 18,
+          "name": "PermSurfChargeDensity",
+          "typeId": "double",
+          "doc": "new: permanent surface charge density (eq\/m2), default: 0\n",
+          "required": "req_out"
+        },
+        {
+          "key": 19,
+          "name": "PermVolumeChargeDensity",
+          "typeId": "double",
+          "doc": "new: permanent Donnan volume charge density (eq\/m3), default: 0\n",
+          "required": "req_out"
+        },
+        {
+          "key": 20,
+          "name": "IonExchangeCapacity",
+          "typeId": "double",
+          "doc": "new: ion exchange capacity (eg\/g), default: 0\n",
+          "required": "req_out"
         }
       ]
     },

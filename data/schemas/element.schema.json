@@ -182,7 +182,7 @@
         {
           "name": "PSI_NAGRA",
           "value": 15,
-          "doc": "PSI_Nagra TDB 12\/07, Thoenen et al., 2014\n"
+          "doc": "PSI-Nagra TDB 12\/07\n"
         },
         {
           "name": "OTHER",
@@ -526,7 +526,21 @@
           "name": "class_",
           "typeId": "i32",
           "doc": "Class of element: enum validated with class ElementClass\n",
-          "class": "ElementClass",
+          "class": "ElementClass",          
+          "required": "req_out"
+        },
+        {
+          "key": 4,
+          "name": "atomic_mass",
+          "typeId": "double",
+          "doc": "Mass (in kg) per mole of this element - to compute molar masses\n",
+          "required": "req_out"
+        },
+        {
+          "key": 5,
+          "name": "atomic_charge",
+          "typeId": "double",
+          "doc": "Default valence charge of this element - to compute formula charge\n",
           "required": "req_out"
         }
       ]

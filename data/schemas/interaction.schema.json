@@ -358,7 +358,7 @@
           "key": 2,
           "name": "sourcetdb",
           "typeId": "i32",
-          "doc": "Source TDB: enum validate with class SourceTDB\n",
+          "doc": "Source TDB: enum validated with class SourceTDB\n",
           "class": "SourceTDB",
           "required": "required"
         },
@@ -381,7 +381,7 @@
           "key": 5,
           "name": "mixmod",
           "typeId": "i32",
-          "doc": "Code of model of mixing - validate with class MixModel\n",
+          "doc": "Code of model of mixing - validated with class MixModel\n",
           "class": "MixModel",
           "required": "req_out",
           "default": 1
@@ -390,7 +390,7 @@
           "key": 6,
           "name": "intpart",
           "typeId": "i32",
-          "doc": "Code of interaction parameter type - validate with class InteractionType\n",
+          "doc": "Code of interaction parameter type - validated with class InteractionType\n",
           "class": "InteractionType",
           "required": "req_out",
           "default": 0

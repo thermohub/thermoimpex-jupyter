@@ -169,7 +169,7 @@
           "key": 2,
           "name": "stype",
           "typeId": "i32",
-          "doc": "Class of reactionset - validate with class ReactionSetType\n",
+          "doc": "Class of reactionset - validated with class ReactionSetType\n",
           "class": "ReactionSetType",
           "required": "required",
           "default": 0
@@ -222,7 +222,7 @@
             "keyTypeId": "string",
             "valueTypeId": "i32"
           },
-          "doc": "Map of reaction levels and symbols covered by reactionset - may be replaced by a graph\n",
+          "doc": "Map of reaction levels and symbols\n",
           "required": "optional"
         },
         {
