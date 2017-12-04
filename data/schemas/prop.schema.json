@@ -59,7 +59,7 @@
         },
         {
           "name": "OTHER",
-          "value": 4,
+          "value": 101,
           "doc": "Other error distribution\n"
         }
       ]
@@ -137,6 +137,11 @@
           "name": "U_SPECIFICSURFACEAREA_VOLUME",
           "value": 13,
           "doc": "specific surface area per unit volume in m2 per dm3 - needs total volume Volume\n"
+        },
+        {
+          "name": "U_OTHER",
+          "value": 101,
+          "doc": "Other type of measurement unit\n"
         }
       ]
     },
@@ -145,48 +150,53 @@
       "doc": "Concentration scales for substances (dependent components)\n",
       "members": [
         {
-          "name": "C_MOLFRACTION",
+          "name": "C_UNITY",
           "value": 0,
+          "doc": "Unity mole fraction concentration in pure phase\n"
+        },
+        {
+          "name": "C_MOLFRACTION",
+          "value": 1,
           "doc": "Mole fraction concentration\n"
         },
         {
           "name": "C_PARTIALPRESSURE",
-          "value": 1,
+          "value": 2,
           "doc": "Partial pressure\n"
         },
         {
           "name": "C_MOLALITY",
-          "value": 2,
+          "value": 3,
           "doc": "Molality - moles per 1 kg of (water) solvent\n"
         },
         {
           "name": "C_MOLARITY",
-          "value": 3,
+          "value": 4,
           "doc": "Molarity - moles per 1 dm3 of aqueous electrolyte\n"
         },
         {
           "name": "C_MASSFRACTION",
-          "value": 4,
+          "value": 5,
           "doc": "Mass fraction\n"
         },
         {
           "name": "C_SURFACEFRACTION",
-          "value": 5,
+          "value": 6,
           "doc": "Surface (mole) fraction concentration\n"
         },
         {
           "name": "C_SURFACEDENSITY",
-          "value": 6,
+          "value": 7,
           "doc": "Surface density in moles per m2\n"
         },
         {
           "name": "C_SITEFRACTION",
-          "value": 7,
-          "doc": "Site fraction concentration\n"
+          "value": 8,
+          "doc": "Moiety site fraction concentration\n"
         },
         {
           "name": "C_OTHER",
-          "value": 8,
+          "value": 101,
           "doc": "Other concentration scales\n"
         }
       ]
@@ -226,8 +236,13 @@
           "doc": "Site moiety in a sublattice (solid) solution\n"
         },
         {
-          "name": "OTHER_SC",
+          "name": "PURE",
           "value": 6,
+          "doc": "Component of pure condenced phase phase (pure substance)\n"
+        },
+        {
+          "name": "OTHER_SC",
+          "value": 101,
           "doc": "Other type of component\n"
         }
       ]
@@ -267,8 +282,13 @@
           "doc": "Surface layer\n"
         },
         {
-          "name": "OTHER_AS",
+          "name": "IONEX",
           "value": 6,
+          "doc": "Ion exchange (Donnan etc.)\n"
+        },
+        {
+          "name": "OTHER_AS",
+          "value": 7,
           "doc": "Other states\n"
         }
       ]

@@ -1,137 +1,79 @@
 {
-  "name": "reactionset",
-  "doc": "Apache Thrift IDL definition for the reactionset service interface\n",
+  "name": "thermodataset",
+  "doc": "Apache Thrift IDL definition for the thermodatabase service interface\n",
   "namespaces": {
-    "*": "reactionset"
+    "*": "thermodataset"
   },
   "includes": [
 "prop",
 "element",
 "substance",
-"reaction"
+"reaction",
+"reactionset"
   ],
   "enums": [
     {
-      "name": "ReactionSetType",
-      "doc": "Classes (types) of reaction sets\n",
+      "name": "ThermoDataSetType",
+      "doc": "classes (types) of thermodynamic datasets\n",
       "members": [
         {
-          "name": "LMA",
+          "name": "REF_TDS",
           "value": 0,
-          "doc": "Reactionset for LMA-type database\n"
+          "doc": "Reference thermodynamic dataset (e.g. CODATA, mainly for .csv export)\n"
         },
         {
-          "name": "ISOC",
+          "name": "LMA_TDS",
           "value": 1,
-          "doc": "Isocoulombic\/isoelectric\/ionexchange reactions\n"
+          "doc": "LMA-type thermodynamic dataset\n"
         },
         {
-          "name": "FORMFEL",
+          "name": "GEM_TDS",
           "value": 2,
-          "doc": "Formation reactions of substances from reactionsets in standard states\n"
+          "doc": "GEM-type thermodynamic dataset\n"
         },
         {
-          "name": "OTHER_RS",
-          "value": 3,
-          "doc": "Other type of reaction set\n"
-        },
-        {
-          "name": "MODEL",
-          "value": 4,
-          "doc": "Model reactions used for generating isocoulombic reactions\n"
-        }
-      ]
-    },
-    {
-      "name": "ReactionCombinedType",
-      "doc": "Classes (types) of combined reactions\n",
-      "members": [
-        {
-          "name": "INVESTIGATED",
-          "value": 0,
-          "doc": "Reaction which is combined with model reactions to generate isocoulombic reactions\n"
-        },
-        {
-          "name": "MODEL",
-          "value": 1,
-          "doc": "Model reaction which is combined with investigated reactions to generate isocoulombic reactions\n"
-        }
-      ]
-    },
-    {
-      "name": "SpeciesTypeRS",
-      "doc": "Data structures for linking and processing reactions in reactionset and database\n",
-      "members": [
-        {
-          "name": "SPECIES_ELEMENT",
-          "value": 0,
-          "doc": "Species-element\n"
-        },
-        {
-          "name": "MASTER_PRIMARY",
-          "value": 1,
-          "doc": "Master-primary\n"
-        },
-        {
-          "name": "MASTER_SECONDARY",
-          "value": 2,
-          "doc": "Master-secondary\n"
-        },
-        {
-          "name": "MASTER_ALKALINITY",
-          "value": 3,
-          "doc": "Master-alkalinity\n"
-        },
-        {
-          "name": "PRODUCT_CORE",
-          "value": 4,
-          "doc": "Product-core\n"
-        },
-        {
-          "name": "PRODUCT_RECOMMENDED",
-          "value": 5,
-          "doc": "Product-recommended\n"
-        },
-        {
-          "name": "PRODUCT_SUPPLEMENTARY",
-          "value": 6,
-          "doc": "Product-supplementary\n"
-        },
-        {
-          "name": "PRODUCT_OTHER",
-          "value": 7,
-          "doc": "Product-other\n"
+          "name": "OTHER_TDS",
+          "value": 101,
+          "doc": "therodynamic dataset of other type\n"
         }
       ]
     }
   ],
   "typedefs": [
     {
-      "name": "ReactionSets",
+      "name": "ThermoDataSets",
       "typeId": "list",
       "type": {
         "typeId": "list",
         "elemTypeId": "struct",
         "elemType": {
           "typeId": "struct",
-          "class": "ReactionSet"
+          "class": "ThermoDataSet"
         }
       }
     },
     {
-      "name": "masterdata",
+      "name": "elementdata",
       "typeId": "struct",
       "type": {
         "typeId": "struct",
-        "class": "reaction.ReactionComponentData"
+        "class": "substance.ElementData"
       }
     },
     {
-      "name": "productdata",
+      "name": "substancedata",
       "typeId": "struct",
       "type": {
         "typeId": "struct",
-        "class": "reaction.ReactionComponentData"
+        "class": "substance.SubstanceData"
+      }
+    },
+    {
+      "name": "substanceprops",
+      "typeId": "struct",
+      "type": {
+        "typeId": "struct",
+        "class": "substance.ThermoPropertiesSubstance"
       }
     },
     {
@@ -143,18 +85,18 @@
       }
     },
     {
-      "name": "elementdata",
+      "name": "reacsetdata",
       "typeId": "struct",
       "type": {
         "typeId": "struct",
-        "class": "substance.ElementData"
+        "class": "reactionset.ReactionSetData"
       }
     }
   ],
   "structs": [
     {
-      "name": "ReactionSet",
-      "doc": "description of reaction set data\n",
+      "name": "ThermoDataSet",
+      "doc": "Description of thermodynamic dataset for use in modelling\n",
       "isException": false,
       "isUnion": false,
       "fields": [
@@ -162,17 +104,17 @@
           "key": 1,
           "name": "symbol",
           "typeId": "string",
-          "doc": "Unique name\/ID of this reaction set\n",
+          "doc": "Unique name\/ID of this thermodynamic dataset\n",
           "required": "required"
         },
         {
           "key": 2,
           "name": "stype",
           "typeId": "i32",
-          "doc": "Class of reactionset - validated with class ReactionSetType\n",
-          "class": "ReactionSetType",
+          "doc": "Type of thermodataset - validated with class ThermoDataSetType\n",
+          "class": "ThermoDataSetType",
           "required": "required",
-          "default": 0
+          "default": 2
         },
         {
           "key": 3,
@@ -186,7 +128,7 @@
           "key": 4,
           "name": "name",
           "typeId": "string",
-          "doc": "Name of the reaction set (not compulsory)\n",
+          "doc": "Extended name of the thermodataset (not compulsory)\n",
           "required": "req_out"
         },
         {
@@ -203,7 +145,6 @@
         {
           "key": 6,
           "name": "species_map",
-          "class": "SpeciesTypeRS",
           "typeId": "map",
           "type": {
             "typeId": "map",
@@ -215,21 +156,20 @@
         },
         {
           "key": 7,
-          "name": "reaction_map",
-          "typeId": "map",
-          "type": {
-            "typeId": "map",
-            "keyTypeId": "string",
-            "valueTypeId": "i32"
-          },
-          "doc": "Map of reaction levels and symbols\n",
+          "name": "reactionset_symbol",
+          "typeId": "string",
+          "doc": "Symbol of reactionset used by this thermodataset if of LMA_TDS type\n",
           "required": "optional"
         },
         {
           "key": 8,
-          "name": "sourcetdb",
-          "typeId": "i32",
-          "doc": "Source TDB: enum validated with class SourceTDB\n",
+          "name": "sourcetdbs",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "i32"
+          },
+          "doc": "Source TDB: list of enums validated with the class SourceTDB\n",
           "class": "SourceTDB",
           "required": "optional"
         },
@@ -298,8 +238,8 @@
       ]
     },
     {
-      "name": "ReactionSetData",
-      "doc": "work structure keeping the data for reactionset object\n",
+      "name": "ThermoDataSetData",
+      "doc": "work structure keeping the data for thermodataset object\n",
       "isException": false,
       "isUnion": false,
       "fields": [
@@ -319,7 +259,7 @@
             "elemTypeId": "struct",
             "elemType": {
               "typeId": "struct",
-              "class": "reaction.ReactionComponentData"
+              "class": "substance.SubstanceData"
             }
           },
           "doc": "array of data for master species\n",
@@ -330,7 +270,7 @@
           "name": "Nprods",
           "typeId": "i32",
           "doc": "number of product species taking part in this reactionset\n",
-          "required": "req_out"
+          "required": "optional"
         },
         {
           "key": 4,
@@ -341,7 +281,7 @@
             "elemTypeId": "struct",
             "elemType": {
               "typeId": "struct",
-              "class": "reaction.ReactionComponentData"
+              "class": "substance.SubstanceData"
             }
           },
           "doc": "array of data for product species\n",
@@ -349,14 +289,14 @@
         },
         {
           "key": 5,
-          "name": "Npreas",
+          "name": "Npreacs",
           "typeId": "i32",
           "doc": "number of product species formation reactions in this reactionset\n",
           "required": "req_out"
         },
         {
           "key": 6,
-          "name": "preas",
+          "name": "preacs",
           "typeId": "list",
           "type": {
             "typeId": "list",
@@ -373,7 +313,7 @@
           "key": 7,
           "name": "Nelems",
           "typeId": "i32",
-          "doc": "number of elements used in this reactionset\n",
+          "doc": "number of elements used in this thermodataset\n",
           "required": "req_out"
         },
         {
@@ -392,10 +332,32 @@
           "required": "req_out"
         },
         {
+          "key": 9,
+          "name": "Nreacsets",
+          "typeId": "i32",
+          "doc": "number of reactionsets used in this thermodataset\n",
+          "required": "req_out"
+        },
+        {
+          "key": 10,
+          "name": "preacsets",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "struct",
+            "elemType": {
+              "typeId": "struct",
+              "class": "reactionset.ReactionSetData"
+            }
+          },
+          "doc": "array of data for reactionsets\n",
+          "required": "req_out"
+        },
+        {
           "key": 11,
           "name": "processed",
           "typeId": "bool",
-          "doc": "indicator of processing the reactionset\n",
+          "doc": "indicator of processing the thermodataset\n",
           "required": "req_out",
           "default": 0
         }

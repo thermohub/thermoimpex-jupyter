@@ -1,6 +1,6 @@
 {
-  "name": "graphdb",
-  "doc": "Apache Thrift IDL definition for GraphSON and TitanDB graph database interface\n",
+  "name": "aragraphdb",
+  "doc": "Apache Thrift IDL definition for AQL and ArangoDB graph database interface\n",
   "namespaces": {
     "*": "graph"
   },
@@ -36,27 +36,41 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "Database ID (0 if not known)\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
-          "name": "_type",
+          "name": "_key",
           "typeId": "string",
-          "doc": "This field must contain \"vertex\"\n",
-          "required": "required",
-          "default": "vertex"
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
         },
         {
           "key": 3,
-          "name": "_label",
+          "name": "_rev",
           "typeId": "string",
-          "doc": "This label should be the same for all datasources\n",
-          "required": "required",
-          "default": "datasource"
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
+          "required": "required"
         },
         {
           "key": 4,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "This field must contain \"vertex\" in MongoDB (may be absent in ArangoDB)\n",
+          "required": "req_out",
+          "default": "vertex"
+        },
+        {
+          "key": 5,
+          "name": "_label",
+          "typeId": "string",
+          "doc": "This label is \"datasource\" for all datasources: goes to the name of collection in ArangoDB\n",
+          "required": "req_out",
+          "default": "datasource"
+        },
+        {
+          "key": 6,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -79,27 +93,41 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "Database ID (0 if not known)\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
-          "name": "_type",
+          "name": "_key",
           "typeId": "string",
-          "doc": "This field must contain \"vertex\"\n",
-          "required": "required",
-          "default": "vertex"
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
         },
         {
           "key": 3,
-          "name": "_label",
+          "name": "_rev",
           "typeId": "string",
-          "doc": "This label should be the same for all elements\n",
-          "required": "required",
-          "default": "element"
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
+          "required": "required"
         },
         {
           "key": 4,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "This field must contain \"vertex\" in MongoDB (may be absent in ArangoDB)\n",
+          "required": "req_out",
+          "default": "vertex"
+        },
+        {
+          "key": 5,
+          "name": "_label",
+          "typeId": "string",
+          "doc": "This label is \"element\" for all elements: goes into the name of collection in ArangoDB\n",
+          "required": "req_out",
+          "default": "element"
+        },
+        {
+          "key": 6,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -117,16 +145,31 @@
       "isException": false,
       "isUnion": false,
       "to_select": [ "3", "4.1", "4.2", "4.5", "4.3" ],
+      "to_unique": [ "properties.symbol", "properties.sourcetdb" ],
       "fields": [
         {
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "Database ID (0 if not known)\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
+          "name": "_key",
+          "typeId": "string",
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
+        },
+        {
+          "key": 3,
+          "name": "_rev",
+          "typeId": "string",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
+          "required": "required"
+        },
+        {
+          "key": 4,
           "name": "_type",
           "typeId": "string",
           "doc": "This field must contain \"vertex\"\n",
@@ -134,7 +177,7 @@
           "default": "vertex"
         },
         {
-          "key": 3,
+          "key": 5,
           "name": "_label",
           "typeId": "string",
           "doc": "This label should be the same for all substances\n",
@@ -142,7 +185,7 @@
           "default": "substance"
         },
         {
-          "key": 4,
+          "key": 6,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -160,16 +203,31 @@
       "isException": false,
       "isUnion": false,
       "to_select": [ "3", "4.1", "4.2", "4.4", "4.3", "4.11.3.0" ],
+      "to_unique": [ "properties.symbol", "properties.sourcetdb" ],
       "fields": [
         {
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "Database ID (0 if not known)\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
+          "name": "_key",
+          "typeId": "string",
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
+        },
+        {
+          "key": 3,
+          "name": "_rev",
+          "typeId": "string",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
+          "required": "required"
+        },
+        {
+          "key": 4,
           "name": "_type",
           "typeId": "string",
           "doc": "This field must contain \"vertex\"\n",
@@ -177,7 +235,7 @@
           "default": "vertex"
         },
         {
-          "key": 3,
+          "key": 5,
           "name": "_label",
           "typeId": "string",
           "doc": "This label should be the same for all reactions\n",
@@ -185,7 +243,7 @@
           "default": "reaction"
         },
         {
-          "key": 4,
+          "key": 6,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -208,11 +266,25 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "Database ID (0 if not known)\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
+          "name": "_key",
+          "typeId": "string",
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
+        },
+        {
+          "key": 3,
+          "name": "_rev",
+          "typeId": "string",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
+          "required": "required"
+        },
+        {
+          "key": 4,
           "name": "_type",
           "typeId": "string",
           "doc": "This field must contain \"vertex\"\n",
@@ -220,7 +292,7 @@
           "default": "vertex"
         },
         {
-          "key": 3,
+          "key": 5,
           "name": "_label",
           "typeId": "string",
           "doc": "This label should be the same for all reactionsets\n",
@@ -228,7 +300,7 @@
           "default": "reactionset"
         },
         {
-          "key": 4,
+          "key": 6,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -250,11 +322,25 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "Database ID (0 if not known)\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
+          "name": "_key",
+          "typeId": "string",
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
+        },
+        {
+          "key": 3,
+          "name": "_rev",
+          "typeId": "string",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
+          "required": "required"
+        },
+        {
+          "key": 4,
           "name": "_type",
           "typeId": "string",
           "doc": "This field must contain \"vertex\"\n",
@@ -262,7 +348,7 @@
           "default": "vertex"
         },
         {
-          "key": 3,
+          "key": 5,
           "name": "_label",
           "typeId": "string",
           "doc": "This label should be the same for all reactionsets\n",
@@ -270,7 +356,7 @@
           "default": "thermodataset"
         },
         {
-          "key": 4,
+          "key": 6,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -292,11 +378,25 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "Database ID (0 if not known)\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
+          "name": "_key",
+          "typeId": "string",
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
+        },
+        {
+          "key": 3,
+          "name": "_rev",
+          "typeId": "string",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
+          "required": "required"
+        },
+        {
+          "key": 4,
           "name": "_type",
           "typeId": "string",
           "doc": "This field must contain \"vertex\"\n",
@@ -304,7 +404,7 @@
           "default": "vertex"
         },
         {
-          "key": 3,
+          "key": 5,
           "name": "_label",
           "typeId": "string",
           "doc": "This label should be the same for all interactions\n",
@@ -312,7 +412,7 @@
           "default": "interaction"
         },
         {
-          "key": 4,
+          "key": 6,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -334,11 +434,25 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "Database ID (0 if not known)\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
+          "name": "_key",
+          "typeId": "string",
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
+        },
+        {
+          "key": 3,
+          "name": "_rev",
+          "typeId": "string",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
+          "required": "required"
+        },
+        {
+          "key": 4,
           "name": "_type",
           "typeId": "string",
           "doc": "This field must contain \"vertex\"\n",
@@ -346,7 +460,7 @@
           "default": "vertex"
         },
         {
-          "key": 3,
+          "key": 5,
           "name": "_label",
           "typeId": "string",
           "doc": "This label should be the same for all kinetic rates\n",
@@ -354,7 +468,7 @@
           "default": "kineticrate"
         },
         {
-          "key": 4,
+          "key": 6,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -376,11 +490,25 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "Database ID (0 if not known)\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
+          "name": "_key",
+          "typeId": "string",
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
+        },
+        {
+          "key": 3,
+          "name": "_rev",
+          "typeId": "string",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
+          "required": "required"
+        },
+        {
+          "key": 4,
           "name": "_type",
           "typeId": "string",
           "doc": "This field must contain \"vertex\"\n",
@@ -388,7 +516,7 @@
           "default": "vertex"
         },
         {
-          "key": 3,
+          "key": 5,
           "name": "_label",
           "typeId": "string",
           "doc": "This label should be the same for all phases\n",
@@ -396,7 +524,7 @@
           "default": "phase"
         },
         {
-          "key": 4,
+          "key": 6,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -418,11 +546,25 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "Database ID (0 if not known)\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
+          "name": "_key",
+          "typeId": "string",
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
+        },
+        {
+          "key": 3,
+          "name": "_rev",
+          "typeId": "string",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
+          "required": "required"
+        },
+        {
+          "key": 4,
           "name": "_type",
           "typeId": "string",
           "doc": "This field must contain \"vertex\"\n",
@@ -430,7 +572,7 @@
           "default": "vertex"
         },
         {
-          "key": 3,
+          "key": 5,
           "name": "_label",
           "typeId": "string",
           "doc": "This label should be the same for all composition entities\n",
@@ -438,7 +580,7 @@
           "default": "composition"
         },
         {
-          "key": 4,
+          "key": 6,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -460,11 +602,25 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "Database ID (0 if not known)\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
+          "name": "_key",
+          "typeId": "string",
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
+        },
+        {
+          "key": 3,
+          "name": "_rev",
+          "typeId": "string",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
+          "required": "required"
+        },
+        {
+          "key": 4,
           "name": "_type",
           "typeId": "string",
           "doc": "This field must contain \"vertex\"\n",
@@ -472,7 +628,7 @@
           "default": "vertex"
         },
         {
-          "key": 3,
+          "key": 5,
           "name": "_label",
           "typeId": "string",
           "doc": "This label should be the same for all chemical system definitions\n",
@@ -480,7 +636,7 @@
           "default": "chemeqsysdef"
         },
         {
-          "key": 4,
+          "key": 6,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -502,11 +658,25 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "Database ID (0 if not known)\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
+          "name": "_key",
+          "typeId": "string",
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
+        },
+        {
+          "key": 3,
+          "name": "_rev",
+          "typeId": "string",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
+          "required": "required"
+        },
+        {
+          "key": 4,
           "name": "_type",
           "typeId": "string",
           "doc": "This field must contain \"vertex\"\n",
@@ -514,7 +684,7 @@
           "default": "vertex"
         },
         {
-          "key": 3,
+          "key": 5,
           "name": "_label",
           "typeId": "string",
           "doc": "This label should be the same for all chemical system recipes\n",
@@ -522,7 +692,7 @@
           "default": "chemeqsysrecipe"
         },
         {
-          "key": 4,
+          "key": 6,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -544,11 +714,25 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "Database ID (0 if not known)\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
+          "name": "_key",
+          "typeId": "string",
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
+        },
+        {
+          "key": 3,
+          "name": "_rev",
+          "typeId": "string",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
+          "required": "required"
+        },
+        {
+          "key": 4,
           "name": "_type",
           "typeId": "string",
           "doc": "This field must contain \"vertex\"\n",
@@ -556,7 +740,7 @@
           "default": "vertex"
         },
         {
-          "key": 3,
+          "key": 5,
           "name": "_label",
           "typeId": "string",
           "doc": "This label should be the same for all chemical system recipes\n",
@@ -564,7 +748,7 @@
           "default": "chemeqspeciation"
         },
         {
-          "key": 4,
+          "key": 6,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -596,39 +780,52 @@
       "doc": "Edge of type \"citing\" definition\n",
       "isException": false,
       "isUnion": false,
-      "to_select": [ "2", "5", "6.1", "3", "4" ],
       "fields": [
         {
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "id of this edge record or 0 if unknown\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
-          "name": "_type",
+          "name": "_key",
           "typeId": "string",
-          "doc": "this must be always \"edge\"\n",
-          "required": "required",
-          "default": "edge"
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
         },
         {
           "key": 3,
-          "name": "_outV",
+          "name": "_rev",
           "typeId": "string",
-          "doc": "id of outgoing vertex of any type\n",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 4,
-          "name": "_inV",
+          "name": "_from",
           "typeId": "string",
-          "doc": "id of incoming datasource vertex\n",
+          "doc": "full id of outgoing vertex of any type (formerly outV)\n",
           "required": "required"
         },
         {
           "key": 5,
+          "name": "_to",
+          "typeId": "string",
+          "doc": "full id of incoming datasource vertex (formerly inV)\n",
+          "required": "required"
+        },
+        {
+          "key": 6,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "this must be always \"edge\" (the name of ArangoDB collection is \"edges\")\n",
+          "required": "required",
+          "default": "edge"
+        },
+        {
+          "key": 7,
           "name": "_label",
           "typeId": "string",
           "doc": "This label must be \"citing\"\n",
@@ -636,7 +833,7 @@
           "default": "citing"
         },
         {
-          "key": 6,
+          "key": 8,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -681,33 +878,47 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "id of this edge record or 0 if unknown\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
-          "name": "_type",
+          "name": "_key",
           "typeId": "string",
-          "doc": "this must be always \"edge\"\n",
-          "required": "required",
-          "default": "edge"
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
         },
         {
           "key": 3,
-          "name": "_outV",
+          "name": "_rev",
           "typeId": "string",
-          "doc": "id of outgoing vertex from which the property is inherited\n",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 4,
-          "name": "_inV",
+          "name": "_from",
           "typeId": "string",
-          "doc": "id of incoming vertex which inherits the property\n",
+          "doc": "full id of outgoing vertex of any type (formerly outV)\n",
           "required": "required"
         },
         {
           "key": 5,
+          "name": "_to",
+          "typeId": "string",
+          "doc": "full id of incoming datasource vertex (formerly inV)\n",
+          "required": "required"
+        },
+        {
+          "key": 6,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "this must be always \"edge\" (type of ArangoDB collection is \"edges\")\n",
+          "required": "required",
+          "default": "edge"
+        },
+        {
+          "key": 7,
           "name": "_label",
           "typeId": "string",
           "doc": "This label must be \"inherits\"\n",
@@ -715,7 +926,7 @@
           "default": "inherits"
         },
         {
-          "key": 6,
+          "key": 8,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -753,33 +964,47 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "id of this edge record or 0 if unknown\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
-          "name": "_type",
+          "name": "_key",
           "typeId": "string",
-          "doc": "this must be always \"edge\"\n",
-          "required": "required",
-          "default": "edge"
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
         },
         {
           "key": 3,
-          "name": "_outV",
+          "name": "_rev",
           "typeId": "string",
-          "doc": "id of outgoing element vertex\n",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 4,
-          "name": "_inV",
+          "name": "_from",
           "typeId": "string",
-          "doc": "id of incoming substance vertex\n",
+          "doc": "full id of outgoing vertex of any type (formerly outV)\n",
           "required": "required"
         },
         {
           "key": 5,
+          "name": "_to",
+          "typeId": "string",
+          "doc": "full id of incoming datasource vertex (formerly inV)\n",
+          "required": "required"
+        },
+        {
+          "key": 6,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "this must be always \"edge\" (type of ArangoDB collection is \"edges\")\n",
+          "required": "required",
+          "default": "edge"
+        },
+        {
+          "key": 7,
           "name": "_label",
           "typeId": "string",
           "doc": "This label must be \"sstate\"\n",
@@ -787,7 +1012,7 @@
           "default": "sstate"
         },
         {
-          "key": 6,
+          "key": 8,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -833,33 +1058,47 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "id of this edge record or 0 if unknown\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
-          "name": "_type",
+          "name": "_key",
           "typeId": "string",
-          "doc": "this must be always \"edge\"\n",
-          "required": "required",
-          "default": "edge"
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
         },
         {
           "key": 3,
-          "name": "_outV",
+          "name": "_rev",
           "typeId": "string",
-          "doc": "id of outgoing reaction vertex\n",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 4,
-          "name": "_inV",
+          "name": "_from",
           "typeId": "string",
-          "doc": "id of incoming substance vertex\n",
+          "doc": "full id of outgoing vertex of any type (formerly outV)\n",
           "required": "required"
         },
         {
           "key": 5,
+          "name": "_to",
+          "typeId": "string",
+          "doc": "full id of incoming datasource vertex (formerly inV)\n",
+          "required": "required"
+        },
+        {
+          "key": 6,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "this must be always \"edge\" (type of ArangoDB collection is \"edges\")\n",
+          "required": "required",
+          "default": "edge"
+        },
+        {
+          "key": 7,
           "name": "_label",
           "typeId": "string",
           "doc": "This label must be \"takes\"\n",
@@ -867,7 +1106,7 @@
           "default": "takes"
         },
         {
-          "key": 6,
+          "key": 8,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -919,33 +1158,47 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "id of this edge record or 0 if unknown\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
-          "name": "_type",
+          "name": "_key",
           "typeId": "string",
-          "doc": "this must be always \"edge\"\n",
-          "required": "required",
-          "default": "edge"
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
         },
         {
           "key": 3,
-          "name": "_outV",
+          "name": "_rev",
           "typeId": "string",
-          "doc": "id of outgoing reaction vertex\n",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 4,
-          "name": "_inV",
+          "name": "_from",
           "typeId": "string",
-          "doc": "id of incoming species vertex\n",
+          "doc": "full id of outgoing vertex of any type (formerly outV)\n",
           "required": "required"
         },
         {
           "key": 5,
+          "name": "_to",
+          "typeId": "string",
+          "doc": "full id of incoming datasource vertex (formerly inV)\n",
+          "required": "required"
+        },
+        {
+          "key": 6,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "this must be always \"edge\" (type of ArangoDB collection is \"edges\")\n",
+          "required": "required",
+          "default": "edge"
+        },
+        {
+          "key": 7,
           "name": "_label",
           "typeId": "string",
           "doc": "This label must be \"defines\"\n",
@@ -953,7 +1206,7 @@
           "default": "defines"
         },
         {
-          "key": 6,
+          "key": 8,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -992,33 +1245,47 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "id of this edge record or 0 if unknown\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
-          "name": "_type",
+          "name": "_key",
           "typeId": "string",
-          "doc": "this must be always \"edge\"\n",
-          "required": "required",
-          "default": "edge"
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
         },
         {
           "key": 3,
-          "name": "_outV",
+          "name": "_rev",
           "typeId": "string",
-          "doc": "id of outgoing reactionset vertex\n",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 4,
-          "name": "_inV",
+          "name": "_from",
           "typeId": "string",
-          "doc": "id of incoming species vertex\n",
+          "doc": "full id of outgoing vertex of any type (formerly outV)\n",
           "required": "required"
         },
         {
           "key": 5,
+          "name": "_to",
+          "typeId": "string",
+          "doc": "full id of incoming datasource vertex (formerly inV)\n",
+          "required": "required"
+        },
+        {
+          "key": 6,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "this must be always \"edge\" (type of ArangoDB collection is \"edges\")\n",
+          "required": "required",
+          "default": "edge"
+        },
+        {
+          "key": 7,
           "name": "_label",
           "typeId": "string",
           "doc": "This label must be \"master\"\n",
@@ -1026,7 +1293,7 @@
           "default": "master"
         },
         {
-          "key": 6,
+          "key": 8,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -1065,33 +1332,47 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "id of this edge record or 0 if unknown\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
-          "name": "_type",
+          "name": "_key",
           "typeId": "string",
-          "doc": "this must be always \"edge\"\n",
-          "required": "required",
-          "default": "edge"
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
         },
         {
           "key": 3,
-          "name": "_outV",
+          "name": "_rev",
           "typeId": "string",
-          "doc": "id of outgoing reactionset vertex\n",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 4,
-          "name": "_inV",
+          "name": "_from",
           "typeId": "string",
-          "doc": "id of incoming species vertex\n",
+          "doc": "full id of outgoing vertex of any type (formerly outV)\n",
           "required": "required"
         },
         {
           "key": 5,
+          "name": "_to",
+          "typeId": "string",
+          "doc": "full id of incoming datasource vertex (formerly inV)\n",
+          "required": "required"
+        },
+        {
+          "key": 6,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "this must be always \"edge\" (type of ArangoDB collection is \"edges\")\n",
+          "required": "required",
+          "default": "edge"
+        },
+        {
+          "key": 7,
           "name": "_label",
           "typeId": "string",
           "doc": "This label must be \"product\"\n",
@@ -1099,7 +1380,7 @@
           "default": "product"
         },
         {
-          "key": 6,
+          "key": 8,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -1144,33 +1425,47 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "id of this edge record or 0 if unknown\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
-          "name": "_type",
+          "name": "_key",
           "typeId": "string",
-          "doc": "this must be always \"edge\"\n",
-          "required": "required",
-          "default": "edge"
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
         },
         {
           "key": 3,
-          "name": "_outV",
+          "name": "_rev",
           "typeId": "string",
-          "doc": "id of outgoing reactionset vertex\n",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 4,
-          "name": "_inV",
+          "name": "_from",
           "typeId": "string",
-          "doc": "id of incoming reaction vertex\n",
+          "doc": "full id of outgoing vertex of any type (formerly outV)\n",
           "required": "required"
         },
         {
           "key": 5,
+          "name": "_to",
+          "typeId": "string",
+          "doc": "full id of incoming datasource vertex (formerly inV)\n",
+          "required": "required"
+        },
+        {
+          "key": 6,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "this must be always \"edge\" (type of ArangoDB collection is \"edges\")\n",
+          "required": "required",
+          "default": "edge"
+        },
+        {
+          "key": 7,
           "name": "_label",
           "typeId": "string",
           "doc": "This label must be \"prodreac\"\n",
@@ -1178,7 +1473,7 @@
           "default": "prodreac"
         },
         {
-          "key": 6,
+          "key": 8,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -1229,33 +1524,47 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "id of this edge record or 0 if unknown\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
-          "name": "_type",
+          "name": "_key",
           "typeId": "string",
-          "doc": "this must be always \"edge\"\n",
-          "required": "required",
-          "default": "edge"
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
         },
         {
           "key": 3,
-          "name": "_outV",
+          "name": "_rev",
           "typeId": "string",
-          "doc": "id of outgoing reaction vertex\n",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 4,
-          "name": "_inV",
+          "name": "_from",
           "typeId": "string",
-          "doc": "id of incoming isocoulombic reaction vertex\n",
+          "doc": "full id of outgoing vertex of any type (formerly outV)\n",
           "required": "required"
         },
         {
           "key": 5,
+          "name": "_to",
+          "typeId": "string",
+          "doc": "full id of incoming datasource vertex (formerly inV)\n",
+          "required": "required"
+        },
+        {
+          "key": 6,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "this must be always \"edge\" (type of ArangoDB collection is \"edges\")\n",
+          "required": "required",
+          "default": "edge"
+        },
+        {
+          "key": 7,
           "name": "_label",
           "typeId": "string",
           "doc": "This label must be \"combined\"\n",
@@ -1263,7 +1572,7 @@
           "default": "combined"
         },
         {
-          "key": 6,
+          "key": 8,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -1300,33 +1609,47 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "id of this edge record or 0 if unknown\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
-          "name": "_type",
+          "name": "_key",
           "typeId": "string",
-          "doc": "this must be always \"edge\"\n",
-          "required": "required",
-          "default": "edge"
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
         },
         {
           "key": 3,
-          "name": "_outV",
+          "name": "_rev",
           "typeId": "string",
-          "doc": "id of outgoing element vertex\n",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 4,
-          "name": "_inV",
+          "name": "_from",
           "typeId": "string",
-          "doc": "id of incoming thermodataset vertex\n",
+          "doc": "full id of outgoing vertex of any type (formerly outV)\n",
           "required": "required"
         },
         {
           "key": 5,
+          "name": "_to",
+          "typeId": "string",
+          "doc": "full id of incoming datasource vertex (formerly inV)\n",
+          "required": "required"
+        },
+        {
+          "key": 6,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "this must be always \"edge\" (type of ArangoDB collection is \"edges\")\n",
+          "required": "required",
+          "default": "edge"
+        },
+        {
+          "key": 7,
           "name": "_label",
           "typeId": "string",
           "doc": "This label must be \"basis\"\n",
@@ -1334,7 +1657,7 @@
           "default": "basis"
         },
         {
-          "key": 6,
+          "key": 8,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -1342,7 +1665,7 @@
             "class": "Basis"
           },
           "doc": "Properties of basis edge\n",
-          "required": "optional"
+          "required": "req_out"
         }
       ]
     },
@@ -1370,33 +1693,47 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "id of this edge record or 0 if unknown\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
-          "name": "_type",
+          "name": "_key",
           "typeId": "string",
-          "doc": "this must be always \"edge\"\n",
-          "required": "required",
-          "default": "edge"
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
         },
         {
           "key": 3,
-          "name": "_outV",
+          "name": "_rev",
           "typeId": "string",
-          "doc": "id of outgoing substance vertex\n",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 4,
-          "name": "_inV",
+          "name": "_from",
           "typeId": "string",
-          "doc": "id of incoming thermodataset vertex\n",
+          "doc": "full id of outgoing vertex of any type (formerly outV)\n",
           "required": "required"
         },
         {
           "key": 5,
+          "name": "_to",
+          "typeId": "string",
+          "doc": "full id of incoming datasource vertex (formerly inV)\n",
+          "required": "required"
+        },
+        {
+          "key": 6,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "this must be always \"edge\" (type of ArangoDB collection is \"edges\")\n",
+          "required": "required",
+          "default": "edge"
+        },
+        {
+          "key": 7,
           "name": "_label",
           "typeId": "string",
           "doc": "This label must be \"pulls\"\n",
@@ -1404,7 +1741,7 @@
           "default": "pulls"
         },
         {
-          "key": 6,
+          "key": 8,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -1426,7 +1763,7 @@
           "key": 1,
           "name": "level_of_data",
           "typeId": "string",
-          "required": "optional"
+          "required": "req_out"
         }
       ]
     },
@@ -1440,33 +1777,47 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "id of this edge record or 0 if unknown\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
-          "name": "_type",
+          "name": "_key",
           "typeId": "string",
-          "doc": "this must be always \"edge\"\n",
-          "required": "required",
-          "default": "edge"
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
         },
         {
           "key": 3,
-          "name": "_outV",
+          "name": "_rev",
           "typeId": "string",
-          "doc": "id of outgoing reactionset vertex\n",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 4,
-          "name": "_inV",
+          "name": "_from",
           "typeId": "string",
-          "doc": "id of incoming thermodataset vertex\n",
+          "doc": "full id of outgoing vertex of any type (formerly outV)\n",
           "required": "required"
         },
         {
           "key": 5,
+          "name": "_to",
+          "typeId": "string",
+          "doc": "full id of incoming datasource vertex (formerly inV)\n",
+          "required": "required"
+        },
+        {
+          "key": 6,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "this must be always \"edge\" (type of ArangoDB collection is \"edges\")\n",
+          "required": "required",
+          "default": "edge"
+        },
+        {
+          "key": 7,
           "name": "_label",
           "typeId": "string",
           "doc": "This label must be \"involves\"\n",
@@ -1474,7 +1825,7 @@
           "default": "involves"
         },
         {
-          "key": 6,
+          "key": 8,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -1518,33 +1869,47 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "id of this edge record or 0 if unknown\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
-          "name": "_type",
+          "name": "_key",
           "typeId": "string",
-          "doc": "this must be always \"edge\"\n",
-          "required": "required",
-          "default": "edge"
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
         },
         {
           "key": 3,
-          "name": "_outV",
+          "name": "_rev",
           "typeId": "string",
-          "doc": "id of outgoing substance vertex\n",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 4,
-          "name": "_inV",
+          "name": "_from",
           "typeId": "string",
-          "doc": "id of incoming interaction vertex\n",
+          "doc": "full id of outgoing vertex of any type (formerly outV)\n",
           "required": "required"
         },
         {
           "key": 5,
+          "name": "_to",
+          "typeId": "string",
+          "doc": "full id of incoming datasource vertex (formerly inV)\n",
+          "required": "required"
+        },
+        {
+          "key": 6,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "this must be always \"edge\" (type of ArangoDB collection is \"edges\")\n",
+          "required": "required",
+          "default": "edge"
+        },
+        {
+          "key": 7,
           "name": "_label",
           "typeId": "string",
           "doc": "This label must be \"interacts\"\n",
@@ -1552,7 +1917,7 @@
           "default": "interacts"
         },
         {
-          "key": 6,
+          "key": 8,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -1560,7 +1925,7 @@
             "class": "Interacts"
           },
           "doc": "Properties of interacts edge\n",
-          "required": "optional"
+          "required": "req_out"
         }
       ]
     },
@@ -1596,33 +1961,47 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "id of this edge record or 0 if unknown\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
-          "name": "_type",
+          "name": "_key",
           "typeId": "string",
-          "doc": "this must be always \"edge\"\n",
-          "required": "required",
-          "default": "edge"
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
         },
         {
           "key": 3,
-          "name": "_outV",
+          "name": "_rev",
           "typeId": "string",
-          "doc": "id of outgoing interaction vertex\n",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 4,
-          "name": "_inV",
+          "name": "_from",
           "typeId": "string",
-          "doc": "id of incoming phase vertex\n",
+          "doc": "full id of outgoing vertex of any type (formerly outV)\n",
           "required": "required"
         },
         {
           "key": 5,
+          "name": "_to",
+          "typeId": "string",
+          "doc": "full id of incoming datasource vertex (formerly inV)\n",
+          "required": "required"
+        },
+        {
+          "key": 6,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "this must be always \"edge\" (type of ArangoDB collection is \"edges\")\n",
+          "required": "required",
+          "default": "edge"
+        },
+        {
+          "key": 7,
           "name": "_label",
           "typeId": "string",
           "doc": "This label must be \"specific\"\n",
@@ -1630,7 +2009,7 @@
           "default": "specific"
         },
         {
-          "key": 6,
+          "key": 8,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -1638,7 +2017,7 @@
             "class": "Specific"
           },
           "doc": "Properties of specific edge\n",
-          "required": "optional"
+          "required": "req_out"
         }
       ]
     },
@@ -1667,7 +2046,7 @@
           "name": "order",
           "typeId": "double",
           "doc": "Generic order of kinetics for this mechanism in the phase\n",
-          "required": "optional"
+          "required": "req_out"
         }
       ]
     },
@@ -1681,33 +2060,47 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "id of this edge record or 0 if unknown\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
-          "name": "_type",
+          "name": "_key",
           "typeId": "string",
-          "doc": "this must be always \"edge\"\n",
-          "required": "required",
-          "default": "edge"
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
         },
         {
           "key": 3,
-          "name": "_outV",
+          "name": "_rev",
           "typeId": "string",
-          "doc": "id of outgoing kineticrate vertex\n",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 4,
-          "name": "_inV",
+          "name": "_from",
           "typeId": "string",
-          "doc": "id of incoming phase vertex\n",
+          "doc": "full id of outgoing vertex of any type (formerly outV)\n",
           "required": "required"
         },
         {
           "key": 5,
+          "name": "_to",
+          "typeId": "string",
+          "doc": "full id of incoming datasource vertex (formerly inV)\n",
+          "required": "required"
+        },
+        {
+          "key": 6,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "this must be always \"edge\" (type of ArangoDB collection is \"edges\")\n",
+          "required": "required",
+          "default": "edge"
+        },
+        {
+          "key": 7,
           "name": "_label",
           "typeId": "string",
           "doc": "This label must be \"kinetics\"\n",
@@ -1715,7 +2108,7 @@
           "default": "kinetics"
         },
         {
-          "key": 6,
+          "key": 8,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -1766,33 +2159,47 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "id of this edge record or 0 if unknown\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
-          "name": "_type",
+          "name": "_key",
           "typeId": "string",
-          "doc": "this must be always \"edge\"\n",
-          "required": "required",
-          "default": "edge"
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
         },
         {
           "key": 3,
-          "name": "_outV",
+          "name": "_rev",
           "typeId": "string",
-          "doc": "id of outgoing kineticrate vertex\n",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 4,
-          "name": "_inV",
+          "name": "_from",
           "typeId": "string",
-          "doc": "id of incoming substance vertex\n",
+          "doc": "full id of outgoing vertex of any type (formerly outV)\n",
           "required": "required"
         },
         {
           "key": 5,
+          "name": "_to",
+          "typeId": "string",
+          "doc": "full id of incoming datasource vertex (formerly inV)\n",
+          "required": "required"
+        },
+        {
+          "key": 6,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "this must be always \"edge\" (type of ArangoDB collection is \"edges\")\n",
+          "required": "required",
+          "default": "edge"
+        },
+        {
+          "key": 7,
           "name": "_label",
           "typeId": "string",
           "doc": "This label must be \"kinspecies\"\n",
@@ -1800,7 +2207,7 @@
           "default": "kinspecies"
         },
         {
-          "key": 6,
+          "key": 8,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -1808,7 +2215,7 @@
             "class": "Kinspecies"
           },
           "doc": "Properties of kinspecies edge\n",
-          "required": "optional"
+          "required": "req_out"
         }
       ]
     },
@@ -1843,7 +2250,7 @@
             "class": "prop.Item"
           },
           "doc": "Optional properties of this component in the phase e.g. Kielland ion radius\n",
-          "required": "optional",
+          "required": "req_out",
           "default": {
             "name": "PCP"
           }
@@ -1874,33 +2281,47 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "id of this edge record or 0 if unknown\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
-          "name": "_type",
+          "name": "_key",
           "typeId": "string",
-          "doc": "this must be always \"edge\"\n",
-          "required": "required",
-          "default": "edge"
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
         },
         {
           "key": 3,
-          "name": "_outV",
+          "name": "_rev",
           "typeId": "string",
-          "doc": "id of outgoing reactionset vertex\n",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 4,
-          "name": "_inV",
+          "name": "_from",
           "typeId": "string",
-          "doc": "id of incoming species vertex\n",
+          "doc": "full id of outgoing vertex of any type (formerly outV)\n",
           "required": "required"
         },
         {
           "key": 5,
+          "name": "_to",
+          "typeId": "string",
+          "doc": "full id of incoming datasource vertex (formerly inV)\n",
+          "required": "required"
+        },
+        {
+          "key": 6,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "this must be always \"edge\" (type of ArangoDB collection is \"edges\")\n",
+          "required": "required",
+          "default": "edge"
+        },
+        {
+          "key": 7,
           "name": "_label",
           "typeId": "string",
           "doc": "This label must be \"component\"\n",
@@ -1908,7 +2329,7 @@
           "default": "component"
         },
         {
-          "key": 6,
+          "key": 8,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -1916,7 +2337,7 @@
             "class": "Component"
           },
           "doc": "Properties of component edge\n",
-          "required": "optional"
+          "required": "req_out"
         }
       ]
     },
@@ -1961,7 +2382,7 @@
           "name": "site_index",
           "typeId": "i16",
           "doc": "Index of site (sublattice) to which this moiety is assigned\n",
-          "required": "optional",
+          "required": "req_out",
           "default": 0
         }
       ]
@@ -1976,33 +2397,47 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "id of this edge record or 0 if unknown\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
-          "name": "_type",
+          "name": "_key",
           "typeId": "string",
-          "doc": "this must be always \"edge\"\n",
-          "required": "required",
-          "default": "edge"
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
         },
         {
           "key": 3,
-          "name": "_outV",
+          "name": "_rev",
           "typeId": "string",
-          "doc": "id of outgoing reactionset vertex\n",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 4,
-          "name": "_inV",
+          "name": "_from",
           "typeId": "string",
-          "doc": "id of incoming species vertex\n",
+          "doc": "full id of outgoing vertex of any type (formerly outV)\n",
           "required": "required"
         },
         {
           "key": 5,
+          "name": "_to",
+          "typeId": "string",
+          "doc": "full id of incoming datasource vertex (formerly inV)\n",
+          "required": "required"
+        },
+        {
+          "key": 6,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "this must be always \"edge\" (type of ArangoDB collection is \"edges\")\n",
+          "required": "required",
+          "default": "edge"
+        },
+        {
+          "key": 7,
           "name": "_label",
           "typeId": "string",
           "doc": "This label must be \"sitemoiety\"\n",
@@ -2010,7 +2445,7 @@
           "default": "sitemoiety"
         },
         {
-          "key": 6,
+          "key": 8,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -2053,33 +2488,47 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "id of this edge record or 0 if unknown\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
-          "name": "_type",
+          "name": "_key",
           "typeId": "string",
-          "doc": "this must be always \"edge\"\n",
-          "required": "required",
-          "default": "edge"
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
         },
         {
           "key": 3,
-          "name": "_outV",
+          "name": "_rev",
           "typeId": "string",
-          "doc": "id of outgoing Composition or Chemsystem (recipe) vertex\n",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 4,
-          "name": "_inV",
+          "name": "_from",
           "typeId": "string",
-          "doc": "id of incoming substance or composition vertex\n",
+          "doc": "full id of outgoing vertex of any type (formerly outV)\n",
           "required": "required"
         },
         {
           "key": 5,
+          "name": "_to",
+          "typeId": "string",
+          "doc": "full id of incoming datasource vertex (formerly inV)\n",
+          "required": "required"
+        },
+        {
+          "key": 6,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "this must be always \"edge\" (type of ArangoDB collection is \"edges\")\n",
+          "required": "required",
+          "default": "edge"
+        },
+        {
+          "key": 7,
           "name": "_label",
           "typeId": "string",
           "doc": "This label must be \"adds\"\n",
@@ -2087,7 +2536,7 @@
           "default": "adds"
         },
         {
-          "key": 6,
+          "key": 8,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -2123,33 +2572,47 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "id of this edge record or 0 if unknown\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
-          "name": "_type",
+          "name": "_key",
           "typeId": "string",
-          "doc": "this must be always \"edge\"\n",
-          "required": "required",
-          "default": "edge"
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
         },
         {
           "key": 3,
-          "name": "_outV",
+          "name": "_rev",
           "typeId": "string",
-          "doc": "id of outgoing ChemSysDef vertex\n",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 4,
-          "name": "_inV",
+          "name": "_from",
           "typeId": "string",
-          "doc": "id of incoming Phase vertex\n",
+          "doc": "full id of outgoing vertex of any type (formerly outV)\n",
           "required": "required"
         },
         {
           "key": 5,
+          "name": "_to",
+          "typeId": "string",
+          "doc": "full id of incoming datasource vertex (formerly inV)\n",
+          "required": "required"
+        },
+        {
+          "key": 6,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "this must be always \"edge\" (type of ArangoDB collection is \"edges\")\n",
+          "required": "required",
+          "default": "edge"
+        },
+        {
+          "key": 7,
           "name": "_label",
           "typeId": "string",
           "doc": "This label must be \"collects\"\n",
@@ -2157,7 +2620,7 @@
           "default": "collects"
         },
         {
-          "key": 6,
+          "key": 8,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -2193,33 +2656,47 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "id of this edge record or 0 if unknown\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
-          "name": "_type",
+          "name": "_key",
           "typeId": "string",
-          "doc": "this must be always \"edge\"\n",
-          "required": "required",
-          "default": "edge"
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
         },
         {
           "key": 3,
-          "name": "_outV",
+          "name": "_rev",
           "typeId": "string",
-          "doc": "id of outgoing ChemSysDef vertex\n",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 4,
-          "name": "_inV",
+          "name": "_from",
           "typeId": "string",
-          "doc": "id of incoming thermodataset vertex\n",
+          "doc": "full id of outgoing vertex of any type (formerly outV)\n",
           "required": "required"
         },
         {
           "key": 5,
+          "name": "_to",
+          "typeId": "string",
+          "doc": "full id of incoming datasource vertex (formerly inV)\n",
+          "required": "required"
+        },
+        {
+          "key": 6,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "this must be always \"edge\" (type of ArangoDB collection is \"edges\")\n",
+          "required": "required",
+          "default": "edge"
+        },
+        {
+          "key": 7,
           "name": "_label",
           "typeId": "string",
           "doc": "This label must be \"uses\"\n",
@@ -2227,7 +2704,7 @@
           "default": "uses"
         },
         {
-          "key": 6,
+          "key": 8,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -2263,33 +2740,47 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "id of this edge record or 0 if unknown\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
-          "name": "_type",
+          "name": "_key",
           "typeId": "string",
-          "doc": "this must be always \"edge\"\n",
-          "required": "required",
-          "default": "edge"
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
         },
         {
           "key": 3,
-          "name": "_outV",
+          "name": "_rev",
           "typeId": "string",
-          "doc": "id of outgoing ChemSysDef vertex\n",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 4,
-          "name": "_inV",
+          "name": "_from",
           "typeId": "string",
-          "doc": "id of incoming thermodataset vertex\n",
+          "doc": "full id of outgoing vertex of any type (formerly outV)\n",
           "required": "required"
         },
         {
           "key": 5,
+          "name": "_to",
+          "typeId": "string",
+          "doc": "full id of incoming datasource vertex (formerly inV)\n",
+          "required": "required"
+        },
+        {
+          "key": 6,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "this must be always \"edge\" (type of ArangoDB collection is \"edges\")\n",
+          "required": "required",
+          "default": "edge"
+        },
+        {
+          "key": 7,
           "name": "_label",
           "typeId": "string",
           "doc": "This label must be \"belongs\"\n",
@@ -2297,7 +2788,7 @@
           "default": "belongs"
         },
         {
-          "key": 6,
+          "key": 8,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -2339,33 +2830,47 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "id of this edge record or 0 if unknown\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
-          "name": "_type",
+          "name": "_key",
           "typeId": "string",
-          "doc": "this must be always \"edge\"\n",
-          "required": "required",
-          "default": "edge"
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
         },
         {
           "key": 3,
-          "name": "_outV",
+          "name": "_rev",
           "typeId": "string",
-          "doc": "id of outgoing ChemSysDef vertex\n",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 4,
-          "name": "_inV",
+          "name": "_from",
           "typeId": "string",
-          "doc": "id of incoming thermodataset vertex\n",
+          "doc": "full id of outgoing vertex of any type (formerly outV)\n",
           "required": "required"
         },
         {
           "key": 5,
+          "name": "_to",
+          "typeId": "string",
+          "doc": "full id of incoming datasource vertex (formerly inV)\n",
+          "required": "required"
+        },
+        {
+          "key": 6,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "this must be always \"edge\" (type of ArangoDB collection is \"edges\")\n",
+          "required": "required",
+          "default": "edge"
+        },
+        {
+          "key": 7,
           "name": "_label",
           "typeId": "string",
           "doc": "This label must be \"yields\"\n",
@@ -2373,7 +2878,7 @@
           "default": "yields"
         },
         {
-          "key": 6,
+          "key": 8,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -2439,33 +2944,47 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "id of this edge record or 0 if unknown\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
-          "name": "_type",
+          "name": "_key",
           "typeId": "string",
-          "doc": "this must be always \"edge\"\n",
-          "required": "required",
-          "default": "edge"
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
         },
         {
           "key": 3,
-          "name": "_outV",
+          "name": "_rev",
           "typeId": "string",
-          "doc": "id of outgoing ChemSysDef vertex\n",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 4,
-          "name": "_inV",
+          "name": "_from",
           "typeId": "string",
-          "doc": "id of incoming thermodataset vertex\n",
+          "doc": "full id of outgoing vertex of any type (formerly outV)\n",
           "required": "required"
         },
         {
           "key": 5,
+          "name": "_to",
+          "typeId": "string",
+          "doc": "full id of incoming datasource vertex (formerly inV)\n",
+          "required": "required"
+        },
+        {
+          "key": 6,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "this must be always \"edge\" (type of ArangoDB collection is \"edges\")\n",
+          "required": "required",
+          "default": "edge"
+        },
+        {
+          "key": 7,
           "name": "_label",
           "typeId": "string",
           "doc": "This label must be \"EqState\"\n",
@@ -2473,7 +2992,7 @@
           "default": "eqstate"
         },
         {
-          "key": 6,
+          "key": 8,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -2509,33 +3028,47 @@
           "key": 1,
           "name": "_id",
           "typeId": "string",
-          "doc": "id of this edge record or 0 if unknown\n",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 2,
-          "name": "_type",
+          "name": "_key",
           "typeId": "string",
-          "doc": "this must be always \"edge\"\n",
-          "required": "required",
-          "default": "edge"
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
         },
         {
           "key": 3,
-          "name": "_outV",
+          "name": "_rev",
           "typeId": "string",
-          "doc": "id of outgoing ChemSysDef vertex\n",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
           "required": "required"
         },
         {
           "key": 4,
-          "name": "_inV",
+          "name": "_from",
           "typeId": "string",
-          "doc": "id of incoming thermodataset vertex\n",
+          "doc": "full id of outgoing vertex of any type (formerly outV)\n",
           "required": "required"
         },
         {
           "key": 5,
+          "name": "_to",
+          "typeId": "string",
+          "doc": "full id of incoming datasource vertex (formerly inV)\n",
+          "required": "required"
+        },
+        {
+          "key": 6,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "this must be always \"edge\" (type of ArangoDB collection is \"edges\")\n",
+          "required": "required",
+          "default": "edge"
+        },
+        {
+          "key": 7,
           "name": "_label",
           "typeId": "string",
           "doc": "This label must be \"madeof\"\n",
@@ -2543,7 +3076,7 @@
           "default": "madeof"
         },
         {
-          "key": 6,
+          "key": 8,
           "name": "properties",
           "typeId": "struct",
           "type": {
@@ -2569,7 +3102,7 @@
             "typeId": "struct",
             "class": "VertexDataSource"
           },
-          "required": "optional"
+          "required": "req_out"
         },
         {
           "key": 2,
@@ -2579,7 +3112,7 @@
             "typeId": "struct",
             "class": "VertexElement"
           },
-          "required": "optional"
+          "required": "req_out"
         },
         {
           "key": 3,
@@ -2589,7 +3122,7 @@
             "typeId": "struct",
             "class": "VertexSubstance"
           },
-          "required": "optional"
+          "required": "req_out"
         },
         {
           "key": 4,
@@ -2599,7 +3132,7 @@
             "typeId": "struct",
             "class": "VertexReaction"
           },
-          "required": "optional"
+          "required": "req_out"
         },
         {
           "key": 5,
@@ -2609,7 +3142,7 @@
             "typeId": "struct",
             "class": "VertexReactionSet"
           },
-          "required": "optional"
+          "required": "req_out"
         },
         {
           "key": 6,
@@ -2619,7 +3152,7 @@
             "typeId": "struct",
             "class": "VertexThermoDataSet"
           },
-          "required": "optional"
+          "required": "req_out"
         },
         {
           "key": 7,
@@ -2629,7 +3162,7 @@
             "typeId": "struct",
             "class": "VertexInteraction"
           },
-          "required": "optional"
+          "required": "req_out"
         },
         {
           "key": 8,
@@ -2639,7 +3172,7 @@
             "typeId": "struct",
             "class": "VertexKineticRate"
           },
-          "required": "optional"
+          "required": "req_out"
         },
         {
           "key": 9,
@@ -2649,7 +3182,47 @@
             "typeId": "struct",
             "class": "VertexPhase"
           },
-          "required": "optional"
+          "required": "req_out"
+        },
+        {
+          "key": 10,
+          "name": "v_composition",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "VertexComposition"
+          },
+          "required": "req_out"
+        },
+        {
+          "key": 11,
+          "name": "v_chemeqsysdef",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "VertexChemEqSysDef"
+          },
+          "required": "req_out"
+        },
+        {
+          "key": 12,
+          "name": "v_chemeqsysrecipe",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "VertexChemEqSysRecipe"
+          },
+          "required": "req_out"
+        },
+        {
+          "key": 13,
+          "name": "v_chemeqspeciation",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "VertexChemEqSpeciation"
+          },
+          "required": "req_out"
         }
       ]
     },
@@ -2667,7 +3240,7 @@
             "typeId": "struct",
             "class": "EdgeCiting"
           },
-          "required": "optional"
+          "required": "req_out"
         },
         {
           "key": 2,
@@ -2677,7 +3250,7 @@
             "typeId": "struct",
             "class": "EdgeInherits"
           },
-          "required": "optional"
+          "required": "req_out"
         },
         {
           "key": 3,
@@ -2687,7 +3260,7 @@
             "typeId": "struct",
             "class": "EdgeSstate"
           },
-          "required": "optional"
+          "required": "req_out"
         },
         {
           "key": 4,
@@ -2697,7 +3270,7 @@
             "typeId": "struct",
             "class": "EdgeTakes"
           },
-          "required": "optional"
+          "required": "req_out"
         },
         {
           "key": 5,
@@ -2707,7 +3280,7 @@
             "typeId": "struct",
             "class": "EdgeDefines"
           },
-          "required": "optional"
+          "required": "req_out"
         },
         {
           "key": 6,
@@ -2717,7 +3290,7 @@
             "typeId": "struct",
             "class": "EdgeMaster"
           },
-          "required": "optional"
+          "required": "req_out"
         },
         {
           "key": 7,
@@ -2727,7 +3300,7 @@
             "typeId": "struct",
             "class": "EdgeProduct"
           },
-          "required": "optional"
+          "required": "req_out"
         },
         {
           "key": 8,
@@ -2737,7 +3310,7 @@
             "typeId": "struct",
             "class": "EdgeProdreac"
           },
-          "required": "optional"
+          "required": "req_out"
         },
         {
           "key": 9,
@@ -2747,7 +3320,7 @@
             "typeId": "struct",
             "class": "EdgeCombined"
           },
-          "required": "optional"
+          "required": "req_out"
         },
         {
           "key": 10,
@@ -2757,7 +3330,7 @@
             "typeId": "struct",
             "class": "EdgeBasis"
           },
-          "required": "optional"
+          "required": "req_out"
         },
         {
           "key": 11,
@@ -2767,7 +3340,7 @@
             "typeId": "struct",
             "class": "EdgePulls"
           },
-          "required": "optional"
+          "required": "req_out"
         },
         {
           "key": 12,
@@ -2777,7 +3350,7 @@
             "typeId": "struct",
             "class": "EdgeInvolves"
           },
-          "required": "optional"
+          "required": "req_out"
         },
         {
           "key": 13,
@@ -2787,7 +3360,7 @@
             "typeId": "struct",
             "class": "EdgeSpecific"
           },
-          "required": "optional"
+          "required": "req_out"
         },
         {
           "key": 14,
@@ -2797,7 +3370,7 @@
             "typeId": "struct",
             "class": "EdgeInteracts"
           },
-          "required": "optional"
+          "required": "req_out"
         },
         {
           "key": 15,
@@ -2807,7 +3380,7 @@
             "typeId": "struct",
             "class": "EdgeKinetics"
           },
-          "required": "optional"
+          "required": "req_out"
         },
         {
           "key": 16,
@@ -2817,7 +3390,7 @@
             "typeId": "struct",
             "class": "EdgeKinspecies"
           },
-          "required": "optional"
+          "required": "req_out"
         },
         {
           "key": 17,
@@ -2827,7 +3400,7 @@
             "typeId": "struct",
             "class": "EdgeComponent"
           },
-          "required": "optional"
+          "required": "req_out"
         },
         {
           "key": 18,
@@ -2837,7 +3410,77 @@
             "typeId": "struct",
             "class": "EdgeSiteMoiety"
           },
-          "required": "optional"
+          "required": "req_out"
+        },
+        {
+          "key": 19,
+          "name": "e_adds",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "EdgeAdds"
+          },
+          "required": "req_out"
+        },
+        {
+          "key": 20,
+          "name": "e_collects",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "EdgeCollects"
+          },
+          "required": "req_out"
+        },
+        {
+          "key": 21,
+          "name": "e_uses",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "EdgeUses"
+          },
+          "required": "req_out"
+        },
+        {
+          "key": 22,
+          "name": "e_belongs",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "EdgeBelongs"
+          },
+          "required": "req_out"
+        },
+        {
+          "key": 23,
+          "name": "e_yields",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "EdgeYields"
+          },
+          "required": "req_out"
+        },
+        {
+          "key": 24,
+          "name": "e_eqstate",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "EdgeEqState"
+          },
+          "required": "req_out"
+        },
+        {
+          "key": 25,
+          "name": "e_madeof",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "EdgeMadeOf"
+          },
+          "required": "req_out"
         }
       ]
     },
