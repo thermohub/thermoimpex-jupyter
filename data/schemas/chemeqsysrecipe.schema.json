@@ -93,7 +93,8 @@
           "key": 3,
           "name": "rcptype",
           "typeId": "i32",
-          "doc": "Type of this recipe\n",
+          "doc": "Type of this recipe, validated with class ChemEqSysRecipeType \n",
+          "class": "ChemEqSysRecipeType",
           "required": "req_out",
           "default": 0
         },
