@@ -182,7 +182,7 @@
             "elemTypeId": "struct",
             "elemType": {
               "typeId": "struct",
-              "class": "element.Info"
+              "class": "element.ElementInfo"
             }
           },
           "doc": "List of element symbols and infos covered by this reactionset - may be replaced by a graph\n",

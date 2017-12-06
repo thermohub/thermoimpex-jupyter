@@ -436,21 +436,21 @@
             "name": "drMFc"
           }
         },
-      {
-        "key": 35,
-        "name": "elements",
-        "typeId": "list",
-        "type": {
+        {
+          "key": 35,
+          "name": "elements",
           "typeId": "list",
-          "elemTypeId": "struct",
-          "elemType": {
-             "typeId": "struct",
-             "class": "element.Info"
-          }
-        },
-        "doc": "Set of elements present in the reaction\n",
-        "required": "req_out"
-      }
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "struct",
+            "elemType": {
+              "typeId": "struct",
+              "class": "element.ElementInfo"
+            }
+          },
+          "doc": "Set of elements present in the reaction\n",
+          "required": "req_out"
+        }
       ]
     },
     {
