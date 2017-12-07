@@ -113,7 +113,7 @@
             "elemTypeId": "struct",
             "elemType": {
               "typeId": "struct",
-              "class": "element.Info"
+              "class": "element.ElementInfo"
             }
           },
           "doc": "List of element symbols and infos, a subset of the thermodataset list\n",
@@ -128,7 +128,7 @@
             "elemTypeId": "struct",
             "elemType": {
               "typeId": "struct",
-              "class": "phase.Info"
+              "class": "phase.PhaseInfo"
             }
           },
           "doc": "list of phases symbols (sorted by aggregate state) csdpulls\n",
@@ -154,7 +154,7 @@
             "elemTypeId": "struct",
             "elemType": {
               "typeId": "struct",
-              "class": "substance.Info"
+              "class": "substance.SubstanceInfo"
             }
           },
           "doc": "list of chemical species symbols (arranged by phases) - a subset of that in thermodataset\n",
@@ -241,7 +241,7 @@
             "elemTypeId": "struct",
             "elemType": {
               "typeId": "struct",
-              "class": "element.Info"
+              "class": "element.ElementInfo"
             }
           },
           "required": "req_out"
@@ -271,7 +271,7 @@
             "elemTypeId": "struct",
             "elemType": {
               "typeId": "struct",
-              "class": "substance.Info"
+              "class": "substance.SubstanceInfo"
             }
           },
           "required": "req_out"
@@ -325,7 +325,7 @@
             "elemTypeId": "struct",
             "elemType": {
               "typeId": "struct",
-              "class": "phase.Info"
+              "class": "phase.PhaseInfo"
             }
           },
           "required": "req_out"

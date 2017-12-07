@@ -114,7 +114,7 @@
             "elemTypeId": "struct",
             "elemType": {
               "typeId": "struct",
-              "class": "element.Info"
+              "class": "element.ElementInfo"
             }
           },
           "doc": "List of elements and their masses as basis of this recipe\n",

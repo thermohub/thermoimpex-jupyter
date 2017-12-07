@@ -203,7 +203,7 @@
             "elemTypeId": "struct",
             "elemType": {
               "typeId": "struct",
-              "class": "element.Info"
+              "class": "element.ElementInfo"
             }
           },
           "doc": "Set of elements (constituents) represented in all components of the phase\n",
@@ -305,7 +305,7 @@
       ]
     },
     {
-      "name": "Info",
+      "name": "PhaseInfo",
       "doc": "Short description of phase (for using in ChemSysDef etc.)\n",
       "isException": false,
       "isUnion": false,
