@@ -2650,6 +2650,46 @@
             "class": "VertexPhase"
           },
           "required": "optional"
+        },
+        {
+          "key": 10,
+          "name": "v_composition",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "VertexComposition"
+          },
+          "required": "optional"
+        },
+        {
+          "key": 11,
+          "name": "v_chemeqsysdef",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "VertexChemEqSysDef"
+          },
+          "required": "optional"
+        },
+        {
+          "key": 12,
+          "name": "v_chemeqsysrecipe",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "VertexChemEqSysRecipe"
+          },
+          "required": "optional"
+        },
+        {
+          "key": 13,
+          "name": "v_chemeqspeciation",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "VertexChemEqSpeciation"
+          },
+          "required": "optional"
         }
       ]
     },
@@ -2836,6 +2876,76 @@
           "type": {
             "typeId": "struct",
             "class": "EdgeSiteMoiety"
+          },
+          "required": "optional"
+        },
+        {
+          "key": 19,
+          "name": "e_adds",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "EdgeAdds"
+          },
+          "required": "optional"
+        },
+        {
+          "key": 20,
+          "name": "e_collects",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "EdgeCollects"
+          },
+          "required": "optional"
+        },
+        {
+          "key": 21,
+          "name": "e_uses",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "EdgeUses"
+          },
+          "required": "optional"
+        },
+        {
+          "key": 22,
+          "name": "e_belongs",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "EdgeBelongs"
+          },
+          "required": "optional"
+        },
+        {
+          "key": 23,
+          "name": "e_yields",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "EdgeYields"
+          },
+          "required": "optional"
+        },
+        {
+          "key": 24,
+          "name": "e_eqstate",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "EdgeEqState"
+          },
+          "required": "optional"
+        },
+        {
+          "key": 25,
+          "name": "e_madeof",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "EdgeMadeOf"
           },
           "required": "optional"
         }

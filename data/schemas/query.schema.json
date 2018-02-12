@@ -27,13 +27,28 @@
           "doc": "Select all records\n"
         },
         {
-          "name": "QAQL",
+          "name": "QEdgesFrom",
           "value": 2,
+          "doc": "Select outgoing edges\n"
+        },
+        {
+          "name": "QEdgesTo",
+          "value": 3,
+          "doc": "Select incoming edges\n"
+        },
+        {
+          "name": "QEdgesAll",
+          "value": 5,
+          "doc": "Select edges by query\n"
+        },
+        {
+          "name": "QAQL",
+          "value": 6,
           "doc": "AQL-style query\n"
         },
         {
           "name": "QEJDB",
-          "value": 3,
+          "value": 7,
           "doc": "EJDB-style query\n"
         }
       ]
@@ -69,7 +84,8 @@
       "doc": "description of query record\n",
       "isException": false,
       "isUnion": false,
-      "to_select": [ "2", "3", "4.1", "1" ],
+      "to_select": [ "4", "5", "6.1", "1" ],
+      "to_key": [ "4" ],
        "fields": [
         {
           "key": 1,
@@ -80,20 +96,34 @@
         },
         {
           "key": 2,
+          "name": "_key",
+          "typeId": "string",
+          "doc": "ID of this record within the impex collection (part of _id)\n",
+          "required": "required"
+        },
+        {
+          "key": 3,
+          "name": "_rev",
+          "typeId": "string",
+          "doc": "Code of revision (changed by the system at every update)\n",
+          "required": "required"
+        },
+        {
+          "key": 4,
           "name": "name",
           "typeId": "string",
           "doc": "short name of query (used as key field)\n",
           "required": "required"
         },
         {
-          "key": 3,
+          "key": 5,
           "name": "comment",
           "typeId": "string",
           "doc": "description of query\n",
           "required": "req_out"
         },
         {
-          "key": 4,
+          "key": 6,
           "name": "condition",
           "typeId": "struct",
           "type": {
@@ -104,7 +134,7 @@
           "required": "required"
         },
         {
-          "key": 5,
+          "key": 7,
           "name": "collect",
           "typeId": "list",
           "type": {
@@ -115,7 +145,7 @@
           "required": "required"
         },
         {
-          "key": 6,
+          "key": 8,
           "name": "qschema",
           "typeId": "string",
           "doc": "query for schema\n",
