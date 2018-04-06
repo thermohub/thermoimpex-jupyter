@@ -59,7 +59,7 @@
           "name": "_type",
           "typeId": "string",
           "doc": "This field must contain \"vertex\" in MongoDB (may be absent in ArangoDB)\n",
-          "required": "req_out",
+          "required": "required",
           "default": "vertex"
         },
         {
@@ -67,7 +67,7 @@
           "name": "_label",
           "typeId": "string",
           "doc": "This label is \"datasource\" for all datasources: goes to the name of collection in ArangoDB\n",
-          "required": "req_out",
+          "required": "required",
           "default": "datasource"
         },
         {
@@ -117,7 +117,7 @@
           "name": "_type",
           "typeId": "string",
           "doc": "This field must contain \"vertex\" in MongoDB (may be absent in ArangoDB)\n",
-          "required": "req_out",
+          "required": "required",
           "default": "vertex"
         },
         {
@@ -125,7 +125,7 @@
           "name": "_label",
           "typeId": "string",
           "doc": "This label is \"element\" for all elements: goes into the name of collection in ArangoDB\n",
-          "required": "req_out",
+          "required": "required",
           "default": "element"
         },
         {
