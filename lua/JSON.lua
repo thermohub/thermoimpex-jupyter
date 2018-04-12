@@ -820,7 +820,7 @@ local function grok_number(self, text, start, options)
    --
    -- Grab an optional decimal part
    --
-   local decimal_part = text:match('^%.%d+', i) or ""
+   local decimal_part = text:match('^%.%d*', i) or ""
 
    i = i + decimal_part:len()
 
