@@ -1,26 +1,27 @@
 {
-  "name": "composition",
-  "doc": "Apache Thrift IDL definition for the composition service interface\n",
+  "name": "ingredient",
+  "doc": "Apache Thrift IDL definition for the ingredient service interface\n",
   "namespaces": {
-    "*": "composition"
+    "*": "ingredient"
   },
   "includes": [
 "prop",
 "element",
-"substance"
+"substance",
+"composition"
   ],
   "enums": [
   ],
   "typedefs": [
     {
-      "name": "Compositions",
+      "name": "Ingredients",
       "typeId": "list",
       "type": {
         "typeId": "list",
         "elemTypeId": "struct",
         "elemType": {
           "typeId": "struct",
-          "class": "Composition"
+          "class": "Ingredient"
         }
       },
       "doc": "Definition of compositions (composition array) type\n"
@@ -28,8 +29,8 @@
   ],
   "structs": [
     {
-      "name": "Composition",
-      "doc": "Description of composition (chemical species, chemical component)\n",
+      "name": "Ingredient",
+      "doc": "Description of ingredient = aggregated compositions (e.g. rocks from real minerals)\n",
       "isException": false,
       "isUnion": false,
       "fields": [
@@ -37,14 +38,14 @@
           "key": 1,
           "name": "symbol",
           "typeId": "string",
-          "doc": "Unique name\/ID of this composition e.g. \"pw-bentonite\"\n",
+          "doc": "Unique name\/ID of this ingredient e.g. \"clinker\"\n",
           "required": "required"
         },
         {
           "key": 2,
           "name": "name",
           "typeId": "string",
-          "doc": "Name of the composition (e.g. \"bentonite porewater\")\n",
+          "doc": "Name of the ingredient (e.g. \"Portland cement clinker\")\n",
           "required": "req_out"
         },
         {
@@ -59,33 +60,33 @@
               "class": "element.ElementInfo"
             }
           },
-          "doc": "List of elements and their masses as basis of this composition\n",
+          "doc": "List of elements and their masses as basis of this ingredient\n",
           "required": "req_out"
         },
         {
           "key": 5,
-          "name": "pco",
+          "name": "ipco",
           "typeId": "map",
           "type": {
             "typeId": "map",
             "keyTypeId": "string",
             "valueTypeId": "double"
           },
-          "doc": "Composition in moles of elements (after calculation or from cformula if entered) as [ {\"Al\": 0.35}, {\"Ca\": 0.9} ... ]\n",
+          "doc": "Ingredient composition in moles of elements (after calculation from compositions) as [ {\"Al\": 0.35}, {\"Ca\": 0.9} ... ]\n",
           "required": "req_out"
         },
         {
           "key": 6,
-          "name": "cmMass",
+          "name": "icmMass",
           "typeId": "double",
-          "doc": "Mass per 1 mole of this pco \"mM\" in kg\/mol (calculated using the elements list)\n",
+          "doc": "Mass per 1 mole of this ipco \"mM\" in kg\/mol (calculated using the elements list)\n",
           "required": "req_out"
         },
         {
           "key": 7,
-          "name": "cformula",
+          "name": "icformula",
           "typeId": "string",
-          "doc": "Optionally: contents of pco generated as a single formula string\n",
+          "doc": "Optionally: contents of ipco generated as a single formula string\n",
           "required": "req_out"
         },
         {
@@ -203,18 +204,18 @@
         },
         {
           "key": 21,
-          "name": "qformulama",
+          "name": "qformulae",
           "typeId": "struct",
           "type": {
             "typeId": "struct",
             "class": "prop.CompositionFormulaAmountArray"
           },
-          "doc": "Optionally: Input quantities of user-defined formulae to add, can also be formulae of substances\n",
+          "doc": "Optionally: Input quantities of user-defined formulae to add, can also be formulae of compositions\n",
           "required": "optional"
         },
         {
           "key": 22,
-          "name": "qelementama",
+          "name": "iqelements",
           "typeId": "struct",
           "type": {
             "typeId": "struct",
@@ -260,7 +261,7 @@
     },
     {
       "name": "composdata",
-      "doc": "Work structure keeping the data to check\/calculate composition\n",
+      "doc": "Work structure keeping the data to check\/calculate ingredient compositions\n",
       "isException": false,
       "isUnion": false,
       "fields": [
@@ -298,13 +299,13 @@
         },
         {
           "key": 7,
-          "name": "Nfus",
+          "name": "Npco",
           "typeId": "i16",
           "required": "req_out"
         },
         {
           "key": 8,
-          "name": "fuams",
+          "name": "pcos",
           "typeId": "list",
           "type": {
             "typeId": "list",

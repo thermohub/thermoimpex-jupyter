@@ -9,6 +9,7 @@
 "element",
 "phase",
 "chemeqsysdef",
+"ingredient",
 "composition"
   ],
   "enums": [
@@ -267,7 +268,7 @@
             "typeId": "struct",
             "class": "prop.CompositionFormulaAmountArray"
           },
-          "doc": "Optionally: Input quantities of user-defined formulae to add, can also be formulae of compositions\n",
+          "doc": "Optionally: Input quantities of user-defined formulae to add, can also be formulae of compositions or ingredients\n",
           "required": "optional"
         },
         {
