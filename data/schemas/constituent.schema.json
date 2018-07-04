@@ -1,14 +1,13 @@
 {
-  "name": "ingredient",
-  "doc": "Apache Thrift IDL definition for the ingredient service interface\n",
+  "name": "constituent",
+  "doc": "Apache Thrift IDL definition of a constituent for the recipe service interface\n",
   "namespaces": {
-    "*": "ingredient"
+    "*": "constituent"
   },
   "includes": [
 "prop",
 "element",
-"substance",
-"constituent"
+"substance"
   ],
   "enums": [
   ],
@@ -16,8 +15,8 @@
   ],
   "structs": [
     {
-      "name": "Ingredient",
-      "doc": "Description of ingredient = aggregated compositions (e.g. rocks from real minerals)\n",
+      "name": "Constituent",
+      "doc": "Description of a composition constituent\n",
       "isException": false,
       "isUnion": false,
       "fields": [
@@ -25,26 +24,26 @@
           "key": 1,
           "name": "symbol",
           "typeId": "string",
-          "doc": "Ingredient symbol e.g. \"Solid\" or \"Aqueous\"\n",
+          "doc": "Unique name\/ID of this constituent e.g. \"pw-bentonite\"\n",
           "required": "required"
         },
         {
           "key": 2,
           "name": "comment",
           "typeId": "string",
-          "doc": "Name comment of the ingredient (e.g. \"Portland cement clinker powder\")\n",
+          "doc": "Full name of the constituent (e.g. \"bentonite porewater\")\n",
           "required": "req_out"
         },
         {
           "key": 3,
           "name": "composition",
           "typeId": "double",
-          "doc": "Composition contribution of this ingredient to the whole recipe\n",
+          "doc": "This information can also be delivered via the edge of type \"AddTo\"\n",
           "required": "req_out",
           "default": 0
         },
         {
-          "key": 4,
+          "key": 7,
           "name": "unitM",
           "typeId": "string",
           "doc": "Units\n",
@@ -52,7 +51,7 @@
           "default": "mol"
         },
         {
-          "key": 5,
+          "key": 8,
           "name": "volumDensity",
           "typeId": "double",
           "doc": "Volume or density\n",
@@ -60,7 +59,7 @@
           "default": 0
         },
         {
-          "key": 6,
+          "key": 9,
           "name": "unitV",
           "typeId": "string",
           "doc": "Units\n",
@@ -68,31 +67,15 @@
           "default": "kg\/m^3"
         },
         {
-          "key": 7,
+          "key": 10,
           "name": "reactionExtent",
           "typeId": "double",
-          "doc": "Extent of reaction, i.e. mass fraction of ingredient composition to equilibrate\n",
+          "doc": "Extent of reaction, i.e. mass fraction of constituent composition to equilibrate\n",
           "required": "req_out",
-          "default": 100
+          "default": 1
         },
         {
           "key": 11,
-          "name": "constituents",
-          "typeId": "map",
-          "type": {
-            "typeId": "map",
-            "keyTypeId": "string",
-            "valueTypeId": "struct",
-            "valueType": {
-              "typeId": "struct",
-              "class": "constituent.Constituent"
-            }
-          },
-          "doc": "List of constituents (solid, gaseous, aqueous)\n",
-          "required": "req_out"
-        },
-        {
-          "key": 12,
           "name": "formulae",
           "typeId": "map",
           "type": {
@@ -104,39 +87,50 @@
               "class": "prop.FormulaData"
             }
           },
-          "doc": "Shortcut: List of composing formulae e.g. Fe | Fe2O3 | Fe+2 , optional\n",
+          "doc": "can be extended using \"AddTo\" edges from substances\n",
           "required": "req_out"
         },
         {
-          "key": 21,
-          "name": "ibcObjectComputed",
+          "key": 15,
+          "name": "cbcObjectComputed",
           "typeId": "bool",
           "doc": "Indicator of calculation consistency\n",
           "required": "req_out",
           "default": 0
         },
         {
-          "key": 22,
-          "name": "ibcObject",
+          "key": 16,
+          "name": "cbcObject",
           "typeId": "map",
           "type": {
             "typeId": "map",
             "keyTypeId": "string",
             "valueTypeId": "double"
           },
-          "doc": "List of elements and their masses for this ingredient\n",
+          "doc": "List of elements and their amounts as a basis of this constituent composition\n",
           "required": "req_out",
           "default": {
             "O": 0
           }
         },
         {
-          "key": 23,
-          "name": "ibcMass",
+          "key": 17,
+          "name": "cbcMass",
           "typeId": "double",
-          "doc": "Mass of this ibcObject in kg\/mol (calculated using the elements list)\n",
+          "doc": "Mass of this cbcObject \"Mass\" in kg\/mol (calculated using the elements list)\n",
           "required": "req_out",
           "default": 0
+        },
+        {
+          "key": 20,
+          "name": "datasources",
+          "typeId": "set",
+          "type": {
+            "typeId": "set",
+            "elemTypeId": "string"
+          },
+          "doc": "Labels of datasource DB objects\n",
+          "required": "optional"
         }
       ]
     }

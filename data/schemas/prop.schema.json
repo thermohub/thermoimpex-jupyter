@@ -610,8 +610,8 @@
       ]
     },
     {
-      "name": "CompositionFormulaAmount",
-      "doc": "Composition formula amount\n",
+      "name": "FormulaData",
+      "doc": "Data for formula as part of the constituent\n",
       "isException": false,
       "isUnion": false,
       "fields": [
@@ -619,121 +619,81 @@
           "key": 1,
           "name": "formula",
           "typeId": "string",
-          "doc": "Any valid elemental formula e.g. SiO2\n",
-          "required": "req_out"
+          "doc": "Formula  e.g. \"Al\" or \"Al2O3\" or \"Al(OH)4-\"\n",
+          "required": "req_out",
+          "default": "O"
         },
         {
           "key": 2,
-          "name": "amounts",
-          "typeId": "list",
-          "type": {
-            "typeId": "list",
-            "elemTypeId": "double"
-          },
-          "doc": "Amounts of this formula (can be negative), Nfc numbers, default 0.0\n",
+          "name": "comment",
+          "typeId": "string",
+          "doc": "Comment for this formula (optional)\n",
           "required": "req_out"
         },
         {
           "key": 3,
-          "name": "units",
-          "typeId": "i32",
-          "doc": "Units of measurement, default MOLAMOUNT: enum validated with class MeasurementUnits\n",
-          "class": "MeasurementUnits",
+          "name": "composition",
+          "typeId": "double",
+          "doc": "Composition contribution of this formula to the whole constituent, ingredient or recipe\n",
           "required": "req_out",
           "default": 0
-        }
-      ]
-    },
-    {
-      "name": "CompositionFormulaAmountArray",
-      "doc": "Array of composition formula amounts\n",
-      "isException": false,
-      "isUnion": false,
-      "fields": [
-        {
-          "key": 1,
-          "name": "name",
-          "typeId": "string",
-          "doc": "Unique short name for the whole list such as rock1\n",
-          "required": "req_out"
-        },
-        {
-          "key": 2,
-          "name": "status",
-          "typeId": "list",
-          "type": {
-            "typeId": "list",
-            "elemTypeId": "i32"
-          },
-          "doc": "Status of values (ENTERED if edited etc.): enum validated with class ValueStatus\n",
-          "class": "ValueStatus",
-          "required": "req_out"
-        },
-        {
-          "key": 3,
-          "name": "cfav",
-          "typeId": "list",
-          "type": {
-            "typeId": "list",
-            "elemTypeId": "struct",
-            "elemType": {
-              "typeId": "struct",
-              "class": "CompositionFormulaAmount"
-            }
-          },
-          "doc": "Array of composition formula amounts\n",
-          "required": "req_out"
         },
         {
           "key": 4,
-          "name": "errors",
-          "typeId": "list",
-          "type": {
-            "typeId": "list",
-            "elemTypeId": "double"
-          },
-          "doc": "Errors (statistical confidence intervals)\n",
-          "required": "optional"
+          "name": "units",
+          "typeId": "string",
+          "doc": "Units of measurement for composition contribution\n",
+          "required": "req_out",
+          "default": "mol"
         },
         {
           "key": 5,
+          "name": "errorbracket",
+          "typeId": "double",
+          "doc": "Error of composition (statistical confidence intervals)\n",
+          "required": "req_out",
+          "default": 0
+        },
+        {
+          "key": 6,
           "name": "errortype",
-          "typeId": "list",
-          "type": {
-            "typeId": "list",
-            "elemTypeId": "i32"
-          },
-          "doc": "Type of statistical distribution of errors: enum validated with class ErrorDistribution\n",
-          "class": "ErrorDistribution",
-          "required": "optional"
-        },
-        {
-          "key": 7,
-          "name": "names",
-          "typeId": "list",
-          "type": {
-            "typeId": "list",
-            "elemTypeId": "string"
-          },
-          "doc": "Short names for each item in the list\n",
-          "required": "optional"
-        },
-        {
-          "key": 8,
-          "name": "Nfc",
           "typeId": "i32",
-          "doc": "Number of formula amounts per formula\n",
-          "required": "optional"
-        },
-        {
-          "key": 9,
-          "name": "list_size",
-          "typeId": "i32",
-          "doc": "Number of cfa objects (formulae)\n",
-          "required": "optional"
+          "doc": "Error of composition (statistical confidence intervals)\n",
+          "required": "req_out"
         },
         {
           "key": 10,
+          "name": "fbcObjectComputed",
+          "typeId": "bool",
+          "doc": "Indicator of calculation consistency\n",
+          "required": "req_out",
+          "default": 0
+        },
+        {
+          "key": 11,
+          "name": "fbcObject",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "string",
+            "valueTypeId": "double"
+          },
+          "doc": "List of elements and their amounts for this formula composition\n",
+          "required": "req_out",
+          "default": {
+            "O": 0
+          }
+        },
+        {
+          "key": 12,
+          "name": "fbcMass",
+          "typeId": "double",
+          "doc": "Mass of this fbcObject \"Mass\" in kg\/mol (calculated using ElementsInfo)\n",
+          "required": "req_out",
+          "default": 0
+        },
+        {
+          "key": 13,
           "name": "datasources",
           "typeId": "set",
           "type": {
@@ -742,13 +702,460 @@
           },
           "doc": "Short names of datasource database objects\n",
           "required": "optional"
+        }
+      ]
+    },
+    {
+      "name": "ScalingValues",
+      "doc": "Input scaling values for various concentration scales, with units of measurement\n",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "MolesTotal",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "double",
+            "valueTypeId": "string"
+          },
+          "doc": "Total moles for scaling of mole fractions etc.\n",
+          "required": "req_out",
+          "default": {
+            "1": "mol"
+          }
+        },
+        {
+          "key": 2,
+          "name": "PTotal",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "double",
+            "valueTypeId": "string"
+          },
+          "doc": "Total pressure for scaling partial pressures\n",
+          "required": "req_out",
+          "default": {
+            "0.1": "MPa"
+          }
+        },
+        {
+          "key": 3,
+          "name": "MWater",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "double",
+            "valueTypeId": "string"
+          },
+          "doc": "Total mass of water for scaling of molalities\n",
+          "required": "req_out",
+          "default": {
+            "1": "kg"
+          }
+        },
+        {
+          "key": 4,
+          "name": "VaqTotal",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "double",
+            "valueTypeId": "string"
+          },
+          "doc": "Total volume of aqueous solution for scaling of molarities\n",
+          "required": "req_out",
+          "default": {
+            "0.001": "m^3"
+          }
+        },
+        {
+          "key": 5,
+          "name": "Mass",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "double",
+            "valueTypeId": "string"
+          },
+          "doc": "Total mass for scaling of mass%, wt%, mass fractions\n",
+          "required": "req_out",
+          "default": {
+            "1": "kg"
+          }
+        },
+        {
+          "key": 6,
+          "name": "SurfMoles",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "double",
+            "valueTypeId": "string"
+          },
+          "doc": "Total amount of surface sites for scaling of surface site fractions\n",
+          "required": "req_out",
+          "default": {
+            "0.001": "mol"
+          }
+        },
+        {
+          "key": 7,
+          "name": "SurfMolal",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "double",
+            "valueTypeId": "string"
+          },
+          "doc": "Total molality of surface sites for scaling surface fractions\n",
+          "required": "req_out",
+          "default": {
+            "0.001": "molal"
+          }
+        },
+        {
+          "key": 8,
+          "name": "SurfArea",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "double",
+            "valueTypeId": "string"
+          },
+          "doc": "Total surface area for scaling surface area fractions\n",
+          "required": "req_out",
+          "default": {
+            "1": "m^2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "TDProperties",
+      "doc": "Thermodynamic properties (at equilibrium state) of phase (false) or whole system (true)\n",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "TDPtype",
+          "typeId": "bool",
+          "doc": "Type of data: phase (false) or whole system (true)\n",
+          "required": "req_out",
+          "default": 0
+        },
+        {
+          "key": 2,
+          "name": "aggrState",
+          "typeId": "i32",
+          "required": "req_out",
+          "default": 7
+        },
+        {
+          "key": 3,
+          "name": "conScale",
+          "typeId": "i32",
+          "doc": "Concentration scale (for phase species), C_UNITY for the whole system\n",
+          "required": "req_out",
+          "default": 0
         },
         {
           "key": 11,
-          "name": "comment",
-          "typeId": "string",
-          "doc": "Explanatory comment\n",
-          "required": "optional"
+          "name": "elements",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "string"
+          },
+          "doc": "List of symbols of elements (from chemsysdef)\n",
+          "required": "req_out"
+        },
+        {
+          "key": 12,
+          "name": "nel",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "double"
+          },
+          "doc": "List of bulk elemental composition in moles of elements\n",
+          "required": "req_out"
+        },
+        {
+          "key": 13,
+          "name": "mbrel",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "double"
+          },
+          "doc": "Mass balance residuals for elements\n",
+          "required": "req_out"
+        },
+        {
+          "key": 14,
+          "name": "uel",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "double"
+          },
+          "doc": "Chemical potentials of elements\n",
+          "required": "req_out"
+        },
+        {
+          "key": 21,
+          "name": "species",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "string"
+          },
+          "doc": "List of symbols of components (species)\n",
+          "required": "req_out"
+        },
+        {
+          "key": 22,
+          "name": "nsp",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "double"
+          },
+          "doc": "List of amounts of species in moles\n",
+          "required": "req_out"
+        },
+        {
+          "key": 23,
+          "name": "asp",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "double"
+          },
+          "doc": "List of activities of chemical species\n",
+          "required": "req_out"
+        },
+        {
+          "key": 24,
+          "name": "csp",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "double"
+          },
+          "doc": "List of concentrations of chemical species\n",
+          "required": "req_out"
+        },
+        {
+          "key": 25,
+          "name": "gsp",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "double"
+          },
+          "doc": "List of activity coefficients of chemical species\n",
+          "required": "req_out"
+        },
+        {
+          "key": 31,
+          "name": "Amount",
+          "typeId": "double",
+          "doc": "Total amount in mol\n",
+          "required": "req_out"
+        },
+        {
+          "key": 32,
+          "name": "Mass",
+          "typeId": "double",
+          "doc": "Mass in kg\n",
+          "required": "req_out"
+        },
+        {
+          "key": 33,
+          "name": "Volume",
+          "typeId": "double",
+          "doc": "Volume, m^3\n",
+          "required": "req_out"
+        },
+        {
+          "key": 34,
+          "name": "GibbsEnergy",
+          "typeId": "double",
+          "doc": "Total Gibbs energy, J\n",
+          "required": "req_out"
+        },
+        {
+          "key": 35,
+          "name": "HelmholtzEnergy",
+          "typeId": "double",
+          "doc": "Total Gibbs energy, J\n",
+          "required": "req_out"
+        },
+        {
+          "key": 36,
+          "name": "InternalEnergy",
+          "typeId": "double",
+          "doc": "Internal energy, J\n",
+          "required": "req_out"
+        },
+        {
+          "key": 37,
+          "name": "Enthalpy",
+          "typeId": "double",
+          "doc": "Enthalpy, J\n",
+          "required": "req_out"
+        },
+        {
+          "key": 38,
+          "name": "Entropy",
+          "typeId": "double",
+          "doc": "Entropy, J\/K\n",
+          "required": "req_out"
+        },
+        {
+          "key": 39,
+          "name": "HeatCapacity",
+          "typeId": "double",
+          "doc": "Heat capacity J\/K\n",
+          "required": "req_out"
+        },
+        {
+          "key": 40,
+          "name": "SI",
+          "typeId": "double",
+          "doc": "Stability index (phase) or GEM convergence criterion (system)\n",
+          "required": "req_out"
+        },
+        {
+          "key": 41,
+          "name": "Charge",
+          "typeId": "double",
+          "doc": "Total charge\n",
+          "required": "req_out"
+        },
+        {
+          "key": 43,
+          "name": "VolumeEx",
+          "typeId": "double",
+          "doc": "Excess volume of mixing, m3\/mol\n",
+          "required": "req_out"
+        },
+        {
+          "key": 44,
+          "name": "GibbsEnergyEx",
+          "typeId": "double",
+          "doc": "Excess Gibbs energy of mixing, J\/mol\n",
+          "required": "req_out"
+        },
+        {
+          "key": 47,
+          "name": "EnthalpyEx",
+          "typeId": "double",
+          "doc": "Enthalpy, J\/mol\n",
+          "required": "req_out"
+        },
+        {
+          "key": 48,
+          "name": "EntropyEx",
+          "typeId": "double",
+          "doc": "Entropy, J\/K\/mol\n",
+          "required": "req_out"
+        },
+        {
+          "key": 53,
+          "name": "VolumeId",
+          "typeId": "double",
+          "doc": "Volume of ideal mixing, m^3\/mol\n",
+          "required": "req_out"
+        },
+        {
+          "key": 54,
+          "name": "GibbsEnergyId",
+          "typeId": "double",
+          "doc": "Gibbs energy of ideal mixing, J\/mol\n",
+          "required": "req_out"
+        },
+        {
+          "key": 57,
+          "name": "EnthalpyId",
+          "typeId": "double",
+          "doc": "Enthalpy of ideal mixing, J\/mol\n",
+          "required": "req_out"
+        },
+        {
+          "key": 58,
+          "name": "EntropyId",
+          "typeId": "double",
+          "doc": "Entropy of ideal mixing, J\/K\/mol\n",
+          "required": "req_out"
+        },
+        {
+          "key": 63,
+          "name": "VolumeMix",
+          "typeId": "double",
+          "doc": "Volume of mixing, m^3\/mol\n",
+          "required": "req_out"
+        },
+        {
+          "key": 64,
+          "name": "GibbsEnergyMix",
+          "typeId": "double",
+          "doc": "Gibbs energy of mixing, J\/mol\n",
+          "required": "req_out"
+        },
+        {
+          "key": 67,
+          "name": "EnthalpyMix",
+          "typeId": "double",
+          "doc": "Enthalpy of mixing, J\/mol\n",
+          "required": "req_out"
+        },
+        {
+          "key": 68,
+          "name": "EntropyMix",
+          "typeId": "double",
+          "doc": "Entropy of mixing, J\/K\/mol\n",
+          "required": "req_out"
+        },
+        {
+          "key": 73,
+          "name": "VolumeRef",
+          "typeId": "double",
+          "doc": "Reference volume of mixing, m^3\/mol\n",
+          "required": "req_out"
+        },
+        {
+          "key": 74,
+          "name": "GibbsEnergyRef",
+          "typeId": "double",
+          "doc": "Reference Gibbs energy of mixing, J\/mol\n",
+          "required": "req_out"
+        },
+        {
+          "key": 77,
+          "name": "EnthalpyRef",
+          "typeId": "double",
+          "doc": "Reference enthalpy of mixing, J\/mol\n",
+          "required": "req_out"
+        },
+        {
+          "key": 78,
+          "name": "EntropyRef",
+          "typeId": "double",
+          "doc": "Reference entropy of mixing, J\/K\/mol\n",
+          "required": "req_out"
+        },
+        {
+          "key": 79,
+          "name": "HeatCapacityRef",
+          "typeId": "double",
+          "doc": "Reference heat capacity of mixing J\/K\/mol\n",
+          "required": "req_out"
         }
       ]
     }

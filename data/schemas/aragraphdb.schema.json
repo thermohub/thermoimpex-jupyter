@@ -15,7 +15,8 @@
 "interaction",
 "kineticrate",
 "phase",
-"composition",
+"constituent",
+"ingredient",
 "chemeqsysdef",
 "chemeqsysrecipe",
 "chemeqspeciation"
@@ -550,8 +551,8 @@
       ]
     },
     {
-      "name": "VertexComposition",
-      "doc": "Composition entity vertex document\n",
+      "name": "VertexConstituent",
+      "doc": "Composition constituent entity vertex document\n",
       "isException": false,
       "isUnion": false,
       "to_select": [ "5", "6.1", "6.2", "6.6", "6.7" ],
@@ -592,7 +593,7 @@
           "typeId": "string",
           "doc": "This label should be the same for all composition entities\n",
           "required": "required",
-          "default": "composition"
+          "default": "constituent"
         },
         {
           "key": 6,
@@ -600,9 +601,67 @@
           "typeId": "struct",
           "type": {
             "typeId": "struct",
-            "class": "composition.Composition"
+            "class": "constituent.Constituent"
           },
-          "doc": "properties of composition as embedded object\n",
+          "doc": "properties of composition constituent as embedded object\n",
+          "required": "req_out"
+        }
+      ]
+    },
+    {
+      "name": "VertexIngredient",
+      "doc": "Composition ingredient entity vertex document\n",
+      "isException": false,
+      "isUnion": false,
+      "to_select": [ "5", "6.1", "6.2", "6.6", "6.7" ],
+      "to_key": [ "properties.symbol" ],
+      "fields": [
+        {
+          "key": 1,
+          "name": "_id",
+          "typeId": "string",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
+          "required": "required"
+        },
+        {
+          "key": 2,
+          "name": "_key",
+          "typeId": "string",
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
+        },
+        {
+          "key": 3,
+          "name": "_rev",
+          "typeId": "string",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
+          "required": "required"
+        },
+        {
+          "key": 4,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "This field must contain \"vertex\"\n",
+          "required": "required",
+          "default": "vertex"
+        },
+        {
+          "key": 5,
+          "name": "_label",
+          "typeId": "string",
+          "doc": "This label should be the same for all composition entities\n",
+          "required": "required",
+          "default": "ingredient"
+        },
+        {
+          "key": 6,
+          "name": "properties",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "ingredient.Ingredient"
+          },
+          "doc": "properties of composition ingredient as embedded object\n",
           "required": "req_out"
         }
       ]
@@ -2490,14 +2549,14 @@
       ]
     },
     {
-      "name": "Adds",
-      "doc": "Edge: Adds (linking to substance or composition formula)\n",
+      "name": "AddTo",
+      "doc": "Edge: AddTo (linking to substance, constituent or ingredient formula)\n",
       "isException": false,
       "isUnion": false,
       "fields": [
         {
           "key": 1,
-          "name": "q",
+          "name": "composition",
           "typeId": "double",
           "required": "req_out"
         },
@@ -2507,12 +2566,19 @@
           "typeId": "string",
           "doc": "units of measurement for this quantity\n",
           "required": "req_out"
+        },
+        {
+          "key": 3,
+          "name": "mode",
+          "typeId": "bool",
+          "doc": "mode of addition: false: replacing \"composition\" field in the To vertex; true: adding to it\n",
+          "required": "req_out"
         }
       ]
     },
     {
-      "name": "EdgeAdds",
-      "doc": "Edge of type \"adds\" definition\n",
+      "name": "EdgeAddTo",
+      "doc": "Edge of type \"addto\" definition\n",
       "isException": false,
       "isUnion": false,
       "to_select": [ "7", "8.1", "8.2", "4", "5" ],
@@ -2566,7 +2632,7 @@
           "typeId": "string",
           "doc": "This label must be \"adds\"\n",
           "required": "required",
-          "default": "adds"
+          "default": "addto"
         },
         {
           "key": 8,
@@ -2574,7 +2640,7 @@
           "typeId": "struct",
           "type": {
             "typeId": "struct",
-            "class": "Adds"
+            "class": "AddTo"
           },
           "doc": "Properties of adds edge\n",
           "required": "req_out"
@@ -2582,8 +2648,8 @@
       ]
     },
     {
-      "name": "Collects",
-      "doc": "Edge: Colllects (linking to phases)\n",
+      "name": "Collect",
+      "doc": "Edge: Colllect (linking to phases)\n",
       "isException": false,
       "isUnion": false,
       "fields": [
@@ -2596,7 +2662,7 @@
       ]
     },
     {
-      "name": "EdgeCollects",
+      "name": "EdgeCollect",
       "doc": "Edge of type \"collects\" definition\n",
       "isException": false,
       "isUnion": false,
@@ -2651,7 +2717,7 @@
           "typeId": "string",
           "doc": "This label must be \"collects\"\n",
           "required": "required",
-          "default": "collects"
+          "default": "collect"
         },
         {
           "key": 8,
@@ -2659,7 +2725,7 @@
           "typeId": "struct",
           "type": {
             "typeId": "struct",
-            "class": "Collects"
+            "class": "Collect"
           },
           "doc": "Properties of collects edge\n",
           "required": "req_out"
@@ -3044,21 +3110,34 @@
     },
     {
       "name": "MadeOf",
-      "doc": "Edge: MadeOf (linking recipe to recipe)\n",
+      "doc": "Edge: MadeOf (linking recipe to recipe, constituent to constituent, etc.)\n",
       "isException": false,
       "isUnion": false,
       "fields": [
         {
           "key": 1,
-          "name": "mode",
+          "name": "composition",
+          "typeId": "double",
+          "required": "req_out"
+        },
+        {
+          "key": 2,
+          "name": "unit",
           "typeId": "string",
+          "doc": "units of measurement for this quantity\n",
+          "required": "req_out"
+        },
+        {
+          "key": 3,
+          "name": "mode",
+          "typeId": "bool",
           "required": "req_out"
         }
       ]
     },
     {
       "name": "EdgeMadeOf",
-      "doc": "Edge of type \"uses\" definition\n",
+      "doc": "Edge of type \"MadeOf\" definition\n",
       "isException": false,
       "isUnion": false,
       "to_select": [ "7", "8.1", "4", "5" ],
@@ -3225,16 +3304,26 @@
         },
         {
           "key": 10,
-          "name": "v_composition",
+          "name": "v_constituent",
           "typeId": "struct",
           "type": {
             "typeId": "struct",
-            "class": "VertexComposition"
+            "class": "VertexConstituent"
           },
           "required": "optional"
         },
         {
           "key": 11,
+          "name": "v_ingredient",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "VertexIngredient"
+          },
+          "required": "optional"
+        },
+        {
+          "key": 12,
           "name": "v_chemeqsysdef",
           "typeId": "struct",
           "type": {
@@ -3244,7 +3333,7 @@
           "required": "optional"
         },
         {
-          "key": 12,
+          "key": 13,
           "name": "v_chemeqsysrecipe",
           "typeId": "struct",
           "type": {
@@ -3254,7 +3343,7 @@
           "required": "optional"
         },
         {
-          "key": 13,
+          "key": 14,
           "name": "v_chemeqspeciation",
           "typeId": "struct",
           "type": {
@@ -3453,21 +3542,21 @@
         },
         {
           "key": 19,
-          "name": "e_adds",
+          "name": "e_addto",
           "typeId": "struct",
           "type": {
             "typeId": "struct",
-            "class": "EdgeAdds"
+            "class": "EdgeAddTo"
           },
           "required": "optional"
         },
         {
           "key": 20,
-          "name": "e_collects",
+          "name": "e_collect",
           "typeId": "struct",
           "type": {
             "typeId": "struct",
-            "class": "EdgeCollects"
+            "class": "EdgeCollect"
           },
           "required": "optional"
         },
