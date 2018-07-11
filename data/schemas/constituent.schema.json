@@ -52,7 +52,7 @@
         },
         {
           "key": 8,
-          "name": "volumDensity",
+          "name": "density",
           "typeId": "double",
           "doc": "Volume or density\n",
           "required": "req_out",
@@ -122,6 +122,17 @@
           "default": 0
         },
         {
+          "key": 19,
+          "name": "timeStamp",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "prop.TimeStamp"
+          },
+          "doc": "Timestamp\n",
+          "required": "optional"
+        },
+        {
           "key": 20,
           "name": "datasources",
           "typeId": "set",
@@ -131,6 +142,29 @@
           },
           "doc": "Labels of datasource DB objects\n",
           "required": "optional"
+        }
+      ]
+    },
+    {
+      "name": "Constituents",
+      "doc": "Definition of an array of constituents\n",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 2,
+          "name": "constituents",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "struct",
+            "elemType": {
+              "typeId": "struct",
+              "class": "Constituent"
+            }
+          },
+          "doc": "List of chemical composition constituents\n",
+          "required": "req_out"
         }
       ]
     }

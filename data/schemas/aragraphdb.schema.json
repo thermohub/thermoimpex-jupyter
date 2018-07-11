@@ -2317,18 +2317,34 @@
         {
           "key": 1,
           "name": "pc_type",
-          "typeId": "i32",
+          "class": "SubstanceClass",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "i32",
+            "valueTypeId": "string"
+          },
           "doc": "Type of phase component - validated by enum class SubstanceClass in prop\n",
           "required": "req_out",
-          "default": 0
+          "default": {
+            "0": "SC_COMPONENT"
+          }
         },
         {
           "key": 2,
           "name": "pc_conscale",
-          "typeId": "i32",
+          "class": "ConcentrationScale",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "i32",
+            "valueTypeId": "string"
+          },
           "doc": "Concentration scale used in this phase model of mixing\n",
           "required": "req_out",
-          "default": 0
+          "default": {
+            "0": "C_UNITY"
+          }
         },
         {
           "key": 3,
@@ -2339,10 +2355,7 @@
             "class": "prop.Item"
           },
           "doc": "Optional properties of this component in the phase e.g. Kielland ion radius\n",
-          "required": "req_out",
-          "default": {
-            "name": "PCP"
-          }
+          "required": "req_out"
         },
         {
           "key": 4,
@@ -2353,10 +2366,7 @@
             "class": "prop.Item"
           },
           "doc": "Optional parameters for the uptake kinetics model (UUCM)\n",
-          "required": "req_out",
-          "default": {
-            "name": "UUCMP"
-          }
+          "required": "req_out"
         }
       ]
     },
@@ -2365,7 +2375,6 @@
       "doc": "Edge of type \"component\" definition\n",
       "isException": false,
       "isUnion": false,
-      "to_select": [ "7", "8.1", "8.2", "4", "5" ],
       "fields": [
         {
           "key": 1,
@@ -2440,40 +2449,53 @@
         {
           "key": 1,
           "name": "sm_type",
-          "typeId": "i32",
+          "class": "SpeciesTypeRS",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "i32",
+            "valueTypeId": "string"
+          },
           "doc": "Type of edge - validated by enum class SpeciesTypeRS\n",
           "required": "req_out",
-          "default": 5
+          "default": {
+            "5": "SC_SITEMOIETY"
+          }
         },
         {
           "key": 2,
-          "name": "pc_props",
+          "name": "mo_pc_conscale",
+          "class": "ConcentrationScale",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "i32",
+            "valueTypeId": "string"
+          },
+          "doc": "Concentration scale used in this phase model of mixing for this moiety\n",
+          "required": "req_out",
+          "default": {
+            "8": "C_SITEFRACTION"
+          }
+        },
+        {
+          "key": 3,
+          "name": "site_index",
+          "typeId": "i16",
+          "doc": "Index of site (sublattice) to which this moiety is assigned\n",
+          "required": "req_out",
+          "default": 0
+        },
+        {
+          "key": 4,
+          "name": "mo_pc_props",
           "typeId": "struct",
           "type": {
             "typeId": "struct",
             "class": "prop.Item"
           },
           "doc": "Optional properties of this site moiety\n",
-          "required": "req_out",
-          "default": {
-            "name": "SMP"
-          }
-        },
-        {
-          "key": 3,
-          "name": "pc_conscale",
-          "typeId": "i32",
-          "doc": "Concentration scale used in this phase model of mixing for this moiety\n",
-          "required": "req_out",
-          "default": 8
-        },
-        {
-          "key": 4,
-          "name": "site_index",
-          "typeId": "i16",
-          "doc": "Index of site (sublattice) to which this moiety is assigned\n",
-          "required": "req_out",
-          "default": 0
+          "required": "req_out"
         }
       ]
     },

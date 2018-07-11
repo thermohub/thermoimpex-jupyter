@@ -62,18 +62,34 @@
         {
           "key": 3,
           "name": "csdtype",
-          "typeId": "i32",
+          "class": "csdType",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "i32",
+            "valueTypeId": "string"
+          },
           "doc": "Type of this chemical equilibrium calculation\n",
           "required": "req_out",
-          "default": 0
+          "default": {
+            "0": "CSD_GEM"
+          }
         },
         {
           "key": 4,
           "name": "cestype",
-          "typeId": "i32",
+          "class": "ChemEqSpeciationType",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "i32",
+            "valueTypeId": "string"
+          },
           "doc": "Type of this chemical equilibrium speciation\n",
           "required": "req_out",
-          "default": 0
+          "default": {
+            "0": "EQS_COMPLETE"
+          }
         },
         {
           "key": 5,
@@ -92,7 +108,13 @@
         {
           "key": 7,
           "name": "initialGuess",
-          "typeId": "i32",
+          "class": "InitialGuessType",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "i32",
+            "valueTypeId": "string"
+          },
           "doc": "Type of the initial guess used\n",
           "required": "req_out"
         },
@@ -123,7 +145,7 @@
           "typeId": "struct",
           "type": {
             "typeId": "struct",
-            "class": "prop.TDProperties"
+            "class": "prop.TDSProperties"
           },
           "doc": "Properties of the whole system\n",
           "required": "req_out"
@@ -137,7 +159,7 @@
             "elemTypeId": "struct",
             "elemType": {
               "typeId": "struct",
-              "class": "prop.TDProperties"
+              "class": "prop.TDSProperties"
             }
           },
           "doc": "Properties of phases-solutions\n",

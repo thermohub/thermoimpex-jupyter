@@ -368,24 +368,174 @@
           "doc": "Lagrange polynomial interpolation over logK(TP) array; ReacDC\n"
         }
       ]
+    },
+    {
+      "name": "SubstanceEoSMethodType",
+      "members": [
+        {
+          "name": "solute_eos_hkf88_gems",
+          "value": 0,
+          "doc": "Helgeson-Kirkham-Flowers (HKF) equation of state for aqueous species\n"
+        }
+      ]
     }
   ],
   "typedefs": [
-    {
-      "name": "Substances",
-      "typeId": "list",
-      "type": {
-        "typeId": "list",
-        "elemTypeId": "struct",
-        "elemType": {
-          "typeId": "struct",
-          "class": "Substance"
-        }
-      },
-      "doc": "Definition of Substance list (substances array) type\n"
-    }
   ],
   "structs": [
+    {
+      "name": "SubstanceEoSMethodData",
+      "doc": "Lagrange polynomial interpolation over logK(TP) array; ReacDC\n",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 1,
+          "name": "method",
+          "class": "SubstanceEoSMethodType",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "i32",
+            "valueTypeId": "string"
+          },
+          "doc": "Method type - validate with class SubstanceEoSMethodType\n",
+          "required": "req_out"
+        },
+        {
+          "key": 2,
+          "name": "limitsTP",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "prop.LimitsTP"
+          },
+          "doc": "TP limits of applicability\n",
+          "required": "req_out"
+        },
+        {
+          "key": 11,
+          "name": "m_heat_capacity_p_t_coeffs",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "prop.Item"
+          },
+          "doc": "Coefficients of Cp0(T) function per mole \"CpTc\"\n",
+          "required": "optional"
+        },
+        {
+          "key": 12,
+          "name": "m_volume_pt_coeffs",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "prop.Item"
+          },
+          "doc": "Coefficients of V0(T,P) function per mole \"VpTc\"\n",
+          "required": "optional"
+        },
+        {
+          "key": 13,
+          "name": "eos_hkf_coeffs",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "prop.Item"
+          },
+          "doc": "Coefficients of HKF EoS    \"HKFc\"\n",
+          "required": "optional"
+        },
+        {
+          "key": 14,
+          "name": "eos_ad_coeffs",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "prop.Item"
+          },
+          "doc": "Coefficients of Akinfiev-Diamond EoS \"ADmc\"\n",
+          "required": "optional"
+        },
+        {
+          "key": 15,
+          "name": "eos_bm_coeffs",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "prop.Item"
+          },
+          "doc": "Coefficients of Birch-Murnaghan EoS \"BMmc\"\n",
+          "required": "optional"
+        },
+        {
+          "key": 16,
+          "name": "eos_cg_coeffs",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "prop.Item"
+          },
+          "doc": "Churakov-Gottschalk EoS coefficients (max. 13) \"CGmc\"\n",
+          "required": "optional"
+        },
+        {
+          "key": 17,
+          "name": "eos_gas_crit_props",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "prop.Item"
+          },
+          "doc": "Critical properties for gas\/fluid CST EoS \"gcrp\"\n",
+          "required": "optional"
+        },
+        {
+          "key": 21,
+          "name": "m_phase_trans_props",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "prop.Item"
+          },
+          "doc": "Properties of phase transitions for minerals (Berman) Tr; Tft; tilt; l1,l2 \"Phtrp\"\n",
+          "required": "optional"
+        },
+        {
+          "key": 22,
+          "name": "m_lambda_trans_props",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "prop.Item"
+          },
+          "doc": "Properties of lambda transition for minerals Smax, Tlt \"Lamtrp\"\n",
+          "required": "optional"
+        },
+        {
+          "key": 23,
+          "name": "m_gibbs_energy_polynom",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "prop.Item"
+          },
+          "doc": "Polynomial coefficients for G0(T) in Calphad format (compatible with Maier-Kelly)\n",
+          "required": "optional"
+        },
+        {
+          "key": 35,
+          "name": "g0_pt_values",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "prop.PropertiesPTArray"
+          },
+          "doc": "Interpolation array for G0(P,T) values\n",
+          "required": "optional"
+        }
+      ]
+    },
     {
       "name": "Substance",
       "doc": "Description of a substance (chemical species, chemical component, site moiety)\n",
@@ -442,7 +592,7 @@
           "name": "standard_cscale",
           "typeId": "i32",
           "doc": "(Standard) concentration scale: enum validated with class ConcentrationScales\n",
-          "class": "ConcentrationScales",
+          "class": "ConcentrationScale",
           "required": "req_out"
         },
         {
@@ -484,10 +634,7 @@
             "class": "prop.Item"
           },
           "doc": "Standard-state density at Tst, Pst  \"d0\"  kg\/m3\n",
-          "required": "req_out",
-          "default": {
-            "name": "sDens"
-          }
+          "required": "req_out"
         },
         {
           "key": 15,
@@ -498,10 +645,7 @@
             "class": "prop.Item"
           },
           "doc": "Standard volume at Tst, Pst \"V0\" m3\/mol\n",
-          "required": "req_out",
-          "default": {
-            "name": "sV0"
-          }
+          "required": "req_out"
         },
         {
           "key": 16,
@@ -512,10 +656,7 @@
             "class": "prop.Item"
           },
           "doc": "Standard Gibbs energy at Tst, Pst  \"GO\" J\/mol\n",
-          "required": "req_out",
-          "default": {
-            "name": "sG0"
-          }
+          "required": "req_out"
         },
         {
           "key": 17,
@@ -526,10 +667,7 @@
             "class": "prop.Item"
           },
           "doc": "Standard enthalpy at Tst, Pst  \"H0\" J\/mol\n",
-          "required": "req_out",
-          "default": {
-            "name": "sH0"
-          }
+          "required": "req_out"
         },
         {
           "key": 18,
@@ -540,10 +678,7 @@
             "class": "prop.Item"
           },
           "doc": "Standard entropy of formation from elements at st.states \"S0f\" J\/K\/mol\n",
-          "required": "req_out",
-          "default": {
-            "name": "sSf"
-          }
+          "required": "req_out"
         },
         {
           "key": 19,
@@ -554,10 +689,7 @@
             "class": "prop.Item"
           },
           "doc": "Standard absolute entropy at Tst, Pst \"S0\" J\/K\/mol\n",
-          "required": "req_out",
-          "default": {
-            "name": "sS0"
-          }
+          "required": "req_out"
         },
         {
           "key": 20,
@@ -568,10 +700,7 @@
             "class": "prop.Item"
           },
           "doc": "Standard constant-pressure heat capacity at Tst, Pst \"Cp0\" J\/K\/mol\n",
-          "required": "req_out",
-          "default": {
-            "name": "sCp0"
-          }
+          "required": "req_out"
         },
         {
           "key": 21,
@@ -582,10 +711,7 @@
             "class": "prop.Item"
           },
           "doc": "Isothermal compressibility (for condensed substances)\n",
-          "required": "req_out",
-          "default": {
-            "name": "betaT"
-          }
+          "required": "req_out"
         },
         {
           "key": 22,
@@ -596,209 +722,43 @@
             "class": "prop.Item"
           },
           "doc": "Isobaric expansivity (for condensed substances)\n",
-          "required": "req_out",
-          "default": {
-            "name": "alphaP"
-          }
-        },
-        {
-          "key": 23,
-          "name": "method_genEoS",
-          "typeId": "i32",
-          "doc": "General method (or equation of state for both T and P correction), validate with class MethodGenEoS\n",
-          "class": "MethodGenEoS",
-          "required": "req_out"
-        },
-        {
-          "key": 24,
-          "name": "method_corrT",
-          "typeId": "i32",
-          "doc": "Method of temperature correction of thermodynamic properties, validate with class MethodCorrT\n",
-          "class": "MethodCorrT",
           "required": "req_out"
         },
         {
           "key": 25,
-          "name": "method_corrP",
-          "typeId": "i32",
-          "doc": "Method of pressure correction of thermodynamic properties validate with class MethodCorrP\n",
-          "class": "MethodCorrP",
+          "name": "TPMethods",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "struct",
+            "elemType": {
+              "typeId": "struct",
+              "class": "SubstanceEoSMethodData"
+            }
+          },
+          "doc": "One or more method codes and data for computing P,T corrections to standard properties\n",
           "required": "req_out"
         },
         {
           "key": 26,
           "name": "limitsTP",
-          "typeId": "map",
+          "typeId": "struct",
           "type": {
-            "typeId": "map",
-            "keyTypeId": "string",
-            "valueTypeId": "double"
+            "typeId": "struct",
+            "class": "prop.LimitsTP"
           },
-          "doc": "Lower and upper T, P limits for T,P corrections\n",
+          "doc": "Overall T,P limits for all methods involved\n",
           "required": "req_out",
           "default": {
+            "range": 0,
             "lowerT": 273.15,
             "upperT": 298.15,
-            "lowerP": 1,
+            "lowerP": 0.1,
             "upperP": 1000000
           }
         },
         {
-          "key": 27,
-          "name": "m_heat_capacity_p_t_coeffs",
-          "typeId": "struct",
-          "type": {
-            "typeId": "struct",
-            "class": "prop.Item"
-          },
-          "doc": "Coefficients of Cp0(T) function per mole \"CpTc\"\n",
-          "required": "optional",
-          "default": {
-            "name": "CpTc"
-          }
-        },
-        {
-          "key": 28,
-          "name": "m_volume_pt_coeffs",
-          "typeId": "struct",
-          "type": {
-            "typeId": "struct",
-            "class": "prop.Item"
-          },
-          "doc": "Coefficients of V0(T,P) function per mole \"VpTc\"\n",
-          "required": "optional",
-          "default": {
-            "name": "VpTc"
-          }
-        },
-        {
-          "key": 29,
-          "name": "eos_hkf_coeffs",
-          "typeId": "struct",
-          "type": {
-            "typeId": "struct",
-            "class": "prop.Item"
-          },
-          "doc": "Coefficients of HKF EoS    \"HKFc\"\n",
-          "required": "optional",
-          "default": {
-            "name": "HKFc"
-          }
-        },
-        {
-          "key": 30,
-          "name": "eos_ad_coeffs",
-          "typeId": "struct",
-          "type": {
-            "typeId": "struct",
-            "class": "prop.Item"
-          },
-          "doc": "Coefficients of Akinfiev-Diamond EoS \"ADmc\"\n",
-          "required": "optional",
-          "default": {
-            "name": "ADmc"
-          }
-        },
-        {
           "key": 31,
-          "name": "eos_bm_coeffs",
-          "typeId": "struct",
-          "type": {
-            "typeId": "struct",
-            "class": "prop.Item"
-          },
-          "doc": "Coefficients of Birch-Murnaghan EoS \"BMmc\"\n",
-          "required": "optional",
-          "default": {
-            "name": "BMmc"
-          }
-        },
-        {
-          "key": 32,
-          "name": "eos_cg_coeffs",
-          "typeId": "struct",
-          "type": {
-            "typeId": "struct",
-            "class": "prop.Item"
-          },
-          "doc": "Churakov-Gottschalk EoS coefficients (max. 13) \"CGmc\"\n",
-          "required": "optional",
-          "default": {
-            "name": "Empmc"
-          }
-        },
-        {
-          "key": 33,
-          "name": "eos_gas_crit_props",
-          "typeId": "struct",
-          "type": {
-            "typeId": "struct",
-            "class": "prop.Item"
-          },
-          "doc": "Critical properties for gas\/fluid CST EoS \"gcrp\"\n",
-          "required": "optional",
-          "default": {
-            "name": "gcrp"
-          }
-        },
-        {
-          "key": 34,
-          "name": "m_phase_trans_props",
-          "typeId": "struct",
-          "type": {
-            "typeId": "struct",
-            "class": "prop.Item"
-          },
-          "doc": "Properties of phase transitions for minerals (Berman) Tr; Tft; tilt; l1,l2 \"Phtrp\"\n",
-          "required": "optional",
-          "default": {
-            "name": "Phtrp"
-          }
-        },
-        {
-          "key": 35,
-          "name": "m_lambda_trans_props",
-          "typeId": "struct",
-          "type": {
-            "typeId": "struct",
-            "class": "prop.Item"
-          },
-          "doc": "Properties of lambda transition for minerals Smax, Tlt \"Lamtrp\"\n",
-          "required": "optional",
-          "default": {
-            "name": "Lamtrp"
-          }
-        },
-        {
-          "key": 36,
-          "name": "m_gibbs_energy_polynom",
-          "typeId": "struct",
-          "type": {
-            "typeId": "struct",
-            "class": "prop.Item"
-          },
-          "doc": "Polynomial coefficients for G0(T) in Calphad format (compatible with Maier-Kelly)\n",
-          "required": "optional",
-          "default": {
-            "name": "G0Tc"
-          }
-        },
-        {
-          "key": 37,
-          "name": "g0_pt_values",
-          "typeId": "struct",
-          "type": {
-            "typeId": "struct",
-            "class": "prop.PropertiesPTArray"
-          },
-          "doc": "Interpolation array for G0(P,T) values\n",
-          "required": "optional",
-          "default": {
-            "name": "G0pT"
-          }
-        },
-        {
-          "key": 38,
           "name": "surface_density",
           "typeId": "struct",
           "type": {
@@ -806,13 +766,10 @@
             "class": "prop.Item"
           },
           "doc": "Standard surface density and denticity (for surface species) \"surfd\"\n",
-          "required": "optional",
-          "default": {
-            "name": "surfd"
-          }
+          "required": "optional"
         },
         {
-          "key": 39,
+          "key": 32,
           "name": "aq_edh_props",
           "typeId": "struct",
           "type": {
@@ -820,21 +777,17 @@
             "class": "prop.Item"
           },
           "doc": "Individual properties for Debye-Hueckel-type aqueous activity \"EDHp\"\n",
-          "required": "optional",
-          "default": {
-            "name": "EDHp"
-          }
+          "required": "optional"
         },
         {
-          "key": 40,
+          "key": 35,
           "name": "comment",
           "typeId": "string",
           "doc": "Comment - e.g. who entered\/modified, ...\n",
-          "required": "optional",
-          "default": "comment (substance)"
+          "required": "optional"
         },
         {
-          "key": 41,
+          "key": 36,
           "name": "datasources",
           "typeId": "set",
           "type": {
@@ -845,7 +798,7 @@
           "required": "optional"
         },
         {
-          "key": 42,
+          "key": 37,
           "name": "time_stamp",
           "typeId": "struct",
           "type": {
@@ -854,6 +807,29 @@
           },
           "doc": "Timestamp when the record was created or modified\n",
           "required": "optional"
+        }
+      ]
+    },
+    {
+      "name": "Substances",
+      "doc": "Definition of an array of substances\n",
+      "isException": false,
+      "isUnion": false,
+      "fields": [
+        {
+          "key": 2,
+          "name": "substances",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "struct",
+            "elemType": {
+              "typeId": "struct",
+              "class": "Substance"
+            }
+          },
+          "doc": "List of CemGEMS chemical system recipes\n",
+          "required": "req_out"
         }
       ]
     },
@@ -880,7 +856,12 @@
         {
           "key": 3,
           "name": "class_",
-          "typeId": "i32",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "i32",
+            "valueTypeId": "string"
+          },
           "doc": "Class of substance: enum validated with class SubstanceClass\n",
           "class": "SubstanceClass",           
           "required": "req_out"
@@ -888,7 +869,12 @@
         {
           "key": 4,
           "name": "aggregate_state",
-          "typeId": "i32",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "i32",
+            "valueTypeId": "string"
+          },
           "doc": "(Standard) state of this substance: enum validated with class AggregateState\n",
           "class": "AggregateState", 
           "required": "req_out"
@@ -896,9 +882,14 @@
         {
           "key": 5,
           "name": "standard_cscale",
-          "typeId": "i32",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "i32",
+            "valueTypeId": "string"
+          },
           "doc": "(Standard) concentration scale: enum validated with class ConcentrationScales\n",
-          "class": "ConcentrationScales", 
+          "class": "ConcentrationScale", 
           "required": "req_out"
         },
         {
@@ -926,7 +917,12 @@
         {
           "key": 1,
           "name": "elemc",
-          "typeId": "i32",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "i32",
+            "valueTypeId": "string"
+          },
           "doc": "Class (type) of this element (independent component)\n",
           "required": "req_out"
         },
@@ -995,18 +991,21 @@
           "key": 12,
           "name": "elemid",
           "typeId": "i32",
+          "doc": "Element id\n",
           "required": "optional"
         },
         {
           "key": 13,
           "name": "symbol",
           "typeId": "string",
+          "doc": "element symbol\n",
           "required": "optional"
         },
         {
           "key": 14,
           "name": "formula",
           "typeId": "string",
+          "doc": "element (IComp) formula\n",
           "required": "optional"
         }
       ]
@@ -1108,7 +1107,7 @@
     },
     {
       "name": "ThermoPropertiesSubstance",
-      "doc": "Structure keeping the thermodynamic properites which can be calculated for a substance\n",
+      "doc": "Structure keeping thermodynamic properites that can be calculated at P,T for a substance\n",
       "isException": false,
       "isUnion": false,
       "fields": [

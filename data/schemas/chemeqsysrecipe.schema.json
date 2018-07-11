@@ -17,17 +17,17 @@
       "name": "SysRecipeType",
       "members": [
         {
-          "name": "FORWARD",
+          "name": "RCP_FORWARD",
           "value": 0,
           "doc": "Forward equilibrium modeling recipe - speciation from bulk composition, T and P\n"
         },
         {
-          "name": "INVERSE",
+          "name": "RCP_INVERSE",
           "value": 1,
           "doc": "Inverce modeling recipe - some activities, concentrations, ... known; bc, T, P to be determined\n"
         },
         {
-          "name": "OTHER_RCP",
+          "name": "RCP_OTHER",
           "value": 101,
           "doc": "Other types of recipe\n"
         }
@@ -58,52 +58,6 @@
   ],
   "structs": [
     {
-      "name": "SysRecipeTypeMap",
-      "isException": false,
-      "isUnion": false,
-      "fields": [
-        {
-          "key": 1,
-          "name": "RTmap",
-          "typeId": "map",
-          "type": {
-            "typeId": "map",
-            "keyTypeId": "i32",
-            "valueTypeId": "string"
-          },
-          "required": "req_out",
-          "default": {
-            "0": "RcpForward",
-            "1": "RcpInverse",
-            "101": "RcpOther"
-          }
-        }
-      ]
-    },
-    {
-      "name": "InitialGuessTypeMap",
-      "isException": false,
-      "isUnion": false,
-      "fields": [
-        {
-          "key": 1,
-          "name": "IGTmap",
-          "typeId": "map",
-          "type": {
-            "typeId": "map",
-            "keyTypeId": "i32",
-            "valueTypeId": "string"
-          },
-          "required": "req_out",
-          "default": {
-            "0": "StartCold",
-            "1": "StartWarm",
-            "101": "StartOther"
-          }
-        }
-      ]
-    },
-    {
       "name": "ChemEqSysRecipe",
       "doc": "should be connected to its parent ChemEqSysDef record via the edge \"Belongs\"\n",
       "isException": false,
@@ -126,16 +80,17 @@
         {
           "key": 4,
           "name": "recipeType",
+	  "class": "SysRecipeType",
           "typeId": "map",
           "type": {
             "typeId": "map",
             "keyTypeId": "i32",
             "valueTypeId": "string"
           },
-          "doc": "Type of this recipe\n",
+          "doc": "Type of this recipe - validate with class SysRecipeType\n",
           "required": "req_out",
           "default": {
-            "0": "RcpForward"
+            "0": "RCP_FORWARD"
           }
         },
         {
@@ -155,10 +110,10 @@
             "keyTypeId": "i32",
             "valueTypeId": "string"
           },
-          "doc": "Type of initial guess for GEMS3K to use\n",
+          "doc": "Type of initial guess for GEMS3K to use, validate with class InitialGuessType\n",
           "required": "req_out",
           "default": {
-            "0": "StartCold"
+            "0": "START_COLD"
           }
         },
         {
@@ -179,7 +134,7 @@
         },
         {
           "key": 9,
-          "name": "VolumDensity",
+          "name": "density",
           "typeId": "double",
           "doc": "Initial volume or density of the recipe\n",
           "required": "req_out",
@@ -416,7 +371,7 @@
     },
     {
       "name": "ChemEqSysRecipes",
-      "doc": "Definition of an array of recipes and data for chemical elements\n",
+      "doc": "Definition of an array of chemical system recipes\n",
       "isException": false,
       "isUnion": false,
       "fields": [
