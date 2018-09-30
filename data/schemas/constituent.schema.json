@@ -7,7 +7,8 @@
   "includes": [
 "prop",
 "element",
-"substance"
+"substance",
+"compound"
   ],
   "enums": [
   ],
@@ -36,22 +37,13 @@
         },
         {
           "key": 3,
-          "name": "composition",
-          "typeId": "double",
-          "doc": "This information can also be delivered via the edge of type \"AddTo\"\n",
-          "required": "req_out",
-          "default": 0
-        },
-        {
-          "key": 7,
-          "name": "unitM",
+          "name": "formula",
           "typeId": "string",
-          "doc": "Units\n",
-          "required": "req_out",
-          "default": "mol"
+          "doc": "Optional shortcut formula of 1 mole of this constituent e.g. Fe | Fe2O3 | Fe+2\n",
+          "required": "req_out"
         },
         {
-          "key": 8,
+          "key": 5,
           "name": "density",
           "typeId": "double",
           "doc": "Volume or density\n",
@@ -59,15 +51,60 @@
           "default": 0
         },
         {
-          "key": 9,
-          "name": "unitV",
+          "key": 6,
+          "name": "unit_d",
           "typeId": "string",
-          "doc": "Units\n",
+          "doc": "Units of density\n",
           "required": "req_out",
           "default": "kg\/m^3"
         },
         {
+          "key": 7,
+          "name": "ss_area",
+          "typeId": "double",
+          "doc": "Specific surface area\n",
+          "required": "req_out",
+          "default": 0
+        },
+        {
+          "key": 8,
+          "name": "unit_a",
+          "typeId": "string",
+          "doc": "Units for area\n",
+          "required": "req_out",
+          "default": "m^2\/kg"
+        },
+        {
+          "key": 9,
+          "name": "enthalpy",
+          "typeId": "double",
+          "doc": "Enthalpy content\n",
+          "required": "req_out"
+        },
+        {
           "key": 10,
+          "name": "unit_h",
+          "typeId": "string",
+          "doc": "Units of measurement for enthalpy\n",
+          "required": "req_out",
+          "default": "kJ\/kg"
+        },
+        {
+          "key": 11,
+          "name": "heat_capacity",
+          "typeId": "double",
+          "doc": "Heat capacity of this consituent in J\/K\/kg\n",
+          "required": "req_out"
+        },
+        {
+          "key": 12,
+          "name": "unit_cp",
+          "typeId": "string",
+          "required": "req_out",
+          "default": "J\/K\/kg"
+        },
+        {
+          "key": 13,
           "name": "reactionExtent",
           "typeId": "double",
           "doc": "Extent of reaction, i.e. mass fraction of constituent composition to equilibrate\n",
@@ -75,54 +112,60 @@
           "default": 1
         },
         {
-          "key": 11,
-          "name": "formulae",
-          "typeId": "map",
+          "key": 15,
+          "name": "compounds",
+          "typeId": "list",
           "type": {
-            "typeId": "map",
-            "keyTypeId": "string",
-            "valueTypeId": "struct",
-            "valueType": {
+            "typeId": "list",
+            "elemTypeId": "struct",
+            "elemType": {
               "typeId": "struct",
-              "class": "prop.FormulaData"
+              "class": "compound.Compound"
             }
           },
-          "doc": "can be extended using \"AddTo\" edges from substances\n",
+          "doc": "can be extended using \"AddTo\" edges from compounds or substances\n",
           "required": "req_out"
         },
         {
-          "key": 15,
-          "name": "cbcObjectComputed",
+          "key": 17,
+          "name": "bcComputed",
           "typeId": "bool",
           "doc": "Indicator of calculation consistency\n",
           "required": "req_out",
           "default": 0
         },
         {
-          "key": 16,
-          "name": "cbcObject",
-          "typeId": "map",
+          "key": 18,
+          "name": "bcObject",
+          "typeId": "list",
           "type": {
-            "typeId": "map",
-            "keyTypeId": "string",
-            "valueTypeId": "double"
+            "typeId": "list",
+            "elemTypeId": "struct",
+            "elemType": {
+              "typeId": "struct",
+              "class": "compound.bcObjectItem"
+            }
           },
-          "doc": "List of elements and their amounts as a basis of this constituent composition\n",
+          "doc": "List of elements and their masses as a basis of this constituent composition\n",
           "required": "req_out",
-          "default": {
-            "O": 0
-          }
+          "default": [
+            {
+              "el": "O",
+              "am": 0,
+              "ma": 0
+            }
+          ]
         },
         {
-          "key": 17,
-          "name": "cbcMass",
+          "key": 19,
+          "name": "bcMass",
           "typeId": "double",
           "doc": "Mass of this cbcObject \"Mass\" in kg\/mol (calculated using the elements list)\n",
           "required": "req_out",
           "default": 0
         },
         {
-          "key": 19,
+          "key": 21,
           "name": "timeStamp",
           "typeId": "struct",
           "type": {
@@ -133,7 +176,7 @@
           "required": "optional"
         },
         {
-          "key": 20,
+          "key": 22,
           "name": "datasources",
           "typeId": "set",
           "type": {

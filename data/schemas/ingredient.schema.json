@@ -8,6 +8,7 @@
 "prop",
 "element",
 "substance",
+"compound",
 "constituent"
   ],
   "enums": [
@@ -37,19 +38,17 @@
         },
         {
           "key": 3,
-          "name": "composition",
-          "typeId": "double",
-          "doc": "Composition contribution of this ingredient to the whole recipe\n",
-          "required": "req_out",
-          "default": 0
+          "name": "formula",
+          "typeId": "string",
+          "doc": "Optional shortcut formula of 1 mole of this constituent e.g. Fe | Fe2O3 | Fe+2\n",
+          "required": "req_out"
         },
         {
           "key": 4,
-          "name": "unitM",
-          "typeId": "string",
-          "doc": "Units\n",
-          "required": "req_out",
-          "default": "mol"
+          "name": "aggr_state",
+          "typeId": "i32",
+          "doc": "Assumed aggregate state of ingredient (class prop.AggregateState)\n",
+          "required": "req_out"
         },
         {
           "key": 5,
@@ -61,29 +60,73 @@
         },
         {
           "key": 6,
-          "name": "unitV",
+          "name": "unit_d",
           "typeId": "string",
-          "doc": "Units\n",
+          "doc": "Units of density\n",
           "required": "req_out",
           "default": "kg\/m^3"
         },
         {
           "key": 7,
+          "name": "ss_area",
+          "typeId": "double",
+          "doc": "Specific surface area\n",
+          "required": "req_out",
+          "default": 0
+        },
+        {
+          "key": 8,
+          "name": "unit_a",
+          "typeId": "string",
+          "doc": "Units for area\n",
+          "required": "req_out",
+          "default": "m^2\/kg"
+        },
+        {
+          "key": 9,
+          "name": "enthalpy",
+          "typeId": "double",
+          "doc": "Enthalpy content\n",
+          "required": "req_out"
+        },
+        {
+          "key": 10,
+          "name": "unit_h",
+          "typeId": "string",
+          "doc": "Units of measurement for enthalpy\n",
+          "required": "req_out",
+          "default": "kJ\/kg"
+        },
+        {
+          "key": 11,
+          "name": "heat_capacity",
+          "typeId": "double",
+          "doc": "Heat capacity of this consituent in J\/K\/kg\n",
+          "required": "req_out"
+        },
+        {
+          "key": 12,
+          "name": "unit_cp",
+          "typeId": "string",
+          "required": "req_out",
+          "default": "J\/K\/kg"
+        },
+        {
+          "key": 13,
           "name": "reactionExtent",
           "typeId": "double",
-          "doc": "Extent of reaction, i.e. mass fraction of ingredient composition to equilibrate\n",
+          "doc": "Extent of reaction, i.e. mass fraction of constituent composition to equilibrate\n",
           "required": "req_out",
           "default": 1
         },
         {
-          "key": 11,
+          "key": 15,
           "name": "constituents",
-          "typeId": "map",
+          "typeId": "list",
           "type": {
-            "typeId": "map",
-            "keyTypeId": "string",
-            "valueTypeId": "struct",
-            "valueType": {
+            "typeId": "list",
+            "elemTypeId": "struct",
+            "elemType": {
               "typeId": "struct",
               "class": "constituent.Constituent"
             }
@@ -92,23 +135,7 @@
           "required": "req_out"
         },
         {
-          "key": 12,
-          "name": "formulae",
-          "typeId": "map",
-          "type": {
-            "typeId": "map",
-            "keyTypeId": "string",
-            "valueTypeId": "struct",
-            "valueType": {
-              "typeId": "struct",
-              "class": "prop.FormulaData"
-            }
-          },
-          "doc": "Shortcut: List of composing formulae e.g. Fe | Fe2O3 | Fe+2 , optional\n",
-          "required": "req_out"
-        },
-        {
-          "key": 13,
+          "key": 16,
           "name": "scalval",
           "typeId": "struct",
           "type": {
@@ -119,38 +146,45 @@
           "required": "req_out"
         },
         {
-          "key": 21,
-          "name": "ibcObjectComputed",
+          "key": 17,
+          "name": "bcObjectComputed",
           "typeId": "bool",
           "doc": "Indicator of calculation consistency\n",
           "required": "req_out",
           "default": 0
         },
         {
-          "key": 22,
-          "name": "ibcObject",
-          "typeId": "map",
+          "key": 18,
+          "name": "bcObject",
+          "typeId": "list",
           "type": {
-            "typeId": "map",
-            "keyTypeId": "string",
-            "valueTypeId": "double"
+            "typeId": "list",
+            "elemTypeId": "struct",
+            "elemType": {
+              "typeId": "struct",
+              "class": "compound.bcObjectItem"
+            }
           },
           "doc": "List of elements and their masses for this ingredient\n",
           "required": "req_out",
-          "default": {
-            "O": 0
-          }
+          "default": [
+            {
+              "el": "O",
+              "am": 0,
+              "ma": 0
+            }
+          ]
         },
         {
-          "key": 23,
-          "name": "ibcMass",
+          "key": 19,
+          "name": "bcMass",
           "typeId": "double",
           "doc": "Mass of this ibcObject in kg\/mol (calculated using the elements list)\n",
           "required": "req_out",
           "default": 0
         },
         {
-          "key": 25,
+          "key": 21,
           "name": "timeStamp",
           "typeId": "struct",
           "type": {
@@ -158,6 +192,17 @@
             "class": "prop.TimeStamp"
           },
           "doc": "Timestamp\n",
+          "required": "optional"
+        },
+        {
+          "key": 22,
+          "name": "datasources",
+          "typeId": "set",
+          "type": {
+            "typeId": "set",
+            "elemTypeId": "string"
+          },
+          "doc": "Labels of datasource DB objects\n",
           "required": "optional"
         }
       ]

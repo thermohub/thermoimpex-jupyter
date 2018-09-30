@@ -10,7 +10,7 @@
 "phase",
 "chemeqsysdef",
 "ingredient",
-"constituent"
+"compound"
   ],
   "enums": [
     {
@@ -78,6 +78,13 @@
           "required": "req_out"
         },
         {
+          "key": 3,
+          "name": "formula",
+          "typeId": "string",
+          "doc": "Optional shortcut formula of 1 mole of this constituent e.g. Fe | Fe2O3 | Fe+2\n",
+          "required": "req_out"
+        },
+        {
           "key": 4,
           "name": "recipeType",
 	  "class": "SysRecipeType",
@@ -118,22 +125,30 @@
         },
         {
           "key": 7,
-          "name": "Composition",
+          "name": "reactionExtent",
+          "typeId": "double",
+          "doc": "Extent of reaction, i.e. mass fraction of constituent composition to equilibrate\n",
+          "required": "req_out",
+          "default": 1
+        },
+        {
+          "key": 11,
+          "name": "quantity",
           "typeId": "double",
           "doc": "Amount\/mass of the recipe material (to normalize the contributions from ingredients and formulae\n",
           "required": "req_out",
           "default": 1
         },
         {
-          "key": 8,
-          "name": "UnitM",
+          "key": 12,
+          "name": "unit_q",
           "typeId": "string",
           "doc": "Units\n",
           "required": "req_out",
           "default": "kg"
         },
         {
-          "key": 9,
+          "key": 13,
           "name": "density",
           "typeId": "double",
           "doc": "Initial volume or density of the recipe\n",
@@ -141,62 +156,98 @@
           "default": 0
         },
         {
-          "key": 10,
-          "name": "UnitV",
+          "key": 14,
+          "name": "unit_d",
           "typeId": "string",
           "doc": "Units\n",
           "required": "req_out",
           "default": "kg\/m^3"
         },
         {
-          "key": 11,
-          "name": "ReactionExtent",
+          "key": 15,
+          "name": "ss_area",
           "typeId": "double",
-          "doc": "Extent of hydration for the overall recipe mass in %% to equilibrate\n",
+          "doc": "Specific surface area\n",
           "required": "req_out",
-          "default": 100
+          "default": 0
         },
         {
-          "key": 12,
-          "name": "Pressure",
+          "key": 16,
+          "name": "unit_a",
+          "typeId": "string",
+          "doc": "Units for area\n",
+          "required": "req_out",
+          "default": "m^2\/kg"
+        },
+        {
+          "key": 17,
+          "name": "enthalpy",
+          "typeId": "double",
+          "doc": "Enthalpy content\n",
+          "required": "req_out"
+        },
+        {
+          "key": 18,
+          "name": "unit_h",
+          "typeId": "string",
+          "doc": "Units of measurement for enthalpy\n",
+          "required": "req_out",
+          "default": "kJ\/kg"
+        },
+        {
+          "key": 19,
+          "name": "heat_capacity",
+          "typeId": "double",
+          "doc": "Heat capacity of this consituent in J\/K\/kg\n",
+          "required": "req_out"
+        },
+        {
+          "key": 20,
+          "name": "unit_cp",
+          "typeId": "string",
+          "required": "req_out",
+          "default": "J\/K\/kg"
+        },
+        {
+          "key": 21,
+          "name": "pressure",
           "typeId": "double",
           "doc": "Total pressure P\n",
           "required": "req_out",
           "default": 0.1
         },
         {
-          "key": 13,
-          "name": "UnitP",
+          "key": 22,
+          "name": "unit_p",
           "typeId": "string",
           "doc": "Units of pressure\n",
           "required": "req_out",
           "default": "MPa"
         },
         {
-          "key": 14,
-          "name": "Temperature",
+          "key": 23,
+          "name": "temperature",
           "typeId": "double",
           "doc": "Total temperature P\n",
           "required": "req_out",
           "default": 25
         },
         {
-          "key": 15,
-          "name": "UnitT",
+          "key": 24,
+          "name": "unit_t",
           "typeId": "string",
           "doc": "Units of temperature\n",
           "required": "req_out",
           "default": "degC"
         },
         {
-          "key": 17,
+          "key": 27,
           "name": "ingredients",
-          "typeId": "map",
+          "typeId": "list",
           "type": {
-            "typeId": "map",
-            "keyTypeId": "string",
-            "valueTypeId": "struct",
-            "valueType": {
+            "typeId": "list",
+            "elemTypeId": "struct",
+            "elemType": {
               "typeId": "struct",
               "class": "ingredient.Ingredient"
             }
@@ -205,23 +256,7 @@
           "required": "req_out"
         },
         {
-          "key": 18,
-          "name": "formulae",
-          "typeId": "map",
-          "type": {
-            "typeId": "map",
-            "keyTypeId": "string",
-            "valueTypeId": "struct",
-            "valueType": {
-              "typeId": "struct",
-              "class": "prop.FormulaData"
-            }
-          },
-          "doc": "can be extended using \"AddTo\" edges from substances\n",
-          "required": "req_out"
-        },
-        {
-          "key": 30,
+          "key": 29,
           "name": "scalvals",
           "typeId": "struct",
           "type": {
@@ -232,7 +267,53 @@
           "required": "req_out"
         },
         {
+          "key": 31,
+          "name": "bcObjectComputed",
+          "typeId": "bool",
+          "doc": "Indicator of calculation consistency\n",
+          "required": "req_out",
+          "default": 0
+        },
+        {
+          "key": 32,
+          "name": "bcObject",
+          "typeId": "list",
+          "type": {
+            "typeId": "list",
+            "elemTypeId": "struct",
+            "elemType": {
+              "typeId": "struct",
+              "class": "compound.bcObjectItem"
+            }
+          },
+          "doc": "List of elements and their amounts for this recipe [ {\"Al\": 0.35}, {\"Ca\": 0.9} ...\n",
+          "required": "req_out",
+          "default": [
+            {
+              "el": "O",
+              "am": 0,
+              "ma": 0
+            }
+          ]
+        },
+        {
           "key": 33,
+          "name": "bcMass",
+          "typeId": "double",
+          "doc": "Mass of this rbcObject \"Mass\" in kg\/mol (calculated using the elements list)\n",
+          "required": "req_out",
+          "default": 0
+        },
+        {
+          "key": 35,
+          "name": "eqStateComputed",
+          "typeId": "bool",
+          "doc": "Indicator of equilibrium calculation consistency\n",
+          "required": "req_out",
+          "default": 0
+        },
+        {
+          "key": 41,
           "name": "initialSpeciation",
           "typeId": "map",
           "type": {
@@ -244,7 +325,7 @@
           "required": "req_out"
         },
         {
-          "key": 35,
+          "key": 43,
           "name": "sKinUpper",
           "typeId": "map",
           "type": {
@@ -256,7 +337,7 @@
           "required": "req_out"
         },
         {
-          "key": 36,
+          "key": 44,
           "name": "sKinLower",
           "typeId": "map",
           "type": {
@@ -268,7 +349,7 @@
           "required": "req_out"
         },
         {
-          "key": 37,
+          "key": 45,
           "name": "pKinUpper",
           "typeId": "map",
           "type": {
@@ -280,7 +361,7 @@
           "required": "req_out"
         },
         {
-          "key": 38,
+          "key": 46,
           "name": "pKinLower",
           "typeId": "map",
           "type": {
@@ -292,46 +373,7 @@
           "required": "req_out"
         },
         {
-          "key": 41,
-          "name": "rbcObjectComputed",
-          "typeId": "bool",
-          "doc": "Indicator of calculation consistency\n",
-          "required": "req_out",
-          "default": 0
-        },
-        {
-          "key": 42,
-          "name": "rbcObject",
-          "typeId": "map",
-          "type": {
-            "typeId": "map",
-            "keyTypeId": "string",
-            "valueTypeId": "double"
-          },
-          "doc": "List of elements and their amounts for this recipe [ {\"Al\": 0.35}, {\"Ca\": 0.9} ...\n",
-          "required": "req_out",
-          "default": {
-            "O": 0
-          }
-        },
-        {
-          "key": 43,
-          "name": "rbcMass",
-          "typeId": "double",
-          "doc": "Mass of this rbcObject \"Mass\" in kg\/mol (calculated using the elements list)\n",
-          "required": "req_out",
-          "default": 0
-        },
-        {
-          "key": 44,
-          "name": "eqStateComputed",
-          "typeId": "bool",
-          "doc": "Indicator of equilibrium calculation consistency\n",
-          "required": "req_out",
-          "default": 0
-        },
-        {
-          "key": 45,
+          "key": 49,
           "name": "timeStamp",
           "typeId": "struct",
           "type": {
@@ -342,22 +384,7 @@
           "required": "req_out"
         },
         {
-          "key": 51,
-          "name": "pskparams",
-          "typeId": "list",
-          "type": {
-            "typeId": "list",
-            "elemTypeId": "struct",
-            "elemType": {
-              "typeId": "struct",
-              "class": "phase.SurfKin"
-            }
-          },
-          "doc": "List of parameters for surfaces and kinetics for phases\n",
-          "required": "optional"
-        },
-        {
-          "key": 52,
+          "key": 50,
           "name": "datasources",
           "typeId": "set",
           "type": {
