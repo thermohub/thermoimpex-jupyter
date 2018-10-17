@@ -65,9 +65,64 @@
       "name": "ReactionEoSMethodType",
       "members": [
         {
-          "name": "solute_eos_Ryzhenko_gems",
+          "name": "logk_fpt_function",
           "value": 0,
+          "doc": "calculation of logK of reactions as they depend functionally on P and T; ReacDC\n"
+        },
+        {
+          "name": "adsor_ion_exchange",
+          "value": 1,
+          "doc": "calculations via adsorption or ion exchange constants, using LFER correlations; ReacDC (reserved)\n"
+        },
+        {
+          "name": "logk_nordstrom_munoz88",
+          "value": 2,
+          "doc": "calculation from empirical function logK=f(T) (Nordstrom and Munoz, 1988); ReacDC only\n"
+        },
+        {
+          "name": "logk_1_term_extrap0",
+          "value": 3,
+          "doc": "one-term extrapolation assuming dHr=0 and logK=const; ReacDC\n"
+        },
+        {
+          "name": "logk_1_term_extrap1",
+          "value": 4,
+          "doc": "one-term extrapolation assuming dGr=const (Gu et al., 1994); ReacDC\n"
+        },
+        {
+          "name": "logk_2_term_extrap",
+          "value": 5,
+          "doc": "two-term extrapolation; ReacDC only\n"
+        },
+        {
+          "name": "logk_3_term_extrap",
+          "value": 6,
+          "doc": "three-term extrapolation assuming dCpr=const; ReacDC\n"
+        },
+        {
+          "name": "logk_lagrange_interp",
+          "value": 7,
+          "doc": "Lagrange polynomial interpolation over logK(TP) array; ReacDC\n"
+        },
+        {
+          "name": "logk_marshall_frank78",
+          "value": 8,
+          "doc": "calculation of logK=f(T,P) from density equation (Marshall and Franck, 1978); ReacDC\n"
+        },
+        {
+          "name": "solute_eos_ryzhenko_gems",
+          "value": 9,
           "doc": "calculation of logK=f(T,P) with modified Ryzhenko-Bryzgalin model\n"
+        },
+        {
+          "name": "dr_heat_capacity_ft",
+          "value": 10,
+          "doc": "calculation of reaction properties from empirical from 5-term Cp(T); ReacDC\n"
+        },
+        {
+          "name": "dr_volume_fpt",
+          "value": 11,
+          "doc": "calculation of reaction properties from empirical V(P,T); ReacDC\n"
         }
       ]
     },
@@ -117,7 +172,7 @@
             "valueTypeId": "string"
           },
           "doc": "Method type - validate with class SubstanceEoSMethodType\n",
-          "class": "SubstanceEoSMethodType",
+          "class": "ReactionEoSMethodType",
           "required": "req_out"
         },
         {
@@ -132,6 +187,17 @@
           "required": "req_out"
         },
         {
+          "key": 3,
+          "name": "logk_pt_values",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "prop.PropertiesPTArray"
+          },
+          "doc": "Interpolation array for logK(P,T) values\n",
+          "required": "optional"
+        },
+        {
           "key": 11,
           "name": "logk_ft_coeffs",
           "typeId": "struct",
@@ -144,18 +210,7 @@
         },
         {
           "key": 12,
-          "name": "logk_pt_values",
-          "typeId": "struct",
-          "type": {
-            "typeId": "struct",
-            "class": "prop.PropertiesPTArray"
-          },
-          "doc": "Interpolation array for logK(P,T) values\n",
-          "required": "optional"
-        },
-        {
-          "key": 13,
-          "name": "dr_heat_capacity_p_t_coeffs",
+          "name": "dr_heat_capacity_ft_coeffs",
           "typeId": "struct",
           "type": {
             "typeId": "struct",
@@ -165,8 +220,8 @@
           "required": "optional"
         },
         {
-          "key": 14,
-          "name": "dr_volume_pt_coeffs",
+          "key": 13,
+          "name": "dr_volume_fpt_coeffs",
           "typeId": "struct",
           "type": {
             "typeId": "struct",
@@ -176,8 +231,8 @@
           "required": "optional"
         },
         {
-          "key": 15,
-          "name": "dr_sm_rb_coeffs",
+          "key": 14,
+          "name": "dr_ryzhenko_coeffs",
           "typeId": "struct",
           "type": {
             "typeId": "struct",
@@ -187,8 +242,8 @@
           "required": "optional"
         },
         {
-          "key": 16,
-          "name": "dr_dm_fm_coeffs",
+          "key": 15,
+          "name": "dr_marshall_franck_coeffs",
           "typeId": "struct",
           "type": {
             "typeId": "struct",
