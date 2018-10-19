@@ -250,6 +250,17 @@
           "required": "optional"
         },
         {
+          "key": 4,
+          "name": "datasources",
+          "typeId": "set",
+          "type": {
+            "typeId": "set",
+            "elemTypeId": "string"
+          },
+          "doc": "Labels of datasource DB objects\n",
+          "required": "optional"
+        },
+        {
           "key": 10,
           "name": "m_gibbs_energy_ft_polynom",
           "typeId": "struct",
@@ -388,7 +399,12 @@
         {
           "key": 2,
           "name": "sourcetdb",
-          "typeId": "i32",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "i32",
+            "valueTypeId": "string"
+          },
           "doc": "Source TDB: enum validated with class SourceTDB\n",
           "class": "SourceTDB",
           "required": "required"
@@ -410,7 +426,12 @@
         {
           "key": 6,
           "name": "class_",
-          "typeId": "i32",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "i32",
+            "valueTypeId": "string"
+          },
           "doc": "Class of substance: enum validated with class SubstanceClass\n",
           "class": "SubstanceClass",
           "required": "req_out"
@@ -418,7 +439,12 @@
         {
           "key": 8,
           "name": "aggregate_state",
-          "typeId": "i32",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "i32",
+            "valueTypeId": "string"
+          },
           "doc": "(Standard) state of this substance: enum validated with class AggregateState\n",
           "class": "AggregateState",
           "required": "req_out"
@@ -426,7 +452,12 @@
         {
           "key": 9,
           "name": "standard_cscale",
-          "typeId": "i32",
+          "typeId": "map",
+          "type": {
+            "typeId": "map",
+            "keyTypeId": "i32",
+            "valueTypeId": "string"
+          },
           "doc": "(Standard) concentration scale: enum validated with class ConcentrationScales\n",
           "class": "ConcentrationScale",
           "required": "req_out"
