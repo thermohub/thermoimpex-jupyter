@@ -30,6 +30,11 @@
           "name": "CALCULATED",
           "value": 3,
           "doc": "Value calculated\n"
+        },
+        {
+          "name": "IMPORTED",
+          "value": 4,
+          "doc": "Value imported from external sources\n"
         }
       ]
     },
@@ -320,9 +325,15 @@
           "typeId": "list",
           "type": {
             "typeId": "list",
-            "elemTypeId": "i32"
+            "elemTypeId": "map",
+            "elemType": {
+              "typeId": "map",
+              "keyTypeId": "i32",
+              "valueTypeId": "string"
+            }
           },
           "doc": "Status of values (ENTERED if edited etc.): enum validate with class ValueStatus\n",
+	  "class": "ValueStatus",
           "required": "optional"
         },
         {
@@ -342,7 +353,12 @@
           "typeId": "list",
           "type": {
             "typeId": "list",
-            "elemTypeId": "i32"
+            "elemTypeId": "map",
+            "elemType": {
+              "typeId": "map",
+              "keyTypeId": "i32",
+              "valueTypeId": "string"
+            }
           },
           "doc": "Type of statistical distribution of errors: enum validate with class ErrorDistribution\n",
           "class": "ErrorDistribution",
@@ -586,7 +602,12 @@
           "typeId": "list",
           "type": {
             "typeId": "list",
-            "elemTypeId": "i32"
+            "elemTypeId": "map",
+            "elemType": {
+              "typeId": "map",
+              "keyTypeId": "i32",
+              "valueTypeId": "string"
+            }
           },
           "doc": "Type of statistical distribution of errors: enum validated with class ErrorDistribution\n",
           "class": "ErrorDistribution",
