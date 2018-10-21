@@ -312,13 +312,20 @@
         },
         {
           "key": 4,
+          "name": "equation",
+          "typeId": "string",
+          "doc": "Equation of the reaction (not compulsory)\n",
+          "required": "req_out"
+        },
+        {
+          "key": 5,
           "name": "name",
           "typeId": "string",
           "doc": "Name of the reaction (comment, not compulsory)\n",
           "required": "req_out"
         },
         {
-          "key": 5,
+          "key": 6,
           "name": "reactyp",
           "typeId": "map",
           "type": {
@@ -334,7 +341,7 @@
           }
         },
         {
-          "key": 6,
+          "key": 7,
           "name": "Tst",
           "typeId": "double",
           "doc": "Reference temperature for standard state (usually 298.15 K)\n",
@@ -342,7 +349,7 @@
           "default": 298.15
         },
         {
-          "key": 7,
+          "key": 8,
           "name": "Pst",
           "typeId": "double",
           "doc": "Reference pressure (usually 1 bar = 10^5 Pa, sometimes 1.013 bar = 1 atm\n",
@@ -350,7 +357,7 @@
           "default": 100000
         },
         {
-          "key": 11,
+          "key": 9,
           "name": "logKr",
           "typeId": "struct",
           "type": {
@@ -361,7 +368,7 @@
           "required": "req_out"
         },
         {
-          "key": 12,
+          "key": 10,
           "name": "drsm_volume",
           "typeId": "struct",
           "type": {
@@ -372,7 +379,7 @@
           "required": "req_out"
         },
         {
-          "key": 13,
+          "key": 11,
           "name": "drsm_gibbs_energy",
           "typeId": "struct",
           "type": {
@@ -383,7 +390,7 @@
           "required": "req_out"
         },
         {
-          "key": 14,
+          "key": 12,
           "name": "drsm_enthalpy",
           "typeId": "struct",
           "type": {
@@ -394,7 +401,7 @@
           "required": "req_out"
         },
         {
-          "key": 15,
+          "key": 13,
           "name": "drsm_entropy",
           "typeId": "struct",
           "type": {
@@ -405,7 +412,7 @@
           "required": "req_out"
         },
         {
-          "key": 16,
+          "key": 14,
           "name": "drsm_heat_capacity_p",
           "typeId": "struct",
           "type": {
@@ -476,13 +483,6 @@
           },
           "doc": "Timestamp (\n",
           "required": "optional"
-        },
-        {
-          "key": 28,
-          "name": "equation",
-          "typeId": "string",
-          "doc": "Equation of the reaction (not compulsory)\n",
-          "required": "req_out"
         },
         {
           "key": 29,
