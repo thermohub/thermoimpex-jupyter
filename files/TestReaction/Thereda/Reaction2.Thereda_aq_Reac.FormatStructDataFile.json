@@ -2,6 +2,7 @@
     "block": {
         "defaults": {
             "properties.sourcetdb": "{\"12\" :   \"THEREDA\"}",
+            "properties.TPMethods": "[{},{}]",
             "properties.reactyp": "{\"12\" :   \"FE_FORMATION\"}",
             "properties.drsm_gibbs_energy": "{\"units\": [\"J/mol\"]}",
             "properties.drsm_enthalpy": "{\"units\": [\"J/mol\"]}",
@@ -29,83 +30,17 @@
             "DataStandard.4.value": {
                 "field": "properties.drsm_gibbs_energy.values"
             },
-            "DataStandard.0.positiveunc": {
+            "DataStandard.4.positiveunc": {
                 "field": "properties.drsm_gibbs_energy.errors"
             },
-            "DataStandard.0.reference_1": {
+            "DataStandard.4.reference_1": {
                 "field": "properties.drsm_gibbs_energy.datasources.0"
             },
-            "DataStandard.0.reference_2": {
+            "DataStandard.4.reference_2": {
                 "field": "properties.drsm_gibbs_energy.datasources.1"
             },
-            "DataStandard.0.unctype": {
-                "field": "properties.drsm_gibbs_energy.errortypes",
-                "convert": {
-                    "Gauss2s": "{\"0\" :   \"NORMAL\"}"
-                }
-            },
-            "DataStandard.1.positiveunc": {
-                "field": "properties.drsm_enthalpy.errors"
-            },
-            "DataStandard.1.reference_1": {
-                "field": "properties.drsm_enthalpy.datasources.0"
-            },
-            "DataStandard.1.reference_2": {
-                "field": "properties.drsm_enthalpy.datasources.1"
-            },
-            "DataStandard.1.unctype": {
-                "field": "properties.drsm_enthalpy.errortypes",
-                "convert": {
-                    "Gauss2s": "{\"0\" :   \"NORMAL\"}"
-                }
-            },
-            "DataStandard.2.positiveunc": {
-                "field": "properties.drsm_entropy_abs.errors"
-            },
-            "DataStandard.2.reference_1": {
-                "field": "properties.drsm_entropy_abs.datasources.0"
-            },
-            "DataStandard.2.reference_2": {
-                "field": "properties.drsm_entropy_abs.datasources.1"
-            },
-            "DataStandard.2.unctype": {
-                "field": "properties.drsm_entropy_abs.errortypes",
-                "convert": {
-                    "Gauss2s": "{\"0\" :   \"NORMAL\"}"
-                }
-            },
-            "DataStandard.3.positiveunc": {
-                "field": "properties.drsm_heat_capacity_p.errors"
-            },
-            "DataStandard.3.reference_1": {
-                "field": "properties.drsm_heat_capacity_p.datasources.0"
-            },
-            "DataStandard.3.reference_2": {
-                "field": "properties.drsm_heat_capacity_p.datasources.1"
-            },
-            "DataStandard.3.unctype": {
-                "field": "properties.drsm_heat_capacity_p.errortypes",
-                "convert": {
-                    "Gauss2s": "{\"0\" :   \"NORMAL\"}"
-                }
-            },
-            "DataStandard.4.datatype": {
-                "field": "properties.drsm_volume.name"
-            },
-            "DataStandard.4.value": {
-                "field": "properties.drsm_volume.values"
-            },
-            "DataStandard.4.positiveunc": {
-                "field": "properties.drsm_volume.errors"
-            },
-            "DataStandard.4.reference_1": {
-                "field": "properties.drsm_volume.datasources.0"
-            },
-            "DataStandard.4.reference_2": {
-                "field": "properties.drsm_volume.datasources.1"
-            },
             "DataStandard.4.unctype": {
-                "field": "properties.drsm_volume.errortypes",
+                "field": "properties.drsm_gibbs_energy.errortypes",
                 "convert": {
                     "Gauss2s": "{\"0\" :   \"NORMAL\"}"
                 }
@@ -116,83 +51,17 @@
             "DataStandard.5.value": {
                 "field": "properties.drsm_enthalpy.values"
             },
-            "DataStandard.0.positiveunc": {
-                "field": "properties.drsm_gibbs_energy.errors"
-            },
-            "DataStandard.0.reference_1": {
-                "field": "properties.drsm_gibbs_energy.datasources.0"
-            },
-            "DataStandard.0.reference_2": {
-                "field": "properties.drsm_gibbs_energy.datasources.1"
-            },
-            "DataStandard.0.unctype": {
-                "field": "properties.drsm_gibbs_energy.errortypes",
-                "convert": {
-                    "Gauss2s": "{\"0\" :   \"NORMAL\"}"
-                }
-            },
-            "DataStandard.1.positiveunc": {
+            "DataStandard.5.positiveunc": {
                 "field": "properties.drsm_enthalpy.errors"
             },
-            "DataStandard.1.reference_1": {
+            "DataStandard.5.reference_1": {
                 "field": "properties.drsm_enthalpy.datasources.0"
             },
-            "DataStandard.1.reference_2": {
+            "DataStandard.5.reference_2": {
                 "field": "properties.drsm_enthalpy.datasources.1"
             },
-            "DataStandard.1.unctype": {
+            "DataStandard.5.unctype": {
                 "field": "properties.drsm_enthalpy.errortypes",
-                "convert": {
-                    "Gauss2s": "{\"0\" :   \"NORMAL\"}"
-                }
-            },
-            "DataStandard.2.positiveunc": {
-                "field": "properties.drsm_entropy_abs.errors"
-            },
-            "DataStandard.2.reference_1": {
-                "field": "properties.drsm_entropy_abs.datasources.0"
-            },
-            "DataStandard.2.reference_2": {
-                "field": "properties.drsm_entropy_abs.datasources.1"
-            },
-            "DataStandard.2.unctype": {
-                "field": "properties.drsm_entropy_abs.errortypes",
-                "convert": {
-                    "Gauss2s": "{\"0\" :   \"NORMAL\"}"
-                }
-            },
-            "DataStandard.3.positiveunc": {
-                "field": "properties.drsm_heat_capacity_p.errors"
-            },
-            "DataStandard.3.reference_1": {
-                "field": "properties.drsm_heat_capacity_p.datasources.0"
-            },
-            "DataStandard.3.reference_2": {
-                "field": "properties.drsm_heat_capacity_p.datasources.1"
-            },
-            "DataStandard.3.unctype": {
-                "field": "properties.drsm_heat_capacity_p.errortypes",
-                "convert": {
-                    "Gauss2s": "{\"0\" :   \"NORMAL\"}"
-                }
-            },
-            "DataStandard.4.datatype": {
-                "field": "properties.drsm_volume.name"
-            },
-            "DataStandard.4.value": {
-                "field": "properties.drsm_volume.values"
-            },
-            "DataStandard.4.positiveunc": {
-                "field": "properties.drsm_volume.errors"
-            },
-            "DataStandard.4.reference_1": {
-                "field": "properties.drsm_volume.datasources.0"
-            },
-            "DataStandard.4.reference_2": {
-                "field": "properties.drsm_volume.datasources.1"
-            },
-            "DataStandard.4.unctype": {
-                "field": "properties.drsm_volume.errortypes",
                 "convert": {
                     "Gauss2s": "{\"0\" :   \"NORMAL\"}"
                 }
@@ -203,83 +72,17 @@
             "DataStandard.6.value": {
                 "field": "properties.drsm_entropy.values"
             },
-            "DataStandard.0.positiveunc": {
-                "field": "properties.drsm_gibbs_energy.errors"
-            },
-            "DataStandard.0.reference_1": {
-                "field": "properties.drsm_gibbs_energy.datasources.0"
-            },
-            "DataStandard.0.reference_2": {
-                "field": "properties.drsm_gibbs_energy.datasources.1"
-            },
-            "DataStandard.0.unctype": {
-                "field": "properties.drsm_gibbs_energy.errortypes",
-                "convert": {
-                    "Gauss2s": "{\"0\" :   \"NORMAL\"}"
-                }
-            },
-            "DataStandard.1.positiveunc": {
-                "field": "properties.drsm_enthalpy.errors"
-            },
-            "DataStandard.1.reference_1": {
-                "field": "properties.drsm_enthalpy.datasources.0"
-            },
-            "DataStandard.1.reference_2": {
-                "field": "properties.drsm_enthalpy.datasources.1"
-            },
-            "DataStandard.1.unctype": {
-                "field": "properties.drsm_enthalpy.errortypes",
-                "convert": {
-                    "Gauss2s": "{\"0\" :   \"NORMAL\"}"
-                }
-            },
-            "DataStandard.2.positiveunc": {
+            "DataStandard.6.positiveunc": {
                 "field": "properties.drsm_entropy_abs.errors"
             },
-            "DataStandard.2.reference_1": {
+            "DataStandard.6.reference_1": {
                 "field": "properties.drsm_entropy_abs.datasources.0"
             },
-            "DataStandard.2.reference_2": {
+            "DataStandard.6.reference_2": {
                 "field": "properties.drsm_entropy_abs.datasources.1"
             },
-            "DataStandard.2.unctype": {
+            "DataStandard.6.unctype": {
                 "field": "properties.drsm_entropy_abs.errortypes",
-                "convert": {
-                    "Gauss2s": "{\"0\" :   \"NORMAL\"}"
-                }
-            },
-            "DataStandard.3.positiveunc": {
-                "field": "properties.drsm_heat_capacity_p.errors"
-            },
-            "DataStandard.3.reference_1": {
-                "field": "properties.drsm_heat_capacity_p.datasources.0"
-            },
-            "DataStandard.3.reference_2": {
-                "field": "properties.drsm_heat_capacity_p.datasources.1"
-            },
-            "DataStandard.3.unctype": {
-                "field": "properties.drsm_heat_capacity_p.errortypes",
-                "convert": {
-                    "Gauss2s": "{\"0\" :   \"NORMAL\"}"
-                }
-            },
-            "DataStandard.4.datatype": {
-                "field": "properties.drsm_volume.name"
-            },
-            "DataStandard.4.value": {
-                "field": "properties.drsm_volume.values"
-            },
-            "DataStandard.4.positiveunc": {
-                "field": "properties.drsm_volume.errors"
-            },
-            "DataStandard.4.reference_1": {
-                "field": "properties.drsm_volume.datasources.0"
-            },
-            "DataStandard.4.reference_2": {
-                "field": "properties.drsm_volume.datasources.1"
-            },
-            "DataStandard.4.unctype": {
-                "field": "properties.drsm_volume.errortypes",
                 "convert": {
                     "Gauss2s": "{\"0\" :   \"NORMAL\"}"
                 }
@@ -290,83 +93,17 @@
             "DataStandard.7.value": {
                 "field": "properties.drsm_heat_capacity_p.values"
             },
-            "DataStandard.0.positiveunc": {
-                "field": "properties.drsm_gibbs_energy.errors"
-            },
-            "DataStandard.0.reference_1": {
-                "field": "properties.drsm_gibbs_energy.datasources.0"
-            },
-            "DataStandard.0.reference_2": {
-                "field": "properties.drsm_gibbs_energy.datasources.1"
-            },
-            "DataStandard.0.unctype": {
-                "field": "properties.drsm_gibbs_energy.errortypes",
-                "convert": {
-                    "Gauss2s": "{\"0\" :   \"NORMAL\"}"
-                }
-            },
-            "DataStandard.1.positiveunc": {
-                "field": "properties.drsm_enthalpy.errors"
-            },
-            "DataStandard.1.reference_1": {
-                "field": "properties.drsm_enthalpy.datasources.0"
-            },
-            "DataStandard.1.reference_2": {
-                "field": "properties.drsm_enthalpy.datasources.1"
-            },
-            "DataStandard.1.unctype": {
-                "field": "properties.drsm_enthalpy.errortypes",
-                "convert": {
-                    "Gauss2s": "{\"0\" :   \"NORMAL\"}"
-                }
-            },
-            "DataStandard.2.positiveunc": {
-                "field": "properties.drsm_entropy_abs.errors"
-            },
-            "DataStandard.2.reference_1": {
-                "field": "properties.drsm_entropy_abs.datasources.0"
-            },
-            "DataStandard.2.reference_2": {
-                "field": "properties.drsm_entropy_abs.datasources.1"
-            },
-            "DataStandard.2.unctype": {
-                "field": "properties.drsm_entropy_abs.errortypes",
-                "convert": {
-                    "Gauss2s": "{\"0\" :   \"NORMAL\"}"
-                }
-            },
-            "DataStandard.3.positiveunc": {
+            "DataStandard.7.positiveunc": {
                 "field": "properties.drsm_heat_capacity_p.errors"
             },
-            "DataStandard.3.reference_1": {
+            "DataStandard.7.reference_1": {
                 "field": "properties.drsm_heat_capacity_p.datasources.0"
             },
-            "DataStandard.3.reference_2": {
+            "DataStandard.7.reference_2": {
                 "field": "properties.drsm_heat_capacity_p.datasources.1"
             },
-            "DataStandard.3.unctype": {
+            "DataStandard.7.unctype": {
                 "field": "properties.drsm_heat_capacity_p.errortypes",
-                "convert": {
-                    "Gauss2s": "{\"0\" :   \"NORMAL\"}"
-                }
-            },
-            "DataStandard.4.datatype": {
-                "field": "properties.drsm_volume.name"
-            },
-            "DataStandard.4.value": {
-                "field": "properties.drsm_volume.values"
-            },
-            "DataStandard.4.positiveunc": {
-                "field": "properties.drsm_volume.errors"
-            },
-            "DataStandard.4.reference_1": {
-                "field": "properties.drsm_volume.datasources.0"
-            },
-            "DataStandard.4.reference_2": {
-                "field": "properties.drsm_volume.datasources.1"
-            },
-            "DataStandard.4.unctype": {
-                "field": "properties.drsm_volume.errortypes",
                 "convert": {
                     "Gauss2s": "{\"0\" :   \"NORMAL\"}"
                 }
@@ -377,10 +114,25 @@
             "DataStandard.8.value": {
                 "field": "properties.logKr.values"
             },
+            "DataStandard.8.positiveunc": {
+                "field": "properties.logKr.errors"
+            },
+            "DataStandard.8.reference_1": {
+                "field": "properties.logKr.datasources.0"
+            },
+            "DataStandard.8.reference_2": {
+                "field": "properties.logKr.datasources.1"
+            },
+            "DataStandard.8.unctype": {
+                "field": "properties.logKr.errortypes",
+                "convert": {
+                    "Gauss2s": "{\"0\" :   \"NORMAL\"}"
+                }
+            },
             "DataVariable.1.datatype": {
                 "field": "properties.TPMethods.0",
                 "convert": {
-                    "DRGT": "{\"method\" :{\"10\" :   \"dr_heat_capacity_ft\"}, \"dr_heat_capacity_ft_coeffs\" :{\"values\" : [0,0,0,0,0,0]}}",
+                    "DRGT": "{\"method\" :{\"10\" :   \"dr_heat_capacity_ft\"}, \"dr_heat_capacity_ft_coeffs\" :{\"values\" : [0,0,0,0,0,0]}}"
                 }
             },
             "DataVariable.1.mintk": {
@@ -434,9 +186,6 @@
             "DataVariable.2.maxpbar": {
                 "field": "properties.TPMethods.1.limitsTP.upperP",
                 "script": "field = field * 1e05;"
-            },
-            "DataVariable.2.datatype": {
-                "field": "properties.TPMethods.1.logk_ft_coeffs.name"
             },
             "DataVariable.2.tpfunc": {
                 "field": "properties.TPMethods.1.logk_ft_coeffs.comment"
