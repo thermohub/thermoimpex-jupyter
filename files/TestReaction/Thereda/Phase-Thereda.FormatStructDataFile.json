@@ -1,0 +1,23 @@
+{
+    "block": {
+        "defaults": {
+            "properties.sourcetdb": "{\"12\" :   \"THEREDA\"}",
+            "properties.aggregate_state": "{\"4\" :   \"AS_AQUEOUS\"}",
+            "properties.mixmod_": "{\"32\" :   \"M_AQPITZERHMW\"}",
+            "properties.mixmod": "{\"0\" :   \"M_PURE\"}",
+        },
+        "pairs": {},
+        "matches": {
+            "symbol": {
+                "field": "properties.symbol"
+            },
+            "description": {
+                "field": "properties.comment"
+            }
+        },
+        "script": ""
+    },
+    "renderer": "JSON",
+    "label": "VertexElement",
+    "comment": "Second test"
+}
