@@ -2120,7 +2120,7 @@
       "doc": "Edge of type \"interacts\" definition\n",
       "isException": false,
       "isUnion": false,
-      "to_select": [ "7", "8.1","8.2", "4", "5" ],
+      "to_select": [ "7", "4", "5" ],
       "fields": [
         {
           "key": 1,
@@ -2213,7 +2213,7 @@
       "doc": "Edge of type \"specific\" definition\n",
       "isException": false,
       "isUnion": false,
-      "to_select": [ "7", "8.1", "8.2", "4", "5" ],
+      "to_select": [ "7", "4", "5" ],
       "fields": [
         {
           "key": 1,
@@ -2413,7 +2413,7 @@
       "doc": "Edge of type \"kinspecies\" definition\n",
       "isException": false,
       "isUnion": false,
-      "to_select": [ "7", "8.1", "8.2","8.3", "4", "5" ],
+      "to_select": [ "7", "4", "5" ],
       "fields": [
         {
           "key": 1,
@@ -2895,7 +2895,7 @@
       "doc": "Edge of type \"addsto\" definition\n",
       "isException": false,
       "isUnion": false,
-      "to_select": [ "7", "8.1", "8.2", "4", "5" ],
+      "to_select": [ "7", "4", "5" ],
       "fields": [
         {
           "key": 1,
@@ -3031,7 +3031,7 @@
           "typeId": "string",
           "doc": "This label must be \"collects\"\n",
           "required": "required",
-          "default": "collect"
+          "default": "collect_"
         },
         {
           "key": 8,
