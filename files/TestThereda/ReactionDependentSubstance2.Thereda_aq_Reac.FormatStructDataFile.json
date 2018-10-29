@@ -2,7 +2,7 @@
     "block": {
         "defaults": {
             "properties.sourcetdb": "{\"12\" :   \"THEREDA\"}",
-            "properties.TPMethods": "[{}]",
+            "properties.TPMethods": "[{\"method\" :{\"0\" :   \"cp_ft_equation\"}, \"m_heat_capacity_ft_coeffs\" :{\"values\" : [0,0,0,0,0,0]}}]",
             "properties.aggregate_state": "{\"4\" :   \"AS_AQUEOUS\"}",
             "properties.class_": "{\"2\" :   \"SC_AQSOLUTE\"}",
             "properties.sm_gibbs_energy": "{\"units\": [\"J/mol\"]}",
@@ -134,12 +134,6 @@
                 "field": "properties.sm_volume.errortypes",
                 "convert": {
                     "Gauss2s": "{\"0\" :   \"NORMAL\"}"
-                }
-            },
-            "DataVariable.0.datatype": {
-                "field": "properties.TPMethods.0",
-                "convert": {
-                    "DFGT": "{\"method\" :{\"0\" :   \"cp_ft_equation\"}, \"m_heat_capacity_ft_coeffs\" :{\"values\" : [0,0,0,0,0,0]}}"
                 }
             },
             "DataVariable.0.mintk": {

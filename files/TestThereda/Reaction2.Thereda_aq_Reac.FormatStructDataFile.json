@@ -2,7 +2,7 @@
     "block": {
         "defaults": {
             "properties.sourcetdb": "{\"12\" :   \"THEREDA\"}",
-            "properties.TPMethods": "[{},{}]",
+            "properties.TPMethods": "[{\"method\" :{\"10\" :   \"dr_heat_capacity_ft\"}, \"dr_heat_capacity_ft_coeffs\" :{\"values\" : [0,0,0,0,0,0]}},{\"method\" :{\"2\" :   \"logk_nordstrom_munoz88\"}, \"logk_ft_coeffs\" :{\"values\" : [0,0,0,0,0,0]}}]",
             "properties.reactyp": "{\"12\" :   \"FE_FORMATION\"}",
             "properties.drsm_gibbs_energy": "{\"units\": [\"J/mol\"]}",
             "properties.drsm_enthalpy": "{\"units\": [\"J/mol\"]}",
@@ -129,12 +129,6 @@
                     "Gauss2s": "{\"0\" :   \"NORMAL\"}"
                 }
             },
-            "DataVariable.1.datatype": {
-                "field": "properties.TPMethods.0",
-                "convert": {
-                    "DRGT": "{\"method\" :{\"10\" :   \"dr_heat_capacity_ft\"}, \"dr_heat_capacity_ft_coeffs\" :{\"values\" : [0,0,0,0,0,0]}}"
-                }
-            },
             "DataVariable.1.mintk": {
                 "field": "properties.TPMethods.0.limitsTP.lowerT"
             },
@@ -166,12 +160,6 @@
             },
             "DataVariable.1.f": {
                 "field": "properties.TPMethods.0.dr_heat_capacity_ft_coeffs.values.5"
-            },
-            "DataVariable.2.datatype": {
-                "field": "properties.TPMethods.1",
-                "convert": {
-                    "LOGKT": "{\"method\" :{\"2\" :   \"logk_nordstrom_munoz88\"}, \"logk_ft_coeffs\" :{\"values\" : [0,0,0,0,0,0]}}"
-                }
             },
             "DataVariable.2.mintk": {
                 "field": "properties.TPMethods.1.limitsTP.lowerT"
