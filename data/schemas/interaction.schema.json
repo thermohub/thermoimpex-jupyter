@@ -244,6 +244,26 @@
           "name": "PITZ_BETA",
           "value": 1,
           "doc": "Pitzer type beta parameter more will be added here\n"
+        },
+        {
+          "name": "PITZ_THETA",
+          "value": 2,
+          "doc": " "
+        },
+        {
+          "name": "PITZ_LAMBDA",
+          "value": 3,
+          "doc": " "
+        },
+        {
+          "name": "PITZ_PSI",
+          "value": 4,
+          "doc": " "
+        },
+        {
+          "name": "SIT",
+          "value": 5,
+          "doc": " "
         }
       ]
     },
@@ -347,7 +367,7 @@
         },
         {
           "key": 3,
-          "name": "intpar",
+          "name": "intparcoeff",
           "typeId": "struct",
           "type": {
             "typeId": "struct",
