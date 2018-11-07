@@ -171,9 +171,11 @@
             }
         },
         "script":   "formula = rintable.properties.symbol;
-if (formula == 'H2O(l)') then rintable.properties.class_ = {} rintable.properties.class_['3'] = 'SC_AQSOLVENT' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['4'] =  'AS_AQUEOUS' end;
-if string.match(formula, '(g)') then rintable.properties.class_ = {} rintable.properties.class_['1'] = 'SC_GASFLUID' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['0'] =  'AS_GAS' end;
-if string.match(formula, '(cr)') then rintable.properties.class_ = {} rintable.properties.class_['0'] = 'SC_COMPONENT' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['3'] =  'AS_CRYSTAL' end;
+        if (formula == 'H2O(l)') then rintable.properties.class_ = {} rintable.properties.class_['3'] = 'SC_AQSOLVENT' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['4'] =  'AS_AQUEOUS' end;
+        if string.match(formula, '%(g%)') then rintable.properties.class_ = {} rintable.properties.class_['1'] = 'SC_GASFLUID' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['0'] =  'AS_GAS' end;
+        if string.match(formula, '%(cr%)') then rintable.properties.class_ = {} rintable.properties.class_['0'] = 'SC_COMPONENT' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['3'] =  'AS_CRYSTAL' end;
+        if string.match(formula, '%(am%)') then rintable.properties.class_ = {} rintable.properties.class_['0'] = 'SC_COMPONENT' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['3'] =  'AS_CRYSTAL' end;
+        if string.match(formula, '%(s%)') then rintable.properties.class_ = {} rintable.properties.class_['0'] = 'SC_COMPONENT' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['3'] =  'AS_CRYSTAL' end;
 formula = string.gsub(formula, '<(%d*)->',  '-%1' );
 formula = string.gsub(formula, '<(%d*)+>',  '+%1' );
 formula = string.gsub(formula, '<0>',  '@' );
@@ -186,7 +188,12 @@ formula = string.gsub(formula, '^O2(@?)$',  'O|0|2%1' );
 formula = string.gsub(formula, '^H2(@?)$',  'H|0|2%1' );
 rintable.properties.formula = formula;
 rintable.properties.name = rintable.properties.symbol;
-print(rintable.properties.TPMethods[1]);"
+print(rintable.properties.TPMethods[1]);
+if rintable.properties.sm_gibbs_energy and rintable.properties.sm_gibbs_energy.name then if rintable.properties.sm_gibbs_energy.name ~= 'DFG298' then rintable.properties.sm_gibbs_energy = {} end end;
+if rintable.properties.sm_enthalpy and rintable.properties.sm_enthalpy.name then if rintable.properties.sm_enthalpy.name ~= 'DFH298' then rintable.properties.sm_enthalpy = {} end end;
+if rintable.properties.sm_entropy_abs and rintable.properties.sm_entropy_abs.name then if rintable.properties.sm_entropy_abs.name ~= 'S298' then rintable.properties.sm_entropy_abs = {} end end;
+if rintable.properties.sm_heat_capacity_p and rintable.properties.sm_heat_capacity_p.name then if rintable.properties.sm_heat_capacity_p.name ~= 'CP298' then rintable.properties.sm_heat_capacity_p = {} end end;
+if rintable.properties.sm_volume and rintable.properties.sm_volume.name then if rintable.properties.sm_volume.name ~= 'V298' then rintable.properties.sm_volume = {} end end;"
     },
     "renderer": "JSON",
     "label": "VertexSubstance",
