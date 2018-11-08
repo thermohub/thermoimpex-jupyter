@@ -185,6 +185,7 @@ formula = string.gsub(formula, '%(am%)',  '' );
 formula = string.gsub(formula, '%(s%)',  '' );
 formula = string.gsub(formula, '^O2(@?)$',  'O|0|2%1' );
 formula = string.gsub(formula, '^H2(@?)$',  'H|0|2%1' );
+formula = string.gsub(formula, ':([%d%.]*)([^:%s]*)',  '(%2)%1' );
 rintable.properties.formula = formula;
 rintable.properties.name = rintable.properties.symbol;
 print(rintable.properties.TPMethods[1]);
