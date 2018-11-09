@@ -42,30 +42,30 @@
      },
      "common" :   {
           "UserHomeDirectoryPath" :   "~",
-          "WorkDirectoryPath" :   "/home/dmiron/gitTHERMOMATCH/build/debug/Resources/files/TestReaction/Thereda",
+          "WorkDirectoryPath" :   "",
           "ResourcesDirectory" :   "Resources",
           "SchemasDirectory" :   "Resources/data/schemas",
           "LuaScriptsDirectory" :   "Resources/lua"
      },
      "ThermoMatch" :   {
           "ReacDCImport" :   {
-               "ReactionFormatStructData" :   "/home/dmiron/gitTHERMOMATCH/build/debug/Resources/files/TestReaction/Thereda/Reaction2.Thereda_aq_Reac.FormatStructDataFile.json",
-               "ReactionDependentSubstanceFormatStructData" :   "/home/dmiron/gitTHERMOMATCH/build/debug/Resources/files/TestReaction/Thereda/ReactionDependentSubstance2.Thereda_aq_Reac.FormatStructDataFile.json",
-               "ReactionEdgesFormatStructData" :   "/home/dmiron/gitTHERMOMATCH/build/debug/Resources/files/TestReaction/Thereda/ReactionEdges2.Thereda_aq_Reac.FormatStructDataFile.json",
-               "InputFilePath" :   "/home/dmiron/gitTHERMOMATCH/build/debug/Resources/files/TestReaction/Thereda/Thereda_aq_Reac.json",
+               "ReactionFormatStructData" :   "",
+               "ReactionDependentSubstanceFormatStructData" :   "",
+               "ReactionEdgesFormatStructData" :   "",
+               "InputFilePath" :   "",
                "ImportFormatOverwrite" :   true,
                "ImportFormatUseDB" :   false
           },
           "TheredaImport" :   {
-               "ReactionFormatStructData" :   "/home/dmiron/gitTHERMOMATCH/build/debug/Resources/files/TestReaction/Thereda/Reaction2.Thereda_aq_Reac.FormatStructDataFile.json",
-               "MasterSubstanceFormatStructData" :   "/home/dmiron/gitTHERMOMATCH/build/debug/Resources/files/TestReaction/Thereda/Substance2.Thereda_aq_Master.FormatStructDataFile.json",
-               "ProductSubstanceFormatStructData" :   "/home/dmiron/gitTHERMOMATCH/build/debug/Resources/files/TestReaction/Thereda/ReactionDependentSubstance2.Thereda_aq_Reac.FormatStructDataFile.json",
-               "ElementFormatStructData" :   "/home/dmiron/gitTHERMOMATCH/build/debug/Resources/files/TestReaction/Thereda/Element-Thereda.FormatStructDataFile.json",
-               "ReactionEdgesFormatStructData" :   "/home/dmiron/gitTHERMOMATCH/build/debug/Resources/files/TestReaction/Thereda/ReactionEdges2.Thereda_aq_Reac.FormatStructDataFile.json",
-               "InputFilePath" :   "/home/dmiron/gitTHERMOMATCH/build/debug/Resources/files/TestReaction/Thereda/THEREDA_PIT_JSON_r01.json",
+               "ReactionFormatStructData" :   "",
+               "MasterSubstanceFormatStructData" :   "",
+               "ProductSubstanceFormatStructData" :   "",
+               "ElementFormatStructData" :   "",
+               "ReactionEdgesFormatStructData" :   "",
+               "InputFilePath" :   "",
                "ImportFormatOverwrite" :   true,
                "ImportFormatUseDB" :   false,
-               "PhaseFormatStructData" :   "/home/dmiron/gitTHERMOMATCH/build/debug/Resources/files/TestReaction/Thereda/Phase-Thereda.FormatStructDataFile.json"
+               "PhaseFormatStructData" :   ""
           }
      }
 }
