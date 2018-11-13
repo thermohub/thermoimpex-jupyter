@@ -10,7 +10,7 @@
   ],
   "enums": [
     {
-      "name": "SubstanceEoSMethodType",
+      "name": "SubstanceTPMethodType",
       "doc": "Codes for T-P correction methods of calculation of DC thermodynamic parameters from GEMS3 v_mod.h\n",
       "members": [
         {
@@ -209,22 +209,22 @@
   ],
   "structs": [
     {
-      "name": "SubstanceEoSMethodData",
-      "doc": "Lagrange polynomial interpolation over logK(TP) array; ReacDC\n",
+      "name": "SubstanceTPMethodData",
+      "doc": "Data structure holding method codes and data for computing P,T corrections to standard properties\n",
       "isException": false,
       "isUnion": false,
       "fields": [
         {
           "key": 1,
           "name": "method",
-          "class": "SubstanceEoSMethodType",
+          "class": "SubstanceTPMethodType",
           "typeId": "map",
           "type": {
             "typeId": "map",
             "keyTypeId": "i32",
             "valueTypeId": "string"
           },
-          "doc": "Method type - validate with class SubstanceEoSMethodType\n",
+          "doc": "Method type - validate with class SubstanceTPMethodType\n",
           "required": "req_out"
         },
         {
@@ -600,7 +600,7 @@
             "elemTypeId": "struct",
             "elemType": {
               "typeId": "struct",
-              "class": "SubstanceEoSMethodData"
+              "class": "SubstanceTPMethodData"
             }
           },
           "doc": "One or more method codes and data for computing P,T corrections to standard properties\n",
