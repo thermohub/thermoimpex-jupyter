@@ -42,7 +42,7 @@
      },
      "common" :   {
           "UserHomeDirectoryPath" :   "~",
-          "WorkDirectoryPath" :   "",
+          "WorkDirectoryPath" :   ".",
           "ResourcesDirectory" :   "Resources",
           "SchemasDirectory" :   "Resources/data/schemas",
           "LuaScriptsDirectory" :   "Resources/lua"
@@ -61,11 +61,11 @@
                "MasterSubstanceFormatStructData" :   "",
                "ProductSubstanceFormatStructData" :   "",
                "ElementFormatStructData" :   "",
+               "PhaseFormatStructData" :   "",
                "ReactionEdgesFormatStructData" :   "",
-               "InputFilePath" :   "",
-               "ImportFormatOverwrite" :   true,
-               "ImportFormatUseDB" :   false,
-               "PhaseFormatStructData" :   ""
+               "InputFilePath" :   ".",
+               "ImportFormatOverwrite" :   false,
+               "ImportFormatUseDB" :   true
           },
           "PhreeqcImport" :   {
 
