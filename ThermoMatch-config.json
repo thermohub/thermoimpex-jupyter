@@ -15,7 +15,7 @@
                "DBRootPassword" :   ""
           },
           "ArangoDBRemote" :   {
-               "DBName" :   "test_thereda2",
+               "DBName" :   "test_thereda",
                "DBCreate" :   false,
                "DB_URL" :   "https://db.thermohub.net",
                "DBUser" :   "adminrem",
