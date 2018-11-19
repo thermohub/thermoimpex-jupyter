@@ -1,7 +1,7 @@
 {
      "block" :   {
           "defaults" :   {
-               "properties.sourcetdb" :   "{\"15\" :   \"PSI_NAGRA\"}"
+               "properties.sourcetdb" :   "{\"enum code\" :   \" name\"}"
           },
           "matches" :   {
                "dod.30.val" :   {
