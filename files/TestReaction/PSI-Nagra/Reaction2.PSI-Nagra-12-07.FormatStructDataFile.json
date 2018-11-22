@@ -23,29 +23,30 @@
                "dod.0.val.0" :   {
                     "field" :   "properties.TPMethods.0.method",
                     "convert" :   {
+                         "S" :   "{\"11\" :   \"dr_heat_capacity_ft\"}",
                          "I" :   "{\"2\" :   \"iso_compounds_grichuk88\"}",
-                         "X" :   "{\"1\" :   \"adsor_ion_exchange\"}"
+                         "X" :   "{\"1\" :   \"adsor_ion_exchange\"}",
+                         "K" :   "{\"0\" :   \"logk_fpt_function\"}"
                     }
                },
                "dod.0.val.1" :   {
                     "field" :   "properties.TPMethods.1.method",
                     "convert" :   {
-                         "X" :   "{\"11\" :   \"dr_heat_capacity_ft\"}",
-                         "L" :   "{\"0\" :   \"logk_fpt_function\"}",
+                         "L" :   "{\"0\" :   \"logk_nordstrom_munoz88\"}",
                          "0" :   "{\"4\" :   \"logk_1_term_extrap0\"}",
                          "1" :   "{\"5\" :   \"logk_1_term_extrap1\"}",
                          "2" :   "{\"6\" :   \"logk_2_term_extrap\"}",
                          "3" :   "{\"7\" :   \"logk_3_term_extrap\"}",
                          "Z" :   "{\"8\" :   \"logk_lagrange_interp\"}",
                          "R" :   "{\"9\" :   \"logk_marshall_frank78\"}",
-                         "Y" :   "{\"10\" :   \"solute_eos_ryzhenko_gems\"}",
-                         "G" :   "{\"2\" :   \"iso_compounds_grichuk88\"}"
+                         "Y" :   "{\"10\" :   \"solute_eos_ryzhenko_gems\"}"
                     }
                },
                "dod.0.val.2" :   {
                     "field" :   "properties.TPMethods.2.method",
                     "convert" :   {
-                         "K" :   "{\"12\" :   \"dr_volume_fpt\"}"
+                         "K" :   "{\"12\" :   \"dr_volume_fpt\"}",
+                         "C" :   "{\"12\" :   \"dr_volume_constant\"}"
                     }
                },
                "dod.6.val.1" :   {

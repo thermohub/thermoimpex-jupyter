@@ -75,54 +75,64 @@
           "doc": "calculations via adsorption or ion exchange constants, using LFER correlations; ReacDC (reserved)\n"
         },
         {
-          "name": "logk_nordstrom_munoz88",
+          "name": "iso_compounds_grichuk88",
           "value": 2,
+          "doc": "calculation of parameters for isotopic forms of compounds (Grichuk, 1988)\n"
+        },
+        {
+          "name": "logk_nordstrom_munoz88",
+          "value": 3,
           "doc": "calculation from empirical function logK=f(T) (Nordstrom and Munoz, 1988); ReacDC only\n"
         },
         {
           "name": "logk_1_term_extrap0",
-          "value": 3,
+          "value": 4,
           "doc": "one-term extrapolation assuming dHr=0 and logK=const; ReacDC\n"
         },
         {
           "name": "logk_1_term_extrap1",
-          "value": 4,
+          "value": 5,
           "doc": "one-term extrapolation assuming dGr=const (Gu et al., 1994); ReacDC\n"
         },
         {
           "name": "logk_2_term_extrap",
-          "value": 5,
+          "value": 6,
           "doc": "two-term extrapolation; ReacDC only\n"
         },
         {
           "name": "logk_3_term_extrap",
-          "value": 6,
+          "value": 7,
           "doc": "three-term extrapolation assuming dCpr=const; ReacDC\n"
         },
         {
           "name": "logk_lagrange_interp",
-          "value": 7,
+          "value": 8,
           "doc": "Lagrange polynomial interpolation over logK(TP) array; ReacDC\n"
         },
         {
           "name": "logk_marshall_frank78",
-          "value": 8,
+          "value": 9,
           "doc": "calculation of logK=f(T,P) from density equation (Marshall and Franck, 1978); ReacDC\n"
         },
         {
           "name": "solute_eos_ryzhenko_gems",
-          "value": 9,
+          "value": 10,
           "doc": "calculation of logK=f(T,P) with modified Ryzhenko-Bryzgalin model\n"
         },
         {
           "name": "dr_heat_capacity_ft",
-          "value": 10,
+          "value": 11,
           "doc": "calculation of reaction properties from empirical from 5-term Cp(T); ReacDC\n"
         },
         {
           "name": "dr_volume_fpt",
-          "value": 11,
+          "value": 12,
           "doc": "calculation of reaction properties from empirical V(P,T); ReacDC\n"
+        },
+        {
+          "name": "dr_volume_constant",
+          "value": 13,
+          "doc": "reaction molar volume constant at references T and P\n"
         }
       ]
     },
