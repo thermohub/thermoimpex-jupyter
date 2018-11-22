@@ -23,7 +23,7 @@
                "dod.0.val.0" :   {
                     "field" :   "properties.TPMethods.0.method",
                     "convert" :   {
-                         "S" :   "{\"11\" :   \"dr_heat_capacity_ft\"}",
+                         "C" :   "{\"11\" :   \"dr_heat_capacity_ft\"}",
                          "I" :   "{\"2\" :   \"iso_compounds_grichuk88\"}",
                          "X" :   "{\"1\" :   \"adsor_ion_exchange\"}",
                          "K" :   "{\"0\" :   \"logk_fpt_function\"}"
