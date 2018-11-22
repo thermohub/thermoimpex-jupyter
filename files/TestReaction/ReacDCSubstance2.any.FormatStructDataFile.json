@@ -23,6 +23,14 @@
                          "l" :   "{\"1\" :   \"AS_LIQUID\"}"
                     }
                },
+               "dod.13.val.1" :   {
+                    "field" :   "properties.Tst",
+                    "script" :   "field = field+273.15"
+               },
+               "dod.13.val.0" :   {
+                    "field" :   "properties.Pst",
+                    "script" :   "field = field*1e05"
+               },
                "dod.1.val.0" :   {
                     "field" :   "properties.class_",
                     "convert" :   {

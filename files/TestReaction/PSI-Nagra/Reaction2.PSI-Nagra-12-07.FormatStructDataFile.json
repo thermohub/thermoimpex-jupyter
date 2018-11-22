@@ -23,7 +23,7 @@
                "dod.0.val.0" :   {
                     "field" :   "properties.TPMethods.0.method",
                     "convert" :   {
-                         "C" :   "{\"11\" :   \"dr_heat_capacity_ft\"}",
+                         "C" :   "{\"11\" :  \"dr_heat_capacity_ft\"}",
                          "I" :   "{\"2\" :   \"iso_compounds_grichuk88\"}",
                          "X" :   "{\"1\" :   \"adsor_ion_exchange\"}",
                          "K" :   "{\"0\" :   \"logk_fpt_function\"}"
@@ -32,21 +32,21 @@
                "dod.0.val.1" :   {
                     "field" :   "properties.TPMethods.1.method",
                     "convert" :   {
-                         "L" :   "{\"0\" :   \"logk_nordstrom_munoz88\"}",
+                         "L" :   "{\"3\" :   \"logk_nordstrom_munoz88\"}",
                          "0" :   "{\"4\" :   \"logk_1_term_extrap0\"}",
                          "1" :   "{\"5\" :   \"logk_1_term_extrap1\"}",
                          "2" :   "{\"6\" :   \"logk_2_term_extrap\"}",
                          "3" :   "{\"7\" :   \"logk_3_term_extrap\"}",
                          "Z" :   "{\"8\" :   \"logk_lagrange_interp\"}",
                          "R" :   "{\"9\" :   \"logk_marshall_frank78\"}",
-                         "Y" :   "{\"10\" :   \"solute_eos_ryzhenko_gems\"}"
+                         "Y" :   "{\"10\" :  \"solute_eos_ryzhenko_gems\"}"
                     }
                },
                "dod.0.val.2" :   {
                     "field" :   "properties.TPMethods.2.method",
                     "convert" :   {
                          "K" :   "{\"12\" :   \"dr_volume_fpt\"}",
-                         "C" :   "{\"12\" :   \"dr_volume_constant\"}"
+                         "C" :   "{\"13\" :   \"dr_volume_constant\"}"
                     }
                },
                "dod.6.val.1" :   {
@@ -79,19 +79,19 @@
                     "script" :   "field = field + 273.15"
                },
                "dod.22.val.0" :   {
-                    "field" :   "properties.TPMethods.1.limitsTP.lowerT",
+                    "field" :   "properties.TPMethods.0.limitsTP.lowerT",
                     "script" :   "field = field + 273.15"
                },
                "dod.22.val.1" :   {
-                    "field" :   "properties.TPMethods.1.limitsTP.upperT",
+                    "field" :   "properties.TPMethods.0.limitsTP.upperT",
                     "script" :   "field = field + 273.15"
                },
                "dod.23.val.0" :   {
-                    "field" :   "properties.TPMethods.1.limitsTP.lowerP",
+                    "field" :   "properties.TPMethods.0.limitsTP.lowerP",
                     "script" :   "field = field * 1e05"
                },
                "dod.23.val.1" :   {
-                    "field" :   "properties.TPMethods.1.limitsTP.upperP",
+                    "field" :   "properties.TPMethods.0.limitsTP.upperP",
                     "script" :  "field = field * 1e05"
                },
                "dod.27.val" :   {
@@ -99,7 +99,7 @@
                     "script" :  "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
                },
                "dod.28.val" :   {
-                    "field" :   "properties.TPMethods.1.logk_ft_coeffs.values",
+                    "field" :   "properties.TPMethods.0.logk_ft_coeffs.values",
                     "script" :  "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
                },
                "dod.26.val" :   {
@@ -107,7 +107,7 @@
                     "script" :  "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
                },
                "dod.24.val" :   {
-                    "field" :   "properties.TPMethods.1.dr_heat_capacity_p_t_coeffs.values",
+                    "field" :   "properties.TPMethods.0.dr_heat_capacity_p_t_coeffs.values",
                     "script" :  "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
                }
           },
