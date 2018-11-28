@@ -15,6 +15,14 @@
                          "l" :   "{\"1\" :   \"AS_LIQUID\"}"
                     }
                },
+               "dod.10.val.1" :   {
+                    "field" :   "properties.Tst",
+                    "script" :   "field = field+273.15"
+               },
+               "dod.10.val.0" :   {
+                    "field" :   "properties.Pst",
+                    "script" :   "field = field*1e05"
+               },
                "dod.14.val" :   {
                     "field" :   "properties.name"
                },
