@@ -176,6 +176,7 @@
         if string.match(formula, '%(cr%)') then rintable.properties.class_ = {} rintable.properties.class_['0'] = 'SC_COMPONENT' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['3'] =  'AS_CRYSTAL' end;
         if string.match(formula, '%(am%)') then rintable.properties.class_ = {} rintable.properties.class_['0'] = 'SC_COMPONENT' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['3'] =  'AS_CRYSTAL' end;
         if string.match(formula, '%(s%)') then rintable.properties.class_ = {} rintable.properties.class_['0'] = 'SC_COMPONENT' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['3'] =  'AS_CRYSTAL' end;
+formula = string.gsub(formula, '(_.*)', '');
 formula = string.gsub(formula, '<(%d*)->',  '-%1' );
 formula = string.gsub(formula, '<(%d*)+>',  '+%1' );
 formula = string.gsub(formula, '<0>',  '@' );
@@ -187,6 +188,7 @@ formula = string.gsub(formula, '%(s%)',  '' );
 formula = string.gsub(formula, '^O2(@?)$',  'O|0|2%1' );
 formula = string.gsub(formula, '^H2(@?)$',  'H|0|2%1' );
 formula = string.gsub(formula, ':([%d%.]*)([^:%s]*)',  '(%2)%1' );
+formula = string.gsub(formula, 'ClO4-', 'Cl|7|O' );
 rintable.properties.formula = formula;
 rintable.properties.name = rintable.properties.symbol;
 print(rintable.properties.TPMethods[1]);
