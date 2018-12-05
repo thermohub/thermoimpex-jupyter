@@ -1,21 +1,19 @@
 {
      "block" :   {
           "defaults" :   {
-               "properties.sourcetdb" :   "22",
-               "properties.eos_gas_crit_props.values" :   "[ 0, 0, 0 ]",
-               "properties.m_heat_capacity_p_t_coeffs.values" :   "[ 0, 0, 0 ]",
-               "properties.eos_hkf_coeffs.values" :   "[ 0, 0, 0, 0, 0, 0, 0 ]"
-          },
-          "pairs" :   {
-
+               "properties.sourcetdb" :   "{\"21\" :   \"SUPCRT07\"}",
+               "properties.TPMethods" :   "[{\"method\":{}, \"eos_hkf_coeffs\": { \"values\" : [0,0,0,0,0,0,0]} }, {\"method\":{}, \"eos_gas_crit_props\" : { \"values\" : [0,0,0]}}]",
+               "properties.temp_import" :   "[{ \"values\" : [0, 0]}, { \"values\" : [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}, { \"values\" : [0,0,0,0,0,0,0,0,0,0,0,0]}]",
+	       "properties.Tst" : "298.15",
+	       "properties.Pst" : "1e05"
           },
           "matches" :   {
                "Type" :   {
                     "field" :   "properties.aggregate_state",
                     "convert" :   {
-                         "Aqueous" :   "4",
-                         "Gaseous" :   "0",
-                         "Mineral" :   "3"
+                         "Aqueous" :   "{\"4\" :   \"AS_AQUEOUS\"}",
+                         "Gaseous" :   "{\"0\" :   \"AS_GAS\"}",
+                         "Mineral" :   "{\"3\" :   \"AS_CRYSTAL\"}"
                     }
                },
                "Name" :   {
@@ -47,61 +45,231 @@
                     "script" :   "field[1] = field[1]*4.184"
                },
                "CriticalTemperature.value" :   {
-                "field" :   "properties.eos_gas_crit_props.values.0"
+                "field" :   "properties.TPMethods.1.eos_gas_crit_props.values.0"
                },
                "CriticalPressure.value" :   {
-                "field" :   "properties.eos_gas_crit_props.values.1"
+                "field" :   "properties.TPMethods.1.eos_gas_crit_props.values.1"
                },
                "AcentricFactor" :   {
-                "field" :   "properties.eos_gas_crit_props.values.2"
-               },
-               "Thermo.HKF.a.value" :   {
-                "field" :   "properties.m_heat_capacity_p_t_coeffs.values.0"
-               },
-               "Thermo.HKF.b.value" :   {
-                "field" :   "properties.m_heat_capacity_p_t_coeffs.values.1"
-               },
-               "Thermo.HKF.c.value" :   {
-                "field" :   "properties.m_heat_capacity_p_t_coeffs.values.2"
-               },
-               "Thermo.HKF.TemperatureRange0.a.value" :   {
-                "field" :   "properties.m_heat_capacity_p_t_coeffs.values.0"
-               },
-               "Thermo.HKF.TemperatureRange0.b.value" :   {
-                "field" :   "properties.m_heat_capacity_p_t_coeffs.values.1"
-               },
-               "Thermo.HKF.TemperatureRange0.c.value" :   {
-                "field" :   "properties.m_heat_capacity_p_t_coeffs.values.2"
+                "field" :   "properties.TPMethods.1.eos_gas_crit_props.values.2"
                },
                "Thermo.HKF.a1.value" :   {
-                    "field" :   "properties.eos_hkf_coeffs.values.0"
+                    "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.0"
                },
                "Thermo.HKF.a2.value" :   {
-                    "field" :   "properties.eos_hkf_coeffs.values.1"
+                    "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.1"
                },
                "Thermo.HKF.a3.value" :   {
-                    "field" :   "properties.eos_hkf_coeffs.values.2"
+                    "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.2"
                },
                "Thermo.HKF.a4.value" :   {
-                    "field" :   "properties.eos_hkf_coeffs.values.3"
+                    "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.3"
                },
                "Thermo.HKF.c1.value" :   {
-                    "field" :   "properties.eos_hkf_coeffs.values.4"
+                    "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.4"
                },
                "Thermo.HKF.c2.value" :   {
-                    "field" :   "properties.eos_hkf_coeffs.values.5"
+                    "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.5"
                },
                "Thermo.HKF.wref.value" :   {
-                    "field" :   "properties.eos_hkf_coeffs.values.6"
+                    "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.6"
+               },
+               "Thermo.HKF.NumPhaseTrans" : {
+                    "field" :   "properties.temp_import.0.values.0"
+               },
+               "Thermo.HKF.Tmax.value" : {
+                    "field" :   "properties.temp_import.0.values.1"
+               },
+               "Thermo.HKF.a.value" :   {
+                "field" :   "properties.temp_import.2.values.0"
+               },
+               "Thermo.HKF.b.value" :   {
+                "field" :   "properties.temp_import.2.values.1"
+               },
+               "Thermo.HKF.c.value" :   {
+                "field" :   "properties.temp_import.2.values.2"
+               },
+               "Thermo.HKF.TemperatureRange0.a.value" :   {
+                "field" :   "properties.temp_import.2.values.0"
+               },
+               "Thermo.HKF.TemperatureRange0.b.value" :   {
+                "field" :   "properties.temp_import.2.values.1"
+               },
+               "Thermo.HKF.TemperatureRange0.c.value" :   {
+                "field" :   "properties.temp_import.2.values.2"
+               },
+               "Thermo.HKF.TemperatureRange1.a.value" :   {
+                "field" :   "properties.temp_import.2.values.3"
+               },
+               "Thermo.HKF.TemperatureRange1.b.value" :   {
+                "field" :   "properties.temp_import.2.values.4"
+               },
+               "Thermo.HKF.TemperatureRange1.c.value" :   {
+                "field" :   "properties.temp_import.2.values.5"
+               },
+               "Thermo.HKF.TemperatureRange2.a.value" :   {
+                "field" :   "properties.temp_import.2.values.6"
+               },
+               "Thermo.HKF.TemperatureRange2.b.value" :   {
+                "field" :   "properties.temp_import.2.values.7"
+               },
+               "Thermo.HKF.TemperatureRange2.c.value" :   {
+                "field" :   "properties.temp_import.2.values.8"
+               },
+               "Thermo.HKF.TemperatureRange3.a.value" :   {
+                "field" :   "properties.temp_import.2.values.9"
+               },
+               "Thermo.HKF.TemperatureRange3.b.value" :   {
+                "field" :   "properties.temp_import.2.values.10"
+               },
+               "Thermo.HKF.TemperatureRange3.c.value" :   {
+                "field" :   "properties.temp_import.2.values.11"
+               },
+               "Thermo.HKF.TemperatureRange0.Ttr" :   {
+                "field" :   "properties.temp_import.1.values.0"
+               },
+               "Thermo.HKF.TemperatureRange0.Htr" :   {
+                "field" :   "properties.temp_import.1.values.1",
+                    "script" :   "field = field*4.184"
+               },
+               "Thermo.HKF.TemperatureRange0.Vtr" :   {
+                "field" :   "properties.temp_import.1.values.2",
+                    "script" :   "field = field*0.1"
+               },
+               "Thermo.HKF.TemperatureRange0.dPdTtr" :   {
+               "field" :   "properties.temp_import.1.values.3"
+               },
+               "Thermo.HKF.TemperatureRange1.Ttr" :   {
+                "field" :   "properties.temp_import.1.values.4"
+               },
+               "Thermo.HKF.TemperatureRange1.Htr" :   {
+                "field" :   "properties.temp_import.1.values.5",
+                    "script" :   "field = field*4.184"
+               },
+               "Thermo.HKF.TemperatureRange1.Vtr" :   {
+                "field" :   "properties.temp_import.1.values.6",
+                    "script" :   "field = field*0.1"
+               },
+               "Thermo.HKF.TemperatureRange1.dPdTtr" :   {
+               "field" :   "properties.temp_import.1.values.7"
+               },
+               "Thermo.HKF.TemperatureRange2.Ttr" :   {
+                "field" :   "properties.temp_import.1.values.8"
+               },
+               "Thermo.HKF.TemperatureRange2.Htr" :   {
+                "field" :   "properties.temp_import.1.values.9",
+                    "script" :   "field = field*4.184"
+               },
+               "Thermo.HKF.TemperatureRange2.Vtr" :   {
+                "field" :   "properties.temp_import.1.values.10",
+                    "script" :   "field = field*0.1"
+               },
+               "Thermo.HKF.TemperatureRange2.dPdTtr" :   {
+               "field" :   "properties.temp_import.1.values.11"
+               },
+               "Thermo.HKF.TemperatureRange3.Ttr" :   {
+                "field" :   "properties.temp_import.1.values.12"
+               },
+               "Thermo.HKF.TemperatureRange3.Htr" :   {
+                "field" :   "properties.temp_import.1.values.13",
+                "script" :   "field = field*4.184"
+               },
+               "Thermo.HKF.TemperatureRange3.Vtr" :   {
+                "field" :   "properties.temp_import.1.values.14",
+                    "script" :   "field = field*0.1"
+               },
+               "Thermo.HKF.TemperatureRange3.dPdTtr" :   {
+               "field" :   "properties.temp_import.1.values.15"
                },
                "Thermo.HKF.References" :   {
                     "field" :   "properties.datasources"
-               },
-               "Thermo.HKF.Tmax.value" :   {
-                    "field" :   "properties.limitsTP.upperT"
                }
           },
-          "script" :   "rintable.properties.name = rintable.properties.symbol; if rintable.properties.aggregate_state == 4 then rintable.properties.class_ = 2 rintable.properties.method_genEoS = 119 rintable.properties.method_corrT = 205 rintable.properties.method_corrP = 319 end; if rintable.properties.aggregate_state == 3 then rintable.properties.class_ = 0 rintable.properties.method_genEoS = 100 rintable.properties.method_corrT = 200 rintable.properties.method_corrP = 305 end;  if rintable.properties.aggregate_state == 0 then rintable.properties.class_ = 1 rintable.properties.method_genEoS = 100 rintable.properties.method_corrT = 200 rintable.properties.method_corrP = 300 end;"
+          "script" :   "
+          rintable.properties.name = rintable.properties.symbol; rintable.properties.class_={}
+          if rintable.properties.symbol == 'H2O(l)' then
+              rintable.properties.class_['3'] = 'SC_AQSOLVENT' rintable.properties.TPMethods[1].method={} rintable.properties.TPMethods[1].method['29']='water_eos_hgk84_lvs83_gems' rintable.properties.TPMethods[2].method={} rintable.properties.TPMethods[2].method['26']='water_diel_jnort91_gems'
+              rintable.properties.TPMethods[2].eos_gas_crit_props = nil rintable.properties.TPMethods[1].eos_hkf_coeffs = nil
+          end;
+          if rintable.properties.class_['3'] ~= 'SC_AQSOLVENT' then
+              if rintable.properties.aggregate_state['4'] == 'AS_AQUEOUS' then
+                  rintable.properties.class_['2'] = 'SC_AQSOLUTE' rintable.properties.TPMethods[1].method={} rintable.properties.TPMethods[1].method['2']='solute_hkf88_gems'
+                  rintable.properties.TPMethods[2].eos_gas_crit_props = nil table.remove(rintable.properties.TPMethods, 2)
+              end
+          end;
+          if rintable.properties.aggregate_state['0'] == 'AS_GAS' then
+              rintable.properties.class_['1'] = 'SC_GASFLUID' rintable.properties.TPMethods[1].method={} rintable.properties.TPMethods[1].method['0']='cp_ft_equation' rintable.properties.TPMethods[2].method={} rintable.properties.TPMethods[2].method['8']='fug_critical_param'
+              rintable.properties.TPMethods[1].eos_hkf_coeffs = nil
+              coeff = rintable.properties.temp_import[3].values
+              cp_coeffs = {}
+              for i=1,3 do
+                  cp_coeffs[i]=coeff[i]
+              end
+              rintable.properties.TPMethods[1].m_heat_capacity_ft_coeffs ={}
+              rintable.properties.TPMethods[1].m_heat_capacity_ft_coeffs.values = cp_coeffs
+              rintable.properties.TPMethods[1].limitsTP = {}
+              rintable.properties.TPMethods[1].limitsTP.lowerT = 273.15
+              rintable.properties.TPMethods[1].limitsTP.upperT=rintable.properties.temp_import[1].values[2]
+          end;
+          if rintable.properties.aggregate_state['3'] == 'AS_CRYSTAL' then
+              rintable.properties.class_['0'] = 'SC_COMPONENT' rintable.properties.TPMethods[1].method={} rintable.properties.TPMethods[1].method['0']='cp_ft_equation'
+              rintable.properties.TPMethods[2].eos_gas_crit_props = nil rintable.properties.TPMethods[1].eos_hkf_coeffs = nil
+              rintable.properties.TPMethods[2].method ={}
+              rintable.properties.TPMethods[2].method['34']='mv_constant'
+              n = rintable.properties.temp_import[1].values[1]+1
+              tmax = rintable.properties.temp_import[1].values[2]
+              tp = rintable.properties.temp_import[2].values
+              coeff = rintable.properties.temp_import[3].values
+              if n==0 then rintable.properties.TPMethods[1].m_phase_trans_props = nil end
+              if n>0 then
+                  for i=1,n do
+                      size=0
+                      for k,v in pairs(rintable.properties.TPMethods) do size = size+1 end
+                      for j=size,i do
+                          rintable.properties.TPMethods[j+1] = rintable.properties.TPMethods[j]
+                      end
+                      rintable.properties.TPMethods[i] = {}
+                      rintable.properties.TPMethods[i].method = {}
+                      rintable.properties.TPMethods[i].method['0']='cp_ft_equation'
+                      rintable.properties.TPMethods[i].limitsTP = {}
+                      rintable.properties.TPMethods[i].limitsTP.range = true
+                      lT = 0
+                      uT = 0
+                      m_phase_trans_props = {}
+                      for j=1,4 do
+                          if (j==1 and i<n) then
+                              uT=tp[(i-1)*4+j]
+                          end
+                          if (j==1 and i>1) then
+                              lT=tp[(i-2)*4+j]
+                          end
+                          if (j>1) then
+                              m_phase_trans_props[j-1]=tp[(i-1)*4+j]
+                          end
+                      end
+                      if (i==1) then
+                          rintable.properties.TPMethods[i].limitsTP.lowerT = 273.15
+                      else
+                          rintable.properties.TPMethods[i].limitsTP.lowerT = lT
+                      end
+                      if (i==n) then
+                          rintable.properties.TPMethods[i].limitsTP.upperT=tmax
+                      else
+                          rintable.properties.TPMethods[i].limitsTP.upperT=uT
+                      end
+                      cp_coeffs = {}
+                      for j=1,3 do
+                          cp_coeffs[j] = coeff[(i-1)*3+j]*4.184
+                      end
+                      rintable.properties.TPMethods[i].m_phase_trans_props = {}
+                      rintable.properties.TPMethods[i].m_phase_trans_props.values = m_phase_trans_props
+                      rintable.properties.TPMethods[i].m_heat_capacity_ft_coeffs = {}
+                      rintable.properties.TPMethods[i].m_heat_capacity_ft_coeffs.values = cp_coeffs
+                  end
+              end
+          end;
+          rintable.properties.temp_import = nil
+          "
      },
      "renderer" :   "JSON",
      "label" :   "VertexSubstance",
