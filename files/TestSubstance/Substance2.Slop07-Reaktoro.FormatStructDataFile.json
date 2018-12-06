@@ -44,11 +44,28 @@
                     "field" :   "properties.sm_entropy_abs.values",
                     "script" :   "field[1] = field[1]*4.184"
                },
+               "Thermo.HKF.Vr.units" :   {
+                    "field" :   "properties.sm_volume.units",
+                    "script" :   "field[1] = 'J/bar'"
+               },
+               "Thermo.HKF.Gf.units" :   {
+                    "field" :   "properties.sm_gibbs_energy.units",
+                    "script" :   "field[1] = 'J/mol'"
+               },
+               "Thermo.HKF.Hf.units" :   {
+                    "field" :   "properties.sm_enthalpy.units",
+                    "script" :   "field[1] = 'J/mol'"
+               },
+               "Thermo.HKF.Sr.units" :   {
+                    "field" :   "properties.sm_entropy_abs.units",
+                    "script" :   "field[1] = 'J/(mol*K)'"
+               },
                "CriticalTemperature.value" :   {
                 "field" :   "properties.TPMethods.1.eos_gas_crit_props.values.0"
                },
                "CriticalPressure.value" :   {
-                "field" :   "properties.TPMethods.1.eos_gas_crit_props.values.1"
+                "field" :   "properties.TPMethods.1.eos_gas_crit_props.values.1",
+                "script" :   "field = field*1e05"
                },
                "AcentricFactor" :   {
                 "field" :   "properties.TPMethods.1.eos_gas_crit_props.values.2"
@@ -130,11 +147,11 @@
                },
                "Thermo.HKF.TemperatureRange0.Htr" :   {
                 "field" :   "properties.temp_import.1.values.1",
-                    "script" :   "field = field*4.184"
+                "script" :   "field = field*4.184"
                },
                "Thermo.HKF.TemperatureRange0.Vtr" :   {
                 "field" :   "properties.temp_import.1.values.2",
-                    "script" :   "field = field*0.1"
+                "script" :   "field = field*0.1"
                },
                "Thermo.HKF.TemperatureRange0.dPdTtr" :   {
                "field" :   "properties.temp_import.1.values.3"
@@ -195,6 +212,8 @@
               if rintable.properties.aggregate_state['4'] == 'AS_AQUEOUS' then
                   rintable.properties.class_['2'] = 'SC_AQSOLUTE' rintable.properties.TPMethods[1].method={} rintable.properties.TPMethods[1].method['2']='solute_hkf88_gems'
                   rintable.properties.TPMethods[2].eos_gas_crit_props = nil table.remove(rintable.properties.TPMethods, 2)
+                  rintable.properties.TPMethods[1].eos_hkf_coeffs.names = {'a1','a2','a3','a4','c1','c2','wref'} 
+                  rintable.properties.TPMethods[1].eos_hkf_coeffs.units = {'cal/(mol*bar)','cal/mol','(cal*K)/mol','cal/(mol*K)','(cal*K)/mol','cal/mol'}
               end
           end;
           if rintable.properties.aggregate_state['0'] == 'AS_GAS' then
@@ -210,6 +229,12 @@
               rintable.properties.TPMethods[1].limitsTP = {}
               rintable.properties.TPMethods[1].limitsTP.lowerT = 273.15
               rintable.properties.TPMethods[1].limitsTP.upperT=rintable.properties.temp_import[1].values[2]
+              rintable.properties.TPMethods[1].m_heat_capacity_ft_coeffs.names = {'a','b','c'}
+              rintable.properties.TPMethods[1].m_heat_capacity_ft_coeffs.units = {'J/(mol*K)','J/(mol*K^2)','(J*K)/mol'}
+              if (rintable.properties.TPMethods[2].eos_gas_crit_props.values ~= nil) then
+               rintable.properties.TPMethods[2].eos_gas_crit_props.names = {'CriticalTemperature','CriticalPressure','AcentricFactor'}
+               rintable.properties.TPMethods[2].eos_gas_crit_props.units = {'K','Pa'}
+               end
           end;
           if rintable.properties.aggregate_state['3'] == 'AS_CRYSTAL' then
               rintable.properties.class_['0'] = 'SC_COMPONENT' rintable.properties.TPMethods[1].method={} rintable.properties.TPMethods[1].method['0']='cp_ft_equation'
@@ -263,8 +288,12 @@
                       end
                       rintable.properties.TPMethods[i].m_phase_trans_props = {}
                       rintable.properties.TPMethods[i].m_phase_trans_props.values = m_phase_trans_props
+                      rintable.properties.TPMethods[i].m_phase_trans_props.names = {'Temperature','dS','dH', 'dV', 'dT/dP'}
+                      rintable.properties.TPMethods[i].m_phase_trans_props.units = {'K','J/(mol*K)', 'J/mol', 'J/bar', 'K/bar' }
                       rintable.properties.TPMethods[i].m_heat_capacity_ft_coeffs = {}
                       rintable.properties.TPMethods[i].m_heat_capacity_ft_coeffs.values = cp_coeffs
+                      rintable.properties.TPMethods[i].m_heat_capacity_ft_coeffs.names = {'a0','a1','a2'}
+                      rintable.properties.TPMethods[i].m_heat_capacity_ft_coeffs.units = {'J/(mol*K)','J/(mol*K^2)','(J*K)/mol'}
                   end
               end
           end;

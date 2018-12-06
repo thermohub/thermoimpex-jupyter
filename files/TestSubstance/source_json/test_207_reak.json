@@ -5,11 +5,11 @@
         "Elements": "Ca(2)Mg(1)Si(2)O(7)",
         "Type": "Mineral",
         "MolarMass": {
-          "-units": "g/mol",
+          "units": "g/mol",
           "value": "272.6278"
         },
         "MolarVolume": {
-          "-units": "m3/mol",
+          "units": "m3/mol",
           "value": "92.81"
         },
         "Thermo": {
@@ -17,36 +17,36 @@
             "References": "1,19",
             "Date": "15.Mar.90",
             "Gf": {
-              "-units": "cal/mol",
+              "units": "cal/mol",
               "value": "-879362.0"
             },
             "Hf": {
-              "-units": "cal/mol",
+              "units": "cal/mol",
               "value": "-926497.0"
             },
             "Sr": {
-              "-units": "cal/(mol*K)",
+              "units": "cal/(mol*K)",
               "value": "50.03"
             },
             "Vr": {
-              "-units": "cm3/mol",
+              "units": "cm3/mol",
               "value": "92.81"
             },
             "NumPhaseTrans": "0",
             "Tmax": {
-              "-units": "K",
+              "units": "K",
               "value": "1700.0"
             },
             "a": {
-              "-units": "cal/(mol*K)",
+              "units": "cal/(mol*K)",
               "value": "60.09"
             },
             "b": {
-              "-units": "cal/(mol*K^2)",
+              "units": "cal/(mol*K^2)",
               "value": "0.0114"
             },
             "c": {
-              "-units": "(cal*K)/mol",
+              "units": "(cal*K)/mol",
               "value": "-1140000.0"
             }
           }
@@ -58,11 +58,11 @@
         "Elements": "Ag(2)S(1)",
         "Type": "Mineral",
         "MolarMass": {
-          "-units": "g/mol",
+          "units": "g/mol",
           "value": "247.8014"
         },
         "MolarVolume": {
-          "-units": "m3/mol",
+          "units": "m3/mol",
           "value": "34.2"
         },
         "Thermo": {
@@ -70,37 +70,37 @@
             "References": "1",
             "Date": "5.May.78",
             "Gf": {
-              "-units": "cal/mol",
+              "units": "cal/mol",
               "value": "-9446.0"
             },
             "Hf": {
-              "-units": "cal/mol",
+              "units": "cal/mol",
               "value": "-7550.0"
             },
             "Sr": {
-              "-units": "cal/(mol*K)",
+              "units": "cal/(mol*K)",
               "value": "34.3"
             },
             "Vr": {
-              "-units": "cm3/mol",
+              "units": "cm3/mol",
               "value": "34.2"
             },
             "NumPhaseTrans": "2",
             "Tmax": {
-              "-units": "K",
+              "units": "K",
               "value": "1000.0"
             },
             "TemperatureRange0": {
               "a": {
-                "-units": "cal/(mol*K)",
+                "units": "cal/(mol*K)",
                 "value": "15.63"
               },
               "b": {
-                "-units": "cal/(mol*K^2)",
+                "units": "cal/(mol*K^2)",
                 "value": "0.0086"
               },
               "c": {
-                "-units": "(cal*K)/mol",
+                "units": "(cal*K)/mol",
                 "value": "0.0"
               },
               "Ttr": "450.0",
@@ -108,15 +108,15 @@
             },
             "TemperatureRange1": {
               "a": {
-                "-units": "cal/(mol*K)",
+                "units": "cal/(mol*K)",
                 "value": "1.819"
               },
               "b": {
-                "-units": "cal/(mol*K^2)",
+                "units": "cal/(mol*K^2)",
                 "value": "0.053"
               },
               "c": {
-                "-units": "(cal*K)/mol",
+                "units": "(cal*K)/mol",
                 "value": "0.0"
               },
               "Ttr": "620.0",
@@ -124,15 +124,15 @@
             },
             "TemperatureRange2": {
               "a": {
-                "-units": "cal/(mol*K)",
+                "units": "cal/(mol*K)",
                 "value": "21.6"
               },
               "b": {
-                "-units": "cal/(mol*K^2)",
+                "units": "cal/(mol*K^2)",
                 "value": "0.0"
               },
               "c": {
-                "-units": "(cal*K)/mol",
+                "units": "(cal*K)/mol",
                 "value": "0.0"
               }
             }
@@ -145,11 +145,11 @@
         "Elements": "Fe(1)Si(1)O(3)",
         "Type": "Mineral",
         "MolarMass": {
-          "-units": "g/mol",
+          "units": "g/mol",
           "value": "131.9287"
         },
         "MolarVolume": {
-          "-units": "m3/mol",
+          "units": "m3/mol",
           "value": "32.952"
         },
         "Thermo": {
@@ -157,37 +157,37 @@
             "References": "1,13",
             "Date": "5.May.78",
             "Gf": {
-              "-units": "cal/mol",
+              "units": "cal/mol",
               "value": "-267588.0"
             },
             "Hf": {
-              "-units": "cal/mol",
+              "units": "cal/mol",
               "value": "-285658.0"
             },
             "Sr": {
-              "-units": "cal/(mol*K)",
+              "units": "cal/(mol*K)",
               "value": "21.63"
             },
             "Vr": {
-              "-units": "cm3/mol",
+              "units": "cm3/mol",
               "value": "32.952"
             },
             "NumPhaseTrans": "1",
             "Tmax": {
-              "-units": "K",
+              "units": "K",
               "value": "1400.0"
             },
             "TemperatureRange0": {
               "a": {
-                "-units": "cal/(mol*K)",
+                "units": "cal/(mol*K)",
                 "value": "26.49"
               },
               "b": {
-                "-units": "cal/(mol*K^2)",
+                "units": "cal/(mol*K^2)",
                 "value": "0.00507"
               },
               "c": {
-                "-units": "(cal*K)/mol",
+                "units": "(cal*K)/mol",
                 "value": "-555000.0"
               },
               "Ttr": "413.0",
@@ -197,15 +197,15 @@
             },
             "TemperatureRange1": {
               "a": {
-                "-units": "cal/(mol*K)",
+                "units": "cal/(mol*K)",
                 "value": "23.865"
               },
               "b": {
-                "-units": "cal/(mol*K^2)",
+                "units": "cal/(mol*K^2)",
                 "value": "0.00878"
               },
               "c": {
-                "-units": "(cal*K)/mol",
+                "units": "(cal*K)/mol",
                 "value": "-470000.0"
               }
             }
@@ -218,7 +218,7 @@
         "Elements": "Al(1)",
         "Type": "Aqueous",
         "MolarMass": {
-          "-units": "g/mol",
+          "units": "g/mol",
           "value": "26.981538"
         },
         "Charge": "3",
@@ -227,43 +227,43 @@
             "References": "G9",
             "Date": "07.Nov.97",
             "Gf": {
-              "-units": "cal/mol",
+              "units": "cal/mol",
               "value": "-115609.0"
             },
             "Hf": {
-              "-units": "cal/mol",
+              "units": "cal/mol",
               "value": "-126834.0"
             },
             "Sr": {
-              "-units": "cal/(mol*K)",
+              "units": "cal/(mol*K)",
               "value": "-77.7"
             },
             "a1": {
-              "-units": "cal/(mol*bar)",
+              "units": "cal/(mol*bar)",
               "value": "-0.33802"
             },
             "a2": {
-              "-units": "cal/mol",
+              "units": "cal/mol",
               "value": "-1700.71"
             },
             "a3": {
-              "-units": "(cal*K)/(mol*bar)",
+              "units": "(cal*K)/(mol*bar)",
               "value": "14.5185"
             },
             "a4": {
-              "-units": "(cal*K)/mol",
+              "units": "(cal*K)/mol",
               "value": "-20758.0"
             },
             "c1": {
-              "-units": "cal/(mol*K)",
+              "units": "cal/(mol*K)",
               "value": "10.7"
             },
             "c2": {
-              "-units": "(cal*K)/mol",
+              "units": "(cal*K)/mol",
               "value": "-80600.0"
             },
             "wref": {
-              "-units": "cal/mol",
+              "units": "cal/mol",
               "value": "275300.0"
             }
           }
@@ -275,16 +275,16 @@
         "Elements": "C(1)O(2)",
         "Type": "Gaseous",
         "MolarMass": {
-          "-units": "g/mol",
+          "units": "g/mol",
           "value": "44.0095"
         },
         "Gas": "Carbon-Dioxide",
         "CriticalTemperature": {
-          "-units": "K",
+          "units": "K",
           "value": "304.2"
         },
         "CriticalPressure": {
-          "-units": "bar",
+          "units": "bar",
           "value": "73.83"
         },
         "AcentricFactor": "0.224",
@@ -293,31 +293,31 @@
             "References": "6,8",
             "Date": "27.Dec.89",
             "Gf": {
-              "-units": "cal/mol",
+              "units": "cal/mol",
               "value": "-94254.0"
             },
             "Hf": {
-              "-units": "cal/mol",
+              "units": "cal/mol",
               "value": "-94051.0"
             },
             "Sr": {
-              "-units": "cal/(mol*K)",
+              "units": "cal/(mol*K)",
               "value": "51.085"
             },
             "a": {
-              "-units": "cal/(mol*K)",
+              "units": "cal/(mol*K)",
               "value": "10.57"
             },
             "b": {
-              "-units": "cal/(mol*K^2)",
+              "units": "cal/(mol*K^2)",
               "value": "0.0021"
             },
             "c": {
-              "-units": "(cal*K)/mol",
+              "units": "(cal*K)/mol",
               "value": "-206000.0"
             },
             "Tmax": {
-              "-units": "K",
+              "units": "K",
               "value": "2500.0"
             }
           }
@@ -328,11 +328,11 @@
         "Elements": "Ca(1)C(1)O(3)",
         "Type": "Mineral",
         "MolarMass": {
-          "-units": "g/mol",
+          "units": "g/mol",
           "value": "100.0869"
         },
         "MolarVolume": {
-          "-units": "m3/mol",
+          "units": "m3/mol",
           "value": "36.934"
         },
         "Thermo": {
@@ -340,37 +340,159 @@
             "References": "1,18",
             "Date": "9.Mar.90",
             "Gf": {
-              "-units": "cal/mol",
+              "units": "cal/mol",
               "value": "-269880.0"
             },
             "Hf": {
-              "-units": "cal/mol",
+              "units": "cal/mol",
               "value": "-288552.0"
             },
             "Sr": {
-              "-units": "cal/(mol*K)",
+              "units": "cal/(mol*K)",
               "value": "22.15"
             },
             "Vr": {
-              "-units": "cm3/mol",
+              "units": "cm3/mol",
               "value": "36.934"
             },
             "NumPhaseTrans": "0",
             "Tmax": {
-              "-units": "K",
+              "units": "K",
               "value": "1200.0"
             },
             "a": {
-              "-units": "cal/(mol*K)",
+              "units": "cal/(mol*K)",
               "value": "24.98"
             },
             "b": {
-              "-units": "cal/(mol*K^2)",
+              "units": "cal/(mol*K^2)",
               "value": "0.00524"
             },
             "c": {
-              "-units": "(cal*K)/mol",
+              "units": "(cal*K)/mol",
               "value": "-620000.0"
+            }
+          }
+        }
+      },
+      {
+        "Name": "H2O(g)",
+        "Formula": "H2O",
+        "Elements": "H(2)O(1)",
+        "Type": "Gaseous",
+        "MolarMass": {
+          "units": "g/mol",
+          "value": "18.01528"
+        },
+        "Gas": "Steam",
+        "CriticalTemperature": {
+          "units": "K",
+          "value": "647.1"
+        },
+        "CriticalPressure": {
+          "units": "bar",
+          "value": "220.55"
+        },
+        "AcentricFactor": "0.345",
+        "Thermo": {
+          "HKF": {
+            "References": "17",
+            "Date": "24.Mar.90",
+            "Gf": {
+              "units": "cal/mol",
+              "value": "-54524.8"
+            },
+            "Hf": {
+              "units": "cal/mol",
+              "value": "-57935.1"
+            },
+            "Sr": {
+              "units": "cal/(mol*K)",
+              "value": "44.763"
+            },
+            "a": {
+              "units": "cal/(mol*K)",
+              "value": "12.6647"
+            },
+            "b": {
+              "units": "cal/(mol*K^2)",
+              "value": "-0.0104041"
+            },
+            "c": {
+              "units": "(cal*K)/mol",
+              "value": "1307.8"
+            },
+            "Tmax": {
+              "units": "K",
+              "value": "2523.15"
+            }
+          }
+        }
+      },
+      {
+        "Name": "H2O(l)",
+        "Formula": "H2O",
+        "Elements": "H(2)O(1)",
+        "Type": "Aqueous",
+        "MolarMass": {
+          "units": "g/mol",
+          "value": "18.0153"
+        },
+        "Charge": "0"
+      },
+      {
+        "Name": "CO2(aq)",
+        "Formula": "CO2",
+        "Elements": "C(1)O(2)",
+        "Type": "Aqueous",
+        "MolarMass": {
+          "units": "g/mol",
+          "value": "44.0095"
+        },
+        "Charge": "0",
+        "Thermo": {
+          "HKF": {
+            "References": "G18",
+            "Date": "18.Aug.05",
+            "Gf": {
+              "units": "cal/mol",
+              "value": "-92250.0"
+            },
+            "Hf": {
+              "units": "cal/mol",
+              "value": "-98900.0"
+            },
+            "Sr": {
+              "units": "cal/(mol*K)",
+              "value": "28.1"
+            },
+            "a1": {
+              "units": "cal/(mol*bar)",
+              "value": "1.52964"
+            },
+            "a2": {
+              "units": "cal/mol",
+              "value": "-1003.82"
+            },
+            "a3": {
+              "units": "(cal*K)/(mol*bar)",
+              "value": "-55.4493"
+            },
+            "a4": {
+              "units": "(cal*K)/mol",
+              "value": "74092.0"
+            },
+            "c1": {
+              "units": "cal/(mol*K)",
+              "value": "36.8069"
+            },
+            "c2": {
+              "units": "(cal*K)/mol",
+              "value": "35851.0"
+            },
+            "wref": {
+              "units": "cal/mol",
+              "value": "-31070.0"
             }
           }
         }
