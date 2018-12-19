@@ -2,7 +2,8 @@
      "block" :   {
           "defaults" :   {
                "properties.sourcetdb" :   "{\"20\" :   \"CEMDATA18\"}",
-               "properties.TPMethods" :   "[{\"method\":{}}, {\"method\":{}}, {\"method\":{}}]"
+               "properties.TPMethods" :   "[{\"method\":{}}, {\"method\":{}}, {\"method\":{}}]",
+               "properties.temp_import" :   "[{}, {}]"
           },
           "matches" :   {
                "key.0.fv" :   {
@@ -176,7 +177,7 @@
                },
                "dod.13.val" :   {
                     "field" :   "properties.aq_edh_props.values",
-                    "script": "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
+                    "script" :   "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
                },
                "dod.29.val" :   {
                     "field" :   "properties.comment"
@@ -191,6 +192,13 @@
                "dod.17.val.1" :   {
                     "field" :   "properties.TPMethods.0.limitsTP.upperT",
                     "script" :   "field = field + 273.15"
+               },
+               "dod.17.val" :   {
+                    "field" :   "properties.temp_import.0.values",
+                    "script" :   "for k,v in pairs(field) do field[k]=field[k]+273.15 end"
+               },
+               "dod.24.val" :   {
+                    "field" :   "properties.temp_import.1.values"
                },
                "dod.6.val.1" :   {
                     "field" :   "properties.sm_gibbs_energy.errors"
@@ -211,7 +219,73 @@
           "script": "if rintable.properties.formula == 'H2O@' or rintable.properties.formula == 'H2O' then if rintable.properties.class_['3'] then if rintable.properties.class_['3'] == 'SC_AQSOLVENT' then rintable.properties.TPMethods[1].method={} rintable.properties.TPMethods[1].method['29']='water_eos_hgk84_lvs83_gems' rintable.properties.TPMethods[2].method={} rintable.properties.TPMethods[2].method['26']='water_diel_jnort91_gems' end end end;
           if next(rintable.properties.TPMethods[3].method) == nil then table.remove(rintable.properties.TPMethods, 3) end;
           if next(rintable.properties.TPMethods[2].method) == nil then table.remove(rintable.properties.TPMethods, 2) end;
-          if next(rintable.properties.TPMethods[1].method) == nil then table.remove(rintable.properties.TPMethods, 1) end;"
+          if next(rintable.properties.TPMethods[1].method) == nil then table.remove(rintable.properties.TPMethods, 1) end;
+if rintable.properties.TPMethods[1].method['2']=='solute_hkf88_gems' then
+     rintable.properties.TPMethods[1].eos_hkf_coeffs.names = {'a1','a2','a3','a4','c1','c2','wref'} 
+     rintable.properties.TPMethods[1].eos_hkf_coeffs.units = {'cal/(mol*bar)','cal/mol','(cal*K)/mol','cal/(mol*K)','(cal*K)/mol','cal/mol'}
+end
+if rintable.properties.temp_import[1].values ~= nil then
+    t = rintable.properties.temp_import[1].values
+    n = 0
+    for k,v in pairs(t) do n = n+1 end
+    if n>2 then n=n/2
+        param = rintable.properties.TPMethods[1].m_heat_capacity_ft_coeffs.values
+        ft = rintable.properties.temp_import[2].values
+        for j=1,n do
+            size=0
+            for k,v in pairs(rintable.properties.TPMethods) do size = size+1 end
+            for i=size,j do
+                rintable.properties.TPMethods[i+1] = rintable.properties.TPMethods[i]
+            end
+            rintable.properties.TPMethods[j] = {}
+            rintable.properties.TPMethods[j].method = {}
+            rintable.properties.TPMethods[j].method['0']='cp_ft_equation'
+            rintable.properties.TPMethods[j].limitsTP = {}
+            rintable.properties.TPMethods[j].limitsTP.range = true
+            rintable.properties.TPMethods[j].limitsTP.lowerT=t[j+((n)*0)]
+            rintable.properties.TPMethods[j].limitsTP.upperT=t[j+((n)*1)]
+            if (j<n) then
+                m_phase_trans_props = {}
+                for p=0,4 do
+                    m_phase_trans_props[p+1] = ft[j+((n-1)*p)]
+                    if (p==0) then
+                        m_phase_trans_props[p+1] = m_phase_trans_props[p+1]+273.15
+                    end
+                end
+                rintable.properties.TPMethods[j].m_phase_trans_props = {}
+                rintable.properties.TPMethods[j].m_phase_trans_props.values = m_phase_trans_props
+                rintable.properties.TPMethods[j].m_phase_trans_props.names = {'Temperature','dS','dH', 'dV', 'dT/dP'}
+                rintable.properties.TPMethods[j].m_phase_trans_props.units = {'K','J/(mol*K)', 'J/mol', 'J/bar', 'K/bar' }
+                --[[ for k,v in pairs(m_phase_trans_props) do print(v) end ]]
+            end
+            cp_coeffs = {0,0,0,0,0,0,0,0,0,0,0}
+            for p=0,10 do
+                cp_coeffs[p+1] = param[j+((n)*p)]
+            end
+            rintable.properties.TPMethods[j].m_heat_capacity_ft_coeffs = {}
+            rintable.properties.TPMethods[j].m_heat_capacity_ft_coeffs.values = cp_coeffs
+            rintable.properties.TPMethods[j].m_heat_capacity_ft_coeffs.names = {'a0','a1','a2','a3','a4','a5','a6','a7','a8','a9','a10'}
+            rintable.properties.TPMethods[j].m_heat_capacity_ft_coeffs.units = {'J/(mol*K)','J/(mol*K^2)','(J*K)/mol','J/(mol*K^0.5)','J/(mol*K^3)', 
+                                                                                'J/(mol*K^4)','J/(mol*K^5)','(J*K^2)/mol','J/mol','J/(mol*K^1.5)','J/(mol*K)'}
+            --[[ for k,v in pairs(cp_coeffs) do print(v) end ]]
+        end
+    end
+end;
+if rintable.properties.TPMethods[1].method['0']=='cp_ft_equation' then
+     rintable.properties.TPMethods[1].m_heat_capacity_ft_coeffs.names = {'a0','a1','a2','a3','a4','a5','a6','a7','a8','a9','a10'}
+     rintable.properties.TPMethods[1].m_heat_capacity_ft_coeffs.units = {'J/(mol*K)','J/(mol*K^2)','(J*K)/mol','J/(mol*K^0.5)','J/(mol*K^3)', 
+                                                                  'J/(mol*K^4)','J/(mol*K^5)','(J*K^2)/mol','J/mol','J/(mol*K^1.5)','J/(mol*K)'}
+end
+if rintable.properties.aq_edh_props ~= nil then
+     rintable.properties.aq_edh_props.names = {'a0','b'}
+     rintable.properties.aq_edh_props.units = {'Å'}
+end
+if rintable.properties.sm_volume ~= nil then rintable.properties.sm_volume.units = {'J/bar'} end 
+if rintable.properties.sm_gibbs_energy ~= nil then rintable.properties.sm_gibbs_energy.units = {'J/mol'} end
+if rintable.properties.sm_enthalpy ~= nil then rintable.properties.sm_enthalpy.units = {'J/mol'} end 
+if rintable.properties.sm_entropy_abs ~= nil then rintable.properties.sm_entropy_abs.units = {'J/(mol*K)'} end
+if rintable.properties.sm_heat_capacity_p ~= nil then rintable.properties.sm_heat_capacity_p.units = {'J/(mol*K)'} end
+rintable.properties.temp_import = nil"
      },
      "renderer" :   "JSON",
      "label" :   "VertexSubstance",

@@ -177,7 +177,7 @@
                },
                "dod.13.val" :   {
                     "field" :   "properties.aq_edh_props.values",
-                    "script": "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
+                    "script" :   "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
                },
                "dod.29.val" :   {
                     "field" :   "properties.comment"
@@ -198,7 +198,7 @@
                     "script" :   "for k,v in pairs(field) do field[k]=field[k]+273.15 end"
                },
                "dod.24.val" :   {
-                "field" :   "properties.temp_import.1.values"
+                    "field" :   "properties.temp_import.1.values"
                },
                "dod.6.val.1" :   {
                     "field" :   "properties.sm_gibbs_energy.errors"

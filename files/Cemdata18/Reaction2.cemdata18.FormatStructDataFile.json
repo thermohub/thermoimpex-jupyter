@@ -1,8 +1,8 @@
 {
      "block" :   {
           "defaults" :   {
-               "properties.sourcetdb" :   "{\"15\" :   \"PSI_NAGRA\"}",
-               "properties.datasources" :   "[\"PSI-Nagra-12-07\"]",
+               "properties.sourcetdb" :   "{\"20\" :   \"CEMDATA18\"}",
+               "properties.datasources" :   "[\"Cemdata18\"]",
                "properties.reactyp" :   "{\"1\" :   \"FE_FORMATION\"}",
                "properties.TPMethods" :   "[{\"method\":{}}, {\"method\":{}}, {\"method\":{}}]",
                "properties.level" :   "0"
@@ -115,11 +115,11 @@
           if next(rintable.properties.TPMethods[3].method) == nil then table.remove(rintable.properties.TPMethods, 3) end;
           if next(rintable.properties.TPMethods[2].method) == nil then table.remove(rintable.properties.TPMethods, 2) end;
           if next(rintable.properties.TPMethods[1].method) == nil then table.remove(rintable.properties.TPMethods, 1) end;
-if rintable.properties.drsm_volume ~= nil then rintable.properties.sm_volume.units = {'J/bar'} end 
-if rintable.properties.drsm_gibbs_energy ~= nil then rintable.properties.sm_gibbs_energy.units = {'J/mol'} end
-if rintable.properties.drsm_enthalpy ~= nil then rintable.properties.sm_enthalpy.units = {'J/mol'} end 
-if rintable.properties.drsm_entropy ~= nil then rintable.properties.sm_entropy_abs.units = {'J/(mol*K)'} end
-if rintable.properties.drsm_heat_capacity_p ~= nil then rintable.properties.sm_heat_capacity_p.units = {'J/(mol*K)'} end"
+          if rintable.properties.drsm_volume ~= nil then rintable.properties.sm_volume.units = {'J/bar'} end 
+          if rintable.properties.drsm_gibbs_energy ~= nil then rintable.properties.sm_gibbs_energy.units = {'J/mol'} end
+          if rintable.properties.drsm_enthalpy ~= nil then rintable.properties.sm_enthalpy.units = {'J/mol'} end 
+          if rintable.properties.drsm_entropy ~= nil then rintable.properties.sm_entropy_abs.units = {'J/(mol*K)'} end
+          if rintable.properties.drsm_heat_capacity_p ~= nil then rintable.properties.sm_heat_capacity_p.units = {'J/(mol*K)'} end"
      },
      "renderer" :   "JSON",
      "label" :   "VertexReaction",
