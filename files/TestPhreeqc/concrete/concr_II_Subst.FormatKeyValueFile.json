@@ -1,0 +1,79 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.sourcetdb" :   "16",
+"properties.class_" :   "2",
+"properties.aggregate_state" : "4",
+"properties.standard_cscale" : "2"
+
+          },
+          "pairs" :   {
+               "gamma" :   {
+                    "datatype" :   "string",
+                    "organization" :   "list"
+               }
+          },
+          "matches" :   {
+               "head2" :   {
+                    "field" :   "properties.formula",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "head0" :   {
+                    "field" :   "properties.name",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "gamma" :   {
+                    "field" :   "properties.aq_edh_props.values",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "comment" :   {
+                    "field" :   "properties.aq_edh_props.comment",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+                         "kcal" :   "3"
+                    }
+               }
+          },
+          "script" :   "rintable.properties.symbol = string.match(rintable.properties.formula, \'%s*([^%s]*)\');\n          rintable.properties.formula = rintable.properties.symbol;\nif rintable.properties.formula == 'H2O' then rintable.properties.class_ = 3 end"
+     },
+     "format" :   {
+          "head_regexp" :   "(([\\w\\t \\+\\-\\(\\):]*)\\s*=\\s*([^\\n]*))\\n",
+          "end_regexp" :   "",
+          "key_regexp" :   "\\s*\\-([a-zA-Z]\\w*)\\s*",
+          "value_regexp" :   "\\s*([^#\\n]*)",
+          "value_next" :   "",
+          "value_token_regexp" :   "\\s+",
+          "comment_regexp" :   "#([^\\n]*)\\n*",
+          "Ndata" :   0
+     },
+     "renderer" :   " ",
+     "label" :   "VertexSubstance",
+     "separators" :   {
+          "v_sep" :   "",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0
+}

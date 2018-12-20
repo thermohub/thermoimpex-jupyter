@@ -109,7 +109,8 @@
                "dod.11.val.2" :   {
                     "field" :   "properties.sm_volume.errors"
                }
-          }
+          },
+          "script": "name = '_rdc_'.. rintable.properties.name rintable.properties.name = name"
      },
      "renderer" :   "JSON",
      "label" :   "VertexSubstance",

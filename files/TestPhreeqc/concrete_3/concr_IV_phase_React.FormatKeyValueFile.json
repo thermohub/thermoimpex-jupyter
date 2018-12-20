@@ -1,0 +1,111 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.sourcetdb" :   "16",
+"properties.reactyp" :   "1",
+"properties.method_genEoS" : "102",
+"properties.method_corrT" : "208",
+"properties.method_corrP" : "305"
+          },
+          "pairs" :   {
+               "delta_h" :   {
+                    "datatype" :   "string",
+                    "organization" :   "group"
+               },
+               "Vm" :   {
+                    "datatype" :   "string",
+                    "organization" :   "group"
+               },
+               "analytical" :   {
+                    "datatype" :   "string",
+                    "organization" :   "list"
+               },
+               "analytic" :   {
+                    "datatype" :   "string",
+                    "organization" :   "list"
+               },
+               "analytical_expression" :   {
+                    "datatype" :   "string",
+                    "organization" :   "list"
+               }
+          },
+          "matches" :   {
+               "head0" :   {
+                    "field" :   "properties.symbol",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "head1" :   {
+                    "field" :   "properties.equation",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "head2" :   {
+                    "field" :   "properties.name",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "analytical_expression" :   {
+                    "field" :   "properties.logk_ft_coeffs.values",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "log_K" :   {
+                    "field" :   "properties.logKr.values",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "Vm" :   {
+                    "field" :   "properties.dr_volume_pt_coeffs.values",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" : {
+
+                    }
+               }
+          },
+  "script" :   "rintable.properties.symbol = string.match(rintable.properties.symbol, \'%s*([^%s]*)\');\nrintable.properties.name = string.match(rintable.properties.name, \'%s*([^%s]*)\');\n frm = rintable.properties.equation;\n  frm = string.gsub(frm, \'%+%+\',  \'+2\' );\n frm = string.gsub(frm, \'%-%-\',  \'-2\' );\n frm = string.gsub(frm, \'%s+([%d%.]*)%s+(%w)\',  \' %1%2\' );\n frm = string.gsub(frm, \'%s+%+%s+\',  \'  \' );\n frm = string.gsub(frm, \'%s+%-%s+\',  \'  -\' ); \n rintable.properties.equation = frm;   "
+     },
+     "format" :   {
+          "head_regexp" :   "\\s*([^\\s]+)\\s*;\\s*(([\\w\\t \\+\\-\\(\\):\\.]+)\\s*=\\s*([^;]+))",
+          "end_regexp" :   "",
+          "key_regexp" :   "\\s*;\\s*\\-{0,1}([a-zA-Z]\\w*)\\s*",
+          "value_regexp" :   "\\s*([^#\\n;]*)",
+          "value_next" :   "",
+          "value_token_regexp" :   "\\s+",
+          "comment_regexp" :   "#([^\\n]*)\\n*",
+          "Ndata" :   0
+     },
+     "renderer" :   " ",
+     "label" :   "VertexReaction",
+     "separators" :   {
+          "v_sep" :   "",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0
+}
