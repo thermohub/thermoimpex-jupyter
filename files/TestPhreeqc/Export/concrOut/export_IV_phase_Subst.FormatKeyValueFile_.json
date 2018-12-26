@@ -43,7 +43,7 @@
                     }
                }
           },
-          "script" :   "if rintable.properties.class_ == 1 then rintable.properties.symbol = rintable.properties.symbol..\'(g)\' end"
+          "script" :   "if rintable.properties.class_['1'] then rintable.properties.symbol = rintable.properties.symbol..\'(g)\' end"
      },
      "format" :   {
           "head_regexp" :   "\n%head0\n\t%head1\n",
