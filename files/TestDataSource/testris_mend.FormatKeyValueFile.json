@@ -39,7 +39,7 @@
                },
                "Y1" :   {
                     "field" :   "properties.year",
-                    "script": "field = string.gsub(field, '/*', '')"
+                    "script": "field = string.gsub(field, '/*', '') field = string.sub(field,1,4)"
                },
                "SP" :   {
                     "field" :   "properties.pages"
@@ -84,7 +84,18 @@
                     "field" :   "properties.keywords"
                }
           },
-          "script" :   "if rintable.properties.shortname == \'\'  or rintable.properties.shortname == nil then rintable.properties.shortname = rintable.properties.author[1] end; if rintable.properties.bibliographic_type ~= '{\"1\": \"BOOK\"}' then rintable.properties.booktitle = \'\' end; if rintable.properties.bibliographic_type == '{\"1\": \"BOOK\"}' then rintable.properties.booktitle = rintable.properties.title end;"
+          "script" :   "if rintable.properties.shortname == \'\'  or rintable.properties.shortname == nil then rintable.properties.shortname = rintable.properties.author[1] end; if rintable.properties.bibliographic_type ~= '{\"1\": \"BOOK\"}' then rintable.properties.booktitle = \'\' end; if rintable.properties.bibliographic_type == '{\"1\": \"BOOK\"}' then rintable.properties.booktitle = rintable.properties.title end;
+          size = 0
+          for k,v in pairs(rintable.properties.author) do size = size+1 end
+          year = rintable.properties.year
+          if size == 1 then 
+               shrtn = '['.. year ..  string.upper(string.sub(rintable.properties.author[1],1,3)) .. ']'
+               rintable.properties.shortname = shrtn
+          end;
+          if size > 1 then 
+          shrtn = '['.. year ..  string.upper(string.sub(rintable.properties.author[1],1,3)) .. '/' .. string.upper(string.sub(rintable.properties.author[2],1,3)) .. ']'
+          rintable.properties.shortname = shrtn
+          end;"
      },
      "format" :   {
           "head_regexp" :   "",
