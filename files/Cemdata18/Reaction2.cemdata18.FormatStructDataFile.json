@@ -103,11 +103,11 @@
                     "script" :  "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
                },
                "dod.26.val" :   {
-                    "field" :   "properties.TPMethods.2.dr_volume_pt_coeffs.values",
+                    "field" :   "properties.TPMethods.2.dr_volume_fpt_coeffs.values",
                     "script" :  "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
                },
                "dod.24.val" :   {
-                    "field" :   "properties.TPMethods.0.dr_heat_capacity_p_t_coeffs.values",
+                    "field" :   "properties.TPMethods.0.dr_heat_capacity_ft_coeffs.values",
                     "script" :  "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
                }
           },

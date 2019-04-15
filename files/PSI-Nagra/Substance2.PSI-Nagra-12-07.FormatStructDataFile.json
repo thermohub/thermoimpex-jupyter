@@ -246,6 +246,7 @@ if rintable.properties.temp_import[1].values ~= nil then
             rintable.properties.TPMethods[j].limitsTP.range = true
             rintable.properties.TPMethods[j].limitsTP.lowerT=t[j+((n)*0)]
             rintable.properties.TPMethods[j].limitsTP.upperT=t[j+((n)*1)]
+	    if ft ~= nil then
             if (j<n) then
                 m_phase_trans_props = {}
                 for p=0,4 do
@@ -260,6 +261,7 @@ if rintable.properties.temp_import[1].values ~= nil then
                 rintable.properties.TPMethods[j].m_phase_trans_props.units = {'K','J/(mol*K)', 'J/mol', 'J/bar', 'K/bar' }
                 --[[ for k,v in pairs(m_phase_trans_props) do print(v) end ]]
             end
+	    end
             cp_coeffs = {0,0,0,0,0,0,0,0,0,0,0}
             for p=0,10 do
                 cp_coeffs[p+1] = param[j+((n)*p)]
@@ -282,6 +284,8 @@ if rintable.properties.sm_gibbs_energy ~= nil then rintable.properties.sm_gibbs_
 if rintable.properties.sm_enthalpy ~= nil then rintable.properties.sm_enthalpy.units = {'J/mol'} end 
 if rintable.properties.sm_entropy_abs ~= nil then rintable.properties.sm_entropy_abs.units = {'J/(mol*K)'} end
 if rintable.properties.sm_heat_capacity_p ~= nil then rintable.properties.sm_heat_capacity_p.units = {'J/(mol*K)'} end
+if rintable.properties.m_compressibility ~= nil then rintable.properties.m_compressibility.units = {'1e-05/K'} end
+if rintable.properties.m_expansivity ~= nil then rintable.properties.m_expansivity.units = {'kbar'} end
 rintable.properties.temp_import = nil
 
 if rintable.properties.TPMethods[1].method['2']=='solute_hkf88_gems' then
