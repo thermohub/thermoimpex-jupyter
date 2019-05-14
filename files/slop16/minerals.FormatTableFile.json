@@ -1,0 +1,118 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.sourcetdb" :   "{\"23\" :   \"SLOP16\"}",
+               "properties.TPMethods" :   "[{\"method\":{\"0\" :   \"cp_ft_equation\"}, \"m_heat_capacity_ft_coeffs\": { \"limitsTP\": {\"upperT\": 0}, \"values\" : [0,0,0,0,0,0,0,0,0,0], \"names\" : [\"a0\",\"a1\",\"a2\",\"a3\",\"a4\",\"a5\",\"a6\",\"a7\",\"a8\",\"a9\",\"a10\"], \"units\" : [\"J/(mol*K)\",\"J/(mol*K^2)\",\"(J*K)/mol\",\"J/(mol*K^0.5)\",\"J/(mol*K^3)\",\"J/(mol*K^4)\",\"J/(mol*K^5)\",\"(J*K^2)/mol\",\"J/mol\",\"J/(mol*K^1.5)\",\"J/(mol*K)\"] } }]",
+               "properties.aggregate_state" :   "{\"0\" :   \"AS_GAS\"}",
+               "properties.class_" :   "{\"3\" :   \"AS_CRYSTAL\"}",
+               "properties.Tst" :   "298.15",
+               "properties.Pst" :   "1e05"
+          },
+          "matches" :   {
+               "name" :   {
+                    "field" :   "properties.name",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "chemical_formula" :   {
+                    "field" :   "properties.formula",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "abbreviation" :   {
+                    "field" :   "properties.symbol",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "reference" :   {
+                    "field" :   "properties.datasources",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "deltaG" :   {
+                    "field" :   "properties.sm_gibbs_energy.values",
+                    "ignore" :   false,
+                    "script" :   "field[1] = field[1]*4.184"
+               },
+               "deltaH" :   {
+                    "field" :   "properties.sm_enthalpy.values",
+                    "ignore" :   false,
+                    "script" :   "field[1] = field[1]*4.184"
+               },
+               "entropy" :   {
+                    "field" :   "properties.sm_entropy_abs.values",
+                    "ignore" :   false,
+                    "script" :   "field[1] = field[1]*4.184"
+               },
+               "volume" :   {
+                    "field" :   "properties.sm_volume.values",
+                    "ignore" :   false,
+                    "script" :   "field[1] = field[1]*0.1"
+               },
+               "a" :   {
+                    "field" :   "properties.TPMethods.0.m_heat_capacity_ft_coeffs.values.0",
+                    "ignore" :   false,
+                    "script" :   "field = field*4.184"
+               },
+               "b" :   {
+                    "field" :   "properties.TPMethods.0.m_heat_capacity_ft_coeffs.values.1",
+                    "ignore" :   false,
+                    "script" :   "field = field*4.184e-3"
+               },
+               "c" :   {
+                    "field" :   "properties.TPMethods.0.m_heat_capacity_ft_coeffs.values.2",
+                    "ignore" :   false,
+                    "script" :   "field = field*4.184e05"
+               },
+               "Tmax" :   {
+                    "field" :   "properties.TPMethods.0.limitsTP.upperT",
+                    "ignore" :   false,
+                    "script" :   ""
+               }
+          },
+          "script" :   ""
+     },
+     "format" :   {
+          "Nhcols" :   14,
+          "Nhrows" :   0,
+          "headers" :   [
+               "name",
+               "chemical_formula",
+               "abbreviation",
+               "elemental_chemical_formula",
+               "reference",
+               "date_last_revisited",
+               "deltaG",
+               "deltaH",
+               "entropy",
+               "volume",
+               "a",
+               "b",
+               "c",
+               "Tmax"
+          ],
+          "rowend" :   "\n",
+          "rows_one_block" :   6,
+          "colends" :   " \t\n",
+          "usequotes" :   false,
+          "usemore" :   true,
+          "comment_regexp" :   ""
+     },
+     "renderer" :   "",
+     "label" :   "VertexSubstance",
+     "separators" :   {
+          "v_sep" :   "",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0
+}
