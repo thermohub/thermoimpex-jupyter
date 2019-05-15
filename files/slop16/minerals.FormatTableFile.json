@@ -17,7 +17,7 @@
                "chemical_formula" :   {
                     "field" :   "properties.formula",
                     "ignore" :   false,
-                    "script" :   "field = string.gsub(field, '%*([%d%.]*)H2O', '(H2O)%1');"
+                    "script" :   "field = string.gsub(field, '%*([%d%.]*)H2O', '(H2O)%1'); field = string.gsub(field, '%*([%d%.]*)H20', '(H2O)%1');"
                },
                "abbreviation" :   {
                     "field" :   "properties.symbol",
