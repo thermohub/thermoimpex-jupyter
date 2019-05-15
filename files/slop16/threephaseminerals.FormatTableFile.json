@@ -2,9 +2,16 @@
      "block" :   {
           "defaults" :   {
                "properties.sourcetdb" :   "{\"23\" :   \"SLOP16\"}",
-               "properties.TPMethods" :   "[{\"method\":{\"0\" :   \"cp_ft_equation\"}, \"m_heat_capacity_ft_coeffs\": { \"limitsTP\": {\"upperT\": 0}, \"values\" : [0,0,0,0,0,0,0,0,0,0], \"names\" : [\"a0\",\"a1\",\"a2\",\"a3\",\"a4\",\"a5\",\"a6\",\"a7\",\"a8\",\"a9\",\"a10\"], \"units\" : [\"J/(mol*K)\",\"J/(mol*K^2)\",\"(J*K)/mol\",\"J/(mol*K^0.5)\",\"J/(mol*K^3)\",\"J/(mol*K^4)\",\"J/(mol*K^5)\",\"(J*K^2)/mol\",\"J/mol\",\"J/(mol*K^1.5)\",\"J/(mol*K)\"] } }]",
-               "properties.aggregate_state" :   "{\"0\" :   \"AS_GAS\"}",
-               "properties.class_" :   "{\"3\" :   \"AS_CRYSTAL\"}",
+               "properties.TPMethods" :   "[ {\"method\":{\"0\" :   \"cp_ft_equation\"}, \"m_phase_trans_props\" : {\"values\" :[0,0,0,0,0], \"names\" :[\"Temperature\",\"dS\",\"dH\", \"dV\", \"dT/dP\"], \"units\" :[\"K\",\"J/(mol*K)\", \"J/mol\", \"J/bar\", \"K/bar\"]}, 
+               \"m_heat_capacity_ft_coeffs\": { \"limitsTP\": {\"upperT\": 0}, \"values\" : [0,0,0,0,0,0,0,0,0,0], \"names\" : [\"a0\",\"a1\",\"a2\",\"a3\",\"a4\",\"a5\",\"a6\",\"a7\",\"a8\",\"a9\",\"a10\"], \"units\" : [\"J/(mol*K)\",\"J/(mol*K^2)\",\"(J*K)/mol\",\"J/(mol*K^0.5)\",\"J/(mol*K^3)\",\"J/(mol*K^4)\",\"J/(mol*K^5)\",\"(J*K^2)/mol\",\"J/mol\",\"J/(mol*K^1.5)\",\"J/(mol*K)\"] } }, 
+                                             {\"method\":{\"0\" :   \"cp_ft_equation\"}, \"m_phase_trans_props\" : {\"values\" :[0,0,0,0,0], \"names\" :[\"Temperature\",\"dS\",\"dH\", \"dV\", \"dT/dP\"], \"units\" :[\"K\",\"J/(mol*K)\", \"J/mol\", \"J/bar\", \"K/bar\"]}, 
+               \"m_heat_capacity_ft_coeffs\": { \"limitsTP\": {\"upperT\": 0}, \"values\" : [0,0,0,0,0,0,0,0,0,0], \"names\" : [\"a0\",\"a1\",\"a2\",\"a3\",\"a4\",\"a5\",\"a6\",\"a7\",\"a8\",\"a9\",\"a10\"], \"units\" : [\"J/(mol*K)\",\"J/(mol*K^2)\",\"(J*K)/mol\",\"J/(mol*K^0.5)\",\"J/(mol*K^3)\",\"J/(mol*K^4)\",\"J/(mol*K^5)\",\"(J*K^2)/mol\",\"J/mol\",\"J/(mol*K^1.5)\",\"J/(mol*K)\"] } }, 
+                                             {\"method\":{\"0\" :   \"cp_ft_equation\"}, \"m_phase_trans_props\" : {\"values\" :[0,0,0,0,0], \"names\" :[\"Temperature\",\"dS\",\"dH\", \"dV\", \"dT/dP\"], \"units\" :[\"K\",\"J/(mol*K)\", \"J/mol\", \"J/bar\", \"K/bar\"]},
+               \"m_heat_capacity_ft_coeffs\": { \"limitsTP\": {\"upperT\": 0}, \"values\" : [0,0,0,0,0,0,0,0,0,0], \"names\" : [\"a0\",\"a1\",\"a2\",\"a3\",\"a4\",\"a5\",\"a6\",\"a7\",\"a8\",\"a9\",\"a10\"], \"units\" : [\"J/(mol*K)\",\"J/(mol*K^2)\",\"(J*K)/mol\",\"J/(mol*K^0.5)\",\"J/(mol*K^3)\",\"J/(mol*K^4)\",\"J/(mol*K^5)\",\"(J*K^2)/mol\",\"J/mol\",\"J/(mol*K^1.5)\",\"J/(mol*K)\"] } },
+                                             {\"method\":{\"0\" :   \"cp_ft_equation\"}, 
+               \"m_heat_capacity_ft_coeffs\": { \"limitsTP\": {\"upperT\": 0}, \"values\" : [0,0,0,0,0,0,0,0,0,0], \"names\" : [\"a0\",\"a1\",\"a2\",\"a3\",\"a4\",\"a5\",\"a6\",\"a7\",\"a8\",\"a9\",\"a10\"], \"units\" : [\"J/(mol*K)\",\"J/(mol*K^2)\",\"(J*K)/mol\",\"J/(mol*K^0.5)\",\"J/(mol*K^3)\",\"J/(mol*K^4)\",\"J/(mol*K^5)\",\"(J*K^2)/mol\",\"J/mol\",\"J/(mol*K^1.5)\",\"J/(mol*K)\"] } }]",
+               "properties.aggregate_state" :   "{\"2\" :   \"AS_CRYSTAL\"}",
+               "properties.class_" :   "{\"0\" :   \"SC_COMPONENT\"}",
                "properties.Tst" :   "298.15",
                "properties.Pst" :   "1e05"
           },
@@ -17,7 +24,7 @@
                "chemical_formula" :   {
                     "field" :   "properties.formula",
                     "ignore" :   false,
-                    "script" :   ""
+                    "script" :   "field = string.gsub(field, '%*([%d%.]*)H2O', '(H2O)%1');"
                },
                "abbreviation" :   {
                     "field" :   "properties.symbol",
@@ -32,12 +39,12 @@
                "deltaG" :   {
                     "field" :   "properties.sm_gibbs_energy.values",
                     "ignore" :   false,
-                    "script" :   "field[1] = field[1]*4.184"
+                    "script" :   "if field[1] == 999999.0 then field[1] = 999999.0 else field[1] = field[1]*4.184 end;"
                },
                "deltaH" :   {
                     "field" :   "properties.sm_enthalpy.values",
                     "ignore" :   false,
-                    "script" :   "field[1] = field[1]*4.184"
+                    "script" :   "if field[1] == 999999.0 then field[1] = 999999.0 else field[1] = field[1]*4.184 end;"
                },
                "entropy" :   {
                     "field" :   "properties.sm_entropy_abs.values",
@@ -68,9 +75,119 @@
                     "field" :   "properties.TPMethods.0.limitsTP.upperT",
                     "ignore" :   false,
                     "script" :   ""
+               },
+               "deltaHt" : {
+                    "field" :   "properties.TPMethods.0.m_phase_trans_props.values.2",
+                    "ignore" :   false,
+                    "script" :   "if field == 999999.0 then field = 0.0 else field = field*4.184 end;"
+               },
+               "deltaVt" : {
+                    "field" :   "properties.TPMethods.0.m_phase_trans_props.values.3",
+                    "ignore" :   false,
+                    "script" :   "if field == 999999.0 then field = 0.0 else field = field*0.1 end;"
+               },
+               "(dP/dT)t" : {
+                    "field" :   "properties.TPMethods.0.m_phase_trans_props.values.4",
+                    "ignore" :   false,
+                    "script" :   "if field == 999999.0 then field = 0.0 end;"
+               },
+               "a1" :   {
+                    "field" :   "properties.TPMethods.1.m_heat_capacity_ft_coeffs.values.0",
+                    "ignore" :   false,
+                    "script" :   "field = field*4.184"
+               },
+               "b1" :   {
+                    "field" :   "properties.TPMethods.1.m_heat_capacity_ft_coeffs.values.1",
+                    "ignore" :   false,
+                    "script" :   "field = field*4.184e-3"
+               },
+               "c1" :   {
+                    "field" :   "properties.TPMethods.1.m_heat_capacity_ft_coeffs.values.2",
+                    "ignore" :   false,
+                    "script" :   "field = field*4.184e05"
+               },
+               "Tmax1" :   {
+                    "field" :   "properties.TPMethods.1.limitsTP.upperT",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "deltaHt1" : {
+                    "field" :   "properties.TPMethods.1.m_phase_trans_props.values.2",
+                    "ignore" :   false,
+                    "script" :   "if field == 999999.0 then field = 0.0 else field = field*4.184 end;"
+               },
+               "deltaVt1" : {
+                    "field" :   "properties.TPMethods.1.m_phase_trans_props.values.3",
+                    "ignore" :   false,
+                    "script" :   "if field == 999999.0 then field = 0.0 else field = field*0.1 end;"
+               },
+               "(dP/dT)t1" : {
+                    "field" :   "properties.TPMethods.1.m_phase_trans_props.values.4",
+                    "ignore" :   false,
+                    "script" :   "if field == 999999.0 then field = 0.0 end;"
+               },
+               "a2" :   {
+                    "field" :   "properties.TPMethods.2.m_heat_capacity_ft_coeffs.values.0",
+                    "ignore" :   false,
+                    "script" :   "field = field*4.184"
+               },
+               "b2" :   {
+                    "field" :   "properties.TPMethods.2.m_heat_capacity_ft_coeffs.values.1",
+                    "ignore" :   false,
+                    "script" :   "field = field*4.184e-3"
+               },
+               "c2" :   {
+                    "field" :   "properties.TPMethods.2.m_heat_capacity_ft_coeffs.values.2",
+                    "ignore" :   false,
+                    "script" :   "field = field*4.184e05"
+               },
+               "Tmax2" :   {
+                    "field" :   "properties.TPMethods.2.limitsTP.upperT",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "deltaHt2" : {
+                    "field" :   "properties.TPMethods.2.m_phase_trans_props.values.2",
+                    "ignore" :   false,
+                    "script" :   "if field == 999999.0 then field = 0.0 else field = field*4.184 end;"
+               },
+               "deltaVt2" : {
+                    "field" :   "properties.TPMethods.2.m_phase_trans_props.values.3",
+                    "ignore" :   false,
+                    "script" :   "if field == 999999.0 then field = 0.0 else field = field*0.1 end;"
+               },
+               "(dP/dT)t2" : {
+                    "field" :   "properties.TPMethods.2.m_phase_trans_props.values.4",
+                    "ignore" :   false,
+                    "script" :   "if field == 999999.0 then field = 0.0 end;"
+               },
+               "a3" :   {
+                    "field" :   "properties.TPMethods.3.m_heat_capacity_ft_coeffs.values.0",
+                    "ignore" :   false,
+                    "script" :   "field = field*4.184"
+               },
+               "b3" :   {
+                    "field" :   "properties.TPMethods.3.m_heat_capacity_ft_coeffs.values.1",
+                    "ignore" :   false,
+                    "script" :   "field = field*4.184e-3"
+               },
+               "c3" :   {
+                    "field" :   "properties.TPMethods.3.m_heat_capacity_ft_coeffs.values.2",
+                    "ignore" :   false,
+                    "script" :   "field = field*4.184e05"
+               },
+               "Tmax3" :   {
+                    "field" :   "properties.TPMethods.3.limitsTP.upperT",
+                    "ignore" :   false,
+                    "script" :   ""
                }
           },
-          "script" :   ""
+          "script" :   " rintable.properties.TPMethods[1].m_phase_trans_props.values[1] = rintable.properties.TPMethods[1].limitsTP.upperT
+                         rintable.properties.TPMethods[1].m_phase_trans_props.values[2] = rintable.properties.TPMethods[1].m_phase_trans_props.values[3] / rintable.properties.TPMethods[1].m_phase_trans_props.values[1]
+                         rintable.properties.TPMethods[2].m_phase_trans_props.values[1] = rintable.properties.TPMethods[2].limitsTP.upperT
+                         rintable.properties.TPMethods[2].m_phase_trans_props.values[2] = rintable.properties.TPMethods[2].m_phase_trans_props.values[3] / rintable.properties.TPMethods[2].m_phase_trans_props.values[1]
+                         rintable.properties.TPMethods[3].m_phase_trans_props.values[1] = rintable.properties.TPMethods[3].limitsTP.upperT
+                         rintable.properties.TPMethods[3].m_phase_trans_props.values[2] = rintable.properties.TPMethods[3].m_phase_trans_props.values[3] / rintable.properties.TPMethods[3].m_phase_trans_props.values[1]"
      },
      "format" :   {
           "Nhcols" :   35,

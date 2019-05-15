@@ -17,7 +17,7 @@
                "chemical_formula" :   {
                     "field" :   "properties.formula",
                     "ignore" :   false,
-                    "script" :   ""
+                    "script" :   "field = string.gsub(field, '%(g%)',  '' );"
                },
                "abbreviation" :   {
                     "field" :   "properties.symbol",
@@ -32,12 +32,12 @@
                "deltaG" :   {
                     "field" :   "properties.sm_gibbs_energy.values",
                     "ignore" :   false,
-                    "script" :   "field[1] = field[1]*4.184"
+                    "script" :   "if field[1] == 999999.0 then field[1] = 999999.0 else field[1] = field[1]*4.184 end;"
                },
                "deltaH" :   {
                     "field" :   "properties.sm_enthalpy.values",
                     "ignore" :   false,
-                    "script" :   "field[1] = field[1]*4.184"
+                    "script" :   "if field[1] == 999999.0 then field[1] = 999999.0 else field[1] = field[1]*4.184 end;"
                },
                "entropy" :   {
                     "field" :   "properties.sm_entropy_abs.values",
@@ -77,8 +77,8 @@
           "Nhrows" :   0,
           "headers" :   [
                "name",
-               "chemical_formula",
                "abbreviation",
+               "chemical_formula",
                "elemental_chemical_formula",
                "reference",
                "date_last_revisited",

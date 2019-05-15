@@ -17,7 +17,9 @@
                "chemical_formula" :   {
                     "field" :   "properties.formula",
                     "ignore" :   false,
-                    "script" :   ""
+                    "script" :   "field = string.gsub(field, '%((%d*)0%)',  '@' )
+                    field = string.gsub(field, '%(%-[^%d]*(%d+)[^%d]*%)',  '-%1' )
+                    field = string.gsub(field, '%(%+[^%d]*(%d+)[^%d]*%)',  '+%1' )"
                },
                "abbreviation" :   {
                     "field" :   "properties.symbol",
@@ -32,12 +34,12 @@
                "deltaG" :   {
                     "field" :   "properties.sm_gibbs_energy.values",
                     "ignore" :   false,
-                    "script" :   "field[1] = field[1]*4.184"
+                    "script" :   "if field[1] == 999999.0 then field[1] = 999999.0 else field[1] = field[1]*4.184 end;"
                },
                "deltaH" :   {
                     "field" :   "properties.sm_enthalpy.values",
                     "ignore" :   false,
-                    "script" :   "field[1] = field[1]*4.184"
+                    "script" :   "if field[1] == 999999.0 then field[1] = 999999.0 else field[1] = field[1]*4.184 end;"
                },
                "entropy" :   {
                     "field" :   "properties.sm_entropy_abs.values",
@@ -47,12 +49,12 @@
                "a1" :   {
                     "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.0",
                     "ignore" :   false,
-                    "script" :   "field[1] = field[1]*0.1"
+                    "script" :   "field = field*0.1"
                },
                "a2" :   {
                     "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.1",
                     "ignore" :   false,
-                    "script" :   "field[1] = field[1]*100"
+                    "script" :   "field = field*100"
                },
                "a3" :   {
                     "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.2",
@@ -62,7 +64,7 @@
                "a4" :   {
                     "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.3",
                     "ignore" :   false,
-                    "script" :   "field[1] = field[1]*1e4"
+                    "script" :   "field = field*1e4"
                },
                "c1" :   {
                     "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.4",
@@ -72,12 +74,12 @@
                "c2" :   {
                     "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.5",
                     "ignore" :   false,
-                    "script" :   "field[1] = field[1]*1e4"
+                    "script" :   "field = field*1e4"
                },
                "omega" :   {
                     "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.6",
                     "ignore" :   false,
-                    "script" :   "field[1] = field[1]*1e5"
+                    "script" :   "field = field*1e5"
                },
                "charge" :   {
                     "field" :   "properties.formula_charge",
