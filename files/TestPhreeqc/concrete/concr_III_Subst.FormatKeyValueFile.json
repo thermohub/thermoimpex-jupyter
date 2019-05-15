@@ -1,10 +1,10 @@
 {
      "block" :   {
           "defaults" :   {
-               "properties.sourcetdb" :   "16",
-"properties.class_" :   "2",
-"properties.aggregate_state" : "4",
-"properties.standard_cscale" : "2"
+            "properties.sourcetdb" :   "{\"16\" :   \"MOIETY\"}",
+            "properties.class_" :   "{\"2\" :   \"SC_AQSOLUTE\"}",
+            "properties.aggregate_state" : "{\"4\" :   \"AS_AQUEOUS\"}",
+            "properties.standard_cscale" : "{\"2\" :   \"CS_PARTIALPRESSURE\"}"
           },
           "pairs" :   {
                "gamma" :   {
@@ -22,7 +22,7 @@
                     }
                },
                "head0" :   {
-                    "field" :   "properties.name",
+                    "field" :   "properties.comment",
                     "ignore" :   false,
                     "script" :   "",
                     "convert" :   {
@@ -38,7 +38,10 @@
                     }
                }
           },
-          "script" :   "rintable.properties.symbol = string.match(rintable.properties.formula, \'%s*([^%s]*)\');\n rintable.properties.formula = rintable.properties.symbol; if string.match(rintable.properties.formula, \'[-+].*\') == '+' then formula_charge = 1 \n elseif string.match(rintable.properties.formula, \'[-+].*\') == '-' then formula_charge = -1 \n elseif tonumber(string.match(rintable.properties.formula, \'[-+].*\')) == tonumber('+') then formula_charge = 0 \n else formula_charge = tonumber(string.match(rintable.properties.formula, \'[-+].*\')) end"
+          "script" :   "rintable.properties.symbol = string.match(rintable.properties.formula, \'%s*([^%s]*)\');\n
+                        rintable.properties.name = rintable.properties.symbol; \n
+                        rintable.properties.formula = rintable.properties.symbol;
+                        if string.match(rintable.properties.formula, \'[-+].*\') == '+' then formula_charge = 1 \n elseif string.match(rintable.properties.formula, \'[-+].*\') == '-' then formula_charge = -1 \n elseif tonumber(string.match(rintable.properties.formula, \'[-+].*\')) == tonumber('+') then formula_charge = 0 \n else formula_charge = tonumber(string.match(rintable.properties.formula, \'[-+].*\')) end"
      },
      "format" :   {
           "head_regexp" :   "(([\\w\\t \\+\\-\\(\\):\\.]*)\\s*=\\s*([^;]*))",
