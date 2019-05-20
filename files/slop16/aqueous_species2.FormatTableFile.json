@@ -14,16 +14,10 @@
                     "ignore" :   false,
                     "script" :   ""
                },
-               "chemical_formula" :   {
+               "elemental_chemical_formula" :   {
                     "field" :   "properties.formula",
                     "ignore" :   false,
-                    "script" :   "field = string.gsub(field, '%((%d*)0%)',  '@' );
-                    field = string.gsub(field, '%(%-[^%d]*(%d+)[^%d]*%)',  '-%1' );
-                    field = string.gsub(field, '%(%+[^%d]*(%d+)[^%d]*%)',  '+%1' );
-                    field = string.gsub(field, '%(([%-%+])%)', '%1');
-                    field = string.gsub(field, '%(([%d%.]*)%)', '+%1');
-                    field = string.gsub(field, '%+1', '+');
-                    field = string.gsub(field, '%-1', '-')"
+                    "script" :   "field = string.gsub(field, '%(([%d%.]*)%)', '%1');"
                },
                "abbreviation" :   {
                     "field" :   "properties.symbol",
