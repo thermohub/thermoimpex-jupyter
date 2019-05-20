@@ -1,11 +1,11 @@
 {
      "block" :   {
           "defaults" :   {
-               "properties.sourcetdb" :   "16",
-"properties.reactyp" :   "1",
-"properties.method_genEoS" : "102",
-"properties.method_corrT" : "208",
-"properties.method_corrP" : "305"
+            "properties.sourcetdb" :    "{\"16\" :   \"MOIETY\"}",
+            "properties.datasources" :   "[\"concrete_3T_V07_02\"]",
+            "properties.reactyp" :   "{\"1\" :   \"FE_FORMATION\"}",
+            "properties.TPMethods" :   "[{\"method\":{}}, {\"method\":{}}, {\"method\":{}}]",
+            "properties.level" :   "0"
           },
           "pairs" :   {
                "analytical_expression" :   {
@@ -47,7 +47,8 @@
                     }
                }
           },
-          "script" :   "rintable.properties.symbol = string.match(rintable.properties.name, \'%s*([^%s]*)\');\n          rintable.properties.name = rintable.properties.symbol "
+          "script" :   "rintable.properties.symbol = string.match(rintable.properties.name, \'%s*([^%s]*)\');\n
+                        rintable.properties.name = rintable.properties.symbol ;\n  rintable.properties.equation = string.gsub( rintable.properties.equation, '([^[%s=]]*)%s+([^[%s=]]*)', '%1  +  %2' );"
      },
      "format" :   {
           "head_regexp" :   "(([\\w\\t \\+\\-\\(\\):\\.]*)\\s*=\\s*([^;]*))",

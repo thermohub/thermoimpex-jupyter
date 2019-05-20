@@ -1,7 +1,11 @@
 {
      "block" :   {
           "defaults" :   {
-
+            "properties.radioactivity.decay_type" :   "{\"0\" :   \"STABLE\"}",
+            "properties.radioactivity.half_life_lambda.values" :   "[ 0 ]",
+            "properties.class_" :   "{\"0\" :   \"ELEMENT\"}",
+            "properties.datasources" :   "[\"concrete_3T_V07_02\"]",
+            "properties.sourcetdb" :   "{\"16\" :   \"MOIETY\"}"
           },
           "pairs" :   {
 
@@ -32,7 +36,8 @@
                     }
                }
           },
-          "script" :   "rintable.properties.name = rintable.properties.formula;\n rintable.properties.symbol = string.match(rintable.properties.formula, \'(%a%a?%a?)\');\nist = string.match(rintable.properties.formula, \'%(([^%)]+)%)\');\nif ist then  rintable.properties.isotope_mass = ist\n          rintable.properties.class_ = 1 end"
+          "script" :   "rintable.properties.name = rintable.properties.formula;\n rintable.properties.symbol = string.match(rintable.properties.formula, \'(%a%a?%a?)\');\nist = string.match(rintable.properties.formula, \'%(([^%)]+)%)\');\n
+                         if ist then  rintable.properties.isotope_mass = ist\n   rintable.properties.class_ = {} rintable.properties.class_['1'] = 'ISOTOPE' end"
      },
      "format" :   {
           "Nhcols" :   6,

@@ -1,7 +1,10 @@
 {
      "block" :   {
           "defaults" :   {
-               "properties.sourcetdb" :   "16"
+            "properties.sourcetdb" :   "{\"16\" :   \"MOIETY\"}",
+            "properties.class_" :   "{\"2\" :   \"SC_AQSOLUTE\"}",
+            "properties.aggregate_state" : "{\"4\" :   \"AS_AQUEOUS\"}",
+            "properties.standard_cscale" : "{\"2\" :   \"CS_PARTIALPRESSURE\"}"
           },
           "pairs" :   {
                "gamma" :   {
@@ -19,7 +22,7 @@
                     }
                },
                "head1" :   {
-                    "field" :   "properties.name",
+                    "field" :   "properties.comment",
                     "ignore" :   false,
                     "script" :   "",
                     "convert" :   {
@@ -27,7 +30,7 @@
                     }
                },
                "head2" :   {
-                    "field" :   "properties.formula",
+                    "field" :   "properties.name",
                     "ignore" :   false,
                     "script" :   "",
                     "convert" :   {
@@ -43,7 +46,9 @@
                     }
                }
           },
-          "script" :   "rintable.properties.symbol = string.match(rintable.properties.symbol, \'%s*([^%s]*)\');\n          rintable.properties.formula = string.match(rintable.properties.formula, \'%s*([^%s]*)\'); "
+          "script" :   "rintable.properties.symbol = string.match(rintable.properties.symbol, \'%s*([^%s]*)\');\n
+          rintable.properties.name = string.match(rintable.properties.name, \'%s*([^%s]*)\');\n 
+          rintable.properties.formula = string.gsub( rintable.properties.name, ':([%d%.]*)H2O',  '(H2O)%1' ); "
      },
      "format" :   {
           "head_regexp" :   "\\s*([^\\s]+)\\s*;\\s*(([\\w\\t \\+\\-\\(\\):\\.]+)\\s*=\\s*([^;]+))",
