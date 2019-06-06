@@ -68,64 +68,64 @@ SOLUTION_SPECIES
 # PMATCH MASTER SPECIES
 
 H+                   = H+                  
-    log_k      0.0
+    -log_k      0.0
     -gamma     9.00    0.064
 
 e-                   = e-                  
-    log_k      0.0
+    -log_k      0.0
 
 H2O                  = H2O                 
-    log_k      0.0
+    -log_k      0.0
     -gamma     0.00    0.0#64
 
 HCO3-                = HCO3-               
-    log_k      0.0
+    -log_k      0.0
     -gamma     5.40    0.064
 
 Ca+2                 = Ca+2                
-    log_k      0.0
+    -log_k      0.0
     -gamma     4.86    0.064 # 0.01564
 
 Si(OH)4              = Si(OH)4             
-    log_k      0.0
+    -log_k      0.0
     -gamma     0.00    0.0#64
 
 #b parameter not changed from here on for primary master species
 
 Al+3                 = Al+3                
-    log_k      0.0
+    -log_k      0.0
     -gamma     6.65   0.064 # 0.19
 
 Fe+2                 = Fe+2                
-    log_k      0.0
+    -log_k      0.0
     -gamma     5.08    0.064 # 0.16
 
 K+                   = K+                  
-    log_k      0.0
+    -log_k      0.0
     -gamma     3.71    0.064 # 0.01
 
 Mg+2                 = Mg+2                
-    log_k      0.0
+    -log_k      0.0
     -gamma     5.46    0.064 # 0.22
 
 SO4-2                = SO4-2               
-    log_k      0.0
+    -log_k      0.0
     -gamma     5.31   0.064 # -0.07
 
 Br-                  = Br-
-    log_k      0.0
+    -log_k      0.0
     -gamma     3.00    0.064 # 0.00
 
 Cl-                  = Cl-
-    log_k      0.0
+    -log_k      0.0
     -gamma     3.71    0.01
 
 NO3-                 = NO3-
-    log_k      0.0
+    -log_k      0.0
     -gamma     3.00    0.064 # 0.00
     
 Na+                  = Na+
-    log_k      0.0
+    -log_k      0.0
     -gamma     4.32    0.064 # 0.06
 
 SECONDARY_MASTER_SPECIES
@@ -157,7 +157,7 @@ SECONDARY_MASTER_SPECIES
  +1.000SO4-2                +1.000Fe+3                 = FeSO4+ ;     -gamma      4.00    0.0640	; log_K   	4.040089	 ; -analytical_expression 	-61.88124256446	0	2185.38358231463	23.6787255052	0	   
  +2.000SO4-2                +1.000Fe+3                 = Fe(SO4)2- ;     -gamma      4.00    0.0640	; log_K   	5.380128	 ; -analytical_expression 	-131.48050051289	0	5443.75324149227	47.9311468746	0	   
  +1.000Fe+2                 -1.000e-                   = Fe+3 ;     -gamma      9.00    0.0640	; log_K   	-13.0201	 ; -analytical_expression 	6.52902464956	0	-2917.27751554918	-5.3251484453	0	   
- +3.000H2O                  -3.000H+                   +1.000Fe+3                 = Fe(OH)3   ;	; log_K   	-12.5594	 ; -analytical_expression 	147.12395569469	0	-13347.13553589500	-46.4423038760	0	   
+ +3.000H2O                  -3.000H+                   +1.000Fe+3                 = Fe(OH)3   ; log_K   	-12.5594	 ; -analytical_expression 	147.12395569469	0	-13347.13553589500	-46.4423038760	0	   
  +2.000H2O                  -2.000H+                   +2.000Fe+3                 = Fe2(OH)2+4 ;     -gamma      4.00    0.0640	; log_K   	-2.94948	 ; -analytical_expression 	6.94584777011	0	-2950.65882826826	0.0000120272	0	   
  +4.000H2O                  -4.000H+                   +3.000Fe+3                 = Fe3(OH)4+5 ;     -gamma      9.00    0.0640	; log_K   	-6.29892	 ; -analytical_expression 	4.18235662859	0	-3125.11656793865	0.0000240543	0	   
  +1.000Cl-                  +1.000Fe+3                 = FeCl+2 ;    -gamma      4.00    0.0640	; log_K   	1.480017	 ; -analytical_expression 	-72.69030177926	0	3122.83931417149	25.7418657263	0	   
