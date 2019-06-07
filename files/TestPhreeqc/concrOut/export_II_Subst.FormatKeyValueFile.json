@@ -1,0 +1,68 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "log_k" :   "0.0"
+          },
+          "pairs" :   {
+               "gamma" :   {
+                    "datatype" :   "string",
+                    "organization" :   "list"
+               }
+          },
+          "matches" :   {
+               "head2" :   {
+                    "field" :   "properties.formula",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "head0" :   {
+                    "field" :   "properties.comment",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "gamma" :   {
+                    "field" :   "properties.aq_edh_props.values",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               }
+          },
+          "script" :   "if rintable.properties.formula == \'Zz\' then rintable.properties.formula = \'e-\' end"
+     },
+     "format" :   {
+          "head_regexp" :   "\n%head2\t=\t%head2\n",
+          "end_regexp" :   "",
+          "key_regexp" :   "\t-%key \t",
+          "value_regexp" :   "%value",
+          "value_next" :   "\n",
+          "value_token_regexp" :   "  ",
+          "comment_regexp" :   "# ",
+          "Ndata" :   0
+     },
+     "renderer" :   " ",
+     "label" :   "VertexSubstance",
+     "separators" :   {
+          "v_sep" :   "",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0,
+     "direction" :   1
+}
