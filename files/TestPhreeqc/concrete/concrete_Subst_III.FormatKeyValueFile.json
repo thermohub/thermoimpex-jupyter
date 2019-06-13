@@ -1,10 +1,10 @@
 {
      "block" :   {
           "defaults" :   {
-            "properties.sourcetdb" :   "{\"16\" :   \"MOIETY\"}",
+            "properties.sourcetdb" :   "{\"1001\" :   \"WORK1\"}",
             "properties.class_" :   "{\"2\" :   \"SC_AQSOLUTE\"}",
             "properties.aggregate_state" : "{\"4\" :   \"AS_AQUEOUS\"}",
-            "properties.standard_cscale" : "{\"2\" :   \"CS_PARTIALPRESSURE\"}"
+            "properties.standard_cscale" : "{\"3\" :   \"CS_MOLALITY\"}"
           },
           "pairs" :   {
                "gamma" :   {

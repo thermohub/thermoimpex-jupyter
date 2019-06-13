@@ -1,10 +1,10 @@
 {
      "block" :   {
           "defaults" :   {
-            "properties.sourcetdb" :   "{\"16\" :   \"MOIETY\"}",
+            "properties.sourcetdb" :   "{\"1001\" :   \"WORK1\"}",
             "properties.class_" :   "{\"0\" :   \"SC_COMPONENT\"}",
-            "properties.aggregate_state" : "{\"4\" :   \"AS_AQUEOUS\"}",
-            "properties.standard_cscale" : "{\"2\" :   \"CS_PARTIALPRESSURE\"}"
+            "properties.aggregate_state" : "{\"3\" :   \"AS_CRYSTAL\"}",
+            "properties.standard_cscale" : "{\"3\" :   \"CS_MOLALITY\"}"
           },
           "pairs" :   {
                "gamma" :   {
@@ -48,7 +48,8 @@
           },
           "script" :   "rintable.properties.symbol = string.match(rintable.properties.symbol, \'%s*([^%s]*)\');\n
           rintable.properties.name = string.match(rintable.properties.name, \'%s*([^%s]*)\');\n 
-          rintable.properties.formula = string.gsub( rintable.properties.name, ':([%d%.]*)H2O',  '(H2O)%1' ); "
+          rintable.properties.formula = string.gsub( rintable.properties.name, ':([%d%.]*)H2O',  '(H2O)%1' );\n
+          if string.match(rintable.properties.symbol, \'%(g%)\') then rintable.properties.class_ = {} rintable.properties.aggregate_state = {} rintable.properties.class_['1'] = 'SC_GASFLUID' rintable.properties.aggregate_state['0'] = 'AS_GAS' end; "
      },
      "format" :   {
           "head_regexp" :   "\\s*([^\\s]+)\\s*;\\s*(([\\w\\t \\+\\-\\(\\):\\.]+)\\s*=\\s*([^;]+))",

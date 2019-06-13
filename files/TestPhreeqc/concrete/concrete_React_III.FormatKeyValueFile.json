@@ -1,10 +1,10 @@
 {
      "block" :   {
           "defaults" :   {
-            "properties.sourcetdb" :    "{\"16\" :   \"MOIETY\"}",
+            "properties.sourcetdb" :    "{\"1001\" :   \"WORK1\"}",
             "properties.datasources" :   "[\"concrete_3T_V07_02\"]",
             "properties.reactyp" :   "{\"1\" :   \"FE_FORMATION\"}",
-            "properties.TPMethods" :   "[{\"method\":{}}, {\"method\":{}}, {\"method\":{}}]",
+            "properties.TPMethods" :   "[{\"method\":{\"0\" :   \"logk_fpt_function\"}, \"logk_ft_coeffs\": { } }]",
             "properties.level" :   "0"
           },
           "pairs" :   {
@@ -31,7 +31,7 @@
                     }
                },
                "analytical_expression" :   {
-                    "field" :   "properties.logk_ft_coeffs.values",
+                    "field" :   "properties.MethodsTP.0.logk_ft_coeffs.values",
                     "ignore" :   false,
                     "script" :   "",
                     "convert" :   {
