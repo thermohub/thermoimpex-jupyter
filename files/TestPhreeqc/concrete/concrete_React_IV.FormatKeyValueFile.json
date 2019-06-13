@@ -5,7 +5,7 @@
                "properties.datasources" :   "[\"concrete_3T_V07_02\"]",
                "properties.reactyp" :   "{\"2\" :   \"RE_DISSOLUTION\"}",
                "properties.TPMethods" :   "[{\"method\":{\"0\" :   \"logk_fpt_function\"}, \"logk_ft_coeffs\": { } },
-                                            {\"method\":{\"0\" :   \"dr_volume_fpt\"}, \"dr_volume_fpt_coeffs\": { } }]",
+                                            {\"method\":{\"12\" :   \"dr_volume_fpt\"}, \"dr_volume_fpt_coeffs\": { } }]",
                "properties.level" :   "0"
           },
           "pairs" :   {
@@ -56,7 +56,7 @@
                     }
                },
                "analytical_expression" :   {
-                    "field" :   "properties.MethodsTP.0.logk_ft_coeffs.values",
+                    "field" :   "properties.TPMethods.0.logk_ft_coeffs.values",
                     "ignore" :   false,
                     "script" :   "",
                     "convert" :   {
@@ -72,7 +72,7 @@
                     }
                },
                "Vm" :   {
-                    "field" :   "properties.MethodsTP.1.dr_volume_fpt_coeffs.values",
+                    "field" :   "properties.TPMethods.1.dr_volume_fpt_coeffs.values",
                     "ignore" :   false,
                     "script" :   "",
                     "convert" : {
