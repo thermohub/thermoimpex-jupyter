@@ -4,7 +4,7 @@
             "properties.sourcetdb" :    "{\"1001\" :   \"WORK1\"}",
             "properties.datasources" :   "[\"concrete_3T_V07_02\"]",
             "properties.reactyp" :   "{\"1\" :   \"FE_FORMATION\"}",
-            "properties.TPMethods" :   "[{\"method\":{\"0\" :   \"logk_fpt_function\"}, \"logk_ft_coeffs\": { } }]",
+            "properties.TPMethods" :   "[{\"method\":{\"0\" :   \"logk_fpt_function\"}, \"logk_ft_coeffs\": { \"names\" : [\"A1\",\"A2\",\"A3\",\"A4\",\"A5\"] } }]",
             "properties.level" :   "0"
           },
           "pairs" :   {
@@ -31,7 +31,7 @@
                     }
                },
                "analytical_expression" :   {
-                    "field" :   "properties.MethodsTP.0.logk_ft_coeffs.values",
+                    "field" :   "properties.TPMethods.0.logk_ft_coeffs.values",
                     "ignore" :   false,
                     "script" :   "",
                     "convert" :   {

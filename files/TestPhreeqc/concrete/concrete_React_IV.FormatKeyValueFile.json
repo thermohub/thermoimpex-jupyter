@@ -4,8 +4,8 @@
                "properties.sourcetdb" :    "{\"1001\" :   \"WORK1\"}",
                "properties.datasources" :   "[\"concrete_3T_V07_02\"]",
                "properties.reactyp" :   "{\"2\" :   \"RE_DISSOLUTION\"}",
-               "properties.TPMethods" :   "[{\"method\":{\"0\" :   \"logk_fpt_function\"}, \"logk_ft_coeffs\": { } },
-                                            {\"method\":{\"0\" :   \"dr_volume_fpt\"}, \"dr_volume_fpt_coeffs\": { } }]",
+               "properties.TPMethods" :   "[{\"method\":{\"0\" :   \"logk_fpt_function\"}, \"logk_ft_coeffs\": { \"names\" : [\"A1\",\"A2\",\"A3\",\"A4\",\"A5\"] } },
+                                            {\"method\":{\"12\" :   \"dr_volume_fpt\"}, \"dr_volume_fpt_coeffs\": { } }]",
                "properties.level" :   "0"
           },
           "pairs" :   {
@@ -56,7 +56,7 @@
                     }
                },
                "analytical_expression" :   {
-                    "field" :   "properties.MethodsTP.0.logk_ft_coeffs.values",
+                    "field" :   "properties.TPMethods.0.logk_ft_coeffs.values",
                     "ignore" :   false,
                     "script" :   "",
                     "convert" :   {
@@ -72,7 +72,7 @@
                     }
                },
                "Vm" :   {
-                    "field" :   "properties.MethodsTP.1.dr_volume_fpt_coeffs.values",
+                    "field" :   "properties.TPMethods.1.dr_volume_fpt_coeffs.values",
                     "ignore" :   false,
                     "script" :   "",
                     "convert" : {
@@ -80,7 +80,8 @@
                     }
                }
           },
-  "script" :   "rintable.properties.symbol = string.match(rintable.properties.symbol, \'%s*([^%s]*)\');\nrintable.properties.name = string.match(rintable.properties.name, \'%s*([^%s]*)\');\n frm = rintable.properties.equation;\n  frm = string.gsub(frm, \'%+%+\',  \'+2\' );\n frm = string.gsub(frm, \'%-%-\',  \'-2\' );\n frm = string.gsub(frm, \'%s+([%d%.]*)%s+(%w)\',  \' %1%2\' );\n frm = string.gsub(frm, \'%s+%+%s+\',  \'  \' );\n frm = string.gsub(frm, \'%s+%-%s+\',  \'  -\' ); \n frm = string.gsub( frm, '([^[%s=]]*)%s+([^[%s=]]*)', '%1  +  %2' );\n rintable.properties.equation = frm;   "
+  "script" :   "rintable.properties.symbol = string.match(rintable.properties.symbol, \'%s*([^%s]*)\');\nrintable.properties.name = string.match(rintable.properties.name, \'%s*([^%s]*)\');\n frm = rintable.properties.equation;\n  frm = string.gsub(frm, \'%+%+\',  \'+2\' );\n frm = string.gsub(frm, \'%-%-\',  \'-2\' );\n frm = string.gsub(frm, \'%s+([%d%.]*)%s+(%w)\',  \' %1%2\' );\n frm = string.gsub(frm, \'%s+%+%s+\',  \'  \' );\n frm = string.gsub(frm, \'%s+%-%s+\',  \'  -\' ); \n frm = string.gsub( frm, '([^[%s=]]*)%s+([^[%s=]]*)', '%1  +  %2' );\n rintable.properties.equation = frm; \n
+               if rintable.properties.TPMethods[2].dr_volume_fpt_coeffs.values == nil then rintable.properties.TPMethods[2] = nil end;   "
      },
      "format" :   {
           "head_regexp" :   "\\s*([^\\s]+)\\s*;\\s*(([\\w\\t \\+\\-\\(\\):\\.]+)\\s*=\\s*([^;]+))",
