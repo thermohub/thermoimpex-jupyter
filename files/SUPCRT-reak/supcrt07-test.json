@@ -124,5 +124,21 @@
           "wref": 1596070.5,
           "charge": 4.0
         }
+    },
+    {
+      "name": "H2O(aq)",
+      "formula": "H2O",
+      "elements": {"H": 2.0, "O": 1.0},
+      "parameters": {
+        "type": "whkf",
+        "date": "01.Jan.74",
+        "ref": ["Helgeson&Kirkham1974"],
+        "Ttr": 273.16,
+        "Str": 63.312288,
+        "Gtr": -235517.36,
+        "Htr": -287721.13,
+        "Utr": -284039.21,
+        "Atr": -231856.36
+      }
     }
 ]
