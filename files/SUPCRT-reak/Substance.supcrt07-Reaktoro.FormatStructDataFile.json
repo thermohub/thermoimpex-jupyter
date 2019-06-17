@@ -2,7 +2,8 @@
      "block" :   {
           "defaults" :   {
                "properties.sourcetdb" :   "{\"21\" :   \"SUPCRT07\"}",
-               "properties.temp_import" :   "[{}, {}, {}]",
+               "properties.TPMethods" :   "[{\"method\":{}, \"eos_hkf_coeffs\": { \"values\" : [0,0,0,0,0,0,0]} }]",
+               "properties.temp_import" :   "[{}, {}, {}, {}, {}, {}, {}, {}]",
 	          "properties.Tst" : "298.15",
 	          "properties.Pst" : "1e05"
           },
@@ -17,11 +18,9 @@
                 "field" :   "properties.formula_charge"
                 },
                "parameters.type" :   {
-                    "field" :   "properties.TPMethods",
+                    "field" :   "properties.TPMethods.0.method",
                     "convert" :   {
-                         "hkf" :   "{\"method\":{}, \"eos_hkf_coeffs\": { \"values\" : [0,0,0,0,0,0,0]} }",
-                         "mk" :   "{\"method\":{\"0\" :   \"cp_ft_equation\"}, \"m_heat_capacity_ft_coeffs\": { \"limitsTP\": {\"upperT\": 0}, \"values\" : [0,0,0,0,0,0,0,0,0,0], \"names\" : [\"a0\",\"a1\",\"a2\",\"a3\",\"a4\",\"a5\",\"a6\",\"a7\",\"a8\",\"a9\",\"a10\"], \"units\" : [\"J/(mol*K)\",\"J/(mol*K^2)\",\"(J*K)/mol\",\"J/(mol*K^0.5)\",\"J/(mol*K^3)\",\"J/(mol*K^4)\",\"J/(mol*K^5)\",\"(J*K^2)/mol\",\"J/mol\",\"J/(mol*K^1.5)\",\"J/(mol*K)\"] } }",
-                         "hkfmk" : "{\"method\":{\"0\" :   \"cp_ft_equation\"}, \"m_heat_capacity_ft_coeffs\": { \"limitsTP\": {\"upperT\": 0}, \"values\" : [0,0,0,0,0,0,0,0,0,0], \"names\" : [\"a0\",\"a1\",\"a2\",\"a3\",\"a4\",\"a5\",\"a6\",\"a7\",\"a8\",\"a9\",\"a10\"], \"units\" : [\"J/(mol*K)\",\"J/(mol*K^2)\",\"(J*K)/mol\",\"J/(mol*K^0.5)\",\"J/(mol*K^3)\",\"J/(mol*K^4)\",\"J/(mol*K^5)\",\"(J*K^2)/mol\",\"J/mol\",\"J/(mol*K^1.5)\",\"J/(mol*K)\"] } }"
+                         "hkf" :   "{\"3\" :   \"solute_hkf88_reaktoro\"}"
                         }
                },
                "parameters.ref" :   {
@@ -47,6 +46,27 @@
                     "field" :   "properties.sm_entropy_abs.values",
                     "script" :   "field[1] = field[1]*4.184"
                },
+               "parameters.a1" : {
+                    "field" :"properties.TPMethods.0.eos_hkf_coeffs.values.0"
+               },
+               "parameters.a2" : {
+                    "field" :"properties.TPMethods.0.eos_hkf_coeffs.values.1"
+               },
+               "parameters.a3" : {
+                    "field" :"properties.TPMethods.0.eos_hkf_coeffs.values.2"
+               },
+               "parameters.a4" : {
+                    "field" :"properties.TPMethods.0.eos_hkf_coeffs.values.3"
+               },
+               "parameters.c1" : {
+                    "field" :"properties.TPMethods.0.eos_hkf_coeffs.values.4"
+               },
+               "parameters.c2" : {
+                    "field" :"properties.TPMethods.0.eos_hkf_coeffs.values.5"
+               },
+               "parameters.wref" : {
+                    "field" :"properties.TPMethods.0.eos_hkf_coeffs.values.6"
+               },
                "parameters.a" :   {
                     "field" :   "properties.temp_import.0.values"
                },
@@ -55,13 +75,88 @@
                },
                "parameters.c" :   {
                     "field" :   "properties.temp_import.2.values"
+               },
+               "parameters.ntr" :   {
+                    "field" :   "properties.temp_import.3.values"
+               },
+               "parameters.Ttr": {
+                    "field" :   "properties.temp_import.4.values"
+               },
+               "parameters.Htr": {
+                    "field" :   "properties.temp_import.5.values"
+               },
+               "parameters.Vtr": {
+                    "field" :   "properties.temp_import.6.values"
+               },
+               "parameters.dPdTtr": {
+                    "field" :   "properties.temp_import.7.values"
                }
-          },
+          }, 
           "script" :   "rintable.properties.name = rintable.properties.symbol
           if rintable.properties.sm_volume ~= nil then rintable.properties.sm_volume.units = {'J/bar'}  end
           if rintable.properties.sm_gibbs_energy ~= nil then rintable.properties.sm_gibbs_energy.units = {'J/mol'} end
           if rintable.properties.sm_enthalpy ~= nil then rintable.properties.sm_enthalpy.units = {'J/mol'} end
-          if rintable.properties.sm_entropy_abs ~= nil then rintable.properties.sm_entropy_abs.units = {'J/(mol*K)'} end"
+          if rintable.properties.sm_entropy_abs ~= nil then rintable.properties.sm_entropy_abs.units = {'J/(mol*K)'} end
+          if rintable.properties.symbol == 'H2O(aq)' then rintable.properties.aggregate_state = {} rintable.properties.class_ = {} rintable.properties.class_['3'] = 'SC_AQSOLVENT' rintable.properties.aggregate_state['4'] = 'AS_AQUEOUS' 
+               rintable.properties.TPMethods = {{},{}} rintable.properties.TPMethods[1].method={} rintable.properties.TPMethods[1].method['32']='water_eos_iapws95_reaktoro' rintable.properties.TPMethods[2].method={} rintable.properties.TPMethods[2].method['25']='water_diel_jnort91_reaktoro' end
+          if rintable.properties.TPMethods[1].method['3'] == 'solute_hkf88_reaktoro' then rintable.properties.aggregate_state = {} rintable.properties.class_ = {} rintable.properties.class_['2'] = 'SC_AQSOLUTE' rintable.properties.aggregate_state['4'] = 'AS_AQUEOUS' end
+          
+          if string.match(rintable.properties.symbol, \'%(g%)\') then rintable.properties.aggregate_state = {} rintable.properties.class_ = {} rintable.properties.class_['1'] = 'SC_GASFLUID' rintable.properties.aggregate_state['0'] = 'AS_GAS' 
+               rintable.properties.TPMethods = {{},{}} rintable.properties.TPMethods[1].method={} rintable.properties.TPMethods[1].method['0']='cp_ft_equation' 
+               rintable.properties.TPMethods[1].m_heat_capacity_ft_coeffs ={}
+               rintable.properties.TPMethods[1].m_heat_capacity_ft_coeffs.values = {0,0,0}
+               rintable.properties.TPMethods[1].m_heat_capacity_ft_coeffs.values[1] = rintable.properties.temp_import[1].values[1] 
+               rintable.properties.TPMethods[1].m_heat_capacity_ft_coeffs.values[2] = rintable.properties.temp_import[2].values[1]
+               rintable.properties.TPMethods[1].m_heat_capacity_ft_coeffs.values[3] = rintable.properties.temp_import[3].values[1]
+               rintable.properties.TPMethods[1].limitsTP = {}
+               rintable.properties.TPMethods[1].limitsTP.lowerT = 273.15
+               rintable.properties.TPMethods[1].limitsTP.upperT=rintable.properties.limitsTP.upperT
+               rintable.properties.TPMethods[1].m_heat_capacity_ft_coeffs.names = {'a','b','c'}
+               rintable.properties.TPMethods[1].m_heat_capacity_ft_coeffs.units = {'J/(mol*K)','J/(mol*K^2)','(J*K)/mol'}
+               rintable.properties.TPMethods[2].method={} rintable.properties.TPMethods[2].method['40']='mv_pvnrt'
+          end 
+          if rintable.properties.class_ == nil then rintable.properties.aggregate_state = {} rintable.properties.class_ = {} rintable.properties.class_['0'] = 'SC_COMPONENT' rintable.properties.aggregate_state['3'] = 'AS_CRYSTAL'
+               ntr = 0
+               if rintable.properties.temp_import[4].values ~= nil then ntr = rintable.properties.temp_import[4].values[1] end
+               for i=0,ntr do
+                    rintable.properties.TPMethods[i+1] = {}
+                    rintable.properties.TPMethods[i+1].method={} 
+                    rintable.properties.TPMethods[i+1].method['0']='cp_ft_equation'
+                    rintable.properties.TPMethods[i+1].m_heat_capacity_ft_coeffs ={}
+                    rintable.properties.TPMethods[i+1].m_heat_capacity_ft_coeffs.values = {0,0,0}
+                    rintable.properties.TPMethods[i+1].m_heat_capacity_ft_coeffs.values[1] = rintable.properties.temp_import[1].values[i+1]*4.184 
+                    rintable.properties.TPMethods[i+1].m_heat_capacity_ft_coeffs.values[2] = rintable.properties.temp_import[2].values[i+1]*4.184e-3
+                    rintable.properties.TPMethods[i+1].m_heat_capacity_ft_coeffs.values[3] = rintable.properties.temp_import[3].values[i+1]*4.184e05
+                    rintable.properties.TPMethods[i+1].limitsTP = {}
+                    rintable.properties.TPMethods[i+1].limitsTP.lowerT = 273.15
+                    rintable.properties.TPMethods[i+1].limitsTP.upperT = rintable.properties.limitsTP.upperT
+                    rintable.properties.TPMethods[i+1].m_heat_capacity_ft_coeffs.names = {'a','b','c'}
+                    rintable.properties.TPMethods[i+1].m_heat_capacity_ft_coeffs.units = {'J/(mol*K)','J/(mol*K^2)','(J*K)/mol'}
+
+                    if (ntr>0 and i~=ntr) then
+                         if (i > 0) then 
+                              rintable.properties.TPMethods[i+1].limitsTP.lowerT = rintable.properties.temp_import[5].values[i] + 273.15
+                         end
+                         rintable.properties.TPMethods[i+1].limitsTP.upperT = rintable.properties.temp_import[5].values[i+1] + 273.15
+                    end 
+
+                    if (i>0 and i==ntr) then
+                         rintable.properties.TPMethods[i+1].limitsTP.lowerT = rintable.properties.temp_import[5].values[i] + 273.15
+                    end
+                    if (ntr>0 and i<ntr) then 
+                         rintable.properties.TPMethods[i+1].m_phase_trans_props = {}
+                         rintable.properties.TPMethods[i+1].m_phase_trans_props.values = {0,0,0,0,0}
+                         rintable.properties.TPMethods[i+1].m_phase_trans_props.values[1] = rintable.properties.TPMethods[i+1].limitsTP.upperT
+                         rintable.properties.TPMethods[i+1].m_phase_trans_props.values[3] = rintable.properties.temp_import[6].values[i+1]*4.184
+                         rintable.properties.TPMethods[i+1].m_phase_trans_props.values[4] = rintable.properties.temp_import[7].values[i+1]*0.1
+                         rintable.properties.TPMethods[i+1].m_phase_trans_props.values[5] = rintable.properties.temp_import[8].values[i+1]
+                         rintable.properties.TPMethods[i+1].m_phase_trans_props.values[2] = rintable.properties.TPMethods[i+1].m_phase_trans_props.values[3] / rintable.properties.TPMethods[i+1].m_phase_trans_props.values[1]
+                         rintable.properties.TPMethods[i+1].m_phase_trans_props.names = {'Temperature','dS','dH', 'dV', 'dT/dP'}
+                         rintable.properties.TPMethods[i+1].m_phase_trans_props.units = {'K','J/(mol*K)', 'J/mol', 'J/bar', 'K/bar'}
+                    end
+               end
+          end
+          rintable.properties.temp_import = nil"
      },
      "renderer" :   "JSON",
      "label" :   "VertexSubstance",
