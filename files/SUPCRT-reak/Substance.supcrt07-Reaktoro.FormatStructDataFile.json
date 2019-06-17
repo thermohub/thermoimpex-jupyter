@@ -27,8 +27,7 @@
                     "field" :   "properties.datasources"
                },
                "parameters.Tmax" : {
-                "field" :   "properties.limitsTP.upperT",
-                "script" :   "field = field"
+                "field" :   "properties.limitsTP.upperT"
                 },
                 "parameters.Vr" :   {
                     "field" :   "properties.sm_volume.values",
@@ -47,25 +46,32 @@
                     "script" :   "field[1] = field[1]"
                },
                "parameters.a1" : {
-                    "field" :"properties.TPMethods.0.eos_hkf_coeffs.values.0"
+                    "field" :"properties.TPMethods.0.eos_hkf_coeffs.values.0",
+                    "script" :   "field = field/4.184*1e5"
                },
                "parameters.a2" : {
-                    "field" :"properties.TPMethods.0.eos_hkf_coeffs.values.1"
+                    "field" :"properties.TPMethods.0.eos_hkf_coeffs.values.1",
+                    "script" :   "field = field/4.184"
                },
                "parameters.a3" : {
-                    "field" :"properties.TPMethods.0.eos_hkf_coeffs.values.2"
+                    "field" :"properties.TPMethods.0.eos_hkf_coeffs.values.2",
+                    "script" :   "field = field/4.184*1e5"
                },
                "parameters.a4" : {
-                    "field" :"properties.TPMethods.0.eos_hkf_coeffs.values.3"
+                    "field" :"properties.TPMethods.0.eos_hkf_coeffs.values.3",
+                    "script" :   "field = field/4.184"
                },
                "parameters.c1" : {
-                    "field" :"properties.TPMethods.0.eos_hkf_coeffs.values.4"
+                    "field" :"properties.TPMethods.0.eos_hkf_coeffs.values.4",
+                    "script" :   "field = field/4.184"
                },
                "parameters.c2" : {
-                    "field" :"properties.TPMethods.0.eos_hkf_coeffs.values.5"
+                    "field" :"properties.TPMethods.0.eos_hkf_coeffs.values.5",
+                    "script" :   "field = field/4.184"
                },
                "parameters.wref" : {
-                    "field" :"properties.TPMethods.0.eos_hkf_coeffs.values.6"
+                    "field" :"properties.TPMethods.0.eos_hkf_coeffs.values.6",
+                    "script" :   "field = field/4.184"
                },
                "parameters.a" :   {
                     "field" :   "properties.temp_import.0.values"
@@ -99,7 +105,11 @@
           if rintable.properties.sm_entropy_abs ~= nil then rintable.properties.sm_entropy_abs.units = {'J/(mol*K)'} end
           if rintable.properties.symbol == 'H2O(aq)' then rintable.properties.aggregate_state = {} rintable.properties.class_ = {} rintable.properties.class_['3'] = 'SC_AQSOLVENT' rintable.properties.aggregate_state['4'] = 'AS_AQUEOUS' 
                rintable.properties.TPMethods = {{},{}} rintable.properties.TPMethods[1].method={} rintable.properties.TPMethods[1].method['32']='water_eos_iapws95_reaktoro' rintable.properties.TPMethods[2].method={} rintable.properties.TPMethods[2].method['25']='water_diel_jnort91_reaktoro' end
-          if rintable.properties.TPMethods[1].method['3'] == 'solute_hkf88_reaktoro' then rintable.properties.aggregate_state = {} rintable.properties.class_ = {} rintable.properties.class_['2'] = 'SC_AQSOLUTE' rintable.properties.aggregate_state['4'] = 'AS_AQUEOUS' end
+          if rintable.properties.TPMethods[1].method['3'] == 'solute_hkf88_reaktoro' then rintable.properties.aggregate_state = {} rintable.properties.class_ = {} rintable.properties.class_['2'] = 'SC_AQSOLUTE' rintable.properties.aggregate_state['4'] = 'AS_AQUEOUS' 
+               rintable.properties.TPMethods[1].eos_hkf_coeffs.units = {'cal/(mol*bar)','cal/mol','(cal*K)/(mol*bar)','(cal*K)/mol', 'cal/(mol*K)','(cal*K)/mol','cal/mol'} 
+               rintable.properties.TPMethods[1].eos_hkf_coeffs.names = {'a1','a2','a3','a4','c1','c2','wref'}
+          
+          end
           
           if string.match(rintable.properties.symbol, \'%(g%)\') then rintable.properties.aggregate_state = {} rintable.properties.class_ = {} rintable.properties.class_['1'] = 'SC_GASFLUID' rintable.properties.aggregate_state['0'] = 'AS_GAS' 
                rintable.properties.TPMethods = {{},{}} rintable.properties.TPMethods[1].method={} rintable.properties.TPMethods[1].method['0']='cp_ft_equation' 
