@@ -127,8 +127,10 @@
           end 
           if rintable.properties.class_ == nil then rintable.properties.aggregate_state = {} rintable.properties.class_ = {} rintable.properties.class_['0'] = 'SC_COMPONENT' rintable.properties.aggregate_state['3'] = 'AS_CRYSTAL'
                ntr = 0
+               m = 0
                if rintable.properties.temp_import[4].values ~= nil then ntr = rintable.properties.temp_import[4].values[1] end
                for i=0,ntr do
+                    m = m+1
                     rintable.properties.TPMethods[i+1] = {}
                     rintable.properties.TPMethods[i+1].method={} 
                     rintable.properties.TPMethods[i+1].method['0']='cp_ft_equation'
@@ -165,6 +167,11 @@
                          rintable.properties.TPMethods[i+1].m_phase_trans_props.units = {'K','J/(mol*K)', 'J/mol', 'J/bar', 'K/bar'}
                     end
                end
+
+               rintable.properties.TPMethods[m+1] = {}
+               rintable.properties.TPMethods[m+1].method={} 
+               rintable.properties.TPMethods[m+1].method['34']='mv_constant'
+
           end
           rintable.properties.temp_import = nil"
      },
