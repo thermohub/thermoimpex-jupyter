@@ -43,7 +43,7 @@
                     }
                },
                "analytical_expression" :   {
-                    "field" :   "properties.logk_ft_coeffs.values",
+                    "field" :   "properties.TPMethods.0.logk_ft_coeffs.values",
                     "ignore" :   false,
                     "script" :   "",
                     "convert" :   {
@@ -59,7 +59,7 @@
                     }
                },
                "Vm" :   {
-                    "field" :   "properties.dr_volume_pt_coeffs.values",
+                    "field" :   "properties.TPMethods.1.dr_volume_pt_coeffs.values",
                     "ignore" :   false,
                     "script" :   "",
                     "convert" :   {
