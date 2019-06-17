@@ -28,23 +28,23 @@
                },
                "parameters.Tmax" : {
                 "field" :   "properties.limitsTP.upperT",
-                "script" :   "field = field+273.15"
+                "script" :   "field = field"
                 },
                 "parameters.Vr" :   {
                     "field" :   "properties.sm_volume.values",
-                    "script" :   "field[1] = field[1]*0.1"
+                    "script" :   "field[1] = field[1]*1e05"
                },
                "parameters.Gf" :   {
                     "field" :   "properties.sm_gibbs_energy.values",
-                    "script" :   "field[1] = field[1]*4.184"
+                    "script" :   "field[1] = field[1]"
                },
                "parameters.Hf" :   {
                     "field" :   "properties.sm_enthalpy.values",
-                    "script" :   "field[1] = field[1]*4.184"
+                    "script" :   "field[1] = field[1]"
                },
                "parameters.Sr" :   {
                     "field" :   "properties.sm_entropy_abs.values",
-                    "script" :   "field[1] = field[1]*4.184"
+                    "script" :   "field[1] = field[1]"
                },
                "parameters.a1" : {
                     "field" :"properties.TPMethods.0.eos_hkf_coeffs.values.0"
@@ -124,9 +124,9 @@
                     rintable.properties.TPMethods[i+1].method['0']='cp_ft_equation'
                     rintable.properties.TPMethods[i+1].m_heat_capacity_ft_coeffs ={}
                     rintable.properties.TPMethods[i+1].m_heat_capacity_ft_coeffs.values = {0,0,0}
-                    rintable.properties.TPMethods[i+1].m_heat_capacity_ft_coeffs.values[1] = rintable.properties.temp_import[1].values[i+1]*4.184 
-                    rintable.properties.TPMethods[i+1].m_heat_capacity_ft_coeffs.values[2] = rintable.properties.temp_import[2].values[i+1]*4.184e-3
-                    rintable.properties.TPMethods[i+1].m_heat_capacity_ft_coeffs.values[3] = rintable.properties.temp_import[3].values[i+1]*4.184e05
+                    rintable.properties.TPMethods[i+1].m_heat_capacity_ft_coeffs.values[1] = rintable.properties.temp_import[1].values[i+1] 
+                    rintable.properties.TPMethods[i+1].m_heat_capacity_ft_coeffs.values[2] = rintable.properties.temp_import[2].values[i+1]
+                    rintable.properties.TPMethods[i+1].m_heat_capacity_ft_coeffs.values[3] = rintable.properties.temp_import[3].values[i+1]
                     rintable.properties.TPMethods[i+1].limitsTP = {}
                     rintable.properties.TPMethods[i+1].limitsTP.lowerT = 273.15
                     rintable.properties.TPMethods[i+1].limitsTP.upperT = rintable.properties.limitsTP.upperT
@@ -135,20 +135,20 @@
 
                     if (ntr>0 and i~=ntr) then
                          if (i > 0) then 
-                              rintable.properties.TPMethods[i+1].limitsTP.lowerT = rintable.properties.temp_import[5].values[i] + 273.15
+                              rintable.properties.TPMethods[i+1].limitsTP.lowerT = rintable.properties.temp_import[5].values[i]
                          end
-                         rintable.properties.TPMethods[i+1].limitsTP.upperT = rintable.properties.temp_import[5].values[i+1] + 273.15
+                         rintable.properties.TPMethods[i+1].limitsTP.upperT = rintable.properties.temp_import[5].values[i+1]
                     end 
 
                     if (i>0 and i==ntr) then
-                         rintable.properties.TPMethods[i+1].limitsTP.lowerT = rintable.properties.temp_import[5].values[i] + 273.15
+                         rintable.properties.TPMethods[i+1].limitsTP.lowerT = rintable.properties.temp_import[5].values[i] 
                     end
                     if (ntr>0 and i<ntr) then 
                          rintable.properties.TPMethods[i+1].m_phase_trans_props = {}
                          rintable.properties.TPMethods[i+1].m_phase_trans_props.values = {0,0,0,0,0}
                          rintable.properties.TPMethods[i+1].m_phase_trans_props.values[1] = rintable.properties.TPMethods[i+1].limitsTP.upperT
-                         rintable.properties.TPMethods[i+1].m_phase_trans_props.values[3] = rintable.properties.temp_import[6].values[i+1]*4.184
-                         rintable.properties.TPMethods[i+1].m_phase_trans_props.values[4] = rintable.properties.temp_import[7].values[i+1]*0.1
+                         rintable.properties.TPMethods[i+1].m_phase_trans_props.values[3] = rintable.properties.temp_import[6].values[i+1]
+                         rintable.properties.TPMethods[i+1].m_phase_trans_props.values[4] = rintable.properties.temp_import[7].values[i+1]
                          rintable.properties.TPMethods[i+1].m_phase_trans_props.values[5] = rintable.properties.temp_import[8].values[i+1]
                          rintable.properties.TPMethods[i+1].m_phase_trans_props.values[2] = rintable.properties.TPMethods[i+1].m_phase_trans_props.values[3] / rintable.properties.TPMethods[i+1].m_phase_trans_props.values[1]
                          rintable.properties.TPMethods[i+1].m_phase_trans_props.names = {'Temperature','dS','dH', 'dV', 'dT/dP'}
