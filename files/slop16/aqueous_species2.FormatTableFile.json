@@ -1,0 +1,136 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.sourcetdb" :   "{\"23\" :   \"SLOP16\"}",
+               "properties.TPMethods" :   "[{\"method\":{\"0\" :   \"solute_hkf88_gems\"}, \"eos_hkf_coeffs\": { \"values\" : [0,0,0,0,0,0,0], \"names\" : [\"a1\",\"a2\",\"a3\",\"a4\",\"c1\",\"c2\",\"wref\"], \"units\" : [\"cal/(mol*bar)\",\"cal/mol\",\"(cal*K)/mol\",\"cal/(mol*K)\",\"(cal*K)/mol\",\"cal/mol\"] } }]",
+               "properties.aggregate_state" :   "{\"4\" :   \"AS_AQUEOUS\"}",
+               "properties.class_" :   "{\"2\" :   \"SC_AQSOLUTE\"}",
+               "properties.Tst" :   "298.15",
+               "properties.Pst" :   "1e05"
+          },
+          "matches" :   {
+               "name" :   {
+                    "field" :   "properties.name",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "elemental_chemical_formula" :   {
+                    "field" :   "properties.formula",
+                    "ignore" :   false,
+                    "script" :   "field = string.gsub(field, '%(([%d%.]*)%)', '%1');"
+               },
+               "abbreviation" :   {
+                    "field" :   "properties.symbol",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "reference" :   {
+                    "field" :   "properties.datasources",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "deltaG" :   {
+                    "field" :   "properties.sm_gibbs_energy.values",
+                    "ignore" :   false,
+                    "script" :   "if field[1] == 999999.0 then field[1] = 999999.0 else field[1] = field[1]*4.184 end;"
+               },
+               "deltaH" :   {
+                    "field" :   "properties.sm_enthalpy.values",
+                    "ignore" :   false,
+                    "script" :   "if field[1] == 999999.0 then field[1] = 999999.0 else field[1] = field[1]*4.184 end;"
+               },
+               "entropy" :   {
+                    "field" :   "properties.sm_entropy_abs.values",
+                    "ignore" :   false,
+                    "script" :   "field[1] = field[1]*4.184"
+               },
+               "a1" :   {
+                    "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.0",
+                    "ignore" :   false,
+                    "script" :   "field = field*0.1"
+               },
+               "a2" :   {
+                    "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.1",
+                    "ignore" :   false,
+                    "script" :   "field = field*100"
+               },
+               "a3" :   {
+                    "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.2",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "a4" :   {
+                    "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.3",
+                    "ignore" :   false,
+                    "script" :   "field = field*1e4"
+               },
+               "c1" :   {
+                    "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.4",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "c2" :   {
+                    "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.5",
+                    "ignore" :   false,
+                    "script" :   "field = field*1e4"
+               },
+               "omega" :   {
+                    "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.6",
+                    "ignore" :   false,
+                    "script" :   "field = field*1e5"
+               },
+               "charge" :   {
+                    "field" :   "properties.formula_charge",
+                    "ignore" :   false,
+                    "script" :   ""
+               }
+          },
+          "script" :   ""
+     },
+     "format" :   {
+          "Nhcols" :   17,
+          "Nhrows" :   0,
+          "headers" :   [
+               "name",
+               "chemical_formula",
+               "abbreviation",
+               "elemental_chemical_formula",
+               "reference",
+               "date_last_revisited",
+               "deltaG",
+               "deltaH",
+               "entropy",
+               "a1",
+               "a2",
+               "a3",
+               "a4",
+               "c1",
+               "c2",
+               "omega",
+               "charge"
+          ],
+          "rowend" :   "\n",
+          "rows_one_block" :   6,
+          "colends" :   " \t\n",
+          "usequotes" :   false,
+          "usemore" :   true,
+          "comment_regexp" :   ""
+     },
+     "renderer" :   "",
+     "label" :   "VertexSubstance",
+     "separators" :   {
+          "v_sep" :   "",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0
+}

@@ -1,0 +1,82 @@
+{
+     "block" :   {
+          "defaults" :   {
+            "properties.radioactivity.decay_type" :   "{\"0\" :   \"STABLE\"}",
+            "properties.radioactivity.half_life_lambda.values" :   "[ 0 ]",
+            "properties.class_" :   "{\"0\" :   \"ELEMENT\"}",
+            "properties.datasources" :   "[\"concrete_3T_V07_02\"]",
+            "properties.sourcetdb" :    "{\"1001\" :   \"WORK1\"}"
+          },
+          "pairs" :   {
+
+          },
+          "matches" :   {
+               "element" :   {
+                    "field" :   "properties.formula",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "element_gfw" :   {
+                    "field" :   "properties.atomic_mass.values",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "atomic" :   {
+                    "field" :   "properties.number",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               }
+          },
+          "script" :   "rintable.properties.name = rintable.properties.formula;\n rintable.properties.symbol = string.match(rintable.properties.formula, \'(%a%a?%a?)\');\nist = string.match(rintable.properties.formula, \'%(([^%)]+)%)\');\n
+                         if ist then  rintable.properties.isotope_mass = ist\n   rintable.properties.class_ = {} rintable.properties.class_['1'] = 'ISOTOPE' end"
+     },
+     "format" :   {
+          "Nhcols" :   6,
+          "Nhrows" :   0,
+          "headers" :   [
+               "element",
+               "species",
+               "alk",
+               "gfw_formula",
+               "element_gfw",
+               "atomic"
+          ],
+          "rowend" :   "\n",
+          "colends" :   "# \t",
+          "usequotes" :   false,
+          "usemore" :   true,
+          "comment_regexp" :   "#.*",
+          "colsizes" :   [
+
+          ],
+          "value_regexp" :   [
+
+          ]
+     },
+     "renderer" :   "",
+     "label" :   "VertexElement",
+     "separators" :   {
+          "v_sep" :   "",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0
+}

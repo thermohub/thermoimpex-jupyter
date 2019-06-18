@@ -1,0 +1,73 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.sourcetdb" :    "{\"1001\" :   \"WORK1\"}",
+               "properties.class_" :   "{\"2\" :   \"SC_AQSOLUTE\"}",
+               "properties.aggregate_state" : "{\"4\" :   \"AS_AQUEOUS\"}",
+               "properties.standard_cscale" : "{\"3\" :   \"CS_MOLALITY\"}"
+          },
+          "pairs" :   {
+               "gamma" :   {
+                    "datatype" :   "string",
+                    "organization" :   "list"
+               }
+          },
+          "matches" :   {
+               "head2" :   {
+                    "field" :   "properties.formula",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "head0" :   {
+                    "field" :   "properties.comment",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "gamma" :   {
+                    "field" :   "properties.aq_edh_props.values",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               }
+          },
+          "script" :   "rintable.properties.symbol = string.match(rintable.properties.formula, \'%s*([^%s]*)\');\n
+                        rintable.properties.name = rintable.properties.symbol; \n
+                        rintable.properties.formula = rintable.properties.symbol;\n
+                        if rintable.properties.formula == 'H2O' then rintable.properties.class_ = {} rintable.properties.class_['3'] = 'SC_AQSOLVENT' end"
+     },
+     "format" :   {
+          "head_regexp" :   "(([\\w\\t \\+\\-\\(\\):]*)\\s*=\\s*([^\\n]*))\\n",
+          "end_regexp" :   "",
+          "key_regexp" :   "\\s*\\-([a-zA-Z]\\w*)\\s*",
+          "value_regexp" :   "\\s*([^#\\n]*)",
+          "value_next" :   "",
+          "value_token_regexp" :   "\\s+",
+          "comment_regexp" :   "#([^\\n]*)\\n*",
+          "Ndata" :   0
+     },
+     "renderer" :   " ",
+     "label" :   "VertexSubstance",
+     "separators" :   {
+          "v_sep" :   "",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0
+}
