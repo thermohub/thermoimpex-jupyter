@@ -2,7 +2,7 @@
     "block": {
         "defaults": {
             "properties.sourcetdb": "{\"12\" :   \"THEREDA\"}",
-            "properties.TPMethods": "[{\"method\" :{\"0\" :   \"cp_ft_equation\"}, \"m_heat_capacity_ft_coeffs\" :{\"values\" : [0,0,0,0,0,0]}}]",
+            "properties.TPMethods": "[{\"method\" :{\"0\" :   \"cp_ft_equation\"}, \"limitsTP\" : {\"range\" : \"false\", \"lowerP\" : \"1.0e5\", \"lowerT\" : \"298.15\", \"upperP\" : \"1.0e5\", \"upperT\" : \"298.15\"}, \"m_heat_capacity_ft_coeffs\" :{\"values\" : [0,0,0,0,0,0]}}]",
             "properties.aggregate_state": "{\"4\" :   \"AS_AQUEOUS\"}",
             "properties.class_": "{\"2\" :   \"SC_AQSOLUTE\"}",
             "properties.sm_gibbs_energy": "{\"units\": [\"J/mol\"]}",
@@ -18,7 +18,8 @@
             "properties.sm_entropy_abs.status": "[{\"4\" :   \"IMPORTED\"}]",
             "properties.sm_heat_capacity_p.status": "[{\"4\" :   \"IMPORTED\"}]",
             "properties.Tst": "298.15",
-            "properties.Pst": "1.0e5"
+            "properties.Pst": "1.0e5",
+            "properties.limitsTP": "{\"range\": false, \"lowerT\": 273.15, \"upperT\": 298.15, \"lowerP\": 0.1, \"upperP\": 1e6 }"
         },
         "pairs": {},
         "matches": {
@@ -170,11 +171,12 @@
             }
         },
         "script":   "formula = rintable.properties.symbol;
-if (formula == 'H2O(l)') then rintable.properties.class_ = {} rintable.properties.class_['3'] = 'SC_AQSOLVENT' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['4'] =  'AS_AQUEOUS' end;
-if string.match(formula, '%(g%)') then rintable.properties.class_ = {} rintable.properties.class_['1'] = 'SC_GASFLUID' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['0'] =  'AS_GAS' end;
-if string.match(formula, '%(cr%)') then rintable.properties.class_ = {} rintable.properties.class_['0'] = 'SC_COMPONENT' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['3'] =  'AS_CRYSTAL' end;
-if string.match(formula, '%(am%)') then rintable.properties.class_ = {} rintable.properties.class_['0'] = 'SC_COMPONENT' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['3'] =  'AS_CRYSTAL' end;
-if string.match(formula, '%(s%)') then rintable.properties.class_ = {} rintable.properties.class_['0'] = 'SC_COMPONENT' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['3'] =  'AS_CRYSTAL' end;
+        if (formula == 'H2O(l)') then rintable.properties.class_ = {} rintable.properties.class_['3'] = 'SC_AQSOLVENT' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['4'] =  'AS_AQUEOUS' end;
+        if string.match(formula, '%(g%)') then rintable.properties.class_ = {} rintable.properties.class_['1'] = 'SC_GASFLUID' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['0'] =  'AS_GAS' end;
+        if string.match(formula, '%(cr%)') then rintable.properties.class_ = {} rintable.properties.class_['0'] = 'SC_COMPONENT' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['3'] =  'AS_CRYSTAL' end;
+        if string.match(formula, '%(am%)') then rintable.properties.class_ = {} rintable.properties.class_['0'] = 'SC_COMPONENT' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['3'] =  'AS_CRYSTAL' end;
+        if string.match(formula, '%(s%)') then rintable.properties.class_ = {} rintable.properties.class_['0'] = 'SC_COMPONENT' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['3'] =  'AS_CRYSTAL' end;
+formula = string.gsub(formula, '(_.*)', '');
 formula = string.gsub(formula, '<(%d*)->',  '-%1' );
 formula = string.gsub(formula, '<(%d*)+>',  '+%1' );
 formula = string.gsub(formula, '<0>',  '@' );
@@ -183,9 +185,15 @@ formula = string.gsub(formula, '%(g%)',  '' );
 formula = string.gsub(formula, '%(cr%)',  '' );
 formula = string.gsub(formula, '%(am%)',  '' );
 formula = string.gsub(formula, '%(s%)',  '' );
+formula = string.gsub(formula, '%(mcr%)',  '' );
+formula = string.gsub(formula, '%(lin%)',  '' );
+formula = string.gsub(formula, '%(cycl%)',  '' );
+formula = string.gsub(formula, '%(subst%)',  '' );
+formula = string.gsub(formula, '%(dis%)',  '' );
 formula = string.gsub(formula, '^O2(@?)$',  'O|0|2%1' );
 formula = string.gsub(formula, '^H2(@?)$',  'H|0|2%1' );
 formula = string.gsub(formula, ':([%d%.]*)([^:%s]*)',  '(%2)%1' );
+formula = string.gsub(formula, 'ClO4-', 'Cl|7|O' );
 rintable.properties.formula = formula;
 rintable.properties.name = rintable.properties.symbol;
 print(rintable.properties.TPMethods[1]);
