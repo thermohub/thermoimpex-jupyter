@@ -241,28 +241,38 @@
           "doc": "Typical format of interaction parameter for the respective model\n"
         },
         {
-          "name": "PITZ_BETA",
+          "name": "SIT",
           "value": 1,
+          "doc": " "
+        },
+        {
+          "name": "PITZ_BETA",
+          "value": 2,
           "doc": "Pitzer type beta parameter more will be added here\n"
         },
         {
           "name": "PITZ_THETA",
-          "value": 2,
-          "doc": " "
-        },
-        {
-          "name": "PITZ_LAMBDA",
           "value": 3,
           "doc": " "
         },
         {
-          "name": "PITZ_PSI",
+          "name": "PITZ_LAMBDA",
           "value": 4,
           "doc": " "
         },
         {
-          "name": "SIT",
+          "name": "PITZ_PSI",
           "value": 5,
+          "doc": " "
+        },
+        {
+          "name": "PITZ_ETA",
+          "value": 6,
+          "doc": " "
+        },
+        {
+          "name": "PITZ_ZETA",
+          "value": 7,
           "doc": " "
         }
       ]
