@@ -5693,8 +5693,8 @@
         }
       },
       {
-        "Name": "PdS",
-        "Formula": "Vysotskite",
+        "Name": "Vysotskite",
+        "Formula": "PdS",
         "Elements": "Pd(1)S(1)",
         "Type": "Mineral",
         "MolarMass": {
@@ -5746,8 +5746,8 @@
         }
       },
       {
-        "Name": "PtS",
-        "Formula": "Cooperite",
+        "Name": "Cooperite",
+        "Formula": "PtS",
         "Elements": "Pt(1)S(1)",
         "Type": "Mineral",
         "MolarMass": {
@@ -6165,7 +6165,7 @@
       },
       {
         "Name": "Rh2O",
-        "Formula": "RH2O",
+        "Formula": "Rh2O",
         "Elements": "Rh(2)O(1)",
         "Type": "Mineral",
         "MolarMass": {
@@ -6271,7 +6271,7 @@
       },
       {
         "Name": "RuO2",
-        "Formula": "Ru(1)O(2)",
+        "Formula": "RuO2",
         "Elements": "Ru(1)O(2)",
         "Type": "Mineral",
         "MolarMass": {
@@ -26945,7 +26945,7 @@
       },
       {
         "Name": "Pd(SO4)2--",
-        "Formula": "Pd(SO4)2-+2",
+        "Formula": "Pd(SO4)2-2",
         "Elements": "Pd(1)S(2)O(8)",
         "Type": "Aqueous",
         "MolarMass": {
@@ -30884,7 +30884,7 @@
       },
       {
         "Name": "RuCl5--",
-        "Formula": "Ru+Cl(5)-+2",
+        "Formula": "RuCl5-2",
         "Elements": "Ru(1)Cl(5)",
         "Type": "Aqueous",
         "MolarMass": {

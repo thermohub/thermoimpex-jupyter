@@ -48,13 +48,13 @@
                ],
                "number": 47,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Ag",
                "substance": "s:AG:Ag_cr:cd:",
                "comment": "Silver",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -126,13 +126,13 @@
                ],
                "number": 13,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Al",
                "substance": "",
                "comment": "Aluminum NEA(CODATA) ",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -204,13 +204,13 @@
                ],
                "number": 18,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Ar",
                "substance": "g:AR:Ar:cd:",
                "comment": "Argon",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -282,13 +282,13 @@
                ],
                "number": 33,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "As",
                "substance": "s:As0:As:dnp:",
                "comment": "Arsenic",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -360,13 +360,13 @@
                ],
                "number": 79,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Au",
                "substance": "s:AU:Au_cr:nbs:",
                "comment": "Gold",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -438,13 +438,13 @@
                ],
                "number": 5,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "B",
                "substance": "---",
                "comment": "Boron NEA(CODATA)",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -516,13 +516,13 @@
                ],
                "number": 56,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Ba",
                "substance": "---",
                "comment": "Barium NEA, NBS",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -594,13 +594,13 @@
                ],
                "number": 4,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Be",
                "substance": "s:BE:Be_cr:cd:",
                "comment": "Beryllium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -672,13 +672,13 @@
                ],
                "number": 83,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Bi",
                "substance": "s:BI:Bi_cr:nbs:",
                "comment": "Bismuth",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -750,13 +750,13 @@
                ],
                "number": 35,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Br",
                "substance": "---",
                "comment": "Bromine NEA(CODATA), NBS",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -828,13 +828,13 @@
                ],
                "number": 6,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "C ",
                "substance": "s:C0:Gr:dnp:",
                "comment": "Carbon (graphite)",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -906,13 +906,13 @@
                ],
                "number": 20,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Ca",
                "substance": "---",
                "comment": "Calcium NEA(CODATA)",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -984,13 +984,13 @@
                ],
                "number": 48,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Cd",
                "substance": "s:CD:Cd_cr:cd:",
                "comment": "Cadmium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -1062,13 +1062,13 @@
                ],
                "number": 58,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Ce",
                "substance": "s:CE:Ce_cr:nbs:",
                "comment": "Cerium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -1140,13 +1140,13 @@
                ],
                "number": 17,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Cl",
                "substance": "---",
                "comment": "Chlorine NEA(CODATA)",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -1218,13 +1218,13 @@
                ],
                "number": 27,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Co",
                "substance": "s:CO:Co_a:nbs:",
                "comment": "Cobalt",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -1296,13 +1296,13 @@
                ],
                "number": 24,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Cr",
                "substance": "s:CR:Cr:nbs:",
                "comment": "Chromium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -1374,13 +1374,13 @@
                ],
                "number": 55,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Cs",
                "substance": "---",
                "comment": "Cesium NEA(CODATA)",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -1452,13 +1452,13 @@
                ],
                "number": 29,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Cu",
                "substance": "s:CU:Cu_cr:cd:",
                "comment": "Copper",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -1530,13 +1530,13 @@
                ],
                "number": 66,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Dy",
                "substance": "s:DY:Dy_cr:nbs:",
                "comment": "Dysprosium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -1608,13 +1608,13 @@
                ],
                "number": 68,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Er",
                "substance": "s:ER:Er_cr:nbs:",
                "comment": "Erbium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -1686,13 +1686,13 @@
                ],
                "number": 63,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Eu",
                "substance": "---",
                "comment": "Europium NBS",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -1764,13 +1764,13 @@
                ],
                "number": 9,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "F",
                "substance": "---",
                "comment": "Fluorine NEA(CODATA)",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -1842,13 +1842,13 @@
                ],
                "number": 26,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Fe",
                "substance": "s:Fe0:Fe:dnp:",
                "comment": "Iron",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -1920,13 +1920,13 @@
                ],
                "number": 31,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Ga",
                "substance": "s:GA:Ga_cr:nbs:",
                "comment": "Gallium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -1998,13 +1998,13 @@
                ],
                "number": 64,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Gd",
                "substance": "s:GD:Gd_cr:nbs:",
                "comment": "Gadolinium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -2076,13 +2076,13 @@
                ],
                "number": 32,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Ge",
                "substance": "s:GE:Ge_cr:cd:",
                "comment": "Germanium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -2154,13 +2154,13 @@
                ],
                "number": 1,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "H",
                "substance": "g:H0:H2:enp:",
                "comment": "Hydrogen",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -2232,13 +2232,13 @@
                ],
                "number": 2,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "He",
                "substance": "g:HE:He:cd:",
                "comment": "Helium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -2310,13 +2310,13 @@
                ],
                "number": 72,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Hf",
                "substance": "s:HF:Hf_cr:nbs:",
                "comment": "Hafnium (www.qivx.com/ispt/elements)",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -2388,13 +2388,13 @@
                ],
                "number": 80,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Hg",
                "substance": "l:HG:Hg:nbs:",
                "comment": "Mercury",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -2466,13 +2466,13 @@
                ],
                "number": 67,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Ho",
                "substance": "s:HO:Ho_cr:nbs:",
                "comment": "Holmium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -2544,13 +2544,13 @@
                ],
                "number": 53,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "I",
                "substance": "---",
                "comment": "Iodine NEA(CODATA), NBS",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -2622,13 +2622,13 @@
                ],
                "number": 49,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "In",
                "substance": "s:IN:In_cr:nbs:",
                "comment": "Indium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -2700,13 +2700,13 @@
                ],
                "number": 77,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Ir",
                "substance": "s:IR:Ir_cr:nbs:",
                "comment": "Iridium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -2778,13 +2778,13 @@
                ],
                "number": 19,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "K",
                "substance": "---",
                "comment": "Potassium NEA(CODATA)",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -2856,13 +2856,13 @@
                ],
                "number": 36,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Kr",
                "substance": "g:KR:Kr:cd:",
                "comment": "Krypton",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -2934,13 +2934,13 @@
                ],
                "number": 57,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "La",
                "substance": "s:LA:La_cr:nbs:",
                "comment": "Lanthanum",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -3012,13 +3012,13 @@
                ],
                "number": 3,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Li",
                "substance": "---",
                "comment": "Lithium NEA(CODATA)",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -3090,13 +3090,13 @@
                ],
                "number": 71,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Lu",
                "substance": "s:LU:lu_cr:nbs:",
                "comment": "Lutetium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -3168,13 +3168,13 @@
                ],
                "number": 12,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Mg",
                "substance": "---",
                "comment": "Magnesium NEA(CODATA)",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -3246,13 +3246,13 @@
                ],
                "number": 25,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Mn",
                "substance": "---",
                "comment": "Manganese NBS",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -3324,13 +3324,13 @@
                ],
                "number": 42,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Mo",
                "substance": "s:Mo0:Mo:dnp:",
                "comment": "Molybdenum",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -3402,13 +3402,13 @@
                ],
                "number": 7,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "N",
                "substance": "g:N0:N2:enp:",
                "comment": "Nitrogen",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -3480,13 +3480,13 @@
                ],
                "number": 11,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Na",
                "substance": "---",
                "comment": "Sodium NEA(CODATA)",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -3558,13 +3558,13 @@
                ],
                "number": 41,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Nb",
                "substance": "---",
                "comment": "Niobium NBS",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -3636,13 +3636,13 @@
                ],
                "number": 60,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Nd",
                "substance": "s:ND:Nd_cr:nbs:",
                "comment": "Neodymium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -3714,13 +3714,13 @@
                ],
                "number": 10,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Ne",
                "substance": "g:NE:Ne:cd:",
                "comment": "Neon",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -3792,13 +3792,13 @@
                ],
                "number": 28,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Ni",
                "substance": "---",
                "comment": "Nickel NBS",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -3868,13 +3868,13 @@
                ],
                "number": 7,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Nia",
                "substance": "g:N0:N2:enp:",
                "comment": "Nitrogen decoupled (atmospheric)",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -3946,13 +3946,13 @@
                ],
                "number": 8,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "O",
                "substance": "g:O0:O2:enp:",
                "comment": "Oxygen",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -4024,13 +4024,13 @@
                ],
                "number": 76,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Os",
                "substance": "s:OS:Os_cr:nbs:",
                "comment": "Osmium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -4102,13 +4102,13 @@
                ],
                "number": 15,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "P",
                "substance": "---",
                "comment": "Phosphorus (white) NEA(CODATA)",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -4180,13 +4180,13 @@
                ],
                "number": 82,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Pb",
                "substance": "s:PB:Pb_cr:cd:",
                "comment": "Lead",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -4258,13 +4258,13 @@
                ],
                "number": 46,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Pd",
                "substance": "s:Pd0:Pd:dnp:",
                "comment": "Palladium [1998SAS/SHO]",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -4336,13 +4336,13 @@
                ],
                "number": 59,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Pr",
                "substance": "s:PR:Pr_cr:nbs:",
                "comment": "Praseodymium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -4414,13 +4414,13 @@
                ],
                "number": 78,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Pt",
                "substance": "s:PT:Pt_cr:nbs:",
                "comment": "Platinum",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -4492,13 +4492,13 @@
                ],
                "number": 88,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Ra",
                "substance": "---",
                "comment": "Radium NBS, ?",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -4570,13 +4570,13 @@
                ],
                "number": 37,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Rb",
                "substance": "s:RB:Rb_cr:cd:",
                "comment": "Rubidium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -4648,13 +4648,13 @@
                ],
                "number": 75,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Re",
                "substance": "s:RE:Re_cr:nbs:",
                "comment": "Rhenium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -4726,13 +4726,13 @@
                ],
                "number": 45,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Rh",
                "substance": "s:RH:Rh_cr:nbs:",
                "comment": "Rhodium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -4804,13 +4804,13 @@
                ],
                "number": 86,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Rn",
                "substance": "g:RN:Rn:nbs:",
                "comment": "Radon",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -4882,13 +4882,13 @@
                ],
                "number": 44,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Ru",
                "substance": "s:RU:Ru_cr:nbs:",
                "comment": "Ruthenium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -4960,13 +4960,13 @@
                ],
                "number": 16,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "S",
                "substance": "s:S0:Sulfur:dnp:",
                "comment": "Sulfur",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -5038,13 +5038,13 @@
                ],
                "number": 51,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Sb",
                "substance": "s:SB:Sb_cr:nbs:",
                "comment": "Antimony",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -5116,13 +5116,13 @@
                ],
                "number": 21,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Sc",
                "substance": "s:SC:Sc_cr:nbs:",
                "comment": "Scandium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -5194,13 +5194,13 @@
                ],
                "number": 34,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Se",
                "substance": "s:Se0:Se:dnp:",
                "comment": "Selenium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -5272,13 +5272,13 @@
                ],
                "number": 14,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Si",
                "substance": "---",
                "comment": "Silicon NEA(CODATA)",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -5350,13 +5350,13 @@
                ],
                "number": 62,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Sm",
                "substance": "s:SM:Sm_cr:nbs:",
                "comment": "Samarium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -5428,13 +5428,13 @@
                ],
                "number": 50,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Sn",
                "substance": "s:Sn0:Sn:dnp:",
                "comment": "Tin (white, tet.)",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -5506,13 +5506,13 @@
                ],
                "number": 38,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Sr",
                "substance": "---",
                "comment": "Strontium NEA, NBS",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -5584,13 +5584,13 @@
                ],
                "number": 73,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Ta",
                "substance": "s:TA:Ta_cr:nbs:",
                "comment": "Tantalum",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -5662,13 +5662,13 @@
                ],
                "number": 65,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Tb",
                "substance": "s:TB:Tb_cr:nbs:",
                "comment": "Terbium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -5740,13 +5740,13 @@
                ],
                "number": 90,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Th",
                "substance": "---",
                "comment": "Thorium CODATA",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -5818,13 +5818,13 @@
                ],
                "number": 22,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Ti",
                "substance": "s:Ti:Ti_cr:cd:",
                "comment": "Titanium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -5896,13 +5896,13 @@
                ],
                "number": 81,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Tl",
                "substance": "s:TL:Tl_cr:nbs:",
                "comment": "Thallium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -5974,13 +5974,13 @@
                ],
                "number": 69,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Tm",
                "substance": "s:TM:Tm_cr:nbs:",
                "comment": "Thulium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -6052,13 +6052,13 @@
                ],
                "number": 92,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "U",
                "substance": "---",
                "comment": "Uranium NEA(CODATA), NEA",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -6130,13 +6130,13 @@
                ],
                "number": 23,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "V",
                "substance": "s:V:V_cr:nbs:",
                "comment": "Vanadium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -6208,13 +6208,13 @@
                ],
                "number": 100,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Vol",
                "substance": "`",
                "comment": "Volume",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -6286,13 +6286,13 @@
                ],
                "number": 74,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "W",
                "substance": "s:W:W_cr:nbs:",
                "comment": "Tungsten",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -6364,13 +6364,13 @@
                ],
                "number": 54,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Xe",
                "substance": "g:XE:Xe:cd:",
                "comment": "Xenon",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -6442,13 +6442,13 @@
                ],
                "number": 39,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Y",
                "substance": "s:Y:Y_cr:nbs:",
                "comment": "Yttrium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -6520,13 +6520,13 @@
                ],
                "number": 70,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Yb",
                "substance": "s:YB:Yb_cr:nbs:",
                "comment": "Ytterbium",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -6598,13 +6598,13 @@
                ],
                "number": 30,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Zn",
                "substance": "s:ZN:Zn_cr:cd:",
                "comment": "Zinc",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -6676,13 +6676,13 @@
                ],
                "number": 40,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Zr",
                "substance": "---",
                "comment": "Zirconium NBS",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -6754,13 +6754,13 @@
                ],
                "number": 0,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Zz",
                "substance": "`",
                "comment": "Electrical (proton) charge",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
@@ -6826,13 +6826,13 @@
                ],
                "number": 46,
                "sourcetdb": {
-                    "21": "SUPCRT07"
+                    "2": "SUPCRT"
                },
                "formula": "Pd",
                "substance": "s:Pm0:Pd:dnp:",
                "comment": "Promethium [1998SAS/SHO]",
                "datasources": [
-                    "Supcrt-Slop07-reaktoro"
+                    "Supcrt-Slop98-reaktoro"
                ],
                "radioactivity": {
                     "decay_type": 0,
