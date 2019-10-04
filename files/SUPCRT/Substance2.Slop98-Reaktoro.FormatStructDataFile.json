@@ -22,7 +22,7 @@
                "Formula" :   {
                     "field" :   "properties.formula",
                     "script" :   "field = string.gsub(field, '%(AQ%)',  '@' );
-                    field = string.gsub(field, '%*([%d%.]*)([^%*%s]*)',  '(%2)%1' );"
+                     field = string.gsub(field, '%*([%d%.]*)([^%*%s]*)',  '(%2)%1' );"
                },
                "Charge" :   {
                     "field" :   "properties.formula_charge"

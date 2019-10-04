@@ -14,7 +14,8 @@
                          "c" :   "{\"3\" :   \"AS_CRYSTAL\"}",
                          "s" :   "{\"3\" :   \"AS_CRYSTAL\"}",
                          "l" :   "{\"1\" :   \"AS_LIQUID\"}",
-                         "f" :   "{\"0\" :   \"AS_GAS\"}"
+                         "f" :   "{\"0\" :   \"AS_GAS\"}",
+                         "p" :   "{\"8\" :   \"AS_PLASMA\"}"
                     }
                },
                "dod.10.val.1" :   {
@@ -219,6 +220,7 @@
           },
           "script": "
           print(rintable.properties.symbol)
+if rintable.properties.formula == 'Zz|-1|-' then rintable.properties.formula = '-1' end
 if rintable.properties.formula == 'H+' then
      rintable.properties.TPMethods = nil
      rintable.properties.temp_import = nil

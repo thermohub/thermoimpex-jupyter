@@ -287,7 +287,7 @@ if rintable.properties.sm_entropy_abs ~= nil then rintable.properties.sm_entropy
 if rintable.properties.sm_heat_capacity_p ~= nil then rintable.properties.sm_heat_capacity_p.units = {'J/(mol*K)'} end
 if rintable.properties.m_compressibility ~= nil then rintable.properties.m_compressibility.units = {'1e-05/K'} end
 if rintable.properties.m_expansivity ~= nil then rintable.properties.m_expansivity.units = {'kbar'} end
-rintable.properties.temp_import = nil
+--rintable.properties.temp_import = nil
 
 if rintable.properties.TPMethods[1].method['2']=='solute_hkf88_gems' then
      if rintable.properties.TPMethods[1].eos_hkf_coeffs ~= nil then
@@ -299,6 +299,12 @@ if rintable.properties.TPMethods[1].method['2']=='solute_hkf88_gems' then
 end
 if rintable.properties.TPMethods[1].method['0']=='cp_ft_equation' then
      if rintable.properties.TPMethods[1].m_heat_capacity_ft_coeffs ~= nil then
+     t = rintable.properties.temp_import[1].values
+     rintable.properties.temp_import = nil
+     rintable.properties.TPMethods[1].limitsTP = {}
+     rintable.properties.TPMethods[1].limitsTP.range = true
+     rintable.properties.TPMethods[1].limitsTP.lowerT=t[1]
+     rintable.properties.TPMethods[1].limitsTP.upperT=t[2]
      rintable.properties.TPMethods[1].m_heat_capacity_ft_coeffs.names = {'a0','a1','a2','a3','a4','a5','a6','a7','a8','a9','a10'}
      rintable.properties.TPMethods[1].m_heat_capacity_ft_coeffs.units = {'J/(mol*K)','J/(mol*K^2)','(J*K)/mol','J/(mol*K^0.5)','J/(mol*K^3)', 
                                                                   'J/(mol*K^4)','J/(mol*K^5)','(J*K^2)/mol','J/mol','J/(mol*K^1.5)','J/(mol*K)'}

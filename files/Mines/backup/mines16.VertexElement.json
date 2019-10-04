@@ -1,0 +1,2867 @@
+[
+     {
+          "_id" :   "elements/Ag;0:ELEMENT;18:MINES",
+          "_key" :   "Ag;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QFi---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Ag",
+               "isotope_mass" :   0,
+               "name" :   "silver",
+               "atomic_mass" :   {
+                    "values" :   [
+                         107.868202209473
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         42.5499992370605
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         10.2720003128052
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         25.3500003814697
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   47,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Ag",
+               "substance" :   "s:AG:Ag_cr:cd:",
+               "comment" :   "Silver",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   7
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Al;0:ELEMENT;18:MINES",
+          "_key" :   "Al;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QGC---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Al",
+               "isotope_mass" :   0,
+               "name" :   "aluminum",
+               "atomic_mass" :   {
+                    "values" :   [
+                         26.9815406799316
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         28.2999992370605
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         9.99300003051758
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         24.2000007629395
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   13,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Al",
+               "substance" :   "",
+               "comment" :   "Aluminum NEA(CODATA) ",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   7
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Au;0:ELEMENT;18:MINES",
+          "_key" :   "Au;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QGm---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Au",
+               "isotope_mass" :   0,
+               "name" :   "gold",
+               "atomic_mass" :   {
+                    "values" :   [
+                         196.966995239258
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         47.4000015258789
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         10.2150001525879
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         25.4179992675781
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   79,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Au",
+               "substance" :   "s:AU:Au_cr:nbs:",
+               "comment" :   "Gold",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   7
+               }
+          }
+     },
+     {
+          "_id" :   "elements/C;0:ELEMENT;18:MINES",
+          "_key" :   "C;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QHK---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "C",
+               "isotope_mass" :   0,
+               "name" :   "carbon",
+               "atomic_mass" :   {
+                    "values" :   [
+                         12.0108003616333
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         5.73999977111816
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         4.58440017700195
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         8.68200016021729
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   6,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "C ",
+               "substance" :   "s:C0:Gr:dnp:",
+               "comment" :   "Carbon (graphite)",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Ca;0:ELEMENT;18:MINES",
+          "_key" :   "Ca;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QHq---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Ca",
+               "isotope_mass" :   0,
+               "name" :   "calcium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         40.0779991149902
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         41.5900001525879
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         25.8600006103516
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         25.9290008544922
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   20,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Ca",
+               "substance" :   "---",
+               "comment" :   "Calcium NEA(CODATA)",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Ce;0:ELEMENT;18:MINES",
+          "_key" :   "Ce;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QIO---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Ce",
+               "isotope_mass" :   0,
+               "name" :   "cerium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         140.119995117188
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         72
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         20.6700000762939
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         26.9400005340576
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   58,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Ce",
+               "substance" :   "s:CE:Ce_cr:nbs:",
+               "comment" :   "Cerium",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Cl;0:ELEMENT;18:MINES",
+          "_key" :   "Cl;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QIy---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Cl",
+               "isotope_mass" :   0,
+               "name" :   "chlorine",
+               "atomic_mass" :   {
+                    "values" :   [
+                         35.4529991149902
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "aggregate_state" :   {
+                    "0" :   "AS_GAS"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         111.540496826172
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         12395
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         16.9745006561279
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   17,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Cl",
+               "substance" :   "---",
+               "comment" :   "Chlorine NEA(CODATA)",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Cu;0:ELEMENT;18:MINES",
+          "_key" :   "Cu;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QJW---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Cu",
+               "isotope_mass" :   0,
+               "name" :   "copper",
+               "atomic_mass" :   {
+                    "values" :   [
+                         63.5460014343262
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         33.1500015258789
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         7.11299991607666
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         24.4400005340576
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   29,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Cu",
+               "substance" :   "s:CU:Cu_cr:cd:",
+               "comment" :   "Copper",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Dy;0:ELEMENT;18:MINES",
+          "_key" :   "Dy;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QJ6---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Dy",
+               "isotope_mass" :   0,
+               "name" :   "dysprosium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         162.5
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         74.7699966430664
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         19.0300006866455
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         28.1599998474121
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   66,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Dy",
+               "substance" :   "s:DY:Dy_cr:nbs:",
+               "comment" :   "Dysprosium",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Er;0:ELEMENT;18:MINES",
+          "_key" :   "Er;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QKe---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Er",
+               "isotope_mass" :   0,
+               "name" :   "erbium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         167.259994506836
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         73.1800003051758
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         18.4799995422363
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         28.1200008392334
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   68,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Er",
+               "substance" :   "s:ER:Er_cr:nbs:",
+               "comment" :   "Erbium",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Eu;0:ELEMENT;18:MINES",
+          "_key" :   "Eu;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QLC---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Eu",
+               "isotope_mass" :   0,
+               "name" :   "europium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         151.964004516602
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         77.7799987792969
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         28.8899993896484
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         27.6599998474121
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   63,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Eu",
+               "substance" :   "---",
+               "comment" :   "Europium NBS",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/F;0:ELEMENT;18:MINES",
+          "_key" :   "F;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QLm---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "F",
+               "isotope_mass" :   0,
+               "name" :   "fluorine",
+               "atomic_mass" :   {
+                    "values" :   [
+                         18.9983997344971
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "aggregate_state" :   {
+                    "0" :   "AS_GAS"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         101.395500183105
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         12395
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         15.6520004272461
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   9,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "F",
+               "substance" :   "---",
+               "comment" :   "Fluorine NEA(CODATA)",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Fe;0:ELEMENT;18:MINES",
+          "_key" :   "Fe;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QMK---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Fe",
+               "isotope_mass" :   0,
+               "name" :   "iron",
+               "atomic_mass" :   {
+                    "values" :   [
+                         55.8450012207031
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         27.2800006866455
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         7.09200000762939
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         24.9610004425049
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   26,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Fe",
+               "substance" :   "s:Fe0:Fe:dnp:",
+               "comment" :   "Iron",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Gd;0:ELEMENT;18:MINES",
+          "_key" :   "Gd;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QMu---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Gd",
+               "isotope_mass" :   0,
+               "name" :   "gadolinium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         157.25
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         68.0699996948242
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         19.8899993896484
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         37.0299987792969
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   64,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Gd",
+               "substance" :   "s:GD:Gd_cr:nbs:",
+               "comment" :   "Gadolinium",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/H;0:ELEMENT;18:MINES",
+          "_key" :   "H;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QNS---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "H",
+               "isotope_mass" :   0,
+               "name" :   "hydrogen",
+               "atomic_mass" :   {
+                    "values" :   [
+                         1.00794994831085
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "aggregate_state" :   {
+                    "0" :   "AS_GAS"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         65.3399963378906
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         12395
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         14.4090003967285
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   1,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "H",
+               "substance" :   "g:H0:H2:enp:",
+               "comment" :   "Hydrogen",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Ho;0:ELEMENT;18:MINES",
+          "_key" :   "Ho;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QN2---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Ho",
+               "isotope_mass" :   0,
+               "name" :   "holmium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         164.929992675781
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         75.3000030517578
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         18.7399997711182
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         27.1499996185303
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   67,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Ho",
+               "substance" :   "s:HO:Ho_cr:nbs:",
+               "comment" :   "Holmium",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/K;0:ELEMENT;18:MINES",
+          "_key" :   "K;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QOa---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "K",
+               "isotope_mass" :   0,
+               "name" :   "potassium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         39.0983009338379
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         64.6799926757812
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         45.4630012512207
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         29.6000003814697
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   19,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "K",
+               "substance" :   "---",
+               "comment" :   "Potassium NEA(CODATA)",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/La;0:ELEMENT;18:MINES",
+          "_key" :   "La;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QP----",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "La",
+               "isotope_mass" :   0,
+               "name" :   "lanthanum",
+               "atomic_mass" :   {
+                    "values" :   [
+                         138.910003662109
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         56.9000015258789
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         22.4699993133545
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         27.1100006103516
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   57,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "La",
+               "substance" :   "s:LA:La_cr:nbs:",
+               "comment" :   "Lanthanum",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Lu;0:ELEMENT;18:MINES",
+          "_key" :   "Lu;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QPi---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Lu",
+               "isotope_mass" :   0,
+               "name" :   "lutetium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         174.970001220703
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         50.9599990844727
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         17.7700004577637
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         26.8600006103516
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   71,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Lu",
+               "substance" :   "s:LU:lu_cr:nbs:",
+               "comment" :   "Lutetium",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Mg;0:ELEMENT;18:MINES",
+          "_key" :   "Mg;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QQG---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Mg",
+               "isotope_mass" :   0,
+               "name" :   "magnesium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         24.3050003051758
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         32.6699981689453
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         13.996000289917
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         24.8689994812012
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   12,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Mg",
+               "substance" :   "---",
+               "comment" :   "Magnesium NEA(CODATA)",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Mo;0:ELEMENT;18:MINES",
+          "_key" :   "Mo;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QQq---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Mo",
+               "isotope_mass" :   0,
+               "name" :   "molybdenum",
+               "atomic_mass" :   {
+                    "values" :   [
+                         95.9399871826172
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         28.6599998474121
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         9.39999961853027
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         23.8999996185303
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   42,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Mo",
+               "substance" :   "s:Mo0:Mo:dnp:",
+               "comment" :   "Molybdenum",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Na;0:ELEMENT;18:MINES",
+          "_key" :   "Na;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QRO---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Na",
+               "isotope_mass" :   0,
+               "name" :   "sodium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         22.9897994995117
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         51.2999992370605
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         23.7999992370605
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         28.2299995422363
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   11,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Na",
+               "substance" :   "---",
+               "comment" :   "Sodium NEA(CODATA)",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Nd;0:ELEMENT;18:MINES",
+          "_key" :   "Nd;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QRy---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Nd",
+               "isotope_mass" :   0,
+               "name" :   "neodymium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         144.240005493164
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         71.5
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         20.5699996948242
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         27.4500007629395
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   60,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Nd",
+               "substance" :   "s:ND:Nd_cr:nbs:",
+               "comment" :   "Neodymium",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/O;0:ELEMENT;18:MINES",
+          "_key" :   "O;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QSW---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "O",
+               "isotope_mass" :   0,
+               "name" :   "oxygen",
+               "atomic_mass" :   {
+                    "values" :   [
+                         15.999400138855
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "aggregate_state" :   {
+                    "0" :   "AS_GAS"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         102.569000244141
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         12395
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         14.66100025177
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   8,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "O",
+               "substance" :   "g:O0:O2:enp:",
+               "comment" :   "Oxygen",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/P;0:ELEMENT;18:MINES",
+          "_key" :   "P;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QS6---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "P",
+               "isotope_mass" :   0,
+               "name" :   "phosphorus",
+               "atomic_mass" :   {
+                    "values" :   [
+                         30.9737606048584
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         41.0900001525879
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         17.0200004577637
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         23.8239994049072
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   15,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "P",
+               "substance" :   "---",
+               "comment" :   "Phosphorus (white) NEA(CODATA)",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Pb;0:ELEMENT;18:MINES",
+          "_key" :   "Pb;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QTe---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Pb",
+               "isotope_mass" :   0,
+               "name" :   "lead",
+               "atomic_mass" :   {
+                    "values" :   [
+                         207.199996948242
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         64.8000030517578
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         18.1800003051758
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         26.6499996185303
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   82,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Pb",
+               "substance" :   "s:PB:Pb_cr:cd:",
+               "comment" :   "Lead",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Pr;0:ELEMENT;18:MINES",
+          "_key" :   "Pr;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QUG---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Pr",
+               "isotope_mass" :   0,
+               "name" :   "praseodymium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         140.906997680664
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         73.1999969482422
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         20.8099994659424
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         27.2000007629395
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   59,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Pr",
+               "substance" :   "s:PR:Pr_cr:nbs:",
+               "comment" :   "Praseodymium",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/S;0:ELEMENT;18:MINES",
+          "_key" :   "S;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QUq---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "S",
+               "isotope_mass" :   0,
+               "name" :   "sulfur",
+               "atomic_mass" :   {
+                    "values" :   [
+                         32.0670013427734
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         31.7980003356934
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         15.5100002288818
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         22.7630004882812
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   16,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "S",
+               "substance" :   "s:S0:Sulfur:dnp:",
+               "comment" :   "Sulfur",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Si;0:ELEMENT;18:MINES",
+          "_key" :   "Si;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QVO---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Si",
+               "isotope_mass" :   0,
+               "name" :   "silicon",
+               "atomic_mass" :   {
+                    "values" :   [
+                         28.0855007171631
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         18.8099994659424
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         12.0559997558594
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         19.7889995574951
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   14,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Si",
+               "substance" :   "---",
+               "comment" :   "Silicon NEA(CODATA)",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Sm;0:ELEMENT;18:MINES",
+          "_key" :   "Sm;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QVu---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Sm",
+               "isotope_mass" :   0,
+               "name" :   "samarium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         150.350006103516
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         69.5800018310547
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         19.9799995422363
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         29.5400009155273
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   62,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Sm",
+               "substance" :   "s:SM:Sm_cr:nbs:",
+               "comment" :   "Samarium",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Sn;0:ELEMENT;18:MINES",
+          "_key" :   "Sn;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QWS---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Sn",
+               "isotope_mass" :   0,
+               "name" :   "tin",
+               "atomic_mass" :   {
+                    "values" :   [
+                         118.710998535156
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         51.2120018005371
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         16.2900009155273
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         26.3519992828369
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   50,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Sn",
+               "substance" :   "s:Sn0:Sn:dnp:",
+               "comment" :   "Tin (white, tet.)",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Tb;0:ELEMENT;18:MINES",
+          "_key" :   "Tb;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QW2---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Tb",
+               "isotope_mass" :   0,
+               "name" :   "terbium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         158.92399597168
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         73.2200012207031
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         19.2199993133545
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         28.9099998474121
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   65,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Tb",
+               "substance" :   "s:TB:Tb_cr:nbs:",
+               "comment" :   "Terbium",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Ti;0:ELEMENT;18:MINES",
+          "_key" :   "Ti;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QXa---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Ti",
+               "isotope_mass" :   0,
+               "name" :   "titanium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         47.8800010681152
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         30.7199993133545
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         10.6300001144409
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         25.0599994659424
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   22,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Ti",
+               "substance" :   "s:Ti:Ti_cr:cd:",
+               "comment" :   "Titanium",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Tm;0:ELEMENT;18:MINES",
+          "_key" :   "Tm;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QY----",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Tm",
+               "isotope_mass" :   0,
+               "name" :   "thulium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         168.934005737305
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         74.0100021362305
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         18.1299991607666
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         27.0300006866455
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   69,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Tm",
+               "substance" :   "s:TM:Tm_cr:nbs:",
+               "comment" :   "Thulium",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Y;0:ELEMENT;18:MINES",
+          "_key" :   "Y;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QYm---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Y",
+               "isotope_mass" :   0,
+               "name" :   "yttrium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         88.9049987792969
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         44.4300003051758
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         15.039999961853
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         26.5300006866455
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   39,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Y",
+               "substance" :   "s:Y:Y_cr:nbs:",
+               "comment" :   "Yttrium",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Yb;0:ELEMENT;18:MINES",
+          "_key" :   "Yb;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QZK---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Yb",
+               "isotope_mass" :   0,
+               "name" :   "ytterbium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         173.039993286133
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         59.8699989318848
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         24.8299999237061
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         26.7399997711182
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   70,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Yb",
+               "substance" :   "s:YB:Yb_cr:nbs:",
+               "comment" :   "Ytterbium",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Zn;0:ELEMENT;18:MINES",
+          "_key" :   "Zn;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QZu---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Zn",
+               "isotope_mass" :   0,
+               "name" :   "zinc",
+               "atomic_mass" :   {
+                    "values" :   [
+                         65.379997253418
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         41.6300010681152
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         9.1569995880127
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         25.3899993896484
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   30,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Zn",
+               "substance" :   "s:ZN:Zn_cr:cd:",
+               "comment" :   "Zinc",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Zr;0:ELEMENT;18:MINES",
+          "_key" :   "Zr;0:ELEMENT;18:MINES",
+          "_rev" :   "_ZXZ4QaO---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Zr",
+               "isotope_mass" :   0,
+               "name" :   "zirconium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         91.2239990234375
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         39.0800018310547
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         14.0500001907349
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         26.0799999237061
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   40,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Zr",
+               "substance" :   "---",
+               "comment" :   "Zirconium 12/07 UPDATE SOi CpOi",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Zz;4:CHARGE;18:MINES",
+          "_key" :   "Zz;4:CHARGE;18:MINES",
+          "_rev" :   "_ZXZ4Qay---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Zz",
+               "isotope_mass" :   0,
+               "name" :   "electric_charge",
+               "atomic_mass" :   {
+                    "values" :   [
+                         0
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "4" :   "CHARGE"
+               },
+               "aggregate_state" :   {
+                    "6" :   "AS_IONEX"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         0
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         -65.3399963378906
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         0
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         -14.4180002212524
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   0,
+               "sourcetdb" :   {
+                    "18" :   "MINES"
+               },
+               "formula" :   "Zz",
+               "substance" :   "`",
+               "comment" :   "Electrical (proton) charge",
+               "datasources" :   [
+                    "Mines16"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   34,
+                    "second" :   8
+               }
+          }
+     }
+]
