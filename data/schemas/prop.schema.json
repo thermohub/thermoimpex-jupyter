@@ -295,6 +295,11 @@
           "name": "AS_OTHER",
           "value": 7,
           "doc": "Other states\n"
+        },
+        {
+          "name": "AS_PLASMA",
+          "value": 8,
+          "doc": "Plasma\n"
         }
       ]
     }
