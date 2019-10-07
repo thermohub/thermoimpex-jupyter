@@ -14,7 +14,8 @@
                          "c" :   "{\"3\" :   \"AS_CRYSTAL\"}",
                          "s" :   "{\"3\" :   \"AS_CRYSTAL\"}",
                          "l" :   "{\"1\" :   \"AS_LIQUID\"}",
-                         "f" :   "{\"0\" :   \"AS_GAS\"}"
+                         "f" :   "{\"0\" :   \"AS_GAS\"}",
+                         "p" :   "{\"8\" :   \"AS_PLASMA\"}"
                     }
                },
                "dod.10.val.1" :   {
@@ -44,8 +45,9 @@
                          "H" :   "{\"5\" :   \"landau_holland_powell98\"}",
                          "B" :   "{\"6\" :   \"landau_berman88\"}",
                          "F" :   "{\"1\" :   \"cp_ft_equation_saxena86\"}",
-                         "W" :   "{\"29\" :   \"water_eos_hgk84_lvs83_gems\"}",
-                         "V" :   "{\"30\" :   \"water_eos_iapws95_gems\"}"
+                         "W" :   "{\"29\" :  \"water_eos_hgk84_lvs83_gems\"}",
+                         "V" :   "{\"30\" :  \"water_eos_iapws95_gems\"}",
+                         "S" :   "{\"43\" :  \"standard_entropy_cp_integration\"}"
                     }
                },
                "dod.0.val.2" :   {
