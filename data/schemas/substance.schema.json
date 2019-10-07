@@ -206,6 +206,21 @@
           "name": "mv_pvnrt",
           "value": 40,
           "doc": "molar volume from ideal gas law pv=nrt\n"
+        },
+        {
+          "name": "solute_holland_powell98",
+          "value": 41,
+          "doc": "solute properties calculated using the Holland and Powell 1998 density model\n"
+        },
+        {
+          "name": "standard_entropy_cp_integration",
+          "value": 42,
+          "doc": "solute properties calculated using the Anderson et al. (1991) density model\n"
+        },
+        {
+          "name": "standard_entropy_cp_integration",
+          "value": 43,
+          "doc": "Standard entropy and constant heat capacity integration\n"
         }
       ]
     }
