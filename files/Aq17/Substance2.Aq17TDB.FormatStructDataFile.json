@@ -14,7 +14,8 @@
                          "c" :   "{\"3\" :   \"AS_CRYSTAL\"}",
                          "s" :   "{\"3\" :   \"AS_CRYSTAL\"}",
                          "l" :   "{\"1\" :   \"AS_LIQUID\"}",
-                         "f" :   "{\"0\" :   \"AS_GAS\"}"
+                         "f" :   "{\"0\" :   \"AS_GAS\"}",
+                         "p" :   "{\"8\" :   \"AS_PLASMA\"}"
                     }
                },
                "dod.10.val.1" :   {
@@ -35,7 +36,7 @@
                     "field" :   "properties.TPMethods.0.method",
                     "convert" :   {
                          "C" :   "{\"0\" :   \"cp_ft_equation\"}",
-                         "H" :   "{\"2\" :   \"solute_hkf88_gems\"}"
+                         "H" :   "{\"3\" :   \"solute_hkf88_reaktoro\"}"
                     }
                },
                "dod.0.val.1" :   {
@@ -44,8 +45,9 @@
                          "H" :   "{\"5\" :   \"landau_holland_powell98\"}",
                          "B" :   "{\"6\" :   \"landau_berman88\"}",
                          "F" :   "{\"1\" :   \"cp_ft_equation_saxena86\"}",
-                         "W" :   "{\"29\" :   \"water_eos_hgk84_lvs83_gems\"}",
-                         "V" :   "{\"30\" :   \"water_eos_iapws95_gems\"}"
+                         "W" :   "{\"31\" :  \"water_eos_hgk84_reaktoro\"}",
+                         "V" :   "{\"32\" :  \"water_eos_iapws95_reaktoro\"}",
+                         "S" :   "{\"43\" :  \"standard_entropy_cp_integration\"}"
                     }
                },
                "dod.0.val.2" :   {
@@ -223,7 +225,7 @@ if rintable.properties.formula == 'H+' then
      rintable.properties.TPMethods = nil
      rintable.properties.temp_import = nil
 else
-          if rintable.properties.formula == 'H2O@' or rintable.properties.formula == 'H2O' then if rintable.properties.class_['3'] then if rintable.properties.class_['3'] == 'SC_AQSOLVENT' then rintable.properties.TPMethods[1].method={} rintable.properties.TPMethods[1].method['29']='water_eos_hgk84_lvs83_gems' rintable.properties.TPMethods[2].method={} rintable.properties.TPMethods[2].method['26']='water_diel_jnort91_gems' end end end;
+          if rintable.properties.formula == 'H2O@' or rintable.properties.formula == 'H2O' then if rintable.properties.class_['3'] then if rintable.properties.class_['3'] == 'SC_AQSOLVENT' then rintable.properties.TPMethods[1].method={} rintable.properties.TPMethods[1].method['31']='water_eos_hgk84_reaktoro' rintable.properties.TPMethods[2].method={} rintable.properties.TPMethods[2].method['25']='water_diel_jnort91_reaktoro' end end end;
           if next(rintable.properties.TPMethods[3].method) == nil then table.remove(rintable.properties.TPMethods, 3) end;
           if next(rintable.properties.TPMethods[2].method) == nil then table.remove(rintable.properties.TPMethods, 2) end;
           if next(rintable.properties.TPMethods[1].method) == nil then table.remove(rintable.properties.TPMethods, 1) end;
@@ -276,6 +278,7 @@ if rintable.properties.temp_import[1].values ~= nil then
         end
     end
 end;
+
 if rintable.properties.aq_edh_props ~= nil then
      rintable.properties.aq_edh_props.names = {'a0','b'}
      rintable.properties.aq_edh_props.units = {'Å'}
@@ -287,8 +290,9 @@ if rintable.properties.sm_entropy_abs ~= nil then rintable.properties.sm_entropy
 if rintable.properties.sm_heat_capacity_p ~= nil then rintable.properties.sm_heat_capacity_p.units = {'J/(mol*K)'} end
 if rintable.properties.m_compressibility ~= nil then rintable.properties.m_compressibility.units = {'1e-05/K'} end
 if rintable.properties.m_expansivity ~= nil then rintable.properties.m_expansivity.units = {'kbar'} end
+--rintable.properties.temp_import = nil
 
-if rintable.properties.TPMethods[1].method['2']=='solute_hkf88_gems' then
+if rintable.properties.TPMethods[1].method['3']=='solute_hkf88_reaktoro' then
      if rintable.properties.TPMethods[1].eos_hkf_coeffs ~= nil then
      rintable.properties.TPMethods[1].eos_hkf_coeffs.names = {'a1','a2','a3','a4','c1','c2','wref'} 
      rintable.properties.TPMethods[1].eos_hkf_coeffs.units = {'cal/(mol*bar)','cal/mol','(cal*K)/mol','cal/(mol*K)','(cal*K)/mol','cal/mol'}
@@ -299,6 +303,7 @@ end
 if rintable.properties.TPMethods[1].method['0']=='cp_ft_equation' then
      if rintable.properties.TPMethods[1].m_heat_capacity_ft_coeffs ~= nil then
      t = rintable.properties.temp_import[1].values
+     rintable.properties.temp_import = nil
      rintable.properties.TPMethods[1].limitsTP = {}
      rintable.properties.TPMethods[1].limitsTP.range = true
      rintable.properties.TPMethods[1].limitsTP.lowerT=t[1]
@@ -309,8 +314,17 @@ if rintable.properties.TPMethods[1].method['0']=='cp_ft_equation' then
      else
      table.remove(rintable.properties.TPMethods, 1)
      end
+     if rintable.properties.TPMethods[2] ~= nil then
+          if rintable.properties.TPMethods[2].method['43']=='standard_entropy_cp_integration' then
+          table.remove( rintable.properties.TPMethods, 2 )
+          end
+     end
 end
-rintable.properties.temp_import = nil
+for k,v in pairs(rintable.properties.TPMethods) do
+     if v.eos_gas_crit_props ~= nil and v.method['9']=='fluid_prsv' then
+	v.eos_gas_crit_props.names = {'Tcr','Pcr','W','k1'}
+	v.eos_gas_crit_props.units = {'K','bar','',''} end
+end
 end
 "
      },

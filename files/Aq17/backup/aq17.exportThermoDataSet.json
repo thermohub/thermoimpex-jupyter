@@ -1198,7 +1198,7 @@
      {
           "_id" :   "substances/Al(OH)3@;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "Al(OH)3@;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuu16--_",
+          "_rev" :   "_ZZ-5cFO--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -1267,7 +1267,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -1307,10 +1307,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   43
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   50
                }
           }
      },
@@ -1329,7 +1329,7 @@
      {
           "_id" :   "substances/AlH3SiO4+2;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "AlH3SiO4+2;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuu5S--_",
+          "_rev" :   "_ZZ-5cIW--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -1398,7 +1398,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -1451,10 +1451,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   43
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   50
                }
           }
      },
@@ -1473,7 +1473,7 @@
      {
           "_id" :   "substances/CaOH+;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "CaOH+;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvCi--_",
+          "_rev" :   "_ZZ-5cRC--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -1542,7 +1542,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -1595,10 +1595,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   43
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   50
                }
           }
      },
@@ -1617,7 +1617,7 @@
      {
           "_id" :   "substances/Carpholite-Mg;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Carpholite-Mg;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwNe--_",
+          "_rev" :   "_ZZ-5dWm--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -1765,10 +1765,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -1787,7 +1787,7 @@
      {
           "_id" :   "substances/Clinozoisite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Clinozoisite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxEO--_",
+          "_rev" :   "_ZZ-5eJa--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -1935,10 +1935,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -1957,7 +1957,7 @@
      {
           "_id" :   "substances/Meionite-Na;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Meionite-Na;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwgi--_",
+          "_rev" :   "_ZZ-5dpy--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -2105,10 +2105,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -2127,7 +2127,7 @@
      {
           "_id" :   "substances/MgCO3@;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "MgCO3@;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvNK--_",
+          "_rev" :   "_ZZ-5ccy--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -2196,7 +2196,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -2236,10 +2236,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   50
                }
           }
      },
@@ -2258,7 +2258,7 @@
      {
           "_id" :   "substances/MgHCO3+;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "MgHCO3+;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvRO--_",
+          "_rev" :   "_ZZ-5cf6--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -2327,7 +2327,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -2380,10 +2380,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   50
                }
           }
      },
@@ -2402,7 +2402,7 @@
      {
           "_id" :   "substances/Rankinite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Rankinite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxW---_",
+          "_rev" :   "_ZZ-5eYe--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -2550,10 +2550,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -2572,7 +2572,7 @@
      {
           "_id" :   "substances/Albitehigh;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Albitehigh;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwUe--_",
+          "_rev" :   "_ZZ-5deK--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -2720,10 +2720,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -2742,7 +2742,7 @@
      {
           "_id" :   "substances/Andalusite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Andalusite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxAi---",
+          "_rev" :   "_ZZ-5eF2--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -2890,10 +2890,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -2912,7 +2912,7 @@
      {
           "_id" :   "substances/Chlorite-Mg;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Chlorite-Mg;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwJi--_",
+          "_rev" :   "_ZZ-5dTO--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -3060,10 +3060,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -3082,7 +3082,7 @@
      {
           "_id" :   "substances/Cl-;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "Cl-;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvli--_",
+          "_rev" :   "_ZZ-5czW--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -3151,7 +3151,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -3204,10 +3204,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -3226,7 +3226,7 @@
      {
           "_id" :   "substances/MgSiO3@;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "MgSiO3@;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvU6--_",
+          "_rev" :   "_ZZ-5cjS--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -3295,7 +3295,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -3348,10 +3348,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   50
                }
           }
      },
@@ -3370,7 +3370,7 @@
      {
           "_id" :   "substances/Monticellite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Monticellite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxQm--_",
+          "_rev" :   "_ZZ-5eUC--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -3518,10 +3518,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -3540,7 +3540,7 @@
      {
           "_id" :   "substances/NaAl(OH)4@;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "NaAl(OH)4@;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvXS--_",
+          "_rev" :   "_ZZ-5cle--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -3609,7 +3609,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -3649,10 +3649,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -3671,7 +3671,7 @@
      {
           "_id" :   "substances/Nceladonite-Mg;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Nceladonite-Mg;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuw5W--_",
+          "_rev" :   "_ZZ-5eA---_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -3819,10 +3819,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -3841,7 +3841,7 @@
      {
           "_id" :   "substances/O2@;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "O2@;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvpK--_",
+          "_rev" :   "_ZZ-5c3C---",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -3984,10 +3984,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -4006,7 +4006,7 @@
      {
           "_id" :   "substances/Sapphirine5-Mg;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Sapphirine5-Mg;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwPy--_",
+          "_rev" :   "_ZZ-5dZS--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -4154,10 +4154,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -4176,7 +4176,7 @@
      {
           "_id" :   "substances/Antigorite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Antigorite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEux0K--_",
+          "_rev" :   "_ZZ-5e0O--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -4324,10 +4324,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   53
                }
           }
      },
@@ -4346,7 +4346,7 @@
      {
           "_id" :   "substances/Brucite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Brucite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxha--_",
+          "_rev" :   "_ZZ-5ej---_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -4494,10 +4494,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   53
                }
           }
      },
@@ -4516,7 +4516,7 @@
      {
           "_id" :   "substances/CO2;1:SC_GASFLUID;19:AQ17",
           "_key" :   "CO2;1:SC_GASFLUID;19:AQ17",
-          "_rev" :   "_ZXEuvv6--_",
+          "_rev" :   "_ZZ-5c8e--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -4676,10 +4676,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -4698,7 +4698,7 @@
      {
           "_id" :   "substances/Corundum;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Corundum;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxi2--_",
+          "_rev" :   "_ZZ-5ekG--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -4846,10 +4846,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   53
                }
           }
      },
@@ -4868,7 +4868,7 @@
      {
           "_id" :   "substances/Diamond;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Diamond;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwR---_",
+          "_rev" :   "_ZZ-5dam--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -5016,10 +5016,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -5038,7 +5038,7 @@
      {
           "_id" :   "substances/Dolomite-od;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Dolomite-od;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwFu--_",
+          "_rev" :   "_ZZ-5dP6--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -5198,10 +5198,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -5220,7 +5220,7 @@
      {
           "_id" :   "substances/NaHCO3@;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "NaHCO3@;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvae--_",
+          "_rev" :   "_ZZ-5coq--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -5289,7 +5289,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -5342,10 +5342,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -5364,7 +5364,7 @@
      {
           "_id" :   "substances/Osumilite1-Mg;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Osumilite1-Mg;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxSK--_",
+          "_rev" :   "_ZZ-5eVG--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -5512,10 +5512,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -5534,7 +5534,7 @@
      {
           "_id" :   "substances/Pargasite-Mg;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Pargasite-Mg;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuv92--_",
+          "_rev" :   "_ZZ-5dJK--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -5682,10 +5682,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -5704,7 +5704,7 @@
      {
           "_id" :   "substances/Spinel;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Spinel;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxpW--_",
+          "_rev" :   "_ZZ-5eq---_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -5852,10 +5852,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   53
                }
           }
      },
@@ -5874,7 +5874,7 @@
      {
           "_id" :   "substances/Stilbite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Stilbite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwp---_",
+          "_rev" :   "_ZZ-5dw2--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -6022,10 +6022,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -6044,7 +6044,7 @@
      {
           "_id" :   "substances/CO;1:SC_GASFLUID;19:AQ17",
           "_key" :   "CO;1:SC_GASFLUID;19:AQ17",
-          "_rev" :   "_ZXEuvuq--_",
+          "_rev" :   "_ZZ-5c7S--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -6204,10 +6204,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -6226,7 +6226,7 @@
      {
           "_id" :   "substances/CaCO3@;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "CaCO3@;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuu9G--_",
+          "_rev" :   "_ZZ-5cLe--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -6295,7 +6295,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -6335,10 +6335,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   43
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   50
                }
           }
      },
@@ -6357,7 +6357,7 @@
      {
           "_id" :   "substances/Edenite-Mg;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Edenite-Mg;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuv6---_",
+          "_rev" :   "_ZZ-5dF6--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -6505,10 +6505,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -6527,7 +6527,7 @@
      {
           "_id" :   "substances/Gedrite-Mg;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Gedrite-Mg;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuv7K--_",
+          "_rev" :   "_ZZ-5dH---_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -6675,10 +6675,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -6697,7 +6697,7 @@
      {
           "_id" :   "substances/Glaucophane-Mg;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Glaucophane-Mg;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuv8i--_",
+          "_rev" :   "_ZZ-5dIK--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -6845,10 +6845,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -6867,7 +6867,7 @@
      {
           "_id" :   "substances/H+;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "H+;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvsK--_",
+          "_rev" :   "_ZZ-5c5---_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -6931,10 +6931,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -6953,7 +6953,7 @@
      {
           "_id" :   "substances/Phlogopite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Phlogopite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuw8e---",
+          "_rev" :   "_ZZ-5eCW---",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -7101,10 +7101,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -7123,7 +7123,7 @@
      {
           "_id" :   "substances/Pseudowoll;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Pseudowoll;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxve--_",
+          "_rev" :   "_ZZ-5evi--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -7271,10 +7271,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   53
                }
           }
      },
@@ -7293,7 +7293,7 @@
      {
           "_id" :   "substances/Sudoite-Mg;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Sudoite-Mg;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwMW--_",
+          "_rev" :   "_ZZ-5dVe--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -7441,10 +7441,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -7463,7 +7463,7 @@
      {
           "_id" :   "substances/H2O;1:SC_GASFLUID;19:AQ17",
           "_key" :   "H2O;1:SC_GASFLUID;19:AQ17",
-          "_rev" :   "_ZXEuvzi--_",
+          "_rev" :   "_ZZ-5dAG--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -7623,10 +7623,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -7645,7 +7645,7 @@
      {
           "_id" :   "substances/HCl@;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "HCl@;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvmm--_",
+          "_rev" :   "_ZZ-5c0i--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -7714,7 +7714,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -7754,10 +7754,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -7776,7 +7776,7 @@
      {
           "_id" :   "substances/Hcordierite-Mg;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Hcordierite-Mg;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxJ6--_",
+          "_rev" :   "_ZZ-5eOK--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -7936,10 +7936,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -7958,7 +7958,7 @@
      {
           "_id" :   "substances/K+;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "K+;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvFC--_",
+          "_rev" :   "_ZZ-5cTa--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -8027,7 +8027,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -8080,10 +8080,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   43
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   50
                }
           }
      },
@@ -8102,7 +8102,7 @@
      {
           "_id" :   "substances/KCl@;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "KCl@;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvHW--_",
+          "_rev" :   "_ZZ-5cVW--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -8171,7 +8171,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -8211,10 +8211,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   50
                }
           }
      },
@@ -8233,7 +8233,7 @@
      {
           "_id" :   "substances/Kalsilite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Kalsilite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwbu--_",
+          "_rev" :   "_ZZ-5dlG--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -8381,10 +8381,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -8403,7 +8403,7 @@
      {
           "_id" :   "substances/Leucite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Leucite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuweG--_",
+          "_rev" :   "_ZZ-5dna--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -8563,10 +8563,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -8585,7 +8585,7 @@
      {
           "_id" :   "substances/Tilleyite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Tilleyite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxaq--_",
+          "_rev" :   "_ZZ-5edG--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -8733,10 +8733,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -8755,7 +8755,7 @@
      {
           "_id" :   "substances/Tridymite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Tridymite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwru--_",
+          "_rev" :   "_ZZ-5dzK--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -8903,10 +8903,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -8925,7 +8925,7 @@
      {
           "_id" :   "substances/Tschermakite-Mg;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Tschermakite-Mg;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwAa--_",
+          "_rev" :   "_ZZ-5dLW--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -9073,10 +9073,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -9095,7 +9095,7 @@
      {
           "_id" :   "substances/Wairakite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Wairakite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwsy--_",
+          "_rev" :   "_ZZ-5d0W--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -9243,10 +9243,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -9265,7 +9265,7 @@
      {
           "_id" :   "substances/Akermanite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Akermanite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEux_K--_",
+          "_rev" :   "_ZZ-5eEq--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -9413,10 +9413,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -9435,7 +9435,7 @@
      {
           "_id" :   "substances/CaHCO3+;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "CaHCO3+;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvAW--_",
+          "_rev" :   "_ZZ-5cOu--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -9504,7 +9504,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -9557,10 +9557,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   43
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   50
                }
           }
      },
@@ -9579,7 +9579,7 @@
      {
           "_id" :   "substances/CaSiO3@;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "CaSiO3@;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvDu--_",
+          "_rev" :   "_ZZ-5cSW--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -9648,7 +9648,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -9701,10 +9701,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   43
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   50
                }
           }
      },
@@ -9723,7 +9723,7 @@
      {
           "_id" :   "substances/Cceladonite-Mg;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Cceladonite-Mg;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwyu--_",
+          "_rev" :   "_ZZ-5d6---_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -9871,10 +9871,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -9893,7 +9893,7 @@
      {
           "_id" :   "substances/Larnite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Larnite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxMm--_",
+          "_rev" :   "_ZZ-5eQi--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -10053,10 +10053,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -10075,7 +10075,7 @@
      {
           "_id" :   "substances/Margarite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Margarite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuw2q--_",
+          "_rev" :   "_ZZ-5d9y--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -10223,10 +10223,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -10245,7 +10245,7 @@
      {
           "_id" :   "substances/Merwinite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Merwinite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxPO--_",
+          "_rev" :   "_ZZ-5eS2--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -10393,10 +10393,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -10415,7 +10415,7 @@
      {
           "_id" :   "substances/MgCl+;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "MgCl+;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvOi--_",
+          "_rev" :   "_ZZ-5cd2--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -10484,7 +10484,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -10537,10 +10537,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   50
                }
           }
      },
@@ -10559,7 +10559,7 @@
      {
           "_id" :   "substances/Pyrophyllite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Pyrophyllite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEux5K--_",
+          "_rev" :   "_ZZ-5e42--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -10707,10 +10707,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   53
                }
           }
      },
@@ -10729,7 +10729,7 @@
      {
           "_id" :   "substances/Sanidine;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Sanidine;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwnS--_",
+          "_rev" :   "_ZZ-5dvm--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -10877,10 +10877,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -10899,7 +10899,7 @@
      {
           "_id" :   "substances/Al(OH)4-;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "Al(OH)4-;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuu3C--_",
+          "_rev" :   "_ZZ-5cGS---",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -10968,7 +10968,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -11021,10 +11021,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   43
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   50
                }
           }
      },
@@ -11043,7 +11043,7 @@
      {
           "_id" :   "substances/AlOH+2;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "AlOH+2;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuu6q--_",
+          "_rev" :   "_ZZ-5cJe--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -11112,7 +11112,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -11165,10 +11165,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   43
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   50
                }
           }
      },
@@ -11187,7 +11187,7 @@
      {
           "_id" :   "substances/Chloritoid-Mg;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Chloritoid-Mg;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxBy--_",
+          "_rev" :   "_ZZ-5eHC--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -11335,10 +11335,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -11357,7 +11357,7 @@
      {
           "_id" :   "substances/Clinochlore;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Clinochlore;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwK2--_",
+          "_rev" :   "_ZZ-5dUW--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -11505,10 +11505,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -11527,7 +11527,7 @@
      {
           "_id" :   "substances/Coesite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Coesite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwYC--_",
+          "_rev" :   "_ZZ-5dhq--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -11675,10 +11675,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -11697,7 +11697,7 @@
      {
           "_id" :   "substances/MgHSiO3+;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "MgHSiO3+;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvSi--_",
+          "_rev" :   "_ZZ-5chC--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -11766,7 +11766,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -11819,10 +11819,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   50
                }
           }
      },
@@ -11841,7 +11841,7 @@
      {
           "_id" :   "substances/Microcline;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Microcline;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwiG--_",
+          "_rev" :   "_ZZ-5dr---_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -11989,10 +11989,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -12011,7 +12011,7 @@
      {
           "_id" :   "substances/Muscovite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Muscovite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuw4C--_",
+          "_rev" :   "_ZZ-5e_---_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -12159,10 +12159,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -12181,7 +12181,7 @@
      {
           "_id" :   "substances/Nepheline;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Nepheline;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwk6--_",
+          "_rev" :   "_ZZ-5dtO--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -12341,10 +12341,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -12363,7 +12363,7 @@
      {
           "_id" :   "substances/SiO2@;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "SiO2@;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuveu--_",
+          "_rev" :   "_ZZ-5csy--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -12432,7 +12432,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -12472,10 +12472,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -12494,7 +12494,7 @@
      {
           "_id" :   "substances/Amesite-Mg;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Amesite-Mg;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwIS--_",
+          "_rev" :   "_ZZ-5dSC--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -12642,10 +12642,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -12664,7 +12664,7 @@
      {
           "_id" :   "substances/Anorthite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Anorthite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwW2--_",
+          "_rev" :   "_ZZ-5dga--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -12824,10 +12824,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -12846,7 +12846,7 @@
      {
           "_id" :   "substances/CO2@;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "CO2@;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvg6--_",
+          "_rev" :   "_ZZ-5cu6--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -12989,10 +12989,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -13011,7 +13011,7 @@
      {
           "_id" :   "substances/Cristobalite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Cristobalite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwZW--_",
+          "_rev" :   "_ZZ-5diu--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -13159,10 +13159,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -13181,7 +13181,7 @@
      {
           "_id" :   "substances/Diaspore;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Diaspore;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxkG--_",
+          "_rev" :   "_ZZ-5elS--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -13329,10 +13329,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   53
                }
           }
      },
@@ -13351,7 +13351,7 @@
      {
           "_id" :   "substances/NaCO3-;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "NaCO3-;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvYW--_",
+          "_rev" :   "_ZZ-5cmi--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -13420,7 +13420,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -13460,10 +13460,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -13482,7 +13482,7 @@
      {
           "_id" :   "substances/NaHSiO3@;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "NaHSiO3@;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvbi--_",
+          "_rev" :   "_ZZ-5cpm--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -13551,7 +13551,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -13591,10 +13591,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -13613,7 +13613,7 @@
      {
           "_id" :   "substances/OH-;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "OH-;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvqu--_",
+          "_rev" :   "_ZZ-5c4---_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -13682,7 +13682,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -13735,10 +13735,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -13757,7 +13757,7 @@
      {
           "_id" :   "substances/Spurrite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Spurrite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxYi--_",
+          "_rev" :   "_ZZ-5ea2--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -13905,10 +13905,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -13927,7 +13927,7 @@
      {
           "_id" :   "substances/Stilpnomelane-Mg;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Stilpnomelane-Mg;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEux6m--_",
+          "_rev" :   "_ZZ-5e6C--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -14075,10 +14075,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   53
                }
           }
      },
@@ -14097,7 +14097,7 @@
      {
           "_id" :   "substances/Aragonite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Aragonite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwBy--_",
+          "_rev" :   "_ZZ-5dMm--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -14257,10 +14257,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -14279,7 +14279,7 @@
      {
           "_id" :   "substances/CH4;1:SC_GASFLUID;19:AQ17",
           "_key" :   "CH4;1:SC_GASFLUID;19:AQ17",
-          "_rev" :   "_ZXEuvxG--_",
+          "_rev" :   "_ZZ-5c9u--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -14439,10 +14439,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -14461,7 +14461,7 @@
      {
           "_id" :   "substances/CaCl+;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "CaCl+;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuv-S--_",
+          "_rev" :   "_ZZ-5cMi--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -14530,7 +14530,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -14583,10 +14583,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   43
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   50
                }
           }
      },
@@ -14605,7 +14605,7 @@
      {
           "_id" :   "substances/Dolomite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Dolomite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwEa--_",
+          "_rev" :   "_ZZ-5dO2--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -14765,10 +14765,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -14787,7 +14787,7 @@
      {
           "_id" :   "substances/Enstatite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Enstatite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxr2--_",
+          "_rev" :   "_ZZ-5esK--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -14935,10 +14935,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   53
                }
           }
      },
@@ -14957,7 +14957,7 @@
      {
           "_id" :   "substances/Gehlenite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Gehlenite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxIW--_",
+          "_rev" :   "_ZZ-5eN---_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -15117,10 +15117,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -15139,7 +15139,7 @@
      {
           "_id" :   "substances/Osumilite2-Mg;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Osumilite2-Mg;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxTi--_",
+          "_rev" :   "_ZZ-5eWS--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -15287,10 +15287,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -15309,7 +15309,7 @@
      {
           "_id" :   "substances/Periclase;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Periclase;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxoK--_",
+          "_rev" :   "_ZZ-5eoy--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -15457,10 +15457,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   53
                }
           }
      },
@@ -15479,7 +15479,7 @@
      {
           "_id" :   "substances/CO@;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "CO@;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvfu--_",
+          "_rev" :   "_ZZ-5ct2--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -15548,7 +15548,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -15588,10 +15588,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -15610,7 +15610,7 @@
      {
           "_id" :   "substances/Graphite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Graphite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwSG---",
+          "_rev" :   "_ZZ-5dby--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -15758,10 +15758,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -15780,7 +15780,7 @@
      {
           "_id" :   "substances/H2;1:SC_GASFLUID;19:AQ17",
           "_key" :   "H2;1:SC_GASFLUID;19:AQ17",
-          "_rev" :   "_ZXEuvyW--_",
+          "_rev" :   "_ZZ-5d-6---",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -15940,10 +15940,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -15962,7 +15962,7 @@
      {
           "_id" :   "substances/KAlO2@;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "KAlO2@;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvGS--_",
+          "_rev" :   "_ZZ-5cUe--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -16031,7 +16031,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -16071,10 +16071,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   43
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   50
                }
           }
      },
@@ -16093,7 +16093,7 @@
      {
           "_id" :   "substances/KHCO3@;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "KHCO3@;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvL---_",
+          "_rev" :   "_ZZ-5cae--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -16162,7 +16162,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -16202,10 +16202,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   50
                }
           }
      },
@@ -16224,7 +16224,7 @@
      {
           "_id" :   "substances/Kaolinite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Kaolinite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEux22--_",
+          "_rev" :   "_ZZ-5e2i--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -16372,10 +16372,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   53
                }
           }
      },
@@ -16394,7 +16394,7 @@
      {
           "_id" :   "substances/Portlandite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Portlandite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuv2K--_",
+          "_rev" :   "_ZZ-5dCa--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -16527,10 +16527,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -16549,7 +16549,7 @@
      {
           "_id" :   "substances/Pumpellyite-Mg;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Pumpellyite-Mg;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxU6--_",
+          "_rev" :   "_ZZ-5eXa--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -16697,10 +16697,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -16719,7 +16719,7 @@
      {
           "_id" :   "substances/Sylvite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Sylvite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwxW--_",
+          "_rev" :   "_ZZ-5d46--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -16867,10 +16867,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -16889,7 +16889,7 @@
      {
           "_id" :   "substances/Topaz-OH;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Topaz-OH;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxc---_",
+          "_rev" :   "_ZZ-5eeW--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -17037,10 +17037,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -17059,7 +17059,7 @@
      {
           "_id" :   "substances/Tschermak-Ca;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Tschermak-Ca;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxwm--_",
+          "_rev" :   "_ZZ-5ewu--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -17207,10 +17207,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   53
                }
           }
      },
@@ -17229,7 +17229,7 @@
      {
           "_id" :   "substances/Wollastonite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Wollastonite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxz---_",
+          "_rev" :   "_ZZ-5ez---_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -17377,10 +17377,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   53
                }
           }
      },
@@ -17399,7 +17399,7 @@
      {
           "_id" :   "substances/Al(OH)2+;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "Al(OH)2+;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuu0q--_",
+          "_rev" :   "_ZZ-5cES--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -17468,7 +17468,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -17521,10 +17521,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   43
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   50
                }
           }
      },
@@ -17543,7 +17543,7 @@
      {
           "_id" :   "substances/Calcite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Calcite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwDK--_",
+          "_rev" :   "_ZZ-5dNq--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -17703,10 +17703,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -17725,7 +17725,7 @@
      {
           "_id" :   "substances/H2O@;3:SC_AQSOLVENT;19:AQ17",
           "_key" :   "H2O@;3:SC_AQSOLVENT;19:AQ17",
-          "_rev" :   "_ZXEuvta--_",
+          "_rev" :   "_ZZ-5c6C--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -17803,12 +17803,12 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "29" :   "water_eos_hgk84_lvs83_gems"
+                              "31" :   "water_eos_hgk84_reaktoro"
                          }
                     },
                     {
                          "method" :   {
-                              "26" :   "water_diel_jnort91_gems"
+                              "25" :   "water_diel_jnort91_reaktoro"
                          }
                     }
                ],
@@ -17832,10 +17832,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -17854,7 +17854,7 @@
      {
           "_id" :   "substances/HSiO3-;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "HSiO3-;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvdq--_",
+          "_rev" :   "_ZZ-5cry--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -17923,7 +17923,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -17976,10 +17976,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -17998,7 +17998,7 @@
      {
           "_id" :   "substances/Heulandite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Heulandite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwaa--_",
+          "_rev" :   "_ZZ-5dk---_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -18146,10 +18146,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -18168,7 +18168,7 @@
      {
           "_id" :   "substances/Laumontite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Laumontite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwcy--_",
+          "_rev" :   "_ZZ-5dmS--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -18316,10 +18316,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -18338,7 +18338,7 @@
      {
           "_id" :   "substances/Lime;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Lime;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxm2--_",
+          "_rev" :   "_ZZ-5enq--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -18486,10 +18486,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   53
                }
           }
      },
@@ -18508,7 +18508,7 @@
      {
           "_id" :   "substances/Meionite-Ca;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Meionite-Ca;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwfa--_",
+          "_rev" :   "_ZZ-5dom--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -18656,10 +18656,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -18678,7 +18678,7 @@
      {
           "_id" :   "substances/Mg+2;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "Mg+2;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvMC--_",
+          "_rev" :   "_ZZ-5cbq--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -18747,7 +18747,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -18800,10 +18800,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   50
                }
           }
      },
@@ -18822,7 +18822,7 @@
      {
           "_id" :   "substances/MgCl2@;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "MgCl2@;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvP6--_",
+          "_rev" :   "_ZZ-5ce2--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -18891,7 +18891,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -18931,10 +18931,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   50
                }
           }
      },
@@ -18953,7 +18953,7 @@
      {
           "_id" :   "substances/Quartz;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Quartz;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwmG--_",
+          "_rev" :   "_ZZ-5dui--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -19113,10 +19113,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -19135,7 +19135,7 @@
      {
           "_id" :   "substances/Ttalc-Mg;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Ttalc-Mg;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEux9a--_",
+          "_rev" :   "_ZZ-5e8a--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -19283,10 +19283,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   53
                }
           }
      },
@@ -19305,7 +19305,7 @@
      {
           "_id" :   "substances/Al+3;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "Al+3;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuu4O--_",
+          "_rev" :   "_ZZ-5cHW--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -19374,7 +19374,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -19427,10 +19427,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   43
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   50
                }
           }
      },
@@ -19449,7 +19449,7 @@
      {
           "_id" :   "substances/Albite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Albite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwTW--_",
+          "_rev" :   "_ZZ-5dd---_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -19609,10 +19609,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -19631,7 +19631,7 @@
      {
           "_id" :   "substances/CaHSiO3+;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "CaHSiO3+;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvBe--_",
+          "_rev" :   "_ZZ-5cPm--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -19700,7 +19700,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -19753,10 +19753,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   43
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   50
                }
           }
      },
@@ -19775,7 +19775,7 @@
      {
           "_id" :   "substances/Celadonite-Mg;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Celadonite-Mg;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuw0O--_",
+          "_rev" :   "_ZZ-5d7O--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -19923,10 +19923,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -19945,7 +19945,7 @@
      {
           "_id" :   "substances/Chrysotile;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Chrysotile;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEux1i--_",
+          "_rev" :   "_ZZ-5e1W--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -20093,10 +20093,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   53
                }
           }
      },
@@ -20115,7 +20115,7 @@
      {
           "_id" :   "substances/Clinohumite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Clinohumite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxD---_",
+          "_rev" :   "_ZZ-5eIO---",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -20263,10 +20263,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -20285,7 +20285,7 @@
      {
           "_id" :   "substances/Mizzonite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Mizzonite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwja--_",
+          "_rev" :   "_ZZ-5dsO--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -20433,10 +20433,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -20455,7 +20455,7 @@
      {
           "_id" :   "substances/O2;1:SC_GASFLUID;19:AQ17",
           "_key" :   "O2;1:SC_GASFLUID;19:AQ17",
-          "_rev" :   "_ZXEuv02---",
+          "_rev" :   "_ZZ-5dBS--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -20615,10 +20615,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -20637,7 +20637,7 @@
      {
           "_id" :   "substances/Sapphirine4-Mg;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Sapphirine4-Mg;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwOu--_",
+          "_rev" :   "_ZZ-5dXu--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -20785,10 +20785,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -20807,7 +20807,7 @@
      {
           "_id" :   "substances/Analcite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Analcite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwVq--_",
+          "_rev" :   "_ZZ-5dfW--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -20955,10 +20955,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -20977,7 +20977,7 @@
      {
           "_id" :   "substances/Cordierite-Mg;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Cordierite-Mg;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxFe--_",
+          "_rev" :   "_ZZ-5eKm--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -21137,10 +21137,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -21159,7 +21159,7 @@
      {
           "_id" :   "substances/Cummingtonite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Cummingtonite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuv4u--_",
+          "_rev" :   "_ZZ-5dEq--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -21307,10 +21307,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -21329,7 +21329,7 @@
      {
           "_id" :   "substances/MgOH+;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "MgOH+;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvT2--_",
+          "_rev" :   "_ZZ-5ciK--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -21398,7 +21398,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -21451,10 +21451,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   50
                }
           }
      },
@@ -21473,7 +21473,7 @@
      {
           "_id" :   "substances/Na+;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "Na+;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvWC--_",
+          "_rev" :   "_ZZ-5ckW--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -21542,7 +21542,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -21595,10 +21595,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   50
                }
           }
      },
@@ -21617,7 +21617,7 @@
      {
           "_id" :   "substances/NaCl@;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "NaCl@;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvZa--_",
+          "_rev" :   "_ZZ-5cni--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -21686,7 +21686,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -21726,10 +21726,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -21748,7 +21748,7 @@
      {
           "_id" :   "substances/NaOH@;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "NaOH@;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvcm---",
+          "_rev" :   "_ZZ-5cqu--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -21817,7 +21817,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -21857,10 +21857,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -21879,7 +21879,7 @@
      {
           "_id" :   "substances/Sillimanite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Sillimanite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxXW--_",
+          "_rev" :   "_ZZ-5eZm--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -22039,10 +22039,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -22061,7 +22061,7 @@
      {
           "_id" :   "substances/Anthophyll-Mg;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Anthophyll-Mg;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuv3a--_",
+          "_rev" :   "_ZZ-5dDq--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -22209,10 +22209,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -22231,7 +22231,7 @@
      {
           "_id" :   "substances/Boehmite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Boehmite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxgC--_",
+          "_rev" :   "_ZZ-5ehy--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -22372,10 +22372,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   53
                }
           }
      },
@@ -22394,7 +22394,7 @@
      {
           "_id" :   "substances/CH4@;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "CH4@;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvke--_",
+          "_rev" :   "_ZZ-5cyW--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -22537,10 +22537,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -22559,7 +22559,7 @@
      {
           "_id" :   "substances/CO3-2;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "CO3-2;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvi---_",
+          "_rev" :   "_ZZ-5cwC--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -22628,7 +22628,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -22681,10 +22681,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -22703,7 +22703,7 @@
      {
           "_id" :   "substances/Diopside;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Diopside;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxqu--_",
+          "_rev" :   "_ZZ-5erG--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -22851,10 +22851,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   53
                }
           }
      },
@@ -22873,7 +22873,7 @@
      {
           "_id" :   "substances/Eastonite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Eastonite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuw1e--_",
+          "_rev" :   "_ZZ-5d8i--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -23021,10 +23021,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -23043,7 +23043,7 @@
      {
           "_id" :   "substances/Forsterite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Forsterite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxG2--_",
+          "_rev" :   "_ZZ-5eLy--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -23191,10 +23191,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -23213,7 +23213,7 @@
      {
           "_id" :   "substances/Omphacite-Mg;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Omphacite-Mg;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxuO--_",
+          "_rev" :   "_ZZ-5eua--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -23361,10 +23361,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   53
                }
           }
      },
@@ -23383,7 +23383,7 @@
      {
           "_id" :   "substances/Paragonite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Paragonite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuw7C--_",
+          "_rev" :   "_ZZ-5eBO--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -23531,10 +23531,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -23553,7 +23553,7 @@
      {
           "_id" :   "substances/Staurolite-Mg;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Staurolite-Mg;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxZm--_",
+          "_rev" :   "_ZZ-5ecC--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -23701,10 +23701,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -23723,7 +23723,7 @@
      {
           "_id" :   "substances/Stishovite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Stishovite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwqm--_",
+          "_rev" :   "_ZZ-5dy---_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -23871,10 +23871,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -23893,7 +23893,7 @@
      {
           "_id" :   "substances/Ca+2;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "Ca+2;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuu7y--_",
+          "_rev" :   "_ZZ-5cKe--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -23962,7 +23962,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -24015,10 +24015,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   43
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   50
                }
           }
      },
@@ -24037,7 +24037,7 @@
      {
           "_id" :   "substances/CaCl2@;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "CaCl2@;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuv_O--_",
+          "_rev" :   "_ZZ-5cNm--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -24106,7 +24106,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -24146,10 +24146,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   43
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   50
                }
           }
      },
@@ -24168,7 +24168,7 @@
      {
           "_id" :   "substances/Gibbsite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Gibbsite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxlS--_",
+          "_rev" :   "_ZZ-5ema--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -24309,10 +24309,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   53
                }
           }
      },
@@ -24331,7 +24331,7 @@
      {
           "_id" :   "substances/Grossular;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Grossular;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwt6--_",
+          "_rev" :   "_ZZ-5d1a--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -24479,10 +24479,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -24501,7 +24501,7 @@
      {
           "_id" :   "substances/H2@;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "H2@;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvn2--_",
+          "_rev" :   "_ZZ-5c1y--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -24644,10 +24644,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -24666,7 +24666,7 @@
      {
           "_id" :   "substances/KCO3-;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "KCO3-;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvJ6--_",
+          "_rev" :   "_ZZ-5cZa--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -24735,7 +24735,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -24775,10 +24775,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   50
                }
           }
      },
@@ -24797,7 +24797,7 @@
      {
           "_id" :   "substances/Phlogopite-Na;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Phlogopite-Na;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuw9u--_",
+          "_rev" :   "_ZZ-5eDi--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -24945,10 +24945,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -24967,7 +24967,7 @@
      {
           "_id" :   "substances/Prehnite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Prehnite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEux4C--_",
+          "_rev" :   "_ZZ-5e3u--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -25115,10 +25115,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   53
                }
           }
      },
@@ -25137,7 +25137,7 @@
      {
           "_id" :   "substances/Talc-Mg;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Talc-Mg;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEux8G--_",
+          "_rev" :   "_ZZ-5e7O--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -25285,10 +25285,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   53
                }
           }
      },
@@ -25307,7 +25307,7 @@
      {
           "_id" :   "substances/Tremolite-Mg;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Tremolite-Mg;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuw_C--_",
+          "_rev" :   "_ZZ-5dKW--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -25455,10 +25455,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -25477,7 +25477,7 @@
      {
           "_id" :   "substances/Tschermak-Mg;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Tschermak-Mg;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxx2--_",
+          "_rev" :   "_ZZ-5ex6--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -25625,10 +25625,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   53
                }
           }
      },
@@ -25647,7 +25647,7 @@
      {
           "_id" :   "substances/Zoisite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Zoisite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxeu--_",
+          "_rev" :   "_ZZ-5egu--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -25795,10 +25795,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -25817,7 +25817,7 @@
      {
           "_id" :   "substances/HCO3-;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "HCO3-;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvjC--_",
+          "_rev" :   "_ZZ-5cxC--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -25886,7 +25886,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -25939,10 +25939,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -25961,7 +25961,7 @@
      {
           "_id" :   "substances/Halite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Halite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwwK--_",
+          "_rev" :   "_ZZ-5d3u--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -26109,10 +26109,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -26131,7 +26131,7 @@
      {
           "_id" :   "substances/Jadeite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Jadeite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxt---_",
+          "_rev" :   "_ZZ-5etW--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -26279,10 +26279,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   53
                }
           }
      },
@@ -26301,7 +26301,7 @@
      {
           "_id" :   "substances/KOH@;2:SC_AQSOLUTE;19:AQ17",
           "_key" :   "KOH@;2:SC_AQSOLUTE;19:AQ17",
-          "_rev" :   "_ZXEuvIe--_",
+          "_rev" :   "_ZZ-5cYK--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -26370,7 +26370,7 @@
                "TPMethods" :   [
                     {
                          "method" :   {
-                              "2" :   "solute_hkf88_gems"
+                              "3" :   "solute_hkf88_reaktoro"
                          },
                          "eos_hkf_coeffs" :   {
                               "values" :   [
@@ -26410,10 +26410,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   44
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   50
                }
           }
      },
@@ -26432,7 +26432,7 @@
      {
           "_id" :   "substances/Kyanite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Kyanite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxLO--_",
+          "_rev" :   "_ZZ-5ePa--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -26580,10 +26580,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -26602,7 +26602,7 @@
      {
           "_id" :   "substances/Lawsonite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Lawsonite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxOC--_",
+          "_rev" :   "_ZZ-5eRy--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -26750,10 +26750,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -26772,7 +26772,7 @@
      {
           "_id" :   "substances/Magnesite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Magnesite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwHC--_",
+          "_rev" :   "_ZZ-5dRG--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -26920,10 +26920,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
                }
           }
      },
@@ -26942,7 +26942,7 @@
      {
           "_id" :   "substances/Pyrope;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Pyrope;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuwv---_",
+          "_rev" :   "_ZZ-5d2i--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -27090,10 +27090,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   45
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
@@ -27112,7 +27112,7 @@
      {
           "_id" :   "substances/Vesuvianite;0:SC_COMPONENT;19:AQ17",
           "_key" :   "Vesuvianite;0:SC_COMPONENT;19:AQ17",
-          "_rev" :   "_ZXEuxdW--_",
+          "_rev" :   "_ZZ-5efe--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
@@ -27260,10 +27260,10 @@
                "time_stamp" :   {
                     "year" :   2019,
                     "month" :   10,
-                    "day" :   3,
-                    "hour" :   14,
-                    "minute" :   55,
-                    "second" :   46
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   52
                }
           }
      },
