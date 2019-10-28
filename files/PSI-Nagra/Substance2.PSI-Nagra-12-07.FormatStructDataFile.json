@@ -225,7 +225,7 @@ if rintable.properties.formula == 'H+' then
      rintable.properties.TPMethods = nil
      rintable.properties.temp_import = nil
 else
-          if rintable.properties.formula == 'H2O@' or rintable.properties.formula == 'H2O' then if rintable.properties.class_['3'] then if rintable.properties.class_['3'] == 'SC_AQSOLVENT' then rintable.properties.TPMethods[1].method={} rintable.properties.TPMethods[1].method['29']='water_eos_hgk84_lvs83_gems' rintable.properties.TPMethods[2].method={} rintable.properties.TPMethods[2].method['26']='water_diel_jnort91_gems' end end end;
+          if rintable.properties.formula == 'H2O@' or rintable.properties.formula == 'H2O' then if rintable.properties.class_['3'] then if rintable.properties.class_['3'] == 'SC_AQSOLVENT' then rintable.properties.TPMethods[1].method={} rintable.properties.TPMethods[1].method['31']='water_eos_hgk84_reaktoro' rintable.properties.TPMethods[2].method={} rintable.properties.TPMethods[2].method['25']='water_diel_jnort91_reaktoro' end end end;
           if next(rintable.properties.TPMethods[3].method) == nil then table.remove(rintable.properties.TPMethods, 3) end;
           if next(rintable.properties.TPMethods[2].method) == nil then table.remove(rintable.properties.TPMethods, 2) end;
           if next(rintable.properties.TPMethods[1].method) == nil then table.remove(rintable.properties.TPMethods, 1) end;

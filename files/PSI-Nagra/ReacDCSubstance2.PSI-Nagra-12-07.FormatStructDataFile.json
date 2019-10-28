@@ -79,6 +79,12 @@
                "dod.17.val" :   {
                     "field" :   "properties.formula"
                },
+               "dod.4.val" :   {
+                    "field" :   "properties.formula_charge"
+               },
+               "dod.5.val" :   {
+                    "field" :   "properties.mass_per_mole"
+               },
                "dod.7.val.1" :   {
                     "field" :   "properties.sm_gibbs_energy.values"
                },
