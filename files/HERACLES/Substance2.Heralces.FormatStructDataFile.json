@@ -304,7 +304,6 @@ end
 if rintable.properties.TPMethods[1].method['0']=='cp_ft_equation' then
      if rintable.properties.TPMethods[1].m_heat_capacity_ft_coeffs ~= nil then
      t = rintable.properties.temp_import[1].values
-     rintable.properties.temp_import = nil
      rintable.properties.TPMethods[1].limitsTP = {}
      rintable.properties.TPMethods[1].limitsTP.range = true
      rintable.properties.TPMethods[1].limitsTP.lowerT=t[1]
@@ -321,6 +320,7 @@ if rintable.properties.TPMethods[1].method['0']=='cp_ft_equation' then
           end
      end
 end
+rintable.properties.temp_import = nil
 for k,v in pairs(rintable.properties.TPMethods) do
      if v.eos_gas_crit_props ~= nil and v.method['9']=='fluid_prsv' then
 	v.eos_gas_crit_props.names = {'Tcr','Pcr','W','k1'}
