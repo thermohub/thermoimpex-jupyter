@@ -103,7 +103,7 @@
       "doc": "description of query record\n",
       "isException": false,
       "isUnion": false,
-      "to_select": [ "4", "5", "6.1", "1" ],
+      "to_select": [ "4", "5", "6.1", "8", "1" ],
       "to_key": [ "4" ],
        "fields": [
         {
@@ -168,6 +168,13 @@
           "name": "qschema",
           "typeId": "string",
           "doc": "query for schema\n",
+          "required": "req_out"
+        },
+        {
+          "key": 9,
+          "name": "filter_generator",
+          "typeId": "string",
+          "doc": "query generator state\n",
           "required": "req_out"
         }
       ]
