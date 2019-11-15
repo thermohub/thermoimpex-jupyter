@@ -1,0 +1,94 @@
+{
+     "block" :   {
+          "matches" :   {
+               "T1" :   {
+                    "field" :   "properties.title"
+               },
+               "TY" :   {
+                    "field" :   "properties.bibliographic_type",
+                    "convert" :   {
+                         "JOUR" :   "{\"0\": \"ARTICLE\"}",
+                         "BOOK" :   "{\"1\": \"BOOK\"}",
+                         "CHAPTER" :   "{\"4\": \"INBOOK\"}",
+                         "CONF" :   "{\"3\": \"CONFERENCE\"}",
+                         "CHAP" :   "{\"4\": \"INBOOK\"}",
+                         "THES" :   "{\"10\": \"PHDTHESIS\"}",
+                         "RPRT" :   "{\"15\": \"PREPRINT\"}",
+                         "UNPD" :   "{\"13\": \"UNPUBLISHED\"}",
+                         "INPR" :   "{\"15\": \"PREPRINT\"}",
+                         "JFULL" :   "{\"0\": \"ARTICLE\"}"
+                    }
+               },
+               "A1" :   {
+                    "field" :   "properties.author"
+               },
+               "JF" :   {
+                    "field" :   "properties.journal"
+               },
+               "VL" :   {
+                    "field" :   "properties.volume"
+               },
+               "IS" :   {
+                    "field" :   "properties.number"
+               },
+               "Y1" :   {
+                    "field" :   "properties.year",
+                    "script" :   "field = string.gsub(field, '/*', '') field = string.sub(field,1,4)"
+               },
+               "SP" :   {
+                    "field" :   "properties.pages"
+               },
+               "N2" :   {
+                    "field" :   "properties.abstracttext"
+               },
+               "PB" :   {
+                    "field" :   "properties.publisher"
+               },
+               "AD" :   {
+                    "field" :   "properties.address"
+               },
+               "ET" :   {
+                    "field" :   "properties.edition"
+               },
+               "T2" :   {
+                    "field" :   "properties.booktitle"
+               },
+               "UR" :   {
+                    "field" :   "properties.links"
+               },
+               "EP" :   {
+                    "field" :   "properties.pages"
+               },
+               "ED" :   {
+                    "field" :   "properties.editor"
+               },
+               "ID" :   {
+                    "field" :   "properties.shortname"
+               },
+               "TI" :   {
+                    "field" :   "properties.title"
+               },
+               "BT" :   {
+                    "field" :   "properties.booktitle"
+               },
+               "DO" :   {
+                    "field" :   "properties.identifiers"
+               },
+               "KW" :   {
+                    "field" :   "properties.keywords"
+               }
+          },
+          "script" :   "function stripChars(str)\n    local tableAccents = {}\n    tableAccents[\"À\"] = \"A\"\n    tableAccents[\"Á\"] = \"A\"\n    tableAccents[\"Â\"] = \"A\"\n    tableAccents[\"Ã\"] = \"A\"\n    tableAccents[\"Ä\"] = \"A\"\n    tableAccents[\"Å\"] = \"A\"\n    tableAccents[\"Æ\"] = \"AE\"\n    tableAccents[\"Ç\"] = \"C\"\n    tableAccents[\"È\"] = \"E\"\n    tableAccents[\"É\"] = \"E\"\n    tableAccents[\"Ê\"] = \"E\"\n    tableAccents[\"Ë\"] = \"E\"\n    tableAccents[\"Ì\"] = \"I\"\n    tableAccents[\"Í\"] = \"I\"\n    tableAccents[\"Î\"] = \"I\"\n    tableAccents[\"Ï\"] = \"I\"\n    tableAccents[\"Ð\"] = \"D\"\n    tableAccents[\"Ñ\"] = \"N\"\n    tableAccents[\"Ò\"] = \"O\"\n    tableAccents[\"Ó\"] = \"O\"\n    tableAccents[\"Ô\"] = \"O\"\n    tableAccents[\"Õ\"] = \"O\"\n    tableAccents[\"Ö\"] = \"O\"\n    tableAccents[\"Ø\"] = \"O\"\n    tableAccents[\"Ù\"] = \"U\"\n    tableAccents[\"Ú\"] = \"U\"\n    tableAccents[\"Û\"] = \"U\"\n    tableAccents[\"Ü\"] = \"U\"\n    tableAccents[\"Ý\"] = \"Y\"\n    tableAccents[\"Þ\"] = \"P\"\n    tableAccents[\"ß\"] = \"s\"\n    tableAccents[\"à\"] = \"a\"\n    tableAccents[\"á\"] = \"a\"\n    tableAccents[\"â\"] = \"a\"\n    tableAccents[\"ã\"] = \"a\"\n    tableAccents[\"ä\"] = \"a\"\n    tableAccents[\"å\"] = \"a\"\n    tableAccents[\"æ\"] = \"ae\"\n    tableAccents[\"ç\"] = \"c\"\n    tableAccents[\"è\"] = \"e\"\n    tableAccents[\"é\"] = \"e\"\n    tableAccents[\"ê\"] = \"e\"\n    tableAccents[\"ë\"] = \"e\"\n    tableAccents[\"ì\"] = \"i\"\n    tableAccents[\"í\"] = \"i\"\n    tableAccents[\"î\"] = \"i\"\n    tableAccents[\"ï\"] = \"i\"\n    tableAccents[\"ð\"] = \"eth\"\n    tableAccents[\"ñ\"] = \"n\"\n    tableAccents[\"ò\"] = \"o\"\n    tableAccents[\"ó\"] = \"o\"\n    tableAccents[\"ô\"] = \"o\"\n    tableAccents[\"õ\"] = \"o\"\n    tableAccents[\"ö\"] = \"o\"\n    tableAccents[\"ø\"] = \"o\"\n    tableAccents[\"ù\"] = \"u\"\n    tableAccents[\"ú\"] = \"u\"\n    tableAccents[\"û\"] = \"u\"\n    tableAccents[\"ü\"] = \"u\"\n    tableAccents[\"ý\"] = \"y\"\n    tableAccents[\"þ\"] = \"p\"\n    tableAccents[\"ÿ\"] = \"y\"\n\n    local normalisedString = \"\"\n\n    local normalisedString = str:gsub(\"[%z\\1-\\127\\194-\\244][\\128-\\191]*\", tableAccents)\n\n    return normalisedString\nend\n\nif rintable.properties.shortname == \"\" or rintable.properties.shortname == nil then\n    rintable.properties.shortname = rintable.properties.author[1]\nend\nif rintable.properties.bibliographic_type ~= '{\"1\": \"BOOK\"}' then\n    rintable.properties.booktitle = \"\"\nend\nif rintable.properties.bibliographic_type == '{\"1\": \"BOOK\"}' then\n    rintable.properties.booktitle = rintable.properties.title\nend\nsize = 0\nfor k, v in pairs(rintable.properties.author) do\n    size = size + 1\nend\nyear = rintable.properties.year\nif size == 1 then\n    first = rintable.properties.author[1]:gsub(\"[%p%c%s]\", \"\")\n    first = stripChars(first)\n    shrtn = \"[\" .. year .. string.upper(string.sub(first, 1, 3)) .. \"]\"\n    rintable.properties.shortname = shrtn\nend\nif size > 1 then\n    first = rintable.properties.author[1]:gsub(\"[%p%c%s]\", \"\")\n    first = stripChars(first)\n    second = rintable.properties.author[2]:gsub(\"[%p%c%s]\", \"\")\n    second = stripChars(second)\n    shrtn = \"[\" .. year .. string.upper(string.sub(first, 1, 3)) .. \"/\" .. string.upper(string.sub(second, 1, 3)) .. \"]\"\n    rintable.properties.shortname = shrtn\nend\n"
+     },
+     "format" :   {
+          "head_regexp" :   "",
+          "end_regexp" :   "^\\s*ER\\s*-\\s*",
+          "key_regexp" :   "^\\s*([A-Z0-9]{2})\\s*-\\s*",
+          "value_regexp" :   "",
+          "value_next" :   "",
+          "Ndata" :   0
+     },
+     "renderer" :   "RIS",
+     "label" :   "VertexDataSource",
+     "comment" :   "test"
+}
