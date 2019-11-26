@@ -2953,9 +2953,9 @@
       "_label": "substance"
     },
     {
-      "name": "KCO3-           ",
+      "name": "NaCO3-           ",
       "symbol": "NaCO3-",
-      "formula": "KCO3-",
+      "formula": "NaCO3-",
       "formula_charge": -1,
       "aggregate_state": {
         "4": "AS_AQUEOUS"
@@ -3022,7 +3022,7 @@
       },
       "sm_enthalpy": {
         "values": [
-          -905329
+          -901340
         ],
         "units": [
           "J/mol"

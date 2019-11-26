@@ -13359,8 +13359,8 @@
                "sourcetdb" :   {
                     "19" :   "AQ17"
                },
-               "formula" :   "KCO3-",
-               "name" :   "KCO3-           ",
+               "formula" :   "NaCO3-",
+               "name" :   "NaCO3-           ",
                "class_" :   {
                     "2" :   "SC_AQSOLUTE"
                },
@@ -13370,7 +13370,7 @@
                "Tst" :   298.15,
                "Pst" :   100000,
                "formula_charge" :   -1,
-               "mass_per_mole" :   99.107299804688,
+               "mass_per_mole" :   82.9988,
                "sm_volume" :   {
                     "values" :   [
                          -0.15198731422424
@@ -13392,7 +13392,7 @@
                },
                "sm_enthalpy" :   {
                     "values" :   [
-                         -905329
+                         -901340
                     ],
                     "units" :   [
                          "J/mol"
