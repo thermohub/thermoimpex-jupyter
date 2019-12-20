@@ -34,8 +34,8 @@
       "doc": "Datasource vertex document\n",
       "isException": false,
       "isUnion": false,
-      "to_select": [ "5", "6.1", "6.3.0", "6.2" ],
-      "to_key": [ "6.1" ],
+      "to_select": [ "_label", "properties.shortname", "properties.author.0", "properties.year"],
+      "to_key": [ "properties.shortname" ],
       "fields": [
         {
           "key": 1,

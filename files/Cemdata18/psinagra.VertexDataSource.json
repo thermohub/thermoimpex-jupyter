@@ -1,0 +1,27 @@
+[
+     {
+          "_id" :   "datasources/2014THOHUM",
+          "_key" :   "2014THOHUM",
+          "_rev" :   "_ZtOdgWO---",
+          "_type" :   "vertex",
+          "_label" :   "datasource",
+          "properties" :   {
+               "shortname" :   "[2014THO/HUM]",
+               "year" :   "2014",
+               "author" :   [
+                    "Thoenen, Tres",
+                    "Hummel, Wolfgang",
+                    "Berner, Urs R.",
+                    "Curti, Enzo"
+               ],
+               "bibliographic_type" :   {
+                    "0" :   "ARTICLE"
+               },
+               "title" :   "The PSI / Nagra Chemical Thermodynamic Database 12 / 07",
+               "number" :   "14",
+               "pages" :   "417",
+               "booktitle" :   "",
+               "abstracttext" :   "The PSI/Nagra Chemical Thermodynamic Database 12/07 (PSI/Nagra TDB 12/07) is an update of the Nagra/PSI Chemical Thermodynamic Data Base 01/01 (Nagra/PSI TDB 01/01) and was prepared to support the ongoing safety assessments in the framework of the Sachplan Geologische Tiefenlager for the planned repositories for low- and intermediate-level and for high-level radioactive waste in Switzerland. It was carried out during Phase 1 of the Sachplan; starting in 2008, it was completed in 2009 with the implementation of the electronic versions of the PSI/Nagra TDB 12/07. The update is mainly based on the OECD NEA‚Äôs book series on ‚ÄúChemical Thermodynamics‚Äù and has considered the volumes that appeared after publication of the Nagra/PSI TDB 01/01, namely the four volumes concerning the chemical thermodynamics of Ni, Se, Zr, and Th, as well as the update volume on U, Np, Pu, Am and Tc. In addition, thermochemical data for Si compounds and complexes have been the subject of a thorough in-house review. The present report is a supplement to the documentation of the Nagra/PSI TDB 01/01 and replaces the chapters on the data selection for U, Np, Pu, Am, Cm, Tc, Ni, Se, Zr, Th, and Si. All other data contained in the Nagra/PSI TDB 01/01 have been adopted without any change and are not further discussed. Thus, e.g., the data concerning Al, Eu, Pd and Sn that were the subject of extensive in-house reviews for the preparation of the Nagra/PSI TDB 01/01 remain unchanged. As in the NEA review volumes and the Nagra/PSI TDB 01/01, the specific ion interaction theory (SIT) was used to extrapolate experimental data to zero ionic strength. In the documentation of the Nagra/PSI TDB 01/01, however, the SIT coefficients were in most cases not explicitly reported. For the present update, special care was given to the description of how the relevant SIT coefficients were obtained and the selected values are all tabulated. For the application of SIT to environmental systems where the salinity is governed by NaCl, an estimation method was developed to fill the numerous gaps in the set of experimentally determined SIT coefficients in NaCl background media."
+          }
+     }
+]

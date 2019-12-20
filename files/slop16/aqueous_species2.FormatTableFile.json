@@ -17,7 +17,13 @@
                "elemental_chemical_formula" :   {
                     "field" :   "properties.formula",
                     "ignore" :   false,
-                    "script" :   "field = string.gsub(field, '%(([%d%.]*)%)', '%1');"
+                    "script" :   "
+                    	field = string.gsub(field, '%((%d*)0%)',  '@' );
+			field = string.gsub(field, '%(([%d%.]*)%)', '%1');
+                    	field = string.gsub(field, '%+1', '+');
+                    	field = string.gsub(field, '%-1', '-');
+                    	field = string.gsub(field, '%+0', '+');
+"
                },
                "abbreviation" :   {
                     "field" :   "properties.symbol",

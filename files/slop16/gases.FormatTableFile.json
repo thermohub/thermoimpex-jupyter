@@ -9,7 +9,7 @@
                "properties.Pst" :   "1e05"
           },
           "matches" :   {
-               "name" :   {
+               "abbreviation" :   {
                     "field" :   "properties.name",
                     "ignore" :   false,
                     "script" :   ""
@@ -19,7 +19,7 @@
                     "ignore" :   false,
                     "script" :   "field = string.gsub(field, '%(g%)',  '' );"
                },
-               "abbreviation" :   {
+               "name" :   {
                     "field" :   "properties.symbol",
                     "ignore" :   false,
                     "script" :   ""

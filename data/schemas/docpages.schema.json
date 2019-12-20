@@ -32,8 +32,8 @@
       "doc": "description of  Help record ( Markdown or image file )\n",
       "isException": false,
       "isUnion": false,
-      "to_select": [ "4", "5", "6", "1" ],
-      "to_key": [ "4", "5" ],
+      "to_select": [ "4", "5", "1", "6" ],
+      "to_key": [ "name", "ext" ],
       "fields": [
         {
           "key": 1,

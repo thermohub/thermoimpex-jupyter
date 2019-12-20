@@ -1,0 +1,136 @@
+[
+     {
+          "_id" :   "elements/Pm;0:ELEMENT;2:SUPCRT07",
+          "_key" :   "Pm;0:ELEMENT;2:SUPCRT07",
+          "_rev" :   "_ZXZoZFu---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Pm",
+               "isotope_mass" :   0,
+               "name" :   "Promethium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         147
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         24.3
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   61,
+               "sourcetdb" :   {
+                    "21" :   "SUPCRT07"
+               },
+               "formula" :   "Pm",
+               "substance" :   "---",
+               "comment" :   "Promethium",
+               "datasources" :   [
+                    ""
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   3,
+                    "hour" :   15,
+                    "minute" :   15,
+                    "second" :   43
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Tc;0:ELEMENT;2:SUPCRT07",
+          "_key" :   "Tc;0:ELEMENT;2:SUPCRT07",
+          "_rev" :   "_ZXZoZPO---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Tc",
+               "isotope_mass" :   0,
+               "name" :   "Technetium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         97.9069976806641
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         32.5
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         8.19999980926514
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         24.8999996185303
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   43,
+               "sourcetdb" :   {
+                    "21" :   "SUPCRT07"
+               },
+               "formula" :   "Tc",
+               "substance" :   "---",
+               "comment" :   "Technetium NEA",
+               "datasources" :   [
+                    "PSI-Nagra-12-07"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   3,
+                    "hour" :   15,
+                    "minute" :   15,
+                    "second" :   43
+               }
+          }
+     }
+]

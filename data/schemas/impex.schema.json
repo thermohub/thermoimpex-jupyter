@@ -879,8 +879,8 @@
       "name": "ImpexFormat",
       "doc": "description of import\/export format record\n",
       "isException": false,
-      "to_select": [ "4", "5", "6", "7" ],
-      "to_key": [ "4" ],
+      "to_select": [ "name", "impexschema", "schema", "comment", "direction" ],
+      "to_key": ["name", "impexschema", "schema", "direction" ],
       "isUnion": false,
       "fields": [
         {

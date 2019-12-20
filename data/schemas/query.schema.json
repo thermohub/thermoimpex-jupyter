@@ -103,8 +103,8 @@
       "doc": "description of query record\n",
       "isException": false,
       "isUnion": false,
-      "to_select": [ "4", "5", "6.1", "8", "1" ],
-      "to_key": [ "4" ],
+      "to_select": [ "4", "5", "8", "1", "6.1" ],
+      "to_key": [ "qschema","name", "condition.style" ],
        "fields": [
         {
           "key": 1,
