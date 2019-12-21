@@ -2,30 +2,33 @@
      "block" :   {
           "defaults" :   {
                "properties.sourcetdb" :   "{\"23\" :   \"SLOP16\"}",
-               "properties.TPMethods" :   "[{\"method\":{\"0\" :   \"solute_hkf88_gems\"}, \"eos_hkf_coeffs\": { \"values\" : [0,0,0,0,0,0,0], \"names\" : [\"a1\",\"a2\",\"a3\",\"a4\",\"c1\",\"c2\",\"wref\"], \"units\" : [\"cal/(mol*bar)\",\"cal/mol\",\"(cal*K)/mol\",\"cal/(mol*K)\",\"(cal*K)/mol\",\"cal/mol\"] } }]",
+               "properties.TPMethods" :   "[{\"method\":{\"3\" :   \"solute_hkf88_reaktoro\"}, \"eos_hkf_coeffs\": { \"values\" : [0,0,0,0,0,0,0], \"names\" : [\"a1\",\"a2\",\"a3\",\"a4\",\"c1\",\"c2\",\"wref\"], \"units\" : [\"cal/(mol*bar)\",\"cal/mol\",\"(cal*K)/mol\",\"cal/(mol*K)\",\"(cal*K)/mol\",\"cal/mol\"] } }]",
                "properties.aggregate_state" :   "{\"4\" :   \"AS_AQUEOUS\"}",
                "properties.class_" :   "{\"2\" :   \"SC_AQSOLUTE\"}",
                "properties.Tst" :   "298.15",
                "properties.Pst" :   "1e05"
           },
           "matches" :   {
-               "name" :   {
+               "abbreviation" :   {
                     "field" :   "properties.name",
                     "ignore" :   false,
                     "script" :   ""
                },
-               "chemical_formula" :   {
+               "elemental_chemical_formula" :   {
                     "field" :   "properties.formula",
                     "ignore" :   false,
-                    "script" :   "field = string.gsub(field, '%((%d*)0%)',  '@' );
+                    "script" :   "
+                    field = string.gsub(field, '%(([%d%.]*)%)', '%1');
+                    field = string.gsub(field, '%((%d*)0%)',  '@' );
                     field = string.gsub(field, '%(%-[^%d]*(%d+)[^%d]*%)',  '-%1' );
                     field = string.gsub(field, '%(%+[^%d]*(%d+)[^%d]*%)',  '+%1' );
                     field = string.gsub(field, '%(([%-%+])%)', '%1');
                     field = string.gsub(field, '%(([%d%.]*)%)', '+%1');
                     field = string.gsub(field, '%+1', '+');
-                    field = string.gsub(field, '%-1', '-')"
+                    field = string.gsub(field, '%-1', '-');
+                    field = string.gsub(field, '%+0', '+');"
                },
-               "abbreviation" :   {
+               "name" :   {
                     "field" :   "properties.symbol",
                     "ignore" :   false,
                     "script" :   ""

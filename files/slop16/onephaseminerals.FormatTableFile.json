@@ -10,7 +10,7 @@
                "properties.Pst" :   "1e05"
           },
           "matches" :   {
-               "name" :   {
+               "abbreviation" :   {
                     "field" :   "properties.name",
                     "ignore" :   false,
                     "script" :   ""
@@ -20,7 +20,7 @@
                     "ignore" :   false,
                     "script" :   "field = string.gsub(field, '%*([%d%.]*)H2O', '(H2O)%1');"
                },
-               "abbreviation" :   {
+               "name" :   {
                     "field" :   "properties.symbol",
                     "ignore" :   false,
                     "script" :   ""
