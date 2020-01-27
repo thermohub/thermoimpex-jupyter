@@ -1,0 +1,4269 @@
+[
+  {
+    "key": [
+      {
+        "fx": 0,
+        "fl": 4,
+        "fv": "a"
+      },
+      {
+        "fx": 1,
+        "fl": 8,
+        "fv": "AlSi"
+      },
+      {
+        "fx": 2,
+        "fl": 16,
+        "fv": "AlHSiO3+2"
+      },
+      {
+        "fx": 3,
+        "fl": 4,
+        "fv": "cnu"
+      }
+    ],
+    "dod": [
+      {
+        "id": 600,
+        "label": "REcMod",
+        "dot": -9,
+        "dN": 1,
+        "dM": 6,
+        "dyn": false,
+        "val": [
+          "K",
+          "3",
+          "C",
+          "N",
+          " ",
+          " "
+        ]
+      },
+      {
+        "id": 601,
+        "label": "RE_set",
+        "dot": -9,
+        "dN": 1,
+        "dM": 6,
+        "dyn": false,
+        "val": [
+          "S",
+          "j",
+          "j",
+          "b",
+          "C",
+          " "
+        ]
+      },
+      {
+        "id": 602,
+        "label": "RE_arr",
+        "dot": -9,
+        "dN": 1,
+        "dM": 8,
+        "dyn": false,
+        "val": [
+          "+",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      },
+      {
+        "id": 603,
+        "label": "rCdat",
+        "dot": 9,
+        "dN": 1,
+        "dM": 1,
+        "dyn": false,
+        "val": [
+          "19 Dec 01"
+        ]
+      },
+      {
+        "id": 604,
+        "label": "Zz_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 1,
+        "dyn": false,
+        "val": [
+          2
+        ]
+      },
+      {
+        "id": 605,
+        "label": "M0_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 1,
+        "dyn": false,
+        "val": [
+          104.073188781738
+        ]
+      },
+      {
+        "id": 606,
+        "label": "logKr",
+        "dot": -6,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          25118864.3150958,
+          7.4,
+          0.1
+        ]
+      },
+      {
+        "id": 607,
+        "label": "G0r",
+        "dot": -6,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          -42239.5110289106,
+          -1540545.52102891,
+          null
+        ]
+      },
+      {
+        "id": 608,
+        "label": "H0r",
+        "dot": -6,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          41000,
+          -1634310,
+          null
+        ]
+      },
+      {
+        "id": 609,
+        "label": "S0r",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          279.186676025391,
+          -24.9903087615967,
+          null
+        ]
+      },
+      {
+        "id": 610,
+        "label": "Cp0r",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          0,
+          -215.896301269531,
+          null
+        ]
+      },
+      {
+        "id": 611,
+        "label": "V0r",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          4.07170009613037,
+          0,
+          null
+        ]
+      },
+      {
+        "id": 612,
+        "label": "NisoX",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "id": 613,
+        "label": "PrTr_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 2,
+        "dyn": false,
+        "val": [
+          1,
+          25
+        ]
+      },
+      {
+        "id": 614,
+        "label": "BetAl_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 2,
+        "dyn": false,
+        "val": [
+          null,
+          null
+        ]
+      },
+      {
+        "id": 615,
+        "label": "ab_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 2,
+        "dyn": false,
+        "val": [
+          4,
+          null
+        ]
+      },
+      {
+        "id": 617,
+        "label": "RDname",
+        "dot": 0,
+        "dN": 1,
+        "dM": 72,
+        "dyn": false,
+        "val": "AlHSiO3+2 (+ H2O = AlSiO(OH)3+2)"
+      },
+      {
+        "id": 618,
+        "label": "RDform",
+        "dot": 0,
+        "dN": 1,
+        "dM": 72,
+        "dyn": false,
+        "val": "AlHSiO3+2"
+      },
+      {
+        "id": 619,
+        "label": "REsDC",
+        "dot": 32,
+        "dN": 3,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "a   Al      Al+3            anp ",
+          "a   Si      HSiO3-          bnp ",
+          "a   AlSi    AlHSiO3+2       cnu "
+        ]
+      },
+      {
+        "id": 620,
+        "label": "REmDC",
+        "dot": -9,
+        "dN": 3,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "d",
+          "d",
+          "n"
+        ]
+      },
+      {
+        "id": 621,
+        "label": "RE_dim",
+        "dot": -1,
+        "dN": 1,
+        "dM": 8,
+        "dyn": false,
+        "val": [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      },
+      {
+        "id": 625,
+        "label": "SC_DC",
+        "dot": -6,
+        "dN": 3,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          -1,
+          -1,
+          1
+        ]
+      },
+      {
+        "id": 626,
+        "label": "TCint_",
+        "dot": -5,
+        "dN": 2,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          0,
+          150
+        ]
+      },
+      {
+        "id": 627,
+        "label": "P_int",
+        "dot": -5,
+        "dN": 2,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          0,
+          100
+        ]
+      },
+      {
+        "id": 628,
+        "label": "adCpT",
+        "dot": -5,
+        "dN": 12,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 629,
+        "label": "adHKF",
+        "dot": -5,
+        "dN": 8,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 630,
+        "label": "adVTP",
+        "dot": -5,
+        "dN": 5,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 631,
+        "label": "a_dST",
+        "dot": -5,
+        "dN": 12,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 632,
+        "label": "aiLgKr",
+        "dot": -5,
+        "dN": 12,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          14.5828475952148,
+          0,
+          -2141.56616210938,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": 633,
+        "label": "logKTP",
+        "dot": -5,
+        "dN": 0,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 634,
+        "label": "rSDref",
+        "dot": 32,
+        "dN": 2,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "AUG20_GEMS:2001:dat:         ",
+          "NOV_GEMS:2012:dat:"
+        ]
+      },
+      {
+        "id": 635,
+        "label": "rSDval",
+        "dot": 24,
+        "dN": 2,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "logK      ",
+          "H0r"
+        ]
+      }
+    ],
+    "mtime": "Sat, 01 Mar 2014 09:19:26 +0100"
+  },
+  {
+    "key": [
+      {
+        "fx": 0,
+        "fl": 4,
+        "fv": "a"
+      },
+      {
+        "fx": 1,
+        "fl": 8,
+        "fv": "Fe+3"
+      },
+      {
+        "fx": 2,
+        "fl": 16,
+        "fv": "Fe2(OH)2+4"
+      },
+      {
+        "fx": 3,
+        "fl": 4,
+        "fv": "cnp"
+      }
+    ],
+    "dod": [
+      {
+        "id": 600,
+        "label": "REcMod",
+        "dot": -9,
+        "dN": 1,
+        "dM": 6,
+        "dyn": false,
+        "val": [
+          "K",
+          "3",
+          "C",
+          " ",
+          " ",
+          " "
+        ]
+      },
+      {
+        "id": 601,
+        "label": "RE_set",
+        "dot": -9,
+        "dN": 1,
+        "dM": 6,
+        "dyn": false,
+        "val": [
+          "S",
+          "j",
+          "j",
+          "b",
+          "C",
+          " "
+        ]
+      },
+      {
+        "id": 602,
+        "label": "RE_arr",
+        "dot": -9,
+        "dN": 1,
+        "dM": 8,
+        "dyn": false,
+        "val": [
+          "+",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      },
+      {
+        "id": 603,
+        "label": "rCdat",
+        "dot": 9,
+        "dN": 1,
+        "dM": 1,
+        "dyn": false,
+        "val": [
+          "27 Jan 97"
+        ]
+      },
+      {
+        "id": 604,
+        "label": "Zz_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 1,
+        "dyn": false,
+        "val": [
+          4
+        ]
+      },
+      {
+        "id": 605,
+        "label": "M0_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 1,
+        "dyn": false,
+        "val": [
+          145.704696655273
+        ]
+      },
+      {
+        "id": 606,
+        "label": "logKr",
+        "dot": -6,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          0.00112201845430196,
+          -2.95,
+          null
+        ]
+      },
+      {
+        "id": 607,
+        "label": "G0r",
+        "dot": -6,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          16838.7239912549,
+          -491897.276008745,
+          null
+        ]
+      },
+      {
+        "id": 608,
+        "label": "H0r",
+        "dot": -6,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          56486,
+          -614440,
+          null
+        ]
+      },
+      {
+        "id": 609,
+        "label": "S0r",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          132.977615356445,
+          -281.974365234375,
+          null
+        ]
+      },
+      {
+        "id": 610,
+        "label": "Cp0r",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          0,
+          -2.70649719238281,
+          null
+        ]
+      },
+      {
+        "id": 611,
+        "label": "V0r",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          3.94437003135681,
+          0,
+          null
+        ]
+      },
+      {
+        "id": 612,
+        "label": "NisoX",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "id": 613,
+        "label": "PrTr_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 2,
+        "dyn": false,
+        "val": [
+          1,
+          25
+        ]
+      },
+      {
+        "id": 614,
+        "label": "BetAl_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 2,
+        "dyn": false,
+        "val": [
+          null,
+          null
+        ]
+      },
+      {
+        "id": 615,
+        "label": "ab_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 2,
+        "dyn": false,
+        "val": [
+          4,
+          null
+        ]
+      },
+      {
+        "id": 617,
+        "label": "RDname",
+        "dot": 0,
+        "dN": 1,
+        "dM": 72,
+        "dyn": false,
+        "val": "Fe2(OH)2+4"
+      },
+      {
+        "id": 618,
+        "label": "RDform",
+        "dot": 0,
+        "dN": 1,
+        "dM": 72,
+        "dyn": false,
+        "val": "Fe|3|2(OH)2+4"
+      },
+      {
+        "id": 619,
+        "label": "REsDC",
+        "dot": 32,
+        "dN": 4,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "a   Fe+3    Fe+3            bnp ",
+          "a   w_      H+              anp ",
+          "a   w_      H2O@            anp ",
+          "a   Fe+3    Fe2(OH)2+4      cnp "
+        ]
+      },
+      {
+        "id": 620,
+        "label": "REmDC",
+        "dot": -9,
+        "dN": 4,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "d",
+          "d",
+          "d",
+          "n"
+        ]
+      },
+      {
+        "id": 621,
+        "label": "RE_dim",
+        "dot": -1,
+        "dN": 1,
+        "dM": 8,
+        "dyn": false,
+        "val": [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "id": 625,
+        "label": "SC_DC",
+        "dot": -6,
+        "dN": 4,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          -2,
+          2,
+          -2,
+          1
+        ]
+      },
+      {
+        "id": 626,
+        "label": "TCint_",
+        "dot": -5,
+        "dN": 2,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          0,
+          150
+        ]
+      },
+      {
+        "id": 627,
+        "label": "P_int",
+        "dot": -5,
+        "dN": 2,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          0,
+          100
+        ]
+      },
+      {
+        "id": 628,
+        "label": "adCpT",
+        "dot": -5,
+        "dN": 12,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 629,
+        "label": "adHKF",
+        "dot": -5,
+        "dN": 8,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 630,
+        "label": "adVTP",
+        "dot": -5,
+        "dN": 5,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 631,
+        "label": "a_dST",
+        "dot": -5,
+        "dN": 12,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 632,
+        "label": "aiLgKr",
+        "dot": -5,
+        "dN": 12,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          6.94586277008057,
+          0,
+          -2950.45141601562,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": 633,
+        "label": "logKTP",
+        "dot": -5,
+        "dN": 0,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 634,
+        "label": "rSDref",
+        "dot": 32,
+        "dN": 1,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "AUG20_GEMS:2001:dat:"
+        ]
+      },
+      {
+        "id": 635,
+        "label": "rSDval",
+        "dot": 24,
+        "dN": 1,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "logK, H0r  "
+        ]
+      }
+    ],
+    "mtime": "Sat, 01 Mar 2014 09:19:26 +0100"
+  },
+  {
+    "key": [
+      {
+        "fx": 0,
+        "fl": 4,
+        "fv": "a"
+      },
+      {
+        "fx": 1,
+        "fl": 8,
+        "fv": "Fe+3"
+      },
+      {
+        "fx": 2,
+        "fl": 16,
+        "fv": "Fe3(OH)4+5"
+      },
+      {
+        "fx": 3,
+        "fl": 4,
+        "fv": "cnp"
+      }
+    ],
+    "dod": [
+      {
+        "id": 600,
+        "label": "REcMod",
+        "dot": -9,
+        "dN": 1,
+        "dM": 6,
+        "dyn": false,
+        "val": [
+          "K",
+          "3",
+          "C",
+          " ",
+          " ",
+          " "
+        ]
+      },
+      {
+        "id": 601,
+        "label": "RE_set",
+        "dot": -9,
+        "dN": 1,
+        "dM": 6,
+        "dyn": false,
+        "val": [
+          "S",
+          "j",
+          "j",
+          "b",
+          "C",
+          " "
+        ]
+      },
+      {
+        "id": 602,
+        "label": "RE_arr",
+        "dot": -9,
+        "dN": 1,
+        "dM": 8,
+        "dyn": false,
+        "val": [
+          "+",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      },
+      {
+        "id": 603,
+        "label": "rCdat",
+        "dot": 9,
+        "dN": 1,
+        "dM": 1,
+        "dyn": false,
+        "val": [
+          "27 Jan 97"
+        ]
+      },
+      {
+        "id": 604,
+        "label": "Zz_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 1,
+        "dyn": false,
+        "val": [
+          5
+        ]
+      },
+      {
+        "id": 605,
+        "label": "M0_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 1,
+        "dyn": false,
+        "val": [
+          235.564407348633
+        ]
+      },
+      {
+        "id": 606,
+        "label": "logKr",
+        "dot": -6,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          5.01187233627274e-07,
+          -6.3,
+          null
+        ]
+      },
+      {
+        "id": 607,
+        "label": "G0r",
+        "dot": -6,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          35960.6647948834,
+          -964326.335205117,
+          null
+        ]
+      },
+      {
+        "id": 608,
+        "label": "H0r",
+        "dot": -6,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          59834,
+          -1232436,
+          null
+        ]
+      },
+      {
+        "id": 609,
+        "label": "S0r",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          80.0715560913086,
+          -472.433410644531,
+          null
+        ]
+      },
+      {
+        "id": 610,
+        "label": "Cp0r",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          0,
+          71.30078125,
+          null
+        ]
+      },
+      {
+        "id": 611,
+        "label": "V0r",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          4.10972023010254,
+          0,
+          null
+        ]
+      },
+      {
+        "id": 612,
+        "label": "NisoX",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "id": 613,
+        "label": "PrTr_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 2,
+        "dyn": false,
+        "val": [
+          1,
+          25
+        ]
+      },
+      {
+        "id": 614,
+        "label": "BetAl_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 2,
+        "dyn": false,
+        "val": [
+          null,
+          null
+        ]
+      },
+      {
+        "id": 615,
+        "label": "ab_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 2,
+        "dyn": false,
+        "val": [
+          9,
+          null
+        ]
+      },
+      {
+        "id": 617,
+        "label": "RDname",
+        "dot": 0,
+        "dN": 1,
+        "dM": 72,
+        "dyn": false,
+        "val": "Fe3(OH)4+5"
+      },
+      {
+        "id": 618,
+        "label": "RDform",
+        "dot": 0,
+        "dN": 1,
+        "dM": 72,
+        "dyn": false,
+        "val": "Fe|3|3(OH)4+5"
+      },
+      {
+        "id": 619,
+        "label": "REsDC",
+        "dot": 32,
+        "dN": 4,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "a   Fe+3    Fe+3            bnp ",
+          "a   w_      H+              anp ",
+          "a   w_      H2O@            anp ",
+          "a   Fe+3    Fe3(OH)4+5      cnp "
+        ]
+      },
+      {
+        "id": 620,
+        "label": "REmDC",
+        "dot": -9,
+        "dN": 4,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "d",
+          "d",
+          "d",
+          "n"
+        ]
+      },
+      {
+        "id": 621,
+        "label": "RE_dim",
+        "dot": -1,
+        "dN": 1,
+        "dM": 8,
+        "dyn": false,
+        "val": [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "id": 625,
+        "label": "SC_DC",
+        "dot": -6,
+        "dN": 4,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          -3,
+          4,
+          -4,
+          1
+        ]
+      },
+      {
+        "id": 626,
+        "label": "TCint_",
+        "dot": -5,
+        "dN": 2,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          0,
+          150
+        ]
+      },
+      {
+        "id": 627,
+        "label": "P_int",
+        "dot": -5,
+        "dN": 2,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          0,
+          100
+        ]
+      },
+      {
+        "id": 628,
+        "label": "adCpT",
+        "dot": -5,
+        "dN": 12,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 629,
+        "label": "adHKF",
+        "dot": -5,
+        "dN": 8,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 630,
+        "label": "adVTP",
+        "dot": -5,
+        "dN": 5,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 631,
+        "label": "a_dST",
+        "dot": -5,
+        "dN": 12,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 632,
+        "label": "aiLgKr",
+        "dot": -5,
+        "dN": 12,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          4.18240356445312,
+          0,
+          -3125.32861328125,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": 633,
+        "label": "logKTP",
+        "dot": -5,
+        "dN": 0,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 634,
+        "label": "rSDref",
+        "dot": 32,
+        "dN": 1,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "AUG20_GEMS:2001:dat:"
+        ]
+      },
+      {
+        "id": 635,
+        "label": "rSDval",
+        "dot": 24,
+        "dN": 1,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "logK, H0r  "
+        ]
+      }
+    ],
+    "mtime": "Sat, 01 Mar 2014 09:19:26 +0100"
+  },
+  {
+    "key": [
+      {
+        "fx": 0,
+        "fl": 4,
+        "fv": "a"
+      },
+      {
+        "fx": 1,
+        "fl": 8,
+        "fv": "Fe+3Si"
+      },
+      {
+        "fx": 2,
+        "fl": 16,
+        "fv": "FeHSiO3+2"
+      },
+      {
+        "fx": 3,
+        "fl": 4,
+        "fv": "cnp"
+      }
+    ],
+    "dod": [
+      {
+        "id": 600,
+        "label": "REcMod",
+        "dot": -9,
+        "dN": 1,
+        "dM": 6,
+        "dyn": false,
+        "val": [
+          "K",
+          "3",
+          "C",
+          " ",
+          " ",
+          " "
+        ]
+      },
+      {
+        "id": 601,
+        "label": "RE_set",
+        "dot": -9,
+        "dN": 1,
+        "dM": 6,
+        "dyn": false,
+        "val": [
+          "S",
+          "j",
+          "j",
+          "b",
+          "C",
+          " "
+        ]
+      },
+      {
+        "id": 602,
+        "label": "RE_arr",
+        "dot": -9,
+        "dN": 1,
+        "dM": 8,
+        "dyn": false,
+        "val": [
+          "+",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      },
+      {
+        "id": 603,
+        "label": "rCdat",
+        "dot": 9,
+        "dN": 1,
+        "dM": 1,
+        "dyn": false,
+        "val": [
+          "19 Dec 01"
+        ]
+      },
+      {
+        "id": 604,
+        "label": "Zz_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 1,
+        "dyn": false,
+        "val": [
+          2
+        ]
+      },
+      {
+        "id": 605,
+        "label": "M0_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 1,
+        "dyn": false,
+        "val": [
+          132.936645507812
+        ]
+      },
+      {
+        "id": 606,
+        "label": "logKr",
+        "dot": -6,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          5011872336.27271,
+          9.7,
+          0.3
+        ]
+      },
+      {
+        "id": 607,
+        "label": "G0r",
+        "dot": -6,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          -55368.0077000585,
+          -1087151.01770006,
+          null
+        ]
+      },
+      {
+        "id": 608,
+        "label": "H0r",
+        "dot": -6,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          0,
+          -1194262,
+          null
+        ]
+      },
+      {
+        "id": 609,
+        "label": "S0r",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          185.705200195312,
+          -70.7737884521484,
+          null
+        ]
+      },
+      {
+        "id": 610,
+        "label": "Cp0r",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          0,
+          -163.913726806641,
+          null
+        ]
+      },
+      {
+        "id": 611,
+        "label": "V0r",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          3.32644009590149,
+          0,
+          null
+        ]
+      },
+      {
+        "id": 612,
+        "label": "NisoX",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "id": 613,
+        "label": "PrTr_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 2,
+        "dyn": false,
+        "val": [
+          1,
+          25
+        ]
+      },
+      {
+        "id": 614,
+        "label": "BetAl_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 2,
+        "dyn": false,
+        "val": [
+          null,
+          null
+        ]
+      },
+      {
+        "id": 615,
+        "label": "ab_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 2,
+        "dyn": false,
+        "val": [
+          4,
+          null
+        ]
+      },
+      {
+        "id": 617,
+        "label": "RDname",
+        "dot": 0,
+        "dN": 1,
+        "dM": 72,
+        "dyn": false,
+        "val": "FeHSiO3+2 ( + H2O = FeSiO(OH)3+2 )"
+      },
+      {
+        "id": 618,
+        "label": "RDform",
+        "dot": 0,
+        "dN": 1,
+        "dM": 72,
+        "dyn": false,
+        "val": "Fe|3|HSiO3+2"
+      },
+      {
+        "id": 619,
+        "label": "REsDC",
+        "dot": 32,
+        "dN": 3,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "a   Fe+3    Fe+3            bnp ",
+          "a   Si      HSiO3-          bnp",
+          "a   Fe+3Si  FeHSiO3+2       cnp"
+        ]
+      },
+      {
+        "id": 620,
+        "label": "REmDC",
+        "dot": -9,
+        "dN": 3,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "d",
+          "d",
+          "n"
+        ]
+      },
+      {
+        "id": 621,
+        "label": "RE_dim",
+        "dot": -1,
+        "dN": 1,
+        "dM": 8,
+        "dyn": false,
+        "val": [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "id": 625,
+        "label": "SC_DC",
+        "dot": -6,
+        "dN": 3,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          -1,
+          -1,
+          1
+        ]
+      },
+      {
+        "id": 626,
+        "label": "TCint_",
+        "dot": -5,
+        "dN": 2,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          0,
+          50
+        ]
+      },
+      {
+        "id": 627,
+        "label": "P_int",
+        "dot": -5,
+        "dN": 2,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          0,
+          100
+        ]
+      },
+      {
+        "id": 628,
+        "label": "adCpT",
+        "dot": -5,
+        "dN": 12,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 629,
+        "label": "adHKF",
+        "dot": -5,
+        "dN": 8,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 630,
+        "label": "adVTP",
+        "dot": -5,
+        "dN": 5,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 631,
+        "label": "a_dST",
+        "dot": -5,
+        "dN": 12,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 632,
+        "label": "aiLgKr",
+        "dot": -5,
+        "dN": 12,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          9.69999980926514,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": 633,
+        "label": "logKTP",
+        "dot": -5,
+        "dN": 0,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 634,
+        "label": "rSDref",
+        "dot": 32,
+        "dN": 1,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "AUG20_GEMS:2001:dat:         "
+        ]
+      },
+      {
+        "id": 635,
+        "label": "rSDval",
+        "dot": 24,
+        "dN": 1,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "logK      "
+        ]
+      }
+    ],
+    "mtime": "Sat, 01 Mar 2014 09:19:26 +0100"
+  },
+  {
+    "key": [
+      {
+        "fx": 0,
+        "fl": 4,
+        "fv": "a"
+      },
+      {
+        "fx": 1,
+        "fl": 8,
+        "fv": "MgSi"
+      },
+      {
+        "fx": 2,
+        "fl": 16,
+        "fv": "MgSiO3@"
+      },
+      {
+        "fx": 3,
+        "fl": 4,
+        "fv": "cnp"
+      }
+    ],
+    "dod": [
+      {
+        "id": 600,
+        "label": "REcMod",
+        "dot": -9,
+        "dN": 1,
+        "dM": 6,
+        "dyn": false,
+        "val": [
+          "K",
+          "3",
+          "C",
+          " ",
+          " ",
+          " "
+        ]
+      },
+      {
+        "id": 601,
+        "label": "RE_set",
+        "dot": -9,
+        "dN": 1,
+        "dM": 6,
+        "dyn": false,
+        "val": [
+          "S",
+          "j",
+          "j",
+          "b",
+          "C",
+          " "
+        ]
+      },
+      {
+        "id": 602,
+        "label": "RE_arr",
+        "dot": -9,
+        "dN": 1,
+        "dM": 8,
+        "dyn": false,
+        "val": [
+          "+",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      },
+      {
+        "id": 603,
+        "label": "rCdat",
+        "dot": 9,
+        "dN": 1,
+        "dM": 1,
+        "dyn": false,
+        "val": [
+          "19 Dec 01"
+        ]
+      },
+      {
+        "id": 604,
+        "label": "Zz_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 1,
+        "dyn": false,
+        "val": [
+          0
+        ]
+      },
+      {
+        "id": 605,
+        "label": "M0_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 1,
+        "dyn": false,
+        "val": [
+          100.388702392578
+        ]
+      },
+      {
+        "id": 606,
+        "label": "logKr",
+        "dot": -6,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          501187.233627274,
+          5.7,
+          0.2
+        ]
+      },
+      {
+        "id": 607,
+        "label": "G0r",
+        "dot": -6,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          -32535.8395763231,
+          -1425030.74698051,
+          null
+        ]
+      },
+      {
+        "id": 608,
+        "label": "H0r",
+        "dot": -6,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          0,
+          -1554541,
+          null
+        ]
+      },
+      {
+        "id": 609,
+        "label": "S0r",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          109.12574005127,
+          -75.1722717285156,
+          null
+        ]
+      },
+      {
+        "id": 610,
+        "label": "Cp0r",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          0,
+          -264.785552978516,
+          null
+        ]
+      },
+      {
+        "id": 611,
+        "label": "V0r",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          2.20137000083923,
+          0,
+          null
+        ]
+      },
+      {
+        "id": 612,
+        "label": "NisoX",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "id": 613,
+        "label": "PrTr_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 2,
+        "dyn": false,
+        "val": [
+          1,
+          25
+        ]
+      },
+      {
+        "id": 614,
+        "label": "BetAl_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 2,
+        "dyn": false,
+        "val": [
+          null,
+          null
+        ]
+      },
+      {
+        "id": 615,
+        "label": "ab_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 2,
+        "dyn": false,
+        "val": [
+          -1,
+          null
+        ]
+      },
+      {
+        "id": 617,
+        "label": "RDname",
+        "dot": 0,
+        "dN": 1,
+        "dM": 72,
+        "dyn": false,
+        "val": "MgSiO3  aq ( + H2O = MgSiO2(OH)2  aq )"
+      },
+      {
+        "id": 618,
+        "label": "RDform",
+        "dot": 0,
+        "dN": 1,
+        "dM": 72,
+        "dyn": false,
+        "val": "MgSiO3@"
+      },
+      {
+        "id": 619,
+        "label": "REsDC",
+        "dot": 32,
+        "dN": 3,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "a   Si      SiO3-2          bnp ",
+          "a   Mg      Mg+2            anp ",
+          "a   MgSi    MgSiO3@         cnp "
+        ]
+      },
+      {
+        "id": 620,
+        "label": "REmDC",
+        "dot": -9,
+        "dN": 3,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "r",
+          "d",
+          "n"
+        ]
+      },
+      {
+        "id": 621,
+        "label": "RE_dim",
+        "dot": -1,
+        "dN": 1,
+        "dM": 8,
+        "dyn": false,
+        "val": [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "id": 625,
+        "label": "SC_DC",
+        "dot": -6,
+        "dN": 3,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          -1,
+          -1,
+          1
+        ]
+      },
+      {
+        "id": 626,
+        "label": "TCint_",
+        "dot": -5,
+        "dN": 2,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          0,
+          50
+        ]
+      },
+      {
+        "id": 627,
+        "label": "P_int",
+        "dot": -5,
+        "dN": 2,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          0,
+          100
+        ]
+      },
+      {
+        "id": 628,
+        "label": "adCpT",
+        "dot": -5,
+        "dN": 12,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 629,
+        "label": "adHKF",
+        "dot": -5,
+        "dN": 8,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 630,
+        "label": "adVTP",
+        "dot": -5,
+        "dN": 5,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 631,
+        "label": "a_dST",
+        "dot": -5,
+        "dN": 12,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 632,
+        "label": "aiLgKr",
+        "dot": -5,
+        "dN": 12,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          5.69999980926514,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": 633,
+        "label": "logKTP",
+        "dot": -5,
+        "dN": 0,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 634,
+        "label": "rSDref",
+        "dot": 32,
+        "dN": 1,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "AUG20_GEMS:2001:dat:         "
+        ]
+      },
+      {
+        "id": 635,
+        "label": "rSDval",
+        "dot": 24,
+        "dN": 1,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "logK      "
+        ]
+      }
+    ],
+    "mtime": "Sat, 01 Mar 2014 09:19:26 +0100"
+  },
+  {
+    "key": [
+      {
+        "fx": 0,
+        "fl": 4,
+        "fv": "a"
+      },
+      {
+        "fx": 1,
+        "fl": 8,
+        "fv": "wCN"
+      },
+      {
+        "fx": 2,
+        "fl": 16,
+        "fv": "CN-"
+      },
+      {
+        "fx": 3,
+        "fl": 4,
+        "fv": "cnu"
+      }
+    ],
+    "dod": [
+      {
+        "id": 600,
+        "label": "REcMod",
+        "dot": -9,
+        "dN": 1,
+        "dM": 6,
+        "dyn": false,
+        "val": [
+          "K",
+          "3",
+          "C",
+          " ",
+          " ",
+          " "
+        ]
+      },
+      {
+        "id": 601,
+        "label": "RE_set",
+        "dot": -9,
+        "dN": 1,
+        "dM": 6,
+        "dyn": false,
+        "val": [
+          "S",
+          "j",
+          "j",
+          "b",
+          "C",
+          " "
+        ]
+      },
+      {
+        "id": 602,
+        "label": "RE_arr",
+        "dot": -9,
+        "dN": 1,
+        "dM": 8,
+        "dyn": false,
+        "val": [
+          "+",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      },
+      {
+        "id": 603,
+        "label": "rCdat",
+        "dot": 9,
+        "dN": 1,
+        "dM": 1,
+        "dyn": false,
+        "val": [
+          "31/08/09"
+        ]
+      },
+      {
+        "id": 604,
+        "label": "Zz_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 1,
+        "dyn": false,
+        "val": [
+          -1
+        ]
+      },
+      {
+        "id": 605,
+        "label": "M0_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 1,
+        "dyn": false,
+        "val": [
+          26.0174999237061
+        ]
+      },
+      {
+        "id": 606,
+        "label": "logKr",
+        "dot": -6,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          6.16595001861481e-10,
+          -9.21,
+          null
+        ]
+      },
+      {
+        "id": 607,
+        "label": "G0r",
+        "dot": -6,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          52571.0671049009,
+          166941.067104901,
+          null
+        ]
+      },
+      {
+        "id": 608,
+        "label": "H0r",
+        "dot": -6,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          43600,
+          147350,
+          null
+        ]
+      },
+      {
+        "id": 609,
+        "label": "S0r",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          -30.0891056060791,
+          101.210899353027,
+          null
+        ]
+      },
+      {
+        "id": 610,
+        "label": "Cp0r",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          0,
+          0,
+          null
+        ]
+      },
+      {
+        "id": 611,
+        "label": "V0r",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          0,
+          0,
+          null
+        ]
+      },
+      {
+        "id": 612,
+        "label": "NisoX",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "id": 613,
+        "label": "PrTr_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 2,
+        "dyn": false,
+        "val": [
+          1,
+          25
+        ]
+      },
+      {
+        "id": 614,
+        "label": "BetAl_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 2,
+        "dyn": false,
+        "val": [
+          null,
+          null
+        ]
+      },
+      {
+        "id": 615,
+        "label": "ab_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 2,
+        "dyn": false,
+        "val": [
+          4,
+          null
+        ]
+      },
+      {
+        "id": 617,
+        "label": "RDname",
+        "dot": 0,
+        "dN": 1,
+        "dM": 72,
+        "dyn": false,
+        "val": "CN-             "
+      },
+      {
+        "id": 618,
+        "label": "RDform",
+        "dot": 0,
+        "dN": 1,
+        "dM": 72,
+        "dyn": false,
+        "val": "C|-1|N|0|-"
+      },
+      {
+        "id": 619,
+        "label": "REsDC",
+        "dot": 32,
+        "dN": 3,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "a   wCN     HCN@            anu ",
+          "a   w_      H+              anp ",
+          "a   wCN     CN-             cnu "
+        ]
+      },
+      {
+        "id": 620,
+        "label": "REmDC",
+        "dot": -9,
+        "dN": 3,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "d",
+          "d",
+          "n"
+        ]
+      },
+      {
+        "id": 621,
+        "label": "RE_dim",
+        "dot": -1,
+        "dN": 1,
+        "dM": 8,
+        "dyn": false,
+        "val": [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "id": 625,
+        "label": "SC_DC",
+        "dot": -6,
+        "dN": 3,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          -1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": 626,
+        "label": "TCint_",
+        "dot": -5,
+        "dN": 2,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          0,
+          150
+        ]
+      },
+      {
+        "id": 627,
+        "label": "P_int",
+        "dot": -5,
+        "dN": 2,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          0,
+          100
+        ]
+      },
+      {
+        "id": 628,
+        "label": "adCpT",
+        "dot": -5,
+        "dN": 12,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 629,
+        "label": "adHKF",
+        "dot": -5,
+        "dN": 8,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 630,
+        "label": "adVTP",
+        "dot": -5,
+        "dN": 5,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 631,
+        "label": "a_dST",
+        "dot": -5,
+        "dN": 12,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 632,
+        "label": "aiLgKr",
+        "dot": -5,
+        "dN": 12,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          -1.57165396213531,
+          0,
+          -2277.37280273438,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": 633,
+        "label": "logKTP",
+        "dot": -5,
+        "dN": 0,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 634,
+        "label": "rSDref",
+        "dot": 32,
+        "dN": 1,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "JULY_GEMS:2009:dat:"
+        ]
+      },
+      {
+        "id": 635,
+        "label": "rSDval",
+        "dot": 24,
+        "dN": 1,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "logK, dHr"
+        ]
+      }
+    ],
+    "mtime": "Sat, 01 Mar 2014 09:19:26 +0100"
+  },
+  {
+    "key": [
+      {
+        "fx": 0,
+        "fl": 4,
+        "fv": "a"
+      },
+      {
+        "fx": 1,
+        "fl": 8,
+        "fv": "wS-2"
+      },
+      {
+        "fx": 2,
+        "fl": 16,
+        "fv": "S-2"
+      },
+      {
+        "fx": 3,
+        "fl": 4,
+        "fv": "cnp"
+      }
+    ],
+    "dod": [
+      {
+        "id": 600,
+        "label": "REcMod",
+        "dot": -9,
+        "dN": 1,
+        "dM": 6,
+        "dyn": false,
+        "val": [
+          "K",
+          "3",
+          "C",
+          " ",
+          " ",
+          " "
+        ]
+      },
+      {
+        "id": 601,
+        "label": "RE_set",
+        "dot": -9,
+        "dN": 1,
+        "dM": 6,
+        "dyn": false,
+        "val": [
+          "S",
+          "j",
+          "j",
+          "b",
+          "C",
+          " "
+        ]
+      },
+      {
+        "id": 602,
+        "label": "RE_arr",
+        "dot": -9,
+        "dN": 1,
+        "dM": 8,
+        "dyn": false,
+        "val": [
+          "+",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      },
+      {
+        "id": 603,
+        "label": "rCdat",
+        "dot": 9,
+        "dN": 1,
+        "dM": 1,
+        "dyn": false,
+        "val": [
+          "18/04/02"
+        ]
+      },
+      {
+        "id": 604,
+        "label": "Zz_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 1,
+        "dyn": false,
+        "val": [
+          -2
+        ]
+      },
+      {
+        "id": 605,
+        "label": "M0_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 1,
+        "dyn": false,
+        "val": [
+          32.0670013427734
+        ]
+      },
+      {
+        "id": 606,
+        "label": "logKr",
+        "dot": -6,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          1e-19,
+          -19,
+          null
+        ]
+      },
+      {
+        "id": 607,
+        "label": "G0r",
+        "dot": -6,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          108452.798587744,
+          120421.798587744,
+          null
+        ]
+      },
+      {
+        "id": 608,
+        "label": "H0r",
+        "dot": -6,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          0,
+          -16217,
+          null
+        ]
+      },
+      {
+        "id": 609,
+        "label": "S0r",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          -363.752471923828,
+          -295.553466796875,
+          null
+        ]
+      },
+      {
+        "id": 610,
+        "label": "Cp0r",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          0,
+          -93.927001953125,
+          null
+        ]
+      },
+      {
+        "id": 611,
+        "label": "V0r",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          -2.02095007896423,
+          0,
+          null
+        ]
+      },
+      {
+        "id": 612,
+        "label": "NisoX",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "id": 613,
+        "label": "PrTr_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 2,
+        "dyn": false,
+        "val": [
+          1,
+          25
+        ]
+      },
+      {
+        "id": 614,
+        "label": "BetAl_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 2,
+        "dyn": false,
+        "val": [
+          null,
+          null
+        ]
+      },
+      {
+        "id": 615,
+        "label": "ab_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 2,
+        "dyn": false,
+        "val": [
+          4,
+          null
+        ]
+      },
+      {
+        "id": 617,
+        "label": "RDname",
+        "dot": 0,
+        "dN": 1,
+        "dM": 72,
+        "dyn": false,
+        "val": "S-2             "
+      },
+      {
+        "id": 618,
+        "label": "RDform",
+        "dot": 0,
+        "dN": 1,
+        "dM": 72,
+        "dyn": false,
+        "val": "S|-2|-2"
+      },
+      {
+        "id": 619,
+        "label": "REsDC",
+        "dot": 32,
+        "dN": 3,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "a   wS-2    HS-             bnp ",
+          "a   w_      H+              anp ",
+          "a   wS-2    S-2             cnp "
+        ]
+      },
+      {
+        "id": 620,
+        "label": "REmDC",
+        "dot": -9,
+        "dN": 3,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "d",
+          "d",
+          "n"
+        ]
+      },
+      {
+        "id": 621,
+        "label": "RE_dim",
+        "dot": -1,
+        "dN": 1,
+        "dM": 8,
+        "dyn": false,
+        "val": [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "id": 625,
+        "label": "SC_DC",
+        "dot": -6,
+        "dN": 3,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          -1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": 626,
+        "label": "TCint_",
+        "dot": -5,
+        "dN": 2,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          0,
+          50
+        ]
+      },
+      {
+        "id": 627,
+        "label": "P_int",
+        "dot": -5,
+        "dN": 2,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          0,
+          100
+        ]
+      },
+      {
+        "id": 628,
+        "label": "adCpT",
+        "dot": -5,
+        "dN": 12,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 629,
+        "label": "adHKF",
+        "dot": -5,
+        "dN": 8,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 630,
+        "label": "adVTP",
+        "dot": -5,
+        "dN": 5,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 631,
+        "label": "a_dST",
+        "dot": -5,
+        "dN": 12,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 632,
+        "label": "aiLgKr",
+        "dot": -5,
+        "dN": 12,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          -19,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": 633,
+        "label": "logKTP",
+        "dot": -5,
+        "dN": 0,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 634,
+        "label": "rSDref",
+        "dot": 32,
+        "dN": 1,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "AUG20_GEMS:2001:dat:            "
+        ]
+      },
+      {
+        "id": 635,
+        "label": "rSDval",
+        "dot": 24,
+        "dN": 1,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "logK                   "
+        ]
+      }
+    ],
+    "mtime": "Sat, 01 Mar 2014 09:19:26 +0100"
+  },
+  {
+    "key": [
+      {
+        "fx": 0,
+        "fl": 4,
+        "fv": "s"
+      },
+      {
+        "fx": 1,
+        "fl": 8,
+        "fv": "FeCO"
+      },
+      {
+        "fx": 2,
+        "fl": 16,
+        "fv": "FeCO3(pr)"
+      },
+      {
+        "fx": 3,
+        "fl": 4,
+        "fv": "dnp"
+      }
+    ],
+    "dod": [
+      {
+        "id": 600,
+        "label": "REcMod",
+        "dot": -9,
+        "dN": 1,
+        "dM": 6,
+        "dyn": false,
+        "val": [
+          "K",
+          "3",
+          "C",
+          " ",
+          " ",
+          " "
+        ]
+      },
+      {
+        "id": 601,
+        "label": "RE_set",
+        "dot": -9,
+        "dN": 1,
+        "dM": 6,
+        "dyn": false,
+        "val": [
+          "O",
+          "j",
+          "j",
+          "b",
+          "C",
+          " "
+        ]
+      },
+      {
+        "id": 602,
+        "label": "RE_arr",
+        "dot": -9,
+        "dN": 1,
+        "dM": 8,
+        "dyn": false,
+        "val": [
+          "+",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      },
+      {
+        "id": 603,
+        "label": "rCdat",
+        "dot": 9,
+        "dN": 1,
+        "dM": 1,
+        "dyn": false,
+        "val": [
+          "11 Jan 96"
+        ]
+      },
+      {
+        "id": 604,
+        "label": "Zz_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 1,
+        "dyn": false,
+        "val": [
+          0
+        ]
+      },
+      {
+        "id": 605,
+        "label": "M0_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 1,
+        "dyn": false,
+        "val": [
+          115.85400390625
+        ]
+      },
+      {
+        "id": 606,
+        "label": "logKr",
+        "dot": -6,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          1.32175207235072,
+          0.12115,
+          null
+        ]
+      },
+      {
+        "id": 607,
+        "label": "G0r",
+        "dot": -6,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          -691.529292047638,
+          -679135.529292048,
+          null
+        ]
+      },
+      {
+        "id": 608,
+        "label": "H0r",
+        "dot": -6,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          14901,
+          -767345.004267406,
+          null
+        ]
+      },
+      {
+        "id": 609,
+        "label": "S0r",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          52.2975997924805,
+          44.8925933837891,
+          null
+        ]
+      },
+      {
+        "id": 610,
+        "label": "Cp0r",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          120,
+          52.7135200500488,
+          null
+        ]
+      },
+      {
+        "id": 611,
+        "label": "V0r",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          -0.157042995095253,
+          0,
+          null
+        ]
+      },
+      {
+        "id": 612,
+        "label": "NisoX",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "id": 613,
+        "label": "PrTr_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 2,
+        "dyn": false,
+        "val": [
+          1,
+          25
+        ]
+      },
+      {
+        "id": 614,
+        "label": "BetAl_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 2,
+        "dyn": false,
+        "val": [
+          null,
+          null
+        ]
+      },
+      {
+        "id": 615,
+        "label": "ab_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 2,
+        "dyn": false,
+        "val": [
+          null,
+          null
+        ]
+      },
+      {
+        "id": 617,
+        "label": "RDname",
+        "dot": 0,
+        "dN": 1,
+        "dM": 72,
+        "dyn": false,
+        "val": "FeCO3(pr)  precipitate"
+      },
+      {
+        "id": 618,
+        "label": "RDform",
+        "dot": 0,
+        "dN": 1,
+        "dM": 72,
+        "dyn": false,
+        "val": "FeCO3"
+      },
+      {
+        "id": 619,
+        "label": "REsDC",
+        "dot": 32,
+        "dN": 4,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "a   Fe+2    Fe+2            anp ",
+          "a   wC+4    HCO3-           anp ",
+          "a   w_      H+              anp ",
+          "s   FeCO    FeCO3(pr)       dnp "
+        ]
+      },
+      {
+        "id": 620,
+        "label": "REmDC",
+        "dot": -9,
+        "dN": 4,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "d",
+          "d",
+          "d",
+          "n"
+        ]
+      },
+      {
+        "id": 621,
+        "label": "RE_dim",
+        "dot": -1,
+        "dN": 1,
+        "dM": 8,
+        "dyn": false,
+        "val": [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "id": 625,
+        "label": "SC_DC",
+        "dot": -6,
+        "dN": 4,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          -1,
+          -1,
+          1,
+          1
+        ]
+      },
+      {
+        "id": 626,
+        "label": "TCint_",
+        "dot": -5,
+        "dN": 2,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          0,
+          150
+        ]
+      },
+      {
+        "id": 627,
+        "label": "P_int",
+        "dot": -5,
+        "dN": 2,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          0,
+          100
+        ]
+      },
+      {
+        "id": 628,
+        "label": "adCpT",
+        "dot": -5,
+        "dN": 12,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 629,
+        "label": "adHKF",
+        "dot": -5,
+        "dN": 8,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 630,
+        "label": "adVTP",
+        "dot": -5,
+        "dN": 5,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 631,
+        "label": "a_dST",
+        "dot": -5,
+        "dN": 12,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 632,
+        "label": "aiLgKr",
+        "dot": -5,
+        "dN": 12,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          -39.248851776123,
+          0,
+          1090.47509765625,
+          6.26799869537354,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": 633,
+        "label": "logKTP",
+        "dot": -5,
+        "dN": 0,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 634,
+        "label": "rSDref",
+        "dot": 32,
+        "dN": 1,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "AUG20_GEMS:2001:dat:        "
+        ]
+      },
+      {
+        "id": 635,
+        "label": "rSDval",
+        "dot": 24,
+        "dN": 1,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "logK*, H0r*, Cp0r*      "
+        ]
+      }
+    ],
+    "mtime": "Sat, 01 Mar 2014 09:20:25 +0100"
+  },
+  {
+    "key": [
+      {
+        "fx": 0,
+        "fl": 4,
+        "fv": "s"
+      },
+      {
+        "fx": 1,
+        "fl": 8,
+        "fv": "FeOH"
+      },
+      {
+        "fx": 2,
+        "fl": 16,
+        "fv": "Fe(OH)3(am)"
+      },
+      {
+        "fx": 3,
+        "fl": 4,
+        "fv": "dnp"
+      }
+    ],
+    "dod": [
+      {
+        "id": 600,
+        "label": "REcMod",
+        "dot": -9,
+        "dN": 1,
+        "dM": 6,
+        "dyn": false,
+        "val": [
+          "K",
+          "3",
+          "C",
+          " ",
+          " ",
+          " "
+        ]
+      },
+      {
+        "id": 601,
+        "label": "RE_set",
+        "dot": -9,
+        "dN": 1,
+        "dM": 6,
+        "dyn": false,
+        "val": [
+          "O",
+          "j",
+          "j",
+          "b",
+          "C",
+          " "
+        ]
+      },
+      {
+        "id": 602,
+        "label": "RE_arr",
+        "dot": -9,
+        "dN": 1,
+        "dM": 8,
+        "dyn": false,
+        "val": [
+          "+",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      },
+      {
+        "id": 603,
+        "label": "rCdat",
+        "dot": 9,
+        "dN": 1,
+        "dM": 1,
+        "dyn": false,
+        "val": [
+          "11 Jan 96"
+        ]
+      },
+      {
+        "id": 604,
+        "label": "Zz_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 1,
+        "dyn": false,
+        "val": [
+          0
+        ]
+      },
+      {
+        "id": 605,
+        "label": "M0_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 1,
+        "dyn": false,
+        "val": [
+          106.867050170898
+        ]
+      },
+      {
+        "id": 606,
+        "label": "logKr",
+        "dot": -6,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          1e-05,
+          -5,
+          null
+        ]
+      },
+      {
+        "id": 607,
+        "label": "G0r",
+        "dot": -6,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          28540.2101546693,
+          -700193.789845331,
+          null
+        ]
+      },
+      {
+        "id": 608,
+        "label": "H0r",
+        "dot": -6,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          0,
+          -907225,
+          null
+        ]
+      },
+      {
+        "id": 609,
+        "label": "S0r",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          -95.7243347167969,
+          -163.354339599609,
+          null
+        ]
+      },
+      {
+        "id": 610,
+        "label": "Cp0r",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          0,
+          149.367797851562,
+          null
+        ]
+      },
+      {
+        "id": 611,
+        "label": "V0r",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          -1.64148998260498,
+          0,
+          null
+        ]
+      },
+      {
+        "id": 612,
+        "label": "NisoX",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "id": 613,
+        "label": "PrTr_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 2,
+        "dyn": false,
+        "val": [
+          1,
+          25
+        ]
+      },
+      {
+        "id": 614,
+        "label": "BetAl_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 2,
+        "dyn": false,
+        "val": [
+          null,
+          null
+        ]
+      },
+      {
+        "id": 615,
+        "label": "ab_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 2,
+        "dyn": false,
+        "val": [
+          null,
+          null
+        ]
+      },
+      {
+        "id": 617,
+        "label": "RDname",
+        "dot": 0,
+        "dN": 1,
+        "dM": 72,
+        "dyn": false,
+        "val": "Fe(OH)3(am)  amorphous"
+      },
+      {
+        "id": 618,
+        "label": "RDform",
+        "dot": 0,
+        "dN": 1,
+        "dM": 72,
+        "dyn": false,
+        "val": "Fe|3|(OH)3"
+      },
+      {
+        "id": 619,
+        "label": "REsDC",
+        "dot": 32,
+        "dN": 4,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "a   Fe+3    Fe+3            bnp ",
+          "a   w_      H+              anp ",
+          "a   w_      H2O@            anp ",
+          "s   FeOH    Fe(OH)3(am)     dnp "
+        ]
+      },
+      {
+        "id": 620,
+        "label": "REmDC",
+        "dot": -9,
+        "dN": 4,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "d",
+          "d",
+          "d",
+          "n"
+        ]
+      },
+      {
+        "id": 621,
+        "label": "RE_dim",
+        "dot": -1,
+        "dN": 1,
+        "dM": 8,
+        "dyn": false,
+        "val": [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "id": 625,
+        "label": "SC_DC",
+        "dot": -6,
+        "dN": 4,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          -1,
+          3,
+          -3,
+          1
+        ]
+      },
+      {
+        "id": 626,
+        "label": "TCint_",
+        "dot": -5,
+        "dN": 2,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          0,
+          150
+        ]
+      },
+      {
+        "id": 627,
+        "label": "P_int",
+        "dot": -5,
+        "dN": 2,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          0,
+          1000
+        ]
+      },
+      {
+        "id": 628,
+        "label": "adCpT",
+        "dot": -5,
+        "dN": 12,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 629,
+        "label": "adHKF",
+        "dot": -5,
+        "dN": 8,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 630,
+        "label": "adVTP",
+        "dot": -5,
+        "dN": 5,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 631,
+        "label": "a_dST",
+        "dot": -5,
+        "dN": 12,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 632,
+        "label": "aiLgKr",
+        "dot": -5,
+        "dN": 12,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          -5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": 633,
+        "label": "logKTP",
+        "dot": -5,
+        "dN": 0,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 634,
+        "label": "rSDref",
+        "dot": 32,
+        "dN": 1,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "AUG20_GEMS:2001:dat:        "
+        ]
+      },
+      {
+        "id": 635,
+        "label": "rSDval",
+        "dot": 24,
+        "dN": 1,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "logK      "
+        ]
+      }
+    ],
+    "mtime": "Sat, 01 Mar 2014 09:20:25 +0100"
+  },
+  {
+    "key": [
+      {
+        "fx": 0,
+        "fl": 4,
+        "fv": "s"
+      },
+      {
+        "fx": 1,
+        "fl": 8,
+        "fv": "FeOH"
+      },
+      {
+        "fx": 2,
+        "fl": 16,
+        "fv": "Fe(OH)3(mic)"
+      },
+      {
+        "fx": 3,
+        "fl": 4,
+        "fv": "dnp"
+      }
+    ],
+    "dod": [
+      {
+        "id": 600,
+        "label": "REcMod",
+        "dot": -9,
+        "dN": 1,
+        "dM": 6,
+        "dyn": false,
+        "val": [
+          "K",
+          "3",
+          "C",
+          " ",
+          " ",
+          " "
+        ]
+      },
+      {
+        "id": 601,
+        "label": "RE_set",
+        "dot": -9,
+        "dN": 1,
+        "dM": 6,
+        "dyn": false,
+        "val": [
+          "O",
+          "j",
+          "j",
+          "b",
+          "C",
+          " "
+        ]
+      },
+      {
+        "id": 602,
+        "label": "RE_arr",
+        "dot": -9,
+        "dN": 1,
+        "dM": 8,
+        "dyn": false,
+        "val": [
+          "+",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-",
+          "-"
+        ]
+      },
+      {
+        "id": 603,
+        "label": "rCdat",
+        "dot": 9,
+        "dN": 1,
+        "dM": 1,
+        "dyn": false,
+        "val": [
+          "11 Jan 96"
+        ]
+      },
+      {
+        "id": 604,
+        "label": "Zz_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 1,
+        "dyn": false,
+        "val": [
+          0
+        ]
+      },
+      {
+        "id": 605,
+        "label": "M0_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 1,
+        "dyn": false,
+        "val": [
+          106.867050170898
+        ]
+      },
+      {
+        "id": 606,
+        "label": "logKr",
+        "dot": -6,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          0.000999999999999999,
+          -3,
+          null
+        ]
+      },
+      {
+        "id": 607,
+        "label": "G0r",
+        "dot": -6,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          17124.1260928016,
+          -711609.873907198,
+          null
+        ]
+      },
+      {
+        "id": 608,
+        "label": "H0r",
+        "dot": -6,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          0,
+          -907225,
+          null
+        ]
+      },
+      {
+        "id": 609,
+        "label": "S0r",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          -57.4346008300781,
+          -125.064598083496,
+          null
+        ]
+      },
+      {
+        "id": 610,
+        "label": "Cp0r",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          0,
+          149.367797851562,
+          null
+        ]
+      },
+      {
+        "id": 611,
+        "label": "V0r",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          -1.64148998260498,
+          0,
+          null
+        ]
+      },
+      {
+        "id": 612,
+        "label": "NisoX",
+        "dot": -5,
+        "dN": 1,
+        "dM": 3,
+        "dyn": false,
+        "val": [
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "id": 613,
+        "label": "PrTr_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 2,
+        "dyn": false,
+        "val": [
+          1,
+          25
+        ]
+      },
+      {
+        "id": 614,
+        "label": "BetAl_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 2,
+        "dyn": false,
+        "val": [
+          null,
+          null
+        ]
+      },
+      {
+        "id": 615,
+        "label": "ab_",
+        "dot": -5,
+        "dN": 1,
+        "dM": 2,
+        "dyn": false,
+        "val": [
+          null,
+          null
+        ]
+      },
+      {
+        "id": 617,
+        "label": "RDname",
+        "dot": 0,
+        "dN": 1,
+        "dM": 72,
+        "dyn": false,
+        "val": "Fe(OH)3(mic)  microcrystalline"
+      },
+      {
+        "id": 618,
+        "label": "RDform",
+        "dot": 0,
+        "dN": 1,
+        "dM": 72,
+        "dyn": false,
+        "val": "Fe|3|(OH)3"
+      },
+      {
+        "id": 619,
+        "label": "REsDC",
+        "dot": 32,
+        "dN": 4,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "a   Fe+3    Fe+3            bnp ",
+          "a   w_      H+              anp ",
+          "a   w_      H2O@            anp ",
+          "s   FeOH    Fe(OH)3(mic)    dnp "
+        ]
+      },
+      {
+        "id": 620,
+        "label": "REmDC",
+        "dot": -9,
+        "dN": 4,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "d",
+          "d",
+          "d",
+          "n"
+        ]
+      },
+      {
+        "id": 621,
+        "label": "RE_dim",
+        "dot": -1,
+        "dN": 1,
+        "dM": 8,
+        "dyn": false,
+        "val": [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "id": 625,
+        "label": "SC_DC",
+        "dot": -6,
+        "dN": 4,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          -1,
+          3,
+          -3,
+          1
+        ]
+      },
+      {
+        "id": 626,
+        "label": "TCint_",
+        "dot": -5,
+        "dN": 2,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          0,
+          50
+        ]
+      },
+      {
+        "id": 627,
+        "label": "P_int",
+        "dot": -5,
+        "dN": 2,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          0,
+          100
+        ]
+      },
+      {
+        "id": 628,
+        "label": "adCpT",
+        "dot": -5,
+        "dN": 12,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 629,
+        "label": "adHKF",
+        "dot": -5,
+        "dN": 8,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 630,
+        "label": "adVTP",
+        "dot": -5,
+        "dN": 5,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 631,
+        "label": "a_dST",
+        "dot": -5,
+        "dN": 12,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 632,
+        "label": "aiLgKr",
+        "dot": -5,
+        "dN": 12,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          -3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "id": 633,
+        "label": "logKTP",
+        "dot": -5,
+        "dN": 0,
+        "dM": 0,
+        "dyn": true,
+        "val": null
+      },
+      {
+        "id": 634,
+        "label": "rSDref",
+        "dot": 32,
+        "dN": 1,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "AUG20_GEMS:2001:dat:        "
+        ]
+      },
+      {
+        "id": 635,
+        "label": "rSDval",
+        "dot": 24,
+        "dN": 1,
+        "dM": 1,
+        "dyn": true,
+        "val": [
+          "logK      "
+        ]
+      }
+    ],
+    "mtime": "Sat, 01 Mar 2014 09:20:25 +0100"
+  }
+]
