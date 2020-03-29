@@ -24,7 +24,7 @@
                          "v" :   "{\"5\" :   \"OTHER_EC\"}"
                     }
                },
-               "key.2.fv" :   {
+               "dod.10.fv" :   {
                     "field" :   "properties.name"
                },
                "dod.0.label" :   {
@@ -57,8 +57,8 @@
                "dod.5.val" :   {
                     "field" :   "properties.isotope_abundance.values"
                },
-               "dod.properties.val" :   {
-                    "field" :   "properties.valences"
+               "dod.6.val" :   {
+                    "field" :   "properties.valences.values"
                },
                "dod.7.val" :   {
                     "field" :   "properties.number"
