@@ -1,0 +1,85 @@
+[
+     {
+          "_id" :   "substances/H4SiO4@;2:SC_AQSOLUTE;19:AQ17",
+          "_key" :   "H4SiO4@;2:SC_AQSOLUTE;19:AQ17",
+          "_rev" :   "_ZdJJVvG--_",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "H4SiO4@",
+               "sourcetdb" :   {
+                    "19" :   "AQ17"
+               },
+               "formula" :   "H4SiO4@",
+               "name" :   "H4SiO4 (aq)",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "formula_charge" :   0,
+               "mass_per_mole" :   96.87,
+               "sm_volume" :   {
+                    "values" :   [
+                         5.22
+                    ],
+                    "errors" :   [
+                         0
+                    ],
+                    "units" :   [
+                         "J/bar"
+                    ]
+               },
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -1308407
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -1450119
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         215.158
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "values" :   [
+                         -167.762
+                    ],
+                    "errors" :   [
+                         0
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ]
+               },
+               "comment" :   "dependent on SiO2@ + 2H2O@ = H2SiO4@",
+               "datasources" :   [
+                    ""
+               ],
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   51
+               }
+          }
+     }
+]

@@ -438,7 +438,10 @@
           },
           "doc": "Source TDB: enum validated with class SourceTDB\n",
           "class": "SourceTDB",
-          "required": "required"
+          "required": "required",
+          "default": {
+            "1111": "OTHER"
+          }
         },
         {
           "key": 3,
@@ -465,7 +468,10 @@
           },
           "doc": "Class of substance: enum validated with class SubstanceClass\n",
           "class": "SubstanceClass",
-          "required": "req_out"
+          "required": "req_out",
+          "default": {
+            "101": "SC_OTHER"
+          }
         },
         {
           "key": 8,
@@ -478,7 +484,10 @@
           },
           "doc": "(Standard) state of this substance: enum validated with class AggregateState\n",
           "class": "AggregateState",
-          "required": "req_out"
+          "required": "req_out",
+          "default": {
+            "101": "AS_OTHER"
+          }
         },
         {
           "key": 9,
