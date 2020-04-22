@@ -1,0 +1,68 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.sourcetdb" :   "{\"1001\" :   \"WORK1\"}",
+               "properties.class_" :   "{\"0\" :   \"ELEMENT\"}"
+          },
+          "matches" :   {
+               "Symbol" :   {
+                    "field" :   "properties.symbol",
+                    "ignore" :   false,
+                    "script" :   "field = string.gsub(field, '%(cr%)', '' );"
+               },
+               "Sm [J/(K mol)]" :   {
+                    "field" :   "properties.entropy.values",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "Cpm [J/(K mol)]" :   {
+                    "field" :   "properties.heat_capacity.values"
+               },
+               "sigma Sm [J/(K mol)]" :   {
+                    "field" :   "properties.entropy.errors",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "sigma Cpm [J/(K mol)]" :   {
+                    "field" :   "properties.heat_capacity.errors"
+               }
+          },
+          "script" :   "rintable.properties.name = rintable.properties.symbol; if rintable.properties.entropy ~= nil then rintable.properties.entropy.units = {'J/(K*mol)'} end; if rintable.properties.heat_capacity ~= nil then rintable.properties.heat_capacity.units = {'J/(K*mol)'} end;"
+     },
+     "format" :   {
+          "Nhcols" :   7,
+          "Nhrows" :   1,
+          "headers" :   [
+               "Symbol",
+               "DfGm [kJ/mol]",
+               "DfHm [kJ/mol]",
+               "Sm [J/(K mol)]",
+               "sigma Sm [J/(K mol)]",
+               "Cpm [J/(K mol)]",
+               "sigma Cpm [J/(K mol)]"
+          ],
+          "rowend" :   "\n",
+          "rows_one_block" :   1,
+          "colends" :   ",",
+          "usequotes" :   false,
+          "usemore" :   false,
+          "comment_regexp" :   ""
+     },
+     "renderer" :   "",
+     "label" :   "VertexElement",
+     "separators" :   {
+          "v_sep" :   ",",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0
+}

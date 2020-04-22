@@ -1,0 +1,33 @@
+Symbol,Name,Composition,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction,,,,,,,,,,,,valence,
+CuOH+,CuOH+,CuOH+,-7.95,0.16,66,2.8,1008,23,18,350,1 Cu+2 1 H2O(l) -1 H+ = CuOH+,,1 Cu+2 +1 H2O(l) = CuOH+ +1 H+,,1,Cu+2,1,H2O(l),-1,H+,=,CuOH+,II,
+Cu(OH)2(aq),Cu(OH)2(aq),Cu(OH)2(aq),-16.2,0.2,89.9,0.7,1174,6,25,350,1 Cu+2 2 H2O(l) -1 H+ = Cu(OH)2(aq),,1 Cu+2 +2 H2O(l) = Cu(OH)2(aq) +2 H+,,1,Cu+2,2,H2O(l),-1,H+,=,Cu(OH)2(aq),II,
+Cu(OH)3-,Cu(OH)3-,Cu(OH)3-,-26.6,0.09,,,,,,,1 Cu+2 3 H2O(l) -3 H+ = Cu(OH)3-,,1 Cu+2 +3 H2O(l) = Cu(OH)3- +3 H+,,1,Cu+2,3,H2O(l),-3,H+,=,Cu(OH)3-,II,
+Cu(OH)4-2,Cu(OH)4-2,Cu(OH)4-2,-39.74,0.18,167,5.7,864,57,25,300,1 Cu+2 4 H2O(l) -4 H+ = Cu(OH)4-2,,1 Cu+2 +4 H2O(l) = Cu(OH)4-2 +4 H+,,1,Cu+2,4,H2O(l),-4,H+,=,Cu(OH)4-2,II,
+Cu2OH+3,Cu2OH+3,Cu2OH+3,-6.4,0.12,,,,,,,2 Cu+2 1 H2O(l) -1 H+ = Cu2OH+3,,2 Cu+2 +1 H2O(l) = Cu2OH+3 +1 H+,,2,Cu+2,1,H2O(l),-1,H+,=,Cu2OH+3,II,supplemental
+Cu2(OH)2+2,Cu2(OH)2+2,Cu2(OH)2+2,-10.43,0.07,71.4,5,0,,15,45,2 Cu+2 2 H2O(l) -2 H+ = Cu2(OH)2+2,,2 Cu+2 +2 H2O(l) = Cu2(OH)2+2 +2 H+,,2,Cu+2,2,H2O(l),-2,H+,=,Cu2(OH)2+2,II,
+Cu3(OH)4+2,Cu3(OH)4+2,Cu3(OH)4+2,-21.1,0.2,,,,,,,3 Cu+2 4 H2O(l) -4 H+ = Cu3(OH)4+2,,3 Cu+2 +4 H2O(l) = Cu3(OH)4+2 +4 H+,,3,Cu+2,4,H2O(l),-4,H+,=,Cu3(OH)4+2,II,supplemental
+CuCl+,CuCl+,CuCl+,0.83,0.09,,,,,,,1 Cu+2 1 Cl-   = CuCl+,,1 Cu+2 +1 Cl- = CuCl+,,1,Cu+2,1,Cl-,,,=,CuCl+,II,
+CuCl2(aq),CuCl2(aq),CuCl2(aq),0.6,0.3,,,,,,,1 Cu+2 2 Cl-   = CuCl2(aq),,1 Cu+2 +2 Cl- = CuCl2(aq),,1,Cu+2,2,Cl-,,,=,CuCl2(aq),II,supplemental
+CuCO3(aq),CuCO3(aq),CuCO3(aq),-3.56,0.03,,,,,,,1 Cu+2 1 HCO3- -1 H+ = CuCO3(aq),,1 Cu+2 +1 HCO3- = CuCO3(aq) +1 H+,,1,Cu+2,1,HCO3-,-1,H+,=,CuCO3(aq),II,
+Cu(CO3)2-2,Cu(CO3)2-2,Cu(CO3)2-2,-10.3,0.1,,,,,,,1 Cu+2 2 HCO3- -2 H+ = Cu(CO3)2-2,,1 Cu+2 +2 HCO3- = Cu(CO3)2-2 +2 H+,,1,Cu+2,2,HCO3-,-2,H+,=,Cu(CO3)2-2,II,
+CuHCO3+,CuHCO3+,CuHCO3+,1.84,0.1,,,,,,,1 Cu+2 1 HCO3-   = CuHCO3+,,1 Cu+2 +1 HCO3- = CuHCO3+,,1,Cu+2,1,HCO3-,,,=,CuHCO3+,II,
+Cu(CO3)OH-,Cu(CO3)OH-,Cu(CO3)OH-,11.21,0.3,,,,,,,1 Cu+2 1 CO32- 1 OH- = Cu(CO3)OH-,,1 Cu+2 +1 CO32- +1 OH- = Cu(CO3)OH-,,1,Cu+2,1,CO32-,1,OH-,=,Cu(CO3)OH-,II,supplemental
+CuSO4(aq),CuSO4(aq),CuSO4(aq),2.35,0.05,7.3,1.5,,,25,,1 Cu+2 1 SO4-2   = CuSO4(aq),,1 Cu+2 +1 SO4-2 = CuSO4(aq),,1,Cu+2,1,SO4-2,,,=,CuSO4(aq),II,
+CuHPO4(aq),CuHPO4(aq),CuHPO4(aq),4.11,0.3,,,,,,,1 Cu+2 1 HPO4-2   = CuHPO4(aq),,1 Cu+2 +1 HPO4-2 = CuHPO4(aq),,1,Cu+2,1,HPO4-2,,,=,CuHPO4(aq),II,
+CuH2PO4+,CuH2PO4+,CuH2PO4+,1.14,0.15,,,,,,,1 Cu+2 1 H2PO4-   = CuH2PO4+,,1 Cu+2 +1 H2PO4- = CuH2PO4+,,1,Cu+2,1,H2PO4-,,,=,CuH2PO4+,II,supplemental
+Cu(H2PO4)2(aq),Cu(H2PO4)2(aq),Cu(H2PO4)2(aq),1.9,0.2,,,,,,,1 Cu+2 2 H2PO4-   = Cu(H2PO4)2(aq),,1 Cu+2 + 2 H2PO4- = Cu(H2PO4)2(aq),,1,Cu+2,2,H2PO4-,,,=,Cu(H2PO4)2(aq),II,supplemental
+Cu(H2PO4)(HPO4)-,Cu(H2PO4)(HPO4)-,Cu(H2PO4)(HPO4)-,5.4,0.2,,,,,,,1 Cu+2 1 H2PO4- 1 HPO4-2 = Cu(H2PO4)(HPO4)-,,1 Cu+2 +1 H2PO4- +1 HPO4-2 = Cu(H2PO4)(HPO4)- ,,1,Cu+2,1,H2PO4-,1,HPO4-2,=,Cu(H2PO4)(HPO4)-,II,supplemental
+Cu(HPO4)2-2,Cu(HPO4)2-2,Cu(HPO4)2-2,7.4,0.2,,,,,,,1 Cu+2 2 H2PO4-2   = Cu(HPO4)2-2,,1 Cu+2 +2 H2PO4-2 = Cu(HPO4)2-2,,1,Cu+2,2,H2PO4-2,,,=,Cu(HPO4)2-2,II,supplemental
+Cu+,Cu+,Cu|1|+,2.82,0.31,,,,,,,1 Cu2+ 1 e-   = Cu+,,1 Cu2+ +1 e- = Cu+,,1,Cu2+,1,e-,,,=,Cu+,II/I,
+CuOH(aq),CuOH(aq),Cu|1|OH(aq),-7.85,0.41,41.3,4.4,-848,123,25,100,1 Cu+ 1 H2O(l) -1 H+ = CuOH(aq),,1 Cu+ +1 H2O(l) = CuOH(aq) +1 H+,,1,Cu+,1,H2O(l),-1,H+,=,CuOH(aq),I,
+Cu(OH)2-,Cu(OH)2-,Cu|1|(OH)2-,-18.64,0.6,61,12,-277,98,25,350,1 Cu+ 2 H2O(l) -2 H+ = Cu(OH)2-,,1 Cu+ +2 H2O(l) = Cu(OH)2- +2 H+,,1,Cu+,2,H2O(l),-2,H+,=,Cu(OH)2-,I,
+CuCl(aq),CuCl(aq),Cu|1|Cl(aq),3.3,0.25,,,,,,,1 Cu+ 1 Cl-   = CuCl(aq),,1 Cu+ +1 Cl- = CuCl(aq),,1,Cu+,1,Cl-,,,=,CuCl(aq),I,
+CuCl2-,CuCl2-,Cu|1|Cl2-,5.48,0.25,,,,,,,1 Cu+ 2 Cl-   = CuCl2-,,1 Cu+ +2 Cl- = CuCl2-,,1,Cu+,2,Cl-,,,=,CuCl2-,I,
+CuCl3-2,CuCl3-2,Cu|1|Cl3-2,4.81,0.25,,,,,,,1 Cu+ 3 Cl-   = CuCl3-2,,1 Cu+ +3 Cl- = CuCl3-2,,1,Cu+,3,Cl-,,,=,CuCl3-2,I,
+Cu2Cl4-2,Cu2Cl4-2,Cu|1|2Cl4-2,10.32,0.5,,,,,,,2 Cu+ 4 Cl-   = Cu2Cl4-2,,2 Cu+ +4 Cl- = Cu2Cl4-2,,2,Cu+,4,Cl-,,,=,Cu2Cl4-2,I,
+CuHS(aq),CuHS(aq),Cu|1|HS|-2|(aq),13,,,,,,,,1 Cu+ 1 HS-   = CuHS(aq),,1 Cu+ +1 HS- = CuHS(aq),,1,Cu+,1,HS-,,,=,CuHS(aq),I,supplemental
+Cu(HS)2-,Cu(HS)2-,Cu|1|(HS|-2|)2-,17.18,0.13,-102,7,800,300,22,90,1 Cu+ 2 HS-   = Cu(HS)2-,,1 Cu+ +2 HS- = Cu(HS)2-,,1,Cu+,2,HS-,,,=,Cu(HS)2-,I,
+Cu2S(HS)2-2,Cu2S(HS)2-2,Cu|1|2S|-2|(HS|-2|)2-2,29.87,0.13,,,,,,,2 Cu+ 3 HS-   = Cu2S(HS)2-2,,2 Cu+ +3 HS- = Cu2S(HS)2-2,,2,Cu+,3,HS-,,,=,Cu2S(HS)2-2,I,
+CuH2PO4(aq),CuH2PO4(aq),Cu|1|H2PO4(aq),0.87,0.3,,,,,,,1 Cu+ 1 H2PO4-   = CuH2PO4(aq),,1 Cu+ +1 H2PO4- = CuH2PO4(aq),,1,Cu+,1,H2PO4-,,,=,CuH2PO4(aq),I,supplemental
+Cu(H2PO4)2-,Cu(H2PO4)2-,Cu|1|(H2PO4)2-,1.8,0.2,,,,,,,1 Cu+ 2 H2PO4-   = Cu(H2PO4)2-,,1 Cu+ +2 H2PO4- = Cu(H2PO4)2-,,1,Cu+,2,H2PO4-,,,=,Cu(H2PO4)2-,I,supplemental
+Cu(H2PO4)(HPO4)-2,Cu(H2PO4)(HPO4)-2,Cu|1|(H2PO4)(HPO4)-2,-3,0.2,,,,,,,1 Cu+ 2 H2PO4- -1 H+ = Cu(H2PO4)(HPO4)-2,,1 Cu+ +2 H2PO4- = Cu(H2PO4)(HPO4)-2 +1 H+,,1,Cu+,2,H2PO4-,-1,H+,=,Cu(H2PO4)(HPO4)-2,I,supplemental
