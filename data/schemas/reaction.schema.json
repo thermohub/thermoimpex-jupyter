@@ -456,14 +456,7 @@
             "class": "prop.LimitsTP"
           },
           "doc": "Overall T,P limits for all methods involved\n",
-          "required": "req_out",
-          "default": {
-            "range": 0,
-            "lowerT": 273.15,
-            "upperT": 298.15,
-            "lowerP": 0.1,
-            "upperP": 1000000
-          }
+          "required": "req_out"
         },
         {
           "key": 25,

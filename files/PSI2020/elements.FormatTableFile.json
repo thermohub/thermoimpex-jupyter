@@ -10,6 +10,14 @@
                     "ignore" :   false,
                     "script" :   "field = string.gsub(field, '%(cr%)', '' );"
                },
+               "Atomic Number" :   {
+                    "field" :   "properties.number",
+                    "ignore" :   false
+               },
+               "Default Valence" :   {
+                    "field" :   "properties.valences.values",
+                    "ignore" :   false
+               },
                "Sm [J/(K mol)]" :   {
                     "field" :   "properties.entropy.values",
                     "ignore" :   false,
@@ -27,13 +35,15 @@
                     "field" :   "properties.heat_capacity.errors"
                }
           },
-          "script" :   "rintable.properties.name = rintable.properties.symbol; if rintable.properties.entropy ~= nil then rintable.properties.entropy.units = {'J/(K*mol)'} end; if rintable.properties.heat_capacity ~= nil then rintable.properties.heat_capacity.units = {'J/(K*mol)'} end;"
+          "script" :   "rintable.properties.name = rintable.properties.symbol; if rintable.properties.entropy ~= nil then rintable.properties.entropy.units = {'J/(K*mol)'} end; if rintable.properties.heat_capacity ~= nil then rintable.properties.heat_capacity.units = {'J/(K*mol)'} end; if rintable.properties.symbol == 'Zz' then rintable.properties.class_ = {} rintable.properties.class_['4'] = 'CHARGE' end;"
      },
      "format" :   {
-          "Nhcols" :   7,
+          "Nhcols" :   9,
           "Nhrows" :   1,
           "headers" :   [
                "Symbol",
+	       "Atomic Number",
+	       "Default Valence",
                "DfGm [kJ/mol]",
                "DfHm [kJ/mol]",
                "Sm [J/(K mol)]",

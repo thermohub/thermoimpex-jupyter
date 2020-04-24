@@ -16,17 +16,11 @@ If import scripts that describe the csv files you want to import are not availab
 
 ## Import Table Data from CSV dialog
 
-![Import CSV Dialog][dialog-csv]
-
-The import dialog has 4 sections:
+The import dialog has 4 sections.
 
 ### Settings:
 
 Import/Export (mode); ticked to overwrite records that we import if they are already present; ticked to read the import scripts from the database and not from local files.
-
-### Path to Import file/files:
-
-Even if we import multiple files only one file has to be selected here. The rest of the files will be defined bellow. If the file names contain multiple segments separated by "." all segment names after the first dot have to be the same for all files we want to import in one run. For example if the name of the selected file is `elements.mydata2020.csv`, all the other files should be named `<what segment name we want>.mydata2020.csv`.
 
 ### Import Setup:
 
@@ -34,7 +28,7 @@ Here we define each file and data type we want to import and what import script 
 
 There are some combinations possible, for example, in one import run, the same file can be used to import and create reaction records but also substance records for the substances defined by these reactions.
 
-### Import Setup:
+### Import Setup row editor:
 
 Row editor where we set the desired options for each row of the Import Setup.
 
@@ -68,25 +62,38 @@ This condition only has an effect in case `VertexReaction` is selected as Collec
 
 The links are created by parsing the reaction equation. If a reactant is not found in the database (searched by symbol) an error will appear and the process will be halted.
 
+### Path to Import file/files:
+
+Even if we import multiple files only one file has to be selected here. The rest of the files will be defined bellow. If the file names contain multiple segments separated by "." all segment names after the first dot have to be the same for all files we want to import in one run. For example if the name of the selected file is `elements.mydata2020.csv`, all the other files should be named `<what segment name we want>.mydata2020.csv`.
+
 ## Example
 
-We want to import data containing elements, substances and reactions as master aqueous and product aqueous, from the following csv files exported from excel: `elements.mydata2020.csv`, `master_aqueous.mydata2020.csv`, `product_aqueous.mydata2020.csv`. The `product_aqueous.mydata2020.csv` file we will use to import substance and reaction records for the product substances, as well as creating the links between the reactions and the reactants. 
+We want to import data containing elements, substances and reactions as master aqueous and product aqueous, from the following csv files exported from excel: `elements.mydata2020.csv`, `master_aqueous.mydata2020.csv`, `product_aqueous.mydata2020.csv`. The `product_aqueous.mydata2020.csv` file we will use to import substance and reaction records for the product substances, as well as creating the links between the reactions and the reactants.
 
+* Import Setup. For this we have to create 4 rows to: import elements, import master aqueous substances, import product substances, and import reactions with graph links.
 
+The rows should look like this:
 
-------
+| 1 (block title or file)  | 2 (Collection)  | 3 (Condition)  | 4 (Script type)  | 5 (Script key or file)  |
+|---|---|---|---|---|
+| elements  | VertexElement  | records  | FormatTableFile  | db id or path to script file  |
+| master_aqueous  | VertexSubstance  | records  | FormatTableFile  | db id or path to script file  |
+| product_aqueous  | VertexSubstance  | records  | FormatTableFile  | db id or path to script file  |
+| product_aqueous  | VertexReaction  | records_and_links  | FormatTableFile  | db id or path to script file  |
 
-TBD
+To create a row click `Add` and click to select the new created row. In the `Edit selected row` section choose all the respective options as shown in the table above. When finished click `Submit`.
 
+We start with the import of elements and set: `Block title or file` to `elements` (this is the first part, before '.', of how we named the files!), `Collection` to `VertexElement`, `Condition` to `records` (no links need to be created), `Script Type` to `FormatTableFile`, and `Script key or file` to `path to the import script file or database key` (if Read Import script from database is ticked we can read the script from the database).
 
+Do this for all the remaining files and conditions.
 
-First we select the path one of the file we want to import (any), Browse/Enter File to Import `...`
+As you can see `product_aqueous` or `product_aqueous.mydata2020.csv` file is used twice. Once for importing records for product substances and another time for importing the reactions.
 
+* Now select the path of one of the files we want to import (any), Browse/Enter File to Import `...`. In this case we choose `elements.mydata2020.csv`. Any other file should also work. It is important that all other files should have `mydata2020.csv` in common.
 
-We click `Add` and then click on the new row. In the section `Edit selected row` we now set the desired options. We start with the import of elements and set: `Collection` to `VertexElement`, `Block title or file to` `elements` (this is the first part, before '.', of how we named the files!), `Script Type` to `FormatTableFile`, `Script key or file` to `path to the import script file or database key` (if Read Import script from database is ticked we can read the script from the database), and Condition to `Records` or ``.
+This setup is valid for any other group of files containing data with the same structure. We can now select `elements.mydata2019.csv` to import a different set of data.
 
+![Import CSV Dialog][dialog-after]
 
-![Import CSV Dialog][dialog-full]
-
-[dialog-full]: images/ImporCSVDialog.png "Import CSV Dialog"
-[dialog-csv]: images/csv-dialog-file.png "Import CSV Dialog"
+[dialog-after]: images/import-csv-after.png "Import CSV Dialog"
+[dialog-before]: images/import-csv-before.png "Import CSV Dialog"
