@@ -1,7 +1,7 @@
 Symbol,Name,Composition,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction,,,,,,,,,,,,valence,,,,,,
-CO3-2,CO3-2,CO3-2,-10.329,,14.901,,-290.513,,,,1 CO3-2 -1 H+ 1 HCO3- = CO3-2,,,,1,CO3-2,-1,H+,1,HCO3-,=,CO3-2,,,,,,,
+CO3-2,CO3-2,CO3-2,-10.329,,14.901,,-290.513,,,,1 HCO3- -1 H+ = CO3-2,,,,1,CO3-2,-1,H+,1,HCO3-,=,CO3-2,,,,,,,
 H2PO4-,H2PO4-,H2PO4-,7.212,,-3.6,,,,,,1 HPO4-2 1 H+   = H2PO4-,,,,1,HPO4-2,1,H+,,,=,H2PO4-,,,,,,,
-HS-,HS-,HS|-2|-,33.69,,-250.28,,,,,,1 HS- 1 SO4-2 9 H+ 8 e- -4 H2O(l)    = HS-,,,,1,HS-,1,SO4-2,9,H+,8,e-,-4,H2O,,,,=,HS-
+HS-,HS-,HS|-2|-,33.69,,-250.28,,,,,,1 SO4-2 9 H+ 8 e- -4 H2O(l)    = HS-,,,,1,HS-,1,SO4-2,9,H+,8,e-,-4,H2O,,,,=,HS-
 CuOH+,CuOH+,CuOH+,-7.95,0.16,66,2.8,1008,23,18,350,1 Cu+2 1 H2O(l) -1 H+ = CuOH+,,1 Cu+2 +1 H2O(l) = CuOH+ +1 H+,,1,Cu+2,1,H2O(l),-1,H+,=,CuOH+,II,,,,,,
 Cu(OH)2(aq),Cu(OH)2(aq),Cu(OH)2(aq),-16.2,0.2,89.9,0.7,1174,6,25,350,1 Cu+2 2 H2O(l) -1 H+ = Cu(OH)2(aq),,1 Cu+2 +2 H2O(l) = Cu(OH)2(aq) +2 H+,,1,Cu+2,2,H2O(l),-1,H+,=,Cu(OH)2(aq),II,,,,,,
 Cu(OH)3-,Cu(OH)3-,Cu(OH)3-,-26.6,0.09,,,,,,,1 Cu+2 3 H2O(l) -3 H+ = Cu(OH)3-,,1 Cu+2 +3 H2O(l) = Cu(OH)3- +3 H+,,1,Cu+2,3,H2O(l),-3,H+,=,Cu(OH)3-,II,,,,,,
