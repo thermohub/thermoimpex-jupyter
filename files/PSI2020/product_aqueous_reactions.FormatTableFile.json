@@ -22,17 +22,17 @@
                "Reaction" :   {
                     "field" :   "properties.equation",
                     "ignore" :   false,
-		    "script" : "field = string.gsub(field, '%(aq%)',  '@' );
-				field = string.gsub(field, '%(l%)',  '@' );
-				field = string.gsub(field, '%(g%)',  '' );
-				field = string.gsub(field, '%(cr%)',  '' );
-				field = string.gsub(field, '%(am%)',  '' );
-				field = string.gsub(field, '%(s%)',  '' );
-				field = string.gsub(field, '%(mcr%)',  '' );
-				field = string.gsub(field, '%(lin%)',  '' );
-				field = string.gsub(field, '%(cycl%)',  '' );
-				field = string.gsub(field, '%(subst%)',  '' );
-				field = string.gsub(field, '%(dis%)',  '' );
+		    "script" : "--field = string.gsub(field, '%(aq%)',  '@' );
+				--field = string.gsub(field, '%(l%)',  '@' );
+				--field = string.gsub(field, '%(g%)',  '' );
+				--field = string.gsub(field, '%(cr%)',  '' );
+				--field = string.gsub(field, '%(am%)',  '' );
+				--field = string.gsub(field, '%(s%)',  '' );
+				--field = string.gsub(field, '%(mcr%)',  '' );
+				--field = string.gsub(field, '%(lin%)',  '' );
+				--field = string.gsub(field, '%(cycl%)',  '' );
+				--field = string.gsub(field, '%(subst%)',  '' );
+				--field = string.gsub(field, '%(dis%)',  '' );
 				for k, v in string.gmatch(field, '%s%u' ) do
     					knew = string.gsub(k,' ','')
     					field = string.gsub(field, k, knew)
