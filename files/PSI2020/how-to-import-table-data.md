@@ -18,42 +18,42 @@ If import scripts that describe the csv files you want to import are not availab
 
 The import dialog has 4 sections.
 
-### Settings:
+### (A) Settings:
 
 Import/Export (mode); ticked to overwrite records that we import if they are already present; ticked to read the import scripts from the database and not from local files.
 
-### Import Setup:
+### (B) Import Setup:
 
 Here we define each file and data type we want to import and what import script should be used. If we only want to import one file we only have define one row. 
 
 There are some combinations possible, for example, in one import run, the same file can be used to import and create reaction records but also substance records for the substances defined by these reactions.
 
-### Import Setup row editor:
+### (C) Import Setup row editor:
 
 Row editor where we set the desired options for each row of the Import Setup.
 
-* Collection: defines the database record type
+* (1) Collection: defines the database record type
 
 VertexElements - for importing element records
 VertexSubstances - for importing substance records
 VertexReactions - for importing reaction records
 
-* Block title or file: defines the name of the block or file (segment until first ".") where to read the data from. E.g. `master_aqueous` to read data from `master_aqueous.mydata2020.csv`
+* (2) Block title or file: defines the name of the block or file (segment until first ".") where to read the data from. E.g. `master_aqueous` to read data from `master_aqueous.mydata2020.csv`
 
 If the file has multiple segments, this is not the full name but just the segment until the first dot ".". It is also possible that we have one file with different data types, then `master_aqueous` would represent the marker for the start of the block containing the data for master aqueous species.
 
-* Script Type: defines the type of import script
+* (3) Script Type: defines the type of import script
 
 FormatKeyValueFile - for scripts to import from key - value, JSON like type of data files.
 FormatTableFile - for scripts to import from table like, csv type of data files.
 
-* Script key or file: defines the path or database key of the import script.
+* (4) Script key or file: defines the path or database key of the import script.
 
 If `Read import from database` is ticked the `...` will allow us to select from existing script saved in the database.
 
 Un-ticked `Read import from database` allows us to select an import script file stored locally.
 
-* Condition: defines if upon reading records or records and graph links are created.
+* (5) Condition: defines if upon reading records or records and graph links are created.
 
 This condition only has an effect in case `VertexReaction` is selected as Collection. Two options are available:
 
@@ -62,7 +62,7 @@ This condition only has an effect in case `VertexReaction` is selected as Collec
 
 The links are created by parsing the reaction equation. If a reactant is not found in the database (searched by symbol) an error will appear and the process will be halted.
 
-### Path to Import file/files:
+### (D) Path to Import file/files:
 
 Even if we import multiple files only one file has to be selected here. The rest of the files will be defined bellow. If the file names contain multiple segments separated by "." all segment names after the first dot have to be the same for all files we want to import in one run. For example if the name of the selected file is `elements.mydata2020.csv`, all the other files should be named `<what segment name we want>.mydata2020.csv`.
 
