@@ -28,6 +28,9 @@
                "S" :   {
                     "field" :   "properties.sm_entropy_abs.values"
                },
+               "Cp" :   {
+                    "field" :   "properties.sm_heat_capacity_p.values"
+               },
                "FIRST" :   {
                     "field" :   "properties.TPMethods.0.limitsTP.lowerT"
                },
@@ -73,6 +76,7 @@
           -- rintable.properties.sm_gibbs_energy.units = {'J/mol'};
           rintable.properties.sm_enthalpy.units = {'J/mol'};
           rintable.properties.sm_entropy_abs.units = {'J/(mol*K)'};
+          rintable.properties.sm_heat_capacity_p.units = {'J/(mol*K)'};
 	  if rintable.properties.sm_volume == nil then rintable.properties.sm_volume = {} end;
 	  rintable.properties.sm_volume.units = {'J/bar'}
           if rintable.properties.formula == '' then rintable.properties.formula = rintable.properties.symbol end;
