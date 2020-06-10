@@ -22,9 +22,6 @@
                "FULLNAME" :   {
                     "field" :   "properties.formula"
                },
-               "G" :   {
-                    "field" :   "properties.sm_gibbs_energy.values"
-               },
                "H" :   {
                     "field" :   "properties.sm_enthalpy.values"
                },
@@ -54,26 +51,44 @@
                },
                "F": {
                     "field": "properties.TPMethods.0.m_heat_capacity_ft_coeffs.values.5"
+               },
+               "molar_volume(J/bar)": {
+                    "field": "properties.sm_volume.values"
+               },
+               "Table2_Quelle": {
+                    "field": "properties.datasources",
+		    "script" : "field[1] = 'V0: ' .. field[1]"
+               },
+               "Table2_Bemerkungen": {
+                    "field": "properties.comment",
+		    "script" : "field = 'V0: ' .. field"
+               },
+               "Table2_Mineral_Name": {
+                    "field": "properties.name"
                }
           },
           "script" :   "
-          rintable.properties.name = rintable.properties.symbol;
-          rintable.properties.sm_gibbs_energy.units = {'J/mol'};
+	  rintable.properties.symbol = string.gsub(rintable.properties.symbol, '*',  'star' ); 
+          if rintable.properties.name == nil then rintable.properties.name = rintable.properties.symbol end;
+          -- rintable.properties.sm_gibbs_energy.units = {'J/mol'};
           rintable.properties.sm_enthalpy.units = {'J/mol'};
           rintable.properties.sm_entropy_abs.units = {'J/(mol*K)'};
+	  if rintable.properties.sm_volume == nil then rintable.properties.sm_volume = {} end;
+	  rintable.properties.sm_volume.units = {'J/bar'}
           if rintable.properties.formula == '' then rintable.properties.formula = rintable.properties.symbol end;
           if string.find(rintable.properties.formula, '%[') then rintable.properties.formula = rintable.properties.symbol end;
           if string.find(rintable.properties.formula, '_') then
                rintable.properties.formula = string.sub (rintable.properties.formula, 0, string.find(rintable.properties.formula, '_')-1) end;
           if rintable.properties.aggregate_state['0'] == 'AS_GAS' then rintable.properties.TPMethods[2].method={} rintable.properties.TPMethods[2].method['40'] ='mv_pvnrt' end;
-          if rintable.properties.aggregate_state['0'] == 'AS_GAS' then rintable.properties.class_= {} rintable.properties.class_['1'] = 'SC_GASFLUID' end; 
-          if rintable.properties.aggregate_state['3'] == 'AS_CRYSTAL' then rintable.properties.class_= {} rintable.properties.class_['0'] = 'SC_COMPONENT' end;
-          if rintable.properties.aggregate_state['0'] == 'AS_LIQUID' then rintable.properties.class_= {} rintable.properties.class_['0'] = 'SC_COMPONENT' end;
-          rintable.properties.TPMethods[1].limitsTP.range = true;
-          local str = [[Book:  Thermodynamic Properties Individual Substances 
+          if rintable.properties.aggregate_state['0'] == 'AS_GAS' then rintable.properties.class_= {} rintable.properties.class_['1'] = 'SC_GASFLUID' rintable.properties.symbol = rintable.properties.symbol .. '(g)' rintable.properties.sm_volume.values = {'2478.97'} end; 
+          if rintable.properties.aggregate_state['3'] == 'AS_CRYSTAL' then rintable.properties.class_= {} rintable.properties.class_['0'] = 'SC_COMPONENT' rintable.properties.symbol = rintable.properties.symbol .. '(cr)' end;
+          if rintable.properties.aggregate_state['1'] == 'AS_LIQUID' then rintable.properties.class_= {} rintable.properties.class_['0'] = 'SC_COMPONENT' rintable.properties.symbol = rintable.properties.symbol .. '(l)' end;
+          rintable.properties.TPMethods[1].limitsTP.range = false;
+          local str = [[IVTAN:  Thermodynamic Properties Individual Substances 
 1-4 volumes: V.P. Glushko, L.V. Gurvich, I.V. Weitz, V.A. Medvedev, G.A. Hachkuruzov, V.S. Jungmann, G.A. Bergman, V.F. Baibuz, V.S. Iorish etc.
 5-6 volumes: V.S. Iorish , N.M. Aristova, G.A. Bergman, L.N. Gorohov, A.V. Gusarov, Y.S. Yezhov, A.N. Kulikov, E.L. Osina, E.A. Shenyavskaya, N.E. Handamirova, V.S. Jungmann]]
-          rintable.properties.datasources = {str}; 
+	  if rintable.properties.datasources == nil then rintable.properties.datasources = {str}
+	  else a = rintable.properties.datasources[1] rintable.properties.datasources = {str, a} end;
           "
      },
      "renderer" :   "JSON",
