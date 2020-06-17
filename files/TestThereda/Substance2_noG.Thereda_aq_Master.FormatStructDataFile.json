@@ -202,7 +202,10 @@ if rintable.properties.sm_gibbs_energy and rintable.properties.sm_gibbs_energy.n
 if rintable.properties.sm_enthalpy and rintable.properties.sm_enthalpy.name then if rintable.properties.sm_enthalpy.name ~= 'DFH298' then rintable.properties.sm_enthalpy = {} end end;
 if rintable.properties.sm_entropy_abs and rintable.properties.sm_entropy_abs.name then if rintable.properties.sm_entropy_abs.name ~= 'S298' then rintable.properties.sm_entropy_abs = {} end end;
 if rintable.properties.sm_heat_capacity_p and rintable.properties.sm_heat_capacity_p.name then if rintable.properties.sm_heat_capacity_p.name ~= 'CP298' then rintable.properties.sm_heat_capacity_p = {} end end;
-if rintable.properties.sm_volume and rintable.properties.sm_volume.name then if rintable.properties.sm_volume.name ~= 'V298' then rintable.properties.sm_volume = {} end end;"
+if rintable.properties.sm_volume and rintable.properties.sm_volume.name then if rintable.properties.sm_volume.name ~= 'V298' then rintable.properties.sm_volume = {} end end;
+
+if rintable.properties.sm_gibbs_energy.values == nil then rintable = nil end;
+"
     },
     "renderer": "JSON",
     "label": "VertexSubstance",

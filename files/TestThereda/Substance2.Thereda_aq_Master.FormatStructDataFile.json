@@ -176,6 +176,7 @@
         if string.match(formula, '%(cr%)') then rintable.properties.class_ = {} rintable.properties.class_['0'] = 'SC_COMPONENT' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['3'] =  'AS_CRYSTAL' end;
         if string.match(formula, '%(am%)') then rintable.properties.class_ = {} rintable.properties.class_['0'] = 'SC_COMPONENT' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['3'] =  'AS_CRYSTAL' end;
         if string.match(formula, '%(s%)') then rintable.properties.class_ = {} rintable.properties.class_['0'] = 'SC_COMPONENT' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['3'] =  'AS_CRYSTAL' end;
+        if string.match(formula, '%(gel%)') then rintable.properties.class_ = {} rintable.properties.class_['0'] = 'SC_COMPONENT' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['3'] =  'AS_CRYSTAL' end;
 formula = string.gsub(formula, '(_.*)', '');
 formula = string.gsub(formula, '<(%d*)->',  '-%1' );
 formula = string.gsub(formula, '<(%d*)+>',  '+%1' );
