@@ -48,48 +48,7 @@
                     "field" :   "properties.sm_heat_capacity_p.errors"
                }
           },
-          "script" :   "rintable.properties.name = rintable.properties.symbol; if rintable.properties.sm_gibbs_energy ~= nil then rintable.properties.sm_gibbs_energy.units = {'kJ/mol'} end; if rintable.properties.sm_enthalpy ~= nil then rintable.properties.sm_enthalpy.units = {'kJ/mol'} end; if rintable.properties.sm_entropy_abs ~= nil then rintable.properties.sm_entropy_abs.units = {'J/(K*mol)'} end; if rintable.properties.sm_heat_capacity_p ~= nil then rintable.properties.sm_heat_capacity_p.units = {'J/(K*mol)'} end;
-
-formula = rintable.properties.formula
-symbol = rintable.properties.symbol
-
-if string.find(symbol, '%(aq%)') or string.find(symbol, '%(l%)') then
-formula = string.gsub(formula, '%(aq%)',  '@' );
-formula = string.gsub(formula, '%(l%)',  '@' ); 
-end;
-
-if string.find(symbol, '%(g%)') then
-rintable.properties.aggregate_state['4'] = nil
-rintable.properties.class_['2'] = nil
-rintable.properties.aggregate_state['0'] = 'AS_GAS'
-rintable.properties.class_['1'] = 'SC_GASFLUID'
-formula = string.gsub(formula, '%(g%)',  '' );
-end;
-
-if string.find(symbol, '%(cr%)' ) 
-or string.find(symbol, '%(am%)' ) 
-or string.find(symbol, '%(s%)' ) 
-or string.find(symbol, '%(mcr%)' ) 
-or string.find(symbol, '%(lin%)' ) 
-or string.find(symbol, '%(cycl%)' ) 
-or string.find(symbol, '%(subst%)' )
-or string.find(symbol, '%(rhomb%)' )  
-or string.find(symbol, '%(dis%)' ) then
-rintable.properties.aggregate_state['4'] = nil
-rintable.properties.class_['2'] = nil
-rintable.properties.aggregate_state['3'] = 'AS_CRYSTAL'
-rintable.properties.class_['0'] = 'SC_COMPONENT'
-formula = string.gsub(formula, '%(cr%)',  '' );
-formula = string.gsub(formula, '%(am%)',  '' );
-formula = string.gsub(formula, '%(s%)',  '' );
-formula = string.gsub(formula, '%(mcr%)',  '' );
-formula = string.gsub(formula, '%(lin%)',  '' );
-formula = string.gsub(formula, '%(cycl%)',  '' );
-formula = string.gsub(formula, '%(subst%)',  '' );
-formula = string.gsub(formula, '%(dis%)',  '' );
-formula = string.gsub(formula, '%(rhomb%)', '' );  
-end;
-rintable.properties.formula = formula"
+          "script" :   "rintable.properties.name = rintable.properties.symbol; if rintable.properties.sm_gibbs_energy ~= nil then rintable.properties.sm_gibbs_energy.units = {'kJ/mol'} end; if rintable.properties.sm_enthalpy ~= nil then rintable.properties.sm_enthalpy.units = {'kJ/mol'} end; if rintable.properties.sm_entropy_abs ~= nil then rintable.properties.sm_entropy_abs.units = {'J/(K*mol)'} end; if rintable.properties.sm_heat_capacity_p ~= nil then rintable.properties.sm_heat_capacity_p.units = {'J/(K*mol)'} end;"
      },
      "format" :   {
           "Nhcols" :   8,

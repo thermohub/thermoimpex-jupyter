@@ -14,42 +14,16 @@
                     "ignore" :   false,
                     "script" :   ""
                },
+               "Name" :   {
+                    "field" :   "properties.name",
+                    "ignore" :   false,
+                    "script" :   "field = '_rdc_' .. field"
+               },
                "Composition" :   {
                     "field" :   "properties.formula"
-               },
-               "DfGm [kJ/mol]" :   {
-                    "field" :   "properties.sm_gibbs_energy.values",
-                    "ignore" :   false
-               },
-               "sigma DfGm [kJ/mol]" :   {
-                    "field" :   "properties.sm_gibbs_energy.errors",
-                    "ignore" :   false
-               },
-               "DfHm [kJ/mol]" :   {
-                    "field" :   "properties.sm_enthalpy.values",
-                    "ignore" :   false
-               },
-               "sigma DfHm [kJ/mol]" :   {
-                    "field" :   "properties.sm_enthalpy.errors",
-                    "ignore" :   false
-               },
-               "Sm [J/(K mol)]" :   {
-                    "field" :   "properties.sm_entropy_abs.values",
-                    "ignore" :   false
-               },
-               "sigma Sm [J/(K mol)]" :   {
-                    "field" :   "properties.sm_entropy_abs.errors",
-                    "ignore" :   false
-               },
-               "Cpm [J/(K mol)]" :   {
-                    "field" :   "properties.sm_heat_capacity_p.values"
-               },
-               "sigma Cpm [J/(K mol)]" :   {
-                    "field" :   "properties.sm_heat_capacity_p.errors"
                }
           },
-          "script" :   "rintable.properties.name = rintable.properties.symbol; if rintable.properties.sm_gibbs_energy ~= nil then rintable.properties.sm_gibbs_energy.units = {'kJ/mol'} end; if rintable.properties.sm_enthalpy ~= nil then rintable.properties.sm_enthalpy.units = {'kJ/mol'} end; if rintable.properties.sm_entropy_abs ~= nil then rintable.properties.sm_entropy_abs.units = {'J/(K*mol)'} end; if rintable.properties.sm_heat_capacity_p ~= nil then rintable.properties.sm_heat_capacity_p.units = {'J/(K*mol)'} end;
-
+          "script" :   "
 formula = rintable.properties.formula
 symbol = rintable.properties.symbol
 
@@ -92,17 +66,12 @@ end;
 rintable.properties.formula = formula"
      },
      "format" :   {
-          "Nhcols" :   8,
+          "Nhcols" :   3,
           "Nhrows" :   1,
           "headers" :   [
                "Symbol",
-               "Composition",
-               "DfGm [kJ/mol]",
-               "DfHm [kJ/mol]",
-               "Sm [J/(K mol)]",
-               "sigma Sm [J/(K mol)]",
-               "Cpm [J/(K mol)]",
-               "sigma Cpm [J/(K mol)]"
+	       "Name",
+               "Composition"
           ],
           "rowend" :   "\n",
           "rows_one_block" :   1,

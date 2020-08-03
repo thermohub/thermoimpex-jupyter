@@ -32,35 +32,33 @@ There are some combinations possible, for example, in one import run, the same f
 
 Row editor where we set the desired options for each row of the Import Setup.
 
-* (1) Collection: defines the database record type
+* (1) File/block name: defines the name of the block or file (segment until first ".") where to read the data from. E.g. `master_aqueous` to read data from `master_aqueous.mydata2020.csv`
+
+If the file has multiple segments, this is not the full name but just the segment until the first dot ".". It is also possible that we have one file with different data types, then `master_aqueous` would represent the marker for the start of the block containing the data for master aqueous species.
+
+* (2) Collection: defines the database record type
 
 VertexElements - for importing element records
 VertexSubstances - for importing substance records
 VertexReactions - for importing reaction records
 
-* (2) Block title or file: defines the name of the block or file (segment until first ".") where to read the data from. E.g. `master_aqueous` to read data from `master_aqueous.mydata2020.csv`
-
-If the file has multiple segments, this is not the full name but just the segment until the first dot ".". It is also possible that we have one file with different data types, then `master_aqueous` would represent the marker for the start of the block containing the data for master aqueous species.
-
-* (3) Script Type: defines the type of import script
-
-FormatKeyValueFile - for scripts to import from key - value, JSON like type of data files.
-FormatTableFile - for scripts to import from table like, csv type of data files.
-
-* (4) Script key or file: defines the path or database key of the import script.
-
-If `Read import from database` is ticked the `...` will allow us to select from existing script saved in the database.
-
-Un-ticked `Read import from database` allows us to select an import script file stored locally.
-
-* (5) Condition: defines if upon reading records or records and graph links are created.
-
-This condition only has an effect in case `VertexReaction` is selected as Collection. Two options are available:
+* (3) Condition: defines if upon reading records or records and graph links are created.
 
 `records`: imports reaction data and only creates reaction records
 `records_and_links`: imports reaction data and creates reaction records and links to the corresponding reactants (master and product substances).
 
 The links are created by parsing the reaction equation. If a reactant is not found in the database (searched by symbol) an error will appear and the process will be halted.
+
+* (4) Script Type: defines the type of import script
+
+FormatTableFile - for scripts to import from table like, csv type of data files.
+FormatKeyValueFile - for scripts to import from key - value, JSON like type of data files.
+
+* (5) Import script: defines the file path or database key of the import script.
+
+If `Read import from database` is ticked the `...` will allow us to select from existing script saved in the database.
+
+Un-ticked `Read import from database` allows us to select an import script file stored locally.
 
 ### (D) Path to Import file/files:
 
@@ -74,7 +72,7 @@ We want to import data containing elements, substances and reactions as master a
 
 The rows should look like this:
 
-| 1 (block title or file)  | 2 (Collection)  | 3 (Condition)  | 4 (Script type)  | 5 (Script key or file)  |
+| 1 (File/block name)  | 2 (Collection)  | 3 (Condition)  | 4 (Script type)  | 5 (Import script)  |
 |---|---|---|---|---|
 | elements  | VertexElement  | records  | FormatTableFile  | db id or path to script file  |
 | master_aqueous  | VertexSubstance  | records  | FormatTableFile  | db id or path to script file  |
