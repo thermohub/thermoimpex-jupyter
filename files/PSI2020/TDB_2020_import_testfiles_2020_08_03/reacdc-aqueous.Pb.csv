@@ -1,0 +1,25 @@
+Symbol,Name,Composition,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction,,,,,,,,,,,,,List of reactants
+Pb(aq),Pb(aq),Pb(aq),-7.3,,,,-,,,,1 Pb(cr) = Pb(aq),Pb(cr) _ Pb(aq),,1 Pb(cr) = Pb(aq),1,Pb(cr),,,,,=,Pb(aq),,Cl-
+PbOH+,PbOH+,PbOH+,-7.46,0.06,56,1.5,0,,15,300,1 Pb+2 +1 H2O(l) -1 H+ = PbOH+,Pb2+ + H2O(l) _ PbOH+ + H+,,1 Pb+2 +1 H2O(l) -1 H+ = PbOH+,1,Pb+2,1,H2O(l),-1,H+,=,PbOH+,,CO3-2
+Pb(OH)2(aq),Pb(OH)2(aq),Pb(OH)2(aq),-16.94,0.09,90,0.9,0,,25,260,1 Pb+2 +2 H2O(l) -2 H+ = Pb(OH)2(aq),Pb2+ + 2 H2O(l) _ Pb(OH)2(aq) + 2 H+,,1 Pb+2 +2 H2O(l) -2 H+ = Pb(OH)2(aq),1,Pb+2,2,H2O(l),-2,H+,=,Pb(OH)2(aq),,H+
+Pb(OH)3-,Pb(OH)3-,Pb(OH)3-,-28.03,0.06,135.8,3,251,36,20,260,1 Pb+2 +3 H2O(l) -3 H+ = Pb(OH)3-,Pb2+ + 3 H2O(l) _ Pb(OH)3- + 3 H+,,1 Pb+2 +3 H2O(l) -3 H+ = Pb(OH)3-,1,Pb+2,3,H2O(l),-3,H+,=,Pb(OH)3-,,H2O(l)
+Pb2OH+3,Pb2OH+3,Pb2OH+3,-6.73,0.31,,,,,,,2 Pb+2 +1 H2O(l) -1 H+ = Pb2OH3+,2 Pb2+ + H2O(l) _ Pb2OH3+ + H+,,2 Pb+2 +1 H2O(l) -1 H+ = Pb2OH3+,2,Pb+2,1,H2O(l),-1,H+,=,Pb2OH3+,,H2PO4-
+Pb3(OH)4+2,Pb3(OH)4+2,Pb3(OH)4+2,-23.01,0.07,111.4,5.6,,,,,3 Pb+2 +4 H2O(l) -4 H+ = Pb3(OH)4+2,3 Pb2+ + 4 H2O(l) _ Pb3(OH)42+ + 4 H+,,3 Pb+2 +4 H2O(l) -4 H+ = Pb3(OH)4+2,3,Pb+2,4,H2O(l),-4,H+,=,Pb3(OH)4+2,,HCO3-
+Pb4(OH)4+4,Pb4(OH)4+4,Pb4(OH)4+4,-20.57,0.06,85,2,,,,,4 Pb+2 +4 H2O(l) -4 H+ = Pb4(OH)4+4,4 Pb2+ + 4 H2O(l) _ Pb4(OH)44+ + 4 H+,,4 Pb+2 +4 H2O(l) -4 H+ = Pb4(OH)4+4,4,Pb+2,4,H2O(l),-4,H+,=,Pb4(OH)4+4,,HPO4-2
+Pb6(OH)8+4,Pb6(OH)8+4,Pb6(OH)8+4,-42.89,0.07,210.9,7.1,,,,,6 Pb+2 +8 H2O(l) -8 H+ = Pb6(OH)8+4,6 Pb2+ + 8 H2O(l) _ Pb6(OH)84+ + 8 H+,,6 Pb+2 +8 H2O(l) -8 H+ = Pb6(OH)8+4,6,Pb+2,8,H2O(l),-8,H+,=,Pb6(OH)8+4,,HS-
+PbCl+,PbCl+,PbCl+,1.5,0.03,10.3,1.5,0,,15,50,1 Pb+2 +1 Cl- = PbCl+,Pb2+ + Cl- _ PbCl+,,1 Pb+2 +1 Cl- = PbCl+,1,Pb+2,1,Cl-,,,=,PbCl+,,OH-
+PbCl2(aq),PbCl2(aq),PbCl2(aq),2.1,0.05,17,0.6,0,,15,50,1 Pb+2 +2 Cl- = PbCl2(aq),Pb2+ + 2 Cl- _ PbCl2(aq),,1 Pb+2 +2 Cl- = PbCl2(aq),1,Pb+2,2,Cl-,,,=,PbCl2(aq),,Pb(cr)
+PbCl3-,PbCl3-,PbCl3-,2,0.1,14.7,1,0,,15,50,1 Pb+2 +3 Cl- = PbCl3-,Pb2+ + 3 Cl- _ PbCl3-,,1 Pb+2 +3 Cl- = PbCl3-,1,Pb+2,3,Cl-,,,=,PbCl3-,,Pb+2
+PbCl4-2,PbCl4-2,PbCl4-2,1.46,0.1,14,5,,,,,1 Pb+2 +4 Cl- = PbCl4-2,Pb2+ + 4 Cl- _ PbCl42-,,1 Pb+2 +4 Cl- = PbCl4-2,1,Pb+2,4,Cl-,,,=,PbCl4-2,,SO4-2
+PbCO3(aq),PbCO3(aq),PbCO3(aq),6.45,0.7,,,,,,,1 Pb+2 +1 CO3-2 = PbCO3(aq),Pb2+ + CO32- _ PbCO3(aq),,1 Pb+2 +1 CO3-2 = PbCO3(aq),1,Pb+2,1,CO3-2,,,=,PbCO3(aq),,
+Pb(CO3)2-2,Pb(CO3)2-2,Pb(CO3)2-2,10.13,0.24,,,,,,,1 Pb+2 +2 CO3-2 = Pb(CO3)2-2,Pb2+ + 2 CO32- _ Pb(CO3)22-,,1 Pb+2 +2 CO3-2 = Pb(CO3)2-2,1,Pb+2,2,CO3-2,,,=,Pb(CO3)2-2,,
+PbHCO3+,PbHCO3+,PbHCO3+,3,0.4,,,,,,,1 Pb+2 +1 HCO3-  = PbHCO3+,Pb2+ + HCO3-  _ PbHCO3+,,1 Pb+2 +1 HCO3-  = PbHCO3+,1,Pb+2,1,HCO3-,,,=,PbHCO3+,,
+Pb(CO3)OH-,Pb(CO3)OH-,Pb(CO3)OH-,10.9,0.2,,,,,,,1 Pb+2 +1 CO3-2 +1 OH- = Pb(CO3)OH-,Pb2+ + CO32- + OH- _ Pb(CO3)OH-,,1 Pb+2 +1 CO3-2 +1 OH- = Pb(CO3)OH-,1,Pb+2,1,CO3-2,1,OH-,=,Pb(CO3)OH-,,
+Pb(CO3)Cl-,Pb(CO3)Cl-,Pb(CO3)Cl-,6.47,0.16,,,,,,,1 Pb+2 +1 CO3-2 +1 Cl- = Pb(CO3)Cl-,Pb2+ + CO32- + Cl- _ Pb(CO3)Cl-,,1 Pb+2 +1 CO3-2 +1 Cl- = Pb(CO3)Cl-,1,Pb+2,1,CO3-2,1,Cl-,=,Pb(CO3)Cl-,,
+PbHPO4(aq),PbHPO4(aq),PbHPO4(aq),4.2,0.2,,,,,,,1 Pb+2 +1 HPO4-2 = PbHPO4(aq),Pb2+ + HPO42- _ PbHPO4(aq),,1 Pb+2 +1 HPO4-2 = PbHPO4(aq),1,Pb+2,1,HPO4-2,,,=,PbHPO4(aq),,
+Pb(HPO4)2-2,Pb(HPO4)2-2,Pb(HPO4)2-2,6.5,,,,,,,,1 Pb+2 +2 HPO4-2 = Pb(HPO4)2-2,Pb2+ + 2 HPO42- _ Pb(HPO4)22,,1 Pb+2 +2 HPO4-2 = Pb(HPO4)2-2,1,Pb+2,2,HPO4-2,,,=,Pb(HPO4)2-2,,
+PbH2PO4+,PbH2PO4+,PbH2PO4+,2.8,,,,,,,,1 Pb+2 +1 H2PO4- = PbH2PO4+,Pb2+ + H2PO4- _ PbH2PO4+,,1 Pb+2 +1 H2PO4- = PbH2PO4+,1,Pb+2,1,H2PO4-,,,=,PbH2PO4+,,
+PbSO4(aq),PbSO4(aq),PbSO4(aq),2.72,0.05,9.2,0.5,,,25,,1 Pb+2 +1 SO4-2 = PbSO4(aq),Pb2+ + SO42- _ PbSO4(aq),,1 Pb+2 +1 SO4-2 = PbSO4(aq),1,Pb+2,1,SO4-2,,,=,PbSO4(aq),,
+Pb(SO4)2-2,Pb(SO4)2-2,Pb(SO4)2-2,3.15,0.5,18.4,1,,,25,,1 Pb+2 +2 SO4-2 = Pb(SO4)22-,Pb2+ + 2 SO42- _ Pb(SO4)22-,,1 Pb+2 +2 SO4-2 = Pb(SO4)22-,1,Pb+2,2,SO4-2,,,=,Pb(SO4)22-,,
+Pb(HS)2(aq),Pb(HS)2(aq),Pb(HS|-2|)2(aq),12.5,,,,,,,,1 Pb+2 +2 HS- = Pb(HS)2(aq),Pb2+ + 2 HS- _ Pb(HS)2(aq),,1 Pb+2 +2 HS- = Pb(HS)2(aq),1,Pb+2,2,HS-,,,=,Pb(HS)2(aq),,
+PbS(HS)-,PbS(HS)-,PbS|-2|(HS|-2|)-,6.1,,,,,,,,1 Pb+2 +2 HS- -1 H+ = PbS(HS)-,Pb2+ + 2 HS- _ PbS(HS)- + H+,,1 Pb+2 +2 HS- -1 H+ = PbS(HS)-,1,Pb+2,2,HS-,-1,H+,=,PbS(HS)-,,

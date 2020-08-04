@@ -36,12 +36,30 @@
 				for k, v in string.gmatch(field, '%s%u' ) do
     					knew = string.gsub(k,' ','')
     					field = string.gsub(field, k, knew)
+					--print(field)
+				end;
+				for k, v in string.gmatch(field, '%s%l' ) do
+    					knew = string.gsub(k,' ','')
+    					field = string.gsub(field, k, knew)
+					--print(field)
+				end;
+				for k, v in string.gmatch(field, '\t%u' ) do
+    					knew = string.gsub(k,'\t','')
+    					field = string.gsub(field, k, knew)
+					--print(field)
+				end;
+				for k, v in string.gmatch(field, '\t%l' ) do
+    					knew = string.gsub(k,'\t','')
+    					field = string.gsub(field, k, knew)
+					--print(field)
 				end;
 				field = string.gsub(field, '%s*=%s*', '=')
 				field = string.gsub(field, '%s*=', '=')
 				field = string.gsub(field, '=%s*', '=')
 				field = string.gsub(field, ' ', ' + ')
-				field = string.gsub(field, '=', ' = ')"
+				field = string.gsub(field, '=', ' = ')
+				--print(field)
+"
                },
                "logK" :   {
                     "field" :   "properties.logKr.values"
