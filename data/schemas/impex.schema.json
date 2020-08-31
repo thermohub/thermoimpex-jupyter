@@ -409,7 +409,7 @@
           "typeId": "string",
           "doc": "Key-Value pair end delimiter (used if empty value_regexp or export mode )\n",
           "required": "req_out",
-          "default": "\n"
+          "default": "\\n"
         },
         {
           "key": 6,
@@ -581,7 +581,7 @@
           "typeId": "string",
           "doc": "Row delimiter\n",
           "required": "req_out",
-          "default": "\n"
+          "default": "\\n"
         },
         {
           "key": 5,
@@ -605,7 +605,7 @@
           "typeId": "string",
           "doc": "Columns delimiters\n",
           "required": "req_out",
-          "default": "\t "
+          "default": "\\t "
         },
         {
           "key": 8,
