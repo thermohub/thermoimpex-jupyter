@@ -1,0 +1,77 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.sourcetdb" :   "{\"1001\" :   \"WORK1\"}",
+               "properties.symbol" :   "\"aq_sit\"",
+	       "properties.name" :   "\"aq_sit_psi2020\"",
+	       "properties.mixmod" :   "{\"0\" :   \"M_PURE\"}",
+	       "properties.aggregate_state" : "{\"3\" : \"AS_CRYSTAL\"}"
+          },
+          "matches" :   {
+               "Symbol" :   {
+                    "field" :   "properties.symbol",
+                    "ignore" :   false
+               },
+               "Name" :   {
+                    "field" :   "properties.name",
+                    "ignore" :   false
+               },
+               "T-min" :   {
+                    "field" :   "properties.limitsTP.lowerT",
+		    "script": "field = field + 273.15"
+               },
+               "T-max" :   {
+                    "field" :   "properties.limitsTP.upperT",
+		    "script": "field = field + 273.15"
+               }
+          },
+          "script" :   "
+symbol = rintable.properties.symbol
+if string.find(symbol, '%(cr%)' ) 
+or string.find(symbol, '%(am%)' ) 
+or string.find(symbol, '%(s%)' ) 
+or string.find(symbol, '%(mcr%)' ) 
+or string.find(symbol, '%(lin%)' ) 
+or string.find(symbol, '%(cycl%)' ) 
+or string.find(symbol, '%(subst%)' )
+or string.find(symbol, '%(rhomb%)' )  
+or string.find(symbol, '%(dis%)' ) then
+rintable.properties.aggregate_state['4'] = nil
+rintable.properties.aggregate_state['3'] = 'AS_CRYSTAL'
+else rintable = nil 
+end;"
+     },
+     "format" :   {
+          "Nhcols" :   4,
+          "Nhrows" :   1,
+          "headers" :   [
+               "Symbol",
+	       "Name",
+	       "T-min",
+	       "T-max"
+          ],
+          "rowend" :   "\n",
+          "rows_one_block" :   1,
+          "colends" :   ",",
+          "usequotes" :   false,
+          "usemore" :   false,
+          "comment_regexp" :   ""
+     },
+     "renderer" :   "",
+     "label" :   "VertexPhase",
+     "separators" :   {
+          "v_sep" :   ",",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0
+}
