@@ -73,16 +73,16 @@
                 "field": "properties.drsm_entropy.values"
             },
             "DataStandard.6.positiveunc": {
-                "field": "properties.drsm_entropy_abs.errors"
+                "field": "properties.drsm_entropy.errors"
             },
             "DataStandard.6.reference_1": {
-                "field": "properties.drsm_entropy_abs.datasources.0"
+                "field": "properties.drsm_entropy.datasources.0"
             },
             "DataStandard.6.reference_2": {
-                "field": "properties.drsm_entropy_abs.datasources.1"
+                "field": "properties.drsm_entropy.datasources.1"
             },
             "DataStandard.6.unctype": {
-                "field": "properties.drsm_entropy_abs.errortypes",
+                "field": "properties.drsm_entropy.errortypes",
                 "convert": {
                     "Gauss2s": "{\"0\" :   \"NORMAL\"}"
                 }
