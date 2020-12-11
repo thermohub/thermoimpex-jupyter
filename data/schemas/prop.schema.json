@@ -495,32 +495,28 @@
           "name": "lowerP",
           "typeId": "double",
           "doc": "Lower pressure limit - default 0.1 Pa\n",
-          "required": "req_out",
-          "default": 0.1
+          "required": "req_out"
         },
         {
           "key": 3,
           "name": "lowerT",
           "typeId": "double",
           "doc": "Lower temperature limit - default 273.15 K\n",
-          "required": "req_out",
-          "default": 273.15
+          "required": "req_out"
         },
         {
           "key": 4,
           "name": "upperP",
           "typeId": "double",
           "doc": "Upper pressure limit - default 1 GPa\n",
-          "required": "req_out",
-          "default": 1000000000
+          "required": "req_out"
         },
         {
           "key": 5,
           "name": "upperT",
           "typeId": "double",
           "doc": "Upper temperature limit - default 1273.15 K\n",
-          "required": "req_out",
-          "default": 1273.15
+          "required": "req_out"
         }
       ]
     },
