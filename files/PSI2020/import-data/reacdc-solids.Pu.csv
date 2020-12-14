@@ -1,0 +1,9 @@
+﻿Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
+PuO2(OH)2(am_hyd),PuO2(OH)2(am_hyd),Pu|+6|O2(OH)2,s,-5.17,0.65,,,,,,,1 PuO2+2 2 H2O(l) -2 H+ = PuO2(OH)2(am_hyd)
+(PuO2)3(PO4)2w4(am),(PuO2)3(PO4)2:4(H2O)(am),(Pu|+6|O2)3(PO4)2(H2O)4,s,48.97,0.69,,,,,,,3 PuO2+2 2 PO4-3 4 H2O(l) = (PuO2)3(PO4)2w4(am)
+PuO2CO3(cr),PuO2CO3(cr),Pu|+6|O2CO3,s,14.82,0.12,,,,,,,1 PuO2+2 1 CO3-2 = PuO2CO3(cr)
+PuO2OH(am),PuO2OH(am),Pu|+5|O2OH,s,-5.0,0.5,,,,,,,1 PuO2+ 1 H2O(l) -1 H+ = PuO2OH(am)
+PuO2(am_hyd),PuO2(am_hyd),Pu|+4|O2,s,2.33,0.52,,,,,,,1 Pu+4 2 H2O(l) -4 H+ = PuO2(am_hyd)
+Pu(HPO4)2(am_hyd),Pu(HPO4)2(am_hyd),Pu|+4|(HPO4)2,s,30.45,0.51,,,,,,,1 Pu+4 2 HPO4-2 = Pu(HPO4)2(am_hyd)
+Pu(OH)3(am),Pu(OH)3(am),Pu|+3|(OH)3,s,-14.58,0.75,,,,,,,1 Pu+3 3 H2O(l) -3 H+ = Pu(OH)3(am)
+PuPO4(am_hyd),PuPO4(am_hyd),Pu|+3|PO4,s,24.44,0.55,,,,,,,1 Pu+3 1 PO4-3 = PuPO4(am_hyd)

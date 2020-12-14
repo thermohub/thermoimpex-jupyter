@@ -1,0 +1,25 @@
+Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
+SiO(OH)3-,SiO(OH)3-,SiO(OH)3-,aq,-9.81,0.02,25.6,2,0,,0,300,1 Si(OH)4(aq) -1 H+ = SiO(OH)3-
+SiO2(OH)2-2,SiO2(OH)2-2,SiO2(OH)2-2,aq,-23.14,0.09,75,15,0,,60,200,1 Si(OH)4(aq) -2 H+ = SiO2(OH)2-2
+Si4O8(OH)4-4,Si4O8(OH)4-4,Si4O8(OH)4-4,aq,-36.28,0.16,,,,,,,4 Si(OH)4(aq) -4 H+ -4 H2O(l) = Si4O8(OH)4-4
+CaSiO(OH)3+,CaSiO(OH)3+,CaSiO(OH)3+,aq,1.17,0.13,,,,,,,1 Ca+2 1 SiO(OH)3- = CaSiO(OH)3+
+CaSiO2(OH)2(aq),CaSiO2(OH)2(aq),CaSiO2(OH)2(aq),aq,4.5,0.15,,,,,,,1 Ca+2 1 SiO2(OH)2-2 = CaSiO2(OH)2(aq)
+MgSiO(OH)3+,MgSiO(OH)3+,MgSiO(OH)3+,aq,1.36,0.14,,,,,,,1 Mg+2 1 SiO(OH)3- = MgSiO(OH)3+
+MgSiO2(OH)2(aq),MgSiO2(OH)2(aq),MgSiO2(OH)2(aq),aq,5.52,0.16,,,,,,,1 Mg+2 1 SiO2(OH)2-2 = MgSiO2(OH)2(aq)
+NiSiO(OH)3+,NiSiO(OH)3+,NiSiO(OH)3+,aq,6.3,,,,,,,,1 Ni+2 1 SiO(OH)3- = NiSiO(OH)3+
+AlSiO(OH)3+2,AlSiO(OH)3+2,AlSiO(OH)3+2,aq,-2.32,0.22,66.6,3,0,,25,300,1 Al+3 1 Si(OH)4(aq) -1 H+ = AlSiO(OH)3+2
+SiAlO3(OH)4-3,SiAlO3(OH)4-3,SiAlO3(OH)4-3,aq,-0.4,0.2,,,,,,,1 Al(OH)4- 1 SiO2(OH)2-2 -1 H2O(l) = SiAlO3(OH)4-3
+FeSiO(OH)3+2,FeSiO(OH)3+2,Fe|+3|SiO(OH)3+2,aq,9.69,0.06,,,,,,,1 Fe+3 1 SiO(OH)3- = FeSiO(OH)3+2
+EuSiO(OH)3+2,EuSiO(OH)3+2,EuSiO(OH)3+2,aq,7.8,0.5,14.5,2,0,,5,45,1 Eu+3 1 SiO(OH)3- = EuSiO(OH)3+2
+AmSiO(OH)3+2,AmSiO(OH)3+2,AmSiO(OH)3+2,aq,7.8,0.5,15,,,,,,1 Am+3 1 SiO(OH)3- = AmSiO(OH)3+2
+CmSiO(OH)3+2,CmSiO(OH)3+2,CmSiO(OH)3+2,aq,7.8,0.5,15.8,4,0,,5,45,1 Cm+3 1 SiO(OH)3- = CmSiO(OH)3+2
+Th(OH)3(SiO(OH)3)3-2,Th(OH)3(SiO(OH)3)3-2,Th(OH)3(SiO(OH)3)3-2,aq,-27.8,0.7,,,,,,,1 Th+4 3 Si(OH)4(aq) 3 H2O(l) -6 H+ = Th(OH)3(SiO(OH)3)3-2
+UO2SiO(OH)3+,UO2SiO(OH)3+,U|+6|O2SiO(OH)3+,aq,7.93,0.19,9.9,3,0,,5,45,1 UO2+2 1 SiO(OH)3- = UO2SiO(OH)3+
+NpSiO(OH)3+2,NpSiO(OH)3+2,Np|+3|SiO(OH)3+2,aq,7.8,0.5,15,,,,,,1 Np+3 1 SiO(OH)3- = NpSiO(OH)3+2
+PuSiO(OH)3+2,PuSiO(OH)3+2,Pu|+3|SiO(OH)3+2,aq,7.8,0.5,15,,,,,,1 Pu+3 1 SiO(OH)3- = PuSiO(OH)3+2
+NpSiO(OH)3+3,NpSiO(OH)3+3,Np|+4|SiO(OH)3+3,aq,11.15,0.18,,,,,,,1 Np+4 1 SiO(OH)3- = NpSiO(OH)3+3
+PuSiO(OH)3+3,PuSiO(OH)3+3,Pu|+4|SiO(OH)3+3,aq,11.88,0.18,,,,,,,1 Pu+4 1 SiO(OH)3- = PuSiO(OH)3+3
+NpO2SiO(OH)3(aq),NpO2SiO(OH)3(aq),Np|+5|O2SiO(OH)3(aq),aq,2.5,0.3,,,,,,,1 NpO2+ 1 SiO(OH)3- = NpO2SiO(OH)3(aq)
+PuO2SiO(OH)3(aq),PuO2SiO(OH)3(aq),Pu|+5|O2SiO(OH)3(aq),aq,2.5,0.3,,,,,,,1 PuO2+ 1 SiO(OH)3- = PuO2SiO(OH)3(aq)
+NpO2SiO(OH)3+,NpO2SiO(OH)3+,Np|+6|O2SiO(OH)3+,aq,7.2,,,,,,,,1 NpO2+2 1 SiO(OH)3- = NpO2SiO(OH)3+
+PuO2SiO(OH)3+,PuO2SiO(OH)3+,Pu|+6|O2SiO(OH)3+,aq,6.4,,,,,,,,1 PuO2+2 1 SiO(OH)3- = PuO2SiO(OH)3+

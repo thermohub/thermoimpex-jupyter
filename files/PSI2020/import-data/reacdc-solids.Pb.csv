@@ -1,0 +1,10 @@
+﻿Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
+PbO(s_red),PbO(s_red),PbO,s,-12.62,0.07,66.1,0.7,0,,20,350,1 Pb+2 1 H2O(l) -2 H+ = PbO(s_red)
+PbO(s_yellow),PbO(s_yellow),PbO,s,-12.9,0.08,,,,,,,1 Pb+2 1 H2O(l) -2 H+ = PbO(s_yellow)
+PbClOH(s),PbClOH(s),PbClOH,s,13.27,,,,,,,,1 Pb+2 1 Cl- 1 OH- = PbClOH(s)
+PbCO3(s),PbCO3(s),PbCO3,s,13.18,0.07,,,,,,,1 Pb+2 1 CO3-2 = PbCO3(s)
+Pb2(CO3)Cl2(s),Pb2(CO3)Cl2(s),Pb2(CO3)Cl2,s,19.86,0.16,,,,,,,2 Pb+2 1 CO3-2 2 Cl- = Pb2(CO3)Cl2(s)
+PbHPO4(s),PbHPO4(s),PbHPO4,s,11.4,0.3,,,,,,,1 Pb+2 1 HPO4-2 = PbHPO4(s)
+Pb3(PO4)2(s),Pb3(PO4)2(s),Pb3(PO4)2,s,44.4,1,,,,,,,3 Pb+2 2 PO4-3 = Pb3(PO4)2(s)
+Pb5(PO4)3Cl(s),Pb5(PO4)3Cl(s),Pb5(PO4)3Cl,s,84.4,2,,,,,,,5 Pb+2 3 PO4-3 1 Cl- = Pb5(PO4)3Cl(s)
+PbS(s),PbS(s),PbS|-2|,s,12.28,0.1,,,,,,,1 Pb+2 1 HS- -1 H+ = PbS(s)

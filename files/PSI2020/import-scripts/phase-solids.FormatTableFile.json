@@ -1,0 +1,84 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.sourcetdb" :   "{\"1001\" :   \"WORK1\"}",
+               "properties.symbol" :   "\"aq_sit\"",
+	       "properties.name" :   "\"aq_sit_psi2020\"",
+	       "properties.mixmod" :   "{\"0\" :   \"M_PURE\"}",
+	       "properties.aggregate_state" : "{\"3\" : \"AS_CRYSTAL\"}"
+          },
+          "matches" :   {
+               "Symbol" :   {
+                    "field" :   "properties.symbol",
+                    "ignore" :   false
+               },
+               "Name" :   {
+                    "field" :   "properties.name",
+                    "ignore" :   false
+               },
+               "agg_state" :   {
+                    "field" :   "properties.aggregate_state",
+                    "convert" :   {
+                         "aq" :   "{\"4\" :   \"AS_AQUEOUS\"}",
+                         "g" :   "{\"0\" :   \"AS_GAS\"}",
+                         "c" :   "{\"3\" :   \"AS_CRYSTAL\"}",
+                         "s" :   "{\"3\" :   \"AS_CRYSTAL\"}",
+                         "l" :   "{\"1\" :   \"AS_LIQUID\"}",
+                         "f" :   "{\"0\" :   \"AS_GAS\"}",
+                         "p" :   "{\"8\" :   \"AS_PLASMA\"}"
+                    }
+               },
+               "T-min" :   {
+                    "field" :   "properties.limitsTP.lowerT",
+		    "script": "field = field + 273.15"
+               },
+               "T-max" :   {
+                    "field" :   "properties.limitsTP.upperT",
+		    "script": "field = field + 273.15"
+               }
+          },
+          "script" :   "
+              -- symbol = rintable.properties.symbol
+               if rintable.properties.aggregate_state['3'] == 'AS_CRYSTAL' or
+                  rintable.properties.aggregate_state['1'] == 'AS_LIQUID'
+               then
+		-- print(symbol)
+	       else
+                  rintable = nil
+               end;"
+     },
+     "format" :   {
+          "Nhcols" :   5,
+          "Nhrows" :   1,
+          "headers" :   [
+               "Symbol",
+	       "Name",
+	       "agg_state",
+	       "T-min",
+	       "T-max"
+          ],
+          "rowend" :   "\n",
+          "rows_one_block" :   1,
+          "colends" :   ",",
+          "usequotes" :   false,
+          "usemore" :   false,
+          "comment_regexp" :   ""
+     },
+     "renderer" :   "",
+     "label" :   "VertexPhase",
+     "separators" :   {
+          "v_sep" :   ",",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0
+}

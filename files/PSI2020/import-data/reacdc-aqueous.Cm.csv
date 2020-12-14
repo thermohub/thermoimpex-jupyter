@@ -1,0 +1,22 @@
+﻿Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
+CmOH+2,CmOH+2,CmOH+2,aq,-7.2,0.5,,,,,,,1 Cm+3 1 H2O(l) -1 H+ = CmOH+2
+Cm(OH)2+,Cm(OH)2+,Cm(OH)2+,aq,-15.1,0.7,,,,,,,1 Cm+3 2 H2O(l) -2 H+ = Cm(OH)2+
+Cm(OH)3(aq),Cm(OH)3(aq),Cm(OH)3(aq),aq,-26.2,0.5,,,,,,,1 Cm+3 3 H2O(l) -3 H+ = Cm(OH)3(aq)
+CaCm(OH)3+2,CaCm(OH)3+2,CaCm(OH)3+2,aq,-26.3,0.5,,,,,,,1 Ca+2 1 Cm+3 3 H2O(l) -3 H+ = CaCm(OH)3+2
+Ca2Cm(OH)4+3,Ca2Cm(OH)4+3,Ca2Cm(OH)4+3,aq,-37.2,0.6,,,,,,,2 Ca+2 1 Cm+3 4 H2O(l) -4 H+ = Ca2Cm(OH)4+3
+Ca3Cm(OH)6+3,Ca3Cm(OH)6+3,Ca3Cm(OH)6+3,aq,-60.7,0.5,,,,,,,3 Ca+2 1 Cm+3 6 H2O(l) -6 H+ = Ca3Cm(OH)6+3
+CmF+2,CmF+2,CmF+2,aq,3.4,0.3,12.1,2.2,0,,20,90,1 Cm+3 1 F- = CmF+2
+CmF2+,CmF2+,CmF2+,aq,5.8,0.2,45.1,14.5,0,,20,90,1 Cm+3 2 F- = CmF2+
+CmCl+2,CmCl+2,CmCl+2,aq,0.24,0.35,,,,,,,1 Cm+3 1 Cl- = CmCl+2
+CmCl2+,CmCl2+,CmCl2+,aq,-0.81,0.35,54.9,4.5,0,,25,200,1 Cm+3 2 Cl- = CmCl2+
+CmSO4+,CmSO4+,CmSO4+,aq,3.50,0.30,40,4,0,,25,100,1 Cm+3 1 SO4-2 = CmSO4+
+Cm(SO4)2-,Cm(SO4)2-,Cm(SO4)2-,aq,5.0,1.0,70,7,0,,25,100,1 Cm+3 2 SO4-2 = Cm(SO4)2-
+CmNO3+2,CmNO3+2,CmNO3+2,aq,1.28,0.05,1.8,1.0,0,,5,80,1 Cm+3 1 NO3- = CmNO3+2
+Cm(NO3)2+,Cm(NO3)2+,Cm(NO3)2+,aq,0.88,0.11,10.8,2.2,0,,5,80,1 Cm+3 2 NO3- = Cm(NO3)2+
+CmH2PO4+2,CmH2PO4+2,CmH2PO4+2,aq,2.46,0.13,,,,,,,1 Cm+3 1 H2PO4- = CmH2PO4+2
+CmHPO4+,CmHPO4+,CmHPO4+,aq,6.2,0.8,,,,,,,1 Cm+3 1 HPO4-2 = CmHPO4+
+CmCO3+,CmCO3+,CmCO3+,aq,8,0.4,,,,,,,1 Cm+3 1 CO3-2 = CmCO3+
+Cm(CO3)2-,Cm(CO3)2-,Cm(CO3)2-,aq,12.9,0.4,,,,,,,1 Cm+3 2 CO3-2 = Cm(CO3)2-
+Cm(CO3)3-3,Cm(CO3)3-3,Cm(CO3)3-3,aq,15,0.5,,,,,,,1 Cm+3 3 CO3-2 = Cm(CO3)3-3
+CmHCO3+2,CmHCO3+2,CmHCO3+2,aq,3.1,0.3,,,,,,,1 Cm+3 1 HCO3- = CmHCO3+2
+CmSCN+2,CmSCN+2,CmS|0|C|0|N|-1|+2,aq,1.3,0.3,,,,,,,1 Cm+3 1 SCN- = CmSCN+2

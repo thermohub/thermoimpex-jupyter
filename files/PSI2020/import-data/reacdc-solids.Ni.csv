@@ -1,0 +1,7 @@
+﻿Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
+Ni(OH)2(cr),Ni(OH)2(cr_beta),Ni(OH)2,s,-11.02,0.2,84.340,,-22.602,,,,1 Ni+2 2 H2O(l) -2 H+ = Ni(OH)2(cr)
+NiO(cr),NiO(cr),NiO,s,-12.48,0.15,61.830,,-30.951,,,,1 Ni+2 1 H2O(l) -2 H+ = NiO(cr)
+NiCO3(cr),NiCO3(cr),NiCO3,s,11,0.18,16.689,,,,,,1 Ni+2 1 CO3-2 = NiCO3(cr)
+NiCO3w5.5(s),NiCO3:5.5H2O(s),NiCO3(H2O)5.5,s,7.53,0.1,-10.917,,,,,,1 Ni+2 1 CO3-2 5.5 H2O(l) = NiCO3w5.5(s)
+Ni3(AsO4)2w8(s),Ni3(AsO4)2:8H2O(s),Ni3(AsO4)2(H2O)8,s,28.1,0.5,48.962,,,,,,3 Ni+2 2 AsO4-3 8 H2O(l) = Ni3(AsO4)2w8(s)
+Ni3(AsO3)2(s),Ni3(AsO3)2:xH2O(s),Ni3(As|+3|O3)2,s,-28.7,0.7,,,,,,,3 Ni+2 2 As(OH)3(aq) -6 H+ = Ni3(AsO3)2(s)

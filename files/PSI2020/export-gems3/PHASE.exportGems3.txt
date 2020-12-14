@@ -1,8 +1,8 @@
-"s   As      As(cr)          c   WORK1           "
-"NNNNNNs-----"
-'As(cr)'
-'pure endmember'
-1 0 0 0 0 0 0 0 
+"a   aq_sit  aq_sit_psi2020  a   WORK1           "
+"SNNSNNa+----"
+'aq_sit_psi2020'
+'SIT model'
+125 0 244 1 2 0 0 0
 0 0 0 0 0 0 0 0 
 ^^0 0 -9~~
 ^^0 0 -5~~
@@ -10,20 +10,881 @@
 ^^0 0 -5~~
 ^^1 0 -9~~
 ^^1 0 -5~~
-^^0 0 -1~~
+^^244 2 -1~~
+7 41 
+7 102 
+14 41 
+14 102 
+15 41 
+15 102 
+8 41 
+8 102 
+9 41 
+9 102 
+17 41 
+17 102 
+0 41 
+0 102 
+10 41 
+10 102 
+11 41 
+11 102 
+12 41 
+12 102 
+1 41 
+1 102 
+2 41 
+2 102 
+3 41 
+3 102 
+4 41 
+4 102 
+5 41 
+5 102 
+6 41 
+6 102 
+13 41 
+13 102 
+16 41 
+16 102 
+18 41 
+18 102 
+20 41 
+20 102 
+21 41 
+21 102 
+19 41 
+19 102 
+22 41 
+22 102 
+23 41 
+23 102 
+24 41 
+24 102 
+25 41 
+25 102 
+26 41 
+26 102 
+27 41 
+27 102 
+28 41 
+28 102 
+29 41 
+29 102 
+30 41 
+30 102 
+35 41 
+35 102 
+36 41 
+36 102 
+37 41 
+37 102 
+38 41 
+38 102 
+39 41 
+39 102 
+40 41 
+40 102 
+31 41 
+31 102 
+32 41 
+32 102 
+33 41 
+33 102 
+34 41 
+34 102 
+42 41 
+42 102 
+43 41 
+43 102 
+123 41 
+123 102 
+44 41 
+44 102 
+45 41 
+45 102 
+53 41 
+53 102 
+57 41 
+57 102 
+46 41 
+46 102 
+54 41 
+54 102 
+47 41 
+47 102 
+48 41 
+48 102 
+49 41 
+49 102 
+50 41 
+50 102 
+51 41 
+51 102 
+52 41 
+52 102 
+55 41 
+55 102 
+56 41 
+56 102 
+58 41 
+58 102 
+59 41 
+59 102 
+60 41 
+60 102 
+61 41 
+61 102 
+62 41 
+62 102 
+63 41 
+63 102 
+64 41 
+64 102 
+65 41 
+65 102 
+66 41 
+66 102 
+67 41 
+67 102 
+68 41 
+68 102 
+69 41 
+69 102 
+70 41 
+70 102 
+71 41 
+71 102 
+72 41 
+72 102 
+73 41 
+73 102 
+74 41 
+74 102 
+75 41 
+75 102 
+76 41 
+76 102 
+77 41 
+77 102 
+78 41 
+78 102 
+79 41 
+79 102 
+90 41 
+90 102 
+91 41 
+91 102 
+92 41 
+92 102 
+93 41 
+93 102 
+80 41 
+80 102 
+81 41 
+81 102 
+83 41 
+83 102 
+84 41 
+84 102 
+82 41 
+82 102 
+85 41 
+85 102 
+86 41 
+86 102 
+87 41 
+87 102 
+88 41 
+88 102 
+89 41 
+89 102 
+94 41 
+94 102 
+95 41 
+95 102 
+96 41 
+96 102 
+97 41 
+97 102 
+98 41 
+98 102 
+103 41 
+103 102 
+104 41 
+104 102 
+105 41 
+105 102 
+106 41 
+106 102 
+107 41 
+107 102 
+99 41 
+99 102 
+100 41 
+100 102 
+101 41 
+101 102 
+108 41 
+108 102 
+122 41 
+122 102 
+109 41 
+109 102 
+110 41 
+110 102 
+111 41 
+111 102 
+113 41 
+113 102 
+112 41 
+112 102 
+114 41 
+114 102 
+115 41 
+115 102 
+116 41 
+116 102 
+117 41 
+117 102 
+118 41 
+118 102 
+119 41 
+119 102 
+120 41 
+120 102 
+121 41 
+121 102 
 ^^0 0 -5~~
-^^2 0 -5~~
+^^244 1 -5~~
+0.05 
+0 
+0 
+0 
+0 
+-0.05 
+0 
+0 
+0 
+-0.05 
+0 
+-0.05 
+0.33 
+0 
+1.21 
+0 
+0.36 
+0 
+0.51 
+0 
+0.15 
+0 
+0.05 
+0 
+0 
+0 
+0 
+-0.05 
+0 
+-0.1 
+0 
+-0.15 
+0.15 
+0 
+0 
+0 
+0.05 
+0 
+0 
+0 
+0 
+-0.05 
+0 
+-0.15 
+0 
+0 
+0 
+-0.07 
+0.07 
+0 
+0 
+0 
+0.05 
+0 
+0.05 
+0 
+0.05 
+0 
+0 
+0 
+0 
+0.05 
+0.14 
+0 
+0 
+0 
+0.1 
+0 
+0.05 
+0 
+0.05 
+0 
+0 
+0 
+0 
+0 
+0 
+0.07 
+0 
+0 
+0 
+-0.08 
+0.05 
+0 
+0 
+0.02 
+0.12 
+0 
+0 
+0 
+0 
+-0.01 
+0 
+-0.08 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-0.1 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-0.11 
+0 
+0 
+0 
+-0.15 
+0 
+-0.15 
+0 
+0.08 
+0 
+-0.05 
+0 
+-0.01 
+0 
+0.08 
+0 
+0 
+0 
+-0.05 
+0 
+-0.06 
+0 
+0 
+0 
+-0.05 
+0 
+0 
+0 
+0 
+0 
+-0.05 
+0.1 
+0 
+0 
+0 
+0 
+0 
+0 
+-0.05 
+0.19 
+0 
+0 
+0 
+-0.02 
+0 
+0.05 
+0 
+0.05 
+0 
+0 
+0 
+0 
+0 
+0.2 
+0 
+0 
+-0.05 
+0 
+-0.1 
+0.38 
+0 
+0.6 
+0 
+0.4 
+0 
+0.4 
+0 
+0 
+0 
+0.23 
+0 
+0.4 
+0 
+0.2 
+0 
+0 
+0 
+0.2 
+0 
+0.2 
+0 
+0.4 
+0 
+0.2 
+0 
+0 
+0 
+0 
+0 
+0 
+-0.05 
+0 
+0 
+0 
+0 
+0 
+0 
+0 
+-0.05 
+0 
+0 
+-0.01 
+0 
+0 
+-0.04 
+0 
+0 
+0 
+0.04 
+0 
+-0.26 
+0 
+-0.25 
+0 
+-0.1 
+0 
+-0.08 
+0 
+0.05 
+0 
+-0.08 
+0 
+-0.12 
+0.12 
+0 
+0 
+0 
+0.05 
+0 
+0.05 
+0 
+0.05 
+0 
+0 
+0 
 ^^1 0 -5~~
+^^125 1 32~~
+"a   Al      Al+3            WORK"
+"a   AlF     AlF+2           WORK"
+"a   AlF     AlF2+           WORK"
+"a   AlF     AlF3(aq)        WORK"
+"a   AlF     AlF4-           WORK"
+"a   AlF     AlF5-2          WORK"
+"a   AlF     AlF6-3          WORK"
+"a   AlOH    Al(OH)2+        WORK"
+"a   AlOH    Al(OH)3(aq)     WORK"
+"a   AlOH    Al(OH)4-        WORK"
+"a   AlOH    Al13(OH)32+7    WORK"
+"a   AlOH    Al2(OH)2+4      WORK"
+"a   AlOH    Al3(OH)4+5      WORK"
+"a   AlOH    AlOH+2          WORK"
+"a   AlOHF   Al(OH)2F(aq)    WORK"
+"a   AlOHF   Al(OH)2F2-      WORK"
+"a   AlOHF   AlOHF2(aq)      WORK"
+"a   AlSO    Al(SO4)2-       WORK"
+"a   AlSO    AlSO4+          WORK"
+"a   AsO     AsO4-3          WORK"
+"a   AsOH    As(OH)3(aq)     WORK"
+"a   AsOH    As(OH)4-        WORK"
+"a   BOH     B(OH)3(aq)      WORK"
+"a   BOH     B(OH)4-         WORK"
+"a   Ba      Ba+2            WORK"
+"a   BaCO    BaCO3(aq)       WORK"
+"a   BaF     BaF+            WORK"
+"a   BaHCO   BaHCO3+         WORK"
+"a   BaOH    BaOH+           WORK"
+"a   BaSO    BaSO4(aq)       WORK"
+"a   Br      Br-             WORK"
+"a   CH      CH4(aq)         WORK"
+"a   CN      CN-             WORK"
+"a   CO      CO2(aq)         WORK"
+"a   CO      CO3-2           WORK"
+"a   Ca      Ca+2            WORK"
+"a   CaCO    CaCO3(aq)       WORK"
+"a   CaF     CaF+            WORK"
+"a   CaHCO   CaHCO3+         WORK"
+"a   CaOH    CaOH+           WORK"
+"a   CaSO    CaSO4(aq)       WORK"
+"a   Cl      Cl-             WORK"
+"a   Cs      Cs+             WORK"
+"a   F       F-              WORK"
+"a   H       H2(aq)          WORK"
+"a   HAsO    H2AsO4-         WORK"
+"a   HAsO    H3AsO4(aq)      WORK"
+"a   HAsO    HAsO4-2         WORK"
+"a   HCN     HCN(aq)         WORK"
+"a   HCO     HCO3-           WORK"
+"a   HF      HF(aq)          WORK"
+"a   HF      HF2-            WORK"
+"a   HIO     HIO3(aq)        WORK"
+"a   HPO     H2PO4-          WORK"
+"a   HPO     H3PO4(aq)       WORK"
+"a   HPO     HP2O7-3         WORK"
+"a   HPO     HPO4-2          WORK"
+"a   HS      H2S(aq)         WORK"
+"a   HS      HS-             WORK"
+"a   HSO     HSO3-           WORK"
+"a   HSO     HSO4-           WORK"
+"a   I       I-              WORK"
+"a   I       I2(aq)          WORK"
+"a   II      I3-             WORK"
+"a   IO      IO3-            WORK"
+"a   K       K+              WORK"
+"a   KCO     KCO3-           WORK"
+"a   KHCO    KHCO3(aq)       WORK"
+"a   KOH     KOH(aq)         WORK"
+"a   KSO     KSO4-           WORK"
+"a   Li      Li+             WORK"
+"a   LiF     LiF(aq)         WORK"
+"a   LiOH    LiOH(aq)        WORK"
+"a   LiSO    LiSO4-          WORK"
+"a   Mg      Mg+2            WORK"
+"a   MgCO    MgCO3(aq)       WORK"
+"a   MgF     MgF+            WORK"
+"a   MgHCO   MgHCO3+         WORK"
+"a   MgOH    MgOH+           WORK"
+"a   MgSO    MgSO4(aq)       WORK"
+"a   Mn      Mn+2            WORK"
+"a   Mn      Mn+3            WORK"
+"a   MnCO    MnCO3(aq)       WORK"
+"a   MnCl    MnCl+           WORK"
+"a   MnCl    MnCl+2          WORK"
+"a   MnF     MnF+            WORK"
+"a   MnF     MnF+2           WORK"
+"a   MnF     MnF2+           WORK"
+"a   MnF     MnF3(aq)        WORK"
+"a   MnHCO   MnHCO3+         WORK"
+"a   MnOH    Mn(OH)2(aq)     WORK"
+"a   MnOH    Mn(OH)2+        WORK"
+"a   MnOH    Mn(OH)3-        WORK"
+"a   MnOH    Mn(OH)4-2       WORK"
+"a   MnOH    MnOH+           WORK"
+"a   MnOH    MnOH+2          WORK"
+"a   MnOHF   MnOHF+          WORK"
+"a   MnSO    MnSO4(aq)       WORK"
+"a   N       N2(aq)          WORK"
+"a   NH      NH3(aq)         WORK"
+"a   NH      NH4+            WORK"
+"a   NO      NO3-            WORK"
+"a   Na      Na+             WORK"
+"a   NaCO    NaCO3-          WORK"
+"a   NaF     NaF(aq)         WORK"
+"a   NaHCO   NaHCO3(aq)      WORK"
+"a   NaOH    NaOH(aq)        WORK"
+"a   NaSO    NaSO4-          WORK"
+"a   O       O2(aq)          WORK"
+"a   PO      P2O7-4          WORK"
+"a   PO      PO4-3           WORK"
+"a   S       S-2             WORK"
+"a   SCN     SCN-            WORK"
+"a   SO      S2O3-2          WORK"
+"a   SO      SO3-2           WORK"
+"a   SO      SO4-2           WORK"
+"a   Sr      Sr+2            WORK"
+"a   SrCO    SrCO3(aq)       WORK"
+"a   SrF     SrF+            WORK"
+"a   SrHCO   SrHCO3+         WORK"
+"a   SrOH    SrOH+           WORK"
+"a   SrSO    SrSO4(aq)       WORK"
+"a   wX      OH-             WORK"
+"a   wY_     H+              WORK"
+"a   wZ_     H2O(l)          WORK"
+^^125 1 -9~~
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+T
+W
+^^125 1 -9~~
+d
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+d
+r
+d
+r
+r
+r
+r
+r
+d
+r
+r
+r
+r
+d
+r
+r
+r
+r
+r
+d
+d
+d
+r
+r
+r
+d
+r
+d
+r
+r
+r
+r
+r
+r
+d
+r
+r
+r
+r
+d
+r
+r
+r
+d
+r
+r
+r
+r
+d
+r
+r
+r
+d
+r
+r
+r
+r
+r
+d
+d
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+d
+d
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+r
+d
+d
+r
+r
+r
+r
+r
+r
+d
+d
+^^1 0 0~~
+^^1 0 0~~
 ^^1 1 32~~
-"s   As      As(cr)          WORK"
-^^1 1 -9~~
-O 
-^^1 1 -9~~
-r 
-^^1 0 0~~
-^^1 0 0~~
-^^0 0 32~~
-^^0 0 24~~
+"Pitzer setup"
+^^1 0 24~~
 "----------------NNNNNNNN"
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
 0 1 1 0 0 0 0 0 
@@ -43,136 +904,253 @@ r
 ^^0 0 32~~
 ^^0 0 -9~~
 ^^1 0 16~~
-^^2 0 16~~
-^^1 0 16~~
-^^1 0 16~~
-^^0 0 16~~
-^^1 0 16~~
-^^1 0 16~~
-^^1 0 16~~
-^^1 0 16~~
-^^1 0 16~~
-^^0 0 -9~~
-^^2 0 -9~~
-^^2 0 -1~~
-^^2 0 -1~~
-^^0 0 -5~~
-^^0 0 -5~~
-^^1 0 -5~~
-^^0 0 -5~~
-^^1 0 -5~~
-^^1 0 8~~
-"s   C       C(cr)           c   WORK1           "
-"NNNNNNs-----"
-'C(cr)'
-'pure endmember'
-1 0 0 0 0 0 0 0 
-0 0 0 0 0 0 0 0 
-^^0 0 -9~~
-^^0 0 -5~~
-^^0 0 -5~~
-^^0 0 -5~~
-^^1 0 -9~~
-^^1 0 -5~~
-^^0 0 -1~~
-^^0 0 -5~~
-^^2 0 -5~~
-^^1 0 -5~~
-^^1 1 32~~
-"s   C       C(cr)           WORK"
-^^1 1 -9~~
-O 
-^^1 1 -9~~
-r 
-^^1 0 0~~
-^^1 0 0~~
-^^0 0 32~~
-^^0 0 24~~
-"----------------NNNNNNNN"
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
-0 1 1 0 0 0 0 0 
-^^1 0 -1~~
-^^0 0 -1~~
-^^0 0 -5~~
-^^1 0 -5~~
-^^1 0 -5~~
-^^0 0 -5~~
-^^1 0 -5~~
-^^1 0 -5~~
-^^0 0 -5~~
-^^0 0 -5~~
-^^0 0 -5~~
-^^1 0 -5~~
-^^0 0 48~~
-^^0 0 32~~
-^^0 0 -9~~
-^^1 0 16~~
-^^2 0 16~~
-^^1 0 16~~
-^^1 0 16~~
-^^0 0 16~~
-^^1 0 16~~
-^^1 0 16~~
-^^1 0 16~~
-^^1 0 16~~
-^^1 0 16~~
-^^0 0 -9~~
-^^2 0 -9~~
-^^2 0 -1~~
-^^2 0 -1~~
-^^0 0 -5~~
-^^0 0 -5~~
-^^1 0 -5~~
-^^0 0 -5~~
-^^1 0 -5~~
-^^1 0 8~~
-"s   S       S(rhomb)        c   WORK1           "
-"NNNNNNs-----"
-'S(rhomb)'
-'pure endmember'
-1 0 0 0 0 0 0 0 
-0 0 0 0 0 0 0 0 
-^^0 0 -9~~
-^^0 0 -5~~
-^^0 0 -5~~
-^^0 0 -5~~
-^^1 0 -9~~
-^^1 0 -5~~
-^^0 0 -1~~
-^^0 0 -5~~
-^^2 0 -5~~
-^^1 0 -5~~
-^^1 1 32~~
-"s   S       S(rhomb)        WORK"
-^^1 1 -9~~
-O 
-^^1 1 -9~~
-r 
-^^1 0 0~~
-^^1 0 0~~
-^^0 0 32~~
-^^0 0 24~~
-"----------------NNNNNNNN"
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
-0 1 1 0 0 0 0 0 
-^^1 0 -1~~
-^^0 0 -1~~
-^^0 0 -5~~
-^^1 0 -5~~
-^^1 0 -5~~
-^^0 0 -5~~
-^^1 0 -5~~
-^^1 0 -5~~
-^^0 0 -5~~
-^^0 0 -5~~
-^^0 0 -5~~
-^^1 0 -5~~
-^^0 0 48~~
-^^0 0 32~~
-^^0 0 -9~~
-^^1 0 16~~
-^^2 0 16~~
-^^1 0 16~~
+^^244 1 16~~
+"Al(OH)2+_Cl-"
+"Al(OH)2+_Na+"
+"Al(OH)2F(aq)_Cl-"
+"Al(OH)2F(aq)_Na+"
+"Al(OH)2F2-_Cl-"
+"Al(OH)2F2-_Na+"
+"Al(OH)3(aq)_Cl-"
+"Al(OH)3(aq)_Na+"
+"Al(OH)4-_Cl-"
+"Al(OH)4-_Na+"
+"Al(SO4)2-_Cl-"
+"Al(SO4)2-_Na+"
+"Al+3_Cl-"
+"Al+3_Na+"
+"Al13(OH)32+7_Cl-"
+"Al13(OH)32+7_Na+"
+"Al2(OH)2+4_Cl-"
+"Al2(OH)2+4_Na+"
+"Al3(OH)4+5_Cl-"
+"Al3(OH)4+5_Na+"
+"AlF+2_Cl-"
+"AlF+2_Na+"
+"AlF2+_Cl-"
+"AlF2+_Na+"
+"AlF3(aq)_Cl-"
+"AlF3(aq)_Na+"
+"AlF4-_Cl-"
+"AlF4-_Na+"
+"AlF5-2_Cl-"
+"AlF5-2_Na+"
+"AlF6-3_Cl-"
+"AlF6-3_Na+"
+"AlOH+2_Cl-"
+"AlOH+2_Na+"
+"AlOHF2(aq)_Cl-"
+"AlOHF2(aq)_Na+"
+"AlSO4+_Cl-"
+"AlSO4+_Na+"
+"As(OH)3(aq)_Cl-"
+"As(OH)3(aq)_Na+"
+"As(OH)4-_Cl-"
+"As(OH)4-_Na+"
+"AsO4-3_Cl-"
+"AsO4-3_Na+"
+"B(OH)3(aq)_Cl-"
+"B(OH)3(aq)_Na+"
+"B(OH)4-_Cl-"
+"B(OH)4-_Na+"
+"Ba+2_Cl-"
+"Ba+2_Na+"
+"BaCO3(aq)_Cl-"
+"BaCO3(aq)_Na+"
+"BaF+_Cl-"
+"BaF+_Na+"
+"BaHCO3+_Cl-"
+"BaHCO3+_Na+"
+"BaOH+_Cl-"
+"BaOH+_Na+"
+"BaSO4(aq)_Cl-"
+"BaSO4(aq)_Na+"
+"Br-_Cl-"
+"Br-_Na+"
+"Ca+2_Cl-"
+"Ca+2_Na+"
+"CaCO3(aq)_Cl-"
+"CaCO3(aq)_Na+"
+"CaF+_Cl-"
+"CaF+_Na+"
+"CaHCO3+_Cl-"
+"CaHCO3+_Na+"
+"CaOH+_Cl-"
+"CaOH+_Na+"
+"CaSO4(aq)_Cl-"
+"CaSO4(aq)_Na+"
+"CH4(aq)_Cl-"
+"CH4(aq)_Na+"
+"CN-_Cl-"
+"CN-_Na+"
+"CO2(aq)_Cl-"
+"CO2(aq)_Na+"
+"CO3-2_Cl-"
+"CO3-2_Na+"
+"Cs+_Cl-"
+"Cs+_Na+"
+"F-_Cl-"
+"F-_Na+"
+"H+_Cl-"
+"H+_Na+"
+"H2(aq)_Cl-"
+"H2(aq)_Na+"
+"H2AsO4-_Cl-"
+"H2AsO4-_Na+"
+"H2PO4-_Cl-"
+"H2PO4-_Na+"
+"H2S(aq)_Cl-"
+"H2S(aq)_Na+"
+"H3AsO4(aq)_Cl-"
+"H3AsO4(aq)_Na+"
+"H3PO4(aq)_Cl-"
+"H3PO4(aq)_Na+"
+"HAsO4-2_Cl-"
+"HAsO4-2_Na+"
+"HCN(aq)_Cl-"
+"HCN(aq)_Na+"
+"HCO3-_Cl-"
+"HCO3-_Na+"
+"HF(aq)_Cl-"
+"HF(aq)_Na+"
+"HF2-_Cl-"
+"HF2-_Na+"
+"HIO3(aq)_Cl-"
+"HIO3(aq)_Na+"
+"HP2O7-3_Cl-"
+"HP2O7-3_Na+"
+"HPO4-2_Cl-"
+"HPO4-2_Na+"
+"HS-_Cl-"
+"HS-_Na+"
+"HSO3-_Cl-"
+"HSO3-_Na+"
+"HSO4-_Cl-"
+"HSO4-_Na+"
+"I-_Cl-"
+"I-_Na+"
+"I2(aq)_Cl-"
+"I2(aq)_Na+"
+"I3-_Cl-"
+"I3-_Na+"
+"IO3-_Cl-"
+"IO3-_Na+"
+"K+_Cl-"
+"K+_Na+"
+"KCO3-_Cl-"
+"KCO3-_Na+"
+"KHCO3(aq)_Cl-"
+"KHCO3(aq)_Na+"
+"KOH(aq)_Cl-"
+"KOH(aq)_Na+"
+"KSO4-_Cl-"
+"KSO4-_Na+"
+"Li+_Cl-"
+"Li+_Na+"
+"LiF(aq)_Cl-"
+"LiF(aq)_Na+"
+"LiOH(aq)_Cl-"
+"LiOH(aq)_Na+"
+"LiSO4-_Cl-"
+"LiSO4-_Na+"
+"Mg+2_Cl-"
+"Mg+2_Na+"
+"MgCO3(aq)_Cl-"
+"MgCO3(aq)_Na+"
+"MgF+_Cl-"
+"MgF+_Na+"
+"MgHCO3+_Cl-"
+"MgHCO3+_Na+"
+"MgOH+_Cl-"
+"MgOH+_Na+"
+"MgSO4(aq)_Cl-"
+"MgSO4(aq)_Na+"
+"Mn(OH)2(aq)_Cl-"
+"Mn(OH)2(aq)_Na+"
+"Mn(OH)2+_Cl-"
+"Mn(OH)2+_Na+"
+"Mn(OH)3-_Cl-"
+"Mn(OH)3-_Na+"
+"Mn(OH)4-2_Cl-"
+"Mn(OH)4-2_Na+"
+"Mn+2_Cl-"
+"Mn+2_Na+"
+"Mn+3_Cl-"
+"Mn+3_Na+"
+"MnCl+_Cl-"
+"MnCl+_Na+"
+"MnCl+2_Cl-"
+"MnCl+2_Na+"
+"MnCO3(aq)_Cl-"
+"MnCO3(aq)_Na+"
+"MnF+_Cl-"
+"MnF+_Na+"
+"MnF+2_Cl-"
+"MnF+2_Na+"
+"MnF2+_Cl-"
+"MnF2+_Na+"
+"MnF3(aq)_Cl-"
+"MnF3(aq)_Na+"
+"MnHCO3+_Cl-"
+"MnHCO3+_Na+"
+"MnOH+_Cl-"
+"MnOH+_Na+"
+"MnOH+2_Cl-"
+"MnOH+2_Na+"
+"MnOHF+_Cl-"
+"MnOHF+_Na+"
+"MnSO4(aq)_Cl-"
+"MnSO4(aq)_Na+"
+"N2(aq)_Cl-"
+"N2(aq)_Na+"
+"NaCO3-_Cl-"
+"NaCO3-_Na+"
+"NaF(aq)_Cl-"
+"NaF(aq)_Na+"
+"NaHCO3(aq)_Cl-"
+"NaHCO3(aq)_Na+"
+"NaOH(aq)_Cl-"
+"NaOH(aq)_Na+"
+"NaSO4-_Cl-"
+"NaSO4-_Na+"
+"NH3(aq)_Cl-"
+"NH3(aq)_Na+"
+"NH4+_Cl-"
+"NH4+_Na+"
+"NO3-_Cl-"
+"NO3-_Na+"
+"O2(aq)_Cl-"
+"O2(aq)_Na+"
+"OH-_Cl-"
+"OH-_Na+"
+"P2O7-4_Cl-"
+"P2O7-4_Na+"
+"PO4-3_Cl-"
+"PO4-3_Na+"
+"S-2_Cl-"
+"S-2_Na+"
+"S2O3-2_Cl-"
+"S2O3-2_Na+"
+"SCN-_Cl-"
+"SCN-_Na+"
+"SO3-2_Cl-"
+"SO3-2_Na+"
+"SO4-2_Cl-"
+"SO4-2_Na+"
+"Sr+2_Cl-"
+"Sr+2_Na+"
+"SrCO3(aq)_Cl-"
+"SrCO3(aq)_Na+"
+"SrF+_Cl-"
+"SrF+_Na+"
+"SrHCO3+_Cl-"
+"SrHCO3+_Na+"
+"SrOH+_Cl-"
+"SrOH+_Na+"
+"SrSO4(aq)_Cl-"
+"SrSO4(aq)_Na+"
+^^1 1 16~~
+"1"
 ^^1 0 16~~
 ^^0 0 16~~
 ^^1 0 16~~
