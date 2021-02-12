@@ -37,7 +37,7 @@
                }
           },
           "script" :   "rintable.properties.name = rintable.properties.formula;\n rintable.properties.symbol = string.match(rintable.properties.formula, \'(%a%a?%a?)\');\nist = string.match(rintable.properties.formula, \'%(([^%)]+)%)\');\n
-                         if ist then  rintable.properties.isotope_mass = ist\n   rintable.properties.class_ = {} rintable.properties.class_['1'] = 'ISOTOPE' end"
+                         if ist then  rintable.properties.isotope_mass = tonumber(ist)\n   rintable.properties.class_ = {} rintable.properties.class_['1'] = 'ISOTOPE' end"
      },
      "format" :   {
           "Nhcols" :   6,
