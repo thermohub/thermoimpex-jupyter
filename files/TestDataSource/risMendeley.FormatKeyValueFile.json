@@ -54,7 +54,7 @@
                     "field" :   "properties.booktitle"
                },
                "UR" :   {
-                    "field" :   "properties.links"
+                    "field" :   "properties.links.link1"
                },
                "EP" :   {
                     "field" :   "properties.pages"
@@ -72,7 +72,7 @@
                     "field" :   "properties.booktitle"
                },
                "DO" :   {
-                    "field" :   "properties.identifiers"
+                    "field" :   "properties.identifiers.DOI"
                },
                "KW" :   {
                     "field" :   "properties.keywords"

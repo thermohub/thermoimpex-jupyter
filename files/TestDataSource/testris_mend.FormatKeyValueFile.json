@@ -60,7 +60,7 @@
                     "field" :   "properties.booktitle"
                },
                "UR" :   {
-                    "field" :   "properties.links"
+                    "field" :   "properties.links.link1"
                },
                "EP" :   {
                     "field" :   "properties.pages"
@@ -78,13 +78,13 @@
                     "field" :   "properties.booktitle"
                },
                "DO" :   {
-                    "field" :   "properties.identifiers"
+                    "field" :   "properties.identifiers.DOI"
                },
                 "KW" :   {
                     "field" :   "properties.keywords"
                }
           },
-          "script" :   "if rintable.properties.shortname == \'\'  or rintable.properties.shortname == nil then rintable.properties.shortname = rintable.properties.author[1] end; if rintable.properties.bibliographic_type ~= '{\"1\": \"BOOK\"}' then rintable.properties.booktitle = \'\' end; if rintable.properties.bibliographic_type == '{\"1\": \"BOOK\"}' then rintable.properties.booktitle = rintable.properties.title end;
+          "script" :   "if rintable.properties.shortname == ''  or rintable.properties.shortname == nil then rintable.properties.shortname = rintable.properties.author[1] end; if rintable.properties.bibliographic_type ~= '{\"1\": \"BOOK\"}' then rintable.properties.booktitle = \'\' end; if rintable.properties.bibliographic_type == '{\"1\": \"BOOK\"}' then rintable.properties.booktitle = rintable.properties.title end;
           size = 0
           for k,v in pairs(rintable.properties.author) do size = size+1 end
           year = rintable.properties.year
