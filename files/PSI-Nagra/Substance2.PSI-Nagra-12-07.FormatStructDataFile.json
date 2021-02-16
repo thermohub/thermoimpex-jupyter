@@ -279,9 +279,10 @@ if rintable.properties.temp_import[1].values ~= nil then
     end
 end;
 
-if rintable.properties.aq_edh_props ~= nil then
+if rintable.properties.aq_edh_props ~= nil and next(rintable.properties.aq_edh_props.values) ~= nil then
      rintable.properties.aq_edh_props.names = {'a0','b'}
      rintable.properties.aq_edh_props.units = {'Å'}
+else  rintable.properties.aq_edh_props = nil
 end
 if rintable.properties.sm_volume ~= nil then rintable.properties.sm_volume.units = {'J/bar'} end 
 if rintable.properties.sm_gibbs_energy ~= nil then rintable.properties.sm_gibbs_energy.units = {'J/mol'} end
