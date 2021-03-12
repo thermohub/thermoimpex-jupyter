@@ -38,17 +38,10 @@
                     "convert" :   {
 
                     }
-               },
-               "atomic" :   {
-                    "field" :   "properties.number",
-                    "ignore" :   false,
-                    "script" :   "",
-                    "convert" :   {
-
-                    }
                }
           },
-          "script" :   " if( rintable.properties.isotope_mass ~= 0 ) \n          then rintable.properties.symbol = rintable.properties.symbol..\'(\'..rintable.properties.isotope_mass..\')\' end"
+          "script" :   " if( rintable.properties.valences ~= nill ) \n          then rintable.properties.symbol = rintable.properties.symbol..\'(\'..rintable.properties.valences.values[1]..\')\' end;
+if rintable.properties.formula == \'Zz\' then rintable.properties.formula = \'e-\' rintable.properties.symbol = \'E\' end"
      },
      "format" :   {
           "Nhcols" :   6,

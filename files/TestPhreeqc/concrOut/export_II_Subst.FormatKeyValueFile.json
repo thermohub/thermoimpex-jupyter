@@ -29,13 +29,13 @@
                "gamma" :   {
                     "field" :   "properties.aq_edh_props.values",
                     "ignore" :   false,
-                    "script" :   "",
+                    "script" :   "if field[1] == -1 then field[1] = 0.0 end; if field[1] == 4 and field[2] == 0 then field[2] = 0.064 end;",
                     "convert" :   {
 
                     }
                }
           },
-          "script" :   "if rintable.properties.formula == \'Zz\' then rintable.properties.formula = \'e-\' end"
+          "script" :   "if rintable.properties.formula == \'-1\' then rintable.properties.formula = \'e-\' end"
      },
      "format" :   {
           "head_regexp" :   "\n%head2\t=\t%head2\n",
