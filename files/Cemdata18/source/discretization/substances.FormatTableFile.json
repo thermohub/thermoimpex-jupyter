@@ -1,0 +1,81 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.sourcetdb" :   "{\"20\" : \"CEMDATA18\"}",
+               "properties.Tst" :   "298.15",
+               "properties.Pst" :   "1e05",
+	       "properties.datasources" : "[\"CSH discrete \"]",
+               "properties.aggregate_state" : "{\"3\" : \"AS_CRYSTAL\"}",
+               "properties.class_" : "{\"0\" : \"SC_COMPONENT\"}"
+          },
+          "matches" :   {
+               "symbol" :   {
+                    "field" :   "properties.symbol",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "formula" :   {
+                    "field" :   "properties.formula"
+               },
+               "G0(CSH)ic" :   {
+                    "field" :   "properties.sm_gibbs_energy.values",
+                    "script" :  "field[1] = field[1]*1000",
+                    "ignore" :   false
+               },
+               "H0(CSH)" :   {
+                    "field" :   "properties.sm_enthalpy.values",
+                    "script" :  "field[1] = field[1]*1000",
+                    "ignore" :   false
+               },
+               "MolVolCSH" :   {
+                    "field" :   "properties.sm_volume.values",
+                    "ignore" :   false
+               },
+               "Cp0(CSH)" :   {
+                    "field" :   "properties.sm_heat_capacity_p.values"
+               },
+               "MolMassCSH" :   {
+                    "field" :   "properties.mass_per_mole",
+                    "script" :  "field = field*1000"
+               }
+          },
+          "script" :   ""
+     },
+     "format" :   {
+          "Nhcols" :   9,
+          "Nhrows" :   1,
+          "headers" :   [
+               "symbol",
+               "formula",
+               "MolMassCSH",
+               "MolVolCSH",
+               "G0(CSH)ic",
+               "G0(CSH)dc",
+               "H0(CSH)",
+               "Cp0(CSH)"
+          ],
+          "rowend" :   "\n",
+          "rows_one_block" :   1,
+          "colends" :   ",",
+          "usequotes" :   false,
+          "usemore" :   false,
+          "comment_regexp" :   ""
+     },
+     "renderer" :   "",
+     "label" :   "VertexSubstance",
+     "separators" :   {
+          "v_sep" :   ",",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0
+}
