@@ -1,14 +1,14 @@
 [
      {
-          "_id" :   "substances/Ca4Al2O6(CrO4):15H2O(s);0:SC_COMPONENT;1001:WORK1",
-          "_key" :   "Ca4Al2O6(CrO4):15H2O(s);0:SC_COMPONENT;1001:WORK1",
+          "_id" :   "substances/Ca4Al2O6(CrO4):15H2O(s);0:SC_COMPONENT;25:THERMOCHIMIE",
+          "_key" :   "Ca4Al2O6(CrO4):15H2O(s);0:SC_COMPONENT;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsDW--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Ca4Al2O6(CrO4):15H2O(s)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "Ca4Al2O6(CrO4)(H2O)15",
                "name" :   "_rdc_Ca4Al2O6(CrO4):15H2O",
@@ -72,15 +72,15 @@
           }
      },
      {
-          "_id" :   "substances/Ca6(Al(OH)6)2(CrO4)3:26H2O(s);0:SC_COMPONENT;1001:WORK1",
-          "_key" :   "Ca6(Al(OH)6)2(CrO4)3:26H2O(s);0:SC_COMPONENT;1001:WORK1",
+          "_id" :   "substances/Ca6(Al(OH)6)2(CrO4)3:26H2O(s);0:SC_COMPONENT;25:THERMOCHIMIE",
+          "_key" :   "Ca6(Al(OH)6)2(CrO4)3:26H2O(s);0:SC_COMPONENT;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsEC--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Ca6(Al(OH)6)2(CrO4)3:26H2O(s)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "Ca6(Al(OH)6)2(CrO4)3(H2O)26",
                "name" :   "_rdc_Ca6(Al(OH)6)2(CrO4)3:26H2O",
@@ -144,15 +144,15 @@
           }
      },
      {
-          "_id" :   "substances/CaCrO4(s);0:SC_COMPONENT;1001:WORK1",
-          "_key" :   "CaCrO4(s);0:SC_COMPONENT;1001:WORK1",
+          "_id" :   "substances/CaCrO4(s);0:SC_COMPONENT;25:THERMOCHIMIE",
+          "_key" :   "CaCrO4(s);0:SC_COMPONENT;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsF2--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "CaCrO4(s)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "CaCrO4",
                "name" :   "_rdc_CaCrO4",
@@ -216,15 +216,15 @@
           }
      },
      {
-          "_id" :   "substances/CaCrO4;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "CaCrO4;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/CaCrO4;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "CaCrO4;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsEq--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "CaCrO4",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "CaCrO4",
                "name" :   "_rdc_CaCrO4",
@@ -263,15 +263,15 @@
           }
      },
      {
-          "_id" :   "substances/Cr(cr);0:SC_COMPONENT;1001:WORK1",
-          "_key" :   "Cr(cr);0:SC_COMPONENT;1001:WORK1",
+          "_id" :   "substances/Cr(cr);0:SC_COMPONENT;25:THERMOCHIMIE",
+          "_key" :   "Cr(cr);0:SC_COMPONENT;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsXa--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Cr(cr)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "Cr",
                "name" :   "_rdc_Cr",
@@ -335,15 +335,15 @@
           }
      },
      {
-          "_id" :   "substances/Cr(H2PO4)+2;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "Cr(H2PO4)+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/Cr(H2PO4)+2;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "Cr(H2PO4)+2;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsHS--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Cr(H2PO4)+2",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "Cr(H2PO4)+2",
                "name" :   "_rdc_Cr(H2PO4)+2",
@@ -382,15 +382,15 @@
           }
      },
      {
-          "_id" :   "substances/Cr(HPO4)+;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "Cr(HPO4)+;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/Cr(HPO4)+;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "Cr(HPO4)+;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsH6--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Cr(HPO4)+",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "Cr(HPO4)+",
                "name" :   "_rdc_Cr(HPO4)+",
@@ -429,15 +429,15 @@
           }
      },
      {
-          "_id" :   "substances/Cr(OH)(CO3)2-2;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "Cr(OH)(CO3)2-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/Cr(OH)(CO3)2-2;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "Cr(OH)(CO3)2-2;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsI2--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Cr(OH)(CO3)2-2",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "Cr(OH)(CO3)2-2",
                "name" :   "_rdc_Cr(OH)(CO3)2-2",
@@ -476,15 +476,15 @@
           }
      },
      {
-          "_id" :   "substances/Cr(OH)+;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "Cr(OH)+;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/Cr(OH)+;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "Cr(OH)+;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsJy--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Cr(OH)+",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "Cr(OH)+",
                "name" :   "_rdc_Cr(OH)+",
@@ -549,15 +549,15 @@
           }
      },
      {
-          "_id" :   "substances/Cr(OH)+2;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "Cr(OH)+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/Cr(OH)+2;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "Cr(OH)+2;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsKi--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Cr(OH)+2",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "Cr(OH)+2",
                "name" :   "_rdc_Cr(OH)+2",
@@ -622,15 +622,15 @@
           }
      },
      {
-          "_id" :   "substances/Cr(OH)2(cr);0:SC_COMPONENT;1001:WORK1",
-          "_key" :   "Cr(OH)2(cr);0:SC_COMPONENT;1001:WORK1",
+          "_id" :   "substances/Cr(OH)2(cr);0:SC_COMPONENT;25:THERMOCHIMIE",
+          "_key" :   "Cr(OH)2(cr);0:SC_COMPONENT;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsMC--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Cr(OH)2(cr)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "Cr(OH)2",
                "name" :   "_rdc_Cr(OH)2",
@@ -694,15 +694,15 @@
           }
      },
      {
-          "_id" :   "substances/Cr(OH)2(H2PO4)(s);0:SC_COMPONENT;1001:WORK1",
-          "_key" :   "Cr(OH)2(H2PO4)(s);0:SC_COMPONENT;1001:WORK1",
+          "_id" :   "substances/Cr(OH)2(H2PO4)(s);0:SC_COMPONENT;25:THERMOCHIMIE",
+          "_key" :   "Cr(OH)2(H2PO4)(s);0:SC_COMPONENT;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsLK--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Cr(OH)2(H2PO4)(s)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "Cr(OH)2(H2PO4)",
                "name" :   "_rdc_Cr(OH)2(H2PO4)",
@@ -740,15 +740,15 @@
           }
      },
      {
-          "_id" :   "substances/Cr(OH)2+;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "Cr(OH)2+;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/Cr(OH)2+;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "Cr(OH)2+;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsNC--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Cr(OH)2+",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "Cr(OH)2+",
                "name" :   "_rdc_Cr(OH)2+",
@@ -813,15 +813,15 @@
           }
      },
      {
-          "_id" :   "substances/Cr(OH)3(cr);0:SC_COMPONENT;1001:WORK1",
-          "_key" :   "Cr(OH)3(cr);0:SC_COMPONENT;1001:WORK1",
+          "_id" :   "substances/Cr(OH)3(cr);0:SC_COMPONENT;25:THERMOCHIMIE",
+          "_key" :   "Cr(OH)3(cr);0:SC_COMPONENT;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsRi--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Cr(OH)3(cr)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "Cr(OH)3",
                "name" :   "_rdc_Cr(OH)3",
@@ -885,15 +885,15 @@
           }
      },
      {
-          "_id" :   "substances/Cr(OH)3;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "Cr(OH)3;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/Cr(OH)3;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "Cr(OH)3;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsNy--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Cr(OH)3",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "Cr(OH)3",
                "name" :   "_rdc_Cr(OH)3",
@@ -958,15 +958,15 @@
           }
      },
      {
-          "_id" :   "substances/Cr(OH)3(H2PO4)-;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "Cr(OH)3(H2PO4)-;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/Cr(OH)3(H2PO4)-;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "Cr(OH)3(H2PO4)-;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsOq--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Cr(OH)3(H2PO4)-",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "Cr(OH)3(H2PO4)-",
                "name" :   "_rdc_Cr(OH)3(H2PO4)-",
@@ -1005,15 +1005,15 @@
           }
      },
      {
-          "_id" :   "substances/Cr(OH)3(H2PO4)2-2;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "Cr(OH)3(H2PO4)2-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/Cr(OH)3(H2PO4)2-2;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "Cr(OH)3(H2PO4)2-2;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsPS--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Cr(OH)3(H2PO4)2-2",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "Cr(OH)3(H2PO4)2-2",
                "name" :   "_rdc_Cr(OH)3(H2PO4)2-2",
@@ -1052,15 +1052,15 @@
           }
      },
      {
-          "_id" :   "substances/Cr(OH)3(HPO4)-2;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "Cr(OH)3(HPO4)-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/Cr(OH)3(HPO4)-2;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "Cr(OH)3(HPO4)-2;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsQ---_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Cr(OH)3(HPO4)-2",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "Cr(OH)3(HPO4)-2",
                "name" :   "_rdc_Cr(OH)3(HPO4)-2",
@@ -1099,15 +1099,15 @@
           }
      },
      {
-          "_id" :   "substances/Cr(OH)3(PO4)-3;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "Cr(OH)3(PO4)-3;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/Cr(OH)3(PO4)-3;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "Cr(OH)3(PO4)-3;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsQy--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Cr(OH)3(PO4)-3",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "Cr(OH)3(PO4)-3",
                "name" :   "_rdc_Cr(OH)3(PO4)-3",
@@ -1146,15 +1146,15 @@
           }
      },
      {
-          "_id" :   "substances/Cr(OH)4(CO3)-3;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "Cr(OH)4(CO3)-3;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/Cr(OH)4(CO3)-3;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "Cr(OH)4(CO3)-3;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsSe--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Cr(OH)4(CO3)-3",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "Cr(OH)4(CO3)-3",
                "name" :   "_rdc_Cr(OH)4(CO3)-3",
@@ -1193,15 +1193,15 @@
           }
      },
      {
-          "_id" :   "substances/Cr(OH)4(HPO4)(H2PO4)-4;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "Cr(OH)4(HPO4)(H2PO4)-4;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/Cr(OH)4(HPO4)(H2PO4)-4;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "Cr(OH)4(HPO4)(H2PO4)-4;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsTa--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Cr(OH)4(HPO4)(H2PO4)-4",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "Cr(OH)4(HPO4)(H2PO4)-4",
                "name" :   "_rdc_Cr(OH)4(HPO4)(H2PO4)-4",
@@ -1266,15 +1266,15 @@
           }
      },
      {
-          "_id" :   "substances/Cr(OH)4-;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "Cr(OH)4-;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/Cr(OH)4-;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "Cr(OH)4-;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsUO--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Cr(OH)4-",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "Cr(OH)4-",
                "name" :   "_rdc_Cr(OH)4-",
@@ -1339,15 +1339,15 @@
           }
      },
      {
-          "_id" :   "substances/Cr(OH)CO3;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "Cr(OH)CO3;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/Cr(OH)CO3;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "Cr(OH)CO3;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsVK--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Cr(OH)CO3",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "Cr(OH)CO3",
                "name" :   "_rdc_Cr(OH)CO3",
@@ -1386,15 +1386,15 @@
           }
      },
      {
-          "_id" :   "substances/Cr(OH)Cl2;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "Cr(OH)Cl2;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/Cr(OH)Cl2;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "Cr(OH)Cl2;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsWi--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Cr(OH)Cl2",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "Cr(OH)Cl2",
                "name" :   "_rdc_Cr(OH)Cl2",
@@ -1459,15 +1459,15 @@
           }
      },
      {
-          "_id" :   "substances/Cr+2;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "Cr+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/Cr+2;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "Cr+2;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsY---_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Cr+2",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "Cr+2",
                "name" :   "_rdc_Cr+2",
@@ -1532,15 +1532,15 @@
           }
      },
      {
-          "_id" :   "substances/Cr+3;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "Cr+3;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/Cr+3;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "Cr+3;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsYe--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Cr+3",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "Cr+3",
                "name" :   "_rdc_Cr+3",
@@ -1605,15 +1605,15 @@
           }
      },
      {
-          "_id" :   "substances/Cr2(OH)2+4;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "Cr2(OH)2+4;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/Cr2(OH)2+4;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "Cr2(OH)2+4;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsZC--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Cr2(OH)2+4",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "Cr2(OH)2+4",
                "name" :   "_rdc_Cr2(OH)2+4",
@@ -1652,15 +1652,15 @@
           }
      },
      {
-          "_id" :   "substances/Cr2(SO4)3(s);0:SC_COMPONENT;1001:WORK1",
-          "_key" :   "Cr2(SO4)3(s);0:SC_COMPONENT;1001:WORK1",
+          "_id" :   "substances/Cr2(SO4)3(s);0:SC_COMPONENT;25:THERMOCHIMIE",
+          "_key" :   "Cr2(SO4)3(s);0:SC_COMPONENT;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsZ6--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Cr2(SO4)3(s)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "Cr2(SO4)3",
                "name" :   "_rdc_Cr2(SO4)3",
@@ -1724,15 +1724,15 @@
           }
      },
      {
-          "_id" :   "substances/Cr2O3(cr);0:SC_COMPONENT;1001:WORK1",
-          "_key" :   "Cr2O3(cr);0:SC_COMPONENT;1001:WORK1",
+          "_id" :   "substances/Cr2O3(cr);0:SC_COMPONENT;25:THERMOCHIMIE",
+          "_key" :   "Cr2O3(cr);0:SC_COMPONENT;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsae--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Cr2O3(cr)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "Cr2O3",
                "name" :   "_rdc_Cr2O3",
@@ -1796,15 +1796,15 @@
           }
      },
      {
-          "_id" :   "substances/Cr2O7-2;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "Cr2O7-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/Cr2O7-2;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "Cr2O7-2;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsbC--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Cr2O7-2",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "Cr2O7-2",
                "name" :   "_rdc_Cr2O7-2",
@@ -1869,15 +1869,15 @@
           }
      },
      {
-          "_id" :   "substances/Cr2S3(s);0:SC_COMPONENT;1001:WORK1",
-          "_key" :   "Cr2S3(s);0:SC_COMPONENT;1001:WORK1",
+          "_id" :   "substances/Cr2S3(s);0:SC_COMPONENT;25:THERMOCHIMIE",
+          "_key" :   "Cr2S3(s);0:SC_COMPONENT;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsbm--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Cr2S3(s)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "Cr2S3",
                "name" :   "_rdc_Cr2S3",
@@ -1941,15 +1941,15 @@
           }
      },
      {
-          "_id" :   "substances/Cr3(OH)4+5;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "Cr3(OH)4+5;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/Cr3(OH)4+5;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "Cr3(OH)4+5;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccscK--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Cr3(OH)4+5",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "Cr3(OH)4+5",
                "name" :   "_rdc_Cr3(OH)4+5",
@@ -1988,15 +1988,15 @@
           }
      },
      {
-          "_id" :   "substances/CrBr+2;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "CrBr+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/CrBr+2;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "CrBr+2;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccscq--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "CrBr+2",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "CrBr+2",
                "name" :   "_rdc_CrBr+2",
@@ -2061,15 +2061,15 @@
           }
      },
      {
-          "_id" :   "substances/CrCl+;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "CrCl+;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/CrCl+;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "CrCl+;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsdW--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "CrCl+",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "CrCl+",
                "name" :   "_rdc_CrCl+",
@@ -2134,15 +2134,15 @@
           }
      },
      {
-          "_id" :   "substances/CrCl+2;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "CrCl+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/CrCl+2;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "CrCl+2;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsd2--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "CrCl+2",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "CrCl+2",
                "name" :   "_rdc_CrCl+2",
@@ -2207,15 +2207,15 @@
           }
      },
      {
-          "_id" :   "substances/CrCl2(cr);0:SC_COMPONENT;1001:WORK1",
-          "_key" :   "CrCl2(cr);0:SC_COMPONENT;1001:WORK1",
+          "_id" :   "substances/CrCl2(cr);0:SC_COMPONENT;25:THERMOCHIMIE",
+          "_key" :   "CrCl2(cr);0:SC_COMPONENT;25:THERMOCHIMIE",
           "_rev" :   "_c_ccseq--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "CrCl2(cr)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "CrCl2",
                "name" :   "_rdc_CrCl2",
@@ -2279,15 +2279,15 @@
           }
      },
      {
-          "_id" :   "substances/CrCl2+;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "CrCl2+;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/CrCl2+;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "CrCl2+;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsfS--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "CrCl2+",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "CrCl2+",
                "name" :   "_rdc_CrCl2+",
@@ -2352,15 +2352,15 @@
           }
      },
      {
-          "_id" :   "substances/CrCl3(cr);0:SC_COMPONENT;1001:WORK1",
-          "_key" :   "CrCl3(cr);0:SC_COMPONENT;1001:WORK1",
+          "_id" :   "substances/CrCl3(cr);0:SC_COMPONENT;25:THERMOCHIMIE",
+          "_key" :   "CrCl3(cr);0:SC_COMPONENT;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsf2--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "CrCl3(cr)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "CrCl3",
                "name" :   "_rdc_CrCl3",
@@ -2424,15 +2424,15 @@
           }
      },
      {
-          "_id" :   "substances/CrF+2;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "CrF+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/CrF+2;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "CrF+2;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsge--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "CrF+2",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "CrF+2",
                "name" :   "_rdc_CrF+2",
@@ -2497,15 +2497,15 @@
           }
      },
      {
-          "_id" :   "substances/CrF2+;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "CrF2+;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/CrF2+;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "CrF2+;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccshG--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "CrF2+",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "CrF2+",
                "name" :   "_rdc_CrF2+",
@@ -2570,15 +2570,15 @@
           }
      },
      {
-          "_id" :   "substances/CrF3;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "CrF3;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/CrF3;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "CrF3;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccshq--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "CrF3",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "CrF3",
                "name" :   "_rdc_CrF3",
@@ -2617,15 +2617,15 @@
           }
      },
      {
-          "_id" :   "substances/CrO2(cr);0:SC_COMPONENT;1001:WORK1",
-          "_key" :   "CrO2(cr);0:SC_COMPONENT;1001:WORK1",
+          "_id" :   "substances/CrO2(cr);0:SC_COMPONENT;25:THERMOCHIMIE",
+          "_key" :   "CrO2(cr);0:SC_COMPONENT;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsiK--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "CrO2(cr)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "CrO2",
                "name" :   "_rdc_CrO2",
@@ -2689,15 +2689,15 @@
           }
      },
      {
-          "_id" :   "substances/CrO3(cr);0:SC_COMPONENT;1001:WORK1",
-          "_key" :   "CrO3(cr);0:SC_COMPONENT;1001:WORK1",
+          "_id" :   "substances/CrO3(cr);0:SC_COMPONENT;25:THERMOCHIMIE",
+          "_key" :   "CrO3(cr);0:SC_COMPONENT;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsiu--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "CrO3(cr)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "CrO3",
                "name" :   "_rdc_CrO3",
@@ -2761,15 +2761,15 @@
           }
      },
      {
-          "_id" :   "substances/CrO3Cl-;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "CrO3Cl-;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/CrO3Cl-;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "CrO3Cl-;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsjO--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "CrO3Cl-",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "CrO3Cl-",
                "name" :   "_rdc_CrO3Cl-",
@@ -2834,15 +2834,15 @@
           }
      },
      {
-          "_id" :   "substances/CrO4-2;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "CrO4-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/CrO4-2;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "CrO4-2;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_cH4VS--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "CrO4-2",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "CrO4-2",
                "name" :   "CrO4-2",
@@ -2919,15 +2919,15 @@
           }
      },
      {
-          "_id" :   "substances/CrPO4(green);0:SC_COMPONENT;1001:WORK1",
-          "_key" :   "CrPO4(green);0:SC_COMPONENT;1001:WORK1",
+          "_id" :   "substances/CrPO4(green);0:SC_COMPONENT;25:THERMOCHIMIE",
+          "_key" :   "CrPO4(green);0:SC_COMPONENT;25:THERMOCHIMIE",
           "_rev" :   "_c_ccskG--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "CrPO4(green)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "CrPO4",
                "name" :   "_rdc_CrPO4",
@@ -2965,15 +2965,15 @@
           }
      },
      {
-          "_id" :   "substances/CrPO4(purple);0:SC_COMPONENT;1001:WORK1",
-          "_key" :   "CrPO4(purple);0:SC_COMPONENT;1001:WORK1",
+          "_id" :   "substances/CrPO4(purple);0:SC_COMPONENT;25:THERMOCHIMIE",
+          "_key" :   "CrPO4(purple);0:SC_COMPONENT;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsk2--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "CrPO4(purple)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "CrPO4",
                "name" :   "_rdc_CrPO4",
@@ -3011,15 +3011,15 @@
           }
      },
      {
-          "_id" :   "substances/CrS(s);0:SC_COMPONENT;1001:WORK1",
-          "_key" :   "CrS(s);0:SC_COMPONENT;1001:WORK1",
+          "_id" :   "substances/CrS(s);0:SC_COMPONENT;25:THERMOCHIMIE",
+          "_key" :   "CrS(s);0:SC_COMPONENT;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsla--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "CrS(s)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "CrS",
                "name" :   "_rdc_CrS",
@@ -3083,15 +3083,15 @@
           }
      },
      {
-          "_id" :   "substances/CrSO4+;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "CrSO4+;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/CrSO4+;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "CrSO4+;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsmS--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "CrSO4+",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "CrSO4+",
                "name" :   "_rdc_CrSO4+",
@@ -3130,15 +3130,15 @@
           }
      },
      {
-          "_id" :   "substances/Chromite;0:SC_COMPONENT;1001:WORK1",
-          "_key" :   "Chromite;0:SC_COMPONENT;1001:WORK1",
+          "_id" :   "substances/Chromite;0:SC_COMPONENT;25:THERMOCHIMIE",
+          "_key" :   "Chromite;0:SC_COMPONENT;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsGu--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Chromite",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "FeCr2O4",
                "name" :   "_rdc_FeCr2O4",
@@ -3202,15 +3202,15 @@
           }
      },
      {
-          "_id" :   "substances/FeCrO4+;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "FeCrO4+;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/FeCrO4+;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "FeCrO4+;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_chZZy--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "FeCrO4+",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "FeCrO4+",
                "name" :   "_rdc_FeCrO4+",
@@ -3275,15 +3275,15 @@
           }
      },
      {
-          "_id" :   "substances/H2CrO4;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "H2CrO4;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/H2CrO4;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "H2CrO4;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_chZae--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "H2CrO4",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "H2CrO4",
                "name" :   "_rdc_H2CrO4",
@@ -3348,15 +3348,15 @@
           }
      },
      {
-          "_id" :   "substances/H2CrPO7-;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "H2CrPO7-;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/H2CrPO7-;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "H2CrPO7-;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_chZbu--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "H2CrPO7-",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "H2CrPO7-",
                "name" :   "_rdc_H2CrPO7-",
@@ -3421,15 +3421,15 @@
           }
      },
      {
-          "_id" :   "substances/HCrO4-;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "HCrO4-;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/HCrO4-;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "HCrO4-;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_chZdC--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "HCrO4-",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "HCrO4-",
                "name" :   "_rdc_HCrO4-",
@@ -3494,15 +3494,15 @@
           }
      },
      {
-          "_id" :   "substances/HCrPO7-2;2:SC_AQSOLUTE;1001:WORK1",
-          "_key" :   "HCrPO7-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_id" :   "substances/HCrPO7-2;2:SC_AQSOLUTE;25:THERMOCHIMIE",
+          "_key" :   "HCrPO7-2;2:SC_AQSOLUTE;25:THERMOCHIMIE",
           "_rev" :   "_c_chZe---_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "HCrPO7-2",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "HCrPO7-2",
                "name" :   "_rdc_HCrPO7-2",
@@ -3567,15 +3567,15 @@
           }
      },
      {
-          "_id" :   "substances/KFe(CrO4)2:2H2O(s);0:SC_COMPONENT;1001:WORK1",
-          "_key" :   "KFe(CrO4)2:2H2O(s);0:SC_COMPONENT;1001:WORK1",
+          "_id" :   "substances/KFe(CrO4)2:2H2O(s);0:SC_COMPONENT;25:THERMOCHIMIE",
+          "_key" :   "KFe(CrO4)2:2H2O(s);0:SC_COMPONENT;25:THERMOCHIMIE",
           "_rev" :   "_c_chZf---_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "KFe(CrO4)2:2H2O(s)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "KFe(CrO4)2(H2O)2",
                "name" :   "_rdc_KFe(CrO4)2:2H2O",
@@ -3639,15 +3639,15 @@
           }
      },
      {
-          "_id" :   "substances/KFe3(CrO4)2(OH)6(cr);0:SC_COMPONENT;1001:WORK1",
-          "_key" :   "KFe3(CrO4)2(OH)6(cr);0:SC_COMPONENT;1001:WORK1",
+          "_id" :   "substances/KFe3(CrO4)2(OH)6(cr);0:SC_COMPONENT;25:THERMOCHIMIE",
+          "_key" :   "KFe3(CrO4)2(OH)6(cr);0:SC_COMPONENT;25:THERMOCHIMIE",
           "_rev" :   "_c_chZf6---",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "KFe3(CrO4)2(OH)6(cr)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "KFe3(CrO4)2(OH)6",
                "name" :   "_rdc_KFe3(CrO4)2(OH)6",
@@ -3685,15 +3685,15 @@
           }
      },
      {
-          "_id" :   "substances/MgCr2O4(s);0:SC_COMPONENT;1001:WORK1",
-          "_key" :   "MgCr2O4(s);0:SC_COMPONENT;1001:WORK1",
+          "_id" :   "substances/MgCr2O4(s);0:SC_COMPONENT;25:THERMOCHIMIE",
+          "_key" :   "MgCr2O4(s);0:SC_COMPONENT;25:THERMOCHIMIE",
           "_rev" :   "_c_chZg6--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "MgCr2O4(s)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "MgCr2O4",
                "name" :   "_rdc_MgCr2O4",
@@ -3757,15 +3757,15 @@
           }
      },
      {
-          "_id" :   "substances/Crocoite;0:SC_COMPONENT;1001:WORK1",
-          "_key" :   "Crocoite;0:SC_COMPONENT;1001:WORK1",
+          "_id" :   "substances/Crocoite;0:SC_COMPONENT;25:THERMOCHIMIE",
+          "_key" :   "Crocoite;0:SC_COMPONENT;25:THERMOCHIMIE",
           "_rev" :   "_c_ccsnC--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "Crocoite",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "PbCrO4",
                "name" :   "_rdc_PbCrO4",
@@ -3829,15 +3829,15 @@
           }
      },
      {
-          "_id" :   "substances/SrCrO4(s);0:SC_COMPONENT;1001:WORK1",
-          "_key" :   "SrCrO4(s);0:SC_COMPONENT;1001:WORK1",
+          "_id" :   "substances/SrCrO4(s);0:SC_COMPONENT;25:THERMOCHIMIE",
+          "_key" :   "SrCrO4(s);0:SC_COMPONENT;25:THERMOCHIMIE",
           "_rev" :   "_c_chZhu--_",
           "_type" :   "vertex",
           "_label" :   "substance",
           "properties" :   {
                "symbol" :   "SrCrO4(s)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "formula" :   "SrCrO4",
                "name" :   "_rdc_SrCrO4",

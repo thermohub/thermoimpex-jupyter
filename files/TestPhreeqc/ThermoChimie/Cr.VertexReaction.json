@@ -1,14 +1,14 @@
 [
      {
-          "_id" :   "reactions/Ca4Al2O6(CrO4):15H2O(s);1001:WORK1;0",
-          "_key" :   "Ca4Al2O6(CrO4):15H2O(s);1001:WORK1;0",
+          "_id" :   "reactions/Ca4Al2O6(CrO4):15H2O(s);25:THERMOCHIMIE;0",
+          "_key" :   "Ca4Al2O6(CrO4):15H2O(s);25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJG6--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Ca4Al2O6(CrO4):15H2O(s)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "Ca4Al2O6(CrO4):15H2O     = 4.000Ca+2  +  2.000Al+3  +  -12.000H+  +  1.000CrO4-2  +  21.000H2O",
@@ -110,15 +110,15 @@
           }
      },
      {
-          "_id" :   "reactions/Ca6(Al(OH)6)2(CrO4)3:26H2O(s);1001:WORK1;0",
-          "_key" :   "Ca6(Al(OH)6)2(CrO4)3:26H2O(s);1001:WORK1;0",
+          "_id" :   "reactions/Ca6(Al(OH)6)2(CrO4)3:26H2O(s);25:THERMOCHIMIE;0",
+          "_key" :   "Ca6(Al(OH)6)2(CrO4)3:26H2O(s);25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJH6--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Ca6(Al(OH)6)2(CrO4)3:26H2O(s)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "Ca6(Al(OH)6)2(CrO4)3:26H2O     = 6.000Ca+2  +  2.000Al+3  +  -12.000H+  +  3.000CrO4-2  +  38.000H2O",
@@ -220,15 +220,15 @@
           }
      },
      {
-          "_id" :   "reactions/CaCrO4(s);1001:WORK1;0",
-          "_key" :   "CaCrO4(s);1001:WORK1;0",
+          "_id" :   "reactions/CaCrO4(s);25:THERMOCHIMIE;0",
+          "_key" :   "CaCrO4(s);25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJKu--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "CaCrO4(s)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "CaCrO4     = 1.000Ca+2  +  1.000CrO4-2",
@@ -324,15 +324,15 @@
           }
      },
      {
-          "_id" :   "reactions/CaCrO4;1001:WORK1;0",
-          "_key" :   "CaCrO4;1001:WORK1;0",
+          "_id" :   "reactions/CaCrO4;25:THERMOCHIMIE;0",
+          "_key" :   "CaCrO4;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJJK--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "CaCrO4",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   " 1.000Ca+2  +  1.000CrO4-2     = CaCrO4",
@@ -410,15 +410,15 @@
           }
      },
      {
-          "_id" :   "reactions/Chromite;1001:WORK1;0",
-          "_key" :   "Chromite;1001:WORK1;0",
+          "_id" :   "reactions/Chromite;25:THERMOCHIMIE;0",
+          "_key" :   "Chromite;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJMa--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Chromite",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "FeCr2O4     = 1.000Fe+2  +  -8.000H+  +  2.000Cr+3  +  4.000H2O",
@@ -517,15 +517,15 @@
           }
      },
      {
-          "_id" :   "reactions/Cr(H2PO4)+2;1001:WORK1;0",
-          "_key" :   "Cr(H2PO4)+2;1001:WORK1;0",
+          "_id" :   "reactions/Cr(H2PO4)+2;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(H2PO4)+2;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJOK--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Cr(H2PO4)+2",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   " 1.000H2(PO4)-  +  1.000Cr+3     = Cr(H2PO4)+2",
@@ -606,15 +606,15 @@
           }
      },
      {
-          "_id" :   "reactions/Cr(HPO4)+;1001:WORK1;0",
-          "_key" :   "Cr(HPO4)+;1001:WORK1;0",
+          "_id" :   "reactions/Cr(HPO4)+;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(HPO4)+;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJPq--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Cr(HPO4)+",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "  -1.000H+  +  1.000H2(PO4)-  +  1.000Cr+3     = Cr(HPO4)+",
@@ -695,15 +695,15 @@
           }
      },
      {
-          "_id" :   "reactions/Cr(OH)(CO3)2-2;1001:WORK1;0",
-          "_key" :   "Cr(OH)(CO3)2-2;1001:WORK1;0",
+          "_id" :   "reactions/Cr(OH)(CO3)2-2;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)(CO3)2-2;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJR6--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Cr(OH)(CO3)2-2",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "  -1.000H+  +  2.000CO3-2  +  1.000Cr+3  +  1.000H2O     = Cr(OH)(CO3)2-2",
@@ -784,15 +784,15 @@
           }
      },
      {
-          "_id" :   "reactions/Cr(OH)+2;1001:WORK1;0",
-          "_key" :   "Cr(OH)+2;1001:WORK1;0",
+          "_id" :   "reactions/Cr(OH)+2;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)+2;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJVG--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Cr(OH)+2",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "  -1.000H+  +  1.000Cr+3  +  1.000H2O     = Cr(OH)+2",
@@ -888,15 +888,15 @@
           }
      },
      {
-          "_id" :   "reactions/Cr(OH)+;1001:WORK1;0",
-          "_key" :   "Cr(OH)+;1001:WORK1;0",
+          "_id" :   "reactions/Cr(OH)+;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)+;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJT2--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Cr(OH)+",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "  -1.000H+  +  1.000Cr+2  +  1.000H2O     = Cr(OH)+",
@@ -992,15 +992,15 @@
           }
      },
      {
-          "_id" :   "reactions/Cr(OH)2(H2PO4)(s);1001:WORK1;0",
-          "_key" :   "Cr(OH)2(H2PO4)(s);1001:WORK1;0",
+          "_id" :   "reactions/Cr(OH)2(H2PO4)(s);25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)2(H2PO4)(s);25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJWS--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Cr(OH)2(H2PO4)(s)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "Cr(OH)2(H2PO4)     =  -2.000H+  +  1.000H2(PO4)-  +  1.000Cr+3  +  2.000H2O",
@@ -1081,15 +1081,15 @@
           }
      },
      {
-          "_id" :   "reactions/Cr(OH)2(cr);1001:WORK1;0",
-          "_key" :   "Cr(OH)2(cr);1001:WORK1;0",
+          "_id" :   "reactions/Cr(OH)2(cr);25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)2(cr);25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJXe--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Cr(OH)2(cr)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "Cr(OH)2     =  -2.000H+  +  1.000Cr+2  +  2.000H2O",
@@ -1185,15 +1185,15 @@
           }
      },
      {
-          "_id" :   "reactions/Cr(OH)2+;1001:WORK1;0",
-          "_key" :   "Cr(OH)2+;1001:WORK1;0",
+          "_id" :   "reactions/Cr(OH)2+;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)2+;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJYy--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Cr(OH)2+",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "  -2.000H+  +  1.000Cr+3  +  2.000H2O     = Cr(OH)2+",
@@ -1289,15 +1289,15 @@
           }
      },
      {
-          "_id" :   "reactions/Cr(OH)3(H2PO4)-;1001:WORK1;0",
-          "_key" :   "Cr(OH)3(H2PO4)-;1001:WORK1;0",
+          "_id" :   "reactions/Cr(OH)3(H2PO4)-;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)3(H2PO4)-;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJaO--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Cr(OH)3(H2PO4)-",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "  -3.000H+  +  1.000H2(PO4)-  +  1.000Cr+3  +  3.000H2O     = Cr(OH)3(H2PO4)-",
@@ -1378,15 +1378,15 @@
           }
      },
      {
-          "_id" :   "reactions/Cr(OH)3(H2PO4)2-2;1001:WORK1;0",
-          "_key" :   "Cr(OH)3(H2PO4)2-2;1001:WORK1;0",
+          "_id" :   "reactions/Cr(OH)3(H2PO4)2-2;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)3(H2PO4)2-2;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJbK--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Cr(OH)3(H2PO4)2-2",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "  -3.000H+  +  2.000H2(PO4)-  +  1.000Cr+3  +  3.000H2O     = Cr(OH)3(H2PO4)2-2",
@@ -1467,15 +1467,15 @@
           }
      },
      {
-          "_id" :   "reactions/Cr(OH)3(HPO4)-2;1001:WORK1;0",
-          "_key" :   "Cr(OH)3(HPO4)-2;1001:WORK1;0",
+          "_id" :   "reactions/Cr(OH)3(HPO4)-2;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)3(HPO4)-2;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJbu--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Cr(OH)3(HPO4)-2",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "  -4.000H+  +  1.000H2(PO4)-  +  1.000Cr+3  +  3.000H2O     = Cr(OH)3(HPO4)-2",
@@ -1556,15 +1556,15 @@
           }
      },
      {
-          "_id" :   "reactions/Cr(OH)3(PO4)-3;1001:WORK1;0",
-          "_key" :   "Cr(OH)3(PO4)-3;1001:WORK1;0",
+          "_id" :   "reactions/Cr(OH)3(PO4)-3;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)3(PO4)-3;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJca--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Cr(OH)3(PO4)-3",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "  -5.000H+  +  1.000H2(PO4)-  +  1.000Cr+3  +  3.000H2O     = Cr(OH)3(PO4)-3",
@@ -1645,15 +1645,15 @@
           }
      },
      {
-          "_id" :   "reactions/Cr(OH)3(cr);1001:WORK1;0",
-          "_key" :   "Cr(OH)3(cr);1001:WORK1;0",
+          "_id" :   "reactions/Cr(OH)3(cr);25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)3(cr);25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJdO--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Cr(OH)3(cr)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "Cr(OH)3     =  -3.000H+  +  1.000Cr+3  +  3.000H2O",
@@ -1749,15 +1749,15 @@
           }
      },
      {
-          "_id" :   "reactions/Cr(OH)3;1001:WORK1;0",
-          "_key" :   "Cr(OH)3;1001:WORK1;0",
+          "_id" :   "reactions/Cr(OH)3;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)3;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJZW--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Cr(OH)3",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "  -3.000H+  +  1.000Cr+3  +  3.000H2O     = Cr(OH)3",
@@ -1853,15 +1853,15 @@
           }
      },
      {
-          "_id" :   "reactions/Cr(OH)4(CO3)-3;1001:WORK1;0",
-          "_key" :   "Cr(OH)4(CO3)-3;1001:WORK1;0",
+          "_id" :   "reactions/Cr(OH)4(CO3)-3;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)4(CO3)-3;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJdu--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Cr(OH)4(CO3)-3",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "  -4.000H+  +  1.000CO3-2  +  1.000Cr+3  +  4.000H2O     = Cr(OH)4(CO3)-3",
@@ -1942,15 +1942,15 @@
           }
      },
      {
-          "_id" :   "reactions/Cr(OH)4(HPO4)(H2PO4)-4;1001:WORK1;0",
-          "_key" :   "Cr(OH)4(HPO4)(H2PO4)-4;1001:WORK1;0",
+          "_id" :   "reactions/Cr(OH)4(HPO4)(H2PO4)-4;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)4(HPO4)(H2PO4)-4;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJee--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Cr(OH)4(HPO4)(H2PO4)-4",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "  -5.000H+  +  2.000H2(PO4)-  +  1.000Cr+3  +  4.000H2O     = Cr(OH)4(HPO4)(H2PO4)-4",
@@ -2049,15 +2049,15 @@
           }
      },
      {
-          "_id" :   "reactions/Cr(OH)4-;1001:WORK1;0",
-          "_key" :   "Cr(OH)4-;1001:WORK1;0",
+          "_id" :   "reactions/Cr(OH)4-;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)4-;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJfK--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Cr(OH)4-",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "  -4.000H+  +  1.000Cr+3  +  4.000H2O     = Cr(OH)4-",
@@ -2153,15 +2153,15 @@
           }
      },
      {
-          "_id" :   "reactions/Cr(OH)CO3;1001:WORK1;0",
-          "_key" :   "Cr(OH)CO3;1001:WORK1;0",
+          "_id" :   "reactions/Cr(OH)CO3;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)CO3;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJf2--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Cr(OH)CO3",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "  -1.000H+  +  1.000CO3-2  +  1.000Cr+3  +  1.000H2O     = Cr(OH)CO3",
@@ -2242,15 +2242,15 @@
           }
      },
      {
-          "_id" :   "reactions/Cr(OH)Cl2;1001:WORK1;0",
-          "_key" :   "Cr(OH)Cl2;1001:WORK1;0",
+          "_id" :   "reactions/Cr(OH)Cl2;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)Cl2;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJge--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Cr(OH)Cl2",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "  -1.000H+  +  2.000Cl-  +  1.000Cr+3  +  1.000H2O     = Cr(OH)Cl2",
@@ -2349,15 +2349,15 @@
           }
      },
      {
-          "_id" :   "reactions/Cr(cr);1001:WORK1;0",
-          "_key" :   "Cr(cr);1001:WORK1;0",
+          "_id" :   "reactions/Cr(cr);25:THERMOCHIMIE;0",
+          "_key" :   "Cr(cr);25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJh---_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Cr(cr)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "Cr     = 2.000H+  +  1.000CrO4-2  +  -1.000H2O  +  -1.500O2",
@@ -2453,15 +2453,15 @@
           }
      },
      {
-          "_id" :   "reactions/Cr+2;1001:WORK1;0",
-          "_key" :   "Cr+2;1001:WORK1;0",
+          "_id" :   "reactions/Cr+2;25:THERMOCHIMIE;0",
+          "_key" :   "Cr+2;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJii--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Cr+2",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   " 4.000H+  +  1.000CrO4-2  +  -2.000H2O  +  -1.000O2     = Cr+2",
@@ -2557,15 +2557,15 @@
           }
      },
      {
-          "_id" :   "reactions/Cr+3;1001:WORK1;0",
-          "_key" :   "Cr+3;1001:WORK1;0",
+          "_id" :   "reactions/Cr+3;25:THERMOCHIMIE;0",
+          "_key" :   "Cr+3;25:THERMOCHIMIE;0",
           "_rev" :   "_c_btXmu--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Cr+3",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   " 5.000H+  +  1.000CrO4-2  +  -2.500H2O  +  -0.750O2     = Cr+3",
@@ -2661,15 +2661,15 @@
           }
      },
      {
-          "_id" :   "reactions/Cr2(OH)2+4;1001:WORK1;0",
-          "_key" :   "Cr2(OH)2+4;1001:WORK1;0",
+          "_id" :   "reactions/Cr2(OH)2+4;25:THERMOCHIMIE;0",
+          "_key" :   "Cr2(OH)2+4;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJki--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Cr2(OH)2+4",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "  -2.000H+  +  2.000Cr+3  +  2.000H2O     = Cr2(OH)2+4",
@@ -2747,15 +2747,15 @@
           }
      },
      {
-          "_id" :   "reactions/Cr2(SO4)3(s);1001:WORK1;0",
-          "_key" :   "Cr2(SO4)3(s);1001:WORK1;0",
+          "_id" :   "reactions/Cr2(SO4)3(s);25:THERMOCHIMIE;0",
+          "_key" :   "Cr2(SO4)3(s);25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJlG--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Cr2(SO4)3(s)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "Cr2(SO4)3     = 3.000SO4-2  +  2.000Cr+3",
@@ -2851,15 +2851,15 @@
           }
      },
      {
-          "_id" :   "reactions/Cr2O3(cr);1001:WORK1;0",
-          "_key" :   "Cr2O3(cr);1001:WORK1;0",
+          "_id" :   "reactions/Cr2O3(cr);25:THERMOCHIMIE;0",
+          "_key" :   "Cr2O3(cr);25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJly--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Cr2O3(cr)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "Cr2O3     =  -6.000H+  +  2.000Cr+3  +  3.000H2O",
@@ -2955,15 +2955,15 @@
           }
      },
      {
-          "_id" :   "reactions/Cr2O7-2;1001:WORK1;0",
-          "_key" :   "Cr2O7-2;1001:WORK1;0",
+          "_id" :   "reactions/Cr2O7-2;25:THERMOCHIMIE;0",
+          "_key" :   "Cr2O7-2;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJmu--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Cr2O7-2",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   " 2.000H+  +  2.000CrO4-2  +  -1.000H2O     = Cr2O7-2",
@@ -3059,15 +3059,15 @@
           }
      },
      {
-          "_id" :   "reactions/Cr2S3(s);1001:WORK1;0",
-          "_key" :   "Cr2S3(s);1001:WORK1;0",
+          "_id" :   "reactions/Cr2S3(s);25:THERMOCHIMIE;0",
+          "_key" :   "Cr2S3(s);25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJnm--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Cr2S3(s)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "Cr2S3     =  -3.000H+  +  3.000HS-  +  2.000Cr+3",
@@ -3163,15 +3163,15 @@
           }
      },
      {
-          "_id" :   "reactions/Cr3(OH)4+5;1001:WORK1;0",
-          "_key" :   "Cr3(OH)4+5;1001:WORK1;0",
+          "_id" :   "reactions/Cr3(OH)4+5;25:THERMOCHIMIE;0",
+          "_key" :   "Cr3(OH)4+5;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJoG--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Cr3(OH)4+5",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "  -4.000H+  +  3.000Cr+3  +  4.000H2O     = Cr3(OH)4+5",
@@ -3249,15 +3249,15 @@
           }
      },
      {
-          "_id" :   "reactions/CrBr+2;1001:WORK1;0",
-          "_key" :   "CrBr+2;1001:WORK1;0",
+          "_id" :   "reactions/CrBr+2;25:THERMOCHIMIE;0",
+          "_key" :   "CrBr+2;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJou--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "CrBr+2",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   " 1.000Br-  +  1.000Cr+3     = CrBr+2",
@@ -3350,15 +3350,15 @@
           }
      },
      {
-          "_id" :   "reactions/CrCl+2;1001:WORK1;0",
-          "_key" :   "CrCl+2;1001:WORK1;0",
+          "_id" :   "reactions/CrCl+2;25:THERMOCHIMIE;0",
+          "_key" :   "CrCl+2;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJqW--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "CrCl+2",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   " 1.000Cl-  +  1.000Cr+3     = CrCl+2",
@@ -3451,15 +3451,15 @@
           }
      },
      {
-          "_id" :   "reactions/CrCl+;1001:WORK1;0",
-          "_key" :   "CrCl+;1001:WORK1;0",
+          "_id" :   "reactions/CrCl+;25:THERMOCHIMIE;0",
+          "_key" :   "CrCl+;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJpy--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "CrCl+",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   " 1.000Cl-  +  1.000Cr+2     = CrCl+",
@@ -3552,15 +3552,15 @@
           }
      },
      {
-          "_id" :   "reactions/CrCl2(cr);1001:WORK1;0",
-          "_key" :   "CrCl2(cr);1001:WORK1;0",
+          "_id" :   "reactions/CrCl2(cr);25:THERMOCHIMIE;0",
+          "_key" :   "CrCl2(cr);25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJrC--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "CrCl2(cr)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "CrCl2     = 2.000Cl-  +  1.000Cr+2",
@@ -3653,15 +3653,15 @@
           }
      },
      {
-          "_id" :   "reactions/CrCl2+;1001:WORK1;0",
-          "_key" :   "CrCl2+;1001:WORK1;0",
+          "_id" :   "reactions/CrCl2+;25:THERMOCHIMIE;0",
+          "_key" :   "CrCl2+;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJr6--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "CrCl2+",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   " 2.000Cl-  +  1.000Cr+3     = CrCl2+",
@@ -3754,15 +3754,15 @@
           }
      },
      {
-          "_id" :   "reactions/CrCl3(cr);1001:WORK1;0",
-          "_key" :   "CrCl3(cr);1001:WORK1;0",
+          "_id" :   "reactions/CrCl3(cr);25:THERMOCHIMIE;0",
+          "_key" :   "CrCl3(cr);25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJs6--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "CrCl3(cr)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "CrCl3     = 3.000Cl-  +  1.000Cr+3",
@@ -3855,15 +3855,15 @@
           }
      },
      {
-          "_id" :   "reactions/CrF+2;1001:WORK1;0",
-          "_key" :   "CrF+2;1001:WORK1;0",
+          "_id" :   "reactions/CrF+2;25:THERMOCHIMIE;0",
+          "_key" :   "CrF+2;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJty--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "CrF+2",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   " 1.000F-  +  1.000Cr+3     = CrF+2",
@@ -3956,15 +3956,15 @@
           }
      },
      {
-          "_id" :   "reactions/CrF2+;1001:WORK1;0",
-          "_key" :   "CrF2+;1001:WORK1;0",
+          "_id" :   "reactions/CrF2+;25:THERMOCHIMIE;0",
+          "_key" :   "CrF2+;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJui--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "CrF2+",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   " 2.000F-  +  1.000Cr+3     = CrF2+",
@@ -4057,15 +4057,15 @@
           }
      },
      {
-          "_id" :   "reactions/CrF3;1001:WORK1;0",
-          "_key" :   "CrF3;1001:WORK1;0",
+          "_id" :   "reactions/CrF3;25:THERMOCHIMIE;0",
+          "_key" :   "CrF3;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJva---",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "CrF3",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   " 3.000F-  +  1.000Cr+3     = CrF3",
@@ -4140,15 +4140,15 @@
           }
      },
      {
-          "_id" :   "reactions/CrO2(cr);1001:WORK1;0",
-          "_key" :   "CrO2(cr);1001:WORK1;0",
+          "_id" :   "reactions/CrO2(cr);25:THERMOCHIMIE;0",
+          "_key" :   "CrO2(cr);25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJwK--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "CrO2(cr)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "CrO2     = 2.000H+  +  1.000CrO4-2  +  -1.000H2O  +  -0.500O2",
@@ -4244,15 +4244,15 @@
           }
      },
      {
-          "_id" :   "reactions/CrO3(cr);1001:WORK1;0",
-          "_key" :   "CrO3(cr);1001:WORK1;0",
+          "_id" :   "reactions/CrO3(cr);25:THERMOCHIMIE;0",
+          "_key" :   "CrO3(cr);25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJwy--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "CrO3(cr)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "CrO3     = 2.000H+  +  1.000CrO4-2  +  -1.000H2O",
@@ -4348,15 +4348,15 @@
           }
      },
      {
-          "_id" :   "reactions/CrO3Cl-;1001:WORK1;0",
-          "_key" :   "CrO3Cl-;1001:WORK1;0",
+          "_id" :   "reactions/CrO3Cl-;25:THERMOCHIMIE;0",
+          "_key" :   "CrO3Cl-;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJxi--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "CrO3Cl-",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   " 2.000H+  +  1.000Cl-  +  1.000CrO4-2  +  -1.000H2O     = CrO3Cl-",
@@ -4455,15 +4455,15 @@
           }
      },
      {
-          "_id" :   "reactions/CrPO4(green);1001:WORK1;0",
-          "_key" :   "CrPO4(green);1001:WORK1;0",
+          "_id" :   "reactions/CrPO4(green);25:THERMOCHIMIE;0",
+          "_key" :   "CrPO4(green);25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJyO--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "CrPO4(green)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "CrPO4     =  -2.000H+  +  1.000H2(PO4)-  +  1.000Cr+3",
@@ -4544,15 +4544,15 @@
           }
      },
      {
-          "_id" :   "reactions/CrPO4(purple);1001:WORK1;0",
-          "_key" :   "CrPO4(purple);1001:WORK1;0",
+          "_id" :   "reactions/CrPO4(purple);25:THERMOCHIMIE;0",
+          "_key" :   "CrPO4(purple);25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJz----",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "CrPO4(purple)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "CrPO4     =  -2.000H+  +  1.000H2(PO4)-  +  1.000Cr+3",
@@ -4633,15 +4633,15 @@
           }
      },
      {
-          "_id" :   "reactions/CrS(s);1001:WORK1;0",
-          "_key" :   "CrS(s);1001:WORK1;0",
+          "_id" :   "reactions/CrS(s);25:THERMOCHIMIE;0",
+          "_key" :   "CrS(s);25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJzm--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "CrS(s)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "CrS     =  -1.000H+  +  1.000HS-  +  1.000Cr+2",
@@ -4737,15 +4737,15 @@
           }
      },
      {
-          "_id" :   "reactions/CrSO4+;1001:WORK1;0",
-          "_key" :   "CrSO4+;1001:WORK1;0",
+          "_id" :   "reactions/CrSO4+;25:THERMOCHIMIE;0",
+          "_key" :   "CrSO4+;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJ0K--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "CrSO4+",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   " 1.000SO4-2  +  1.000Cr+3     = CrSO4+",
@@ -4823,15 +4823,15 @@
           }
      },
      {
-          "_id" :   "reactions/Crocoite;1001:WORK1;0",
-          "_key" :   "Crocoite;1001:WORK1;0",
+          "_id" :   "reactions/Crocoite;25:THERMOCHIMIE;0",
+          "_key" :   "Crocoite;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJ1---_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "Crocoite",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "PbCrO4     = 1.000Pb+2  +  1.000CrO4-2",
@@ -4927,15 +4927,15 @@
           }
      },
      {
-          "_id" :   "reactions/FeCrO4+;1001:WORK1;0",
-          "_key" :   "FeCrO4+;1001:WORK1;0",
+          "_id" :   "reactions/FeCrO4+;25:THERMOCHIMIE;0",
+          "_key" :   "FeCrO4+;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJ1m--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "FeCrO4+",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   " 1.000Fe+3  +  1.000CrO4-2     = FeCrO4+",
@@ -5031,15 +5031,15 @@
           }
      },
      {
-          "_id" :   "reactions/H2CrO4;1001:WORK1;0",
-          "_key" :   "H2CrO4;1001:WORK1;0",
+          "_id" :   "reactions/H2CrO4;25:THERMOCHIMIE;0",
+          "_key" :   "H2CrO4;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJ2O--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "H2CrO4",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   " 2.000H+  +  1.000CrO4-2     = H2CrO4",
@@ -5135,15 +5135,15 @@
           }
      },
      {
-          "_id" :   "reactions/H2CrPO7-;1001:WORK1;0",
-          "_key" :   "H2CrPO7-;1001:WORK1;0",
+          "_id" :   "reactions/H2CrPO7-;25:THERMOCHIMIE;0",
+          "_key" :   "H2CrPO7-;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJ3G--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "H2CrPO7-",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   " 2.000H+  +  1.000H2(PO4)-  +  1.000CrO4-2  +  -1.000H2O     = H2CrPO7-",
@@ -5242,15 +5242,15 @@
           }
      },
      {
-          "_id" :   "reactions/HCrO4-;1001:WORK1;0",
-          "_key" :   "HCrO4-;1001:WORK1;0",
+          "_id" :   "reactions/HCrO4-;25:THERMOCHIMIE;0",
+          "_key" :   "HCrO4-;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJ3q--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "HCrO4-",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   " 1.000H+  +  1.000CrO4-2     = HCrO4-",
@@ -5346,15 +5346,15 @@
           }
      },
      {
-          "_id" :   "reactions/HCrPO7-2;1001:WORK1;0",
-          "_key" :   "HCrPO7-2;1001:WORK1;0",
+          "_id" :   "reactions/HCrPO7-2;25:THERMOCHIMIE;0",
+          "_key" :   "HCrPO7-2;25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJ4O--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "HCrPO7-2",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   " 1.000H+  +  1.000H2(PO4)-  +  1.000CrO4-2  +  -1.000H2O     = HCrPO7-2",
@@ -5453,15 +5453,15 @@
           }
      },
      {
-          "_id" :   "reactions/KFe(CrO4)2:2H2O(s);1001:WORK1;0",
-          "_key" :   "KFe(CrO4)2:2H2O(s);1001:WORK1;0",
+          "_id" :   "reactions/KFe(CrO4)2:2H2O(s);25:THERMOCHIMIE;0",
+          "_key" :   "KFe(CrO4)2:2H2O(s);25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJ5G--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "KFe(CrO4)2:2H2O(s)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "KFe(CrO4)2:2H2O     = 1.000K+  +  1.000Fe+3  +  2.000CrO4-2  +  2.000H2O",
@@ -5563,15 +5563,15 @@
           }
      },
      {
-          "_id" :   "reactions/KFe3(CrO4)2(OH)6(cr);1001:WORK1;0",
-          "_key" :   "KFe3(CrO4)2(OH)6(cr);1001:WORK1;0",
+          "_id" :   "reactions/KFe3(CrO4)2(OH)6(cr);25:THERMOCHIMIE;0",
+          "_key" :   "KFe3(CrO4)2(OH)6(cr);25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJ6K--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "KFe3(CrO4)2(OH)6(cr)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "KFe3(CrO4)2(OH)6     = 1.000K+  +  3.000Fe+3  +  -6.000H+  +  2.000CrO4-2  +  6.000H2O",
@@ -5655,15 +5655,15 @@
           }
      },
      {
-          "_id" :   "reactions/MgCr2O4(s);1001:WORK1;0",
-          "_key" :   "MgCr2O4(s);1001:WORK1;0",
+          "_id" :   "reactions/MgCr2O4(s);25:THERMOCHIMIE;0",
+          "_key" :   "MgCr2O4(s);25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJ6y--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "MgCr2O4(s)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "MgCr2O4     = 1.000Mg+2  +  -8.000H+  +  2.000Cr+3  +  4.000H2O",
@@ -5762,15 +5762,15 @@
           }
      },
      {
-          "_id" :   "reactions/SrCrO4(s);1001:WORK1;0",
-          "_key" :   "SrCrO4(s);1001:WORK1;0",
+          "_id" :   "reactions/SrCrO4(s);25:THERMOCHIMIE;0",
+          "_key" :   "SrCrO4(s);25:THERMOCHIMIE;0",
           "_rev" :   "_c_bYJ7a--_",
           "_type" :   "vertex",
           "_label" :   "reaction",
           "properties" :   {
                "symbol" :   "SrCrO4(s)",
                "sourcetdb" :   {
-                    "1001" :   "WORK1"
+                    "25" : "THERMOCHIMIE"
                },
                "level" :   0,
                "equation" :   "SrCrO4     = 1.000Sr+2  +  1.000CrO4-2",
