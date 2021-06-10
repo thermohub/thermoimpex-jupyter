@@ -1,0 +1,314 @@
+[
+     {
+          "_id" :   "substances/Pyrrhotite;0:SC_COMPONENT;26:MINES19",
+          "_key" :   "Pyrrhotite;0:SC_COMPONENT;26:MINES19",
+          "_rev" :   "_cdSf8Da---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Pyrrhotite",
+               "sourcetdb" :   {
+                    "26" :   "MINES19"
+               },
+               "formula" :   "Fe|3|0.2Fe0.7S|-2|",
+               "name" :   "Pyrrhotite",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "formula_charge" :   0,
+               "mass_per_mole" :   82.327499389648,
+               "sm_volume" :   {
+                    "values" :   [
+                         1.6879999637604
+                    ],
+                    "errors" :   [
+                         1
+                    ],
+                    "units" :   [
+                         "J/bar"
+                    ]
+               },
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -99600
+                    ],
+                    "errors" :   [
+                         2000
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -97600
+                    ],
+                    "errors" :   [
+                         2000
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         63.20000076294
+                    ],
+                    "errors" :   [
+                         0.10000000149012
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "values" :   [
+                         54.648052215576
+                    ],
+                    "errors" :   [
+                         0
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "cp_ft_equation"
+                         },
+                         "limitsTP" :   {
+                              "range" :   true,
+                              "lowerT" :   273.15,
+                              "upperT" :   411.00000610352
+                         },
+                         "m_heat_capacity_ft_coeffs" :   {
+                              "values" :   [
+                                   21.715000152588,
+                                   0.11045800149441,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ],
+                              "units" :   [
+                                   "J/(mol*K)",
+                                   "J/(mol*K^2)",
+                                   "(J*K)/mol",
+                                   "J/(mol*K^0.5)",
+                                   "J/(mol*K^3)",
+                                   "J/(mol*K^4)",
+                                   "J/(mol*K^5)",
+                                   "(J*K^2)/mol",
+                                   "J/mol",
+                                   "J/(mol*K^1.5)",
+                                   "J/(mol*K)"
+                              ],
+                              "names" :   [
+                                   "a0",
+                                   "a1",
+                                   "a2",
+                                   "a3",
+                                   "a4",
+                                   "a5",
+                                   "a6",
+                                   "a7",
+                                   "a8",
+                                   "a9",
+                                   "a10"
+                              ]
+                         },
+                         "m_phase_trans_props" :   {
+                              "values" :   [
+                                   411.00000610352,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ],
+                              "units" :   [
+                                   "K",
+                                   "J/(mol*K)",
+                                   "J/mol",
+                                   "J/bar",
+                                   "K/bar"
+                              ],
+                              "names" :   [
+                                   "Temperature",
+                                   "dS",
+                                   "dH",
+                                   "dV",
+                                   "dT/dP"
+                              ]
+                         }
+                    },
+                    {
+                         "method" :   {
+                              "0" :   "cp_ft_equation"
+                         },
+                         "limitsTP" :   {
+                              "range" :   true,
+                              "lowerT" :   411.00000610352,
+                              "upperT" :   598.00000610352
+                         },
+                         "m_heat_capacity_ft_coeffs" :   {
+                              "values" :   [
+                                   72.801597595215,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ],
+                              "units" :   [
+                                   "J/(mol*K)",
+                                   "J/(mol*K^2)",
+                                   "(J*K)/mol",
+                                   "J/(mol*K^0.5)",
+                                   "J/(mol*K^3)",
+                                   "J/(mol*K^4)",
+                                   "J/(mol*K^5)",
+                                   "(J*K^2)/mol",
+                                   "J/mol",
+                                   "J/(mol*K^1.5)",
+                                   "J/(mol*K)"
+                              ],
+                              "names" :   [
+                                   "a0",
+                                   "a1",
+                                   "a2",
+                                   "a3",
+                                   "a4",
+                                   "a5",
+                                   "a6",
+                                   "a7",
+                                   "a8",
+                                   "a9",
+                                   "a10"
+                              ]
+                         },
+                         "m_phase_trans_props" :   {
+                              "values" :   [
+                                   598.00000610352,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ],
+                              "units" :   [
+                                   "K",
+                                   "J/(mol*K)",
+                                   "J/mol",
+                                   "J/bar",
+                                   "K/bar"
+                              ],
+                              "names" :   [
+                                   "Temperature",
+                                   "dS",
+                                   "dH",
+                                   "dV",
+                                   "dT/dP"
+                              ]
+                         }
+                    },
+                    {
+                         "method" :   {
+                              "0" :   "cp_ft_equation"
+                         },
+                         "limitsTP" :   {
+                              "range" :   true,
+                              "lowerT" :   598.00000610352,
+                              "upperT" :   1467.9999755859
+                         },
+                         "m_heat_capacity_ft_coeffs" :   {
+                              "values" :   [
+                                   51.044799804688,
+                                   0.0099579198285937,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ],
+                              "units" :   [
+                                   "J/(mol*K)",
+                                   "J/(mol*K^2)",
+                                   "(J*K)/mol",
+                                   "J/(mol*K^0.5)",
+                                   "J/(mol*K^3)",
+                                   "J/(mol*K^4)",
+                                   "J/(mol*K^5)",
+                                   "(J*K^2)/mol",
+                                   "J/mol",
+                                   "J/(mol*K^1.5)",
+                                   "J/(mol*K)"
+                              ],
+                              "names" :   [
+                                   "a0",
+                                   "a1",
+                                   "a2",
+                                   "a3",
+                                   "a4",
+                                   "a5",
+                                   "a6",
+                                   "a7",
+                                   "a8",
+                                   "a9",
+                                   "a10"
+                              ]
+                         }
+                    },
+                    {
+                         "method" :   {
+                              "38" :   "mv_eos_murnaghan_hp98"
+                         }
+                    }
+               ],
+               "aq_edh_props" :   {
+                    "values" :   [
+
+                    ],
+                    "units" :   [
+                         "Å"
+                    ],
+                    "names" :   [
+                         "a0",
+                         "b"
+                    ]
+               },
+               "comment" :   "ref:135,375",
+               "datasources" :   [
+                    "R&H:1995:compil:",
+                    "Gronvold_al:1991:exp:",
+                    "Slop98_dat:1998:data:"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   6,
+                    "day" :   9,
+                    "hour" :   17,
+                    "minute" :   36,
+                    "second" :   36
+               }
+          }
+     }
+]
