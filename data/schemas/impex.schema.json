@@ -20,6 +20,11 @@
           "name": "EXPORT",
           "value": 1,
           "doc": "export\n"
+        },
+        {
+          "name": "UPDATE",
+          "value": 2,
+          "doc": "update\n"
         }
       ]
     }
