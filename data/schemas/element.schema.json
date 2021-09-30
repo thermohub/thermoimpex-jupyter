@@ -235,6 +235,11 @@
           "doc": "ThermoChimie www.thermochimie-tdb.com\n"
         },
         {
+          "name": "PSI_NAGRA20",
+          "value": 26,
+          "doc": "PSI-Nagra TDB 12/20\n"
+        },
+        {
           "name": "WORK1",
           "value": 1001,
           "doc": "SourceTDB code for data under work\/development\n"

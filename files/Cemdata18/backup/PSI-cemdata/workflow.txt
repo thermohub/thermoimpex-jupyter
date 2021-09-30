@@ -1,6 +1,6 @@
 1. prepare the substance records - copy from b4_cemdata18_2021_rdc2 
 (these were solids and other cemdata substances + PSI14 aqueous + hydrated)
-2. Mester species
+2. Master species
 PO4-3
 AlO2- - hydr --> Al(OH)4-
 Ca+2
@@ -20,18 +20,22 @@ O2(g)
 
 (generated tables of maters species using aql query)
 
-3. Set V = 0, Cp, S as in PSI2020, for missing Cp -> 0 this is wat gems uses for ---
+3. Set V = 0, Cp, S as in PSI2020, for missing Cp -> 0 this is what gems uses for ---
 remove TPMethods, and H, recalculate H from G and S using the record calculator
 
 corrected sourcetdb for Si(OH)4(aq) from PSI, removed Fe(OH)3(am) and (mic) and siderite
 
+this results in V, Cp, S of cement hydrates as in CEMDATA18, because G of aqueous is the old PSI
+then logK is constant  
+
 4. Generate reaction and save - the V of reaction should be = to the V of dependent component
+b4_cemdata18_2021_rdc3
 
 5. Export to GEMS3
 
 6. Fix keys - PSI_ to psi, H2O@ to H2O(l), O2 to O2(g)
  
-7. in GESM recalculate records and chnge d to r where necessary. 
+7. in GESM recalculate records and change d to r where necessary. 
 
 
 
