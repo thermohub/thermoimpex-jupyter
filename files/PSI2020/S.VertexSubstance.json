@@ -1,0 +1,300 @@
+[
+     {
+          "_id" :   "substances/S(aq);2:SC_AQSOLUTE;26:PSI_NAGRA20",
+          "_key" :   "S(aq);2:SC_AQSOLUTE;26:PSI_NAGRA20",
+          "_rev" :   "_dBYPaam-_O",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "S(aq)",
+               "sourcetdb" :   {
+                    "26" :   "PSI_NAGRA20"
+               },
+               "formula" :   "S|0|@",
+               "name" :   "_rdc_S(aq)",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         37958.479506
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         48200
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         66.404228
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "values" :   [
+                         22.75
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "datasources" :   [
+                    "PSI2020"
+               ],
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   3,
+                    "hour" :   14,
+                    "minute" :   47,
+                    "second" :   27
+               }
+          }
+     },
+     {
+          "_id" :   "reactions/S(aq);26:PSI_NAGRA20;0",
+          "_key" :   "S(aq);26:PSI_NAGRA20;0",
+          "_rev" :   "_dBYPaWi--i",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "S(aq)",
+               "sourcetdb" :   {
+                    "26" :   "PSI_NAGRA20"
+               },
+               "level" :   0,
+               "equation" :   "1S(orth) = S(aq)",
+               "name" :   "S(aq)",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "logKr" :   {
+                    "values" :   [
+                         -6.65
+                    ],
+                    "errors" :   [
+                         0.07
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         37958.479506
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "errors" :   [
+                         399.562942
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         48.2
+                    ],
+                    "errors" :   [
+                         5.4
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         34.350228
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "errors" :   [
+                         18.161202
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "drsm_heat_capacity_p" :   {
+                    "values" :   [
+                         0
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "limitsTP" :   {
+                    "range" :   false,
+                    "lowerT" :   277.14,
+                    "upperT" :   353.15
+               },
+               "comment" :   "Generated using ThermoMatch Reactions Generator",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   9,
+                    "day" :   29,
+                    "hour" :   15,
+                    "minute" :   53,
+                    "second" :   14
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "S"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "defines/8241137",
+          "_key" :   "8241137",
+          "_rev" :   "_dBYParK--Q",
+          "_from" :   "reactions/S(aq);26:PSI_NAGRA20;0",
+          "_to" :   "substances/S(aq);2:SC_AQSOLUTE;26:PSI_NAGRA20",
+          "_type" :   "edge",
+          "_label" :   "defines",
+          "properties" :   {
+               "for_prop" :   "whole",
+               "asop" :   "retrieved",
+               "level" :   0
+          }
+     },
+     {
+          "_id" :   "substances/S(orth);0:SC_COMPONENT;26:PSI_NAGRA20",
+          "_key" :   "S(orth);0:SC_COMPONENT;26:PSI_NAGRA20",
+          "_rev" :   "_dBYPaam-_M",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "S(orth)",
+               "sourcetdb" :   {
+                    "26" :   "PSI_NAGRA20"
+               },
+               "formula" :   "S|0|",
+               "name" :   "S(orth)",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         0
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         0
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         32.054
+                    ],
+                    "errors" :   [
+                         0.05
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "values" :   [
+                         22.75
+                    ],
+                    "errors" :   [
+                         0.05
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "datasources" :   [
+                    "PSI2020"
+               ],
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   3,
+                    "hour" :   14,
+                    "minute" :   47,
+                    "second" :   27
+               }
+          }
+     },
+     {
+          "_id" :   "takes/8241129",
+          "_key" :   "8241129",
+          "_rev" :   "_dBYPa7K--Q",
+          "_from" :   "substances/S(orth);0:SC_COMPONENT;26:PSI_NAGRA20",
+          "_to" :   "reactions/S(aq);26:PSI_NAGRA20;0",
+          "_type" :   "edge",
+          "_label" :   "takes",
+          "properties" :   {
+               "stoi_coeff" :   -1,
+               "rct" :   0
+          }
+     },
+     {
+          "_id" :   "takes/8241133",
+          "_key" :   "8241133",
+          "_rev" :   "_dBYPa7K--S",
+          "_from" :   "substances/S(aq);2:SC_AQSOLUTE;26:PSI_NAGRA20",
+          "_to" :   "reactions/S(aq);26:PSI_NAGRA20;0",
+          "_type" :   "edge",
+          "_label" :   "takes",
+          "properties" :   {
+               "stoi_coeff" :   1,
+               "rct" :   1
+          }
+     }
+]

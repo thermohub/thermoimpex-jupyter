@@ -27,7 +27,7 @@
                     }
                },
                "head0" :   {
-                    "field" :   "properties.symbol",
+                    "field" :   "properties.name",
                     "ignore" :   false,
                     "script" :   "",
                     "convert" :   {
@@ -43,7 +43,8 @@
                     }
                }
           },
-          "script" :   "if rintable.properties.class_['1'] then rintable.properties.symbol = rintable.properties.symbol..\'(g)\' end"
+          "script" :   "if rintable.properties.class_['1'] then rintable.properties.symbol = rintable.properties.symbol..\'(g)\' end
+rintable.properties.name = string.gsub(rintable.properties.name, '_rdc_', '')"
      },
      "format" :   {
           "head_regexp" :   "\n%head0\n\t%head1\n",

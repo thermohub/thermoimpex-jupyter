@@ -35,7 +35,9 @@
                     }
                }
           },
-          "script" :   "if rintable.properties.formula == \'-1\' then rintable.properties.formula = \'e-\' end"
+          "script" :   "if rintable.properties.formula == \'-1\' then rintable.properties.formula = \'e-\' end;\n
+			if rintable.properties.formula == \'-\' then rintable.properties.formula = \'e-\' end;\n
+                        frm = rintable.properties.formula;\n  frm = string.gsub(frm, \'Zz\',  \'e-\' );\n frm = string.gsub(frm, \'|(.-)|\',  \'\' );\n frm = string.gsub(frm, \'@\',  \'\' ); rintable.properties.formula = frm;"
      },
      "format" :   {
           "head_regexp" :   "\n%head2\t=\t%head2\n",

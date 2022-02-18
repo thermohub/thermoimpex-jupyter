@@ -67,7 +67,7 @@
                     }
                }
           },
-          "script" :   "frm = rintable.properties.equation;\n  frm = string.gsub(frm, \'Zz\',  \'e-\' );\n frm = string.gsub(frm, \'@\',  \'\' );\n frm = string.gsub(frm, \'|(.-)|\',  \'\' ); rintable.properties.equation = frm;"
+          "script" :   "frm = rintable.properties.equation;\n  frm = string.gsub(frm, \'Zz\',  \'e-\' );\n frm = string.gsub(frm, \'@\',  \'\' );\n frm = string.gsub(frm, \'|(.-)|\',  \'\' ); rintable.properties.equation = frm;  if rintable.properties.TPMethods[1].logk_ft_coeffs.values[1] == 0.0 then rintable.properties.TPMethods[1].logk_ft_coeffs.values[1] = rintable.properties.logKr.values[1] end"
      },
      "format" :   {
           "head_regexp" :   "\n%head0\n\t%head1\n",
