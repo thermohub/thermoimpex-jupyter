@@ -1,5 +1,5 @@
 {
-     "jsonio" :   {
+     "arangodb" :   {
           "UseArangoDBInstance" :   "ArangoDBRemote",
           "UseVelocypackPut" :   true,
           "UseVelocypackGet" :   true,
