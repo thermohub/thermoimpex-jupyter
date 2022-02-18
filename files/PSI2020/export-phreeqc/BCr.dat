@@ -1,0 +1,435 @@
+SOLUTION_MASTER_SPECIES 
+
+
+#        ATOMIC WEIGHTS 
+#        Naturally occuring elements: IUPAC 1993 Table 1 rounded to 0.001
+#        Radioelements: Mass number of longest-lived isotope
+#
+#
+#
+#  elemen     species        alk   gfw_formula element_gfw atomic
+#                                                          number
+#
+
+
+SOLUTION_SPECIES 
+
+# PMATCH MASTER SPECIES 
+
+
+# PMATCH SECONDARY MASTER SPECIES 
+
+
+ 1.000H+  +  1.000B(OH)4-  +  -1.000H2O     = B(OH)3
+	-analytical_expression	6.87245 0 705.884 0 0 
+	-log_K	9.24 
+
+ 2.000H+  +  3.000B(OH)4-  +  -7.000H2O     = B3O5-
+	-analytical_expression	20.9 0 0 0 0 
+	-log_K	20.9 
+
+ 2.000H+  +  4.000B(OH)4-  +  -9.000H2O     = B4O7-2
+	-analytical_expression	21.9 0 0 0 0 
+	-log_K	21.9 
+
+ 1.000Ba+2  +  1.000B(OH)4-     = BaB(OH)4+
+	-analytical_expression	1.49 0 0 0 0 
+	-log_K	1.49 
+
+ 1.000H+  +  1.000F-  +  1.000B(OH)4-  +  -1.000H2O     = BF(OH)3-
+	-analytical_expression	2.09384 0 2041.18 0 0 
+	-log_K	8.94 
+
+ 2.000H+  +  2.000F-  +  1.000B(OH)4-  +  -2.000H2O     = BF2(OH)2-
+	-analytical_expression	10.1897 0 2021.54 0 0 
+	-log_K	16.97 
+
+ 3.000H+  +  3.000F-  +  1.000B(OH)4-  +  -3.000H2O     = BF3(OH)-
+	-analytical_expression	16.2956 0 2001.9 0 0 
+	-log_K	23.01 
+
+ 4.000H+  +  4.000F-  +  1.000B(OH)4-  +  -4.000H2O     = BF4-
+	-analytical_expression	42.5282 0 -3848.57 0 0 
+	-log_K	29.62 
+
+ 1.000Ca+2  +  1.000B(OH)4-     = CaB(OH)4+
+	-analytical_expression	1.8 0 0 0 0 
+	-log_K	1.8 
+
+ 1.000Ca+2  +  1.000CrO4-2     = CaCrO4
+	-analytical_expression	2.77 0 0 0 0 
+	-log_K	2.77 
+
+ 1.000H2(PO4)-  +  1.000Cr+3     = Cr(H2PO4)+2
+	-analytical_expression	2.56 0 0 0 0 
+	-log_K	2.56 
+
+  -1.000H+  +  1.000H2(PO4)-  +  1.000Cr+3     = Cr(HPO4)+
+	-analytical_expression	2.25 0 0 0 0 
+	-log_K	2.25 
+
+  -1.000H+  +  2.000CO3-2  +  1.000Cr+3  +  1.000H2O     = Cr(OH)(CO3)2-2
+	-analytical_expression	9.73 0 0 0 0 
+	-log_K	9.73 
+
+  -1.000H+  +  1.000Cr+2  +  1.000H2O     = Cr(OH)+
+	-analytical_expression	0.0130545 0 -1584.09 0 0 
+	-log_K	-5.3 
+
+  -1.000H+  +  1.000Cr+3  +  1.000H2O     = Cr(OH)+2
+	-analytical_expression	3.101 0 -1944.24 0 0 
+	-log_K	-3.42 
+
+  -2.000H+  +  1.000Cr+3  +  2.000H2O     = Cr(OH)2+
+	-analytical_expression	7.42756 0 -4868.06 0 0 
+	-log_K	-8.9 
+
+  -3.000H+  +  1.000Cr+3  +  3.000H2O     = Cr(OH)3
+	-analytical_expression	10.8358 0 -7506.17 0 0 
+	-log_K	-14.34 
+
+  -3.000H+  +  1.000H2(PO4)-  +  1.000Cr+3  +  3.000H2O     = Cr(OH)3(H2PO4)-
+	-analytical_expression	-11.56 0 0 0 0 
+	-log_K	-11.56 
+
+  -3.000H+  +  2.000H2(PO4)-  +  1.000Cr+3  +  3.000H2O     = Cr(OH)3(H2PO4)2-2
+	-analytical_expression	-10.86 0 0 0 0 
+	-log_K	-10.86 
+
+  -4.000H+  +  1.000H2(PO4)-  +  1.000Cr+3  +  3.000H2O     = Cr(OH)3(HPO4)-2
+	-analytical_expression	-19.58 0 0 0 0 
+	-log_K	-19.58 
+
+  -5.000H+  +  1.000H2(PO4)-  +  1.000Cr+3  +  3.000H2O     = Cr(OH)3(PO4)-3
+	-analytical_expression	-30.24 0 0 0 0 
+	-log_K	-30.24 
+
+  -4.000H+  +  1.000Cr+3  +  4.000H2O     = Cr(OH)4-
+	-analytical_expression	8.05967 0 -10113.1 0 0 
+	-log_K	-25.86 
+
+  -4.000H+  +  1.000CO3-2  +  1.000Cr+3  +  4.000H2O     = Cr(OH)4(CO3)-3
+	-analytical_expression	-25.69 0 0 0 0 
+	-log_K	-25.69 
+
+  -5.000H+  +  2.000H2(PO4)-  +  1.000Cr+3  +  4.000H2O     = Cr(OH)4(HPO4)(H2PO4)-4
+	-analytical_expression	-26.3073 0 -731.27 0 0 
+	-log_K	-28.76 
+
+  -1.000H+  +  2.000Cl-  +  1.000Cr+3  +  1.000H2O     = Cr(OH)Cl2
+	-analytical_expression	0.00228952 0 -1709.08 0 0 
+	-log_K	-5.73 
+
+  -1.000H+  +  1.000CO3-2  +  1.000Cr+3  +  1.000H2O     = Cr(OH)CO3
+	-analytical_expression	4 0 0 0 0 
+	-log_K	4 
+
+ 4.000H+  +  1.000CrO4-2  +  -2.000H2O  +  -1.000O2     = Cr+2
+	-analytical_expression	5.33522 0 -7186.97 0 0 
+	-log_K	-18.77 
+
+ 5.000H+  +  1.000CrO4-2  +  -2.500H2O  +  -0.750O2     = Cr+3
+	-analytical_expression	-5.79459 0 4449.02 0 0 
+	-log_K	9.128 
+
+  -2.000H+  +  2.000Cr+3  +  2.000H2O     = Cr2(OH)2+4
+	-analytical_expression	-4 0 0 0 0 
+	-log_K	-4 
+
+ 2.000H+  +  2.000CrO4-2  +  -1.000H2O     = Cr2O7-2
+	-analytical_expression	14.0927 0 195.98 0 0 
+	-log_K	14.75 
+
+  -4.000H+  +  3.000Cr+3  +  4.000H2O     = Cr3(OH)4+5
+	-analytical_expression	-7.6 0 0 0 0 
+	-log_K	-7.6 
+
+ 1.000Br-  +  1.000Cr+3     = CrBr+2
+	-analytical_expression	3.33724 0 -1179.85 0 0 
+	-log_K	-0.62 
+
+ 1.000Cl-  +  1.000Cr+2     = CrCl+
+	-analytical_expression	2.06112 0 1055.12 0 0 
+	-log_K	5.6 
+
+ 1.000Cl-  +  1.000Cr+3     = CrCl+2
+	-analytical_expression	4.28502 0 -1092.73 0 0 
+	-log_K	0.62 
+
+ 2.000Cl-  +  1.000Cr+3     = CrCl2+
+	-analytical_expression	2.95502 0 -1092.73 0 0 
+	-log_K	-0.71 
+
+ 1.000F-  +  1.000Cr+3     = CrF+2
+	-analytical_expression	4.77027 0 131.106 0 0 
+	-log_K	5.21 
+
+ 2.000F-  +  1.000Cr+3     = CrF2+
+	-analytical_expression	9.23677 0 21.8336 0 0 
+	-log_K	9.31 
+
+ 3.000F-  +  1.000Cr+3     = CrF3
+	-analytical_expression	11.91 0 0 0 0 
+	-log_K	11.91 
+
+ 2.000H+  +  1.000Cl-  +  1.000CrO4-2  +  -1.000H2O     = CrO3Cl-
+	-analytical_expression	9.0348 0 -284.673 0 0 
+	-log_K	8.08 
+
+ 1.000SO4-2  +  1.000Cr+3     = CrSO4+
+	-analytical_expression	4.61 0 0 0 0 
+	-log_K	4.61 
+
+ 1.000Cu+2  +  1.000B(OH)4-     = Cu(B(OH)4)+
+	-analytical_expression	7.13 0 0 0 0 
+	-log_K	7.13 
+
+ 1.000Cu+2  +  2.000B(OH)4-     = Cu(B(OH)4)2
+	-analytical_expression	12.45 0 0 0 0 
+	-log_K	12.45 
+
+ 1.000Cu+2  +  3.000B(OH)4-     = Cu(B(OH)4)3-
+	-analytical_expression	15.17 0 0 0 0 
+	-log_K	15.17 
+
+ 1.000Fe+3  +  1.000B(OH)4-     = Fe(B(OH)4)+2
+	-analytical_expression	8.58 0 0 0 0 
+	-log_K	8.58 
+
+ 1.000Fe+3  +  2.000B(OH)4-     = Fe(B(OH)4)2+
+	-analytical_expression	15.54 0 0 0 0 
+	-log_K	15.54 
+
+ 1.000Fe+3  +  1.000CrO4-2     = FeCrO4+
+	-analytical_expression	11.1462 0 -997.661 0 0 
+	-log_K	7.8 
+
+ 2.000H+  +  1.000CrO4-2     = H2CrO4
+	-analytical_expression	13.2569 0 -2068.24 0 0 
+	-log_K	6.32 
+
+ 2.000H+  +  1.000H2(PO4)-  +  1.000CrO4-2  +  -1.000H2O     = H2CrPO7-
+	-analytical_expression	-0.000647544 0 2689.51 0 0 
+	-log_K	9.02 
+
+ 1.000H+  +  2.000B(OH)4-  +  -4.000H2O     = HB2O4-
+	-analytical_expression	9.17 0 0 0 0 
+	-log_K	9.17 
+
+ 1.000H+  +  1.000CrO4-2     = HCrO4-
+	-analytical_expression	7.57396 0 -314.237 0 0 
+	-log_K	6.52 
+
+ 1.000H+  +  1.000H2(PO4)-  +  1.000CrO4-2  +  -1.000H2O     = HCrPO7-2
+	-analytical_expression	-0.00524498 0 1900.78 0 0 
+	-log_K	6.37 
+
+ 1.000Mg+2  +  1.000B(OH)4-     = MgB(OH)4+
+	-analytical_expression	1.6 0 0 0 0 
+	-log_K	1.6 
+
+ 1.000Na+  +  1.000B(OH)4-     = NaB(OH)4
+	-analytical_expression	0.114786 0 -64.0383 0 0 
+	-log_K	-0.1 
+
+ 1.000Pb+2  +  1.000B(OH)4-     = Pb(B(OH)4)+
+	-analytical_expression	5.2 0 0 0 0 
+	-log_K	5.2 
+
+ 1.000Pb+2  +  3.000B(OH)4-     = Pb(B(OH)4)3-
+	-analytical_expression	11.18 0 0 0 0 
+	-log_K	11.18 
+
+ 1.000Sr+2  +  1.000B(OH)4-     = SrB(OH)4+
+	-analytical_expression	1.55 0 0 0 0 
+	-log_K	1.55 
+
+
+PHASES 
+
+
+
+B(cr)
+	B     = 1.000H+  +  1.000B(OH)4-  +  -2.500H2O  +  -0.750O2
+	-analytical_expression	-8.44904 0 32460.1 0 0 
+	-log_K	100.423 
+
+B(OH)3(cr)
+	B(OH)3     = 1.000H+  +  1.000B(OH)4-  +  -1.000H2O
+	-analytical_expression	-3.08822 0 -1855.02 0 0 
+	-log_K	-9.31 
+
+B2O3(am)
+	B2O3     = 2.000H+  +  2.000B(OH)4-  +  -5.000H2O
+	-analytical_expression	-11.8059 0 350.592 0 0 
+	-log_K	-10.63 
+
+B2O3(cr)
+	B2O3     = 2.000H+  +  2.000B(OH)4-  +  -5.000H2O
+	-analytical_expression	-10.5645 0 -648.636 0 0 
+	-log_K	-12.74 
+
+Ca3B2O6(s)
+	Ca3B2O6     = 3.000Ca+2  +  -4.000H+  +  2.000B(OH)4-  +  -2.000H2O
+	-analytical_expression	-15.1847 0 16626.3 0 0 
+	-log_K	40.58 
+
+Ca4Al2O6(CrO4):15H2O(s)
+	Ca4Al2O6(CrO4):15H2O     = 4.000Ca+2  +  2.000Al+3  +  -12.000H+  +  1.000CrO4-2  +  21.000H2O
+	-analytical_expression	-24.2914 0 28518.5 0 0 
+	-log_K	71.36 
+
+Ca6(Al(OH)6)2(CrO4)3:26H2O(s)
+	Ca6(Al(OH)6)2(CrO4)3:26H2O     = 6.000Ca+2  +  2.000Al+3  +  -12.000H+  +  3.000CrO4-2  +  38.000H2O
+	-analytical_expression	-28.9962 0 26617.7 0 0 
+	-log_K	60.28 
+
+CaB2O4(s)
+	CaB2O4     = 1.000Ca+2  +  2.000B(OH)4-  +  -4.000H2O
+	-analytical_expression	-12.4978 0 3076.24 0 0 
+	-log_K	-2.18 
+
+CaB4O7(s)
+	CaB4O7     = 1.000Ca+2  +  2.000H+  +  4.000B(OH)4-  +  -9.000H2O
+	-analytical_expression	-21.7983 0 -489.481 0 0 
+	-log_K	-23.44 
+
+CaCrO4(s)
+	CaCrO4     = 1.000Ca+2  +  1.000CrO4-2
+	-analytical_expression	-7.14561 0 1191.29 0 0 
+	-log_K	-3.15 
+
+CdB2O4(s)
+	CdB2O4     = 1.000Cd+2  +  2.000B(OH)4-  +  -4.000H2O
+	-analytical_expression	-8.64 0 0 0 0 
+	-log_K	-8.64 
+
+Chromite
+	FeCr2O4     = 1.000Fe+2  +  -8.000H+  +  2.000Cr+3  +  4.000H2O
+	-analytical_expression	-31.9752 0 14041.4 0 0 
+	-log_K	15.12 
+
+Cr(cr)
+	Cr     = 2.000H+  +  1.000CrO4-2  +  -1.000H2O  +  -1.500O2
+	-analytical_expression	-11.0551 0 30032.7 0 0 
+	-log_K	89.675 
+
+Cr(OH)2(cr)
+	Cr(OH)2     =  -2.000H+  +  1.000Cr+2  +  2.000H2O
+	-analytical_expression	-2.21983 0 3941.49 0 0 
+	-log_K	11 
+
+Cr(OH)2(H2PO4)(s)
+	Cr(OH)2(H2PO4)     =  -2.000H+  +  1.000H2(PO4)-  +  1.000Cr+3  +  2.000H2O
+	-analytical_expression	0.89 0 0 0 0 
+	-log_K	0.89 
+
+Cr(OH)3(cr)
+	Cr(OH)3     =  -3.000H+  +  1.000Cr+3  +  3.000H2O
+	-analytical_expression	-10.8516 0 5471.52 0 0 
+	-log_K	7.5 
+
+Cr2(SO4)3(s)
+	Cr2(SO4)3     = 3.000SO4-2  +  2.000Cr+3
+	-analytical_expression	-44.2744 0 14506.3 0 0 
+	-log_K	4.38 
+
+Cr2O3(cr)
+	Cr2O3     =  -6.000H+  +  2.000Cr+3  +  3.000H2O
+	-analytical_expression	-26.9363 0 10341.7 0 0 
+	-log_K	7.75 
+
+Cr2S3(s)
+	Cr2S3     =  -3.000H+  +  3.000HS-  +  2.000Cr+3
+	-analytical_expression	-30.9375 0 10196 0 0 
+	-log_K	3.26 
+
+CrCl2(cr)
+	CrCl2     = 2.000Cl-  +  1.000Cr+2
+	-analytical_expression	-5.39784 0 5404.82 0 0 
+	-log_K	12.73 
+
+CrCl3(cr)
+	CrCl3     = 3.000Cl-  +  1.000Cr+3
+	-analytical_expression	-14.3824 0 10307.8 0 0 
+	-log_K	20.19 
+
+CrO2(cr)
+	CrO2     = 2.000H+  +  1.000CrO4-2  +  -1.000H2O  +  -0.500O2
+	-analytical_expression	-6.79345 0 -563.966 0 0 
+	-log_K	-8.685 
+
+CrO3(cr)
+	CrO3     = 2.000H+  +  1.000CrO4-2  +  -1.000H2O
+	-analytical_expression	-4.78419 0 525.992 0 0 
+	-log_K	-3.02 
+
+Crocoite
+	PbCrO4     = 1.000Pb+2  +  1.000CrO4-2
+	-analytical_expression	-3.97609 0 -2556.31 0 0 
+	-log_K	-12.55 
+
+CrPO4(green)
+	CrPO4     =  -2.000H+  +  1.000H2(PO4)-  +  1.000Cr+3
+	-analytical_expression	-3.06 0 0 0 0 
+	-log_K	-3.06 
+
+CrPO4(purple)
+	CrPO4     =  -2.000H+  +  1.000H2(PO4)-  +  1.000Cr+3
+	-analytical_expression	2.56 0 0 0 0 
+	-log_K	2.56 
+
+CrS(s)
+	CrS     =  -1.000H+  +  1.000HS-  +  1.000Cr+2
+	-analytical_expression	-5.13238 0 2025.15 0 0 
+	-log_K	1.66 
+
+KFe(CrO4)2:2H2O(s)
+	KFe(CrO4)2:2H2O     = 1.000K+  +  1.000Fe+3  +  2.000CrO4-2  +  2.000H2O
+	-analytical_expression	-14.5652 0 -1438.51 0 0 
+	-log_K	-19.39 
+
+KFe3(CrO4)2(OH)6(cr)
+	KFe3(CrO4)2(OH)6     = 1.000K+  +  3.000Fe+3  +  -6.000H+  +  2.000CrO4-2  +  6.000H2O
+	-analytical_expression	-18.4 0 0 0 0 
+	-log_K	-18.4 
+
+MgCr2O4(s)
+	MgCr2O4     = 1.000Mg+2  +  -8.000H+  +  2.000Cr+3  +  4.000H2O
+	-analytical_expression	-31.7402 0 16073.3 0 0 
+	-log_K	22.17 
+
+Na2B4O7:10H2O(s)
+	Na2B4O7:10H2O     = 2.000Na+  +  2.000H+  +  4.000B(OH)4-  +  1.000H2O
+	-analytical_expression	0.204619 0 -7389.53 0 0 
+	-log_K	-24.58 
+
+Na2B4O7(cr)
+	Na2B4O7     = 2.000Na+  +  2.000H+  +  4.000B(OH)4-  +  -9.000H2O
+	-analytical_expression	-15.6185 0 -131.629 0 0 
+	-log_K	-16.06 
+
+NaBO2(s)
+	NaBO2     = 1.000Na+  +  1.000B(OH)4-  +  -2.000H2O
+	-analytical_expression	-2.82585 0 1921.83 0 0 
+	-log_K	3.62 
+
+Ni(BO2)2(s)
+	Ni(BO2)2     = 1.000Ni+2  +  2.000B(OH)4-  +  -4.000H2O
+	-analytical_expression	-8.7 0 0 0 0 
+	-log_K	-8.7 
+
+PbB2O4(s)
+	PbB2O4     = 1.000Pb+2  +  2.000B(OH)4-  +  -4.000H2O
+	-analytical_expression	-10.3863 0 -144.217 0 0 
+	-log_K	-10.87 
+
+SrCrO4(s)
+	SrCrO4     = 1.000Sr+2  +  1.000CrO4-2
+	-analytical_expression	-6.42382 0 528.865 0 0 
+	-log_K	-4.65 
+
+ZnB2O4(s)
+	ZnB2O4     = 1.000Zn+2  +  2.000B(OH)4-  +  -4.000H2O
+	-analytical_expression	-10.19 0 0 0 0 
+	-log_K	-10.19 
