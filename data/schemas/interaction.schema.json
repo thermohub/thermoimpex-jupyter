@@ -347,13 +347,13 @@
           "doc": "f(T)=A+B*T+C*T^2+D/T+E/T^2+F*lnT\n"
         },
         {
-          "name": "IT_NEA_TRANSFORMED_2",
+          "name": "IT_NEA_TRANSFORMED2",
           "value": 210,
           "doc": "f(T)=A+B*T+C*T^2+D*(T^2)*lnT+E*T^3+F*T^4\n"
         },
         {
           "name": "IT_PITZER_FUNCTION",
-          "value": 1,
+          "value": 211,
           "doc": "f(T)=A/T+B+C*ln(T)+D*T+E*T^2+F/T^2\n"
         },
         {
