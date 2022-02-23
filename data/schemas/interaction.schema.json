@@ -324,7 +324,37 @@
         {
           "name": "IT_PITZER",
           "value": 205,
-          "doc": "f(T)=A+B*(1/T-1/298.15)+C*ln(T/298.15)+D*(T-298.15)+E*(T^2-298.15^2)\n"
+          "doc": "f(T)=A+B*(1/T-1/298.15)+C*ln(T/298.15)+D*(T-298.15)+E*(T^2-298.15^2)+F*(1/T^2-1/298.15^2)\n"
+        },
+        {
+          "name": "IT_EQ36",
+          "value": 206,
+          "doc": "f(T)=A+B*(1/T-1/298.15)+C*ln(T/298.15)+D*(T-298.15)\n"
+        },
+        {
+          "name": "IT_NEA",
+          "value": 207,
+          "doc": "f(T)=A+B*T+C*T^2+D/T+E/T^2\n"
+        },
+        {
+          "name": "IT_NEA_EXTENDED",
+          "value": 208,
+          "doc": "f(T)=A+B*T+C*T*ln(T)+D*T^2+E*T^3+F/T\n"
+        },
+        {
+          "name": "IT_NEA_TRANSFORMED",
+          "value": 209,
+          "doc": "f(T)=A+B*T+C*T^2+D/T+E/T^2+F*lnT\n"
+        },
+        {
+          "name": "IT_NEA_TRANSFORMED_2",
+          "value": 210,
+          "doc": "f(T)=A+B*T+C*T^2+D*(T^2)*lnT+E*T^3+F*T^4\n"
+        },
+        {
+          "name": "IT_PITZER_FUNCTION",
+          "value": 1,
+          "doc": "f(T)=A/T+B+C*ln(T)+D*T+E*T^2+F/T^2\n"
         },
         {
           "name": "IT_OTHER",
