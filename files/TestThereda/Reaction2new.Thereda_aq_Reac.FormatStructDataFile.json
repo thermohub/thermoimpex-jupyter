@@ -2,8 +2,7 @@
     "block": {
         "defaults": {
             "properties.sourcetdb": "{\"12\" :   \"THEREDA\"}",
-            "properties.TPMethods": "[{\"method\" :{\"0\" :   \"logk_fpt_function\"}, \"limitsTP\": {}, \"logk_ft_coeffs\" :{\"values\" : [0,0,0,0,0,0]}},
-                                      {\"method\" :{\"7\" :   \"logk_3_term_extrap\"}}]",
+            "properties.TPMethods": "[{\"method\" :{\"0\" :   \"logk_fpt_function\"}, \"limitsTP\": {}, \"logk_ft_coeffs\" :{\"values\" : [0,0,0,0,0,0]}}]",
             "properties.reactyp": "{\"12\" :   \"FE_FORMATION\"}",
             "properties.Tst": "298.15",
             "properties.Pst": "1.0e5",
@@ -17,6 +16,7 @@
             {\"datasources\" : [\"\",\"\"]},
             {\"datasources\" : [\"\",\"\"]},
             {\"datasources\" : [\"\",\"\"]},
+            {\"datasources\" : [\"\",\"\"], \"values\" : [0,0,0,0,0,0,0,0,0,0]},
             {\"datasources\" : [\"\",\"\"], \"values\" : [0,0,0,0,0,0,0,0,0,0]},
             {\"datasources\" : [\"\",\"\"], \"values\" : [0,0,0,0,0,0,0,0,0,0]},
             {\"datasources\" : [\"\",\"\"], \"values\" : [0,0,0,0,0,0,0,0,0,0]},
@@ -443,15 +443,18 @@
         if v.name == 'DRCP298' then rintable.properties.drsm_heat_capacity_p = v end;
         if v.name == 'DRS298' then rintable.properties.drsm_entropy = v end;
         if v.name == 'DRV298' then rintable.properties.drsm_volume = v end;
+        
         if v.name == 'LOGKT' then rintable.properties.TPMethods[1].limitsTP.lowerT = v.values[10] v.values[10] = nil 
-        rintable.properties.TPMethods[1].limitsTP.upperT = v.values[8] v.values[8] = nil 
-        rintable.properties.TPMethods[1].limitsTP.lowerP = v.values[9] v.values[9] = nil rintable.properties.TPMethods[1].limitsTP.upperP = v.values[7] v.values[7] = nil
-        rintable.properties.TPMethods[1].logk_ft_coeffs.values = v.values 
-	if v.comment ~= 'NEA-transformed' and rintable.properties.TPMethods ~= nil then rintable.properties.TPMethods = nil end;
+            if rintable.properties.symbol == 'H2O(g)' then print(v.values[4]) end;
+            if #v.values<6 then print('logK_fun < 6') print(#v.values) print(rintable.properties.symbol)  end;
+            rintable.properties.TPMethods[1].limitsTP.upperT = v.values[8] v.values[8] = nil 
+            rintable.properties.TPMethods[1].limitsTP.lowerP = v.values[9] v.values[9] = nil rintable.properties.TPMethods[1].limitsTP.upperP = v.values[7] v.values[7] = nil
+            rintable.properties.TPMethods[1].logk_ft_coeffs.values = v.values 
+	        if v.comment ~= 'NEA-transformed' and rintable.properties.TPMethods ~= nil then print('TP function ') print (v.comment) print (rintable.properties.symbol) rintable.properties.TPMethods = nil end;
         end;
   end;
 	if rintable.properties.TPMethods ~= nil then x = rintable.properties.TPMethods[1].logk_ft_coeffs.values
-	if x[1] == 0 and x[2] == 0 and x[3] == 0 and x[4] == 0 and x[5] == 0 and x[6] == 0 then   rintable.properties.TPMethods = nil end; end;
+	if x[1] == 0 and x[2] == 0 and x[3] == 0 and x[4] == 0 and x[5] == 0 and x[6] == 0 then rintable.properties.TPMethods = nil end; end;
         if rintable.properties.drsm_gibbs_energy ~= nil then rintable.properties.drsm_gibbs_energy.units = {'J/mol'} end
         if rintable.properties.drsm_enthalpy ~= nil then rintable.properties.drsm_enthalpy.units = {'J/mol'} end 
         if rintable.properties.drsm_entropy ~= nil then rintable.properties.drsm_entropy.units = {'J/(mol*K)'} end

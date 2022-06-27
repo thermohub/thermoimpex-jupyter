@@ -1,5 +1,5 @@
-"a   AlOH    Al(OH)4<->      THER"
-"CSC   SjjbC----12/1/22"
+"a   AlOH    Al(OH)4-        THER"
+"CSC   SjjbC----23/2/22"
 'Al(OH)4<->'
 'Al(OH)4-'
 0 0 0 0
@@ -19,8 +19,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   Am      Am<3+>          THER"
-"CSC   SjjbC----12/1/22"
+"a   Am      Am+3            THER"
+"CSC   SjjbC----23/2/22"
 'Am<3+>'
 'Am+3'
 0 0 0 0
@@ -40,8 +40,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   AsO     AsO4<3->        THER"
-"CSC   SjjbC----12/1/22"
+"a   AsO     AsO4-3          THER"
+"CSC   SjjbC----23/2/22"
 'AsO4<3->'
 'AsO4-3'
 0 0 0 0
@@ -61,8 +61,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   CO      CO3<2->         THER"
-"CSC   SjjbC----12/1/22"
+"a   CO      CO3-2           THER"
+"CSC   SjjbC----23/2/22"
 'CO3<2->'
 'CO3-2'
 0 0 0 0
@@ -82,8 +82,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   Ca      Ca<2+>          THER"
-"CSC   SjjbC----12/1/22"
+"a   Ca      Ca+2            THER"
+"CSC   SjjbC----23/2/22"
 'Ca<2+>'
 'Ca+2'
 0 0 0 0
@@ -103,8 +103,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   Cl      Cl<->           THER"
-"CSC   SjjbC----12/1/22"
+"a   Cl      Cl-             THER"
+"CSC   SjjbC----23/2/22"
 'Cl<->'
 'Cl-'
 0 0 0 0
@@ -124,8 +124,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   Cm      Cm<3+>          THER"
-"CSC   SjjbC----12/1/22"
+"a   Cm      Cm+3            THER"
+"CSC   SjjbC----23/2/22"
 'Cm<3+>'
 'Cm+3'
 0 0 0 0
@@ -145,8 +145,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   Cs      Cs<+>           THER"
-"CSC   SjjbC----12/1/22"
+"a   Cs      Cs+             THER"
+"CSC   SjjbC----23/2/22"
 'Cs<+>'
 'Cs+'
 0 0 0 0
@@ -166,8 +166,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   FeOH    Fe(OH)4<->      THER"
-"CSC   SjjbC----12/1/22"
+"a   FeOH    Fe(OH)4-        THER"
+"CSC   SjjbC----23/2/22"
 'Fe(OH)4<->'
 'Fe(OH)4-'
 0 0 0 0
@@ -187,8 +187,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   Fe      Fe<2+>          THER"
-"CSC   SjjbC----12/1/22"
+"a   Fe      Fe+2            THER"
+"CSC   SjjbC----23/2/22"
 'Fe<2+>'
 'Fe+2'
 0 0 0 0
@@ -209,7 +209,7 @@
 ^^0 0 32~~
 ^^0 0 24~~
 "g   H       H2(g)           THER"
-"CSC   GjjbC----12/1/22"
+"CSC   GjjbC----23/2/22"
 'H2(g)'
 'H|0|2'
 0 0 0 0
@@ -229,8 +229,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   wZ_     H2O(l)          THER"
-"CSC   WjjbC----12/1/22"
+"a   wZ_     H2O@            THER"
+"CSC   WjjbC----23/2/22"
 'H2O(l)'
 'H2O@'
 0 0 0 0
@@ -250,8 +250,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   wY_     H<+>            THER"
-"CSC   TjjbC----12/1/22"
+"a   wY_     H+              THER"
+"CSC   TjjbC----23/2/22"
 'H<+>'
 'H+'
 0 0 0 0
@@ -271,8 +271,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   K       K<+>            THER"
-"CSC   SjjbC----12/1/22"
+"a   K       K+              THER"
+"CSC   SjjbC----23/2/22"
 'K<+>'
 'K+'
 0 0 0 0
@@ -292,8 +292,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   Mg      Mg<2+>          THER"
-"CSC   SjjbC----12/1/22"
+"a   Mg      Mg+2            THER"
+"CSC   SjjbC----23/2/22"
 'Mg<2+>'
 'Mg+2'
 0 0 0 0
@@ -313,8 +313,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   Na      Na<+>           THER"
-"CSC   SjjbC----12/1/22"
+"a   Na      Na+             THER"
+"CSC   SjjbC----23/2/22"
 'Na<+>'
 'Na+'
 0 0 0 0
@@ -334,8 +334,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   NbOH    Nb(OH)4<+>      THER"
-"CSC   SjjbC----12/1/22"
+"a   NbOH    Nb(OH)4+        THER"
+"CSC   SjjbC----23/2/22"
 'Nb(OH)4<+>'
 'Nb(OH)4+'
 0 0 0 0
@@ -355,8 +355,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   Nd      Nd<3+>          THER"
-"CSC   SjjbC----12/1/22"
+"a   Nd      Nd+3            THER"
+"CSC   SjjbC----23/2/22"
 'Nd<3+>'
 'Nd+3'
 0 0 0 0
@@ -376,8 +376,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   Ni      Ni<2+>          THER"
-"CSC   SjjbC----12/1/22"
+"a   Ni      Ni+2            THER"
+"CSC   SjjbC----23/2/22"
 'Ni<2+>'
 'Ni+2'
 0 0 0 0
@@ -397,8 +397,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   NpO     NpO2<+>         THER"
-"CSC   SjjbC----12/1/22"
+"a   NpO     NpO2+           THER"
+"CSC   SjjbC----23/2/22"
 'NpO2<+>'
 'NpO2+'
 0 0 0 0
@@ -418,8 +418,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   Np      Np<4+>          THER"
-"CSC   SjjbC----12/1/22"
+"a   Np      Np+4            THER"
+"CSC   SjjbC----23/2/22"
 'Np<4+>'
 'Np+4'
 0 0 0 0
@@ -440,7 +440,7 @@
 ^^0 0 32~~
 ^^0 0 24~~
 "g   O       O2(g)           THER"
-"CSC   GjjbC----12/1/22"
+"CSC   GjjbC----23/2/22"
 'O2(g)'
 'O|0|2'
 0 0 0 0
@@ -460,8 +460,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   PO      PO4<3->         THER"
-"CSC   SjjbC----12/1/22"
+"a   PO      PO4-3           THER"
+"CSC   SjjbC----23/2/22"
 'PO4<3->'
 'PO4-3'
 0 0 0 0
@@ -481,8 +481,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   Pb      Pb<2+>          THER"
-"CSC   SjjbC----12/1/22"
+"a   Pb      Pb+2            THER"
+"CSC   SjjbC----23/2/22"
 'Pb<2+>'
 'Pb+2'
 0 0 0 0
@@ -502,8 +502,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   Pu      Pu<4+>          THER"
-"CSC   SjjbC----12/1/22"
+"a   Pu      Pu+4            THER"
+"CSC   SjjbC----23/2/22"
 'Pu<4+>'
 'Pu+4'
 0 0 0 0
@@ -523,8 +523,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   Ra      Ra<2+>          THER"
-"CSC   SjjbC----12/1/22"
+"a   Ra      Ra+2            THER"
+"CSC   SjjbC----23/2/22"
 'Ra<2+>'
 'Ra+2'
 0 0 0 0
@@ -544,8 +544,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   Rb      Rb<+>           THER"
-"CSC   SjjbC----12/1/22"
+"a   Rb      Rb+             THER"
+"CSC   SjjbC----23/2/22"
 'Rb<+>'
 'Rb+'
 0 0 0 0
@@ -565,8 +565,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   SO      SO4<2->         THER"
-"CSC   SjjbC----12/1/22"
+"a   SO      SO4-2           THER"
+"CSC   SjjbC----23/2/22"
 'SO4<2->'
 'SO4-2'
 0 0 0 0
@@ -586,8 +586,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   SeO     SeO3<2->        THER"
-"CSC   SjjbC----12/1/22"
+"a   SeO     SeO3-2          THER"
+"CSC   SjjbC----23/2/22"
 'SeO3<2->'
 'SeO3-2'
 0 0 0 0
@@ -607,8 +607,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   SeO     SeO4<2->        THER"
-"CSC   SjjbC----12/1/22"
+"a   SeO     SeO4-2          THER"
+"CSC   SjjbC----23/2/22"
 'SeO4<2->'
 'SeO4-2'
 0 0 0 0
@@ -628,8 +628,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   SiOH    Si(OH)4<0>      THER"
-"CSC   SjjbC----12/1/22"
+"a   SiOH    Si(OH)4@        THER"
+"CSC   SjjbC----23/2/22"
 'Si(OH)4<0>'
 'Si(OH)4@'
 0 0 0 0
@@ -649,8 +649,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   Sm      Sm<3+>          THER"
-"CSC   SjjbC----12/1/22"
+"a   Sm      Sm+3            THER"
+"CSC   SjjbC----23/2/22"
 'Sm<3+>'
 'Sm+3'
 0 0 0 0
@@ -670,8 +670,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   Sr      Sr<2+>          THER"
-"CSC   SjjbC----12/1/22"
+"a   Sr      Sr+2            THER"
+"CSC   SjjbC----23/2/22"
 'Sr<2+>'
 'Sr+2'
 0 0 0 0
@@ -691,8 +691,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   TcOOH   TcO(OH)2<0>     THER"
-"CSC   SjjbC----12/1/22"
+"a   TcOOH   TcO(OH)2@       THER"
+"CSC   SjjbC----23/2/22"
 'TcO(OH)2<0>'
 'TcO(OH)2@'
 0 0 0 0
@@ -712,8 +712,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   Th      Th<4+>          THER"
-"CSC   SjjbC----12/1/22"
+"a   Th      Th+4            THER"
+"CSC   SjjbC----23/2/22"
 'Th<4+>'
 'Th+4'
 0 0 0 0
@@ -733,8 +733,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   UO      UO2<2+>         THER"
-"CSC   SjjbC----12/1/22"
+"a   UO      UO2+2           THER"
+"CSC   SjjbC----23/2/22"
 'UO2<2+>'
 'UO2+2'
 0 0 0 0
@@ -754,8 +754,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   U       U<4+>           THER"
-"CSC   SjjbC----12/1/22"
+"a   U       U+4             THER"
+"CSC   SjjbC----23/2/22"
 'U<4+>'
 'U+4'
 0 0 0 0
@@ -775,8 +775,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   I       I<->            THER"
-"CSC   SjjbC----12/1/22"
+"a   I       I-              THER"
+"CSC   SjjbC----23/2/22"
 'I<->'
 'I-'
 0 0 0 0
@@ -796,8 +796,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   PaOOH   PaO(OH)<2+>     THER"
-"CSC   SjjbC----12/1/22"
+"a   PaOOH   PaO(OH)+2       THER"
+"CSC   SjjbC----23/2/22"
 'PaO(OH)<2+>'
 'PaO(OH)+2'
 0 0 0 0
@@ -817,8 +817,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   Pa      Pa<4+>          THER"
-"CSC   SjjbC----12/1/22"
+"a   Pa      Pa+4            THER"
+"CSC   SjjbC----23/2/22"
 'Pa<4+>'
 'Pa+4'
 0 0 0 0
@@ -838,8 +838,8 @@
 ^^1 0 4~~
 ^^0 0 32~~
 ^^0 0 24~~
-"a   TcO     TcO4<->         THER"
-"CSC   SjjbC----12/1/22"
+"a   TcO     TcO4-           THER"
+"CSC   SjjbC----23/2/22"
 'TcO4<->'
 'TcO4-'
 0 0 0 0
