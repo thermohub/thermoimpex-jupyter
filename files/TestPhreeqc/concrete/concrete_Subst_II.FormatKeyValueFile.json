@@ -41,6 +41,7 @@
           "script" :   "rintable.properties.symbol = string.match(rintable.properties.formula, \'%s*([^%s]*)\');\n
                         rintable.properties.name = rintable.properties.symbol; \n
                         rintable.properties.formula = rintable.properties.symbol;\n
+                        if rintable.properties.formula == 'e-' then rintable.properties.formula = 'E-' end \n
                         if rintable.properties.formula == 'H2O' then rintable.properties.class_ = {} rintable.properties.class_['3'] = 'SC_AQSOLVENT' end"
      },
      "format" :   {
