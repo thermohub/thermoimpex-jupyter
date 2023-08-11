@@ -49,7 +49,7 @@
           "LuaScriptsDirectory" :   "Resources/lua"
      },
      "ThermoMatch" :   {
-          "ReacDCImport" :   {
+          "ReacDCImport-old" :   {
                "ReactionFormatStructData" :   "",
                "ReactionDependentSubstanceFormatStructData" :   "",
                "ReactionEdgesFormatStructData" :   "",
@@ -57,7 +57,7 @@
                "ImportFormatOverwrite" :   true,
                "ImportFormatUseDB" :   false
           },
-          "TheredaImport" :   {
+          "TheredaImport-old" :   {
                "ReactionFormatStructData" :   "",
                "MasterSubstanceFormatStructData" :   "",
                "ProductSubstanceFormatStructData" :   "",
@@ -67,9 +67,6 @@
                "InputFilePath" :   ".",
                "ImportFormatOverwrite" :   false,
                "ImportFormatUseDB" :   false
-          },
-          "PhreeqcImport" :   {
-
           }
      }
 }
