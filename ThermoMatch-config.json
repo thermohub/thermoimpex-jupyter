@@ -1,10 +1,10 @@
 {
      "arangodb" :   {
-          "UseArangoDBInstance" :   "ArangoDBRemote",
+          "UseArangoDBInstance" :   "ArangoDBLocal",
           "UseVelocypackPut" :   true,
           "UseVelocypackGet" :   true,
           "ArangoDBLocal" :   {
-               "DBName" :   "userdatabase",
+               "DBName" :   "test_db_api",
                "DBCreate" :   true,
                "DB_URL" :   "http://localhost:8529",
                "DBUser" :   "root",
@@ -18,55 +18,263 @@
                "DBName" :   "hub_main",
                "DBCreate" :   false,
                "DB_URL" :   "https://db.thermohub.net",
-               "DBUser" :   "matchrem",
-               "DBUserPassword" :   "ThermoMatch@Remote-ThermoHub-Server",
+               "DBUser" :   "funrem",
+               "DBUserPassword" :   "__put_here_the_remote_password__",
                "DBAccess" :   "rw",
                "DBRootName" :   "_system",
                "DBRootUser" :   "",
                "DBRootPassword" :   ""
           }
      },
-     "jsonimpex" :   {
-          "ImpexScriptsDirectory" :   "Resources/data/impex",
-          "ImpexScriptsInDB" :   true,
-          "ThriftDBSocketHost" :   "localhost",
-          "ThriftDBSocketPort" :   9090
+     "jsonio" :   {
+
      },
      "jsonui" :   {
-          "CurrentDBConnection" :   "ArangoDBRemote",
+          "CurrentDBConnection" :   "ArangoDBLocal",
           "ViewOnlyMode" :   false,
           "CanEdit_id" :   false,
           "KeepExpanded" :   true,
-          "ShowComments" :   true,
+          "ShowComments" :   false,
           "ShowEnumNames" :   true,
           "CanEditDocPages" :   false
      },
      "common" :   {
           "UserHomeDirectoryPath" :   "~",
-          "WorkDirectoryPath" :   ".",
+          "WorkDirectoryPath" :   "/home/sveta/devThermo/gitThermoMatch/build-ThermoMatch/Resources/files/test_api",
           "ResourcesDirectory" :   "Resources",
           "SchemasDirectory" :   "Resources/data/schemas",
           "LuaScriptsDirectory" :   "Resources/lua"
      },
      "ThermoMatch" :   {
-          "ReacDCImport-old" :   {
-               "ReactionFormatStructData" :   "",
-               "ReactionDependentSubstanceFormatStructData" :   "",
-               "ReactionEdgesFormatStructData" :   "",
-               "InputFilePath" :   "",
-               "ImportFormatOverwrite" :   true,
-               "ImportFormatUseDB" :   false
+          "PhreeqcImport" :   {
+               "ImpexDirection" :   true,
+               "ImpexReactionSetName" :   "ImportedPhreeqc",
+               "InputOutputFilePath" :   "/home/sveta/devThermo/gitThermoMatch/build-ThermoMatch/Resources/files/TestPhreeqc/concrOut/out2_3T_V07_02.dat",
+               "ImpexFormatOverwrite" :   true,
+               "ImpexFormatUseDB" :   false,
+               "InputFileBlockSplit" :   true,
+               "ImpexRowCount" :   6,
+               "ImpexRows" :   {
+                    "row0" :   {
+                         "ImpexBlockOrFileName" :   "SOLUTION_MASTER_SPECIES",
+                         "ImpexVertexName" :   "VertexElement",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "Resources/files/TestPhreeqc/concrOut/export_I_Elem.FormatTableFile.json",
+                         "ImpexCondition" :   "element"
+                    },
+                    "row1" :   {
+                         "ImpexBlockOrFileName" :   "SOLUTION_SPECIES",
+                         "ImpexVertexName" :   "VertexSubstance",
+                         "ImpexFormatFile" :   "FormatKeyValueFile",
+                         "ImpexFormatScript" :   "Resources/files/TestPhreeqc/concrOut/export_II_Subst.FormatKeyValueFile.json",
+                         "ImpexCondition" :   "master"
+                    },
+                    "row2" :   {
+                         "ImpexBlockOrFileName" :   "SECONDARY_MASTER_SPECIES",
+                         "ImpexVertexName" :   "VertexSubstance",
+                         "ImpexFormatFile" :   "FormatKeyValueFile",
+                         "ImpexFormatScript" :   "Resources/files/TestPhreeqc/concrOut/export_III_Subst.FormatKeyValueFile.json",
+                         "ImpexCondition" :   "product"
+                    },
+                    "row3" :   {
+                         "ImpexBlockOrFileName" :   "PHASES",
+                         "ImpexVertexName" :   "VertexSubstance",
+                         "ImpexFormatFile" :   "FormatKeyValueFile",
+                         "ImpexFormatScript" :   "Resources/files/TestPhreeqc/concrOut/export_IV_Subst.FormatKeyValueFile.json",
+                         "ImpexCondition" :   "phase"
+                    },
+                    "row4" :   {
+                         "ImpexBlockOrFileName" :   "SECONDARY_MASTER_SPECIES",
+                         "ImpexVertexName" :   "VertexReaction",
+                         "ImpexFormatFile" :   "FormatKeyValueFile",
+                         "ImpexFormatScript" :   "Resources/files/TestPhreeqc/concrOut/export_III_React.FormatKeyValueFile.json",
+                         "ImpexCondition" :   "product"
+                    },
+                    "row5" :   {
+                         "ImpexBlockOrFileName" :   "PHASES",
+                         "ImpexVertexName" :   "VertexReaction",
+                         "ImpexFormatFile" :   "FormatKeyValueFile",
+                         "ImpexFormatScript" :   "Resources/files/TestPhreeqc/concrOut/export_IV_React.FormatKeyValueFile.json",
+                         "ImpexCondition" :   "phase"
+                    }
+               }
           },
-          "TheredaImport-old" :   {
-               "ReactionFormatStructData" :   "",
-               "MasterSubstanceFormatStructData" :   "",
-               "ProductSubstanceFormatStructData" :   "",
-               "ElementFormatStructData" :   "",
-               "PhaseFormatStructData" :   "",
-               "ReactionEdgesFormatStructData" :   "",
-               "InputFilePath" :   ".",
-               "ImportFormatOverwrite" :   false,
-               "ImportFormatUseDB" :   false
+          "SlopImport" :   {
+               "ImpexDirection" :   false,
+               "ImpexReactionSetName" :   "Slop16Imported",
+               "InputOutputFilePath" :   "/home/sveta/devThermo/gitThermoMatch/build-ThermoMatch/Resources/files/slop16/slop16.dat",
+               "ImpexFormatOverwrite" :   false,
+               "ImpexFormatUseDB" :   false,
+               "InputFileBlockSplit" :   true,
+               "ImpexRowCount" :   6,
+               "ImpexRows" :   {
+                    "row0" :   {
+                         "ImpexBlockOrFileName" :   "Minerals",
+                         "ImpexVertexName" :   "VertexSubstance",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "/home/sveta/devThermo/gitThermoMatch/build-ThermoMatch/Resources/files/slop16/minerals.FormatTableFile.json",
+                         "ImpexCondition" :   ""
+                    },
+                    "row1" :   {
+                         "ImpexBlockOrFileName" :   "MineralsOnePhaseTransition",
+                         "ImpexVertexName" :   "VertexSubstance",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "/home/sveta/devThermo/gitThermoMatch/build-ThermoMatch/Resources/files/slop16/onephaseminerals.FormatTableFile.json",
+                         "ImpexCondition" :   ""
+                    },
+                    "row2" :   {
+                         "ImpexBlockOrFileName" :   "MineralsTwoPhaseTransition",
+                         "ImpexVertexName" :   "VertexSubstance",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "/home/sveta/devThermo/gitThermoMatch/build-ThermoMatch/Resources/files/slop16/twophaseminerals.FormatTableFile.json",
+                         "ImpexCondition" :   ""
+                    },
+                    "row3" :   {
+                         "ImpexBlockOrFileName" :   "MineralsThreePhaseTransition",
+                         "ImpexVertexName" :   "VertexSubstance",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "/home/sveta/devThermo/gitThermoMatch/build-ThermoMatch/Resources/files/slop16/threephaseminerals.FormatTableFile.json",
+                         "ImpexCondition" :   ""
+                    },
+                    "row4" :   {
+                         "ImpexBlockOrFileName" :   "Gases",
+                         "ImpexVertexName" :   "VertexSubstance",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "/home/sveta/devThermo/gitThermoMatch/build-ThermoMatch/Resources/files/slop16/gases.FormatTableFile.json",
+                         "ImpexCondition" :   ""
+                    },
+                    "row5" :   {
+                         "ImpexBlockOrFileName" :   "AqueousSpecies",
+                         "ImpexVertexName" :   "VertexSubstance",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "/home/sveta/devThermo/gitThermoMatch/build-ThermoMatch/Resources/files/slop16/aqueous_species.FormatTableFile.json",
+                         "ImpexCondition" :   ""
+                    }
+               }
+          },
+          "TheredaImport" :   {
+               "ImpexDirection" :   false,
+               "ImpexReactionSetName" :   "Imported",
+               "InputOutputFilePath" :   "/home/sveta/devThermo/gitThermoMatch/build-ThermoMatch/Resources/files/GEMS201/THEREDA-db-export-01-2022.JSON",
+               "ImpexFormatOverwrite" :   true,
+               "ImpexFormatUseDB" :   false,
+               "InputFileBlockSplit" :   false,
+               "ImpexRowCount" :   6,
+               "ImpexRows" :   {
+                    "row0" :   {
+                         "ImpexBlockOrFileName" :   "elements",
+                         "ImpexVertexName" :   "VertexElement",
+                         "ImpexFormatFile" :   "FormatStructDataFile",
+                         "ImpexFormatScript" :   "/home/sveta/devThermo/gitThermoMatch/build-ThermoMatch/Resources/files/GEMS201/Element-Thereda.FormatStructDataFile.json",
+                         "ImpexCondition" :   ""
+                    },
+                    "row1" :   {
+                         "ImpexBlockOrFileName" :   "substances",
+                         "ImpexVertexName" :   "VertexSubstance",
+                         "ImpexFormatFile" :   "FormatStructDataFile",
+                         "ImpexFormatScript" :   "/home/sveta/devThermo/gitThermoMatch/build-ThermoMatch/Resources/files/GEMS201/Substance2new.Thereda_aq_Master.FormatStructDataFile.json",
+                         "ImpexCondition" :   ""
+                    },
+                    "row2" :   {
+                         "ImpexBlockOrFileName" :   "reactions",
+                         "ImpexVertexName" :   "VertexSubstance",
+                         "ImpexFormatFile" :   "FormatStructDataFile",
+                         "ImpexFormatScript" :   "/home/sveta/devThermo/gitThermoMatch/build-ThermoMatch/Resources/files/GEMS201/ReactionDependentSubstance2new.Thereda_aq_Reac.FormatStructDataFile.json",
+                         "ImpexCondition" :   ""
+                    },
+                    "row3" :   {
+                         "ImpexBlockOrFileName" :   "reactions",
+                         "ImpexVertexName" :   "VertexReaction",
+                         "ImpexFormatFile" :   "FormatStructDataFile",
+                         "ImpexFormatScript" :   "/home/sveta/devThermo/gitThermoMatch/build-ThermoMatch/Resources/files/GEMS201/Reaction2new.Thereda_aq_Reac.FormatStructDataFile.json",
+                         "ImpexCondition" :   "group"
+                    },
+                    "row4" :   {
+                         "ImpexBlockOrFileName" :   "reactions",
+                         "ImpexVertexName" :   "EdgeTakes",
+                         "ImpexFormatFile" :   "FormatStructDataFile",
+                         "ImpexFormatScript" :   "/home/sveta/devThermo/gitThermoMatch/build-ThermoMatch/Resources/files/GEMS201/ReactionEdges2.Thereda_aq_Reac.FormatStructDataFile.json",
+                         "ImpexCondition" :   "group"
+                    },
+                    "row5" :   {
+                         "ImpexBlockOrFileName" :   "phases",
+                         "ImpexVertexName" :   "VertexPhase",
+                         "ImpexFormatFile" :   "FormatStructDataFile",
+                         "ImpexFormatScript" :   "/home/sveta/devThermo/gitThermoMatch/build-ThermoMatch/Resources/files/GEMS201/Phase-Thereda.FormatStructDataFile.json",
+                         "ImpexCondition" :   ""
+                    }
+               }
+          },
+          "ReacDCImport" :   {
+               "ImpexDirection" :   false,
+               "ImpexReactionSetName" :   "",
+               "InputOutputFilePath" :   "/home/sveta/devThermo/gitThermoMatch/build-ThermoMatch/Resources/files/Mines/Source/mines16.reactions.json",
+               "ImpexFormatOverwrite" :   false,
+               "ImpexFormatUseDB" :   false,
+               "InputFileBlockSplit" :   false,
+               "ImpexRowCount" :   5,
+               "ImpexRows" :   {
+                    "row0" :   {
+                         "ImpexBlockOrFileName" :   "elements",
+                         "ImpexVertexName" :   "VertexElement",
+                         "ImpexFormatFile" :   "FormatStructDataFile",
+                         "ImpexFormatScript" :   "/home/sveta/devThermo/gitThermoMatch/build-ThermoMatch/Resources/files/Mines/Element.Mines.FormatStructDataFile.json",
+                         "ImpexCondition" :   ""
+                    },
+                    "row1" :   {
+                         "ImpexBlockOrFileName" :   "substances",
+                         "ImpexVertexName" :   "VertexSubstance",
+                         "ImpexFormatFile" :   "FormatStructDataFile",
+                         "ImpexFormatScript" :   "/home/sveta/devThermo/gitThermoMatch/build-ThermoMatch/Resources/files/Mines/Substance2.Mines16.FormatStructDataFile.json",
+                         "ImpexCondition" :   ""
+                    },
+                    "row2" :   {
+                         "ImpexBlockOrFileName" :   "reactions",
+                         "ImpexVertexName" :   "VertexSubstance",
+                         "ImpexFormatFile" :   "FormatStructDataFile",
+                         "ImpexFormatScript" :   "/home/sveta/devThermo/gitThermoMatch/build-ThermoMatch/Resources/files/Mines/ReacDCSubstance2.Mines16.FormatStructDataFile.json",
+                         "ImpexCondition" :   ""
+                    },
+                    "row3" :   {
+                         "ImpexBlockOrFileName" :   "reactions",
+                         "ImpexVertexName" :   "VertexReaction",
+                         "ImpexFormatFile" :   "FormatStructDataFile",
+                         "ImpexFormatScript" :   "/home/sveta/devThermo/gitThermoMatch/build-ThermoMatch/Resources/files/Mines/Reaction.Mines16.FormatStructDataFile.json",
+                         "ImpexCondition" :   "group"
+                    },
+                    "row4" :   {
+                         "ImpexBlockOrFileName" :   "reactions",
+                         "ImpexVertexName" :   "EdgeTakes",
+                         "ImpexFormatFile" :   "FormatStructDataFile",
+                         "ImpexFormatScript" :   "/home/sveta/devThermo/gitThermoMatch/build-ThermoMatch/Resources/files/Mines/ReactionEdge.any.FormatStructDataFile.json",
+                         "ImpexCondition" :   "group"
+                    }
+               }
+          }
+     },
+     "log" :   {
+          "modules" :   [
+               "chemicalfun",
+               "jsonarango",
+               "jsonio17",
+               "jsonui17",
+               "thermofun",
+               "thermofungui",
+               "thermohub"
+          ],
+          "level" :   "info",
+          "module_level" :   {
+               "jsonimpex17" :   "debug",
+               "thermomatch" :   "debug"
+          },
+          "file" :   {
+               "path" :   "log.txt",
+               "size" :   10000000,
+               "count" :   1,
+               "modules" :   [
+                    "jsonimpex17",
+                    "thermomatch"
+               ]
           }
      }
 }
