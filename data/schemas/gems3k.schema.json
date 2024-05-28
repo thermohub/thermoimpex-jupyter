@@ -2025,6 +2025,8 @@
       "doc": "description of IComp record\n",
       "isException": false,
       "isUnion": false,
+      "to_select": [ "key.0", "key.1", "key.2", "project" ],
+      "to_key": [ "key.0", "key.1", "key.2", "project" ],
       "fields": [
         {
           "key": 1,
@@ -2049,6 +2051,22 @@
         },
         {
           "key": 4,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "This field must contain \"vertex\"\n",
+          "required": "required",
+          "default": "vertex"
+        },
+        {
+          "key": 5,
+          "name": "_label",
+          "typeId": "string",
+          "doc": "This label is \"icomp\" for all icomps: goes into the name of collection in ArangoDB\n",
+          "required": "required",
+          "default": "gems3k_icomp"
+        },
+        {
+          "key": 6,
           "name": "project",
           "typeId": "string",
           "doc": "Name of project\n",
@@ -2056,7 +2074,7 @@
           "default": "gems3k"
         },
         {
-          "key": 5,
+          "key": 7,
           "name": "key",
           "typeId": "list",
           "type": {
@@ -2067,7 +2085,7 @@
           "required": "required"
         },
         {
-          "key": 6,
+          "key": 8,
           "name": "dod",
           "typeId": "struct",
           "type": {
@@ -2084,6 +2102,8 @@
       "doc": "description of DComp record\n",
       "isException": false,
       "isUnion": false,
+      "to_select": [ "key.0", "key.1", "key.2", "key.3", "project" ],
+      "to_key": [ "key.0", "key.1", "key.2", "key.3", "project" ],
       "fields": [
         {
           "key": 1,
@@ -2108,6 +2128,22 @@
         },
         {
           "key": 4,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "This field must contain \"vertex\"\n",
+          "required": "required",
+          "default": "vertex"
+        },
+        {
+          "key": 5,
+          "name": "_label",
+          "typeId": "string",
+          "doc": "This label is \"dcomp\" for all dcomps: goes into the name of collection in ArangoDB\n",
+          "required": "required",
+          "default": "gems3k_dcomp"
+        },
+        {
+          "key": 6,
           "name": "project",
           "typeId": "string",
           "doc": "Name of project\n",
@@ -2115,7 +2151,7 @@
           "default": "gems3k"
         },
         {
-          "key": 5,
+          "key": 7,
           "name": "key",
           "typeId": "list",
           "type": {
@@ -2126,7 +2162,7 @@
           "required": "required"
         },
         {
-          "key": 6,
+          "key": 8,
           "name": "dod",
           "typeId": "struct",
           "type": {
@@ -2143,6 +2179,8 @@
       "doc": "description of ReacDC record\n",
       "isException": false,
       "isUnion": false,
+      "to_select": [ "key.0", "key.1", "key.2", "key.3", "project" ],
+      "to_key": [ "key.0", "key.1", "key.2", "key.3", "project" ],
       "fields": [
         {
           "key": 1,
@@ -2167,6 +2205,22 @@
         },
         {
           "key": 4,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "This field must contain \"vertex\"\n",
+          "required": "required",
+          "default": "vertex"
+        },
+        {
+          "key": 5,
+          "name": "_label",
+          "typeId": "string",
+          "doc": "This label is \"reacdc\" for all reacdcs: goes into the name of collection in ArangoDB\n",
+          "required": "required",
+          "default": "gems3k_reacdc"
+        },
+        {
+          "key": 6,
           "name": "project",
           "typeId": "string",
           "doc": "Name of project\n",
@@ -2174,7 +2228,7 @@
           "default": "gems3k"
         },
         {
-          "key": 5,
+          "key": 7,
           "name": "key",
           "typeId": "list",
           "type": {
@@ -2185,7 +2239,7 @@
           "required": "required"
         },
         {
-          "key": 6,
+          "key": 8,
           "name": "dod",
           "typeId": "struct",
           "type": {
@@ -2202,6 +2256,8 @@
       "doc": "description of Phase record\n",
       "isException": false,
       "isUnion": false,
+      "to_select": [ "key.0", "key.1", "key.2", "key.3", "project" ],
+      "to_key": [ "key.0", "key.1", "key.2", "key.3", "project" ],
       "fields": [
         {
           "key": 1,
@@ -2226,6 +2282,22 @@
         },
         {
           "key": 4,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "This field must contain \"vertex\"\n",
+          "required": "required",
+          "default": "vertex"
+        },
+        {
+          "key": 5,
+          "name": "_label",
+          "typeId": "string",
+          "doc": "This label is \"phase\" for all phase: goes into the name of collection in ArangoDB\n",
+          "required": "required",
+          "default": "gems3k_phase"
+        },
+        {
+          "key": 6,
           "name": "project",
           "typeId": "string",
           "doc": "Name of project\n",
@@ -2233,7 +2305,7 @@
           "default": "gems3k"
         },
         {
-          "key": 5,
+          "key": 7,
           "name": "key",
           "typeId": "list",
           "type": {
@@ -2244,7 +2316,7 @@
           "required": "required"
         },
         {
-          "key": 6,
+          "key": 8,
           "name": "dod",
           "typeId": "struct",
           "type": {
