@@ -83,11 +83,7 @@
         {
           "key": 10,
           "name": "StdSt",
-          "typeId": "list",
-          "type": {
-            "typeId": "list",
-            "elemTypeId": "i8"
-          },
+          "typeId": "string",
           "doc": "Code of standard aggregate state\n",
           "required": "req_out"
         },
