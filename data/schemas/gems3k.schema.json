@@ -136,7 +136,7 @@
             "elemTypeId": "list",
             "elemType": {
               "typeId": "list",
-              "elemTypeId": "i8"
+              "elemTypeId": "string"
             }
           },
           "doc": "Method of calculation and other properties\n",
@@ -151,7 +151,7 @@
             "elemTypeId": "list",
             "elemType": {
               "typeId": "list",
-              "elemTypeId": "i8"
+              "elemTypeId": "string"
             }
           },
           "doc": "Default DC class code\n",
@@ -191,7 +191,11 @@
             }
           },
           "doc": "Molar volume V0 of Dependent Component at standard state (J\/bar), uncertainty\n",
-          "required": "req_out"
+          "required": "req_out",
+          "default": [
+            [
+            ]
+          ]
         },
         {
           "key": 7,
@@ -206,7 +210,11 @@
             }
           },
           "doc": "Standard molar (partial molal) Gibbs energy of formation of DC from IC at Tr and Pr, uncertainty\n",
-          "required": "req_out"
+          "required": "req_out",
+          "default": [
+            [
+            ]
+          ]
         },
         {
           "key": 8,
@@ -236,7 +244,11 @@
             }
           },
           "doc": "Absolute molar (partial molal) entropy of Dependent Component at the standard state, uncertainty\n",
-          "required": "req_out"
+          "required": "req_out",
+          "default": [
+            [
+            ]
+          ]
         },
         {
           "key": 10,
@@ -251,7 +263,11 @@
             }
           },
           "doc": "Absolute molar (partial molal) isobaric heat capacity Cp0 of DC at standard state and reference Tr, Pr, uncertainty\n",
-          "required": "req_out"
+          "required": "req_out",
+          "default": [
+            [
+            ]
+          ]
         },
         {
           "key": 11,
@@ -266,7 +282,11 @@
             }
           },
           "doc": "Reference pressure Pr (bar), Reference temperature Tr, C\n",
-          "required": "req_out"
+          "required": "req_out",
+          "default": [
+            [
+            ]
+          ]
         },
         {
           "key": 12,
@@ -281,7 +301,11 @@
             }
           },
           "doc": "Entropy of lambda transition (J\/K\/mol), Temperature of lambda transition (C), minerals only\n",
-          "required": "req_out"
+          "required": "req_out",
+          "default": [
+            [
+            ]
+          ]
         },
         {
           "key": 13,
@@ -296,7 +320,11 @@
             }
           },
           "doc": "Coefficient of isothermal compressibility b_, Coefficient of isobaric expansibility a\n",
-          "required": "req_out"
+          "required": "req_out",
+          "default": [
+            [
+            ]
+          ]
         },
         {
           "key": 14,
@@ -311,7 +339,11 @@
             }
           },
           "doc": "Ion-size parameter ao (Debye-Hueckel), Individual parameter b (optional)\n",
-          "required": "req_out"
+          "required": "req_out",
+          "default": [
+            [
+            ]
+          ]
         },
         {
           "key": 15,
@@ -501,7 +533,7 @@
             "elemTypeId": "list",
             "elemType": {
               "typeId": "list",
-              "elemTypeId": "i8"
+              "elemTypeId": "string"
             }
           },
           "doc": "List of phase transition type codes\n",
@@ -543,7 +575,12 @@
           "typeId": "list",
           "type": {
             "typeId": "list",
-            "elemTypeId": "string"
+            "elemTypeId": "map",
+            "elemType": {
+              "typeId": "map",
+              "keyTypeId": "string",
+              "valueTypeId": "string"
+            }
           },
           "doc": "Field for storing temporary values needed during import script\n",
           "required": "optional"
@@ -565,7 +602,7 @@
             "elemTypeId": "list",
             "elemType": {
               "typeId": "list",
-              "elemTypeId": "i8"
+              "elemTypeId": "string"
             }
           },
           "doc": "Method of calculation and other properties\n",
@@ -580,7 +617,7 @@
             "elemTypeId": "list",
             "elemType": {
               "typeId": "list",
-              "elemTypeId": "i8"
+              "elemTypeId": "string"
             }
           },
           "doc": "Default class code of new DC defined in this reaction and units codes\n",
@@ -595,7 +632,7 @@
             "elemTypeId": "list",
             "elemType": {
               "typeId": "list",
-              "elemTypeId": "i8"
+              "elemTypeId": "string"
             }
           },
           "doc": "Flags for the logK=f(T) and other coefficient arrays allocation\n",
@@ -810,7 +847,7 @@
             "elemTypeId": "list",
             "elemType": {
               "typeId": "list",
-              "elemTypeId": "i8"
+              "elemTypeId": "string"
             }
           },
           "doc": "Codes of sources of standard thermodynamic properties {n r d f i}\n",
@@ -1024,7 +1061,7 @@
             "elemTypeId": "list",
             "elemType": {
               "typeId": "list",
-              "elemTypeId": "i8"
+              "elemTypeId": "string"
             }
           },
           "doc": "Code of phase-solution type and model of (non)ideal mixing and other properties\n",
@@ -1039,7 +1076,7 @@
             "elemTypeId": "list",
             "elemType": {
               "typeId": "list",
-              "elemTypeId": "i8"
+              "elemTypeId": "string"
             }
           },
           "doc": "Code of this phase aggregate state in the system and allocation flags\n",
@@ -1113,11 +1150,23 @@
             "elemTypeId": "list",
             "elemType": {
               "typeId": "list",
-              "elemTypeId": "i8"
+              "elemTypeId": "string"
             }
           },
           "doc": "Type of adsorption\/ ion exchange\/ polyelectrolyte isotherm model and other kinetic properties\n",
-          "required": "req_out"
+          "required": "req_out",
+          "default": [
+            [
+              "N",
+              "N",
+              "N",
+              "N",
+              "N",
+              "N",
+              "N",
+              "N"
+            ]
+          ]
         },
         {
           "key": 9,
@@ -1128,11 +1177,22 @@
             "elemTypeId": "list",
             "elemType": {
               "typeId": "list",
-              "elemTypeId": "i8"
+              "elemTypeId": "string"
             }
           },
           "doc": "Flag for dqfp array for DC-related DQF parameter coefficients and other allocation flags\n",
-          "required": "req_out"
+          "required": "req_out",
+          "default": [
+            [
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-"
+            ]
+          ]
         },
         {
           "key": 10,
@@ -1143,7 +1203,7 @@
             "elemTypeId": "list",
             "elemType": {
               "typeId": "list",
-              "elemTypeId": "i8"
+              "elemTypeId": "string"
             }
           },
           "doc": "Flag for EIpc array of EIL model parameter coefficients and other flags\n",
@@ -1158,7 +1218,7 @@
             "elemTypeId": "list",
             "elemType": {
               "typeId": "list",
-              "elemTypeId": "i8"
+              "elemTypeId": "string"
             }
           },
           "doc": "Flag for rpCon array of kinetic rate constants and other flags\n",
@@ -1292,7 +1352,7 @@
             "elemTypeId": "list",
             "elemType": {
               "typeId": "list",
-              "elemTypeId": "i8"
+              "elemTypeId": "string"
             }
           },
           "doc": "Classifier of EIL models applied to surface patches\/types\n",
@@ -1352,7 +1412,7 @@
             "elemTypeId": "list",
             "elemType": {
               "typeId": "list",
-              "elemTypeId": "i8"
+              "elemTypeId": "string"
             }
           },
           "doc": "Surface species: Codes of SACT applied to site type or species and other table\n",
@@ -1457,7 +1517,7 @@
             "elemTypeId": "list",
             "elemType": {
               "typeId": "list",
-              "elemTypeId": "i8"
+              "elemTypeId": "string"
             }
           },
           "doc": "DC classes of species included into this phase\n",
@@ -1472,7 +1532,7 @@
             "elemTypeId": "list",
             "elemType": {
               "typeId": "list",
-              "elemTypeId": "i8"
+              "elemTypeId": "string"
             }
           },
           "doc": "Location of source records for Dependent Components (species)\n",
@@ -1741,7 +1801,7 @@
             "elemTypeId": "list",
             "elemType": {
               "typeId": "list",
-              "elemTypeId": "i8"
+              "elemTypeId": "string"
             }
           },
           "doc": "Location of source records for Dependent Components (species)\n",
@@ -1906,7 +1966,7 @@
             "elemTypeId": "list",
             "elemType": {
               "typeId": "list",
-              "elemTypeId": "i8"
+              "elemTypeId": "string"
             }
           },
           "doc": "Phase linkage type codes\n",
@@ -1921,7 +1981,7 @@
             "elemTypeId": "list",
             "elemType": {
               "typeId": "list",
-              "elemTypeId": "i8"
+              "elemTypeId": "string"
             }
           },
           "doc": "Isotherm\/SATC code for this surface site type 2\n",
