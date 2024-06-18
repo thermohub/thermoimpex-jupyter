@@ -229,7 +229,11 @@
             }
           },
           "doc": "Molar (partial molal) enthalpy of formation of DC from IC at standard state and Tr, Pr (J\/mol), uncertainty\n",
-          "required": "req_out"
+          "required": "req_out",
+          "default": [
+            [
+            ]
+          ]
         },
         {
           "key": 9,
@@ -1039,7 +1043,12 @@
           "typeId": "list",
           "type": {
             "typeId": "list",
-            "elemTypeId": "string"
+            "elemTypeId": "map",
+            "elemType": {
+              "typeId": "map",
+              "keyTypeId": "string",
+              "valueTypeId": "string"
+            }
           },
           "doc": "Field for storing temporary values needed during import script\n",
           "required": "optional"
@@ -2113,7 +2122,12 @@
           "typeId": "list",
           "type": {
             "typeId": "list",
-            "elemTypeId": "string"
+            "elemTypeId": "map",
+            "elemType": {
+              "typeId": "map",
+              "keyTypeId": "string",
+              "valueTypeId": "string"
+            }
           },
           "doc": "Field for storing temporary values needed during import script\n",
           "required": "optional"
