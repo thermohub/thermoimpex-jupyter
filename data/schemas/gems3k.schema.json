@@ -2216,7 +2216,7 @@
       "doc": "description of DComp record\n",
       "isException": false,
       "isUnion": false,
-      "to_select": [ "key.0", "key.1", "key.2", "key.3", "project" ],
+      "to_select": [ "key.0", "key.1", "key.2", "key.3", "project", "dod.DCname" ],
       "to_key": [ "key.0", "key.1", "key.2", "key.3", "project" ],
       "fields": [
         {
@@ -2293,7 +2293,7 @@
       "doc": "description of ReacDC record\n",
       "isException": false,
       "isUnion": false,
-      "to_select": [ "key.0", "key.1", "key.2", "key.3", "project" ],
+      "to_select": [ "key.0", "key.1", "key.2", "key.3", "project", "dod.RDname" ],
       "to_key": [ "key.0", "key.1", "key.2", "key.3", "project" ],
       "fields": [
         {
@@ -2370,7 +2370,7 @@
       "doc": "description of Phase record\n",
       "isException": false,
       "isUnion": false,
-      "to_select": [ "key.0", "key.1", "key.2", "key.3", "project" ],
+      "to_select": [ "key.0", "key.1", "key.2", "key.3", "project", "dod.PhName" ],
       "to_key": [ "key.0", "key.1", "key.2", "key.3", "project" ],
       "fields": [
         {
