@@ -153,7 +153,7 @@
           "typeId": "string",
           "doc": "Title (of a journal paper)\n",
           "required": "req_out",
-          "default": "title"
+          "default": ""
         },
         {
           "key": 7,
@@ -161,7 +161,7 @@
           "typeId": "string",
           "doc": "Journal title\n",
           "required": "req_out",
-          "default": "journal"
+          "default": ""
         },
         {
           "key": 8,
@@ -169,7 +169,7 @@
           "typeId": "string",
           "doc": "Journal or book volume\n",
           "required": "req_out",
-          "default": "volume"
+          "default": ""
         },
         {
           "key": 9,
@@ -190,15 +190,14 @@
           "name": "pages",
           "typeId": "string",
           "doc": "Pages\n",
-          "required": "req_out",
-          "default": "pages"
+          "required": "req_out"
         },
         {
           "key": 13,
           "name": "booktitle",
           "typeId": "string",
           "doc": "Book title\n",
-          "required": "req_out"
+          "required": "optional"
         },
         {
           "key": 14,
@@ -360,6 +359,20 @@
             "elemTypeId": "string"
           },
           "doc": "List of reference keywords\n",
+          "required": "optional"
+        },
+        {
+          "key": 34,
+          "name": "start_page",
+          "typeId": "string",
+          "doc": "Start page\n",
+          "required": "optional"
+        },
+        {
+          "key": 35,
+          "name": "end_page",
+          "typeId": "string",
+          "doc": "End page\n",
           "required": "optional"
         }
       ]
