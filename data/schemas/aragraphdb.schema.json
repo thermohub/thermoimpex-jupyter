@@ -12,6 +12,7 @@
 "reaction",
 "reactionset",
 "thermodataset",
+"temporary",
 "interaction",
 "mixingmodel",
 "kineticrate",
@@ -1014,6 +1015,65 @@
       ]
     },
     {
+      "name": "VertexTemporary",
+      "doc": "Temporary vertex document\n",
+      "isException": false,
+      "isUnion": false,
+      "to_select": [ "properties.symbol", "properties.vertextype", "properties.sourcetdb" ],
+      "to_key": [ "properties.symbol", "properties.vertextype", "properties.sourcetdb" ],
+      "to_unique": [ "properties.symbol", "properties.vertextype", "properties.sourcetdb" ],
+      "fields": [
+        {
+          "key": 1,
+          "name": "_id",
+          "typeId": "string",
+          "doc": "Full database ID (0 if not known); =_label+_key in ArangoDB; =_key in MongoDB or EJDB\n",
+          "required": "required"
+        },
+        {
+          "key": 2,
+          "name": "_key",
+          "typeId": "string",
+          "doc": "ID of database record (_key inside ArangoDB collection)\n",
+          "required": "required"
+        },
+        {
+          "key": 3,
+          "name": "_rev",
+          "typeId": "string",
+          "doc": "Revision #: native in ArangoDB, needs to be maintained in MongoDB or EJDB\n",
+          "required": "required"
+        },
+        {
+          "key": 4,
+          "name": "_type",
+          "typeId": "string",
+          "doc": "This field must contain \"vertex\" in MongoDB (may be absent in ArangoDB)\n",
+          "required": "required",
+          "default": "vertex"
+        },
+        {
+          "key": 5,
+          "name": "_label",
+          "typeId": "string",
+          "doc": "This label is \"temporary\" goes into the name of collection in ArangoDB\n",
+          "required": "required",
+          "default": "temporary"
+        },
+        {
+          "key": 6,
+          "name": "properties",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "temporary.Temporary"
+          },
+          "doc": "properties of temporary as embedded object\n",
+          "required": "req_out"
+        }
+      ]
+    },
+    {
       "name": "Citing",
       "doc": "Edge: citing (properties for citing edges)\n",
       "isException": false,
@@ -1032,6 +1092,13 @@
           "default": [
             "properties"
           ]
+        },
+        {
+          "key": 2,
+          "name": "comment",
+          "typeId": "string",
+          "doc": "Note related to datasource\n",
+          "required": "req_out"
         }
       ]
     },
@@ -1067,14 +1134,14 @@
           "key": 4,
           "name": "_from",
           "typeId": "string",
-          "doc": "full id of outgoing vertex of any type (formerly outV)\n",
+          "doc": "full id of incoming datasource vertex (formerly inV)\n",
           "required": "required"
         },
         {
           "key": 5,
           "name": "_to",
           "typeId": "string",
-          "doc": "full id of incoming datasource vertex (formerly inV)\n",
+          "doc": "full id of outgoing vertex of any type (formerly outV)\n",
           "required": "required"
         },
         {
@@ -3701,6 +3768,16 @@
           "type": {
             "typeId": "struct",
             "class": "VertexChemEqSpeciation"
+          },
+          "required": "optional"
+        },
+        {
+          "key": 2001,
+          "name": "v_temporary",
+          "typeId": "struct",
+          "type": {
+            "typeId": "struct",
+            "class": "VertexTemporary"
           },
           "required": "optional"
         }
