@@ -1,0 +1,25 @@
+Symbol,Name,Composition,agg_state,logK,sigma logK,logK_Ref,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrHm_Ref,DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],DrCpm_Ref,T-min,T-max,Reaction
+Pb(aq),Pb(aq),Pb(aq),aq,-7.3,,2023HUM/THO,,,,,,,,,1 Pb(cr) = Pb(aq)
+PbOH+,PbOH+,PbOH+,aq,-7.46,0.06,2009POW/BRO,56,1.5,2016BRO/EKB,0,,2016BRO/EKB,15,300,1 Pb+2 1 H2O(l) -1 H+ = PbOH+
+Pb(OH)2(aq),Pb(OH)2(aq),Pb(OH)2(aq),aq,-16.94,0.09,2009POW/BRO,90,0.9,2016BRO/EKB,0,,2016BRO/EKB,25,260,1 Pb+2 2 H2O(l) -2 H+ = Pb(OH)2(aq)
+Pb(OH)3-,Pb(OH)3-,Pb(OH)3-,aq,-28.03,0.06,2009POW/BRO,135.8,3,2016BRO/EKB,251,36,2016BRO/EKB,20,260,1 Pb+2 3 H2O(l) -3 H+ = Pb(OH)3-
+Pb2OH+3,Pb2OH+3,Pb2OH+3,aq,-6.73,0.31,2016BRO/EKB,,,,,,,,,2 Pb+2 1 H2O(l) -1 H+ = Pb2OH+3
+Pb3(OH)4+2,Pb3(OH)4+2,Pb3(OH)4+2,aq,-23.01,0.07,2009POW/BRO,111.4,5.6,2016BRO/EKB,,,,,,3 Pb+2 4 H2O(l) -4 H+ = Pb3(OH)4+2
+Pb4(OH)4+4,Pb4(OH)4+4,Pb4(OH)4+4,aq,-20.57,0.06,2009POW/BRO,85,2,2016BRO/EKB,,,,,,4 Pb+2 4 H2O(l) -4 H+ = Pb4(OH)4+4
+Pb6(OH)8+4,Pb6(OH)8+4,Pb6(OH)8+4,aq,-42.89,0.07,2009POW/BRO,210.9,7.1,2016BRO/EKB,,,,,,6 Pb+2 8 H2O(l) -8 H+ = Pb6(OH)8+4
+PbCl+,PbCl+,PbCl+,aq,1.5,0.03,2009POW/BRO,10.3,1.5,2009POW/BRO,0,,2009POW/BRO,15,50,1 Pb+2 1 Cl- = PbCl+
+PbCl2(aq),PbCl2(aq),PbCl2(aq),aq,2.1,0.05,2009POW/BRO,17,0.6,2009POW/BRO,0,,2009POW/BRO,15,50,1 Pb+2 2 Cl- = PbCl2(aq)
+PbCl3-,PbCl3-,PbCl3-,aq,2,0.1,2009POW/BRO,14.7,1,2009POW/BRO,0,,2009POW/BRO,15,50,1 Pb+2 3 Cl- = PbCl3-
+PbCl4-2,PbCl4-2,PbCl4-2,aq,1.46,0.1,1984SEW,14,5,2023HUM/THO,,,,,,1 Pb+2 4 Cl- = PbCl4-2
+PbCO3(aq),PbCO3(aq),PbCO3(aq),aq,6.45,0.7,2023HUM/THO,,,,,,,,,1 Pb+2 1 CO3-2 = PbCO3(aq)
+Pb(CO3)2-2,Pb(CO3)2-2,Pb(CO3)2-2,aq,10.13,0.24,2009POW/BRO,,,,,,,,,1 Pb+2 2 CO3-2 = Pb(CO3)2-2
+PbHCO3+,PbHCO3+,PbHCO3+,aq,3,0.4,2023HUM/THO,,,,,,,,,1 Pb+2 1 HCO3- = PbHCO3+
+Pb(CO3)OH-,Pb(CO3)OH-,Pb(CO3)OH-,aq,10.9,0.2,2009POW/BRO,,,,,,,,,1 Pb+2 1 CO3-2 1 OH- = Pb(CO3)OH-
+Pb(CO3)Cl-,Pb(CO3)Cl-,Pb(CO3)Cl-,aq,6.47,0.16,2009POW/BRO,,,,,,,,,1 Pb+2 1 CO3-2 1 Cl- = Pb(CO3)Cl-
+PbHPO4(aq),PbHPO4(aq),PbHPO4(aq),aq,4.2,0.2,2023HUM/THO,,,,,,,,,1 Pb+2 1 HPO4-2 = PbHPO4(aq)
+Pb(HPO4)2-2,Pb(HPO4)2-2,Pb(HPO4)2-2,aq,6.5,,2023HUM/THO,,,,,,,,,1 Pb+2 2 HPO4-2 = Pb(HPO4)2-2
+PbH2PO4+,PbH2PO4+,PbH2PO4+,aq,2.8,,2023HUM/THO,,,,,,,,,1 Pb+2 1 H2PO4- = PbH2PO4+
+PbSO4(aq),PbSO4(aq),PbSO4(aq),aq,2.72,0.05,2009POW/BRO,9.2,0.5,2009POW/BRO,,,,25,,1 Pb+2 1 SO4-2 = PbSO4(aq)
+Pb(SO4)2-2,Pb(SO4)2-2,Pb(SO4)2-2,aq,3.15,0.5,2023HUM/THO,18.4,1,2009POW/BRO,,,,25,,1 Pb+2 2 SO4-2 = Pb(SO4)2-2
+Pb(HS)2(aq),Pb(HS)2(aq),Pb(HS|-2|)2(aq),aq,12.5,,2023HUM/THO,,,,,,,,,1 Pb+2 2 HS- = Pb(HS)2(aq)
+PbS(HS)-,PbS(HS)-,PbS|-2|(HS|-2|)-,aq,6.1,,2023HUM/THO,,,,,,,,,1 Pb+2 2 HS- -1 H+ = PbS(HS)-

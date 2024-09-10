@@ -1,0 +1,8 @@
+﻿Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
+Nb(OH)5(aq),Nb(OH)5(aq),Nb(OH)5(aq),aq,-1.89,0.12,9,4,0,,10,70,1 Nb(OH)4+ 1 H2O(l) -1 H+ = Nb(OH)5(aq)
+Nb(OH)6-,Nb(OH)6-,Nb(OH)6-,aq,-6.69,0.14,26,9,0,,10,70,1 Nb(OH)4+ 2 H2O(l) -2 H+ = Nb(OH)6-
+Nb(OH)7-2,Nb(OH)7-2,Nb(OH)7-2,aq,-16.09,0.34,63,22,0,,10,70,1 Nb(OH)4+ 3 H2O(l) -3 H+ = Nb(OH)7-2
+H3Nb6O19-5,H3Nb6O19-5,H3Nb6O19-5,aq,-20.6,0.8,,,,,,,6 Nb(OH)5(aq) -5 H+ -11 H2O(l) = H3Nb6O19-5
+Nb6O19-8,Nb6O19-8,Nb6O19-8,aq,-38.6,0.5,,,,,,,1 H3Nb6O19-5 -3 H+ = Nb6O19-8
+HNb6O19-7,HNb6O19-7,HNb6O19-7,aq,14,0.4,,,,,,,1 Nb6O19-8 1 H+ = HNb6O19-7
+H2Nb6O19-6,H2Nb6O19-6,H2Nb6O19-6,aq,27,0.4,,,,,,,1 Nb6O19-8 2 H+ = H2Nb6O19-6

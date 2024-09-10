@@ -1,0 +1,6 @@
+﻿Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
+HgCO3(HgO)2(s),HgCO3(HgO)2(s),HgCO3(HgO)2(s),s,11.27,0.35,,,,,,,3 Hg(OH)2(aq) 1 CO2(g) -3 H2O(l) = HgCO3(HgO)2(s)
+Hg3(PO4)2(s),Hg3(PO4)2(s),Hg3(PO4)2(s),s,30,0.9,,,,,,,3 Hg+2 2 HPO4-2 -2 H+ = Hg3(PO4)2(s)
+(HgOH)3PO4(s),(HgOH)3PO4(s),(HgOH)3PO4(s),s,14,1.1,,,,,,,3 Hg+2 1 HPO4-2 3 H2O(l) -4 H+ = (HgOH)3PO4(s)
+HgHPO4(s),HgHPO4(s),HgHPO4(s),s,15.2,0.3,,,,,,,1 Hg+2 1 HPO4-2 = HgHPO4(s)
+HgS(s),HgS(s),HgS|-2|(s),s,36.77,0.18,,,,,,,1 Hg+2 1 HS- -1 H+ = HgS(s)

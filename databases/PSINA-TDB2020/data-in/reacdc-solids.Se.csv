@@ -1,0 +1,9 @@
+﻿Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
+BaSeO4(cr),BaSeO4(cr),BaSe|+6|O4,s,7.25,0.11,-5.7,6.60,,,,,1 Ba+2 1 SeO4-2 = BaSeO4(cr)
+NiSeO3w2(cr),NiSeO3:2H2O(cr),NiSe|+4|O3(H2O)2,s,5.8,1,,,,,,,1 Ni+2 1 SeO3-2 2 H2O(l) = NiSeO3w2(cr)
+MnSeO3w2(cr),MnSeO3:2H2O(cr),MnSe|+4|O3(H2O)2,s,7.6,1,,,,,,,1 Mn+2 1 SeO3-2 2 H2O(l) = MnSeO3w2(cr)
+MgSeO3w6(cr),MgSeO3:6H2O(cr),MgSe|+4|O3(H2O)6,s,5.82,0.25,-18.03,1.82,,,,,1 Mg+2 1 SeO3-2 6 H2O(l) = MgSeO3w6(cr)
+CaSeO3w1(cr),CaSeO3:H2O(cr),CaSe|+4|O3(H2O),s,6.4,0.25,,,,,,,1 Ca+2 1 SeO3-2 1 H2O(l) = CaSeO3w1(cr)
+SrSeO3(cr),SrSeO3(cr),SrSe|+4|O3,s,6.3,0.5,6.2,2.96,,,,,1 Sr+2 1 SeO3-2 = SrSeO3(cr)
+BaSeO3(cr),BaSeO3(cr),BaSe|+4|O3,s,6.5,0.25,5.3,3.98,,,,,1 Ba+2 1 SeO3-2 = BaSeO3(cr)
+H2Se(g),H2Se(g),H2Se|-2|,g,1.1,0.01,-29,2.02,,,,,1 H2Se(aq) = H2Se(g)

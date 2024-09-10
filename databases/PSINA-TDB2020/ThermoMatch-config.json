@@ -1,0 +1,25 @@
+{
+     "arangodb" :   {
+          "UseArangoDBInstance" :   "ArangoDBLocal",
+          "UseVelocypackPut" :   true,
+          "UseVelocypackGet" :   true,
+          "ArangoDBLocal" :   {
+               "DBCreate" :   true
+          }
+     },
+     "jsonio" :   {
+
+     },
+     "log" :   {
+          "modules" :   [
+               "jsonarango",
+               "jsonio17"
+          ],
+          "level" :   "info",
+          "pattern" :   "[%n] [%^%l%$] %v"
+     },
+     "common" :   {
+          "ResourcesDirectory" :   "../../Resources",
+          "SchemasDirectory" :   "../../Resources/data/schemas/"
+     }
+}

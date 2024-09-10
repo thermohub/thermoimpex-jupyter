@@ -1,0 +1,6 @@
+﻿Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
+TiOOH+,TiOOH+,TiOOH+,aq,-2.48,0.1,,,,,,,1 TiO+2 1 H2O(l) -1 H+ = TiOOH+
+TiO(OH)2(aq),TiO(OH)2(aq),TiO(OH)2(aq),aq,-5.49,0.14,,,,,,,1 TiO+2 2 H2O(l) -2 H+ = TiO(OH)2(aq)
+TiO(OH)3-,TiO(OH)3-,TiO(OH)3-,aq,-17.4,0.5,,,,,,,1 TiO+2 3 H2O(l) -3 H+ = TiO(OH)3-
+TiOH+2,TiOH+2,Ti|3|OH+2,aq,-1.65,0.11,,,,,,,1 Ti+3 1 H2O(l) -1 H+ = TiOH+2
+Ti2(OH)2+4,Ti2(OH)2+4,Ti|3|2(OH)2+4,aq,-2.64,0.1,,,,,,,2 Ti+3 2 H2O(l) -2 H+ = Ti2(OH)2+4

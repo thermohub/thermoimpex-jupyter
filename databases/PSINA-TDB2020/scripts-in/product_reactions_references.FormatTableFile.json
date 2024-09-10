@@ -1,0 +1,71 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.sourcetdb" :   "{\"26\" : \"PSI_NAGRA20\"}",
+	       "properties.vertextype" : "\"VertexReaction\"",
+	       "properties.ref_for_field" : "{}"
+          },
+          "matches" :   {
+               "Symbol" :   {
+                    "field" :   "properties.symbol",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "logK_Ref" :   {
+                    "field" :   "properties.ref_for_field[\"properties-logKr-values-0\"]"
+               },
+               "DrHm_Ref" :   {
+                    "field" :   "properties.ref_for_field[\"properties-drsm_enthalpy-values-0\"]"
+               },
+               "DrCpm_Ref" :   {
+                    "field" :   "properties.ref_for_field[\"properties-drsm_heat_capacity_p-values-0\"]"
+               }
+          },
+          "script" :   ""
+     },
+     "format" :   {
+          "Nhcols" :   16,
+          "Nhrows" :   1,
+          "headers" :   [
+               "Symbol",
+	       "Name",
+               "Composition",
+               "agg_state",
+               "logK",
+               "sigma logK",
+               "logK_Ref",
+	       "DrHm [kJ/mol]",
+	       "sigma DrHm [kJ/mol]",
+	       "DrHm_Ref",
+	       "DrCpm [J/(K mol)]",
+	       "sigma DrCpm [J/(K mol)]",
+	       "DrCpm_Ref",
+	       "T-min",
+	       "T-max",
+	       "Reaction"
+          ],
+          "rowend" :   "\n",
+          "rows_one_block" :   1,
+          "colends" :   ",",
+          "usequotes" :   false,
+          "usemore" :   false,
+          "comment_regexp" :   ""
+     },
+     "renderer" :   "",
+     "label" :   "VertexTemporary",
+     "separators" :   {
+          "v_sep" :   ",",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0
+}

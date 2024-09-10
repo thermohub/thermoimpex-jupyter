@@ -1,0 +1,27 @@
+﻿Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
+AmO2OH(aq),AmO2OH(aq),Am|+5|O2OH(aq),aq,-11.3,0.7,,,,,,,1 AmO2+ 1 H2O(l) -1 H+ = AmO2OH(aq)  
+AmO2(OH)2-,AmO2(OH)2-,Am|+5|O2(OH)2-,aq,-23.6,0.5,,,,,,,1 AmO2+ 2 H2O(l) -2 H+ = AmO2(OH)2-  
+AmO2CO3-,AmO2CO3-,Am|+5|O2CO3-,aq,5.1,0.5,,,,,,,1 AmO2+ 1 CO3-2 = AmO2CO3-    
+AmO2(CO3)2-3,AmO2(CO3)2-3,Am|+5|O2(CO3)2-3,aq,6.7,0.8,,,,,,,1 AmO2+ 2 CO3-2 = AmO2(CO3)2-3    
+AmO2(CO3)3-5,AmO2(CO3)3-5,Am|+5|O2(CO3)3-5,aq,5.1,1,,,,,,,1 AmO2+ 3 CO3-2 = AmO2(CO3)3-5    
+AmOH+2,AmOH+2,AmOH+2,aq,-7.2,0.5,,,,,,,1 Am+3 1 H2O(l) -1 H+ = AmOH+2  
+Am(OH)2+,Am(OH)2+,Am(OH)2+,aq,-15.1,0.7,,,,,,,1 Am+3 2 H2O(l) -2 H+ = Am(OH)2+  
+Am(OH)3(aq),Am(OH)3(aq),Am(OH)3(aq),aq,-26.2,0.5,,,,,,,1 Am+3 3 H2O(l) -3 H+ = Am(OH)3(aq)  
+CaAm(OH)3+2,CaAm(OH)3+2,CaAm(OH)3+2,aq,-26.3,0.5,,,,,,,1 Ca+2 1 Am+3 3 H2O(l) -3 H+ = CaAm(OH)3+2
+Ca2Am(OH)4+3,Ca2Am(OH)4+3,Ca2Am(OH)4+3,aq,-37.2,0.6,,,,,,,2 Ca+2 1 Am+3 4 H2O(l) -4 H+ = Ca2Am(OH)4+3
+Ca3Am(OH)6+3,Ca3Am(OH)6+3,Ca3Am(OH)6+3,aq,-60.7,0.5,,,,,,,3 Ca+2 1 Am+3 6 H2O(l) -6 H+ = Ca3Am(OH)6+3
+AmF+2,AmF+2,AmF+2,aq,3.4,0.3,12.1,2.2,0,,20,90,1 Am+3 1 F- = AmF+2    
+AmF2+,AmF2+,AmF2+,aq,5.8,0.2,45.1,14.5,0,,20,90,1 Am+3 2 F- = AmF2+    
+AmCl+2,AmCl+2,AmCl+2,aq,0.24,0.35,,,,,,,1 Am+3 1 Cl- = AmCl+2    
+AmCl2+,AmCl2+,AmCl2+,aq,-0.81,0.35,54.9,4.5,0,,25,200,1 Am+3 2 Cl- = AmCl2+    
+AmSO4+,AmSO4+,AmSO4+,aq,3.50,0.30,40,4,0,,25,100,1 Am+3 1 SO4-2 = AmSO4+    
+Am(SO4)2-,Am(SO4)2-,Am(SO4)2-,aq,5.0,1.0,70,7,0,,25,100,1 Am+3 2 SO4-2 = Am(SO4)2-    
+AmNO3+2,AmNO3+2,AmNO3+2,aq,1.28,0.05,1.8,1.0,0,,5,80,1 Am+3 1 NO3- = AmNO3+2    
+Am(NO3)2+,Am(NO3)2+,Am(NO3)2+,aq,0.88,0.11,10.8,2.2,0,,5,80,1 Am+3 2 NO3- = Am(NO3)2+
+AmH2PO4+2,AmH2PO4+2,AmH2PO4+2,aq,2.46,0.13,,,,,,,1 Am+3 1 H2PO4- = AmH2PO4+2    
+AmHPO4+,AmHPO4+,AmHPO4+,aq,6.2,0.8,,,,,,,1 Am+3 1 HPO4-2 = AmHPO4+
+AmCO3+,AmCO3+,AmCO3+,aq,8,0.4,,,,,,,1 Am+3 1 CO3-2 = AmCO3+    
+Am(CO3)2-,Am(CO3)2-,Am(CO3)2-,aq,12.9,0.4,,,,,,,1 Am+3 2 CO3-2 = Am(CO3)2-    
+Am(CO3)3-3,Am(CO3)3-3,Am(CO3)3-3,aq,15.0,0.5,,,,,,,1 Am+3 3 CO3-2 = Am(CO3)3-3    
+AmHCO3+2,AmHCO3+2,AmHCO3+2,aq,3.1,0.3,,,,,,,1 Am+3 1 HCO3- = AmHCO3+2    
+AmSCN+2,AmSCN+2,AmS|0|C|0|N|-1|+2,aq,1.3,0.3,,,,,,,1 Am+3 1 SCN- = AmSCN+2    
