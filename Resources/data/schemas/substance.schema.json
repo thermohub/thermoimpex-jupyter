@@ -221,6 +221,11 @@
           "name": "standard_entropy_cp_integration",
           "value": 43,
           "doc": "Standard entropy and constant heat capacity integration\n"
+        },
+        {
+          "name": "nasa_polynomial",
+          "value": 44,
+          "doc": "Cp/R=f(T) equation, NASA Glenn Coefficients - McBride et al. (2002) (reserved)\n"
         }
       ]
     }
