@@ -1,0 +1,60 @@
+cemdata-lma without e- but O2/H2
+
+b4_cemdata18_2021 - database updated with P, zeolites.
+
+1. take solids and other cemdata substances and backup them in substanceVertex file
+2. load backup file into a new database
+3. generate reactions with master psi nagra 07 - compatible with 2020
+4. export data to gems3 - deselect all psi nagra substances - only master substances and reacdcs will be exported
+5. fix codes of reactants 
+(6. add volume and missing Cp to master substances - ) - CREATES issues since these values are not present in cemdata18
+
+no ANA and no phase ss
+
+
+= use master species of cemdata - make hydrated 
+
+b4_cemdata18_2021_rdc
+HPO4-2
+Al+3
+Ca+2
+Cl-
+HCO3-
+Fe+3
+H2O
+H+
+K+
+Na+
+Mg+2
+NO3-
+Si(OH)4@
+SO4-2
+Sr+2
+
+
+b4_cemdata18_2021_rdc2 - with 
+master 
+PO4-3
+AlO2- - hydr - to keep vol, S, Cp of the solid - correct values to PSI2020
+Ca+2
+Cl-
+CO3-2
+FeO2- - hydr
+H2O
+H+
+K+
+Na+
+Mg+2
+NO3-
+SiO2@ - hydr
+SO4-2
+Sr+2
+O2(g)
+
+to add aq species to sit phase one needs to rename the new species group with 'w' - add them before H+ OH- and H2O - fix indexes for H+, OH-
+
+
+
+
+
+

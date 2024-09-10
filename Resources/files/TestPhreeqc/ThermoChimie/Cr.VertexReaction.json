@@ -1,0 +1,5868 @@
+[
+     {
+          "_id" :   "reactions/Ca4Al2O6(CrO4):15H2O(s);25:THERMOCHIMIE;0",
+          "_key" :   "Ca4Al2O6(CrO4):15H2O(s);25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJG6--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Ca4Al2O6(CrO4):15H2O(s)",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "Ca4Al2O6(CrO4):15H2O     = 4.000Ca+2  +  2.000Al+3  +  -12.000H+  +  1.000CrO4-2  +  21.000H2O",
+               "name" :   "Ca4Al2O6(CrO4):15H2O",
+               "reactyp" :   {
+                    "2" :   "RE_DISSOLUTION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         71.36
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -407325.879326
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         -545980
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         -465.048199
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -24.2914,
+                                   0,
+                                   28518.5,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   35
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Al"
+                    },
+                    {
+                         "symbol" :   "Ca"
+                    },
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Ca6(Al(OH)6)2(CrO4)3:26H2O(s);25:THERMOCHIMIE;0",
+          "_key" :   "Ca6(Al(OH)6)2(CrO4)3:26H2O(s);25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJH6--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Ca6(Al(OH)6)2(CrO4)3:26H2O(s)",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "Ca6(Al(OH)6)2(CrO4)3:26H2O     = 6.000Ca+2  +  2.000Al+3  +  -12.000H+  +  3.000CrO4-2  +  38.000H2O",
+               "name" :   "Ca6(Al(OH)6)2(CrO4)3:26H2O",
+               "reactyp" :   {
+                    "2" :   "RE_DISSOLUTION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         60.28
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -344080.773624
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         -509590
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         -555.120665
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -28.9962,
+                                   0,
+                                   26617.7,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   35
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Al"
+                    },
+                    {
+                         "symbol" :   "Ca"
+                    },
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/CaCrO4(s);25:THERMOCHIMIE;0",
+          "_key" :   "CaCrO4(s);25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJKu--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "CaCrO4(s)",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "CaCrO4     = 1.000Ca+2  +  1.000CrO4-2",
+               "name" :   "CaCrO4",
+               "reactyp" :   {
+                    "2" :   "RE_DISSOLUTION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         -3.15
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         17980.332397
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         -22807
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         -136.801383
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -7.14561,
+                                   0,
+                                   1191.29,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   36
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Ca"
+                    },
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/CaCrO4;25:THERMOCHIMIE;0",
+          "_key" :   "CaCrO4;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJJK--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "CaCrO4",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   " 1.000Ca+2  +  1.000CrO4-2     = CaCrO4",
+               "name" :   "CaCrO4",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         2.77
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -15811.276426
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   2.77,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   7
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Ca"
+                    },
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Chromite;25:THERMOCHIMIE;0",
+          "_key" :   "Chromite;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJMa--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Chromite",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "FeCr2O4     = 1.000Fe+2  +  -8.000H+  +  2.000Cr+3  +  4.000H2O",
+               "name" :   "FeCr2O4",
+               "reactyp" :   {
+                    "2" :   "RE_DISSOLUTION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         15.12
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -86305.595507
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         -268820
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         -612.156312
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -31.9752,
+                                   0,
+                                   14041.4,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   37
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "Fe"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Cr(H2PO4)+2;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(H2PO4)+2;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJOK--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Cr(H2PO4)+2",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   " 1.000H2(PO4)-  +  1.000Cr+3     = Cr(H2PO4)+2",
+               "name" :   "Cr(H2PO4)+2",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         2.56
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -14612.587599
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   2.56,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   9
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "P"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Cr(HPO4)+;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(HPO4)+;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJPq--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Cr(HPO4)+",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "  -1.000H+  +  1.000H2(PO4)-  +  1.000Cr+3     = Cr(HPO4)+",
+               "name" :   "Cr(HPO4)+",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         2.25
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -12843.09457
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   2.25,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   9
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "P"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Cr(OH)(CO3)2-2;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)(CO3)2-2;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJR6--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Cr(OH)(CO3)2-2",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "  -1.000H+  +  2.000CO3-2  +  1.000Cr+3  +  1.000H2O     = Cr(OH)(CO3)2-2",
+               "name" :   "Cr(OH)(CO3)2-2",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         9.73
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -55539.248961
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   9.73,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   9
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "C"
+                    },
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Cr(OH)+2;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)+2;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJVG--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Cr(OH)+2",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "  -1.000H+  +  1.000Cr+3  +  1.000H2O     = Cr(OH)+2",
+               "name" :   "Cr(OH)+2",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         -3.42
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         19521.503746
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         37222
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         59.367755
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   3.101,
+                                   0,
+                                   -1944.24,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   9
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Cr(OH)+;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)+;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJT2--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Cr(OH)+",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "  -1.000H+  +  1.000Cr+2  +  1.000H2O     = Cr(OH)+",
+               "name" :   "Cr(OH)+",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         -5.3
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         30252.622764
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         30327
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         0.249462
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   0.0130545,
+                                   0,
+                                   -1584.09,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   9
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Cr(OH)2(H2PO4)(s);25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)2(H2PO4)(s);25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJWS--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Cr(OH)2(H2PO4)(s)",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "Cr(OH)2(H2PO4)     =  -2.000H+  +  1.000H2(PO4)-  +  1.000Cr+3  +  2.000H2O",
+               "name" :   "Cr(OH)2(H2PO4)",
+               "reactyp" :   {
+                    "2" :   "RE_DISSOLUTION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         0.89
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -5080.157408
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   0.89,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   38
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "P"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Cr(OH)2(cr);25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)2(cr);25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJXe--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Cr(OH)2(cr)",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "Cr(OH)2     =  -2.000H+  +  1.000Cr+2  +  2.000H2O",
+               "name" :   "Cr(OH)2",
+               "reactyp" :   {
+                    "2" :   "RE_DISSOLUTION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         11
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -62788.46234
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         -75459
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         -42.497192
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -2.21983,
+                                   0,
+                                   3941.49,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   38
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Cr(OH)2+;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)2+;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJYy--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Cr(OH)2+",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "  -2.000H+  +  1.000Cr+3  +  2.000H2O     = Cr(OH)2+",
+               "name" :   "Cr(OH)2+",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         -8.9
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         50801.574075
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         93198
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         142.198309
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   7.42756,
+                                   0,
+                                   -4868.06,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   9
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Cr(OH)3(H2PO4)-;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)3(H2PO4)-;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJaO--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Cr(OH)3(H2PO4)-",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "  -3.000H+  +  1.000H2(PO4)-  +  1.000Cr+3  +  3.000H2O     = Cr(OH)3(H2PO4)-",
+               "name" :   "Cr(OH)3(H2PO4)-",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         -11.56
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         65984.965877
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -11.56,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   9
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "P"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Cr(OH)3(H2PO4)2-2;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)3(H2PO4)2-2;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJbK--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Cr(OH)3(H2PO4)2-2",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "  -3.000H+  +  2.000H2(PO4)-  +  1.000Cr+3  +  3.000H2O     = Cr(OH)3(H2PO4)2-2",
+               "name" :   "Cr(OH)3(H2PO4)2-2",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         -10.86
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         61989.336456
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -10.86,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   9
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "P"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Cr(OH)3(HPO4)-2;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)3(HPO4)-2;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJbu--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Cr(OH)3(HPO4)-2",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "  -4.000H+  +  1.000H2(PO4)-  +  1.000Cr+3  +  3.000H2O     = Cr(OH)3(HPO4)-2",
+               "name" :   "Cr(OH)3(HPO4)-2",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         -19.58
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         111763.462965
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -19.58,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   9
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "P"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Cr(OH)3(PO4)-3;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)3(PO4)-3;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJca--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Cr(OH)3(PO4)-3",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "  -5.000H+  +  1.000H2(PO4)-  +  1.000Cr+3  +  3.000H2O     = Cr(OH)3(PO4)-3",
+               "name" :   "Cr(OH)3(PO4)-3",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         -30.24
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         172611.191015
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -30.24,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   9
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "P"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Cr(OH)3(cr);25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)3(cr);25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJdO--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Cr(OH)3(cr)",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "Cr(OH)3     =  -3.000H+  +  1.000Cr+3  +  3.000H2O",
+               "name" :   "Cr(OH)3",
+               "reactyp" :   {
+                    "2" :   "RE_DISSOLUTION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         7.5
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -42810.315232
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         -104751
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         -207.750075
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -10.8516,
+                                   0,
+                                   5471.52,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   38
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Cr(OH)3;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)3;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJZW--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Cr(OH)3",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "  -3.000H+  +  1.000Cr+3  +  3.000H2O     = Cr(OH)3",
+               "name" :   "Cr(OH)3",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         -14.34
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         81853.322723
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         143704
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         207.448188
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   10.8358,
+                                   0,
+                                   -7506.17,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   9
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Cr(OH)4(CO3)-3;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)4(CO3)-3;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJdu--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Cr(OH)4(CO3)-3",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "  -4.000H+  +  1.000CO3-2  +  1.000Cr+3  +  4.000H2O     = Cr(OH)4(CO3)-3",
+               "name" :   "Cr(OH)4(CO3)-3",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         -25.69
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         146639.599774
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -25.69,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   9
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "C"
+                    },
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Cr(OH)4(HPO4)(H2PO4)-4;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)4(HPO4)(H2PO4)-4;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJee--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Cr(OH)4(HPO4)(H2PO4)-4",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "  -5.000H+  +  2.000H2(PO4)-  +  1.000Cr+3  +  4.000H2O     = Cr(OH)4(HPO4)(H2PO4)-4",
+               "name" :   "Cr(OH)4(HPO4)(H2PO4)-4",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         -28.76
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         164163.288809
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         14000
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         -503.650139
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -26.3073,
+                                   0,
+                                   -731.27,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   9
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "P"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Cr(OH)4-;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)4-;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJfK--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Cr(OH)4-",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "  -4.000H+  +  1.000Cr+3  +  4.000H2O     = Cr(OH)4-",
+               "name" :   "Cr(OH)4-",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         -25.86
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         147609.96692
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         193614
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         154.298283
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   8.05967,
+                                   0,
+                                   -10113.1,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   9
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Cr(OH)CO3;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)CO3;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJf2--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Cr(OH)CO3",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "  -1.000H+  +  1.000CO3-2  +  1.000Cr+3  +  1.000H2O     = Cr(OH)CO3",
+               "name" :   "Cr(OH)CO3",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         4
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -22832.168124
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   4,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   9
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "C"
+                    },
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Cr(OH)Cl2;25:THERMOCHIMIE;0",
+          "_key" :   "Cr(OH)Cl2;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJge--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Cr(OH)Cl2",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "  -1.000H+  +  2.000Cl-  +  1.000Cr+3  +  1.000H2O     = Cr(OH)Cl2",
+               "name" :   "Cr(OH)Cl2",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         -5.73
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         32707.080837
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         32720
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         0.043331
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   0.00228952,
+                                   0,
+                                   -1709.08,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   9
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cl"
+                    },
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Cr(cr);25:THERMOCHIMIE;0",
+          "_key" :   "Cr(cr);25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJh---_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Cr(cr)",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "Cr     = 2.000H+  +  1.000CrO4-2  +  -1.000H2O  +  -1.500O2",
+               "name" :   "Cr",
+               "reactyp" :   {
+                    "2" :   "RE_DISSOLUTION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         89.675
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -511868.669123
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         -574969
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         -211.639547
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -11.0551,
+                                   0,
+                                   30032.7,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   38
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Cr+2;25:THERMOCHIMIE;0",
+          "_key" :   "Cr+2;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJii--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Cr+2",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   " 4.000H+  +  1.000CrO4-2  +  -2.000H2O  +  -1.000O2     = Cr+2",
+               "name" :   "Cr+2",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         -18.77
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         107139.94892
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         137593
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         102.140034
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   5.33522,
+                                   0,
+                                   -7186.97,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   1
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Cr+3;25:THERMOCHIMIE;0",
+          "_key" :   "Cr+3;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_btXmu--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Cr+3",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   " 5.000H+  +  1.000CrO4-2  +  -2.500H2O  +  -0.750O2     = Cr+3",
+               "name" :   "Cr+3",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         9.128
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -52103.007658
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         -85176
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         -110.92736
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -5.79459,
+                                   0,
+                                   4449.02,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   1
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Cr2(OH)2+4;25:THERMOCHIMIE;0",
+          "_key" :   "Cr2(OH)2+4;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJki--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Cr2(OH)2+4",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "  -2.000H+  +  2.000Cr+3  +  2.000H2O     = Cr2(OH)2+4",
+               "name" :   "Cr2(OH)2+4",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         -4
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         22832.168124
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -4,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   9
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Cr2(SO4)3(s);25:THERMOCHIMIE;0",
+          "_key" :   "Cr2(SO4)3(s);25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJlG--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Cr2(SO4)3(s)",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "Cr2(SO4)3     = 3.000SO4-2  +  2.000Cr+3",
+               "name" :   "Cr2(SO4)3",
+               "reactyp" :   {
+                    "2" :   "RE_DISSOLUTION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         4.38
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -25001.224095
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         -277720
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         -847.622928
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -44.2744,
+                                   0,
+                                   14506.3,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   38
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "S"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Cr2O3(cr);25:THERMOCHIMIE;0",
+          "_key" :   "Cr2O3(cr);25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJly--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Cr2O3(cr)",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "Cr2O3     =  -6.000H+  +  2.000Cr+3  +  3.000H2O",
+               "name" :   "Cr2O3",
+               "reactyp" :   {
+                    "2" :   "RE_DISSOLUTION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         7.75
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -44237.32574
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         -197990
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         -515.688996
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -26.9363,
+                                   0,
+                                   10341.7,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   38
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Cr2O7-2;25:THERMOCHIMIE;0",
+          "_key" :   "Cr2O7-2;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJmu--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Cr2O7-2",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   " 2.000H+  +  2.000CrO4-2  +  -1.000H2O     = Cr2O7-2",
+               "name" :   "Cr2O7-2",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         14.75
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -84193.619956
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         -3752
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         269.802515
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   14.0927,
+                                   0,
+                                   195.98,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   9
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Cr2S3(s);25:THERMOCHIMIE;0",
+          "_key" :   "Cr2S3(s);25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJnm--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Cr2S3(s)",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "Cr2S3     =  -3.000H+  +  3.000HS-  +  2.000Cr+3",
+               "name" :   "Cr2S3",
+               "reactyp" :   {
+                    "2" :   "RE_DISSOLUTION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         3.26
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -18608.217021
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         -195200
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         -592.291742
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -30.9375,
+                                   0,
+                                   10196,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   38
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "S"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Cr3(OH)4+5;25:THERMOCHIMIE;0",
+          "_key" :   "Cr3(OH)4+5;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJoG--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Cr3(OH)4+5",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "  -4.000H+  +  3.000Cr+3  +  4.000H2O     = Cr3(OH)4+5",
+               "name" :   "Cr3(OH)4+5",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         -7.6
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         43381.119435
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -7.6,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   9
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/CrBr+2;25:THERMOCHIMIE;0",
+          "_key" :   "CrBr+2;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJou--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "CrBr+2",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   " 1.000Br-  +  1.000Cr+3     = CrBr+2",
+               "name" :   "CrBr+2",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         -0.62
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         3538.986059
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         22588
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         63.890706
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   3.33724,
+                                   0,
+                                   -1179.85,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   9
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Br"
+                    },
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/CrCl+2;25:THERMOCHIMIE;0",
+          "_key" :   "CrCl+2;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJqW--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "CrCl+2",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   " 1.000Cl-  +  1.000Cr+3     = CrCl+2",
+               "name" :   "CrCl+2",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         0.62
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -3538.986059
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         20920
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         82.035841
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   4.28502,
+                                   0,
+                                   -1092.73,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   9
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cl"
+                    },
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/CrCl+;25:THERMOCHIMIE;0",
+          "_key" :   "CrCl+;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJpy--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "CrCl+",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   " 1.000Cl-  +  1.000Cr+2     = CrCl+",
+               "name" :   "CrCl+",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         5.6
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -31965.035373
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         -20200
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         39.460122
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   2.06112,
+                                   0,
+                                   1055.12,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   9
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cl"
+                    },
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/CrCl2(cr);25:THERMOCHIMIE;0",
+          "_key" :   "CrCl2(cr);25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJrC--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "CrCl2(cr)",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "CrCl2     = 2.000Cl-  +  1.000Cr+2",
+               "name" :   "CrCl2",
+               "reactyp" :   {
+                    "2" :   "RE_DISSOLUTION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         12.73
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -72663.375054
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         -103474
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         -103.339342
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -5.39784,
+                                   0,
+                                   5404.82,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   38
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cl"
+                    },
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/CrCl2+;25:THERMOCHIMIE;0",
+          "_key" :   "CrCl2+;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJr6--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "CrCl2+",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   " 2.000Cl-  +  1.000Cr+3     = CrCl2+",
+               "name" :   "CrCl2+",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         -0.71
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         4052.709842
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         20920
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         56.573168
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   2.95502,
+                                   0,
+                                   -1092.73,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   9
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cl"
+                    },
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/CrCl3(cr);25:THERMOCHIMIE;0",
+          "_key" :   "CrCl3(cr);25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJs6--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "CrCl3(cr)",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "CrCl3     = 3.000Cl-  +  1.000Cr+3",
+               "name" :   "CrCl3",
+               "reactyp" :   {
+                    "2" :   "RE_DISSOLUTION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         20.19
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -115245.368604
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         -197340
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         -275.346743
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -14.3824,
+                                   0,
+                                   10307.8,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   38
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cl"
+                    },
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/CrF+2;25:THERMOCHIMIE;0",
+          "_key" :   "CrF+2;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJty--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "CrF+2",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   " 1.000F-  +  1.000Cr+3     = CrF+2",
+               "name" :   "CrF+2",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         5.21
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -29738.898981
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         -2510
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         91.326175
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   4.77027,
+                                   0,
+                                   131.106,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   9
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "F"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/CrF2+;25:THERMOCHIMIE;0",
+          "_key" :   "CrF2+;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJui--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "CrF2+",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   " 2.000F-  +  1.000Cr+3     = CrF2+",
+               "name" :   "CrF2+",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         9.31
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -53141.871308
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         -418
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         176.836731
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   9.23677,
+                                   0,
+                                   21.8336,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   9
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "F"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/CrF3;25:THERMOCHIMIE;0",
+          "_key" :   "CrF3;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJva---",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "CrF3",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   " 3.000F-  +  1.000Cr+3     = CrF3",
+               "name" :   "CrF3",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         11.91
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -67982.780588
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   11.91,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   9
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "F"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/CrO2(cr);25:THERMOCHIMIE;0",
+          "_key" :   "CrO2(cr);25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJwK--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "CrO2(cr)",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "CrO2     = 2.000H+  +  1.000CrO4-2  +  -1.000H2O  +  -0.500O2",
+               "name" :   "CrO2",
+               "reactyp" :   {
+                    "2" :   "RE_DISSOLUTION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         -8.685
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         49574.345039
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         10797
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         -130.059853
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -6.79345,
+                                   0,
+                                   -563.966,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   38
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/CrO3(cr);25:THERMOCHIMIE;0",
+          "_key" :   "CrO3(cr);25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJwy--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "CrO3(cr)",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "CrO3     = 2.000H+  +  1.000CrO4-2  +  -1.000H2O",
+               "name" :   "CrO3",
+               "reactyp" :   {
+                    "2" :   "RE_DISSOLUTION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         -3.02
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         17238.286933
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         -10070
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         -91.592443
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -4.78419,
+                                   0,
+                                   525.992,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   38
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/CrO3Cl-;25:THERMOCHIMIE;0",
+          "_key" :   "CrO3Cl-;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJxi--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "CrO3Cl-",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   " 2.000H+  +  1.000Cl-  +  1.000CrO4-2  +  -1.000H2O     = CrO3Cl-",
+               "name" :   "CrO3Cl-",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         8.08
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -46120.97961
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         5450
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         172.969913
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   9.0348,
+                                   0,
+                                   -284.673,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   9
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cl"
+                    },
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/CrPO4(green);25:THERMOCHIMIE;0",
+          "_key" :   "CrPO4(green);25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJyO--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "CrPO4(green)",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "CrPO4     =  -2.000H+  +  1.000H2(PO4)-  +  1.000Cr+3",
+               "name" :   "CrPO4",
+               "reactyp" :   {
+                    "2" :   "RE_DISSOLUTION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         -3.06
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         17466.608615
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -3.06,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   39
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "P"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/CrPO4(purple);25:THERMOCHIMIE;0",
+          "_key" :   "CrPO4(purple);25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJz----",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "CrPO4(purple)",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "CrPO4     =  -2.000H+  +  1.000H2(PO4)-  +  1.000Cr+3",
+               "name" :   "CrPO4",
+               "reactyp" :   {
+                    "2" :   "RE_DISSOLUTION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         2.56
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -14612.587599
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   2.56,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   39
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "P"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/CrS(s);25:THERMOCHIMIE;0",
+          "_key" :   "CrS(s);25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJzm--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "CrS(s)",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "CrS     =  -1.000H+  +  1.000HS-  +  1.000Cr+2",
+               "name" :   "CrS",
+               "reactyp" :   {
+                    "2" :   "RE_DISSOLUTION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         1.66
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -9475.349771
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         -38771
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         -98.258092
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -5.13238,
+                                   0,
+                                   2025.15,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   39
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "S"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/CrSO4+;25:THERMOCHIMIE;0",
+          "_key" :   "CrSO4+;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJ0K--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "CrSO4+",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   " 1.000SO4-2  +  1.000Cr+3     = CrSO4+",
+               "name" :   "CrSO4+",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         4.61
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -26314.073763
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   4.61,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   9
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "S"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/Crocoite;25:THERMOCHIMIE;0",
+          "_key" :   "Crocoite;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJ1---_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "Crocoite",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "PbCrO4     = 1.000Pb+2  +  1.000CrO4-2",
+               "name" :   "PbCrO4",
+               "reactyp" :   {
+                    "2" :   "RE_DISSOLUTION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         -12.55
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         71635.927488
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         48940
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         -76.122514
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -3.97609,
+                                   0,
+                                   -2556.31,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   39
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Pb"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/FeCrO4+;25:THERMOCHIMIE;0",
+          "_key" :   "FeCrO4+;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJ1m--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "FeCrO4+",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   " 1.000Fe+3  +  1.000CrO4-2     = FeCrO4+",
+               "name" :   "FeCrO4+",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         7.8
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -44522.727841
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         19100
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         213.391675
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   11.1462,
+                                   0,
+                                   -997.661,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   12
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "Fe"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/H2CrO4;25:THERMOCHIMIE;0",
+          "_key" :   "H2CrO4;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJ2O--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "H2CrO4",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   " 2.000H+  +  1.000CrO4-2     = H2CrO4",
+               "name" :   "H2CrO4",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         6.32
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -36074.825635
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         39596
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         253.801193
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   13.2569,
+                                   0,
+                                   -2068.24,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   13
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/H2CrPO7-;25:THERMOCHIMIE;0",
+          "_key" :   "H2CrPO7-;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJ3G--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "H2CrPO7-",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   " 2.000H+  +  1.000H2(PO4)-  +  1.000CrO4-2  +  -1.000H2O     = H2CrPO7-",
+               "name" :   "H2CrPO7-",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         9.02
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -51486.539119
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         -51490
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         -0.011608
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -0.000647544,
+                                   0,
+                                   2689.51,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   13
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "P"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/HCrO4-;25:THERMOCHIMIE;0",
+          "_key" :   "HCrO4-;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJ3q--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "HCrO4-",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   " 1.000H+  +  1.000CrO4-2     = HCrO4-",
+               "name" :   "HCrO4-",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         6.52
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -37216.434042
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         6016
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         145.002294
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   7.57396,
+                                   0,
+                                   -314.237,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   14
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/HCrPO7-2;25:THERMOCHIMIE;0",
+          "_key" :   "HCrPO7-2;25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJ4O--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "HCrPO7-2",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   " 1.000H+  +  1.000H2(PO4)-  +  1.000CrO4-2  +  -1.000H2O     = HCrPO7-2",
+               "name" :   "HCrPO7-2",
+               "reactyp" :   {
+                    "1" :   "FE_FORMATION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         6.37
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -36360.227737
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         -36390
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         -0.099857
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -0.00524498,
+                                   0,
+                                   1900.78,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "concrete_3T_V07_02"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   14
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "P"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/KFe(CrO4)2:2H2O(s);25:THERMOCHIMIE;0",
+          "_key" :   "KFe(CrO4)2:2H2O(s);25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJ5G--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "KFe(CrO4)2:2H2O(s)",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "KFe(CrO4)2:2H2O     = 1.000K+  +  1.000Fe+3  +  2.000CrO4-2  +  2.000H2O",
+               "name" :   "KFe(CrO4)2:2H2O",
+               "reactyp" :   {
+                    "2" :   "RE_DISSOLUTION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         -19.39
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         110678.93498
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         27540
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         -278.849354
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -14.5652,
+                                   0,
+                                   -1438.51,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   43
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "Fe"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "K"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/KFe3(CrO4)2(OH)6(cr);25:THERMOCHIMIE;0",
+          "_key" :   "KFe3(CrO4)2(OH)6(cr);25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJ6K--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "KFe3(CrO4)2(OH)6(cr)",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "KFe3(CrO4)2(OH)6     = 1.000K+  +  3.000Fe+3  +  -6.000H+  +  2.000CrO4-2  +  6.000H2O",
+               "name" :   "KFe3(CrO4)2(OH)6",
+               "reactyp" :   {
+                    "2" :   "RE_DISSOLUTION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         -18.4
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         105027.973369
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -18.4,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   43
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "Fe"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "K"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/MgCr2O4(s);25:THERMOCHIMIE;0",
+          "_key" :   "MgCr2O4(s);25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJ6y--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "MgCr2O4(s)",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "MgCr2O4     = 1.000Mg+2  +  -8.000H+  +  2.000Cr+3  +  4.000H2O",
+               "name" :   "MgCr2O4",
+               "reactyp" :   {
+                    "2" :   "RE_DISSOLUTION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         22.17
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         -126547.291825
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         -307720
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         -607.656241
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -31.7402,
+                                   0,
+                                   16073.3,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   45
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "H"
+                    },
+                    {
+                         "symbol" :   "Mg"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     },
+     {
+          "_id" :   "reactions/SrCrO4(s);25:THERMOCHIMIE;0",
+          "_key" :   "SrCrO4(s);25:THERMOCHIMIE;0",
+          "_rev" :   "_c_bYJ7a--_",
+          "_type" :   "vertex",
+          "_label" :   "reaction",
+          "properties" :   {
+               "symbol" :   "SrCrO4(s)",
+               "sourcetdb" :   {
+                    "25" : "THERMOCHIMIE"
+               },
+               "level" :   0,
+               "equation" :   "SrCrO4     = 1.000Sr+2  +  1.000CrO4-2",
+               "name" :   "SrCrO4",
+               "reactyp" :   {
+                    "2" :   "RE_DISSOLUTION"
+               },
+               "logKr" :   {
+                    "values" :   [
+                         -4.65
+                    ]
+               },
+               "drsm_gibbs_energy" :   {
+                    "values" :   [
+                         26542.395444
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "drsm_enthalpy" :   {
+                    "values" :   [
+                         -10125
+                    ]
+               },
+               "drsm_entropy" :   {
+                    "values" :   [
+                         -122.983047
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "logk_fpt_function"
+                         },
+                         "logk_ft_coeffs" :   {
+                              "values" :   [
+                                   -6.42382,
+                                   0,
+                                   528.865,
+                                   0,
+                                   0
+                              ],
+                              "names" :   [
+                                   "A1",
+                                   "A2",
+                                   "A3",
+                                   "A4",
+                                   "A5"
+                              ]
+                         }
+                    }
+               ],
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   9,
+                    "hour" :   13,
+                    "minute" :   5,
+                    "second" :   53
+               },
+               "elements" :   [
+                    {
+                         "symbol" :   "Cr"
+                    },
+                    {
+                         "symbol" :   "O"
+                    },
+                    {
+                         "symbol" :   "Sr"
+                    },
+                    {
+                         "symbol" :   "Zz",
+                         "class_" :   4
+                    }
+               ]
+          }
+     }
+]

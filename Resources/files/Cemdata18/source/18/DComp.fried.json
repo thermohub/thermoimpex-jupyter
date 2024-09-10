@@ -1,0 +1,374 @@
+[
+{
+	"key": [
+		{
+			"fx": 0,
+			"fl": 4,
+			"fv": "s"
+		},
+		{
+			"fx": 1,
+			"fl": 8,
+			"fv": "CaFeClOH"
+		},
+		{
+			"fx": 2,
+			"fl": 16,
+			"fv": "C4FClH10"
+		},
+		{
+			"fx": 3,
+			"fl": 4,
+			"fv": "ce_"
+		}
+	],
+	"dod": [
+		{
+			"id": 510,
+			"label": "TPcMod",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"C",
+				"S",
+				"C",
+				"N",
+				" ",
+				" "
+			]
+		},
+		{
+			"id": 511,
+			"label": "DCset",
+			"dot": -9,
+			"dN": 1,
+			"dM": 9,
+			"dyn": false,
+			"val": [
+				"O",
+				"j",
+				"j",
+				"b",
+				"c",
+				"+",
+				"-",
+				"-",
+				"-"
+			]
+		},
+		{
+			"id": 512,
+			"label": "Cdate",
+			"dot": 9,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				"14.03.14"
+			]
+		},
+		{
+			"id": 513,
+			"label": "Zz",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				0
+			]
+		},
+		{
+			"id": 514,
+			"label": "M0",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				619.057006835938
+			]
+		},
+		{
+			"id": 515,
+			"label": "V0d",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				27.8040008544922,
+				0
+			]
+		},
+		{
+			"id": 516,
+			"label": "G0d",
+			"dot": -6,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				-5900100,
+				null
+			]
+		},
+		{
+			"id": 517,
+			"label": "H0d",
+			"dot": -6,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				-6528000,
+				null
+			]
+		},
+		{
+			"id": 518,
+			"label": "S0d",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				1285.92004394531,
+				null
+			]
+		},
+		{
+			"id": 519,
+			"label": "Cp0d",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				854.742980957031,
+				0
+			]
+		},
+		{
+			"id": 520,
+			"label": "PrTr",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				1,
+				25
+			]
+		},
+		{
+			"id": 521,
+			"label": "LamST",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 522,
+			"label": "BetAlp",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 523,
+			"label": "ab",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 525,
+			"label": "DCname",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "C4FeCl2H10 Fe Friedel's salt-ideal theoretical composition"
+		},
+		{
+			"id": 526,
+			"label": "DCform",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "Ca4Fe|3|2Cl2(OH)12(H2O)4"
+		},
+		{
+			"id": 527,
+			"label": "DC_cnt",
+			"dot": -1,
+			"dN": 1,
+			"dM": 4,
+			"dyn": false,
+			"val": [
+				1,
+				0,
+				1,
+				0
+			]
+		},
+		{
+			"id": 531,
+			"label": "TCint",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				50
+			]
+		},
+		{
+			"id": 532,
+			"label": "aiCpT",
+			"dot": -5,
+			"dN": 12,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				481.339996337891,
+				0.961059987545013,
+				-16130,
+				1503,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"id": 533,
+			"label": "aiNEs",
+			"dot": -5,
+			"dN": 7,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 534,
+			"label": "aiHKF",
+			"dot": -5,
+			"dN": 8,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 535,
+			"label": "aiVTP",
+			"dot": -5,
+			"dN": 5,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 536,
+			"label": "CritPg",
+			"dot": -5,
+			"dN": 7,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 537,
+			"label": "aiODc",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 538,
+			"label": "FT_p",
+			"dot": -5,
+			"dN": 5,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 539,
+			"label": "FT_pb",
+			"dot": -5,
+			"dN": 3,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 540,
+			"label": "Cemp_s",
+			"dot": -5,
+			"dN": 1,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 541,
+			"label": "FT_typ",
+			"dot": 4,
+			"dN": 1,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 542,
+			"label": "dSDref",
+			"dot": 32,
+			"dN": 1,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"Lothenbach_ea:2019:pap:"
+			]
+		},
+		{
+			"id": 543,
+			"label": "dSDval",
+			"dot": 24,
+			"dN": 1,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"All, (log K -28.62)"
+			]
+		}
+	],
+	"mtime": "Fri, 09 Oct 2020 13:42:12 +0100"
+}
+]

@@ -1,0 +1,75 @@
+[
+     {
+          "_id" :   "elements/Cr;0:ELEMENT;2:SUPCRT",
+          "_key" :   "Cr;0:ELEMENT;2:SUPCRT",
+          "_rev" :   "_aTnzr7O-_A",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Cr",
+               "isotope_mass" :   0,
+               "name" :   "chromium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         51.9959983825684
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         23.7700004577637
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         7.23099994659424
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         23.3500003814697
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   24,
+               "sourcetdb" :   {
+                    "2" :   "SUPCRT"
+               },
+               "formula" :   "Cr",
+               "substance" :   "s:CR:Cr:nbs:",
+               "comment" :   "Chromium",
+               "datasources" :   [
+                    "Supcrt-Slop98"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   2,
+                    "hour" :   17,
+                    "minute" :   31,
+                    "second" :   17
+               }
+          }
+     }
+]

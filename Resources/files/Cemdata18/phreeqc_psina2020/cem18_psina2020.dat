@@ -1,0 +1,1034 @@
+SOLUTION_MASTER_SPECIES 
+
+
+#        ATOMIC WEIGHTS 
+#        Naturally occuring elements: IUPAC 1993 Table 1 rounded to 0.001
+#        Radioelements: Mass number of longest-lived isotope
+#
+#
+#
+#  elemen     species        alk   gfw_formula element_gfw atomic
+#                                                          number
+#
+Al	Al	0.0	Aluminum	26.981540679932	 	
+C	C 	0.0	Carbon	12.010800361633	 	
+Ca	Ca	0.0	Calcium	40.07799911499	 	
+Cl	Cl	0.0	Chlorine	35.45299911499	 	
+Fe	Fe	0.0	Iron	55.845001220703	 	
+H	H	0.0	Hydrogen	1.0079499483109	 	
+K	K	0.0	Potassium	39.098300933838	 	
+Mg	Mg	0.0	Magnesium	24.305000305176	 	
+N	N	0.0	Nitrogen	14.006699562073	 	
+Na	Na	0.0	Sodium	22.989799499512	 	
+O	O	0.0	Oxygen	15.999400138855	 	
+P	P	0.0	Phosphorus_	30.973760604858	 	
+S	S	0.0	Sulfur	32.067001342773	 	
+Si	Si	0.0	Silicon	28.085500717163	 	
+Sr	Sr	0.0	Strontium	87.620002746582	 	
+E	e-	0.0	Electric_charge	0	 	
+
+
+SOLUTION_SPECIES 
+
+# PMATCH MASTER SPECIES 
+
+
+# PMATCH SECONDARY MASTER SPECIES 
+
+
+PO4-3 + 2H+ + Ca+2 = CaH2PO4+
+	-analytical_expression	-3.8609589617079 0 1251.9975747331 8.14541337972112 0 0 0 
+	-log_K	20.492013 
+
+PO4-3 + H+ + Ca+2 = CaHPO4
+	-analytical_expression	-3.8609589617079 0 -453.42042526998 8.14541337972112 0 0 0 
+	-log_K	14.772013 
+
+PO4-3 + Ca+2 = CaPO4-
+	-analytical_expression	37.116496607972 0 -3849.1309853107 -7.1745416145806 0 0 0 
+	-log_K	6.451874 
+
+Si(OH)4 + Ca+2 = CaSiO3 + H2O + 2H+
+	-analytical_expression	15.68644064937 0 -3716.8612872168 -8.79373565006377 0 0 0 
+	-gamma	4 0.064 
+	-log_K	-18.54 
+
+PO4-3 + K+ + H+ = KHPO4-
+	-analytical_expression	23.370606909743 0 -1167.3936701054 -2.44650604785463 0 0 0 
+	-log_K	13.399866 
+
+2PO4-3 + K+ + 2H+ = KP2O7-3 + H2O
+	-analytical_expression	118.00321278147 0 -4879.6450563181 -31.6130473111848 0 0 0 
+	-log_K	23.409814 
+
+2PO4-3 + 2Mg+2 + K+ + 15H2O + H+ = Mg2KH(PO4)2(H2O)15
+	-analytical_expression	152.00036758993 0 -2814.0981086367 -46.0237834820101 0 0 0 
+	-log_K	28.67 
+
+2PO4-3 + Mg+2 + 4H+ = MgH2P2O7 + H2O
+	-analytical_expression	-21.801130946968 0 3028.338866749 21.1225920709153 0 0 0 
+	-log_K	40.620023 
+
+PO4-3 + Mg+2 + 2H+ = MgH2PO4+
+	-analytical_expression	-7.141747885395 0 1491.9151779631 9.25917426280081 0 0 0 
+	-log_K	20.772009 
+
+2PO4-3 + Mg+2 + 3H+ = MgHP2O7- + H2O
+	-analytical_expression	19.176459519171 0 385.15299792721 5.80259077202088 0 0 0 
+	-log_K	34.821888 
+
+2PO4-3 + Mg+2 + H+ = MgHP2O8-3
+	-analytical_expression	147.31620611691 0 -7841.564384895 -44.0676601506336 0 0 0 
+	-log_K	11.970006 
+
+PO4-3 + Mg+2 + H+ = MgHPO4
+	-analytical_expression	-7.141747885395 0 -287.7420214668 9.25917426280081 0 0 0 
+	-log_K	14.803009 
+
+2PO4-3 + Mg+2 + 2H+ = MgP2O7-2 + H2O
+	-analytical_expression	60.153839137626 0 -2411.8662847881 -9.51733800305684 0 0 0 
+	-log_K	28.511756 
+
+PO4-3 + Mg+2 = MgPO4-
+	-analytical_expression	33.835699742484 0 -4148.8615860828 -6.06077796525232 0 0 0 
+	-log_K	4.919866 
+
+PO4-3 + Na+ + H+ = NaHPO4-
+	-analytical_expression	12.976131134683 0 -767.33511390215 1.12910442106338 0 0 0 
+	-log_K	13.194875 
+
+2PO4-3 + Na+ + 2H+ = NaP2O7-3 + H2O
+	-analytical_expression	107.6089133686 0 -4361.8229581185 -28.03749036316 0 0 0 
+	-log_K	23.599826 
+
+4Si(OH)4 = Si4O10-4 + 6H2O + 4H+
+	-analytical_expression	59.54556929759 0 -13599.156445478 -20.3007744292283 0 0 0 
+	-gamma	4 0.064 
+	-log_K	-36.299995 
+
+Si(OH)4 = SiO3-2 + H2O + 2H+
+	-analytical_expression	4.8833835762311 0 -4611.2304449906 -5.0746230385063 0 0 0 
+	-gamma	4 0.064 
+	-log_K	-23.139999 
+
+Sr+2 + Si(OH)4 = SrSiO3 + H2O + 2H+
+	-analytical_expression	29.389582680376 0 -6937.6068237913 -10.0587171101825 0 0 0 
+	-gamma	0 0 
+	-log_K	-18.770009 
+
+
+PHASES 
+
+
+
+4A
+	Na2(Al2Si2)O8(H2O)4.5 + 3.5H2O = 2Si(OH)4 + 2Na+ + 2Al(OH)4-
+	-Vm	187.00000762939 
+	-analytical_expression	74.29471407201 0 -8993.4383226675 -26.1206613497892 0 0 0 
+	-log_K	-20.500007 
+
+CASH-5CA MCL=5 a=1 v=0.5 i1=1 i2=0 u1=1 u2=0 M=2
+	(CaO)1.25(SiO2)1(Al2O3)0.125(H2O)1.625 + 2.25H+ = Si(OH)4 + 0.25H2O + 1.25Ca+2 + 0.25Al(OH)4-
+	-Vm	57.300000190735 
+	-analytical_expression	-29.859892526278 0 6103.5685281633 10.2158451910912 0 0 0 
+	-log_K	15.88995 
+
+CASH-5CNA MCL=5 a=1 v=0.5 i1=0 i2=1 u1=0.5 u2=0.5 M=2
+	(CaO)1.25(SiO2)1(Al2O3)0.125(Na2O)0.25(H2O)1.375 + 2.75H+ = Si(OH)4 + 0.5Na+ + 0.25H2O + 1.25Ca+2 + 0.25Al(OH)4-
+	-Vm	64.510002136231 
+	-analytical_expression	-30.308762451259 0 8350.6296950108 10.3218040509638 0 0 0 
+	-log_K	23.240018 
+
+Al(OH)3  amorphous
+	Al(OH)3 + H2O = H+ + Al(OH)4-
+	-Vm	31.956000328064 
+	-analytical_expression	50.576074809675 0 -6313.8416860063 -17.4421340523525 0 0 0 
+	-log_K	-13.760077 
+
+Al(OH)3  microcrystalline
+	Al(OH)3 + H2O = H+ + Al(OH)4-
+	-Vm	31.956000328064 
+	-analytical_expression	46.923956154488 0 -5496.2930860472 -17.4421102385618 0 0 0 
+	-log_K	-14.670074 
+
+SiO2(am)  amorphous
+	SiO2 + 2H2O = Si(OH)4
+	-Vm	29.000000953674 
+	-analytical_expression	-14.888794615424 0 -114.76399633461 5.07577704517662 0 0 0 
+	-log_K	-2.714066 
+
+ANA
+	Na2(Al2Si4)O12(H2O)2 + 10H2O = 4Si(OH)4 + 2Na+ + 2Al(OH)4-
+	-Vm	194.83999252319 
+	-analytical_expression	60.499217984512 0 -9860.2504497673 -21.9161441864317 0 0 0 
+	-log_K	-26.799995 
+
+Bobierrite 
+	Mg3(PO4)2(H2O)8 = 2PO4-3 + 3Mg+2 + 8H2O
+	-Vm	191.09968185425 
+	-analytical_expression	-81.325223446077 0 10579.007924986 8.2996868125508 0 0 0 
+	-log_K	-25.3 
+
+CaH(PO4)(H2O)2 Brushite
+	CaH(PO4)(H2O)2 = PO4-3 + 2H2O + H+ + Ca+2
+	-Vm	74.210000038147 
+	-analytical_expression	-0.84439269250239 0 -1284.6338864415 -5.57675762009783 0 0 0 
+	-log_K	-18.950001 
+
+C12A7 (12CaO_7Al2O3)
+	(CaO)12(Al2O3)7 + 23H2O + 10H+ = 12Ca+2 + 14Al(OH)4-
+	-Vm	517.79998779297 
+	-analytical_expression	797.53204885668 0 33022.118452492 -299.505615964576 0 0 0 
+	-log_K	166.898035 
+
+C2AClH5 1/2Friedel's salt-ideal theoretical composition
+	Ca2AlCl(OH)6(H2O)2 + 2H+ = 4H2O + Cl- + 2Ca+2 + Al(OH)4-
+	-Vm	136.14999771118 
+	-analytical_expression	31.153442700883 0 2978.1494886608 -10.7911357373758 0 0 0 
+	-log_K	14.365171 
+
+1/2C4AH13 (metastable)
+	Ca2Al(OH)7(H2O)3 + 3H+ = 6H2O + 2Ca+2 + Al(OH)4-
+	-Vm	137.2350025177 
+	-analytical_expression	34.897271742063 0 6826.6723745978 -11.4850133080306 0 0 0 
+	-log_K	29.376623 
+
+C2AH7.5metastable)
+	Ca2Al2(OH)10(H2O)2.5 + 2H+ = 4.5H2O + 2Ca+2 + 2Al(OH)4-
+	-Vm	179.71000671387 
+	-analytical_expression	53.8497942018 0 1487.1763362812 -18.0395406343383 0 0 0 
+	-log_K	14.200141 
+
+C2S-beta
+	(CaO)2SiO2 + 4H+ = Si(OH)4 + 2Ca+2
+	-Vm	51.789999008179 
+	-analytical_expression	-41.243744842479 0 14114.719805019 13.0809870936133 0 0 0 
+	-log_K	38.567691 
+
+C3A (3CaO_Al2O3)
+	(CaO)3Al2O3 + 2H2O + 4H+ = 3Ca+2 + 2Al(OH)4-
+	-Vm	89.216995239258 
+	-analytical_expression	97.065313091287 0 19929.744132966 -37.6789492103802 0 0 0 
+	-log_K	71.013492 
+
+Siliceous hydrogarnet endmember Ca3AlFe|3|O6(SiO2)0.84(H2O)4.32
+	(AlFeO3)[Ca3O3(SiO2)0.84(H2O)4.32] + 4H+ = 0.84Si(OH)4 + 0.64H2O + Fe(OH)4- + 3Ca+2 + Al(OH)4-
+	-Vm	145.50999641418 
+	-analytical_expression	-34.032784975133 0 13184.903761783 4.88638260100654 0 0 0 
+	-log_K	22.280635 
+
+C3AH6
+	Ca3Al2O6(H2O)6 + 4H+ = 4H2O + 3Ca+2 + 2Al(OH)4-
+	-Vm	149.70199584961 
+	-analytical_expression	32.162766529562 0 9636.2098765379 -11.7127721296562 0 0 0 
+	-log_K	35.500282 
+
+C3AS0.41H5.18
+	Ca3Al2O6(SiO2)0.41(H2O)5.18 + 4H+ = 0.41Si(OH)4 + 2.36H2O + 3Ca+2 + 2Al(OH)4-
+	-Vm	146.12000465393 
+	-analytical_expression	34.915230646102 0 7804.8196731101 -12.9970528629734 0 0 0 
+	-log_K	28.932364 
+
+Siliceous hydrogarnet C3AS0.84H4.32 (end member?)
+	(AlAlO3)[Ca3O3(SiO2)0.84(H2O)4.32] + 4H+ = 0.84Si(OH)4 + 0.64H2O + 3Ca+2 + 2Al(OH)4-
+	-Vm	142.49199867248 
+	-analytical_expression	37.816258099178 0 6994.0076763106 -14.3441353729435 0 0 0 
+	-log_K	25.780644 
+
+C3FH6 (metastable, tentative data)
+	Ca3Fe2O6(H2O)6 + 4H+ = 4H2O + 2Fe(OH)4- + 3Ca+2
+	-Vm	155.28699874878 
+	-analytical_expression	-109.09939770332 0 21744.423761656 26.6196272539733 0 0 0 
+	-log_K	29.700289 
+
+Siliceous hydrogarnet end member C3FS0.84H4.32
+	(FeFeO3)[Ca3O3(SiO2)0.84(H2O)4.32] + 4H+ = 0.84Si(OH)4 + 0.64H2O + 2Fe(OH)4- + 3Ca+2
+	-Vm	148.52299690247 
+	-analytical_expression	-104.68185038179 0 19375.829215026 24.1168749570902 0 0 0 
+	-log_K	19.980634 
+
+C3FS1.34H3.32
+	Ca3Fe2O6(SiO2)1.34(H2O)3.32 + 1.36H2O + 4H+ = 1.34Si(OH)4 + 2Fe(OH)4- + 3Ca+2
+	-Vm	148.52299690247 
+	-analytical_expression	-101.93495902611 0 18525.802549404 22.6252607789893 0 0 0 
+	-log_K	16.18562 
+
+C3S
+	(CaO)3SiO2 + 6H+ = Si(OH)4 + H2O + 3Ca+2
+	-Vm	73.179998397827 
+	-analytical_expression	-54.004451122047 0 25417.884929469 16.9786310918665 0 0 0 
+	-log_K	73.405906 
+
+C4ACl2H10 Friedel's salt-ideal theoretical composition
+	Ca4Al2Cl2(OH)12(H2O)4 + 4H+ = 8H2O + 2Cl- + 4Ca+2 + 2Al(OH)4-
+	-Vm	272.29999542236 
+	-analytical_expression	62.306885401765 0 5956.2989773217 -21.5822714747514 0 0 0 
+	-log_K	28.730289 
+
+C4AF
+	(CaO)4(Al2O3)(Fe2O3) + 6H2O + 4H+ = 2Fe(OH)4- + 4Ca+2 + 2Al(OH)4-
+	-Vm	130.20199775696 
+	-analytical_expression	116.6159929364 0 17065.787813017 -49.867256759439 0 0 0 
+	-log_K	50.893809 
+
+C4AH11 (metastable)
+	Ca4Al2(OH)14(H2O)4 + 6H+ = 10H2O + 4Ca+2 + 2Al(OH)4-
+	-Vm	257.34600067139 
+	-analytical_expression	90.249246932509 0 14333.877907602 -31.4572951381764 0 0 0 
+	-log_K	60.486292 
+
+C4AH13 (metastable)
+	Ca4Al2(OH)14(H2O)6 + 6H+ = 12H2O + 4Ca+2 + 2Al(OH)4-
+	-Vm	274.4700050354 
+	-analytical_expression	69.795859320411 0 13653.785343954 -22.9704965174744 0 0 0 
+	-log_K	58.751897 
+
+C4AH19 (metastable)
+	Ca4Al2(OH)14(H2O)12 + 6H+ = 18H2O + 4Ca+2 + 2Al(OH)4-
+	-Vm	368.69998931885 
+	-analytical_expression	2.598770717556 0 14846.496804095 2.48794685434825 0 0 0 
+	-log_K	58.550427 
+
+C4AClsH12  Kuzel's salt
+	Ca4Al2Cl(SO4)0.5(OH)12(H2O)6 + 4H+ = 0.5SO4-2 + 10H2O + Cl- + 4Ca+2 + 2Al(OH)4-
+	-Vm	288.60000610352 
+	-analytical_expression	44.737545536727 0 6299.289931908 -15.4783111692292 0 0 0 
+	-log_K	27.470295 
+
+C4FeCl2H10 Fe Friedel's salt-ideal theoretical composition
+	Ca4Fe2Cl2(OH)12(H2O)4 + 4H+ = 8H2O + 2Fe(OH)4- + 2Cl- + 4Ca+2
+	-Vm	278.04000854492 
+	-analytical_expression	-82.98648150429 0 20941.787527934 16.2214031854736 0 0 0 
+	-log_K	27.391529 
+
+C4FH13 (metastable, tentative data)
+	Ca4Fe2(OH)14(H2O)6 + 6H+ = 12H2O + 2Fe(OH)4- + 4Ca+2
+	-Vm	285.93999862671 
+	-analytical_expression	-110.05658461743 0 18959.835318589 40.2982596688364 0 0 0 
+	-log_K	53.250431 
+
+CA (CaO Al2O3)
+	CaOAl2O3 + 4H2O = Ca+2 + 2Al(OH)4-
+	-Vm	53.660001754761 
+	-analytical_expression	123.81955710391 0 -3269.5347662101 -45.7327811258895 0 0 0 
+	-log_K	-0.026104 
+
+CA2(CaO 2Al2O3)
+	CaO(Al2O3)2 + 9H2O = 2H+ + Ca+2 + 4Al(OH)4-
+	-Vm	89.040002822876 
+	-analytical_expression	257.83124309086 0 -16260.952816413 -94.3073366918764 0 0 0 
+	-log_K	-29.744525 
+
+CAH10 (CaO_Al2O3_10H2O)
+	CaOAl2O3(H2O)10 = 6H2O + Ca+2 + 2Al(OH)4-
+	-Vm	193.98500442505 
+	-analytical_expression	60.505718917777 0 -5323.7336975784 -20.3075970802324 0 0 0 
+	-log_K	-7.599997 
+
+CAN(NO3)
+	Na8Al6Si6O24(NO3)2(H2O)4 + 20H2O = 6Si(OH)4 + 2NO3- + 8Na+ + 6Al(OH)4-
+	-Vm	435.96000671387 
+	-analytical_expression	376.95579153991 0 -37535.251599174 -127.653463643349 0 0 0 
+	-log_K	-64.799978 
+
+CHA(Ca)
+	Ca(Al2Si4)O12(H2O)6 + 6H2O = 4Si(OH)4 + Ca+2 + 2Al(OH)4-
+	-Vm	247.60999679565 
+	-analytical_expression	21.948734479478 0 -9460.8736536671 -8.75794244036173 0 0 0 
+	-log_K	-31.449996 
+
+CHA(Na)
+	Na2(Al2Si4)O12(H2O)6 + 6H2O = 4Si(OH)4 + 2Na+ + 2Al(OH)4-
+	-Vm	249.95100021362 
+	-analytical_expression	19.070350809545 0 -12197.287784861 -4.06734732412513 0 0 0 
+	-log_K	-31.899993 
+
+chabazite
+	Ca(Al2Si4)O12(H2O)6 + 6H2O = 4Si(OH)4 + Ca+2 + 2Al(OH)4-
+	-Vm	251.15999221802 
+	-analytical_expression	21.993231252149 0 -7775.4821901202 -8.77706527502061 0 0 0 
+	-log_K	-25.800003 
+
+CLI(Ca)
+	Ca0.52Al1.04Si4.96O12(H2O)3.1 + 8.9H2O = 4.96Si(OH)4 + 0.52Ca+2 + 1.04Al(OH)4-
+	-Vm	210.90999603271 
+	-analytical_expression	-32.692029047677 0 -4583.2881250621 9.87087152457417 0 0 0 
+	-log_K	-23.637927 
+
+T2C end-member of CSH3T SS model (C/S=1.5)
+	((CaO)0.75(SiO2)0.5(H2O)1.25)2 + 3H+ = Si(OH)4 + 2H2O + 1.5Ca+2
+	-Vm	80.558395385742 
+	-analytical_expression	-49.317049946632 0 8835.4210177099 18.1672757624453 0 0 0 
+	-log_K	25.270837 
+
+T5C end-member of ternary CSH3T SS model (C/S=1.0)
+	((CaO)1(SiO2)1(H2O)2)1.25 + 2.5H+ = 1.25Si(OH)4 + 1.25H2O + 1.25Ca+2
+	-Vm	79.260501861572 
+	-analytical_expression	-50.616014876938 0 6589.6258099953 18.8534565476011 0 0 0 
+	-log_K	18.137305 
+
+TobH end-member of CSH3T SS model (downscaled)
+	(CaO)1(SiO2)1.5(H2O)2.5 + 2H+ = 1.5Si(OH)4 + 0.5H2O + Ca+2
+	-Vm	84.96000289917 
+	-analytical_expression	-51.941069775289 0 4798.8267079717 19.5497382286605 0 0 0 
+	-log_K	12.528815 
+
+JenD end-member of CSHQ SS model (downscaled)
+	(CaO)1.5(SiO2)0.6667(H2O)2.5 + 3H+ = 0.6667Si(OH)4 + 2.6666H2O + 1.5Ca+2
+	-Vm	81.000003814697 
+	-analytical_expression	-41.703685002163 0 9785.625717804 15.2006014785807 0 0 0 
+	-log_K	28.730362 
+
+JenH end-member of CSHQ SS model (downscaled)
+	(CaO)1.3333(SiO2)1(H2O)2.1667 + 2.6666H+ = Si(OH)4 + 1.5H2O + 1.3333Ca+2
+	-Vm	75.999999046326 
+	-analytical_expression	-46.385310521941 0 7798.7021542715 17.1382926954964 0 0 0 
+	-log_K	22.179305 
+
+TobD end-member of CSHQ SS model (downscaled)
+	((CaO)1.25(SiO2)1(H2O)2.75)0.6667 + 1.66675H+ = 0.6667Si(OH)4 + 1.3334H2O + 0.833375Ca+2
+	-Vm	48.000001907349 
+	-analytical_expression	-29.833027931326 0 4818.1160826361 11.0442598541301 0 0 0 
+	-log_K	13.655314 
+
+TobH end-member of CSHQ SS model (downscaled)
+	(CaO)0.6667(SiO2)1(H2O)1.5 + 1.3334H+ = Si(OH)4 + 0.1667H2O + 0.6667Ca+2
+	-Vm	55 
+	-analytical_expression	-34.600150240615 0 3174.4041136035 13.0291509661687 0 0 0 
+	-log_K	8.286642 
+
+KSH 2.5:1 end-member of id ECSH-1 SS
+	((KOH)2.5SiO2H2O)0.2 + 0.5H+ = 0.2Si(OH)4 + 0.5K+ + 0.3H2O
+	-Vm	12.400000095367 
+	-analytical_expression	-7.2335566411761 0 1180.6710807737 3.54552487157072 0 0 0 
+	-log_K	5.360034 
+
+NaSH 2.5:1 end-member of id ECSH-1 SS
+	((NaOH)2.5SiO2H2O)0.2 + 0.5H+ = 0.2Si(OH)4 + 0.5Na+ + 0.3H2O
+	-Vm	10.499999523163 
+	-analytical_expression	-8.9145042882299 0 1416.4740702747 3.86905542237818 0 0 0 
+	-log_K	5.270073 
+
+SiO2 (1 norm.) end-member of ECSH-I ideal SS
+	(SiO2H2O)1 + H2O = Si(OH)4
+	-Vm	33.800001144409 
+	-analytical_expression	-14.884027674941 0 -81.333719955502 5.0746230385063 0 0 0 
+	-log_K	-2.600016 
+
+SrSH end-member of ECSH-1 SS model (ideal), no alkali system
+	((Sr(OH)2)1SiO2H2O)1 + 2H+ = Sr+2 + Si(OH)4 + H2O
+	-Vm	64.000000953674 
+	-analytical_expression	-44.311575535776 0 5565.1801943042 16.5879885885811 0 0 0 
+	-log_K	15.400027 
+
+TobCa end-member of ECSH-1 SS model (ideal)
+	((Ca(OH)2)0.8333SiO2H2O)1 + 1.6666H+ = Si(OH)4 + 0.6666H2O + 0.8333Ca+2
+	-Vm	68.000001907349 
+	-analytical_expression	-37.655227368922 0 4113.3634599713 14.0957173663508 0 0 0 
+	-log_K	11.019995 
+
+JenCa end-member of ECSH-2 SS model (ideal)
+	((Ca(OH)2)1.6667SiO2H2O)0.6 + 2.00004H+ = 0.6Si(OH)4 + 1.40004H2O + 1.00002Ca+2
+	-Vm	35.999999046326 
+	-analytical_expression	-42.702185997719 0 6142.0235090963 16.0462148701073 0 0 0 
+	-log_K	17.603574 
+
+KSH 2.5:1 end-member of ideal ECSH-2 SS
+	((KOH)2.5SiO2H2O)0.2 + 0.5H+ = 0.2Si(OH)4 + 0.5K+ + 0.3H2O
+	-Vm	12.400000095367 
+	-analytical_expression	-7.2335566411761 0 1329.849449711 3.54552487157072 0 0 0 
+	-log_K	5.860381 
+
+NaSH 2.5:1 end-member of id ECSH-2 SS
+	((NaOH)2.5SiO2H2O)0.2 + 0.5H+ = 0.2Si(OH)4 + 0.5Na+ + 0.3H2O
+	-Vm	10.499999523163 
+	-analytical_expression	-8.9145042882299 0 1565.2868059548 3.86905542237818 0 0 0 
+	-log_K	5.769194 
+
+SrSH end-member of ECSH-2 SS model (ideal), no alkali system
+	((Sr(OH)2)1SiO2H2O)1 + 2H+ = Sr+2 + Si(OH)4 + H2O
+	-Vm	64.000000953674 
+	-analytical_expression	-44.311575535776 0 5624.7784152277 16.5879885885811 0 0 0 
+	-log_K	15.59992 
+
+SrSH end-member of ECSH-2 SS model (ideal), in ACW (OPC pore solution)
+	((Sr(OH)2)1SiO2H2O)1 + 2H+ = Sr+2 + Si(OH)4 + H2O
+	-Vm	64.000000953674 
+	-analytical_expression	-44.311575535776 0 5803.4686113532 16.5879885885811 0 0 0 
+	-log_K	16.19925 
+
+TobCa end-member of ECSH-2 SS model (ideal)
+	((Ca(OH)2)0.8333SiO2H2O)1 + 1.6666H+ = Si(OH)4 + 0.6666H2O + 0.8333Ca+2
+	-Vm	68.000001907349 
+	-analytical_expression	-37.655227368922 0 4113.3634599713 14.0957173663508 0 0 0 
+	-log_K	11.019995 
+
+Ettringite, for solid solution with tricarboaluminate
+	{SO4}3:Ca6Al2(OH)12(H2O)26 + 4H+ = 3SO4-2 + 30H2O + 6Ca+2 + 2Al(OH)4-
+	-Vm	707.03002929688 
+	-analytical_expression	-36.554480450161 0 2409.0622449527 15.9934437507029 0 0 0 
+	-log_K	11.100288 
+
+Ettringite with 32 H2O
+	((H2O)2)Ca6Al2(SO4)3(OH)12(H2O)24 + 4H+ = 3SO4-2 + 30H2O + 6Ca+2 + 2Al(OH)4-
+	-Vm	707.03002929688 
+	-analytical_expression	-36.554480450161 0 2409.0622449527 15.9934437507029 0 0 0 
+	-log_K	11.100288 
+
+Ettringite 1/3, for simple solid solution with tricarboaluminate
+	(SO4)Ca2Al0.6666667(OH)4(H2O)8.6666667 + 1.333333H+ = SO4-2 + 10H2O + 2Ca+2 + 0.666667Al(OH)4-
+	-Vm	235.67699432373 
+	-analytical_expression	-12.184930740191 0 802.78134095567 5.33118957098926 0 0 0 
+	-log_K	3.699291 
+
+1/2 Ettringite for simple solid solution with Fe-ettringite
+	Ca3Al(SO4)1.5(OH)6(H2O)13 + 2H+ = 1.5SO4-2 + 15H2O + 3Ca+2 + Al(OH)4-
+	-Vm	353.51501464844 
+	-analytical_expression	-18.27724022508 0 1204.4290063571 7.99672187535132 0 0 0 
+	-log_K	5.549801 
+
+Ettringite13_desorp_empirical
+	Ca6Al2(SO4)3(OH)12(H2O)7 + 4H+ = 3SO4-2 + 11H2O + 6Ca+2 + 2Al(OH)4-
+	-Vm	410.60001373291 
+	-analytical_expression	125.32584897119 0 21910.555054505 -64.6136722426956 0 0 0 
+	-log_K	38.931914 
+
+Ettringite13_desorp
+	Ca6Al2(SO4)3(OH)12(H2O)7 + 4H+ = 3SO4-2 + 11H2O + 6Ca+2 + 2Al(OH)4-
+	-Vm	410.60001373291 
+	-analytical_expression	125.32584897119 0 21910.555054505 -64.6136722426956 0 0 0 
+	-log_K	38.931914 
+
+Ettringite30_desorp
+	Ca6Al2(SO4)3(OH)12(H2O)24 + 4H+ = 3SO4-2 + 28H2O + 6Ca+2 + 2Al(OH)4-
+	-Vm	707.79998779297 
+	-analytical_expression	-13.55529544203 0 1992.3358600259 7.50664513000019 0 0 0 
+	-log_K	11.701736 
+
+Ettringite9_desorp
+	Ca6Al2(SO4)3(OH)12(H2O)3 + 4H+ = 3SO4-2 + 7H2O + 6Ca+2 + 2Al(OH)4-
+	-Vm	360.99998474121 
+	-analytical_expression	228.71918359843 0 6293.760052306 -81.5892957009194 0 0 0 
+	-log_K	47.941168 
+
+Ettringite9_desorp
+	Ca6Al2(SO4)3(OH)12(H2O)3 + 4H+ = 3SO4-2 + 7H2O + 6Ca+2 + 2Al(OH)4-
+	-Vm	360.99998474121 
+	-analytical_expression	228.71918359843 0 6293.760052306 -81.5892957009194 0 0 0 
+	-log_K	47.941168 
+
+Farringtonite
+	Mg3(PO4)2 = 2PO4-3 + 3Mg+2
+	-Vm	95.200004577637 
+	-analytical_expression	20.245435114135 0 6222.8266116066 -25.6743971682582 0 0 0 
+	-log_K	-22.41 
+
+FAU-X(Na)
+	Na2(Al2Si2.5)O9(H2O)6.2 + 2.8H2O = 2.5Si(OH)4 + 2Na+ + 2Al(OH)4-
+	-Vm	195.79999923706 
+	-analytical_expression	58.815345047392 0 -10157.9592958 -18.8525601628472 0 0 0 
+	-log_K	-21.899996 
+
+FAU-Y(Na)
+	Na2(Al2Si4)O12(H2O)8 + 4H2O = 4Si(OH)4 + 2Na+ + 2Al(OH)4-
+	-Vm	282.9400062561 
+	-analytical_expression	20.265023576812 0 -10924.417043268 -5.30590497815106 0 0 0 
+	-log_K	-29.499993 
+
+Fe-Ettringite
+	Ca6Fe2(SO4)3(OH)12(H2O)26 + 4H+ = 3SO4-2 + 30H2O + 2Fe(OH)4- + 6Ca+2
+	-Vm	717.55996704102 
+	-analytical_expression	-154.78025148021 0 10035.84128114 53.7982416280502 0 0 0 
+	-log_K	12.000367 
+
+1/2 Fe-Ettringite (for simple solid solution with Al-ettringite)
+	Ca3Fe(SO4)1.5(OH)6(H2O)13 + 2H+ = 1.5SO4-2 + 15H2O + Fe(OH)4- + 3Ca+2
+	-Vm	358.77998352051 
+	-analytical_expression	-77.390074708149 0 5017.8114122309 26.8991208140251 0 0 0 
+	-log_K	5.999868 
+
+Fe-hemicarbonate
+	Ca3O3Fe2O3(CaCO3)0.5(CaO2H2)0.5(H2O)9.5 + 5H+ = 8.5H2O + 2Fe(OH)4- + 0.5CO3-2 + 4Ca+2
+	-Vm	273.3930015564 
+	-analytical_expression	-105.45259390962 0 26606.236242094 22.3829727788552 0 0 0 
+	-log_K	39.170367 
+
+1/2 Fe-Monosulphate for solid solution with monosuphate
+	Ca2FeS0.5O5(H2O)6 + 2H+ = 0.5SO4-2 + 5H2O + Fe(OH)4- + 2Ca+2
+	-Vm	160.56999206543 
+	-analytical_expression	-50.609602490476 0 11090.480455188 10.3570252486048 0 0 0 
+	-log_K	12.215835 
+
+Fe-Monosulphate
+	Ca4Fe2SO10(H2O)12 + 4H+ = SO4-2 + 10H2O + 2Fe(OH)4- + 4Ca+2
+	-Vm	321.13998413086 
+	-analytical_expression	-101.21924766115 0 22180.550167079 20.7140651703533 0 0 0 
+	-log_K	24.430286 
+
+Fe-Monocarbonate
+	Ca4O4Fe2O3CO2(H2O)12 + 4H+ = 10H2O + 2Fe(OH)4- + CO3-2 + 4Ca+2
+	-Vm	291.66599273682 
+	-analytical_expression	-100.53212545518 0 19499.07075443 22.8505536705722 0 0 0 
+	-log_K	21.410284 
+
+Fe|3|OOH  microcrystalline
+	FeOOH  + 2H2O = H+ + Fe(OH)4-
+	-Vm	34.305500984192 
+	-analytical_expression	-2.7056986908878 0 -2230.3081920078 -3.80445823024059 0 0 0 
+	-log_K	-19.600073 
+
+GIS-LS-P(Ca)
+	Ca(Al2Si2)O8(H2O)4.5 + 3.5H2O = 2Si(OH)4 + Ca+2 + 2Al(OH)4-
+	-Vm	157.5800037384 
+	-analytical_expression	53.61011630801 0 -7270.0659755321 -21.309794563906 0 0 0 
+	-log_K	-23.500002 
+
+GIS-LS-P(Na)
+	Na2(Al2Si2)O8(H2O)3.8 + 4.2H2O = 2Si(OH)4 + 2Na+ + 2Al(OH)4-
+	-Vm	153.48999977112 
+	-analytical_expression	66.816110242079 0 -9889.6052674534 -21.5197528176089 0 0 0 
+	-log_K	-19.599996 
+
+Ca5(PO4)3OH Hydroxyapatite
+	Ca5(PO4)3OH + H+ = 3PO4-3 + H2O + 5Ca+2
+	-Vm	159.64005470276 
+	-analytical_expression	42.344084082566 0 1745.3233063844 -37.2623068586353 0 0 0 
+	-log_K	-43.999928 
+
+Hemicarbonate10.5
+	(CaO)3Al2O3(CaCO3)0.5(CaO2H2)0.5(H2O)10 + 5H+ = 9H2O + 0.5CO3-2 + 4Ca+2 + 2Al(OH)4-
+	-Vm	261.26399993896 
+	-analytical_expression	41.489029948274 0 11043.132966835 -14.5187128284995 0 0 0 
+	-log_K	42.602279 
+
+Hemicarbonate
+	(CaO)3Al2O3(CaCO3)0.5(CaO2H2)0.5(H2O)11.5 + 5H+ = 10.5H2O + 0.5CO3-2 + 4Ca+2 + 2Al(OH)4-
+	-Vm	284.51499938965 
+	-analytical_expression	26.139634820626 0 10407.64559059 -8.15406163439878 0 0 0 
+	-log_K	40.870354 
+
+Hemicarbonate9
+	(CaO)3Al2O3(CaCO3)0.5(CaO2H2)0.5(H2O)8.5 + 5H+ = 7.5H2O + 0.5CO3-2 + 4Ca+2 + 2Al(OH)4-
+	-Vm	249.26000595093 
+	-analytical_expression	56.914450684364 0 12033.822135445 -20.8832466374508 0 0 0 
+	-log_K	45.601854 
+
+beta-hemihydrate
+	CaSO4(H2O)0.5 = SO4-2 + 0.5H2O + Ca+2
+	-Vm	61.729998588562 
+	-analytical_expression	23.077278937984 0 -282.76297142496 -10.3944186728715 0 0 0 
+	-log_K	-3.591424 
+
+HEU(Ca)-1
+	Ca1.07Al2.14Si6.86O18(H2O)4.4 + 13.6H2O = 6.86Si(OH)4 + 1.07Ca+2 + 2.14Al(OH)4-
+	-Vm	317.88000106811 
+	-analytical_expression	-16.617709044488 0 -10873.271292547 5.13189111563868 0 0 0 
+	-log_K	-40.392849 
+
+HEU(Ca)-2
+	Ca1.07Al2.14Si6.86O18(H2O)4.5 + 13.5H2O = 6.86Si(OH)4 + 1.07Ca+2 + 2.14Al(OH)4-
+	-Vm	317.88000106811 
+	-analytical_expression	-18.179030292001 0 -10049.528316484 5.0759768164199 0 0 0 
+	-log_K	-39.321431 
+
+CaK3H(PO4)2 calcium potassium hydrogen phosphate
+	CaK3H(PO4)2 = 2PO4-3 + 3K+ + H+ + Ca+2
+	-Vm	126.48968696594 
+	-analytical_expression	29.678997322602 0 -3503.4514749805 -16.2992337491505 0 0 0 
+	-log_K	-22.4 
+
+hydrotalcite   
+	Mg4Al2O7(H2O)10 + 6H+ = 4Mg+2 + 9H2O + 2Al(OH)4-
+	-Vm	220.20000457764 
+	-analytical_expression	-36.829373711692 0 12543.706356709 9.18942162554407 0 0 0 
+	-log_K	27.981048 
+
+CASH-INFCA MCL=inf a=0.625 v=0 i1=1 i2=0 u1=2 u2=0 M=2
+	(CaO)1(SiO2)1.1875(Al2O3)0.15625(H2O)1.65625 + 0.5H2O + 1.6875H+ = 1.1875Si(OH)4 + Ca+2 + 0.3125Al(OH)4-
+	-Vm	59.310002326965 
+	-analytical_expression	-24.213718668508 0 3621.277131512 8.49552493169376 0 0 0 
+	-log_K	8.953727 
+
+CASH-INFCN MCL=inf a=0 v=0 i1=1 i2=0 u1=0.75 u2=1.25 M=2
+	(CaO)1(SiO2)1.5(Na2O)0.3125(H2O)1.1875 + 0.5H2O + 2.625H+ = 1.5Si(OH)4 + 0.625Na+ + Ca+2
+	-Vm	71.06999874115 
+	-analytical_expression	-45.634072385097 0 7253.1255684323 16.1923551718202 0 0 0 
+	-log_K	18.759957 
+
+CASH-INFCNA MCL=inf a=0.625 v=0 i1=0 i2=1 u1=1.25 u2=0.75 M=2
+	(CaO)1(SiO2)1.1875(Al2O3)0.15625(Na2O)0.34375(H2O)1.3125 + 0.5H2O + 2.375H+ = 1.1875Si(OH)4 + 0.6875Na+ + Ca+2 + 0.3125Al(OH)4-
+	-Vm	69.3 
+	-analytical_expression	-24.82952916095 0 6239.1273344118 8.6406925964145 0 0 0 
+	-log_K	17.47875 
+
+Jennite   10/6 end-member of  id CSH SS (norm per 1 Si)  
+	(SiO2)1(CaO)1.666667(H2O)2.1 + 3.333334H+ = Si(OH)4 + 1.766667H2O + 1.666667Ca+2
+	-Vm	78.400001525879 
+	-analytical_expression	-52.272057420588 0 10156.581046113 19.2055369468058 0 0 0 
+	-log_K	29.311107 
+
+POTASSIUM-OXIDE
+	K2O + 2H+ = 2K+ + H2O
+	-Vm	40.380001068115 
+	-analytical_expression	12.367276544166 0 22161.430032967 -1.05158500019574 0 0 0 
+	-log_K	84.040201 
+
+Arcanite        
+	K2SO4 = SO4-2 + 2K+
+	-Vm	65.500001907349 
+	-analytical_expression	47.849621845462 0 -3268.1694022617 -15.6368805858269 0 0 0 
+	-log_K	-1.789931 
+
+KOH2.5SiO2H2O amorphous
+	((KOH)2.5SiO2H2O)0.2 + 0.5H+ = 0.2Si(OH)4 + 0.5K+ + 0.3H2O
+	-Vm	12.400000095367 
+	-analytical_expression	-5.7253672844272 0 1154.8043218613 3.15383576421615 0 0 0 
+	-log_K	5.806071 
+
+LIME
+	CaO + 2H+ = H2O + Ca+2
+	-Vm	16.763999462128 
+	-analytical_expression	-12.734337525456 0 10627.443258085 3.91111526715528 0 0 0 
+	-log_K	32.576144 
+
+LTA(Na)
+	Na1.98Al1.98Si2.02O8(H2O)5.31 + 2.69H2O = 2.02Si(OH)4 + 1.98Na+ + 1.98Al(OH)4-
+	-Vm	186.94999694824 
+	-analytical_expression	65.174348776698 0 -8012.1227682779 -22.8356054655668 0 0 0 
+	-log_K	-18.199997 
+
+M-S-H
+	Mg1.5Si2O5.5(H2O)2.5 + 3H+ = 2Si(OH)4 + 1.5Mg+2
+	-Vm	94.884996414185 
+	-analytical_expression	-61.059407859257 0 8268.1908148893 18.871708134285 0 0 0 
+	-log_K	13.683203 
+
+M-S-H
+	Mg1.5SiO3.5(H2O)2.5 + 3H+ = Si(OH)4 + 1.5Mg+2 + 2H2O
+	-Vm	74.320001602173 
+	-analytical_expression	-53.648875775894 0 9266.81844663 16.6061499715129 0 0 0 
+	-log_K	18.825492 
+
+MgAl-OH-LDH, Mg/Al=2
+	Mg4Al2(OH)14(H2O)3 + 6H+ = 4Mg+2 + 9H2O + 2Al(OH)4-
+	-Vm	219.09999847412 
+	-analytical_expression	-37.177580897411 0 14443.037151377 9.30950976062339 0 0 0 
+	-log_K	34.300378 
+
+MgAl-OH-LDH, Mg/Al=3
+	Mg6Al2(OH)18(H2O)3 + 10H+ = 6Mg+2 + 13H2O + 2Al(OH)4-
+	-Vm	305.4400062561 
+	-analytical_expression	-94.495449764134 0 28632.687698023 26.8512482394534 0 0 0 
+	-log_K	67.980719 
+
+MgAl-OH-LDH, Mg/Al=4
+	Mg8Al2(OH)22(H2O)3 + 14H+ = 8Mg+2 + 17H2O + 2Al(OH)4-
+	-Vm	392.36000061035 
+	-analytical_expression	-152.16194364302 0 42837.599873705 44.5131483393532 0 0 0 
+	-log_K	101.660954 
+
+CO3-Hydrotalcite, Mg/Al=2
+	Mg2Al(OH)6(CO3)0.5(H2O)2 + 2H+ = 2Mg+2 + 4H2O + 0.5CO3-2 + Al(OH)4-
+	-Vm	110.640001297 
+	-analytical_expression	15.281092461477 0 3668.4403721864 -8.75962804781176 0 0 0 
+	-log_K	5.905352 
+
+CO3-Pyroaurite, Mg/Fe=2
+	Mg2Fe(OH)6(CO3)0.5(H2O)2 + 2H+ = 2Mg+2 + 4H2O + Fe(OH)4- + 0.5CO3-2
+	-Vm	118.24000358582 
+	-analytical_expression	-44.90911017234 0 7271.5485467416 10.6438024609713 0 0 0 
+	-log_K	5.819333 
+
+CO3-Hydrotalcite, Mg/Al=3
+	Mg3Al(OH)8(CO3)0.5(H2O)2.5 + 4H+ = 3Mg+2 + 6.5H2O + 0.5CO3-2 + Al(OH)4-
+	-Vm	114.96000289917 
+	-analytical_expression	-13.54888480439 0 10759.938985765 0.0704219490984419 0 0 0 
+	-log_K	22.710152 
+
+CO3-Pyroaurite, Mg/Fe=3
+	Mg3Fe(OH)8(CO3)0.5(H2O)2.5 + 4H+ = 3Mg+2 + 6.5H2O + Fe(OH)4- + 0.5CO3-2
+	-Vm	119.04000282288 
+	-analytical_expression	-73.739066098106 0 14285.218559883 19.4738451213098 0 0 0 
+	-log_K	22.364849 
+
+Mg3(PO4)2 22H2O
+	Mg3(PO4)2(H2O)22 = 2PO4-3 + 3Mg+2 + 22H2O
+	-Vm	401.9002532959 
+	-analytical_expression	-247.66602898606 0 8933.6013389074 78.6687876974478 0 0 0 
+	-log_K	-23.03 
+
+Mg3(PO4)2 4H2O
+	Mg3(PO4)2(H2O)4 = 2PO4-3 + 3Mg+2 + 4H2O
+	-Vm	140.70011138916 
+	-analytical_expression	-38.625200497529 0 10916.240692294 -8.68579158601199 0 0 0 
+	-log_K	-23.5 
+
+K-struvite
+	MgKPO4(H2O)6 = PO4-3 + Mg+2 + K+ + 6H2O
+	-Vm	142.49974250793 
+	-analytical_expression	-54.326931749143 0 1629.1891021737 15.3161185685832 0 0 0 
+	-log_K	-10.96 
+
+K-struvite
+	MgKPO4(H2O)6 = PO4-3 + Mg+2 + K+ + 6H2O
+	-Vm	142.49974250793 
+	-analytical_expression	-54.326931749143 0 1629.1891021737 15.3161185685832 0 0 0 
+	-log_K	-10.96 
+
+K-struvite de-watered
+	MgKPO4H2O = PO4-3 + Mg+2 + K+ + H2O
+	-Vm	66.0999584198 
+	-analytical_expression	0.11123345005994 0 1076.5458755351 -5.93015872250717 0 0 0 
+	-log_K	-10.95 
+
+Monocarbonate
+	Ca4Al2CO9(H2O)11 + 4H+ = 9H2O + CO3-2 + 4Ca+2 + 2Al(OH)4-
+	-Vm	261.9580078125 
+	-analytical_expression	53.279428958792 0 5306.27970334 -18.8109595153047 0 0 0 
+	-log_K	24.530285 
+
+Monocarbonate
+	Ca2AlC0.5O4.5(H2O)5.5 + 2H+ = 4.5H2O + 0.5CO3-2 + 2Ca+2 + Al(OH)4-
+	-Vm	130.97900390625 
+	-analytical_expression	26.639938847089 0 2653.1284442062 -9.40556785665025 0 0 0 
+	-log_K	12.265064 
+
+Monocarbonate9
+	Ca4Al2CO9(H2O)9 + 4H+ = 7H2O + CO3-2 + 4Ca+2 + 2Al(OH)4-
+	-Vm	233.56000900269 
+	-analytical_expression	71.503964921748 0 7325.7201992807 -27.2970974837252 0 0 0 
+	-log_K	28.529678 
+
+C4A(NO3)2 H10   
+	Ca4Al2(OH)12N2O6(H2O)4 + 4H+ = 2NO3- + 8H2O + 4Ca+2 + 2Al(OH)4-
+	-Vm	296.59999847412 
+	-analytical_expression	93.584304348929 0 2905.1294869002 -30.7154600811522 0 0 0 
+	-log_K	27.330282 
+
+C4A(NO2)2 H10   
+	Ca4Al2(OH)12N2O4(H2O)4 + O2 + 4H+ = 2NO3- + 8H2O + 4Ca+2 + 2Al(OH)4-
+	-Vm	275.10000228882 
+	-analytical_expression	84.148610651546 0 14714.503481464 -30.7604416856004 0 0 0 
+	-log_K	57.331218 
+
+Monosulphate10.5
+	Ca4Al2SO10(H2O)10.5 + 4H+ = SO4-2 + 8.5H2O + 4Ca+2 + 2Al(OH)4-
+	-Vm	281.59999847412 
+	-analytical_expression	67.252364200706 0 6165.9149538563 -24.1756044552805 0 0 0 
+	-log_K	28.112004 
+
+Monosulphate12
+	Ca4Al2SO10(H2O)12 + 4H+ = SO4-2 + 10H2O + 4Ca+2 + 2Al(OH)4-
+	-Vm	310.1 
+	-analytical_expression	50.531596307948 0 6053.778513507 -17.8100722712003 0 0 0 
+	-log_K	26.766183 
+
+1/2 Monosulphate 12 for solid solution with Fe-Monosulphate
+	Ca2AlS0.5O5(H2O)6 + 2H+ = 0.5SO4-2 + 5H2O + 2Ca+2 + Al(OH)4-
+	-Vm	155.05 
+	-analytical_expression	25.266347001078 0 3026.7635707705 -8.90521606201795 0 0 0 
+	-log_K	13.382785 
+
+Monosulphate14
+	Ca4Al2SO10(H2O)14 + 4H+ = SO4-2 + 12H2O + 4Ca+2 + 2Al(OH)4-
+	-Vm	331.59999847412 
+	-analytical_expression	24.30818229048 0 7602.6495568798 -9.3222606022243 0 0 0 
+	-log_K	26.74029 
+
+Monosulphate16
+	Ca4Al2SO10(H2O)16 + 4H+ = SO4-2 + 14H2O + 4Ca+2 + 2Al(OH)4-
+	-Vm	350.4999923706 
+	-analytical_expression	8.3446300188921 0 6673.1402184208 -1.57651575378058 0 0 0 
+	-log_K	26.825486 
+
+Monosulphate9
+	Ca4Al2SO10(H2O)9 + 4H+ = SO4-2 + 7H2O + 4Ca+2 + 2Al(OH)4-
+	-Vm	274.59999084473 
+	-analytical_expression	81.193663314085 0 7307.7838537569 -30.541342063374 0 0 0 
+	-log_K	30.131523 
+
+MOR(Ca)
+	Ca0.34Al0.68Si5.32O12(H2O)2.9 + 9.1H2O = 5.32Si(OH)4 + 0.34Ca+2 + 0.68Al(OH)4-
+	-Vm	209.7200012207 
+	-analytical_expression	-65.973357658106 0 -3556.0271722252 22.7348358471528 0 0 0 
+	-log_K	-21.640005 
+
+MOR(Na)
+	Na0.72Al0.72Si5.28O12(H2O)2.71 + 9.29H2O = 5.28Si(OH)4 + 0.72Na+ + 0.72Al(OH)4-
+	-Vm	706.57600402832 
+	-analytical_expression	-55.31071716445 0 -4872.1851042156 19.8633100446776 0 0 0 
+	-log_K	-22.500008 
+
+SODIUM-OXIDE
+	Na2O + 2H+ = 2Na+ + H2O
+	-Vm	25 
+	-analytical_expression	3.5678505212438 0 18466.643482474 0.781219217967525 0 0 0 
+	-log_K	67.426798 
+
+Thenardite      
+	Na2SO4 = SO4-2 + 2Na+
+	-Vm	53.330001831055 
+	-analytical_expression	22.019184640711 0 -885.4584546701 -7.82503142095358 0 0 0 
+	-log_K	-0.276627 
+
+NaOH2.5SiO2H2O amorphous
+	((NaOH)2.5SiO2H2O)0.2 + 0.5H+ = 0.2Si(OH)4 + 0.5Na+ + 0.3H2O
+	-Vm	10.499999523163 
+	-analytical_expression	-6.841854551946 0 1449.8710774801 3.15383576421615 0 0 0 
+	-log_K	5.685102 
+
+NAT
+	Na2(Al2Si3)O10(H2O)2 + 8H2O = 3Si(OH)4 + 2Na+ + 2Al(OH)4-
+	-Vm	169.35600280762 
+	-analytical_expression	71.388608404181 0 -11213.407835636 -24.4019190546976 0 0 0 
+	-log_K	-26.599997 
+
+natrolite       
+	Na2(Al2Si3)O10(H2O)2 + 8H2O = 3Si(OH)4 + 2Na+ + 2Al(OH)4-
+	-Vm	169.20000076294 
+	-analytical_expression	71.483177352547 0 -12294.531983209 -24.4295828617056 0 0 0 
+	-log_K	-30.200005 
+
+Newberyite
+	MgHPO4(H2O)3 = PO4-3 + Mg+2 + 3H2O + H+
+	-Vm	82.200012207031 
+	-analytical_expression	-33.17094128084 0 687.64683112358 5.2262118873977 0 0 0 
+	-log_K	-17.93 
+
+Ca4H(PO4)3 2.5H2O OCP Octocalcium phosphate
+	Ca4H(PO4)3(H2O)2.5 = 3PO4-3 + 2.5H2O + H+ + 4Ca+2
+	-Vm	182.63000488281 
+	-analytical_expression	-41.363548540299 0 -361.99902349339 -2.35534012226219 0 0 0 
+	-log_K	-48.399994 
+
+PHI(Na)
+	Na2.5Al2.5Si5.5O16(H2O)5 + 11H2O = 5.5Si(OH)4 + 2.5Na+ + 2.5Al(OH)4-
+	-Vm	304.74000930786 
+	-analytical_expression	30.238568365705 0 -13230.66227572 -10.2009619327874 0 0 0 
+	-log_K	-39.375008 
+
+PHI(NaK)
+	Na1.5K(Al2.5Si5.5)O16(H2O)5 + 11H2O = 5.5Si(OH)4 + 1.5Na+ + K+ + 2.5Al(OH)4-
+	-Vm	304.74000930786 
+	-analytical_expression	33.787069437476 0 -13905.358402016 -10.9225919506701 0 0 0 
+	-log_K	-39.875004 
+
+Phosphorrösslerite
+	MgHPO4(H2O)7 = PO4-3 + Mg+2 + 7H2O + H+
+	-Vm	141.59990310669 
+	-analytical_expression	-76.620004987523 0 1386.6659288492 22.2090364915698 0 0 0 
+	-log_K	-17.01 
+
+SCO
+	Ca(Al2Si3O10)(H2O)3  + 7H2O = 3Si(OH)4 + Ca+2 + 2Al(OH)4-
+	-Vm	172.42099761963 
+	-analytical_expression	47.670590717184 0 -8131.9902387951 -18.2258485466502 0 0 0 
+	-log_K	-24.699993 
+
+SOD(Cl)
+	Na8Al6Si6O24Cl2 + 24H2O = 6Si(OH)4 + 8Na+ + 2Cl- + 6Al(OH)4-
+	-Vm	421.5299987793 
+	-analytical_expression	366.69300133814 0 -36342.222104398 -126.980423380003 0 0 0 
+	-log_K	-69.399979 
+
+SOD(OH)
+	Na8(Al6Si6)O24(OH)2(H2O)2 + 20H2O + 2H+ = 6Si(OH)4 + 8Na+ + 6Al(OH)4-
+	-Vm	424.73999023438 
+	-analytical_expression	294.02694787653 0 -24456.045194527 -100.712609642401 0 0 0 
+	-log_K	-37.199796 
+
+STI(Ca)
+	Ca1.11Al2.22Si6.78O18(H2O)6.8 + 11.2H2O = 6.78Si(OH)4 + 1.11Ca+2 + 2.22Al(OH)4-
+	-Vm	327.43000030518 
+	-analytical_expression	-16.408346794027 0 -10304.227525239 4.25692915155655 0 0 0 
+	-log_K	-40.43 
+
+C2ASH8
+	Ca2Al2SiO7(H2O)8 + 2H+ = Si(OH)4 + 3H2O + 2Ca+2 + 2Al(OH)4-
+	-Vm	216.11000061035 
+	-analytical_expression	32.557329253403 0 -279.12736551064 -11.1189874087301 0 0 0 
+	-log_K	4.107923 
+
+C2ASH5.5
+	Ca2Al2SiO7(H2O)5.5 + 2H+ = Si(OH)4 + 0.5H2O + 2Ca+2 + 2Al(OH)4-
+	-Vm	212.80000686646 
+	-analytical_expression	59.050493464213 0 537.16405397943 -21.7265019826222 0 0 0 
+	-log_K	7.084478 
+
+C2ASH7_20% RH
+	Ca2Al2SiO7(H2O)7 + 2H+ = Si(OH)4 + 2H2O + 2Ca+2 + 2Al(OH)4-
+	-Vm	215.49999237061 
+	-analytical_expression	44.307252368618 0 -443.08986536292 -15.362056332805 0 0 0 
+	-log_K	4.808689 
+
+syngenite  (Cpr,Sr=0 of arcanite+anhydr+1/2(gypsum-anhydr)=syngenite)
+	K2Ca(SO4)2H2O = 2SO4-2 + 2K+ + H2O + Ca+2
+	-Vm	127.53999710083 
+	-analytical_expression	65.324077293546 0 -4099.4761437845 -23.7634489584467 0 0 0 
+	-log_K	-7.200017 
+
+T2C - C-S-H MCL=2 a=0 v=1 phi=1
+	(CaO)1.5(SiO2)1(H2O)2.5 + 3H+ = Si(OH)4 + 2H2O + 1.5Ca+2
+	-Vm	80.600004196167 
+	-analytical_expression	-49.3275477854 0 8924.5814288046 18.1696816769249 0 0 0 
+	-log_K	25.565334 
+
+T5C - C-S-H MCL=5 a=0 v=0.5 phi=0.5
+	(CaO)1.25(SiO2)1.25(H2O)2.5 + 2.5H+ = 1.25Si(OH)4 + 1.25H2O + 1.25Ca+2
+	-Vm	79.299998283386 
+	-analytical_expression	-50.63192666053 0 6682.3303420716 18.8587474186206 0 0 0 
+	-log_K	18.445467 
+
+Thaumasite
+	(CaSiO3)(CaSO4)(CaCO3)(H2O)15 + 2H+ = SO4-2 + Si(OH)4 + 14H2O + CO3-2 + 3Ca+2
+	-Vm	330 
+	-analytical_expression	-74.280736861423 0 2210.7252604562 26.6428545999018 0 0 0 
+	-log_K	-0.939919 
+
+T6 (tobermorite) CSH-I SS em (5/6) norm to 2.4 Si   
+	(SiO2)2.4(CaO)2(H2O)3.2 + 4H+ = 2.4Si(OH)4 + 0.4H2O + 2Ca+2
+	-Vm	140.79999923706 
+	-analytical_expression	-90.719858045643 0 9988.0318786149 33.9330836091695 0 0 0 
+	-log_K	26.745369 
+
+T6 (tobermorite) CSH-II em (5/6) norm to 1 Si 
+	(SiO2)1(CaO)0.833333(H2O)1.333333 + 1.666666H+ = Si(OH)4 + 0.166666H2O + 0.833333Ca+2
+	-Vm	58.699998855591 
+	-analytical_expression	-37.799856283956 0 4161.7857765341 14.1387552603457 0 0 0 
+	-log_K	11.143844 
+
+TobH - C-S-H MCL=infinite a=0 v=0 phi=0
+	(CaO)1(SiO2)1.5(H2O)2.5 + 2H+ = 1.5Si(OH)4 + 0.5H2O + Ca+2
+	-Vm	85 
+	-analytical_expression	-51.936311566725 0 4878.8446209103 19.5478149643912 0 0 0 
+	-log_K	12.797208 
+
+tricarboaluminate (Sr,Cpr=0 of: ettringite+3*CaCO3-3*CaSO4=tricarboalu)
+	{CO3}3:Ca6Al2(OH)12(H2O)26 + 4H+ = 30H2O + 3CO3-2 + 6Ca+2 + 2Al(OH)4-
+	-Vm	650.40000915527 
+	-analytical_expression	-63.657564045125 0 5279.5758498486 22.4091856284397 0 0 0 
+	-log_K	9.500289 
+
+1/3 tricarboaluminate for solid solution with ettringite
+	(CO3)Ca2Al0.6666667(OH)4(H2O)8.6666667 + 1.333333H+ = 10H2O + CO3-2 + 2Ca+2 + 0.666667Al(OH)4-
+	-Vm	216.80000305176 
+	-analytical_expression	-21.218737095874 0 1759.975251138 7.46957944603351 0 0 0 
+	-log_K	3.167235 
+
+zeolite P(Ca)
+	Ca(Al2Si2)O8(H2O)4.5 + 3.5H2O = 2Si(OH)4 + Ca+2 + 2Al(OH)4-
+	-Vm	152.84999847412 
+	-analytical_expression	149.90809686693 0 -6783.3415599171 -59.5934694887271 0 0 0 
+	-log_K	-20.300008 
+
+zeolite X(Na)
+	Na2(Al2Si2.5)O9(H2O)6.2 + 2.8H2O = 2.5Si(OH)4 + 2Na+ + 2Al(OH)4-
+	-Vm	213.60000610352 
+	-analytical_expression	58.808223464926 0 -9617.0389334863 -18.8554451193871 0 0 0 
+	-log_K	-20.099992 
+
+zeolite Y
+	Na2(Al2Si4)O12(H2O)8 + 4H2O = 4Si(OH)4 + 2Na+ + 2Al(OH)4-
+	-Vm	282.92999267578 
+	-analytical_expression	20.091301277717 0 -9568.4760490455 -5.25503318895361 0 0 0 
+	-log_K	-25.000009 

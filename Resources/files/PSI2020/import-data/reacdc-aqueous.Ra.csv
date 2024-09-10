@@ -1,0 +1,6 @@
+﻿Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
+RaOH+,RaOH+,RaOH+,aq,-13.7,0.4,62,14,,,,,1 Ra+2 1 H2O(l) -1 H+ = RaOH+
+RaF+,RaF+,RaF+,aq,0.48,0.13,11.6,2.6,,,,,1 Ra+2 1 F- = RaF+
+RaCO3(aq),RaCO3(aq),RaCO3(aq),aq,2.67,0.09,13,7,,,,,1 Ra+2 1 CO3-2 = RaCO3(aq)
+RaHCO3+,RaHCO3+,RaHCO3+,aq,1.08,0.16,27,12,,,,,1 Ra+2 1 HCO3- = RaHCO3+
+RaSO4(aq),RaSO4(aq),RaSO4(aq),aq,2.28,0.05,1.4,4.4,,,,,1 Ra+2 1 SO4-2 = RaSO4(aq)

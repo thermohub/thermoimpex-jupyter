@@ -1,0 +1,89 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.radioactivity.decay_type" :   "{\"0\" :   \"STABLE\"}",
+               "properties.radioactivity.half_life_lambda.values" :   "[ 0 ]",
+               "properties.datasources" :   "[\"PSI-Nagra-12-07\"]",
+               "properties.sourcetdb" :   "{\"15\" :   \"PSI_NAGRA\"}"
+          },
+          "pairs" :   {
+
+          },
+          "matches" :   {
+               "key.0.fv" :   {
+                    "field" :   "properties.symbol"
+               },
+               "key.1.fv" :   {
+                    "field" :   "properties.class_",
+                    "convert" :   {
+                         "e" :   "{\"0\" :   \"ELEMENT\"}",
+                         "o" :   "{\"0\" :   \"ELEMENT\"}",
+                         "h" :   "{\"0\" :   \"ELEMENT\"}",
+                         "z" :   "{\"4\" :   \"CHARGE\"}",
+                         "a" :   "{\"2\" :   \"LIGAND\"}",
+                         "v" :   "{\"5\" :   \"OTHER_EC\"}"
+                    }
+               },
+               "key.2.fv" :   {
+                    "field" :   "properties.name"
+               },
+               "dod.0.label" :   {
+                    "field" :   "properties.atomic_mass.name"
+               },
+               "dod.0.val" :   {
+                    "field" :   "properties.atomic_mass.values"
+               },
+               "dod.1.label" :   {
+                    "field" :   "properties.entropy.name"
+               },
+               "dod.1.val" :   {
+                    "field" :   "properties.entropy.values"
+               },
+               "dod.2.label" :   {
+                    "field" :   "properties.heat_capacity.name"
+               },
+               "dod.2.val" :   {
+                    "field" :   "properties.heat_capacity.values"
+               },
+               "dod.3.label" :   {
+                    "field" :   "properties.volume.name"
+               },
+               "dod.3.val" :   {
+                    "field" :   "properties.volume.values"
+               },
+               "dod.5.label" :   {
+                    "field" :   "properties.isotope_abundance.name"
+               },
+               "dod.5.val" :   {
+                    "field" :   "properties.isotope_abundance.values"
+               },
+               "dod.6.val" :   {
+                    "field" :   "properties.valences.values"
+               },
+               "dod.7.val" :   {
+                    "field" :   "properties.number"
+               },
+               "dod.9.val" :   {
+                    "field" :   "properties.aggregate_state",
+                    "convert" :   {
+                         "g   " :  "{\"0\" :   \"AS_GAS\"}",
+                         "s   " :  "{\"3\" :   \"AS_CRYSTAL\"}",
+                         "l   " :  "{\"1\" :   \"AS_LIQUID\"}",
+                         "`   " :  "{\"6\" :   \"AS_IONEX\"}"
+                    }
+               },
+               "dod.10.val" :   {
+                    "field" :   "properties.comment"
+               },
+               "dod.11.val" :   {
+                    "field" :   "properties.formula"
+               },
+               "dod.12.val" :   {
+                    "field" :   "properties.substance"
+               }
+          }
+     },
+     "renderer" :   "JSON",
+     "label" :   "VertexElement",
+     "comment" :   "Import"
+}

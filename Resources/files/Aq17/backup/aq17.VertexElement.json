@@ -1,0 +1,820 @@
+[
+     {
+          "_id" :   "elements/Al;0:ELEMENT;19:AQ17",
+          "_key" :   "Al;0:ELEMENT;19:AQ17",
+          "_rev" :   "_ZWdowBO---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Al",
+               "isotope_mass" :   0,
+               "name" :   "aluminum",
+               "atomic_mass" :   {
+                    "values" :   [
+                         26.9815006256104
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         28.2999992370605
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         9.99300003051758
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         24.2000007629395
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   13,
+               "sourcetdb" :   {
+                    "19" :   "AQ17"
+               },
+               "formula" :   "Al",
+               "substance" :   "",
+               "comment" :   "Aluminum",
+               "datasources" :   [
+                    "AQ17"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   1,
+                    "hour" :   17,
+                    "minute" :   22,
+                    "second" :   53
+               }
+          }
+     },
+     {
+          "_id" :   "elements/C;0:ELEMENT;19:AQ17",
+          "_key" :   "C;0:ELEMENT;19:AQ17",
+          "_rev" :   "_ZWdowBu---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "C",
+               "isotope_mass" :   0,
+               "name" :   "carbon",
+               "atomic_mass" :   {
+                    "values" :   [
+                         12.0108003616333
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         5.73999977111816
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         4.58440017700195
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         8.68200016021729
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   6,
+               "sourcetdb" :   {
+                    "19" :   "AQ17"
+               },
+               "formula" :   "C ",
+               "substance" :   "---",
+               "comment" :   "Carbon (graphite)",
+               "datasources" :   [
+                    "AQ17"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   1,
+                    "hour" :   17,
+                    "minute" :   22,
+                    "second" :   53
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Ca;0:ELEMENT;19:AQ17",
+          "_key" :   "Ca;0:ELEMENT;19:AQ17",
+          "_rev" :   "_ZWdowCa---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Ca",
+               "isotope_mass" :   0,
+               "name" :   "calcium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         40.0779991149902
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         41.5900001525879
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         25.8600006103516
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         25.9290008544922
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   20,
+               "sourcetdb" :   {
+                    "19" :   "AQ17"
+               },
+               "formula" :   "Ca",
+               "substance" :   "---",
+               "comment" :   "Calcium",
+               "datasources" :   [
+                    "AQ17"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   1,
+                    "hour" :   17,
+                    "minute" :   22,
+                    "second" :   53
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Cl;0:ELEMENT;19:AQ17",
+          "_key" :   "Cl;0:ELEMENT;19:AQ17",
+          "_rev" :   "_ZWdowD----",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Cl",
+               "isotope_mass" :   0,
+               "name" :   "chlorine",
+               "atomic_mass" :   {
+                    "values" :   [
+                         35.4529991149902
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "aggregate_state" :   {
+                    "0" :   "AS_GAS"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         111.540000915527
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         12395
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         16.9745006561279
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   17,
+               "sourcetdb" :   {
+                    "19" :   "AQ17"
+               },
+               "formula" :   "Cl",
+               "substance" :   "---",
+               "comment" :   "Chlorine",
+               "datasources" :   [
+                    "AQ17"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   1,
+                    "hour" :   17,
+                    "minute" :   22,
+                    "second" :   53
+               }
+          }
+     },
+     {
+          "_id" :   "elements/H;0:ELEMENT;19:AQ17",
+          "_key" :   "H;0:ELEMENT;19:AQ17",
+          "_rev" :   "_ZWdowDi---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "H",
+               "isotope_mass" :   0,
+               "name" :   "hydrogen",
+               "atomic_mass" :   {
+                    "values" :   [
+                         1.00794994831085
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "aggregate_state" :   {
+                    "0" :   "AS_GAS"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         65.3399963378906
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         12395
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         14.4090003967285
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   1,
+               "sourcetdb" :   {
+                    "19" :   "AQ17"
+               },
+               "formula" :   "H",
+               "substance" :   "---",
+               "comment" :   "Hydrogen",
+               "datasources" :   [
+                    "AQ17"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   1,
+                    "hour" :   17,
+                    "minute" :   22,
+                    "second" :   53
+               }
+          }
+     },
+     {
+          "_id" :   "elements/K;0:ELEMENT;19:AQ17",
+          "_key" :   "K;0:ELEMENT;19:AQ17",
+          "_rev" :   "_ZWdowEK---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "K",
+               "isotope_mass" :   0,
+               "name" :   "potassium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         39.0983009338379
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         64.6800003051758
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         45.4630012512207
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         29.6000003814697
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   19,
+               "sourcetdb" :   {
+                    "19" :   "AQ17"
+               },
+               "formula" :   "K",
+               "substance" :   "---",
+               "comment" :   "Potassium",
+               "datasources" :   [
+                    "AQ17"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   1,
+                    "hour" :   17,
+                    "minute" :   22,
+                    "second" :   53
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Mg;0:ELEMENT;19:AQ17",
+          "_key" :   "Mg;0:ELEMENT;19:AQ17",
+          "_rev" :   "_ZWdowEq---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Mg",
+               "isotope_mass" :   0,
+               "name" :   "magnesium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         24.3050003051758
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         32.6699981689453
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         13.996000289917
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         24.8689994812012
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   12,
+               "sourcetdb" :   {
+                    "19" :   "AQ17"
+               },
+               "formula" :   "Mg",
+               "substance" :   "---",
+               "comment" :   "Magnesium NEA(CODATA)",
+               "datasources" :   [
+                    "AQ17"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   1,
+                    "hour" :   17,
+                    "minute" :   22,
+                    "second" :   53
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Na;0:ELEMENT;19:AQ17",
+          "_key" :   "Na;0:ELEMENT;19:AQ17",
+          "_rev" :   "_ZWdowFO---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Na",
+               "isotope_mass" :   0,
+               "name" :   "sodium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         22.9897994995117
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         51.2999992370605
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         23.7999992370605
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         28.2299995422363
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   11,
+               "sourcetdb" :   {
+                    "19" :   "AQ17"
+               },
+               "formula" :   "Na",
+               "substance" :   "---",
+               "comment" :   "Sodium",
+               "datasources" :   [
+                    "AQ17"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   1,
+                    "hour" :   17,
+                    "minute" :   22,
+                    "second" :   53
+               }
+          }
+     },
+     {
+          "_id" :   "elements/O;0:ELEMENT;19:AQ17",
+          "_key" :   "O;0:ELEMENT;19:AQ17",
+          "_rev" :   "_ZWdowF6---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "O",
+               "isotope_mass" :   0,
+               "name" :   "oxygen",
+               "atomic_mass" :   {
+                    "values" :   [
+                         15.999400138855
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "aggregate_state" :   {
+                    "0" :   "AS_GAS"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         102.569000244141
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         12395
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         14.66100025177
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   8,
+               "sourcetdb" :   {
+                    "19" :   "AQ17"
+               },
+               "formula" :   "O",
+               "substance" :   "---",
+               "comment" :   "Oxygen",
+               "datasources" :   [
+                    "AQ17"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   1,
+                    "hour" :   17,
+                    "minute" :   22,
+                    "second" :   53
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Si;0:ELEMENT;19:AQ17",
+          "_key" :   "Si;0:ELEMENT;19:AQ17",
+          "_rev" :   "_ZWdowGi---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Si",
+               "isotope_mass" :   0,
+               "name" :   "silicon",
+               "atomic_mass" :   {
+                    "values" :   [
+                         28.0855007171631
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         18.8099994659424
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         12.0559997558594
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         19.7889995574951
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   14,
+               "sourcetdb" :   {
+                    "19" :   "AQ17"
+               },
+               "formula" :   "Si",
+               "substance" :   "---",
+               "comment" :   "Silicon",
+               "datasources" :   [
+                    "AQ17"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   1,
+                    "hour" :   17,
+                    "minute" :   22,
+                    "second" :   53
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Zz;4:CHARGE;19:AQ17",
+          "_key" :   "Zz;4:CHARGE;19:AQ17",
+          "_rev" :   "_ZWdowHG---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Zz",
+               "isotope_mass" :   0,
+               "name" :   "electric_charge",
+               "atomic_mass" :   {
+                    "values" :   [
+                         0
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "4" :   "CHARGE"
+               },
+               "aggregate_state" :   {
+                    "6" :   "AS_IONEX"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         0
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         -65.3399963378906
+                    ],
+                    "name" :   "S0i"
+               },
+               "volume" :   {
+                    "values" :   [
+                         0
+                    ],
+                    "name" :   "V0i"
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         -14.4180002212524
+                    ],
+                    "name" :   "Cp0i"
+               },
+               "number" :   0,
+               "sourcetdb" :   {
+                    "19" :   "AQ17"
+               },
+               "formula" :   "Zz",
+               "substance" :   "`",
+               "comment" :   "Electrical (proton) charge",
+               "datasources" :   [
+                    "AQ17"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   1,
+                    "hour" :   17,
+                    "minute" :   22,
+                    "second" :   53
+               }
+          }
+     }
+]

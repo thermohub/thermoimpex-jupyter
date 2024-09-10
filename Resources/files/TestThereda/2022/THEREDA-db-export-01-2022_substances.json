@@ -1,0 +1,5589 @@
+[
+ {
+  "Composition": [
+   {
+    "element": "H",
+    "numberofelement": 2
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "NA",
+    "dataclass": 0,
+    "dataquality": 0,
+    "datasource": 0,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "BOK/MOO2016",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": 0
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "NA",
+    "dataclass": 0,
+    "dataquality": 0,
+    "datasource": 0,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "BOK/MOO2016",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": 0
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 5,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "BOK/MOO2016",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": 130.68
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 5,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "BOK/MOO2016",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": 28.836
+   }
+  ],
+  "DataVariable": [
+   {
+    "a": 28825.1995616,
+    "audit_status": "Audit pending",
+    "b": 91.8642761,
+    "c": -33.5589832,
+    "calcmode": "Entered",
+    "category": "F",
+    "d": 0.0061275,
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 5,
+    "datatype": "DFGT",
+    "description": null,
+    "e": -1.7e-06,
+    "editor": "Moog",
+    "f": 87473.0836728,
+    "maxpbar": 26,
+    "maxtk": 500,
+    "minpbar": 1.01325,
+    "mintk": 273.15,
+    "reference_1": "BOK/MOO2016",
+    "reference_2": null,
+    "tpfunc": "NEA-extended"
+   },
+   {
+    "a": 33.558983,
+    "audit_status": "Audit pending",
+    "b": -0.012255,
+    "c": 1e-05,
+    "calcmode": "Entered",
+    "category": "F",
+    "d": 0,
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 5,
+    "datatype": "CPT",
+    "description": null,
+    "e": 0,
+    "editor": "Moog",
+    "f": 0,
+    "maxpbar": 26,
+    "maxtk": 500,
+    "minpbar": 1.01325,
+    "mintk": 273.15,
+    "reference_1": "BOK/MOO2016",
+    "reference_2": null,
+    "tpfunc": "NEA-transformed"
+   }
+  ],
+  "Declaration": {
+   "charge": 0,
+   "description": null,
+   "editor": "Moog",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 2.01588,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "H",
+    "oxidationnumber": 0
+   }
+  ],
+  "symbol": "H2(g)"
+ },
+ {
+  "Composition": [
+   {
+    "element": "O",
+    "numberofelement": 2
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 0,
+    "dataquality": 0,
+    "datasource": 0,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "BOK/MOO2016",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": 0
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "NA",
+    "dataclass": 0,
+    "dataquality": 0,
+    "datasource": 0,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "BOK/MOO2016",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": 0
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 5,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "BOK/MOO2016",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": 205.152
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 5,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "BOK/MOO2016",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": 29.378
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 5,
+    "datatype": "LOGK298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "BOK/MOO2016",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -83.0898
+   }
+  ],
+  "DataVariable": [
+   {
+    "a": 53617.818626,
+    "audit_status": "Audit pending",
+    "b": -37.0761401,
+    "c": -24.6403988,
+    "calcmode": "Entered",
+    "category": "F",
+    "d": -0.0060509,
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 5,
+    "datatype": "DFGT",
+    "description": null,
+    "e": 0,
+    "editor": "Moog",
+    "f": -50114.9383809,
+    "maxpbar": 26,
+    "maxtk": 500,
+    "minpbar": 1.01325,
+    "mintk": 273.15,
+    "reference_1": "BOK/MOO2016",
+    "reference_2": null,
+    "tpfunc": "NEA-extended"
+   },
+   {
+    "a": 24.64,
+    "audit_status": "Audit pending",
+    "b": 0.0121,
+    "c": 0,
+    "calcmode": "Entered",
+    "category": "F",
+    "d": 0,
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 5,
+    "datatype": "CPT",
+    "description": null,
+    "e": 100230,
+    "editor": "Moog",
+    "f": 0,
+    "maxpbar": 26,
+    "maxtk": 500,
+    "minpbar": 1.01325,
+    "mintk": 273.15,
+    "reference_1": "BOK/MOO2016",
+    "reference_2": null,
+    "tpfunc": "NEA-transformed"
+   },
+   {
+    "a": 617677.2767,
+    "audit_status": "Audit pending",
+    "b": -1560.2847,
+    "c": 206.173,
+    "calcmode": "Entered",
+    "category": "F",
+    "d": -0.3252,
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 5,
+    "datatype": "DRGT",
+    "description": null,
+    "e": 0.0001,
+    "editor": "Moog",
+    "f": -931883.1854,
+    "maxpbar": 26,
+    "maxtk": 500,
+    "minpbar": 1.01325,
+    "mintk": 273.15,
+    "reference_1": "BOK/MOO2016",
+    "reference_2": null,
+    "tpfunc": "NEA-extended"
+   },
+   {
+    "a": 81.498854,
+    "audit_status": "Audit pending",
+    "b": 0.016987,
+    "c": -7e-06,
+    "calcmode": "Entered",
+    "category": "F",
+    "d": -32263.336367,
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 5,
+    "datatype": "LOGKT",
+    "description": null,
+    "e": 48675.354914,
+    "editor": "Moog",
+    "f": -10.769102,
+    "maxpbar": 26,
+    "maxtk": 500,
+    "minpbar": 1.01325,
+    "mintk": 273.15,
+    "reference_1": "BOK/MOO2016",
+    "reference_2": null,
+    "tpfunc": "NEA-transformed"
+   }
+  ],
+  "Declaration": {
+   "charge": 0,
+   "description": null,
+   "editor": "Moog",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 31.9988,
+   "originalreactionequation": null,
+   "redox": true
+  },
+  "FormingReaction": [
+   {
+    "coefficient": 2,
+    "pcon_reactant": "H2(g)"
+   },
+   {
+    "coefficient": -2,
+    "pcon_reactant": "H2O(l)"
+   },
+   {
+    "coefficient": 1,
+    "pcon_reactant": "O2(g)"
+   }
+  ],
+  "OxidationState": [
+   {
+    "centralelement": "O",
+    "oxidationnumber": 0
+   }
+  ],
+  "symbol": "O2(g)"
+ },
+ {
+  "Composition": [
+   {
+    "element": "C",
+    "numberofelement": 1
+   },
+   {
+    "element": "EA",
+    "numberofelement": 2
+   },
+   {
+    "element": "O",
+    "numberofelement": 3
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": 390,
+    "value": -527899.7738
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": null,
+    "uncertainty": 250,
+    "value": -675230
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": null,
+    "uncertainty": 1,
+    "value": -50
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": -2,
+   "description": null,
+   "editor": "Freyer",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 60.01,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "C",
+    "oxidationnumber": 4
+   }
+  ],
+  "symbol": "CO3<2->"
+ },
+ {
+  "Composition": [
+   {
+    "element": "Ca",
+    "numberofelement": 1
+   },
+   {
+    "element": "EA",
+    "numberofelement": -2
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -552806.1535
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": null,
+    "uncertainty": 1000,
+    "value": -543000
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": null,
+    "uncertainty": 1,
+    "value": -56.2
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": 2,
+   "description": null,
+   "editor": "Freyer",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 40.077,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "Ca",
+    "oxidationnumber": 2
+   }
+  ],
+  "symbol": "Ca<2+>"
+ },
+ {
+  "Composition": [
+   {
+    "element": "Cl",
+    "numberofelement": 1
+   },
+   {
+    "element": "EA",
+    "numberofelement": 1
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -131218.368925
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": null,
+    "uncertainty": 100,
+    "value": -167080
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": null,
+    "uncertainty": 0.2,
+    "value": 56.6
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": -1,
+   "description": null,
+   "editor": "Freyer",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 35.454,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "Cl",
+    "oxidationnumber": -1
+   }
+  ],
+  "symbol": "Cl<->"
+ },
+ {
+  "Composition": [
+   {
+    "element": "Cm",
+    "numberofelement": 1
+   },
+   {
+    "element": "EA",
+    "numberofelement": -3
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 3,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": 6300,
+    "value": -595936.289
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "FUG/OET1976",
+    "reference_2": null,
+    "uncertainty": 5000,
+    "value": -615000
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 3,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "FUG/OET1976",
+    "reference_2": null,
+    "uncertainty": 13,
+    "value": -188
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": 3,
+   "description": null,
+   "editor": "Marquardt",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 247.0688,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "Cm",
+    "oxidationnumber": 3
+   }
+  ],
+  "symbol": "Cm<3+>"
+ },
+ {
+  "Composition": [
+   {
+    "element": "Cs",
+    "numberofelement": 1
+   },
+   {
+    "element": "EA",
+    "numberofelement": -1
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -291455.4115
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "GRE/FUG1992",
+    "reference_2": null,
+    "uncertainty": 500,
+    "value": -258000
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "GRE/FUG1992",
+    "reference_2": null,
+    "uncertainty": 0.5,
+    "value": 132.1
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": 1,
+   "description": null,
+   "editor": "Scharge",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 132.9049033,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "Cs",
+    "oxidationnumber": 1
+   }
+  ],
+  "symbol": "Cs<+>"
+ },
+ {
+  "Composition": [
+   {
+    "element": "EA",
+    "numberofelement": -2
+   },
+   {
+    "element": "Fe",
+    "numberofelement": 1
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFG298",
+    "description": "original value for DFG298 = -90500",
+    "editor": "Moog",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -90719.5656
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "LEM/BER2013",
+    "reference_2": null,
+    "uncertainty": 522,
+    "value": -90295
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "LEM/BER2013",
+    "reference_2": null,
+    "uncertainty": 2.78,
+    "value": -102.171
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 2,
+    "datasource": 1,
+    "datatype": "CP298",
+    "description": "Calculated with CP298(HClO4(aq), T=298.15K) = – 26.3 J·K–1·mol–1",
+    "editor": "Moog",
+    "reference_1": "LEM/BER2013",
+    "reference_2": null,
+    "uncertainty": 10,
+    "value": -23
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": 2,
+   "description": null,
+   "editor": "Moog",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 55.844,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "Fe",
+    "oxidationnumber": 2
+   }
+  ],
+  "symbol": "Fe<2+>"
+ },
+ {
+  "Composition": [
+   {
+    "element": "H",
+    "numberofelement": 2
+   },
+   {
+    "element": "O",
+    "numberofelement": 1
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 5,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "BOK/MOO2016",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -237140
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 5,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "BOK/MOO2016",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -285830
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 5,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "BOK/MOO2016",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": 69.95
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 5,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "BOK/MOO2016",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": 75.35
+   }
+  ],
+  "DataVariable": [
+   {
+    "a": -253204.5294584,
+    "audit_status": "Audit pending",
+    "b": 853.4685584,
+    "c": -148.9656921,
+    "calcmode": "Entered",
+    "category": "F",
+    "d": 0.1657129,
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 5,
+    "datatype": "DFGT",
+    "description": null,
+    "e": -6.97e-05,
+    "editor": "Moog",
+    "f": 528357.2071732,
+    "maxpbar": 26,
+    "maxtk": 500,
+    "minpbar": 1.01325,
+    "mintk": 273.15,
+    "reference_1": "BOK/MOO2016",
+    "reference_2": null,
+    "tpfunc": "NEA-extended"
+   },
+   {
+    "a": 148.96569,
+    "audit_status": "Audit pending",
+    "b": -0.33143,
+    "c": 0.00042,
+    "calcmode": "Entered",
+    "category": "F",
+    "d": 0,
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 5,
+    "datatype": "CPT",
+    "description": null,
+    "e": -1056714.41435,
+    "editor": "Moog",
+    "f": 0,
+    "maxpbar": 26,
+    "maxtk": 500,
+    "minpbar": 1.01325,
+    "mintk": 273.15,
+    "reference_1": "BOK/MOO2016",
+    "reference_2": null,
+    "tpfunc": "NEA-transformed"
+   }
+  ],
+  "Declaration": {
+   "charge": 0,
+   "description": null,
+   "editor": "Moog",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 18.0153,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "O",
+    "oxidationnumber": -2
+   }
+  ],
+  "symbol": "H2O(l)"
+ },
+ {
+  "Composition": [
+   {
+    "element": "EA",
+    "numberofelement": -1
+   },
+   {
+    "element": "H",
+    "numberofelement": 1
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "NA",
+    "dataclass": 0,
+    "dataquality": 0,
+    "datasource": 0,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": "COX/WAG1989",
+    "uncertainty": null,
+    "value": 0
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "NA",
+    "dataclass": 0,
+    "dataquality": 0,
+    "datasource": 0,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": "COX/WAG1989",
+    "uncertainty": null,
+    "value": 0
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "NA",
+    "dataclass": 0,
+    "dataquality": 0,
+    "datasource": 0,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": "COX/WAG1989",
+    "uncertainty": null,
+    "value": 0
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "NA",
+    "dataclass": 0,
+    "dataquality": 0,
+    "datasource": 0,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": "COX/WAG1989",
+    "uncertainty": null,
+    "value": 0
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": 1,
+   "description": null,
+   "editor": "Freyer",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 1.00739,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "H",
+    "oxidationnumber": 1
+   }
+  ],
+  "symbol": "H<+>"
+ },
+ {
+  "Composition": [
+   {
+    "element": "EA",
+    "numberofelement": 1
+   },
+   {
+    "element": "I",
+    "numberofelement": 1
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": 112,
+    "value": -51723.376
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": "COX/WAG1989",
+    "uncertainty": 50,
+    "value": -56780
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": "COX/WAG1989",
+    "uncertainty": 0.3,
+    "value": 106.45
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": -1,
+   "description": null,
+   "editor": "Scharge",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 126.90502,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "I",
+    "oxidationnumber": -1
+   }
+  ],
+  "symbol": "I<->"
+ },
+ {
+  "Composition": [
+   {
+    "element": "EA",
+    "numberofelement": -1
+   },
+   {
+    "element": "K",
+    "numberofelement": 1
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -282509.559
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": null,
+    "uncertainty": 80,
+    "value": -252140
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": null,
+    "uncertainty": 0.2,
+    "value": 101.2
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": 1,
+   "description": null,
+   "editor": "Freyer",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 39.0978,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "K",
+    "oxidationnumber": 1
+   }
+  ],
+  "symbol": "K<+>"
+ },
+ {
+  "Composition": [
+   {
+    "element": "EA",
+    "numberofelement": -2
+   },
+   {
+    "element": "Mg",
+    "numberofelement": 1
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -455375.1315
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": null,
+    "uncertainty": 600,
+    "value": -467000
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": null,
+    "uncertainty": 4,
+    "value": -137
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": 2,
+   "description": null,
+   "editor": "Freyer",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 24.304,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "Mg",
+    "oxidationnumber": 2
+   }
+  ],
+  "symbol": "Mg<2+>"
+ },
+ {
+  "Composition": [
+   {
+    "element": "EA",
+    "numberofelement": -1
+   },
+   {
+    "element": "Na",
+    "numberofelement": 1
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -261952.8935
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": null,
+    "uncertainty": 60,
+    "value": -240340
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": null,
+    "uncertainty": 0.15,
+    "value": 58.45
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": 1,
+   "description": null,
+   "editor": "Freyer",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 22.9892207,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "Na",
+    "oxidationnumber": 1
+   }
+  ],
+  "symbol": "Na<+>"
+ },
+ {
+  "Composition": [
+   {
+    "element": "EA",
+    "numberofelement": -1
+   },
+   {
+    "element": "H",
+    "numberofelement": 4
+   },
+   {
+    "element": "Nb",
+    "numberofelement": 1
+   },
+   {
+    "element": "O",
+    "numberofelement": 4
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -1196013.3994
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "DFH298",
+    "description": "Derived from solubility data with Nb2O5(cr), marked as supplemental in PSI database",
+    "editor": "Moog",
+    "reference_1": "THO2021",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -1375000
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "S298",
+    "description": "Derived from solubility data with Nb2O5(cr), marked as supplemental in PSI database",
+    "editor": "Moog",
+    "reference_1": "THO2021",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": 42.4
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "F",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "NotYetDetermined",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "NotYetDetermined",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [
+   {
+    "a": null,
+    "audit_status": "Audit pending",
+    "b": null,
+    "c": null,
+    "calcmode": "NotYetDetermined",
+    "category": "F",
+    "d": null,
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "DFGT",
+    "description": null,
+    "e": null,
+    "editor": "Moog",
+    "f": null,
+    "maxpbar": 1.01325,
+    "maxtk": 298.15,
+    "minpbar": 1.01325,
+    "mintk": 298.15,
+    "reference_1": "NotYetDetermined",
+    "reference_2": null,
+    "tpfunc": "NEA-extended"
+   },
+   {
+    "a": null,
+    "audit_status": "Audit pending",
+    "b": null,
+    "c": null,
+    "calcmode": "NotYetDetermined",
+    "category": "F",
+    "d": null,
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CPT",
+    "description": null,
+    "e": null,
+    "editor": "Moog",
+    "f": null,
+    "maxpbar": 1.01325,
+    "maxtk": 298.15,
+    "minpbar": 1.01325,
+    "mintk": 298.15,
+    "reference_1": "NotYetDetermined",
+    "reference_2": null,
+    "tpfunc": "NotYetDetermined"
+   }
+  ],
+  "Declaration": {
+   "charge": 1,
+   "description": null,
+   "editor": "Moog",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 160.9352,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "Nb",
+    "oxidationnumber": 5
+   }
+  ],
+  "symbol": "Nb(OH)4<+>"
+ },
+ {
+  "Composition": [
+   {
+    "element": "EA",
+    "numberofelement": -3
+   },
+   {
+    "element": "Nd",
+    "numberofelement": 1
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Revision required",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFG298",
+    "description": "DFG298 in the NBS table from WAG/EVA1982 is: 671.6 kJ/mol",
+    "editor": "Marquardt",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -671698.033
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "WAG/EVA1982",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -696200
+   },
+   {
+    "audit_status": "Revision required",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "WAG/EVA1982",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -206.7
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": 3,
+   "description": null,
+   "editor": "Marquardt",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 144.24,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "Nd",
+    "oxidationnumber": 3
+   }
+  ],
+  "symbol": "Nd<3+>"
+ },
+ {
+  "Composition": [
+   {
+    "element": "EA",
+    "numberofelement": -2
+   },
+   {
+    "element": "Ni",
+    "numberofelement": 1
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "GAM/BUG2005",
+    "reference_2": null,
+    "uncertainty": 771,
+    "value": -45773
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "R",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": 878,
+    "value": -55012.6685
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "GAM/BUG2005",
+    "reference_2": null,
+    "uncertainty": 1.4,
+    "value": -131.8
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": 2,
+   "description": null,
+   "editor": "Moog",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 58.6923,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "Ni",
+    "oxidationnumber": 2
+   }
+  ],
+  "symbol": "Ni<2+>"
+ },
+ {
+  "Composition": [
+   {
+    "element": "EA",
+    "numberofelement": -4
+   },
+   {
+    "element": "Np",
+    "numberofelement": 1
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": 5586,
+    "value": -491773.6565
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": null,
+    "uncertainty": 4185,
+    "value": -556022
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": null,
+    "uncertainty": 12.386,
+    "value": -426.39
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": 4,
+   "description": null,
+   "editor": "Marquardt",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 237.046,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "Np",
+    "oxidationnumber": 4
+   }
+  ],
+  "symbol": "Np<4+>"
+ },
+ {
+  "Composition": [
+   {
+    "element": "EA",
+    "numberofelement": 3
+   },
+   {
+    "element": "O",
+    "numberofelement": 4
+   },
+   {
+    "element": "P",
+    "numberofelement": 1
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFG298",
+    "description": "NEA-TDB:HPO4<2-> Masterspecies and PO4<2-> calculated from logK",
+    "editor": "Scharge",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": 1576,
+    "value": -1025491.3104
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFH298",
+    "description": "NEA-TDB:HPO4<2-> Masterspecies and PO4<2-> calculated from reaction data",
+    "editor": "Scharge",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": null,
+    "uncertainty": 4085,
+    "value": -1284400
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "S298",
+    "description": "NEA-TDB:HPO4<2-> Masterspecies and PO4<2-> calculated from reaction data",
+    "editor": "Scharge",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": null,
+    "uncertainty": 12.846,
+    "value": -220.97
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": -3,
+   "description": null,
+   "editor": "Scharge",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 94.973,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "P",
+    "oxidationnumber": 5
+   }
+  ],
+  "symbol": "PO4<3->"
+ },
+ {
+  "Composition": [
+   {
+    "element": "EA",
+    "numberofelement": -4
+   },
+   {
+    "element": "Pa",
+    "numberofelement": 1
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 3,
+    "dataquality": 2,
+    "datasource": 1,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": 18050,
+    "value": -563784.949
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 2,
+    "datasource": 1,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "FUG/OET1976",
+    "reference_2": null,
+    "uncertainty": 13000,
+    "value": -619700
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 3,
+    "dataquality": 2,
+    "datasource": 1,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "FUG/OET1976",
+    "reference_2": null,
+    "uncertainty": 42,
+    "value": -397
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": 4,
+   "description": null,
+   "editor": "Marquardt",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 231.0337,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "Pa",
+    "oxidationnumber": 4
+   }
+  ],
+  "symbol": "Pa<4+>"
+ },
+ {
+  "Composition": [
+   {
+    "element": "EA",
+    "numberofelement": -2
+   },
+   {
+    "element": "Pb",
+    "numberofelement": 1
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -24237.897
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "LEM/BER2013",
+    "reference_2": null,
+    "uncertainty": 250,
+    "value": 920
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "LEM/BER2013",
+    "reference_2": null,
+    "uncertainty": 1,
+    "value": 18.5
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "F",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "NotYetDetermined",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "NotYetDetermined",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [
+   {
+    "a": null,
+    "audit_status": "Audit pending",
+    "b": null,
+    "c": null,
+    "calcmode": "NotYetDetermined",
+    "category": "F",
+    "d": null,
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "DFGT",
+    "description": null,
+    "e": null,
+    "editor": "Moog",
+    "f": null,
+    "maxpbar": 1.01325,
+    "maxtk": 298.15,
+    "minpbar": 1.01325,
+    "mintk": 298.15,
+    "reference_1": "NotYetDetermined",
+    "reference_2": null,
+    "tpfunc": "NEA-extended"
+   },
+   {
+    "a": null,
+    "audit_status": "Audit pending",
+    "b": null,
+    "c": null,
+    "calcmode": "NotYetDetermined",
+    "category": "F",
+    "d": null,
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CPT",
+    "description": null,
+    "e": null,
+    "editor": "Moog",
+    "f": null,
+    "maxpbar": 1.01325,
+    "maxtk": 298.15,
+    "minpbar": 1.01325,
+    "mintk": 298.15,
+    "reference_1": "NotYetDetermined",
+    "reference_2": null,
+    "tpfunc": "NotYetDetermined"
+   }
+  ],
+  "Declaration": {
+   "charge": 2,
+   "description": null,
+   "editor": "Moog",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 207.2,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "Pb",
+    "oxidationnumber": 2
+   }
+  ],
+  "symbol": "Pb<2+>"
+ },
+ {
+  "Composition": [
+   {
+    "element": "EA",
+    "numberofelement": -4
+   },
+   {
+    "element": "Pu",
+    "numberofelement": 1
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": null,
+    "uncertainty": 2705,
+    "value": -477988
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": null,
+    "uncertainty": 3103,
+    "value": -539895
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": 10.192,
+    "value": -414.53709542176756
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": 4,
+   "description": null,
+   "editor": "Marquardt",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 244.0606,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "Pu",
+    "oxidationnumber": 4
+   }
+  ],
+  "symbol": "Pu<4+>"
+ },
+ {
+  "Composition": [
+   {
+    "element": "EA",
+    "numberofelement": -2
+   },
+   {
+    "element": "Ra",
+    "numberofelement": 1
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -561493.692
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "WAG/EVA1982",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -527600
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "WAG/EVA1982",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": 54
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "F",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "NotYetDetermined",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "NotYetDetermined",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [
+   {
+    "a": null,
+    "audit_status": "Audit pending",
+    "b": null,
+    "c": null,
+    "calcmode": "NotYetDetermined",
+    "category": "F",
+    "d": null,
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "DFGT",
+    "description": null,
+    "e": null,
+    "editor": "Moog",
+    "f": null,
+    "maxpbar": 1.01325,
+    "maxtk": 298.15,
+    "minpbar": 1.01325,
+    "mintk": 298.15,
+    "reference_1": "NotYetDetermined",
+    "reference_2": null,
+    "tpfunc": "NEA-extended"
+   },
+   {
+    "a": null,
+    "audit_status": "Audit pending",
+    "b": null,
+    "c": null,
+    "calcmode": "NotYetDetermined",
+    "category": "F",
+    "d": null,
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CPT",
+    "description": null,
+    "e": null,
+    "editor": "Moog",
+    "f": null,
+    "maxpbar": 1.01325,
+    "maxtk": 298.15,
+    "minpbar": 1.01325,
+    "mintk": 298.15,
+    "reference_1": "NotYetDetermined",
+    "reference_2": null,
+    "tpfunc": "NotYetDetermined"
+   }
+  ],
+  "Declaration": {
+   "charge": 2,
+   "description": null,
+   "editor": "Moog",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 226.0243,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "Ra",
+    "oxidationnumber": 2
+   }
+  ],
+  "symbol": "Ra<2+>"
+ },
+ {
+  "Composition": [
+   {
+    "element": "EA",
+    "numberofelement": -1
+   },
+   {
+    "element": "Rb",
+    "numberofelement": 1
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -284008.9265
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "GRE/FUG1992",
+    "reference_2": null,
+    "uncertainty": 0.1,
+    "value": -251120
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "GRE/FUG1992",
+    "reference_2": null,
+    "uncertainty": 0.25,
+    "value": 121.75
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": 1,
+   "description": null,
+   "editor": "Scharge",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 85.4673,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "Rb",
+    "oxidationnumber": 1
+   }
+  ],
+  "symbol": "Rb<+>"
+ },
+ {
+  "Composition": [
+   {
+    "element": "EA",
+    "numberofelement": 2
+   },
+   {
+    "element": "O",
+    "numberofelement": 4
+   },
+   {
+    "element": "S",
+    "numberofelement": 1
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": 418,
+    "value": -744004.4953
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": "COX/WAG1989",
+    "uncertainty": 400,
+    "value": -909340
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": "COX/WAG1989",
+    "uncertainty": 0.4,
+    "value": 18.5
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Freyer",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": -2,
+   "description": null,
+   "editor": "Freyer",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 96.064,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "S",
+    "oxidationnumber": 6
+   }
+  ],
+  "symbol": "SO4<2->"
+ },
+ {
+  "Composition": [
+   {
+    "element": "EA",
+    "numberofelement": 2
+   },
+   {
+    "element": "O",
+    "numberofelement": 4
+   },
+   {
+    "element": "Se",
+    "numberofelement": 1
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Bok",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -439485.00165
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Bok",
+    "reference_1": "OLI/NOL2005",
+    "reference_2": "BOK2020",
+    "uncertainty": 3500,
+    "value": -603500
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Bok",
+    "reference_1": "OLI/NOL2005",
+    "reference_2": "BOK2020",
+    "uncertainty": 12.69,
+    "value": 32.965
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Bok",
+    "reference_1": "NotYetDetermined",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Bok",
+    "reference_1": "NotYetDetermined",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": -2,
+   "description": null,
+   "editor": "Bok",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 142.96,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "Se",
+    "oxidationnumber": 6
+   }
+  ],
+  "symbol": "SeO4<2->"
+ },
+ {
+  "Composition": [
+   {
+    "element": "H",
+    "numberofelement": 4
+   },
+   {
+    "element": "O",
+    "numberofelement": 4
+   },
+   {
+    "element": "Si",
+    "numberofelement": 1
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFG298",
+    "description": "Thermodynamic data for aqueous Si(OH)4<0> calculated from the formation reaction data for alpha-quartz after [GUN/ARN2000].",
+    "editor": "Wissmeier",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": 1156,
+    "value": -1309183.385335
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFH298",
+    "description": "Thermodynamic data for aqueous Si(OH)4<0> calculated from the formation reaction data for alpha-quartz after [GUN/ARN2000].",
+    "editor": "Wissmeier",
+    "reference_1": "GUN/ARN2000",
+    "reference_2": null,
+    "uncertainty": 1416.47,
+    "value": -1461723.2163
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "S298",
+    "description": "Thermodynamic data for aqueous Si(OH)4<0> calculated from the formation reaction data for alpha-quartz after [GUN/ARN2000], see [AF-2013], Table 1-5, p. 23.",
+    "editor": "Wissmeier",
+    "reference_1": "GUN/ARN2000",
+    "reference_2": "WIL2013",
+    "uncertainty": 3.87,
+    "value": 178.8529
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 3,
+    "dataquality": 2,
+    "datasource": 2,
+    "datatype": "CP298",
+    "description": "with DRCp = 0",
+    "editor": "Wissmeier",
+    "reference_1": "HUM/BER2002",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": 195.204
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Wissmeier",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": 0,
+   "description": null,
+   "editor": "Wissmeier",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 96.1149,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "Si",
+    "oxidationnumber": 4
+   }
+  ],
+  "symbol": "Si(OH)4<0>"
+ },
+ {
+  "Composition": [
+   {
+    "element": "EA",
+    "numberofelement": -3
+   },
+   {
+    "element": "Sm",
+    "numberofelement": 1
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -666179.731
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "WAG/EVA1982",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -691600
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "WAG/EVA1982",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -211.7
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": 3,
+   "description": null,
+   "editor": "Marquardt",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 150.36,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "Sm",
+    "oxidationnumber": 3
+   }
+  ],
+  "symbol": "Sm<3+>"
+ },
+ {
+  "Composition": [
+   {
+    "element": "EA",
+    "numberofelement": -2
+   },
+   {
+    "element": "Sr",
+    "numberofelement": 1
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -563863.562
+   },
+   {
+    "audit_status": "Auditor assigned",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "GRE/FUG1992",
+    "reference_2": "BUS/PLU1984",
+    "uncertainty": 500,
+    "value": -550900
+   },
+   {
+    "audit_status": "Auditor assigned",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "GRE/FUG1992",
+    "reference_2": "BUS/PLU1984",
+    "uncertainty": 2,
+    "value": -31.5
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": 2,
+   "description": null,
+   "editor": "Scharge",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 87.62,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "Sr",
+    "oxidationnumber": 2
+   }
+  ],
+  "symbol": "Sr<2+>"
+ },
+ {
+  "Composition": [
+   {
+    "element": "EA",
+    "numberofelement": 1
+   },
+   {
+    "element": "O",
+    "numberofelement": 4
+   },
+   {
+    "element": "Tc",
+    "numberofelement": 1
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": 7.616,
+    "value": -637405.8175
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": null,
+    "uncertainty": 7600,
+    "value": -729400
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": null,
+    "uncertainty": 1.5,
+    "value": 199.6
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": null,
+    "uncertainty": 8,
+    "value": -15
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": -1,
+   "description": null,
+   "editor": "Marquardt",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 162.9044,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "Tc",
+    "oxidationnumber": 7
+   }
+  ],
+  "symbol": "TcO4<->"
+ },
+ {
+  "Composition": [
+   {
+    "element": "EA",
+    "numberofelement": -4
+   },
+   {
+    "element": "Th",
+    "numberofelement": 1
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": 5298,
+    "value": -704782.603
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "RAN/FUG2008",
+    "reference_2": null,
+    "uncertainty": 2300,
+    "value": -768700
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "RAN/FUG2008",
+    "reference_2": null,
+    "uncertainty": 16,
+    "value": -423.1
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "RAN/FUG2008",
+    "reference_2": null,
+    "uncertainty": 15,
+    "value": -224
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": "Value not yet determined!",
+    "editor": "Marquardt",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": 4,
+   "description": null,
+   "editor": "Marquardt",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 232.03587,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "Th",
+    "oxidationnumber": 4
+   }
+  ],
+  "symbol": "Th<4+>"
+ },
+ {
+  "Composition": [
+   {
+    "element": "EA",
+    "numberofelement": -2
+   },
+   {
+    "element": "O",
+    "numberofelement": 2
+   },
+   {
+    "element": "U",
+    "numberofelement": 1
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Richter",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": 1747,
+    "value": -952550.7132
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Richter",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": "GRE/FUG1992",
+    "uncertainty": 1500,
+    "value": -1019000
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Richter",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": "GRE/FUG1992",
+    "uncertainty": 3,
+    "value": -98.2
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Richter",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": "GRE/FUG1992",
+    "uncertainty": 3,
+    "value": 42.4
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Richter",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": 2,
+   "description": null,
+   "editor": "Richter",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 270.0266,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "U",
+    "oxidationnumber": 6
+   }
+  ],
+  "symbol": "UO2<2+>"
+ },
+ {
+  "Composition": [
+   {
+    "element": "As",
+    "numberofelement": 1
+   },
+   {
+    "element": "EA",
+    "numberofelement": 3
+   },
+   {
+    "element": "O",
+    "numberofelement": 4
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": 4008,
+    "value": -648360.6144
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": null,
+    "uncertainty": 4000,
+    "value": -888140
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": null,
+    "uncertainty": 0.6,
+    "value": -162.8
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Scharge",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": -3,
+   "description": null,
+   "editor": "Scharge",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 138.9208,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "As",
+    "oxidationnumber": 5
+   }
+  ],
+  "symbol": "AsO4<3->"
+ },
+ {
+  "Composition": [
+   {
+    "element": "Am",
+    "numberofelement": 1
+   },
+   {
+    "element": "EA",
+    "numberofelement": -3
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": 4755,
+    "value": -598697.703
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": "FUG/SPI1972",
+    "uncertainty": 1500,
+    "value": -616700
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": null,
+    "uncertainty": 15,
+    "value": -201
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": 3,
+   "description": null,
+   "editor": "Marquardt",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 243.0598,
+   "originalreactionequation": null,
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "Am",
+    "oxidationnumber": 3
+   }
+  ],
+  "symbol": "Am<3+>"
+ },
+ {
+  "Composition": [
+   {
+    "element": "Al",
+    "numberofelement": 1
+   },
+   {
+    "element": "EA",
+    "numberofelement": 1
+   },
+   {
+    "element": "H",
+    "numberofelement": 4
+   },
+   {
+    "element": "O",
+    "numberofelement": 4
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 2,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Wissmeier",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -1305708.60805
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 2,
+    "datatype": "DFH298",
+    "description": "Recalculated from temperature function in [HUM/BER2002]. See [AF-2013], Table 1-23, and p. 53-54",
+    "editor": "Wissmeier",
+    "reference_1": "HUM/BER2002",
+    "reference_2": "WIL2013",
+    "uncertainty": null,
+    "value": -1500845.696
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 2,
+    "datatype": "S298",
+    "description": "Recalculated from temperature function in [HUM/BER2002]. See [AF-2013], Table 1-23, and p. 53-54",
+    "editor": "Wissmeier",
+    "reference_1": "HUM/BER2002",
+    "reference_2": "WIL2013",
+    "uncertainty": null,
+    "value": 110.811
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 2,
+    "datatype": "CP298",
+    "description": "Recalculated from temperature function in [HUM/BER2002]. See [AF-2013], Table 1-23, and p. 53-54.",
+    "editor": "Wissmeier",
+    "reference_1": "HUM/BER2002",
+    "reference_2": "WIL2013",
+    "uncertainty": null,
+    "value": 111.013
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Wissmeier",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": -1,
+   "description": "Recalculated from data in [HUM/BER2002]",
+   "editor": "Wissmeier",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 95.0114,
+   "originalreactionequation": "Al<3+> + 2 H2O(l) = Al(OH)4<-> + 4 H<+>",
+   "redox": false
+  },
+  "FormingReaction": [],
+  "OxidationState": [
+   {
+    "centralelement": "Al",
+    "oxidationnumber": 3
+   }
+  ],
+  "symbol": "Al(OH)4<->"
+ },
+ {
+  "Composition": [
+   {
+    "element": "EA",
+    "numberofelement": -1
+   },
+   {
+    "element": "Np",
+    "numberofelement": 1
+   },
+   {
+    "element": "O",
+    "numberofelement": 2
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 2,
+    "datasource": 1,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": 5628,
+    "value": -907765.1256
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": "LEM/FUG2001",
+    "uncertainty": 4629,
+    "value": -978181
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 2,
+    "datasource": 1,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": "LEM/FUG2001",
+    "uncertainty": 10.71,
+    "value": -45.904
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": "LEM/FUG2001",
+    "uncertainty": 25,
+    "value": -4
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "DRCP298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHR",
+    "category": "R",
+    "dataclass": 1,
+    "dataquality": 2,
+    "datasource": 5,
+    "datatype": "DRG298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": 58289.1631
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 5,
+    "datatype": "DRH298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": 149501
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CF",
+    "category": "R",
+    "dataclass": 1,
+    "dataquality": 2,
+    "datasource": 5,
+    "datatype": "LOGK298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": 0.12,
+    "value": -10.2117613683048
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 2,
+    "datasource": 5,
+    "datatype": "DRS298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": 305.926
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": 1,
+   "description": null,
+   "editor": "Marquardt",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 269.0465,
+   "originalreactionequation": null,
+   "redox": true
+  },
+  "FormingReaction": [
+   {
+    "coefficient": 0.5,
+    "pcon_reactant": "H2(g)"
+   },
+   {
+    "coefficient": -2,
+    "pcon_reactant": "H2O(l)"
+   },
+   {
+    "coefficient": 3,
+    "pcon_reactant": "H<+>"
+   },
+   {
+    "coefficient": -1,
+    "pcon_reactant": "Np<4+>"
+   },
+   {
+    "coefficient": 1,
+    "pcon_reactant": "NpO2<+>"
+   }
+  ],
+  "OxidationState": [
+   {
+    "centralelement": "Np",
+    "oxidationnumber": 5
+   }
+  ],
+  "symbol": "NpO2<+>"
+ },
+ {
+  "Composition": [
+   {
+    "element": "EA",
+    "numberofelement": -2
+   },
+   {
+    "element": "H",
+    "numberofelement": 1
+   },
+   {
+    "element": "O",
+    "numberofelement": 2
+   },
+   {
+    "element": "Pa",
+    "numberofelement": 1
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CRLOGK",
+    "category": "R",
+    "dataclass": 3,
+    "dataquality": 2,
+    "datasource": 5,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": 21000,
+    "value": -1059258.9090608
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 3,
+    "dataquality": 2,
+    "datasource": 5,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": 21000,
+    "value": -1122678.9918608
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 3,
+    "dataquality": 2,
+    "datasource": 1,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "FUG/OET1976",
+    "reference_2": null,
+    "uncertainty": 21,
+    "value": -21
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "DRH298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CRLOGK",
+    "category": "R",
+    "dataclass": 1,
+    "dataquality": 2,
+    "datasource": 1,
+    "datatype": "DRG298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -21193.934570473
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "DRS298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "DRCP298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 1,
+    "dataquality": 2,
+    "datasource": 1,
+    "datatype": "LOGK298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "FUG/OET1976",
+    "reference_2": "FUG/BRO1975",
+    "uncertainty": 1.7,
+    "value": 3.713
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": 2,
+   "description": null,
+   "editor": "Marquardt",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 264.0415,
+   "originalreactionequation": null,
+   "redox": true
+  },
+  "FormingReaction": [
+   {
+    "coefficient": 0.5,
+    "pcon_reactant": "H2(g)"
+   },
+   {
+    "coefficient": -2,
+    "pcon_reactant": "H2O(l)"
+   },
+   {
+    "coefficient": 2,
+    "pcon_reactant": "H<+>"
+   },
+   {
+    "coefficient": -1,
+    "pcon_reactant": "Pa<4+>"
+   },
+   {
+    "coefficient": 1,
+    "pcon_reactant": "PaO(OH)<2+>"
+   }
+  ],
+  "OxidationState": [
+   {
+    "centralelement": "Pa",
+    "oxidationnumber": 5
+   }
+  ],
+  "symbol": "PaO(OH)<2+>"
+ },
+ {
+  "Composition": [
+   {
+    "element": "EA",
+    "numberofelement": 2
+   },
+   {
+    "element": "O",
+    "numberofelement": 3
+   },
+   {
+    "element": "Se",
+    "numberofelement": 1
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Bok",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -362392.37305
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Bok",
+    "reference_1": "OLI/NOL2005",
+    "reference_2": null,
+    "uncertainty": 1130,
+    "value": -507160
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Bok",
+    "reference_1": "OLI/NOL2005",
+    "reference_2": null,
+    "uncertainty": 7.01,
+    "value": -5.055
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Bok",
+    "reference_1": "NotYetDetermined",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 5,
+    "datatype": "DRH298",
+    "description": null,
+    "editor": "Bok",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -189490
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "DRCP298",
+    "description": null,
+    "editor": "Bok",
+    "reference_1": "NotYetDetermined",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 5,
+    "datatype": "LOGK298",
+    "description": null,
+    "editor": "Bok",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": 28.0389819544179
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Bok",
+    "reference_1": "NotYetDetermined",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 5,
+    "datatype": "DRS298",
+    "description": null,
+    "editor": "Bok",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -98.75
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHR",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 5,
+    "datatype": "DRG298",
+    "description": null,
+    "editor": "Bok",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -160047.6875
+   }
+  ],
+  "DataVariable": [
+   {
+    "a": null,
+    "audit_status": "Audit pending",
+    "b": null,
+    "c": null,
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "d": null,
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CPT",
+    "description": null,
+    "e": null,
+    "editor": "Bok",
+    "f": null,
+    "maxpbar": 1.01325,
+    "maxtk": 298.15,
+    "minpbar": 1.01325,
+    "mintk": 298.15,
+    "reference_1": "NotYetDetermined",
+    "reference_2": null,
+    "tpfunc": "NotYetDetermined"
+   },
+   {
+    "a": -5.1580405926442,
+    "audit_status": "Audit pending",
+    "b": 0,
+    "c": 0,
+    "calcmode": "CXTERMEXTRAP",
+    "category": "R",
+    "d": 9897.69227240657,
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "LOGKT",
+    "description": null,
+    "e": 0,
+    "editor": "Bok",
+    "f": 0,
+    "maxpbar": 1.01325,
+    "maxtk": 298.15,
+    "minpbar": 1.01325,
+    "mintk": 298.15,
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "tpfunc": "NEA-transformed"
+   },
+   {
+    "a": -391835.00165,
+    "audit_status": "Audit pending",
+    "b": 98.75,
+    "c": 0,
+    "calcmode": "CTPFUNC",
+    "category": "F",
+    "d": 0,
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "DFGT",
+    "description": null,
+    "e": 0,
+    "editor": "Bok",
+    "f": 0,
+    "maxpbar": 1.01325,
+    "maxtk": 298.15,
+    "minpbar": 1.01325,
+    "mintk": 298.15,
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "tpfunc": "NEA-extended"
+   },
+   {
+    "a": -189490,
+    "audit_status": "Audit pending",
+    "b": 98.75,
+    "c": 0,
+    "calcmode": "CTPFUNC",
+    "category": "F",
+    "d": 0,
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "DRGT",
+    "description": null,
+    "e": 0,
+    "editor": "Bok",
+    "f": 0,
+    "maxpbar": 1.01325,
+    "maxtk": 298.15,
+    "minpbar": 1.01325,
+    "mintk": 298.15,
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "tpfunc": "NEA-extended"
+   }
+  ],
+  "Declaration": {
+   "charge": -2,
+   "description": null,
+   "editor": "Bok",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 126.96,
+   "originalreactionequation": "H2O(l) + H2SeO3(aq) <==> HSeO4<-> + 3 H<+> + 2 EA<->",
+   "redox": true
+  },
+  "FormingReaction": [
+   {
+    "coefficient": -1,
+    "pcon_reactant": "H2(g)"
+   },
+   {
+    "coefficient": 1,
+    "pcon_reactant": "H2O(l)"
+   },
+   {
+    "coefficient": 1,
+    "pcon_reactant": "SeO3<2->"
+   },
+   {
+    "coefficient": -1,
+    "pcon_reactant": "SeO4<2->"
+   }
+  ],
+  "OxidationState": [
+   {
+    "centralelement": "Se",
+    "oxidationnumber": 4
+   }
+  ],
+  "symbol": "SeO3<2->"
+ },
+ {
+  "Composition": [
+   {
+    "element": "H",
+    "numberofelement": 2
+   },
+   {
+    "element": "O",
+    "numberofelement": 3
+   },
+   {
+    "element": "Tc",
+    "numberofelement": 1
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CRLOGK",
+    "category": "R",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 5,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": 8845,
+    "value": -568247.786427918
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CRLOGK",
+    "category": "R",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DRG298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -167981.7668932
+   },
+   {
+    "audit_status": "Revision required",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "LOGK298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "RAR/RAN1999",
+    "reference_2": null,
+    "uncertainty": 0.788,
+    "value": 29.429
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "DRS298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "DRCP298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "DRH298",
+    "description": null,
+    "editor": "Marquardt",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": 0,
+   "description": null,
+   "editor": "Marquardt",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 148.9204,
+   "originalreactionequation": null,
+   "redox": true
+  },
+  "FormingReaction": [
+   {
+    "coefficient": -1.5,
+    "pcon_reactant": "H2(g)"
+   },
+   {
+    "coefficient": 1,
+    "pcon_reactant": "H2O(l)"
+   },
+   {
+    "coefficient": -1,
+    "pcon_reactant": "H<+>"
+   },
+   {
+    "coefficient": 1,
+    "pcon_reactant": "TcO(OH)2<0>"
+   },
+   {
+    "coefficient": -1,
+    "pcon_reactant": "TcO4<->"
+   }
+  ],
+  "OxidationState": [
+   {
+    "centralelement": "Tc",
+    "oxidationnumber": 4
+   }
+  ],
+  "symbol": "TcO(OH)2<0>"
+ },
+ {
+  "Composition": [
+   {
+    "element": "EA",
+    "numberofelement": 1
+   },
+   {
+    "element": "Fe",
+    "numberofelement": 1
+   },
+   {
+    "element": "H",
+    "numberofelement": 4
+   },
+   {
+    "element": "O",
+    "numberofelement": 4
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "R",
+    "dataclass": 3,
+    "dataquality": 3,
+    "datasource": 4,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -845069.4815
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 3,
+    "dataquality": 3,
+    "datasource": 4,
+    "datatype": "DFH298",
+    "description": "Determined using solubility measurements of alpha-Fe2O3",
+    "editor": "Moog",
+    "reference_1": "DIA/SCH1999",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -1050790
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 3,
+    "dataquality": 3,
+    "datasource": 4,
+    "datatype": "S298",
+    "description": "Determined using solubility measurements of alpha-Fe2O3",
+    "editor": "Moog",
+    "reference_1": "DIA/SCH1999",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": 74.099
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 3,
+    "dataquality": 3,
+    "datasource": 4,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "DIA/SCH1999",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": 105.6888
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CF",
+    "category": "F",
+    "dataclass": 3,
+    "dataquality": 3,
+    "datasource": 5,
+    "datatype": "DRH298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": 182825
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "NotYetDetermined",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CF",
+    "category": "F",
+    "dataclass": 3,
+    "dataquality": 3,
+    "datasource": 5,
+    "datatype": "DRS298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -38.19
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CF",
+    "category": "R",
+    "dataclass": 3,
+    "dataquality": 3,
+    "datasource": 5,
+    "datatype": "LOGK298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "NotYetDetermined",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -34.0241623043424
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHR",
+    "category": "R",
+    "dataclass": 3,
+    "dataquality": 3,
+    "datasource": 5,
+    "datatype": "DRG298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": 194211.3485
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CF",
+    "category": "F",
+    "dataclass": 3,
+    "dataquality": 3,
+    "datasource": 5,
+    "datatype": "DRCP298",
+    "description": null,
+    "editor": "Moog",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": -158.2932
+   }
+  ],
+  "DataVariable": [
+   {
+    "a": -809259.44802,
+    "audit_status": "Audit pending",
+    "b": -1021.99401641693,
+    "c": 158.2932,
+    "calcmode": "CTPFUNC",
+    "category": "R",
+    "d": 0,
+    "dataclass": 3,
+    "dataquality": 3,
+    "datasource": 5,
+    "datatype": "DFGT",
+    "description": null,
+    "e": 0,
+    "editor": "Moog",
+    "f": 0,
+    "maxpbar": 1.01325,
+    "maxtk": 298.15,
+    "minpbar": 1.01325,
+    "mintk": 298.15,
+    "reference_1": "NotYetDetermined",
+    "reference_2": null,
+    "tpfunc": "NEA-extended"
+   },
+   {
+    "a": null,
+    "audit_status": "Audit pending",
+    "b": null,
+    "c": null,
+    "calcmode": "Entered",
+    "category": "R",
+    "d": null,
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "VT",
+    "description": null,
+    "e": null,
+    "editor": "Moog",
+    "f": null,
+    "maxpbar": 1.01325,
+    "maxtk": 298.15,
+    "minpbar": 1.01325,
+    "mintk": 298.15,
+    "reference_1": "NotYetDetermined",
+    "reference_2": null,
+    "tpfunc": "NEA-extended"
+   },
+   {
+    "a": 230020.11758,
+    "audit_status": "Audit pending",
+    "b": -1021.99401641693,
+    "c": 158.2932,
+    "calcmode": "CTPFUNC",
+    "category": "R",
+    "d": 0,
+    "dataclass": 3,
+    "dataquality": 3,
+    "datasource": 5,
+    "datatype": "DRGT",
+    "description": null,
+    "e": 0,
+    "editor": "Moog",
+    "f": 0,
+    "maxpbar": 1.01325,
+    "maxtk": 298.15,
+    "minpbar": 1.01325,
+    "mintk": 298.15,
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "tpfunc": "NEA-extended"
+   },
+   {
+    "a": 53.3821430087897,
+    "audit_status": "Audit pending",
+    "b": 0,
+    "c": 0,
+    "calcmode": "CXTERMEXTRAP",
+    "category": "R",
+    "d": -12014.7149731892,
+    "dataclass": 3,
+    "dataquality": 3,
+    "datasource": 5,
+    "datatype": "LOGKT",
+    "description": null,
+    "e": 0,
+    "editor": "Moog",
+    "f": -8.26817975837516,
+    "maxpbar": 1.01325,
+    "maxtk": 298.15,
+    "minpbar": 1.01325,
+    "mintk": 298.15,
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "tpfunc": "NEA-transformed"
+   }
+  ],
+  "Declaration": {
+   "charge": -1,
+   "description": null,
+   "editor": "Moog",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 123.875,
+   "originalreactionequation": null,
+   "redox": true
+  },
+  "FormingReaction": [
+   {
+    "coefficient": 1,
+    "pcon_reactant": "Fe(OH)4<->"
+   },
+   {
+    "coefficient": -1,
+    "pcon_reactant": "Fe<2+>"
+   },
+   {
+    "coefficient": 0.5,
+    "pcon_reactant": "H2(g)"
+   },
+   {
+    "coefficient": -4,
+    "pcon_reactant": "H2O(l)"
+   },
+   {
+    "coefficient": 3,
+    "pcon_reactant": "H<+>"
+   }
+  ],
+  "OxidationState": [
+   {
+    "centralelement": "Fe",
+    "oxidationnumber": 3
+   }
+  ],
+  "symbol": "Fe(OH)4<->"
+ },
+ {
+  "Composition": [
+   {
+    "element": "EA",
+    "numberofelement": -4
+   },
+   {
+    "element": "U",
+    "numberofelement": 1
+   }
+  ],
+  "DataStandard": [
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CRLOGK",
+    "category": "R",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 5,
+    "datatype": "DFG298",
+    "description": null,
+    "editor": "Richter",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": 1765,
+    "value": -529859.997075447
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DFH298",
+    "description": null,
+    "editor": "Richter",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": "GRE/FUG1992",
+    "uncertainty": 3300,
+    "value": -591200
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CGHF",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 5,
+    "datatype": "S298",
+    "description": null,
+    "editor": "Richter",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": 12.553,
+    "value": -416.89537791230254
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "F",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "CP298",
+    "description": null,
+    "editor": "Richter",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": "GRE/FUG1992",
+    "uncertainty": 50,
+    "value": -220
+   },
+   {
+    "audit_status": "Approved",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "LOGK298",
+    "description": "original equation: 4H<+>+UO2<2+>+2e<-> = 2H2O+U<4+>; original value 9.038+-0.041",
+    "editor": "Richter",
+    "reference_1": "GUI/FAN2003",
+    "reference_2": "GRE/FUG1992",
+    "uncertainty": 0.04,
+    "value": 9.038
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "Entered",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "V298",
+    "description": null,
+    "editor": "Richter",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "CRLOGK",
+    "category": "R",
+    "dataclass": 1,
+    "dataquality": 1,
+    "datasource": 1,
+    "datatype": "DRG298",
+    "description": "original equation: 4H<+>+UO2<2+>+2e<-> = 2H2O+u<4+>; original value -51.589+-0.234",
+    "editor": "Richter",
+    "reference_1": "InternallyCalculated",
+    "reference_2": null,
+    "uncertainty": 234,
+    "value": -51589.2218281538
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "DRS298",
+    "description": null,
+    "editor": "Richter",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "DRH298",
+    "description": null,
+    "editor": "Richter",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   },
+   {
+    "audit_status": "Audit pending",
+    "calcmode": "NotYetDetermined",
+    "category": "R",
+    "dataclass": 6,
+    "dataquality": 6,
+    "datasource": 6,
+    "datatype": "DRCP298",
+    "description": null,
+    "editor": "Richter",
+    "reference_1": "NotApplicable",
+    "reference_2": null,
+    "uncertainty": null,
+    "value": null
+   }
+  ],
+  "DataVariable": [],
+  "Declaration": {
+   "charge": 4,
+   "description": "4H<+>+UO2<2+>+2e<-> = 2H2O+U<4+>",
+   "editor": "Richter",
+   "enabled": true,
+   "equilibrium_constraint": "Complete equilibrium",
+   "molarmass": 238.02672,
+   "originalreactionequation": null,
+   "redox": true
+  },
+  "FormingReaction": [
+   {
+    "coefficient": -1,
+    "pcon_reactant": "H2(g)"
+   },
+   {
+    "coefficient": 2,
+    "pcon_reactant": "H2O(l)"
+   },
+   {
+    "coefficient": -2,
+    "pcon_reactant": "H<+>"
+   },
+   {
+    "coefficient": 1,
+    "pcon_reactant": "U<4+>"
+   },
+   {
+    "coefficient": -1,
+    "pcon_reactant": "UO2<2+>"
+   }
+  ],
+  "OxidationState": [
+   {
+    "centralelement": "U",
+    "oxidationnumber": 4
+   }
+  ],
+  "symbol": "U<4+>"
+ }
+]

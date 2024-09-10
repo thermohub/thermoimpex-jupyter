@@ -1,0 +1,10 @@
+﻿Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
+Cu(cr),Cu(cr),Cu|0|,s,11.39,0.27,-64.9,1,,,,,1 Cu+2 2 e- = Cu(cr)
+CuO(cr),tenorite,CuO,s,-7.64,0.06,61.7,1.5,1175,13,25,350,1 Cu+2 1 H2O(l) -2 H+ = CuO(cr)
+Cu(OH)2(s),Cu(OH)2(s),Cu(OH)2,s,-8.67,0.05,,,,,,,1 Cu+2 2 H2O(l) -2 H+ = Cu(OH)2(s)
+Cu2CO3(OH)2(cr),malachite,Cu2CO3(OH)2,s,33.16,0.08,,,,,,,2 Cu+2 1 CO3-2 2 OH- = Cu2CO3(OH)2(cr)
+Cu3(CO3)2(OH)2(cr),azurite,Cu3(CO3)2(OH)2,s,44.9,0.2,,,,,,,3 Cu+2 2 CO3-2 2 OH- = Cu3(CO3)2(OH)2(cr)
+CuS(cr),covellite,CuS|-2|,s,22.05,0.16,,,,,,,1 Cu+2 1 HS- -1 H+ = CuS(cr)
+Cu2O(cr),cuprite,Cu|+1|2O,s,0.5,0.24,-17.2,3.8,0,,20,350,2 Cu+ 1 H2O(l) -1 H+ = Cu2O(cr)
+CuCl(s),CuCl(s),Cu|+1|Cl,s,6.7,0.2,,,,,,,1 Cu+ 1 Cl- = CuCl(s)
+Cu2S(cr),chalcotite,Cu|+1|2S|-2|,s,34.62,0.13,,,,,,,2 Cu+ 1 HS- -1 H+ = Cu2S(cr)

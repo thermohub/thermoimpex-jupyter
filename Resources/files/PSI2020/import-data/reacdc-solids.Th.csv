@@ -1,0 +1,6 @@
+﻿Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
+ThO2(am_hyd_fr),ThO2(am_hyd_fr),ThO2,s,-9.3,0.9,,,,,,,1 Th+4 2 H2O(l) -4 H+ = ThO2(am_hyd_fr)  
+ThO2(am_hyd_ag),ThO2(am_hyd_ag),ThO2,s,-8.5,0.9,,,,,,,1 Th+4 2 H2O(l) -4 H+ = ThO2(am_hyd_ag)  
+ThF4(cr_hyd),ThF4(cr_hyd),ThF4,s,31.8,0.4,,,,,,,1 Th+4 4 F- = ThF4(cr_hyd)    
+Th3(PO4)4(s),Th3(PO4)4(s),Th3(PO4)4,s,112,2.1,,,,,,,3 Th+4 4 PO4-3 = Th3(PO4)4(s)    
+Na6Th(CO3)5w12(cr),Na6Th(CO3)5:12H2O(cr),Na6Th(CO3)5(H2O)12,s,42.2,0.8,,,,,,,6 Na+ 1 Th+4 5 CO3-2 12 H2O(l) = Na6Th(CO3)5w12(cr)

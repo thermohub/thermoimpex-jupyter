@@ -1,0 +1,7723 @@
+[
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   SjjbC----29/10/19"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Al+3"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Al+3"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    3,
+                    26.98154067993164,
+                    -4.524287223815918,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -483708,
+                    null,
+                    -530630,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    -325.09698486328125,
+                    null,
+                    -128.69635009765625,
+                    0,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    6.650000095367432,
+                    0.1899999976158142
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Shock_ea:1997:pap:              "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "HKF EOS par Table 1     "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "a",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "Al",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Al+3",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "PSI_",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   SjjbC----16/11/20"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Al+3"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Al+3"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    3,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -487200,
+                    2300,
+                    -539400,
+                    2700
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    -342.79998779296875,
+                    5,
+                    -96,
+                    30,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "PSI2020                         "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "                        "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "a",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "Al",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Al+3",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   SjjbC----29/10/19"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Ca+2"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Ca+2"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    2,
+                    40.077999114990234,
+                    -1.8438739776611328,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -552790,
+                    null,
+                    -543069,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    -56.48400115966797,
+                    null,
+                    -30.922515869140625,
+                    0,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    4.860000133514404,
+                    0.15000000596046448
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Shock_ea:1997:pap:              "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "HKF EOS par Table 1     "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "a",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "Ca",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Ca+2",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "PSI_",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   SjjbC----16/11/20"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Ca+2"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Ca+2"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    2,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -552806,
+                    1050,
+                    -543000,
+                    1000
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    -56.20000076293945,
+                    1,
+                    null,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "PSI2020                         "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "                        "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "a",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "Ca",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Ca+2",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   SjjbC----29/10/19"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Cl-"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Cl-"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    -1,
+                    35.452999114990234,
+                    1.7340890169143677,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -131290,
+                    null,
+                    -167111,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    56.73503875732422,
+                    null,
+                    -122.49036407470703,
+                    0,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    3.7100000381469727,
+                    0.009999999776482582
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Shock_ea:1997:pap:              "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "HKF EOS par Table 1     "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "a",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "Cl",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Cl-",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "PSI_",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   SjjbC----3/12/20"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Cl-"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Cl-"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    -1,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -131217,
+                    117,
+                    -167080,
+                    100
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    56.599998474121094,
+                    0.20000000298023224,
+                    null,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "PSI2020                         "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "                        "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "a",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "Cl",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Cl-",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   SjjbC----29/10/19"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Fe+3"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Fe|3|+3"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    2,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    3,
+                    55.845001220703125,
+                    -3.779026985168457,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -17185,
+                    null,
+                    -49582,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    -277.39898681640625,
+                    null,
+                    -76.71377563476562,
+                    0,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    9,
+                    0
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 2,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Shock_ea:1997:pap:              ",
+                    "GEMS_AUG20:2001:dat:            "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 2,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "HKF EOS par Table 5     ",
+                    "                        "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "a",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "Fe",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Fe+3",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "PSI_",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   SjjbC----17/11/20"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Fe+3"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Fe|+3|+3"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    3,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -16230,
+                    650,
+                    -50060,
+                    970
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    -282.3999938964844,
+                    3.930000066757202,
+                    -108,
+                    20,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "PSI2020                         "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "                        "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "a",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "Fe",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Fe+3",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   SjjbC----29/10/19"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "HCO3-"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "HCO3-"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    -1,
+                    61.01695251464844,
+                    2.4210898876190186,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -586940,
+                    null,
+                    -690010.004267,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    98.44999694824219,
+                    null,
+                    -34.848838806152344,
+                    0,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    5.400000095367432,
+                    0
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Shock_ea:1997:pap:              "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "HKF EOS par Table 1     "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "a",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "HCO",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "HCO3-",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "PSI_",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   SjjbC----3/12/20"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "HCO3-"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "HCO3-"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    -1,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -586875,
+                    null,
+                    -690215,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    98.4000015258789,
+                    null,
+                    null,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "PSI2020                         "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "                        "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "a",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "HCO",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "HCO3-",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   SjjbC----3/6/21"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "HPO4-2"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "HPO4-2"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    -2,
+                    95.97930908203125,
+                    0.4379520118236542,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -1089140,
+                    null,
+                    -1292146,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    -33.47200012207031,
+                    null,
+                    -242.49603271484375,
+                    0,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    4,
+                    0
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "HKF EOS par Table 1             "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "Shock_ea:1997:pap:      "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "a",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "HPO",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "HPO4-2",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "PSI_",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   SjjbC----3/12/20"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "HPO4-2"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "HPO4-2"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    -2,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -1095985,
+                    1567,
+                    -1299000,
+                    1500
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    -33.5,
+                    1.5,
+                    null,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "PSI2020                         "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "                        "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "a",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "HPO",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "HPO4-2",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   SjjbC----29/10/19"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "K+"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "K+"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    1,
+                    39.09830093383789,
+                    0.9009230136871338,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -282462,
+                    null,
+                    -252139,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    101.0436019897461,
+                    null,
+                    8.388801574707031,
+                    0,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    3.7100000381469727,
+                    0.009999999776482582
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Shock_ea:1997:pap:              "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "HKF EOS par Table 1     "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "a",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "K",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "K+",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "PSI_",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   SjjbC----16/11/20"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "K+"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "K+"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    1,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -282510,
+                    116,
+                    -252140,
+                    80
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    101.19999694824219,
+                    0.20000000298023224,
+                    null,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "PSI2020                         "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "                        "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "a",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "K",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "K+",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   SjjbC----29/10/19"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Mg+2"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Mg+2"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    2,
+                    24.30500030517578,
+                    -2.201374053955078,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -453985,
+                    null,
+                    -465929,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    -138.07200622558594,
+                    null,
+                    -21.662090301513672,
+                    0,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    5.460000038146973,
+                    0.2199999988079071
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Shock_ea:1997:pap:              "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "HKF EOS par Table 1     "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "a",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "Mg",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Mg+2",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "PSI_",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   SjjbC----16/11/20"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Mg+2"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Mg+2"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    2,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -455375,
+                    1335,
+                    -467000,
+                    600
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    -137,
+                    4,
+                    null,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "PSI2020                         "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "                        "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "a",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "Mg",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Mg+2",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   SjjbC----29/10/19"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "NO3-"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "NO3-"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    -1,
+                    62.00489807128906,
+                    2.866481065750122,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -110905,
+                    null,
+                    -206889,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    146.94200134277344,
+                    null,
+                    -66.80239868164062,
+                    0,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    3,
+                    0
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Shock_ea:1997:pap:              "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "HKF EOS par Table 1     "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "a",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "NO",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "NO3-",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "PSI_",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   SjjbC----3/12/20"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "NO3-"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "NO3-"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    -1,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -110794,
+                    417,
+                    -206850,
+                    400
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    146.6999969482422,
+                    0.4000000059604645,
+                    null,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "PSI2020                         "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "                        "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "a",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "NO",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "NO3-",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   SjjbC----29/10/19"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Na+"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Na+"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    1,
+                    22.98979949951172,
+                    -0.12079600244760513,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -261881,
+                    null,
+                    -240280,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    58.409000396728516,
+                    null,
+                    38.118228912353516,
+                    0,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    4.320000171661377,
+                    0.05999999865889549
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Shock_ea:1997:pap:              "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "HKF EOS par Table 1     "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "a",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "Na",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Na+",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "PSI_",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   SjjbC----16/11/20"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Na+"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Na+"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    1,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -261953,
+                    96,
+                    -240340,
+                    60
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    58.45000076293945,
+                    0.15000000596046448,
+                    null,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "PSI2020                         "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "                        "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "a",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "Na",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Na+",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   SjjbC----29/10/19"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "SO4-2"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "S|6|O4-2"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    -2,
+                    96.06460571289062,
+                    1.2917660474777222,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -744459,
+                    null,
+                    -909697,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    18.827999114990234,
+                    null,
+                    -266.0907287597656,
+                    0,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    5.309999942779541,
+                    -0.07000000029802322
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Shock_ea:1997:pap:              "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "HKF EOS par Table 1     "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "a",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "SO",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "SO4-2",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "PSI_",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   SjjbC----3/12/20"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "SO4-2"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "SO4-2"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    -2,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -744004,
+                    418,
+                    -909340,
+                    400
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    18.5,
+                    0.4000000059604645,
+                    null,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "PSI2020                         "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "                        "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "a",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "SO",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "SO4-2",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   SjjbC+---29/10/19"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "SiO2  aq ( + 2 H2O = Si(OH)4  aq )"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "SiO2@"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    1,
+                    0,
+                    3,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    0,
+                    60.08430099487305,
+                    1.6063300371170044,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -833411,
+                    null,
+                    -887856.17,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    41.3380012512207,
+                    null,
+                    44.46540069580078,
+                    0,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    -1,
+                    0
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": [
+                    0,
+                    100
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": [
+                    46.94449996948242,
+                    0.03430879861116409,
+                    -1129680,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 3,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Matschei_ea:2007:pap:           ",
+                    "Slop98_dat:1998:dat:            ",
+                    "Kulik_ea:2001:pap:              "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 3,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "ref:3 (S0,Cp0 incons.)  ",
+                    "                        ",
+                    "                        "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "a",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "SiO",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "SiO2@",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "CEMD",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   SjjbC----1/12/20"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Si(OH)4(aq)"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Si(OH)4@"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    0,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -1309183,
+                    1120,
+                    -1461723,
+                    1082
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    178.8509979248047,
+                    2.177999973297119,
+                    237.3699951171875,
+                    2.0239999294281006,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "PSI2020                         "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "                        "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "a",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "SiOH",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Si(OH)4(aq)",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   SjjbC----29/10/19"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Sr+2"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Sr+2"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    2,
+                    87.62000274658203,
+                    -1.7757960557937622,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -563836,
+                    null,
+                    -550874,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    -31.506000518798828,
+                    null,
+                    -41.56162643432617,
+                    0,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    5.480000019073486,
+                    0.10999999940395355
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Shock_ea:1997:pap:              "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "HKF EOS par Table 1     "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "a",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "Sr",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Sr+2",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "PSI_",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   SjjbC----16/11/20"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Sr+2"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Sr+2"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    2,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -563864,
+                    781,
+                    -550900,
+                    500
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    -31.5,
+                    2,
+                    null,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "PSI2020                         "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "                        "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "a",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "Sr",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Sr+2",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   TjjbC----3/6/21"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "H+"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "H+"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    1,
+                    1.0079400539398193,
+                    0,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    9,
+                    0
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "St_val.& HKF                    "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "Shock_ea:1997:pap:      "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "a",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "wY_",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "H+",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "PSI_",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   TjjbC----3/12/20"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "H+"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "H+"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    1,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    0,
+                    null,
+                    0,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    0,
+                    null,
+                    0,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "PSI2020                         "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "                        "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "a",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "wY_",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "H+",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   SjjbC----3/12/20"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "H2O(l)"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "H2O@"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    0,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -237140,
+                    41,
+                    -285830,
+                    40
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    69.94999694824219,
+                    0.029999999329447746,
+                    75.35099792480469,
+                    0.07999999821186066,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "PSI2020                         "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "                        "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "a",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "wZ_",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "H2O(l)",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   WjjbC----29/10/19"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "H2O  l"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "H2O@"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    0,
+                    18.015300750732422,
+                    1.806839942932129,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -237183,
+                    null,
+                    -285881,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    69.9229965209961,
+                    null,
+                    75.36052703857422,
+                    0,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    -1,
+                    0
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "SUPCRT:1992:prog:               "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "All ref:2               "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "a",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "wZ_",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "H2O@",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "PSI_",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   GjjbC+---29/10/19"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "O2  g"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "O|0|2"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    1,
+                    0,
+                    2,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    0,
+                    31.99880027770996,
+                    2478.97119140625,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    205.13699340820312,
+                    0,
+                    29.322154998779297,
+                    0,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": [
+                    0,
+                    1000
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": [
+                    29.957399368286133,
+                    0.004184000194072723,
+                    -167360,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 2,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Slop98_dat:1998:dat:            ",
+                    "AUG20_GEMS:2001:dat:            "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 2,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "ref:6,8                 ",
+                    "                        "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "g",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "O",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "O2",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "PSI_",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   GjjbC----3/12/20"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "O2(g)"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "O|0|2"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    0,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    1.21235,
+                    null,
+                    1,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    205.15341186523438,
+                    null,
+                    29.374000549316406,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 20,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "PSI2020                         "
+                ]
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": [
+                    "                        "
+                ]
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "g",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "O",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "O2(g)",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    }
+]
+

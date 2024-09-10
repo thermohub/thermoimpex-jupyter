@@ -1,0 +1,99 @@
+[
+     {
+          "_id" :   "substances/Fe(OH)4-;_2_:_SC_AQSOLUTE_;_15_:_PSI_NAGRA_",
+          "_key" :   "Fe(OH)4-;_2_:_SC_AQSOLUTE_;_15_:_PSI_NAGRA_",
+          "_rev" :   "_ccn9KIK---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Fe(OH)4-",
+               "sourcetdb" :   {
+                    "15" :   "PSI_NAGRA"
+               },
+               "formula" :   "Fe|3|(OH)4-",
+               "name" :   "FeO2- ( + 2 H2O = Fe(OH)4- )",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "formula_charge" :   -1,
+               "mass_per_mole" :   123.874,
+               "sm_volume" :   {
+                    "values" :   [
+                         3.6588347090272
+                    ],
+                    "errors" :   [
+                         0
+                    ],
+                    "units" :   [
+                         "J/bar"
+                    ]
+               },
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -842624
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -1015577
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         184.196393041992
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "values" :   [
+                         -84.206945922852
+                    ],
+                    "errors" :   [
+                         0
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ]
+               },
+               "aq_edh_props" :   {
+                    "values" :   [
+                         4,
+                         0
+                    ],
+                    "units" :   [
+                         "Å"
+                    ],
+                    "names" :   [
+                         "a0",
+                         "b"
+                    ]
+               },
+               "comment" :   "St_val.&HKF             ",
+               "datasources" :   [
+                    "Shock_ea:1997:pap:              ",
+                    "AUG20_GEMS:2001:dat:"
+               ],
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   29,
+                    "hour" :   13,
+                    "minute" :   31,
+                    "second" :   4
+               }
+          }
+     }
+]

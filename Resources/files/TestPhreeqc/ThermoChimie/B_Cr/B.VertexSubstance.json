@@ -1,0 +1,1177 @@
+[
+     {
+          "_id" :   "substances/B(OH)4-;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "B(OH)4-;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_Cq-9C---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "B(OH)4-",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "B(OH)4-",
+               "name" :   "B(OH)4-",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000B(OH)4-     = B(OH)4-",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   0
+               }
+          }
+     },
+     {
+          "_id" :   "substances/B(cr);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "B(cr);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_Cqsqe---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "B(cr)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "B",
+               "name" :   "_rdc_B",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "B     = 1.000H+     + 1.000B(OH)4-     - 2.500H2O     - 0.750O2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "substances/B(OH)3(cr);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "B(OH)3(cr);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_Cqsna---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "B(OH)3(cr)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "B(OH)3",
+               "name" :   "_rdc_B(OH)3",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "B(OH)3     = 1.000H+     + 1.000B(OH)4-     - 1.000H2O",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "substances/B(OH)3;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "B(OH)3;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqF3G---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "B(OH)3",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "B(OH)3",
+               "name" :   "_rdc_B(OH)3",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   0,
+               "comment" :   "1.000H+     + 1.000B(OH)4-     - 1.000H2O     = B(OH)3",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   7
+               }
+          }
+     },
+     {
+          "_id" :   "substances/B2O3(am);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "B2O3(am);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_CqstK---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "B2O3(am)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "B2O3",
+               "name" :   "_rdc_B2O3",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "B2O3     = 2.000H+     + 2.000B(OH)4-     - 5.000H2O",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "substances/B2O3(cr);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "B2O3(cr);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_Cqsva---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "B2O3(cr)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "B2O3",
+               "name" :   "_rdc_B2O3",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "B2O3     = 2.000H+     + 2.000B(OH)4-     - 5.000H2O",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "substances/B3O5-;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "B3O5-;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqF4u---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "B3O5-",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "B3O5-",
+               "name" :   "_rdc_B3O5-",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   -1,
+               "comment" :   "2.000H+     + 3.000B(OH)4-     - 7.000H2O     = B3O5-",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   7
+               }
+          }
+     },
+     {
+          "_id" :   "substances/B4O7-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "B4O7-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqF6a---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "B4O7-2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "B4O7-2",
+               "name" :   "_rdc_B4O7-2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   -2,
+               "comment" :   "2.000H+     + 4.000B(OH)4-     - 9.000H2O     = B4O7-2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   7
+               }
+          }
+     },
+     {
+          "_id" :   "substances/BF(OH)3-;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "BF(OH)3-;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqF8q---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "BF(OH)3-",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "BF(OH)3-",
+               "name" :   "_rdc_BF(OH)3-",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   -1,
+               "comment" :   "1.000H+     + 1.000F-     + 1.000B(OH)4-     - 1.000H2O     = BF(OH)3-",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   7
+               }
+          }
+     },
+     {
+          "_id" :   "substances/BF2(OH)2-;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "BF2(OH)2-;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqG-y---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "BF2(OH)2-",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "BF2(OH)2-",
+               "name" :   "_rdc_BF2(OH)2-",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   -1,
+               "comment" :   "2.000H+     + 2.000F-     + 1.000B(OH)4-     - 2.000H2O     = BF2(OH)2-",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   7
+               }
+          }
+     },
+     {
+          "_id" :   "substances/BF3(OH)-;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "BF3(OH)-;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqGBG---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "BF3(OH)-",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "BF3(OH)-",
+               "name" :   "_rdc_BF3(OH)-",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   -1,
+               "comment" :   "3.000H+     + 3.000F-     + 1.000B(OH)4-     - 3.000H2O     = BF3(OH)-",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   7
+               }
+          }
+     },
+     {
+          "_id" :   "substances/BF4-;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "BF4-;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqGDK---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "BF4-",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "BF4-",
+               "name" :   "_rdc_BF4-",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   -1,
+               "comment" :   "4.000H+     + 4.000F-     + 1.000B(OH)4-     - 4.000H2O     = BF4-",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   7
+               }
+          }
+     },
+     {
+          "_id" :   "substances/BaB(OH)4+;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "BaB(OH)4+;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqGPm---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "BaB(OH)4+",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "BaB(OH)4+",
+               "name" :   "_rdc_BaB(OH)4+",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   1,
+               "comment" :   "1.000Ba+2     + 1.000B(OH)4-     = BaB(OH)4+",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   8
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Ca3B2O6(s);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "Ca3B2O6(s);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_CqveG---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Ca3B2O6(s)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Ca3B2O6",
+               "name" :   "_rdc_Ca3B2O6",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "Ca3B2O6     = 3.000Ca+2     - 4.000H+     + 2.000B(OH)4-     - 2.000H2O",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   50
+               }
+          }
+     },
+     {
+          "_id" :   "substances/CaB(OH)4+;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "CaB(OH)4+;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqIF2---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "CaB(OH)4+",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "CaB(OH)4+",
+               "name" :   "_rdc_CaB(OH)4+",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   1,
+               "comment" :   "1.000Ca+2     + 1.000B(OH)4-     = CaB(OH)4+",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   9
+               }
+          }
+     },
+     {
+          "_id" :   "substances/CaB2O4(s);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "CaB2O4(s);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_Cqvty---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "CaB2O4(s)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "CaB2O4",
+               "name" :   "_rdc_CaB2O4",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "CaB2O4     = 1.000Ca+2     + 2.000B(OH)4-     - 4.000H2O",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   50
+               }
+          }
+     },
+     {
+          "_id" :   "substances/CaB4O7(s);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "CaB4O7(s);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_CqvwC---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "CaB4O7(s)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "CaB4O7",
+               "name" :   "_rdc_CaB4O7",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "CaB4O7     = 1.000Ca+2     + 2.000H+     + 4.000B(OH)4-     - 9.000H2O",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   50
+               }
+          }
+     },
+     {
+          "_id" :   "substances/CdB2O4(s);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "CdB2O4(s);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_Cqw4C---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "CdB2O4(s)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "CdB2O4",
+               "name" :   "_rdc_CdB2O4",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "CdB2O4     = 1.000Cd+2     + 2.000B(OH)4-     - 4.000H2O",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   51
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cu(B(OH)4)+;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cu(B(OH)4)+;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqMW----",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cu(B(OH)4)+",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cu(B(OH)4)+",
+               "name" :   "_rdc_Cu(B(OH)4)+",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   1,
+               "comment" :   "1.000Cu+2     + 1.000B(OH)4-     = Cu(B(OH)4)+",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   14
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cu(B(OH)4)2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cu(B(OH)4)2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqMXu---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cu(B(OH)4)2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cu(B(OH)4)2",
+               "name" :   "_rdc_Cu(B(OH)4)2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   0,
+               "comment" :   "1.000Cu+2     + 2.000B(OH)4-     = Cu(B(OH)4)2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   14
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cu(B(OH)4)3-;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cu(B(OH)4)3-;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqMaC---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cu(B(OH)4)3-",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cu(B(OH)4)3-",
+               "name" :   "_rdc_Cu(B(OH)4)3-",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   -1,
+               "comment" :   "1.000Cu+2     + 3.000B(OH)4-     = Cu(B(OH)4)3-",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   14
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Fe(B(OH)4)+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Fe(B(OH)4)+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqNlS---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Fe(B(OH)4)+2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Fe(B(OH)4)+2",
+               "name" :   "_rdc_Fe(B(OH)4)+2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   2,
+               "comment" :   "1.000Fe+3     + 1.000B(OH)4-     = Fe(B(OH)4)+2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   15
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Fe(B(OH)4)2+;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Fe(B(OH)4)2+;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqNnC---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Fe(B(OH)4)2+",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Fe(B(OH)4)2+",
+               "name" :   "_rdc_Fe(B(OH)4)2+",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   1,
+               "comment" :   "1.000Fe+3     + 2.000B(OH)4-     = Fe(B(OH)4)2+",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   15
+               }
+          }
+     },
+     {
+          "_id" :   "substances/HB2O4-;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "HB2O4-;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqSG2---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "HB2O4-",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "HB2O4-",
+               "name" :   "_rdc_HB2O4-",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   -1,
+               "comment" :   "1.000H+     + 2.000B(OH)4-     - 4.000H2O     = HB2O4-",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   20
+               }
+          }
+     },
+     {
+          "_id" :   "substances/MgB(OH)4+;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "MgB(OH)4+;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqU1e---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "MgB(OH)4+",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "MgB(OH)4+",
+               "name" :   "_rdc_MgB(OH)4+",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   1,
+               "comment" :   "1.000Mg+2     + 1.000B(OH)4-     = MgB(OH)4+",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   22
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Na2B4O7(cr);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "Na2B4O7(cr);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_Cr-qG---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Na2B4O7(cr)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Na2B4O7",
+               "name" :   "_rdc_Na2B4O7",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "Na2B4O7     = 2.000Na+     + 2.000H+     + 4.000B(OH)4-     - 9.000H2O",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   31,
+                    "second" :   5
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Na2B4O7:10H2O(s);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "Na2B4O7:10H2O(s);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_Cr-sq---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Na2B4O7:10H2O(s)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Na2B4O7(H2O)10",
+               "name" :   "_rdc_Na2B4O7:10H2O",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "Na2B4O7:10H2O     = 2.000Na+     + 2.000H+     + 4.000B(OH)4-     + 1.000H2O",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   31,
+                    "second" :   5
+               }
+          }
+     },
+     {
+          "_id" :   "substances/NaB(OH)4;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "NaB(OH)4;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqWoq---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "NaB(OH)4",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "NaB(OH)4",
+               "name" :   "_rdc_NaB(OH)4",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   0,
+               "comment" :   "1.000Na+     + 1.000B(OH)4-     = NaB(OH)4",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "substances/NaBO2(s);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "NaBO2(s);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_Cr_NO---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "NaBO2(s)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "NaBO2",
+               "name" :   "_rdc_NaBO2",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "NaBO2     = 1.000Na+     + 1.000B(OH)4-     - 2.000H2O",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   31,
+                    "second" :   6
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Ni(BO2)2(s);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "Ni(BO2)2(s);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_Cr_x2---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Ni(BO2)2(s)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Ni(BO2)2",
+               "name" :   "_rdc_Ni(BO2)2",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "Ni(BO2)2     = 1.000Ni+2     + 2.000B(OH)4-     - 4.000H2O",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   31,
+                    "second" :   6
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Pb(B(OH)4)+;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Pb(B(OH)4)+;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_Cqbe2---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Pb(B(OH)4)+",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Pb(B(OH)4)+",
+               "name" :   "_rdc_Pb(B(OH)4)+",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   1,
+               "comment" :   "1.000Pb+2     + 1.000B(OH)4-     = Pb(B(OH)4)+",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   29
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Pb(B(OH)4)3-;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Pb(B(OH)4)3-;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqbhC---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Pb(B(OH)4)3-",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Pb(B(OH)4)3-",
+               "name" :   "_rdc_Pb(B(OH)4)3-",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   -1,
+               "comment" :   "1.000Pb+2     + 3.000B(OH)4-     = Pb(B(OH)4)3-",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   29
+               }
+          }
+     },
+     {
+          "_id" :   "substances/PbB2O4(s);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "PbB2O4(s);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_CrCdK---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "PbB2O4(s)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "PbB2O4",
+               "name" :   "_rdc_PbB2O4",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "PbB2O4     = 1.000Pb+2     + 2.000B(OH)4-     - 4.000H2O",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   31,
+                    "second" :   9
+               }
+          }
+     },
+     {
+          "_id" :   "substances/SrB(OH)4+;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "SrB(OH)4+;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqkOS---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "SrB(OH)4+",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "SrB(OH)4+",
+               "name" :   "_rdc_SrB(OH)4+",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   1,
+               "comment" :   "1.000Sr+2     + 1.000B(OH)4-     = SrB(OH)4+",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   38
+               }
+          }
+     },
+     {
+          "_id" :   "substances/ZnB2O4(s);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "ZnB2O4(s);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_CrMBe---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "ZnB2O4(s)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "ZnB2O4",
+               "name" :   "_rdc_ZnB2O4",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "ZnB2O4     = 1.000Zn+2     + 2.000B(OH)4-     - 4.000H2O",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   31,
+                    "second" :   19
+               }
+          }
+     }
+]

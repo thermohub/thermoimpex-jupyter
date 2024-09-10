@@ -1,0 +1,932 @@
+[
+    {
+        "_key": "H3Isa-;2:SC_AQSOLUTE;26:PSI_NAGRA20",
+        "_id": "substances/H3Isa-;2:SC_AQSOLUTE;26:PSI_NAGRA20",
+        "_rev": "_dGKPVGu---",
+        "_type": "vertex",
+        "_label": "substance",
+        "properties": {
+            "symbol": "H3Isa-",
+            "sourcetdb": {
+                "26": "PSI_NAGRA20"
+            },
+            "formula": "H3Isa-",
+            "name": "H3Isa-",
+            "class_": {
+                "2": "SC_AQSOLUTE"
+            },
+            "aggregate_state": {
+                "4": "AS_AQUEOUS"
+            },
+            "Tst": 298.15,
+            "Pst": 100000,
+            "sm_enthalpy": {
+                "values": [
+                    0.0
+                ],
+                "status": [
+                    {
+                        "1": "ENTERED"
+                    }
+                ],
+                "units": [
+                    "J/mol"
+                ]
+            },
+            "sm_gibbs_energy": {
+                "values": [
+                    0
+                ],
+                "units": [
+                    "kJ/mol"
+                ]
+            },
+            "datasources": [
+                "PSI2020"
+            ],
+            "time_stamp": {
+                "year": 2020,
+                "month": 11,
+                "day": 17,
+                "hour": 15,
+                "minute": 36,
+                "second": 25
+            }
+        }
+    },
+    {
+        "_key": "Po+4;2:SC_AQSOLUTE;26:PSI_NAGRA20",
+        "_id": "substances/Po+4;2:SC_AQSOLUTE;26:PSI_NAGRA20",
+        "_rev": "_dGKPXaO---",
+        "_type": "vertex",
+        "_label": "substance",
+        "properties": {
+            "symbol": "Po+4",
+            "sourcetdb": {
+                "26": "PSI_NAGRA20"
+            },
+            "formula": "Po+4",
+            "name": "Po+4",
+            "class_": {
+                "2": "SC_AQSOLUTE"
+            },
+            "aggregate_state": {
+                "4": "AS_AQUEOUS"
+            },
+            "Tst": 298.15,
+            "Pst": 100000,
+            "sm_enthalpy": {
+                "values": [
+                    0.0
+                ],
+                "status": [
+                    {
+                        "1": "ENTERED"
+                    }
+                ],
+                "units": [
+                    "J/mol"
+                ]
+            },
+            "sm_gibbs_energy": {
+                "values": [
+                    276.5
+                ],
+                "units": [
+                    "kJ/mol"
+                ]
+            },
+            "datasources": [
+                "PSI2020"
+            ],
+            "time_stamp": {
+                "year": 2020,
+                "month": 11,
+                "day": 17,
+                "hour": 9,
+                "minute": 2,
+                "second": 12
+            }
+        }
+    },
+    {
+        "_key": "IO3-;2:SC_AQSOLUTE;26:PSI_NAGRA20",
+        "_id": "substances/IO3-;2:SC_AQSOLUTE;26:PSI_NAGRA20",
+        "_rev": "_dGKPY4y---",
+        "_type": "vertex",
+        "_label": "substance",
+        "properties": {
+            "symbol": "IO3-",
+            "sourcetdb": {
+                "26": "PSI_NAGRA20"
+            },
+            "formula": "I|+5|O3-",
+            "name": "_rdc_IO3-",
+            "class_": {
+                "2": "SC_AQSOLUTE"
+            },
+            "aggregate_state": {
+                "4": "AS_AQUEOUS"
+            },
+            "Tst": 298.15,
+            "Pst": 100000,
+            "sm_enthalpy": {
+                "values": [
+                    -219700
+                ],
+                "status": [
+                    {
+                        "1": "ENTERED"
+                    }
+                ],
+                "units": [
+                    "J/mol"
+                ]
+            },
+            "sm_gibbs_energy": {
+                "values": [
+                    -126326.29082
+                ],
+                "status": [
+                    {
+                        "3": "CALCULATED"
+                    }
+                ],
+                "units": [
+                    "J/mol"
+                ]
+            },
+            "datasources": [
+                "PSI2020"
+            ],
+            "time_stamp": {
+                "year": 2020,
+                "month": 12,
+                "day": 3,
+                "hour": 14,
+                "minute": 47,
+                "second": 27
+            }
+        }
+    },
+    {
+        "_key": "I2(aq);2:SC_AQSOLUTE;26:PSI_NAGRA20",
+        "_id": "substances/I2(aq);2:SC_AQSOLUTE;26:PSI_NAGRA20",
+        "_rev": "_dGKPY92---",
+        "_type": "vertex",
+        "_label": "substance",
+        "properties": {
+            "symbol": "I2(aq)",
+            "sourcetdb": {
+                "26": "PSI_NAGRA20"
+            },
+            "formula": "I|0|2@",
+            "name": "_rdc_I2(aq)",
+            "class_": {
+                "2": "SC_AQSOLUTE"
+            },
+            "aggregate_state": {
+                "4": "AS_AQUEOUS"
+            },
+            "Tst": 298.15,
+            "Pst": 100000,
+            "sm_enthalpy": {
+                "values": [
+                    0.0
+                ],
+                "status": [
+                    {
+                        "1": "ENTERED"
+                    }
+                ],
+                "units": [
+                    "J/mol"
+                ]
+            },
+            "sm_gibbs_energy": {
+                "values": [
+                    16135.480548
+                ],
+                "status": [
+                    {
+                        "3": "CALCULATED"
+                    }
+                ],
+                "units": [
+                    "J/mol"
+                ]
+            },
+            "datasources": [
+                "PSI2020"
+            ],
+            "time_stamp": {
+                "year": 2020,
+                "month": 12,
+                "day": 3,
+                "hour": 14,
+                "minute": 47,
+                "second": 27
+            }
+        }
+    },
+    {
+        "_key": "Cu+;2:SC_AQSOLUTE;26:PSI_NAGRA20",
+        "_id": "substances/Cu+;2:SC_AQSOLUTE;26:PSI_NAGRA20",
+        "_rev": "_dGKPj5m---",
+        "_type": "vertex",
+        "_label": "substance",
+        "properties": {
+            "symbol": "Cu+",
+            "sourcetdb": {
+                "26": "PSI_NAGRA20"
+            },
+            "formula": "Cu|+1|+",
+            "name": "Cu+",
+            "class_": {
+                "2": "SC_AQSOLUTE"
+            },
+            "aggregate_state": {
+                "4": "AS_AQUEOUS"
+            },
+            "Tst": 298.15,
+            "Pst": 100000,
+            "sm_enthalpy": {
+                "values": [
+                    71670
+                ],
+                "status": [
+                    {
+                        "1": "ENTERED"
+                    }
+                ],
+                "units": [
+                    "J/mol"
+                ]
+            },
+            "sm_gibbs_energy": {
+                "values": [
+                    48.96
+                ],
+                "errors": [
+                    0.8
+                ],
+                "units": [
+                    "kJ/mol"
+                ]
+            },
+            "datasources": [
+                "PSI2020"
+            ],
+            "time_stamp": {
+                "year": 2020,
+                "month": 11,
+                "day": 16,
+                "hour": 15,
+                "minute": 13,
+                "second": 1
+            }
+        }
+    },
+    {
+        "_key": "Ti(alpha);0:SC_COMPONENT;26:PSI_NAGRA20",
+        "_id": "substances/Ti(alpha);0:SC_COMPONENT;26:PSI_NAGRA20",
+        "_rev": "_dGKP31----",
+        "_type": "vertex",
+        "_label": "substance",
+        "properties": {
+            "symbol": "Ti(alpha)",
+            "sourcetdb": {
+                "26": "PSI_NAGRA20"
+            },
+            "formula": "Ti|0|",
+            "name": "_rdc_Titanium",
+            "class_": {
+                "0": "SC_COMPONENT"
+            },
+            "aggregate_state": {
+                "3": "AS_CRYSTAL"
+            },
+            "Tst": 298.15,
+            "Pst": 100000,
+            "sm_enthalpy": {
+                "values": [
+                    0.0
+                ],
+                "status": [
+                    {
+                        "1": "ENTERED"
+                    }
+                ],
+                "units": [
+                    "J/mol"
+                ]
+            },
+            "sm_gibbs_energy": {
+                "values": [
+                    -60.694957
+                ],
+                "status": [
+                    {
+                        "3": "CALCULATED"
+                    }
+                ],
+                "units": [
+                    "J/mol"
+                ]
+            },
+            "datasources": [
+                "PSI2020"
+            ],
+            "time_stamp": {
+                "year": 2020,
+                "month": 11,
+                "day": 17,
+                "hour": 11,
+                "minute": 8,
+                "second": 15
+            }
+        }
+    },
+    {
+        "_key": "TiO+2;2:SC_AQSOLUTE;26:PSI_NAGRA20",
+        "_id": "substances/TiO+2;2:SC_AQSOLUTE;26:PSI_NAGRA20",
+        "_rev": "_dGKP32G---",
+        "_type": "vertex",
+        "_label": "substance",
+        "properties": {
+            "symbol": "TiO+2",
+            "sourcetdb": {
+                "26": "PSI_NAGRA20"
+            },
+            "formula": "TiO+2",
+            "name": "TiO+2",
+            "class_": {
+                "2": "SC_AQSOLUTE"
+            },
+            "aggregate_state": {
+                "4": "AS_AQUEOUS"
+            },
+            "Tst": 298.15,
+            "Pst": 100000,
+            "sm_enthalpy": {
+                "values": [
+                    0.0
+                ],
+                "status": [
+                    {
+                        "1": "ENTERED"
+                    }
+                ],
+                "units": [
+                    "J/mol"
+                ]
+            },
+            "sm_gibbs_energy": {
+                "values": [
+                    -577.4
+                ],
+                "errors": [
+                    2.5
+                ],
+                "units": [
+                    "kJ/mol"
+                ]
+            },
+            "datasources": [
+                "PSI2020"
+            ],
+            "time_stamp": {
+                "year": 2020,
+                "month": 11,
+                "day": 17,
+                "hour": 11,
+                "minute": 8,
+                "second": 15
+            }
+        }
+    },
+    {
+        "_key": "Se(aq);2:SC_AQSOLUTE;26:PSI_NAGRA20",
+        "_id": "substances/Se(aq);2:SC_AQSOLUTE;26:PSI_NAGRA20",
+        "_rev": "_dGKP4Si---",
+        "_type": "vertex",
+        "_label": "substance",
+        "properties": {
+            "symbol": "Se(aq)",
+            "sourcetdb": {
+                "26": "PSI_NAGRA20"
+            },
+            "formula": "Se|0|@",
+            "name": "_rdc_Se(aq)",
+            "class_": {
+                "2": "SC_AQSOLUTE"
+            },
+            "aggregate_state": {
+                "4": "AS_AQUEOUS"
+            },
+            "Tst": 298.15,
+            "Pst": 100000,
+            "sm_enthalpy": {
+                "values": [
+                    0.0
+                ],
+                "status": [
+                    {
+                        "1": "ENTERED"
+                    }
+                ],
+                "units": [
+                    "J/mol"
+                ]
+            },
+            "sm_gibbs_energy": {
+                "values": [
+                    34248.252186
+                ],
+                "status": [
+                    {
+                        "3": "CALCULATED"
+                    }
+                ],
+                "units": [
+                    "J/mol"
+                ]
+            },
+            "datasources": [
+                "PSI2020"
+            ],
+            "time_stamp": {
+                "year": 2020,
+                "month": 11,
+                "day": 17,
+                "hour": 8,
+                "minute": 4,
+                "second": 17
+            }
+        }
+    },
+    {
+        "_key": "Po+2;2:SC_AQSOLUTE;26:PSI_NAGRA20",
+        "_id": "substances/Po+2;2:SC_AQSOLUTE;26:PSI_NAGRA20",
+        "_rev": "_dGKQBv6---",
+        "_type": "vertex",
+        "_label": "substance",
+        "properties": {
+            "symbol": "Po+2",
+            "sourcetdb": {
+                "26": "PSI_NAGRA20"
+            },
+            "formula": "Po|2|+2",
+            "name": "Po+2",
+            "class_": {
+                "2": "SC_AQSOLUTE"
+            },
+            "aggregate_state": {
+                "4": "AS_AQUEOUS"
+            },
+            "Tst": 298.15,
+            "Pst": 100000,
+            "sm_enthalpy": {
+                "values": [
+                    0.0
+                ],
+                "status": [
+                    {
+                        "1": "ENTERED"
+                    }
+                ],
+                "units": [
+                    "J/mol"
+                ]
+            },
+            "sm_gibbs_energy": {
+                "values": [
+                    124.1
+                ],
+                "units": [
+                    "kJ/mol"
+                ]
+            },
+            "datasources": [
+                "PSI2020"
+            ],
+            "time_stamp": {
+                "year": 2020,
+                "month": 11,
+                "day": 17,
+                "hour": 9,
+                "minute": 2,
+                "second": 12
+            }
+        }
+    },
+    {
+        "_key": "TcO(OH)2(aq);2:SC_AQSOLUTE;26:PSI_NAGRA20",
+        "_id": "substances/TcO(OH)2(aq);2:SC_AQSOLUTE;26:PSI_NAGRA20",
+        "_rev": "_dGKQB86---",
+        "_type": "vertex",
+        "_label": "substance",
+        "properties": {
+            "symbol": "TcO(OH)2(aq)",
+            "sourcetdb": {
+                "26": "PSI_NAGRA20"
+            },
+            "formula": "Tc|+4|O(OH)2@",
+            "name": "TcO(OH)2(aq)",
+            "class_": {
+                "2": "SC_AQSOLUTE"
+            },
+            "aggregate_state": {
+                "4": "AS_AQUEOUS"
+            },
+            "Tst": 298.15,
+            "Pst": 100000,
+            "sm_enthalpy": {
+                "values": [
+                    0.0
+                ],
+                "status": [
+                    {
+                        "1": "ENTERED"
+                    }
+                ],
+                "units": [
+                    "J/mol"
+                ]
+            },
+            "sm_gibbs_energy": {
+                "values": [
+                    -572.47
+                ],
+                "errors": [
+                    10.89
+                ],
+                "units": [
+                    "kJ/mol"
+                ]
+            },
+            "datasources": [
+                "PSI2020"
+            ],
+            "time_stamp": {
+                "year": 2020,
+                "month": 11,
+                "day": 16,
+                "hour": 15,
+                "minute": 13,
+                "second": 14
+            }
+        }
+    },
+    {
+        "_key": "Ti+3;2:SC_AQSOLUTE;26:PSI_NAGRA20",
+        "_id": "substances/Ti+3;2:SC_AQSOLUTE;26:PSI_NAGRA20",
+        "_rev": "_dGKQD6i---",
+        "_type": "vertex",
+        "_label": "substance",
+        "properties": {
+            "symbol": "Ti+3",
+            "sourcetdb": {
+                "26": "PSI_NAGRA20"
+            },
+            "formula": "Ti|+3|+3",
+            "name": "Ti+3",
+            "class_": {
+                "2": "SC_AQSOLUTE"
+            },
+            "aggregate_state": {
+                "4": "AS_AQUEOUS"
+            },
+            "Tst": 298.15,
+            "Pst": 100000,
+            "sm_enthalpy": {
+                "values": [
+                    0.0
+                ],
+                "status": [
+                    {
+                        "1": "ENTERED"
+                    }
+                ],
+                "units": [
+                    "J/mol"
+                ]
+            },
+            "sm_gibbs_energy": {
+                "values": [
+                    -350
+                ],
+                "errors": [
+                    5
+                ],
+                "units": [
+                    "kJ/mol"
+                ]
+            },
+            "datasources": [
+                "PSI2020"
+            ],
+            "time_stamp": {
+                "year": 2020,
+                "month": 11,
+                "day": 17,
+                "hour": 11,
+                "minute": 8,
+                "second": 15
+            }
+        }
+    },
+    {
+        "_key": "Po-2;2:SC_AQSOLUTE;26:PSI_NAGRA20",
+        "_id": "substances/Po-2;2:SC_AQSOLUTE;26:PSI_NAGRA20",
+        "_rev": "_dGKQEXC---",
+        "_type": "vertex",
+        "_label": "substance",
+        "properties": {
+            "symbol": "Po-2",
+            "sourcetdb": {
+                "26": "PSI_NAGRA20"
+            },
+            "formula": "Po|-2|-2",
+            "name": "Po-2",
+            "class_": {
+                "2": "SC_AQSOLUTE"
+            },
+            "aggregate_state": {
+                "4": "AS_AQUEOUS"
+            },
+            "Tst": 298.15,
+            "Pst": 100000,
+            "sm_enthalpy": {
+                "values": [
+                    0.0
+                ],
+                "status": [
+                    {
+                        "1": "ENTERED"
+                    }
+                ],
+                "units": [
+                    "J/mol"
+                ]
+            },
+            "sm_gibbs_energy": {
+                "values": [
+                    274
+                ],
+                "units": [
+                    "kJ/mol"
+                ]
+            },
+            "datasources": [
+                "PSI2020"
+            ],
+            "time_stamp": {
+                "year": 2020,
+                "month": 11,
+                "day": 17,
+                "hour": 9,
+                "minute": 2,
+                "second": 12
+            }
+        }
+    },
+    {
+        "_key": "Po(aq);2:SC_AQSOLUTE;26:PSI_NAGRA20",
+        "_id": "substances/Po(aq);2:SC_AQSOLUTE;26:PSI_NAGRA20",
+        "_rev": "_dGKQEYW---",
+        "_type": "vertex",
+        "_label": "substance",
+        "properties": {
+            "symbol": "Po(aq)",
+            "sourcetdb": {
+                "26": "PSI_NAGRA20"
+            },
+            "formula": "Po|0|@",
+            "name": "_rdc_Po(aq)",
+            "class_": {
+                "2": "SC_AQSOLUTE"
+            },
+            "aggregate_state": {
+                "4": "AS_AQUEOUS"
+            },
+            "Tst": 298.15,
+            "Pst": 100000,
+            "sm_enthalpy": {
+                "values": [
+                    0.0
+                ],
+                "status": [
+                    {
+                        "1": "ENTERED"
+                    }
+                ],
+                "units": [
+                    "J/mol"
+                ]
+            },
+            "sm_gibbs_energy": {
+                "values": [
+                    39956.294216
+                ],
+                "status": [
+                    {
+                        "3": "CALCULATED"
+                    }
+                ],
+                "units": [
+                    "J/mol"
+                ]
+            },
+            "datasources": [
+                "PSI2020"
+            ],
+            "time_stamp": {
+                "year": 2020,
+                "month": 11,
+                "day": 17,
+                "hour": 9,
+                "minute": 2,
+                "second": 12
+            }
+        }
+    },
+    {
+        "_key": "Tc+3;2:SC_AQSOLUTE;26:PSI_NAGRA20",
+        "_id": "substances/Tc+3;2:SC_AQSOLUTE;26:PSI_NAGRA20",
+        "_rev": "_dGKQEkG---",
+        "_type": "vertex",
+        "_label": "substance",
+        "properties": {
+            "symbol": "Tc+3",
+            "sourcetdb": {
+                "26": "PSI_NAGRA20"
+            },
+            "formula": "Tc|+3|+3",
+            "name": "Tc+3",
+            "class_": {
+                "2": "SC_AQSOLUTE"
+            },
+            "aggregate_state": {
+                "4": "AS_AQUEOUS"
+            },
+            "Tst": 298.15,
+            "Pst": 100000,
+            "sm_enthalpy": {
+                "values": [
+                    0.0
+                ],
+                "status": [
+                    {
+                        "1": "ENTERED"
+                    }
+                ],
+                "units": [
+                    "J/mol"
+                ]
+            },
+            "sm_gibbs_energy": {
+                "values": [
+                    71.2
+                ],
+                "errors": [
+                    11.2
+                ],
+                "units": [
+                    "kJ/mol"
+                ]
+            },
+            "datasources": [
+                "PSI2020"
+            ],
+            "time_stamp": {
+                "year": 2020,
+                "month": 11,
+                "day": 16,
+                "hour": 15,
+                "minute": 13,
+                "second": 14
+            }
+        }
+    },
+    {
+        "_key": "Pd(aq);2:SC_AQSOLUTE;26:PSI_NAGRA20",
+        "_id": "substances/Pd(aq);2:SC_AQSOLUTE;26:PSI_NAGRA20",
+        "_rev": "_dGKQEmC---",
+        "_type": "vertex",
+        "_label": "substance",
+        "properties": {
+            "symbol": "Pd(aq)",
+            "sourcetdb": {
+                "26": "PSI_NAGRA20"
+            },
+            "formula": "Pd|0|@",
+            "name": "_rdc_Pd(aq)",
+            "class_": {
+                "2": "SC_AQSOLUTE"
+            },
+            "aggregate_state": {
+                "4": "AS_AQUEOUS"
+            },
+            "Tst": 298.15,
+            "Pst": 100000,
+            "sm_enthalpy": {
+                "values": [
+                    0.0
+                ],
+                "status": [
+                    {
+                        "1": "ENTERED"
+                    }
+                ],
+                "units": [
+                    "J/mol"
+                ]
+            },
+            "sm_gibbs_energy": {
+                "values": [
+                    54226.399294
+                ],
+                "status": [
+                    {
+                        "3": "CALCULATED"
+                    }
+                ],
+                "units": [
+                    "J/mol"
+                ]
+            },
+            "datasources": [
+                "PSI2020"
+            ],
+            "time_stamp": {
+                "year": 2020,
+                "month": 11,
+                "day": 16,
+                "hour": 15,
+                "minute": 42,
+                "second": 46
+            }
+        }
+    },
+    {
+        "_key": "Pb(aq);2:SC_AQSOLUTE;26:PSI_NAGRA20",
+        "_id": "substances/Pb(aq);2:SC_AQSOLUTE;26:PSI_NAGRA20",
+        "_rev": "_dGKQEsu---",
+        "_type": "vertex",
+        "_label": "substance",
+        "properties": {
+            "symbol": "Pb(aq)",
+            "sourcetdb": {
+                "26": "PSI_NAGRA20"
+            },
+            "formula": "Pb|0|@",
+            "name": "_rdc_Pb(aq)",
+            "class_": {
+                "2": "SC_AQSOLUTE"
+            },
+            "aggregate_state": {
+                "4": "AS_AQUEOUS"
+            },
+            "Tst": 298.15,
+            "Pst": 100000,
+            "sm_enthalpy": {
+                "values": [
+                    0.0
+                ],
+                "status": [
+                    {
+                        "1": "ENTERED"
+                    }
+                ],
+                "units": [
+                    "J/mol"
+                ]
+            },
+            "sm_gibbs_energy": {
+                "values": [
+                    41668.706826
+                ],
+                "status": [
+                    {
+                        "3": "CALCULATED"
+                    }
+                ],
+                "units": [
+                    "J/mol"
+                ]
+            },
+            "datasources": [
+                "PSI2020"
+            ],
+            "time_stamp": {
+                "year": 2020,
+                "month": 11,
+                "day": 16,
+                "hour": 15,
+                "minute": 10,
+                "second": 49
+            }
+        }
+    }
+]

@@ -1,0 +1,38 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.sourcetdb" :   "{\"1001\" :   \"WORK1\"}",
+               "properties.class_": "{\"0\" :   \"SC_COMPONENT\"}",
+               "properties.aggregate_state" : "{\"3\" :   \"AS_CRYSTAL\"}",
+               "properties.Tst": 298.15,
+               "properties.Pst": 1e5
+          },
+          "matches" :   {
+               "symbol" :   {
+                    "field" :   "properties.symbol"
+               },
+               "formula" :   {
+                    "field" :   "properties.formula"
+               },
+               "H" :   {
+                    "field" :   "properties.sm_enthalpy.values"
+               },
+               "H_error" :   {
+                    "field" :   "properties.sm_enthalpy.errors"
+               },
+               "S" :   {
+                    "field" :   "properties.sm_entropy_abs.values"
+               },
+               "Cp" :   {
+                    "field" :   "properties.sm_heat_capacity_p.values"
+               },
+               "V" :   {
+                    "field" :   "properties.sm_volume.values"
+               }
+          },
+          "script" :   ""
+     },
+     "renderer" :   "JSON",
+     "label" :   "VertexSubstance",
+     "comment" :   "Import"
+}

@@ -1,0 +1,5 @@
+﻿Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
+SnO(s),SnO(s),Sn|+2|O,s,-1.6,0.3,,,,,,,1 Sn+2 1 H2O(l) -2 H+ = SnO(s)
+SnO2(cr),cassiterite,Sn|+4|O2,s,8.06,0.11,,,,,,,1 Sn(OH)4(aq) -2 H2O(l) = SnO2(cr)
+SnO2(am),SnO2(am),Sn|+4|O2,s,7.22,0.08,,,,,,,1 Sn(OH)4(aq) -2 H2O(l) = SnO2(am)
+CaSn(OH)6(pr),CaSn(OH)6(pr),CaSn|+4|(OH)6,s,9.7,0.1,,,,,,,1 Sn(OH)6-2 1 Ca+2 = CaSn(OH)6(pr)

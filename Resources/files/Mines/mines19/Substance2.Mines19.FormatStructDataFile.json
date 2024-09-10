@@ -1,0 +1,334 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.sourcetdb" :   "{\"26\" :   \"MINES19\"}",
+               "properties.TPMethods" :   "[{\"method\":{}}, {\"method\":{}}, {\"method\":{}}]",
+               "properties.temp_import" :   "[{}, {}]"
+          },
+          "matches" :   {
+               "key.0.fv" :   {
+                    "field" :   "properties.aggregate_state",
+                    "convert" :   {
+                         "a" :   "{\"4\" :   \"AS_AQUEOUS\"}",
+                         "g" :   "{\"0\" :   \"AS_GAS\"}",
+                         "c" :   "{\"3\" :   \"AS_CRYSTAL\"}",
+                         "s" :   "{\"3\" :   \"AS_CRYSTAL\"}",
+                         "l" :   "{\"1\" :   \"AS_LIQUID\"}",
+                         "f" :   "{\"0\" :   \"AS_GAS\"}",
+                         "p" :   "{\"8\" :   \"AS_PLASMA\"}"
+                    }
+               },
+               "dod.10.val.1" :   {
+                    "field" :   "properties.Tst",
+                    "script" :   "field = field+273.15"
+               },
+               "dod.10.val.0" :   {
+                    "field" :   "properties.Pst",
+                    "script" :   "field = field*1e05"
+               },
+               "dod.14.val" :   {
+                    "field" :   "properties.name"
+               },
+               "dod.15.val" :   {
+                    "field" :   "properties.formula"
+               },
+               "dod.0.val.0" :   {
+                    "field" :   "properties.TPMethods.0.method",
+                    "convert" :   {
+                         "C" :   "{\"0\" :   \"cp_ft_equation\"}",
+                         "H" :   "{\"3\" :   \"solute_hkf88_reaktoro\"}"
+                    }
+               },
+               "dod.0.val.1" :   {
+                    "field" :   "properties.TPMethods.1.method",
+                    "convert" :   {
+                         "H" :   "{\"5\" :   \"landau_holland_powell98\"}",
+                         "B" :   "{\"6\" :   \"landau_berman88\"}",
+                         "F" :   "{\"1\" :   \"cp_ft_equation_saxena86\"}",
+                         "W" :   "{\"31\" :  \"water_eos_hgk84_reaktoro\"}",
+                         "V" :   "{\"32\" :  \"water_eos_iapws95_reaktoro\"}",
+                         "S" :   "{\"43\" :  \"standard_entropy_cp_integration\"}"
+                    }
+               },
+               "dod.0.val.2" :   {
+                    "field" :   "properties.TPMethods.2.method",
+                    "convert" :   {
+                         "N" :   "{\"40\" :   \"mv_pvnrt\"}",
+                         "1" :   "{\"34\" :   \"mv_constant\"}",
+                         "C" :   "{\"34\" :   \"mv_constant\"}",
+                         "K" :   "{\"35\" :   \"mv_equation_dorogokupets88\"}",
+                         "V" :   "{\"36\" :   \"mv_equation_berman88\"}",
+                         "B" :   "{\"37\" :   \"mv_eos_birch_murnaghan_gott97\"}",
+                         "E" :   "{\"38\" :   \"mv_eos_murnaghan_hp98\"}",
+                         "H" :   "{\"39\" :   \"mv_eos_tait_hp11\"}",
+                         "G" :   "{\"8\" :    \"fug_critical_param\"}",
+                         "R" :   "{\"9\" :    \"fluid_prsv\"}",
+                         "S" :   "{\"10\" :   \"fluid_churakov_gottschalk\"}",
+                         "T" :   "{\"11\" :   \"fluid_soave_redlich_kwong\"}",
+                         "6" :   "{\"12\" :   \"fluid_sterner_pitzer\"}",
+                         "7" :   "{\"13\" :   \"fluid_peng_robinson78\"}",
+                         "8" :   "{\"14\" :   \"fluid_comp_redlich_kwong_hp91\"}",
+                         "A" :   "{\"4\" :    \"solute_aknifiev_diamond03\"}"
+                    }
+               },
+               "dod.18.val" :   {
+                    "field" :   "properties.TPMethods.0.m_heat_capacity_ft_coeffs.values",
+                    "script" :   "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
+               },
+               "dod.19.val" :   {
+                    "field" :   "properties.TPMethods.2.eos_akinfiev_diamond_coeffs.values",
+                    "script" :   "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
+               },
+               "dod.20.val" :   {
+                    "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values",
+                    "script" :   "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
+               },
+               "dod.21.val" :   {
+                    "field" :   "properties.TPMethods.2.m_volume_fpt_coeffs.values",
+                    "script" :   "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
+               },
+               "dod.22.val" :   {
+                    "field" :   "properties.TPMethods.2.eos_gas_crit_props.values",
+                    "script" :   "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
+               },
+               "dod.25.val" :   {
+                    "field" :   "properties.TPMethods.1.m_landau_phase_trans_props.values",
+                    "script" :   "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
+               },
+               "dod.26.val" :   {
+                    "field" :   "properties.TPMethods.2.eos_churakov_gottschalk_coeffs.values",
+                    "script" :   "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
+               },
+               "dod.11.val" :   {
+                    "field" :   "properties.TPMethods.1.m_lambda_trans_props.values",
+                    "script" :   "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
+               },
+               "key.2.fv" :   {
+                    "field" :   "properties.symbol"
+               },
+               "dod.1.val.0" :   {
+                    "field" :   "properties.class_",
+                    "convert" :   {
+                         "d" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "r" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "n" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "i" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "f" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "T" :   "{\"2\" :   \"SC_AQSOLUTE\"}",
+                         "E" :   "{\"2\" :   \"SC_AQSOLUTE\"}",
+                         "S" :   "{\"2\" :   \"SC_AQSOLUTE\"}",
+                         "K" :   "{\"4\" :   \"SC_SURFSPECIES\"}",
+                         "W" :   "{\"3\" :   \"SC_AQSOLVENT\"}",
+                         "L" :   "{\"3\" :   \"SC_AQSOLVENT\"}",
+                         "G" :   "{\"1\" :   \"SC_GASFLUID\"}",
+                         "V" :   "{\"1\" :   \"SC_GASFLUID\"}",
+                         "C" :   "{\"1\" :   \"SC_GASFLUID\"}",
+                         "H" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "N" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "I" :   "{\"0\" :   \"SC_COMPONENT\"}",
+                         "J" :   "{\"0\" :   \"SC_COMPONENT\"}",
+                         "M" :   "{\"0\" :   \"SC_COMPONENT\"}",
+                         "F" :   "{\"0\" :   \"SC_COMPONENT\"}",
+                         "D" :   "{\"0\" :   \"SC_COMPONENT\"}",
+                         "Q" :   "{\"0\" :   \"SC_COMPONENT\"}",
+                         "P" :   "{\"0\" :   \"SC_COMPONENT\"}",
+                         "R" :   "{\"0\" :   \"SC_COMPONENT\"}",
+                         "0" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "2" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "4" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "6" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "8" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "1" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "3" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "5" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "7" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "9" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "A" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "B" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "X" :   "{\"4\" :   \"SC_SURFSPECIES\"}",
+                         "Y" :   "{\"4\" :   \"SC_SURFSPECIES\"}",
+                         "Z" :   "{\"4\" :   \"SC_SURFSPECIES\"}",
+                         "O" :   "{\"0\" :   \"SC_COMPONENT\"}"
+                    }
+               },
+               "dod.3.val" :   {
+                    "field" :   "properties.formula_charge"
+               },
+               "dod.4.val" :   {
+                    "field" :   "properties.mass_per_mole"
+               },
+               "dod.5.val.0" :   {
+                    "field" :   "properties.sm_volume.values"
+               },
+               "dod.6.val.0" :   {
+                    "field" :   "properties.sm_gibbs_energy.values"
+               },
+               "dod.7.val.0" :   {
+                    "field" :   "properties.sm_enthalpy.values"
+               },
+               "dod.8.val.0" :   {
+                    "field" :   "properties.sm_entropy_abs.values"
+               },
+               "dod.9.val.0" :   {
+                    "field" :   "properties.sm_heat_capacity_p.values"
+               },
+               "dod.12.val.0" :   {
+                    "field" :   "properties.m_compressibility.values"
+               },
+               "dod.12.val.1" :   {
+                    "field" :   "properties.m_expansivity.values"
+               },
+               "dod.13.val" :   {
+                    "field" :   "properties.aq_edh_props.values",
+                    "script" :   "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
+               },
+               "dod.29.val" :   {
+                    "field" :   "properties.comment"
+               },
+               "dod.28.val" :   {
+                    "field" :   "properties.datasources"
+               },
+               "dod.17.val.0" :   {
+                    "field" :   "properties.TPMethods.0.limitsTP.lowerT",
+                    "script" :   "field = field+273.15"
+               },
+               "dod.17.val.1" :   {
+                    "field" :   "properties.TPMethods.0.limitsTP.upperT",
+                    "script" :   "field = field + 273.15"
+               },
+               "dod.17.val" :   {
+                    "field" :   "properties.temp_import.0.values",
+                    "script" :   "for k,v in pairs(field) do field[k]=field[k]+273.15 end"
+               },
+               "dod.24.val" :   {
+                    "field" :   "properties.temp_import.1.values"
+               },
+               "dod.6.val.1" :   {
+                    "field" :   "properties.sm_gibbs_energy.errors"
+               },
+               "dod.5.val.1" :   {
+                    "field" :   "properties.sm_volume.errors"
+               },
+               "dod.7.val.1" :   {
+                    "field" :   "properties.sm_enthalpy.errors"
+               },
+               "dod.8.val.1" :   {
+                    "field" :   "properties.sm_entropy_abs.errors"
+               },
+               "dod.9.val.1" :   {
+                    "field" :   "properties.sm_heat_capacity_p.errors"
+               }
+          },
+          "script" :   "
+          print(rintable.properties.symbol)
+if rintable.properties.formula == 'H+' then
+     rintable.properties.TPMethods = nil
+     rintable.properties.temp_import = nil
+else
+          if rintable.properties.formula == 'H2O@' or rintable.properties.formula == 'H2O' then if rintable.properties.class_['3'] then if rintable.properties.class_['3'] == 'SC_AQSOLVENT' then rintable.properties.TPMethods[1].method={} rintable.properties.TPMethods[1].method['32']='water_eos_iapws95_reaktoro' rintable.properties.TPMethods[2].method={} rintable.properties.TPMethods[2].method['25']='water_diel_jnort91_reaktoro' end end end;
+          if next(rintable.properties.TPMethods[3].method) == nil then table.remove(rintable.properties.TPMethods, 3) end;
+          if next(rintable.properties.TPMethods[2].method) == nil then table.remove(rintable.properties.TPMethods, 2) end;
+          if next(rintable.properties.TPMethods[1].method) == nil then table.remove(rintable.properties.TPMethods, 1) end;
+if rintable.properties.temp_import[1].values ~= nil then
+    t = rintable.properties.temp_import[1].values
+    n = 0
+    for k,v in pairs(t) do n = n+1 end
+    if n>2 then n=n/2
+        param = rintable.properties.TPMethods[1].m_heat_capacity_ft_coeffs.values
+        ft = rintable.properties.temp_import[2].values
+        for j=1,n do
+            size=0
+            for k,v in pairs(rintable.properties.TPMethods) do size = size+1 end
+            for i=size,j do
+                rintable.properties.TPMethods[i+1] = rintable.properties.TPMethods[i]
+            end
+            rintable.properties.TPMethods[j] = {}
+            rintable.properties.TPMethods[j].method = {}
+            rintable.properties.TPMethods[j].method['0']='cp_ft_equation'
+            rintable.properties.TPMethods[j].limitsTP = {}
+            rintable.properties.TPMethods[j].limitsTP.range = true
+            rintable.properties.TPMethods[j].limitsTP.lowerT=t[j+((n)*0)]
+            rintable.properties.TPMethods[j].limitsTP.upperT=t[j+((n)*1)]
+	    if ft ~= nil then
+            if (j<n) then
+                m_phase_trans_props = {}
+                for p=0,4 do
+                    m_phase_trans_props[p+1] = ft[j+((n-1)*p)]
+                    if (p==0) then
+                        m_phase_trans_props[p+1] = m_phase_trans_props[p+1]+273.15
+                    end
+                end
+                rintable.properties.TPMethods[j].m_phase_trans_props = {}
+                rintable.properties.TPMethods[j].m_phase_trans_props.values = m_phase_trans_props
+                rintable.properties.TPMethods[j].m_phase_trans_props.names = {'Temperature','dS','dH', 'dV', 'dT/dP'}
+                rintable.properties.TPMethods[j].m_phase_trans_props.units = {'K','J/(mol*K)', 'J/mol', 'J/bar', 'K/bar' }
+                --[[ for k,v in pairs(m_phase_trans_props) do print(v) end ]]
+            end
+	    end
+            cp_coeffs = {0,0,0,0,0,0,0,0,0,0,0}
+            for p=0,10 do
+                cp_coeffs[p+1] = param[j+((n)*p)]
+            end
+            rintable.properties.TPMethods[j].m_heat_capacity_ft_coeffs = {}
+            rintable.properties.TPMethods[j].m_heat_capacity_ft_coeffs.values = cp_coeffs
+            rintable.properties.TPMethods[j].m_heat_capacity_ft_coeffs.names = {'a0','a1','a2','a3','a4','a5','a6','a7','a8','a9','a10'}
+            rintable.properties.TPMethods[j].m_heat_capacity_ft_coeffs.units = {'J/(mol*K)','J/(mol*K^2)','(J*K)/mol','J/(mol*K^0.5)','J/(mol*K^3)', 
+                                                                                'J/(mol*K^4)','J/(mol*K^5)','(J*K^2)/mol','J/mol','J/(mol*K^1.5)','J/(mol*K)'}
+            --[[ for k,v in pairs(cp_coeffs) do print(v) end ]]
+        end
+    end
+end;
+
+if rintable.properties.aq_edh_props ~= nil then
+     rintable.properties.aq_edh_props.names = {'a0','b'}
+     rintable.properties.aq_edh_props.units = {'Å'}
+end
+if rintable.properties.sm_volume ~= nil then rintable.properties.sm_volume.units = {'J/bar'} end 
+if rintable.properties.sm_gibbs_energy ~= nil then rintable.properties.sm_gibbs_energy.units = {'J/mol'} end
+if rintable.properties.sm_enthalpy ~= nil then rintable.properties.sm_enthalpy.units = {'J/mol'} end 
+if rintable.properties.sm_entropy_abs ~= nil then rintable.properties.sm_entropy_abs.units = {'J/(mol*K)'} end
+if rintable.properties.sm_heat_capacity_p ~= nil then rintable.properties.sm_heat_capacity_p.units = {'J/(mol*K)'} end
+if rintable.properties.m_compressibility ~= nil then rintable.properties.m_compressibility.units = {'1e-05/K'} end
+if rintable.properties.m_expansivity ~= nil then rintable.properties.m_expansivity.units = {'kbar'} end
+--rintable.properties.temp_import = nil
+
+if rintable.properties.TPMethods[1].method['3']=='solute_hkf88_reaktoro' then
+     if rintable.properties.TPMethods[1].eos_hkf_coeffs ~= nil then
+     rintable.properties.TPMethods[1].eos_hkf_coeffs.names = {'a1','a2','a3','a4','c1','c2','wref'} 
+     rintable.properties.TPMethods[1].eos_hkf_coeffs.units = {'cal/(mol*bar)','cal/mol','(cal*K)/mol','cal/(mol*K)','(cal*K)/mol','cal/mol'}
+     else
+     table.remove(rintable.properties.TPMethods, 1)
+     end
+end
+if rintable.properties.TPMethods[1].method['0']=='cp_ft_equation' then
+     if rintable.properties.TPMethods[1].m_heat_capacity_ft_coeffs ~= nil then
+     t = rintable.properties.temp_import[1].values
+     rintable.properties.TPMethods[1].limitsTP = {}
+     rintable.properties.TPMethods[1].limitsTP.range = true
+     rintable.properties.TPMethods[1].limitsTP.lowerT=t[1]
+     rintable.properties.TPMethods[1].limitsTP.upperT=t[2]
+     rintable.properties.TPMethods[1].m_heat_capacity_ft_coeffs.names = {'a0','a1','a2','a3','a4','a5','a6','a7','a8','a9','a10'}
+     rintable.properties.TPMethods[1].m_heat_capacity_ft_coeffs.units = {'J/(mol*K)','J/(mol*K^2)','(J*K)/mol','J/(mol*K^0.5)','J/(mol*K^3)', 
+                                                                  'J/(mol*K^4)','J/(mol*K^5)','(J*K^2)/mol','J/mol','J/(mol*K^1.5)','J/(mol*K)'}
+     else
+     table.remove(rintable.properties.TPMethods, 1)
+     end
+     if rintable.properties.TPMethods[2] ~= nil then
+          if rintable.properties.TPMethods[2].method['43']=='standard_entropy_cp_integration' then
+          table.remove( rintable.properties.TPMethods, 2 )
+          end
+     end
+end
+rintable.properties.temp_import = nil
+for k,v in pairs(rintable.properties.TPMethods) do
+     if v.eos_gas_crit_props ~= nil and v.method['9']=='fluid_prsv' then
+	v.eos_gas_crit_props.names = {'Tcr','Pcr','W','k1'}
+	v.eos_gas_crit_props.units = {'K','bar','',''} end
+end
+end
+"
+     },
+     "renderer" :   "JSON",
+     "label" :   "VertexSubstance",
+     "comment" :   "Import"
+}

@@ -1,0 +1,42 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.radioactivity.decay_type" :   "{\"0\" :   \"STABLE\"}",
+               "properties.radioactivity.half_life_lambda.values" :   "[ 0 ]",
+               "properties.sourcetdb" :   "{\"11\" :   \"NEA\"}",
+               "properties.class_" :   "{\"0\" :   \"ELEMENT\"}",
+               "properties.datasources" :   "[\"T.J. Wolery and C.F.J. Colon, GCA, 2017.\"]"
+          },
+          "pairs" :   {
+
+          },
+          "matches" :   {
+               "symbol" :   {
+                    "field" :   "properties.symbol"
+               },
+               "name" :   {
+                "field" :   "properties.name"
+           },
+           "number" :   {
+                "field" :   "properties.number"
+            },
+            "stoi" :   {
+                "field" :   "properties.temp_import"
+            },
+               "value" :   {
+                    "field" :   "properties.entropy.values"
+               },
+               "error" :   {
+                    "field" :   "properties.entropy.errors"
+               }
+          },
+          "script": "if rintable.properties.entropy then 
+          if rintable.properties.temp_import[1] == \"2\" then rintable.properties.entropy.values[1] = tonumber(rintable.properties.entropy.values[1])/2 rintable.properties.entropy.errors[1] = tonumber(rintable.properties.entropy.errors[1])/2 end 
+          rintable.properties.entropy.units = {'J/(mol*K)'}
+          end
+          rintable.properties.temp_import = nil"
+     },
+     "renderer" :   "JSON",
+     "label" :   "VertexElement",
+     "comment" :   "Import"
+}

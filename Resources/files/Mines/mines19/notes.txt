@@ -1,0 +1,18 @@
+Elements from mines, new elements mines19 (maybe all mines?)
+
+Record Calculator OK
+Akermanite
+Andradite
+Anhidrite
+Antigorite???
+Aragonite*
+Adfersonite
+Ca-Tsche*
+Calcite*
+...
+
+removed TPMethods for reactions with lagrngian interpolation
+added cp coeffs with 0 for oldhamite
+added phase trans props for pyrrhotite 
+
+all tests ok - AD has some diffrences in Cp < 25 C
