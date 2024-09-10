@@ -1,0 +1,44 @@
+{
+     "block" :   {
+          "defaults" :   {
+            "properties.datasources" :   "[\"ThermoChimie12a\"]",
+            "properties.sourcetdb" :    "{\"25\" :   \"THERMOCHIMIE\"}",
+            "properties.stype" :    "{\"0\" :   \"RS_LMA\"}",
+            "properties.symbol" :   "\"rdc_THERMOCHIMIE10a\"",
+            "properties.name" :   "\"importPhreeqcdat\""
+          },
+          "pairs" :   {
+          },
+          "matches" :   {
+             
+          },
+          "script" :   ""
+     },
+     "format" :   {
+          "head_regexp" :   "(([\\.\\w\\t \\+\\-\\(\\):]*)\\s*=\\s*([^\\n;]*))[\\n;]{1}",
+          "end_regexp" :   "",
+          "key_regexp" :   "\\s*;*\\s*\\-{0,1}([a-z_A-Z]\\w*)\\s*",
+          "value_regexp" :   "\\s*([^#;\\n]*)",
+          "value_next" :   "",
+          "value_token_regexp" :   "\\s+",
+          "comment_regexp" :   "#([^\\n]*)\\n*",
+          "Ndata" :   0
+     },
+     "renderer" :   " ",
+     "label" :   "VertexReactionSet",
+     "separators" :   {
+          "v_sep" :   "",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0
+}
