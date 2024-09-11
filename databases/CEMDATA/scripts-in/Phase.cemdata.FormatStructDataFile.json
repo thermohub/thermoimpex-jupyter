@@ -1,0 +1,110 @@
+{
+    "block": {
+        "defaults": {
+               "properties.datasources" :   "[\"Cemdata18\"]",
+               "properties.sourcetdb" :   "{\"20\" :   \"CEMDATA18\"}",
+            "properties.aggregate_state": "{\"3\":\"AS_CRYSTAL\"}",
+            "properties.mixmod": "{\"0\":\"M_PURE\"}",
+            "properties.temp_import": "[\"\", \"\", \"\", \"\"]"
+        },
+        "pairs": {
+            "dod.ipxT" :   {
+                "organization" :   "string"
+            },
+            "dod.ph_cf" :   {
+                "organization" :   "string"
+            },
+            "dod.ipccl" :   {
+                "organization" :   "string"
+            },
+            "dod.ipicl" :   {
+                "organization" :   "string"
+            },
+            "dod.pDC_v_" :   {
+                "organization" :   "table"
+            },
+            "dod.pSDval" :   {
+                "organization" :   "table"
+            },
+            "dod.pSDref" :   {
+                "organization" :   "table"
+            }
+        },
+        "matches": {
+            "key.0" :   {
+               "field" :   "properties.aggregate_state",
+               "convert" :   {
+                  "a" :   "{\"4\" :   \"AS_AQUEOUS\"}",
+                  "g" :   "{\"0\" :   \"AS_GAS\"}",
+                  "c" :   "{\"3\" :   \"AS_CRYSTAL\"}",
+                  "s" :   "{\"3\" :   \"AS_CRYSTAL\"}",
+                  "l" :   "{\"1\" :   \"AS_LIQUID\"}",
+                  "f" :   "{\"0\" :   \"AS_GAS\"}",
+                  "p" :   "{\"8\" :   \"AS_PLASMA\"}"
+                 }
+            },
+            "key.2": {
+                "field": "properties.symbol"
+            },
+            "dod.p_solt.0.0" :   {
+                 "field" :   "properties.mixmod",
+                 "convert" :   {
+                     "N" :   "{\"0\" :   \"M_PURE\"}",
+                     "I" :   "{\"1\" :   \"M_IDEAL\"}",
+                     "R" :   "{\"2\" :   \"M_REGULAR\"}",
+                     "M" :   "{\"3\" :   \"M_MARGULES2\"}",
+                     "T" :   "{\"4\" :   \"M_MARGULES3\"}",
+                     "G" :   "{\"5\" :   \"M_REDKIST2\"}",
+                     "V" :   "{\"7\" :   \"M_VANLAAR\"}",
+                     "B" :   "{\"8\" :   \"M_BERMAN\"}",
+                     "$" :   "{\"9\" :   \"M_CEF\"}",
+                     "W" :   "{\"10\" :   \"M_WILSON\"}",
+                     "Q" :   "{\"12\" :   \"M_UNIQUAC\"}",
+                     "H" :   "{\"30\" :   \"M_AQSIT\"}",
+                     "D" :   "{\"30\" :   \"M_AQSIT\"}",
+                     "S" :   "{\"30\" :   \"M_AQSIT\"}",
+                     "Z" :   "{\"32\" :   \"M_AQPITZERHMW\"}",
+                     "L" :   "{\"13\" :   \"M_NRTL\"}",
+                     "X" :   "{\"14\" :   \"M_DONNAN\"}",
+                     "F" :   "{\"22\" :   \"M_CGFLUID\"}",
+                     "P" :   "{\"23\" :   \"M_PRFLUID\"}",
+                     "6" :   "{\"25\" :   \"M_STPFLUID\"}",
+                     "7" :   "{\"26\" :   \"M_PR78FLUID\"}",
+                     "8" :   "{\"27\" :   \"M_CORKFLUID\"}",
+                     "E" :   "{\"39\" :   \"M_SRFLUID\"}",
+                     "U" :   "{\"101\":\"M_OTHER\"}"
+                 }
+            },
+            "dod.PhName": {
+                "field": "properties.name"
+            },
+            "dod.PhNote": {
+                "field": "properties.comment"
+            },
+            "dod.pDC_v_": {
+                "field": "properties.substances",
+                "script" : "for k,v in ipairs(field) do field[k] = string.gsub( string.sub(field[k], 13,28), '%s+', '') end"
+            },
+            "dod.pSDref" :   {
+                 "field" :   "properties.datasources"
+            },
+            "dod.ipxT": {
+                "field": "properties.temp_import.0"
+            },
+            "dod.ph_cf": {
+                "field": "properties.temp_import.1"
+            },
+            "dod.ipccl" :   {
+                "field": "properties.temp_import.2"
+            },
+            "dod.ipicl" :   {
+                "field": "properties.temp_import.3"
+            }
+
+        },
+        "script": ""
+    },
+    "renderer": "JSON",
+    "label": "VertexPhase",
+    "comment": "gems3k test"
+}

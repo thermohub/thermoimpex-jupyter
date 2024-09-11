@@ -1,0 +1,6148 @@
+[
+    {
+        "dod": {
+            "Ascp": null,
+            "CDc": null,
+            "Cap_t": null,
+            "DQFc": null,
+            "DcEq": null,
+            "DisPar": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "EIpc": null,
+            "FSI_t": null,
+            "IsoC": null,
+            "IsoP": null,
+            "IsoS": null,
+            "MaSDj": null,
+            "MsDt": null,
+            "PEIpc": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Pdqf": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "PhDCC": [
+                [
+                    "O"
+                ]
+            ],
+            "PhDCS": [
+                [
+                    "d"
+                ]
+            ],
+            "PhEq": null,
+            "PhName": "Gibbsite Al(OH)3 (crystalline)",
+            "PhNote": "NAGRA-PSI database",
+            "Ph_Nc": [
+                [
+                    1,
+                    0
+                ]
+            ],
+            "Ph_Ps": [
+                [
+                    "s",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Ph_ncp": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Ph_npx": 0,
+            "Ph_nsc": 0,
+            "Ph_nsi": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "PrpCon": [
+                [
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "SAT_C": null,
+            "SCM_C": null,
+            "Vpor": [
+                [
+                    0,
+                    1,
+                    1,
+                    0
+                ]
+            ],
+            "XfIEC": null,
+            "apCon": null,
+            "dc_cf": null,
+            "dcpcl": null,
+            "dhc": null,
+            "dielc": null,
+            "eimLl": null,
+            "eimPl": null,
+            "feSAr": null,
+            "ipccl": null,
+            "ipicl": null,
+            "ipxT": null,
+            "ixdiel": null,
+            "ixsolv": null,
+            "kin_t": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "lDCd": null,
+            "lDCr": null,
+            "lICu": null,
+            "lPh": null,
+            "lPhC": null,
+            "lPhc": null,
+            "nEIl": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nIsoC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nlPh": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "numpC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "ocPRk": null,
+            "pDC_v_": [
+                [
+                    "s   AlOH    Gbs             dnp "
+                ]
+            ],
+            "pSDref": null,
+            "pSDval": null,
+            "p_solt": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "ph_cf": null,
+            "psdC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "rcpc": null,
+            "rpCon": null,
+            "rpkcl": null,
+            "rprcl": null,
+            "smcDl": null,
+            "smcSl": null,
+            "solvc": null,
+            "umpCon": null,
+            "umpcl": null,
+            "xSmD": null
+        },
+        "key": [
+            "s",
+            "AlOH",
+            "Gibbsite",
+            "c",
+            "nagra-psi_"
+        ],
+        "project": "phases-psina14"
+    },
+    {
+        "dod": {
+            "Ascp": null,
+            "CDc": null,
+            "Cap_t": null,
+            "DQFc": null,
+            "DcEq": null,
+            "DisPar": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "EIpc": null,
+            "FSI_t": null,
+            "IsoC": null,
+            "IsoP": null,
+            "IsoS": null,
+            "MaSDj": null,
+            "MsDt": null,
+            "PEIpc": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Pdqf": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "PhDCC": [
+                [
+                    "O"
+                ]
+            ],
+            "PhDCS": [
+                [
+                    "d"
+                ]
+            ],
+            "PhEq": null,
+            "PhName": "Kaolinite Al2Si2O5(OH)4      ",
+            "PhNote": "nagra-psi",
+            "Ph_Nc": [
+                [
+                    1,
+                    1
+                ]
+            ],
+            "Ph_Ps": [
+                [
+                    "s",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Ph_ncp": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Ph_npx": 0,
+            "Ph_nsc": 0,
+            "Ph_nsi": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "PrpCon": [
+                [
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "SAT_C": null,
+            "SCM_C": null,
+            "Vpor": [
+                [
+                    0,
+                    1,
+                    1,
+                    0
+                ]
+            ],
+            "XfIEC": null,
+            "apCon": null,
+            "dc_cf": null,
+            "dcpcl": null,
+            "dhc": null,
+            "dielc": null,
+            "eimLl": null,
+            "eimPl": null,
+            "feSAr": null,
+            "ipccl": null,
+            "ipicl": null,
+            "ipxT": null,
+            "ixdiel": null,
+            "ixsolv": null,
+            "kin_t": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "lDCd": null,
+            "lDCr": null,
+            "lICu": null,
+            "lPh": null,
+            "lPhC": null,
+            "lPhc": null,
+            "nEIl": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nIsoC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nlPh": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "numpC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "ocPRk": null,
+            "pDC_v_": [
+                [
+                    "s   AlSiOH  Kln             dnp "
+                ]
+            ],
+            "pSDref": [
+                [
+                    "                                "
+                ]
+            ],
+            "pSDval": [
+                [
+                    "                        "
+                ]
+            ],
+            "p_solt": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "ph_cf": null,
+            "psdC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "rcpc": null,
+            "rpCon": null,
+            "rpkcl": null,
+            "rprcl": null,
+            "smcDl": null,
+            "smcSl": null,
+            "solvc": null,
+            "umpCon": null,
+            "umpcl": null,
+            "xSmD": null
+        },
+        "key": [
+            "s",
+            "AlSiOH",
+            "Kaolinite",
+            "c",
+            "nagra-psi_"
+        ],
+        "project": "phases-psina14"
+    },
+    {
+        "dod": {
+            "Ascp": null,
+            "CDc": null,
+            "Cap_t": null,
+            "DQFc": null,
+            "DcEq": null,
+            "DisPar": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "EIpc": null,
+            "FSI_t": null,
+            "IsoC": null,
+            "IsoP": null,
+            "IsoS": null,
+            "MaSDj": null,
+            "MsDt": null,
+            "PEIpc": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Pdqf": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "PhDCC": [
+                [
+                    "O"
+                ]
+            ],
+            "PhDCS": [
+                [
+                    "d"
+                ]
+            ],
+            "PhEq": null,
+            "PhName": "Graphite C cryst.",
+            "PhNote": "nagra-psi",
+            "Ph_Nc": [
+                [
+                    1,
+                    0
+                ]
+            ],
+            "Ph_Ps": [
+                [
+                    "s",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Ph_ncp": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Ph_npx": 0,
+            "Ph_nsc": 0,
+            "Ph_nsi": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "PrpCon": [
+                [
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "SAT_C": null,
+            "SCM_C": null,
+            "Vpor": [
+                [
+                    0,
+                    1,
+                    1,
+                    0
+                ]
+            ],
+            "XfIEC": null,
+            "apCon": null,
+            "dc_cf": null,
+            "dcpcl": null,
+            "dhc": null,
+            "dielc": null,
+            "eimLl": null,
+            "eimPl": null,
+            "feSAr": null,
+            "ipccl": null,
+            "ipicl": null,
+            "ipxT": null,
+            "ixdiel": null,
+            "ixsolv": null,
+            "kin_t": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "lDCd": null,
+            "lDCr": null,
+            "lICu": null,
+            "lPh": null,
+            "lPhC": null,
+            "lPhc": null,
+            "nEIl": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nIsoC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nlPh": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "numpC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "ocPRk": null,
+            "pDC_v_": [
+                [
+                    "s   C0      Gr              dnp "
+                ]
+            ],
+            "pSDref": null,
+            "pSDval": null,
+            "p_solt": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "ph_cf": null,
+            "psdC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "rcpc": null,
+            "rpCon": null,
+            "rpkcl": null,
+            "rprcl": null,
+            "smcDl": null,
+            "smcSl": null,
+            "solvc": null,
+            "umpCon": null,
+            "umpcl": null,
+            "xSmD": null
+        },
+        "key": [
+            "s",
+            "C",
+            "Graphite",
+            "c",
+            "nagra-psi_"
+        ],
+        "project": "phases-psina14"
+    },
+    {
+        "dod": {
+            "Ascp": null,
+            "CDc": null,
+            "Cap_t": null,
+            "DQFc": null,
+            "DcEq": null,
+            "DisPar": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "EIpc": null,
+            "FSI_t": null,
+            "IsoC": null,
+            "IsoP": null,
+            "IsoS": null,
+            "MaSDj": null,
+            "MsDt": null,
+            "PEIpc": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Pdqf": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "PhDCC": [
+                [
+                    "O"
+                ]
+            ],
+            "PhDCS": [
+                [
+                    "d"
+                ]
+            ],
+            "PhEq": null,
+            "PhName": "Aragonite CaCO3 cryst.",
+            "PhNote": "nagra-psi",
+            "Ph_Nc": [
+                [
+                    1,
+                    0
+                ]
+            ],
+            "Ph_Ps": [
+                [
+                    "s",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Ph_ncp": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Ph_npx": 0,
+            "Ph_nsc": 0,
+            "Ph_nsi": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "PrpCon": [
+                [
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "SAT_C": null,
+            "SCM_C": null,
+            "Vpor": [
+                [
+                    0,
+                    1,
+                    1,
+                    0
+                ]
+            ],
+            "XfIEC": null,
+            "apCon": null,
+            "dc_cf": null,
+            "dcpcl": null,
+            "dhc": null,
+            "dielc": null,
+            "eimLl": null,
+            "eimPl": null,
+            "feSAr": null,
+            "ipccl": null,
+            "ipicl": null,
+            "ipxT": null,
+            "ixdiel": null,
+            "ixsolv": null,
+            "kin_t": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "lDCd": null,
+            "lDCr": null,
+            "lICu": null,
+            "lPh": null,
+            "lPhC": null,
+            "lPhc": null,
+            "nEIl": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nIsoC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nlPh": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "numpC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "ocPRk": null,
+            "pDC_v_": [
+                [
+                    "s   CaCO    Arg             dnp "
+                ]
+            ],
+            "pSDref": null,
+            "pSDval": null,
+            "p_solt": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "ph_cf": null,
+            "psdC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "rcpc": null,
+            "rpCon": null,
+            "rpkcl": null,
+            "rprcl": null,
+            "smcDl": null,
+            "smcSl": null,
+            "solvc": null,
+            "umpCon": null,
+            "umpcl": null,
+            "xSmD": null
+        },
+        "key": [
+            "s",
+            "CaCO",
+            "Aragonite",
+            "c",
+            "nagra-psi_"
+        ],
+        "project": "phases-psina14"
+    },
+    {
+        "dod": {
+            "Ascp": null,
+            "CDc": null,
+            "Cap_t": null,
+            "DQFc": null,
+            "DcEq": null,
+            "DisPar": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "EIpc": null,
+            "FSI_t": null,
+            "IsoC": null,
+            "IsoP": null,
+            "IsoS": null,
+            "MaSDj": null,
+            "MsDt": null,
+            "PEIpc": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Pdqf": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "PhDCC": [
+                [
+                    "O"
+                ]
+            ],
+            "PhDCS": [
+                [
+                    "d"
+                ]
+            ],
+            "PhEq": null,
+            "PhName": "Calcite CaCO3 cryst.",
+            "PhNote": "nagra-psi",
+            "Ph_Nc": [
+                [
+                    1,
+                    0
+                ]
+            ],
+            "Ph_Ps": [
+                [
+                    "s",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Ph_ncp": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Ph_npx": 0,
+            "Ph_nsc": 0,
+            "Ph_nsi": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "PrpCon": [
+                [
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "SAT_C": null,
+            "SCM_C": null,
+            "Vpor": [
+                [
+                    0,
+                    1,
+                    1,
+                    0
+                ]
+            ],
+            "XfIEC": null,
+            "apCon": null,
+            "dc_cf": null,
+            "dcpcl": null,
+            "dhc": null,
+            "dielc": null,
+            "eimLl": null,
+            "eimPl": null,
+            "feSAr": null,
+            "ipccl": null,
+            "ipicl": null,
+            "ipxT": null,
+            "ixdiel": null,
+            "ixsolv": null,
+            "kin_t": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "lDCd": null,
+            "lDCr": null,
+            "lICu": null,
+            "lPh": null,
+            "lPhC": null,
+            "lPhc": null,
+            "nEIl": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nIsoC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nlPh": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "numpC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "ocPRk": null,
+            "pDC_v_": [
+                [
+                    "s   CaCO    Cal             dnp "
+                ]
+            ],
+            "pSDref": null,
+            "pSDval": null,
+            "p_solt": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "ph_cf": null,
+            "psdC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "rcpc": null,
+            "rpCon": null,
+            "rpkcl": null,
+            "rprcl": null,
+            "smcDl": null,
+            "smcSl": null,
+            "solvc": null,
+            "umpCon": null,
+            "umpcl": null,
+            "xSmD": null
+        },
+        "key": [
+            "s",
+            "CaCO",
+            "Calcite",
+            "c",
+            "nagra-psi_"
+        ],
+        "project": "phases-psina14"
+    },
+    {
+        "dod": {
+            "Ascp": null,
+            "CDc": null,
+            "Cap_t": null,
+            "DQFc": null,
+            "DcEq": null,
+            "DisPar": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "EIpc": null,
+            "FSI_t": null,
+            "IsoC": null,
+            "IsoP": null,
+            "IsoS": null,
+            "MaSDj": null,
+            "MsDt": null,
+            "PEIpc": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Pdqf": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "PhDCC": [
+                [
+                    "O"
+                ]
+            ],
+            "PhDCS": [
+                [
+                    "d"
+                ]
+            ],
+            "PhEq": null,
+            "PhName": "Dolomite CaMg(CO3)2 cryst. disordered",
+            "PhNote": "nagra-psi",
+            "Ph_Nc": [
+                [
+                    1,
+                    0
+                ]
+            ],
+            "Ph_Ps": [
+                [
+                    "s",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Ph_ncp": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Ph_npx": 0,
+            "Ph_nsc": 0,
+            "Ph_nsi": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "PrpCon": [
+                [
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "SAT_C": null,
+            "SCM_C": null,
+            "Vpor": [
+                [
+                    0,
+                    1,
+                    1,
+                    0
+                ]
+            ],
+            "XfIEC": null,
+            "apCon": null,
+            "dc_cf": null,
+            "dcpcl": null,
+            "dhc": null,
+            "dielc": null,
+            "eimLl": null,
+            "eimPl": null,
+            "feSAr": null,
+            "ipccl": null,
+            "ipicl": null,
+            "ipxT": null,
+            "ixdiel": null,
+            "ixsolv": null,
+            "kin_t": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "lDCd": null,
+            "lDCr": null,
+            "lICu": null,
+            "lPh": null,
+            "lPhC": null,
+            "lPhc": null,
+            "nEIl": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nIsoC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nlPh": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "numpC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "ocPRk": null,
+            "pDC_v_": [
+                [
+                    "s   CaMgCO  Dis-Dol         dnp "
+                ]
+            ],
+            "pSDref": null,
+            "pSDval": null,
+            "p_solt": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "ph_cf": null,
+            "psdC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "rcpc": null,
+            "rpCon": null,
+            "rpkcl": null,
+            "rprcl": null,
+            "smcDl": null,
+            "smcSl": null,
+            "solvc": null,
+            "umpCon": null,
+            "umpcl": null,
+            "xSmD": null
+        },
+        "key": [
+            "s",
+            "CaMgCO",
+            "Dolomite-dis",
+            "c",
+            "nagra-psi_"
+        ],
+        "project": "phases-psina14"
+    },
+    {
+        "dod": {
+            "Ascp": null,
+            "CDc": null,
+            "Cap_t": null,
+            "DQFc": null,
+            "DcEq": null,
+            "DisPar": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "EIpc": null,
+            "FSI_t": null,
+            "IsoC": null,
+            "IsoP": null,
+            "IsoS": null,
+            "MaSDj": null,
+            "MsDt": null,
+            "PEIpc": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Pdqf": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "PhDCC": [
+                [
+                    "O"
+                ]
+            ],
+            "PhDCS": [
+                [
+                    "d"
+                ]
+            ],
+            "PhEq": null,
+            "PhName": "Dolomite CaMg(CO3)2 cryst. disordered",
+            "PhNote": "nagra-psi",
+            "Ph_Nc": [
+                [
+                    1,
+                    0
+                ]
+            ],
+            "Ph_Ps": [
+                [
+                    "s",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Ph_ncp": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Ph_npx": 0,
+            "Ph_nsc": 0,
+            "Ph_nsi": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "PrpCon": [
+                [
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "SAT_C": null,
+            "SCM_C": null,
+            "Vpor": [
+                [
+                    0,
+                    1,
+                    1,
+                    0
+                ]
+            ],
+            "XfIEC": null,
+            "apCon": null,
+            "dc_cf": null,
+            "dcpcl": null,
+            "dhc": null,
+            "dielc": null,
+            "eimLl": null,
+            "eimPl": null,
+            "feSAr": null,
+            "ipccl": null,
+            "ipicl": null,
+            "ipxT": null,
+            "ixdiel": null,
+            "ixsolv": null,
+            "kin_t": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "lDCd": null,
+            "lDCr": null,
+            "lICu": null,
+            "lPh": null,
+            "lPhC": null,
+            "lPhc": null,
+            "nEIl": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nIsoC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nlPh": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "numpC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "ocPRk": null,
+            "pDC_v_": [
+                [
+                    "s   CaMgCO  Ord-Dol         dnp "
+                ]
+            ],
+            "pSDref": null,
+            "pSDval": null,
+            "p_solt": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "ph_cf": null,
+            "psdC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "rcpc": null,
+            "rpCon": null,
+            "rpkcl": null,
+            "rprcl": null,
+            "smcDl": null,
+            "smcSl": null,
+            "solvc": null,
+            "umpCon": null,
+            "umpcl": null,
+            "xSmD": null
+        },
+        "key": [
+            "s",
+            "CaMgCO",
+            "Dolomite-ord",
+            "c",
+            "nagra-psi_"
+        ],
+        "project": "phases-psina14"
+    },
+    {
+        "dod": {
+            "Ascp": null,
+            "CDc": null,
+            "Cap_t": null,
+            "DQFc": null,
+            "DcEq": null,
+            "DisPar": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "EIpc": null,
+            "FSI_t": null,
+            "IsoC": null,
+            "IsoP": null,
+            "IsoS": null,
+            "MaSDj": null,
+            "MsDt": null,
+            "PEIpc": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Pdqf": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "PhDCC": [
+                [
+                    "O"
+                ]
+            ],
+            "PhDCS": [
+                [
+                    "d"
+                ]
+            ],
+            "PhEq": null,
+            "PhName": "Portlandite Ca(OH)2 cryst.",
+            "PhNote": "nagra-psi",
+            "Ph_Nc": [
+                [
+                    1,
+                    0
+                ]
+            ],
+            "Ph_Ps": [
+                [
+                    "s",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Ph_ncp": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Ph_npx": 0,
+            "Ph_nsc": 0,
+            "Ph_nsi": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "PrpCon": [
+                [
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "SAT_C": null,
+            "SCM_C": null,
+            "Vpor": [
+                [
+                    0,
+                    1,
+                    1,
+                    0
+                ]
+            ],
+            "XfIEC": null,
+            "apCon": null,
+            "dc_cf": null,
+            "dcpcl": null,
+            "dhc": null,
+            "dielc": null,
+            "eimLl": null,
+            "eimPl": null,
+            "feSAr": null,
+            "ipccl": null,
+            "ipicl": null,
+            "ipxT": null,
+            "ixdiel": null,
+            "ixsolv": null,
+            "kin_t": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "lDCd": null,
+            "lDCr": null,
+            "lICu": null,
+            "lPh": null,
+            "lPhC": null,
+            "lPhc": null,
+            "nEIl": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nIsoC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nlPh": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "numpC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "ocPRk": null,
+            "pDC_v_": [
+                [
+                    "s   CaOH    Portlandite     dnp "
+                ]
+            ],
+            "pSDref": null,
+            "pSDval": null,
+            "p_solt": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "ph_cf": null,
+            "psdC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "rcpc": null,
+            "rpCon": null,
+            "rpkcl": null,
+            "rprcl": null,
+            "smcDl": null,
+            "smcSl": null,
+            "solvc": null,
+            "umpCon": null,
+            "umpcl": null,
+            "xSmD": null
+        },
+        "key": [
+            "s",
+            "CaOH",
+            "Portlandite",
+            "c",
+            "nagra-psi_"
+        ],
+        "project": "phases-psina14"
+    },
+    {
+        "dod": {
+            "Ascp": null,
+            "CDc": null,
+            "Cap_t": null,
+            "DQFc": null,
+            "DcEq": null,
+            "DisPar": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "EIpc": null,
+            "FSI_t": null,
+            "IsoC": null,
+            "IsoP": null,
+            "IsoS": null,
+            "MaSDj": null,
+            "MsDt": null,
+            "PEIpc": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Pdqf": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "PhDCC": [
+                [
+                    "O"
+                ]
+            ],
+            "PhDCS": [
+                [
+                    "d"
+                ]
+            ],
+            "PhEq": null,
+            "PhName": "Anhydrite CaSO4 cryst.",
+            "PhNote": "nagra-psi",
+            "Ph_Nc": [
+                [
+                    1,
+                    0
+                ]
+            ],
+            "Ph_Ps": [
+                [
+                    "s",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Ph_ncp": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Ph_npx": 0,
+            "Ph_nsc": 0,
+            "Ph_nsi": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "PrpCon": [
+                [
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "SAT_C": null,
+            "SCM_C": null,
+            "Vpor": [
+                [
+                    0,
+                    1,
+                    1,
+                    0
+                ]
+            ],
+            "XfIEC": null,
+            "apCon": null,
+            "dc_cf": null,
+            "dcpcl": null,
+            "dhc": null,
+            "dielc": null,
+            "eimLl": null,
+            "eimPl": null,
+            "feSAr": null,
+            "ipccl": null,
+            "ipicl": null,
+            "ipxT": null,
+            "ixdiel": null,
+            "ixsolv": null,
+            "kin_t": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "lDCd": null,
+            "lDCr": null,
+            "lICu": null,
+            "lPh": null,
+            "lPhC": null,
+            "lPhc": null,
+            "nEIl": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nIsoC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nlPh": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "numpC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "ocPRk": null,
+            "pDC_v_": [
+                [
+                    "s   CaSO    Anh             dnp "
+                ]
+            ],
+            "pSDref": null,
+            "pSDval": null,
+            "p_solt": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "ph_cf": null,
+            "psdC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "rcpc": null,
+            "rpCon": null,
+            "rpkcl": null,
+            "rprcl": null,
+            "smcDl": null,
+            "smcSl": null,
+            "solvc": null,
+            "umpCon": null,
+            "umpcl": null,
+            "xSmD": null
+        },
+        "key": [
+            "s",
+            "CaSO",
+            "Anhydrite",
+            "c",
+            "nagra-psi_"
+        ],
+        "project": "phases-psina14"
+    },
+    {
+        "dod": {
+            "Ascp": null,
+            "CDc": null,
+            "Cap_t": null,
+            "DQFc": null,
+            "DcEq": null,
+            "DisPar": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "EIpc": null,
+            "FSI_t": null,
+            "IsoC": null,
+            "IsoP": null,
+            "IsoS": null,
+            "MaSDj": null,
+            "MsDt": null,
+            "PEIpc": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Pdqf": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "PhDCC": [
+                [
+                    "O"
+                ]
+            ],
+            "PhDCS": [
+                [
+                    "d"
+                ]
+            ],
+            "PhEq": null,
+            "PhName": "Gypsum  CaSO4(H2O)2 cryst.",
+            "PhNote": "nagra-psi",
+            "Ph_Nc": [
+                [
+                    1,
+                    0
+                ]
+            ],
+            "Ph_Ps": [
+                [
+                    "s",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Ph_ncp": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Ph_npx": 0,
+            "Ph_nsc": 0,
+            "Ph_nsi": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "PrpCon": [
+                [
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "SAT_C": null,
+            "SCM_C": null,
+            "Vpor": [
+                [
+                    0,
+                    1,
+                    1,
+                    0
+                ]
+            ],
+            "XfIEC": null,
+            "apCon": null,
+            "dc_cf": null,
+            "dcpcl": null,
+            "dhc": null,
+            "dielc": null,
+            "eimLl": null,
+            "eimPl": null,
+            "feSAr": null,
+            "ipccl": null,
+            "ipicl": null,
+            "ipxT": null,
+            "ixdiel": null,
+            "ixsolv": null,
+            "kin_t": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "lDCd": null,
+            "lDCr": null,
+            "lICu": null,
+            "lPh": null,
+            "lPhC": null,
+            "lPhc": null,
+            "nEIl": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nIsoC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nlPh": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "numpC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "ocPRk": null,
+            "pDC_v_": [
+                [
+                    "s   CaSO    Gp              dnp "
+                ]
+            ],
+            "pSDref": null,
+            "pSDval": null,
+            "p_solt": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "ph_cf": null,
+            "psdC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "rcpc": null,
+            "rpCon": null,
+            "rpkcl": null,
+            "rprcl": null,
+            "smcDl": null,
+            "smcSl": null,
+            "solvc": null,
+            "umpCon": null,
+            "umpcl": null,
+            "xSmD": null
+        },
+        "key": [
+            "s",
+            "CaSO",
+            "Gypsum",
+            "c",
+            "nagra-psi_"
+        ],
+        "project": "phases-psina14"
+    },
+    {
+        "dod": {
+            "Ascp": null,
+            "CDc": null,
+            "Cap_t": null,
+            "DQFc": null,
+            "DcEq": null,
+            "DisPar": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "EIpc": null,
+            "FSI_t": null,
+            "IsoC": null,
+            "IsoP": null,
+            "IsoS": null,
+            "MaSDj": null,
+            "MsDt": null,
+            "PEIpc": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Pdqf": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "PhDCC": [
+                [
+                    "O"
+                ]
+            ],
+            "PhDCS": [
+                [
+                    "d"
+                ]
+            ],
+            "PhEq": null,
+            "PhName": "Elemental iron Fe cryst.",
+            "PhNote": "nagra-psi",
+            "Ph_Nc": [
+                [
+                    1,
+                    0
+                ]
+            ],
+            "Ph_Ps": [
+                [
+                    "s",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Ph_ncp": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Ph_npx": 0,
+            "Ph_nsc": 0,
+            "Ph_nsi": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "PrpCon": [
+                [
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "SAT_C": null,
+            "SCM_C": null,
+            "Vpor": [
+                [
+                    0,
+                    1,
+                    1,
+                    0
+                ]
+            ],
+            "XfIEC": null,
+            "apCon": null,
+            "dc_cf": null,
+            "dcpcl": null,
+            "dhc": null,
+            "dielc": null,
+            "eimLl": null,
+            "eimPl": null,
+            "feSAr": null,
+            "ipccl": null,
+            "ipicl": null,
+            "ipxT": null,
+            "ixdiel": null,
+            "ixsolv": null,
+            "kin_t": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "lDCd": null,
+            "lDCr": null,
+            "lICu": null,
+            "lPh": null,
+            "lPhC": null,
+            "lPhc": null,
+            "nEIl": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nIsoC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nlPh": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "numpC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "ocPRk": null,
+            "pDC_v_": [
+                [
+                    "s   Fe0     Fe              dnp "
+                ]
+            ],
+            "pSDref": null,
+            "pSDval": null,
+            "p_solt": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "ph_cf": null,
+            "psdC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "rcpc": null,
+            "rpCon": null,
+            "rpkcl": null,
+            "rprcl": null,
+            "smcDl": null,
+            "smcSl": null,
+            "solvc": null,
+            "umpCon": null,
+            "umpcl": null,
+            "xSmD": null
+        },
+        "key": [
+            "s",
+            "Fe",
+            "Iron",
+            "c",
+            "nagra-psi_"
+        ],
+        "project": "phases-psina14"
+    },
+    {
+        "dod": {
+            "Ascp": null,
+            "CDc": null,
+            "Cap_t": null,
+            "DQFc": null,
+            "DcEq": null,
+            "DisPar": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "EIpc": null,
+            "FSI_t": null,
+            "IsoC": null,
+            "IsoP": null,
+            "IsoS": null,
+            "MaSDj": null,
+            "MsDt": null,
+            "PEIpc": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Pdqf": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "PhDCC": [
+                [
+                    "O"
+                ]
+            ],
+            "PhDCS": [
+                [
+                    "r"
+                ]
+            ],
+            "PhEq": null,
+            "PhName": "FeCO3 precipitate",
+            "PhNote": "nagra-psi",
+            "Ph_Nc": [
+                [
+                    1,
+                    0
+                ]
+            ],
+            "Ph_Ps": [
+                [
+                    "s",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Ph_ncp": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Ph_npx": 0,
+            "Ph_nsc": 0,
+            "Ph_nsi": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "PrpCon": [
+                [
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "SAT_C": null,
+            "SCM_C": null,
+            "Vpor": [
+                [
+                    0,
+                    1,
+                    1,
+                    0
+                ]
+            ],
+            "XfIEC": null,
+            "apCon": null,
+            "dc_cf": null,
+            "dcpcl": null,
+            "dhc": null,
+            "dielc": null,
+            "eimLl": null,
+            "eimPl": null,
+            "feSAr": null,
+            "ipccl": null,
+            "ipicl": null,
+            "ipxT": null,
+            "ixdiel": null,
+            "ixsolv": null,
+            "kin_t": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "lDCd": null,
+            "lDCr": null,
+            "lICu": null,
+            "lPh": null,
+            "lPhC": null,
+            "lPhc": null,
+            "nEIl": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nIsoC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nlPh": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "numpC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "ocPRk": null,
+            "pDC_v_": [
+                [
+                    "s   FeCO    FeCO3(pr)       dnp "
+                ]
+            ],
+            "pSDref": null,
+            "pSDval": null,
+            "p_solt": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "ph_cf": null,
+            "psdC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "rcpc": null,
+            "rpCon": null,
+            "rpkcl": null,
+            "rprcl": null,
+            "smcDl": null,
+            "smcSl": null,
+            "solvc": null,
+            "umpCon": null,
+            "umpcl": null,
+            "xSmD": null
+        },
+        "key": [
+            "s",
+            "FeCO",
+            "Fe-carbonate",
+            "d",
+            "nagra-psi_"
+        ],
+        "project": "phases-psina14"
+    },
+    {
+        "dod": {
+            "Ascp": null,
+            "CDc": null,
+            "Cap_t": null,
+            "DQFc": null,
+            "DcEq": null,
+            "DisPar": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "EIpc": null,
+            "FSI_t": null,
+            "IsoC": null,
+            "IsoP": null,
+            "IsoS": null,
+            "MaSDj": null,
+            "MsDt": null,
+            "PEIpc": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Pdqf": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "PhDCC": [
+                [
+                    "O"
+                ]
+            ],
+            "PhDCS": [
+                [
+                    "d"
+                ]
+            ],
+            "PhEq": null,
+            "PhName": "Siderite FeCO3 cryst.",
+            "PhNote": "nagra-psi",
+            "Ph_Nc": [
+                [
+                    1,
+                    0
+                ]
+            ],
+            "Ph_Ps": [
+                [
+                    "s",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Ph_ncp": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Ph_npx": 0,
+            "Ph_nsc": 0,
+            "Ph_nsi": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "PrpCon": [
+                [
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "SAT_C": null,
+            "SCM_C": null,
+            "Vpor": [
+                [
+                    0,
+                    1,
+                    1,
+                    0
+                ]
+            ],
+            "XfIEC": null,
+            "apCon": null,
+            "dc_cf": null,
+            "dcpcl": null,
+            "dhc": null,
+            "dielc": null,
+            "eimLl": null,
+            "eimPl": null,
+            "feSAr": null,
+            "ipccl": null,
+            "ipicl": null,
+            "ipxT": null,
+            "ixdiel": null,
+            "ixsolv": null,
+            "kin_t": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "lDCd": null,
+            "lDCr": null,
+            "lICu": null,
+            "lPh": null,
+            "lPhC": null,
+            "lPhc": null,
+            "nEIl": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nIsoC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nlPh": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "numpC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "ocPRk": null,
+            "pDC_v_": [
+                [
+                    "s   FeCO    Sd              dnp "
+                ]
+            ],
+            "pSDref": null,
+            "pSDval": null,
+            "p_solt": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "ph_cf": null,
+            "psdC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "rcpc": null,
+            "rpCon": null,
+            "rpkcl": null,
+            "rprcl": null,
+            "smcDl": null,
+            "smcSl": null,
+            "solvc": null,
+            "umpCon": null,
+            "umpcl": null,
+            "xSmD": null
+        },
+        "key": [
+            "s",
+            "FeCO",
+            "Siderite",
+            "c",
+            "nagra-psi_"
+        ],
+        "project": "phases-psina14"
+    },
+    {
+        "dod": {
+            "Ascp": null,
+            "CDc": null,
+            "Cap_t": null,
+            "DQFc": null,
+            "DcEq": null,
+            "DisPar": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "EIpc": null,
+            "FSI_t": null,
+            "IsoC": null,
+            "IsoP": null,
+            "IsoS": null,
+            "MaSDj": null,
+            "MsDt": null,
+            "PEIpc": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Pdqf": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "PhDCC": [
+                [
+                    "O"
+                ]
+            ],
+            "PhDCS": [
+                [
+                    "d"
+                ]
+            ],
+            "PhEq": null,
+            "PhName": "Hematite Fe2O3 cryst.",
+            "PhNote": "nagra-psi",
+            "Ph_Nc": [
+                [
+                    1,
+                    0
+                ]
+            ],
+            "Ph_Ps": [
+                [
+                    "s",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Ph_ncp": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Ph_npx": 0,
+            "Ph_nsc": 0,
+            "Ph_nsi": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "PrpCon": [
+                [
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "SAT_C": null,
+            "SCM_C": null,
+            "Vpor": [
+                [
+                    0,
+                    1,
+                    1,
+                    0
+                ]
+            ],
+            "XfIEC": null,
+            "apCon": null,
+            "dc_cf": null,
+            "dcpcl": null,
+            "dhc": null,
+            "dielc": null,
+            "eimLl": null,
+            "eimPl": null,
+            "feSAr": null,
+            "ipccl": null,
+            "ipicl": null,
+            "ipxT": null,
+            "ixdiel": null,
+            "ixsolv": null,
+            "kin_t": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "lDCd": null,
+            "lDCr": null,
+            "lICu": null,
+            "lPh": null,
+            "lPhC": null,
+            "lPhc": null,
+            "nEIl": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nIsoC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nlPh": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "numpC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "ocPRk": null,
+            "pDC_v_": [
+                [
+                    "s   FeO     Hem             dnp "
+                ]
+            ],
+            "pSDref": null,
+            "pSDval": null,
+            "p_solt": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "ph_cf": null,
+            "psdC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "rcpc": null,
+            "rpCon": null,
+            "rpkcl": null,
+            "rprcl": null,
+            "smcDl": null,
+            "smcSl": null,
+            "solvc": null,
+            "umpCon": null,
+            "umpcl": null,
+            "xSmD": null
+        },
+        "key": [
+            "s",
+            "FeO",
+            "Hematite",
+            "c",
+            "nagra-psi_"
+        ],
+        "project": "phases-psina14"
+    },
+    {
+        "dod": {
+            "Ascp": null,
+            "CDc": null,
+            "Cap_t": null,
+            "DQFc": null,
+            "DcEq": null,
+            "DisPar": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "EIpc": null,
+            "FSI_t": null,
+            "IsoC": null,
+            "IsoP": null,
+            "IsoS": null,
+            "MaSDj": null,
+            "MsDt": null,
+            "PEIpc": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Pdqf": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "PhDCC": [
+                [
+                    "O"
+                ]
+            ],
+            "PhDCS": [
+                [
+                    "d"
+                ]
+            ],
+            "PhEq": null,
+            "PhName": "Magnetite  Fe3O4 cryst.",
+            "PhNote": "nagra-psi",
+            "Ph_Nc": [
+                [
+                    1,
+                    0
+                ]
+            ],
+            "Ph_Ps": [
+                [
+                    "s",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Ph_ncp": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Ph_npx": 0,
+            "Ph_nsc": 0,
+            "Ph_nsi": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "PrpCon": [
+                [
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "SAT_C": null,
+            "SCM_C": null,
+            "Vpor": [
+                [
+                    0,
+                    1,
+                    1,
+                    0
+                ]
+            ],
+            "XfIEC": null,
+            "apCon": null,
+            "dc_cf": null,
+            "dcpcl": null,
+            "dhc": null,
+            "dielc": null,
+            "eimLl": null,
+            "eimPl": null,
+            "feSAr": null,
+            "ipccl": null,
+            "ipicl": null,
+            "ipxT": null,
+            "ixdiel": null,
+            "ixsolv": null,
+            "kin_t": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "lDCd": null,
+            "lDCr": null,
+            "lICu": null,
+            "lPh": null,
+            "lPhC": null,
+            "lPhc": null,
+            "nEIl": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nIsoC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nlPh": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "numpC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "ocPRk": null,
+            "pDC_v_": [
+                [
+                    "s   FeO     Mag             dnp "
+                ]
+            ],
+            "pSDref": null,
+            "pSDval": null,
+            "p_solt": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "ph_cf": null,
+            "psdC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "rcpc": null,
+            "rpCon": null,
+            "rpkcl": null,
+            "rprcl": null,
+            "smcDl": null,
+            "smcSl": null,
+            "solvc": null,
+            "umpCon": null,
+            "umpcl": null,
+            "xSmD": null
+        },
+        "key": [
+            "s",
+            "FeO",
+            "Magnetite",
+            "c",
+            "nagra-psi_"
+        ],
+        "project": "phases-psina14"
+    },
+    {
+        "dod": {
+            "Ascp": null,
+            "CDc": null,
+            "Cap_t": null,
+            "DQFc": null,
+            "DcEq": null,
+            "DisPar": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "EIpc": null,
+            "FSI_t": null,
+            "IsoC": null,
+            "IsoP": null,
+            "IsoS": null,
+            "MaSDj": null,
+            "MsDt": null,
+            "PEIpc": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Pdqf": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "PhDCC": [
+                [
+                    "O"
+                ]
+            ],
+            "PhDCS": [
+                [
+                    "r"
+                ]
+            ],
+            "PhEq": null,
+            "PhName": "Ferrihydrite Fe(OH)3 amorph.",
+            "PhNote": "nagra-psi",
+            "Ph_Nc": [
+                [
+                    1,
+                    0
+                ]
+            ],
+            "Ph_Ps": [
+                [
+                    "s",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Ph_ncp": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Ph_npx": 0,
+            "Ph_nsc": 0,
+            "Ph_nsi": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "PrpCon": [
+                [
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "SAT_C": null,
+            "SCM_C": null,
+            "Vpor": [
+                [
+                    0,
+                    1,
+                    1,
+                    0
+                ]
+            ],
+            "XfIEC": null,
+            "apCon": null,
+            "dc_cf": null,
+            "dcpcl": null,
+            "dhc": null,
+            "dielc": null,
+            "eimLl": null,
+            "eimPl": null,
+            "feSAr": null,
+            "ipccl": null,
+            "ipicl": null,
+            "ipxT": null,
+            "ixdiel": null,
+            "ixsolv": null,
+            "kin_t": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "lDCd": null,
+            "lDCr": null,
+            "lICu": null,
+            "lPh": null,
+            "lPhC": null,
+            "lPhc": null,
+            "nEIl": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nIsoC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nlPh": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "numpC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "ocPRk": null,
+            "pDC_v_": [
+                [
+                    "s   FeOH    Fe(OH)3(am)     dnp "
+                ]
+            ],
+            "pSDref": null,
+            "pSDval": null,
+            "p_solt": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "ph_cf": null,
+            "psdC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "rcpc": null,
+            "rpCon": null,
+            "rpkcl": null,
+            "rprcl": null,
+            "smcDl": null,
+            "smcSl": null,
+            "solvc": null,
+            "umpCon": null,
+            "umpcl": null,
+            "xSmD": null
+        },
+        "key": [
+            "s",
+            "FeOH",
+            "Ferrihydrite-am",
+            "d",
+            "nagra-psi_"
+        ],
+        "project": "phases-psina14"
+    },
+    {
+        "dod": {
+            "Ascp": null,
+            "CDc": null,
+            "Cap_t": null,
+            "DQFc": null,
+            "DcEq": null,
+            "DisPar": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "EIpc": null,
+            "FSI_t": null,
+            "IsoC": null,
+            "IsoP": null,
+            "IsoS": null,
+            "MaSDj": null,
+            "MsDt": null,
+            "PEIpc": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Pdqf": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "PhDCC": [
+                [
+                    "O"
+                ]
+            ],
+            "PhDCS": [
+                [
+                    "d"
+                ]
+            ],
+            "PhEq": null,
+            "PhName": "Goethite FeOOH ",
+            "PhNote": "nagra-psi",
+            "Ph_Nc": [
+                [
+                    1,
+                    0
+                ]
+            ],
+            "Ph_Ps": [
+                [
+                    "s",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Ph_ncp": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Ph_npx": 0,
+            "Ph_nsc": 0,
+            "Ph_nsi": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "PrpCon": [
+                [
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "SAT_C": null,
+            "SCM_C": null,
+            "Vpor": [
+                [
+                    0,
+                    1,
+                    1,
+                    0
+                ]
+            ],
+            "XfIEC": null,
+            "apCon": null,
+            "dc_cf": null,
+            "dcpcl": null,
+            "dhc": null,
+            "dielc": null,
+            "eimLl": null,
+            "eimPl": null,
+            "feSAr": null,
+            "ipccl": null,
+            "ipicl": null,
+            "ipxT": null,
+            "ixdiel": null,
+            "ixsolv": null,
+            "kin_t": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "lDCd": null,
+            "lDCr": null,
+            "lICu": null,
+            "lPh": null,
+            "lPhC": null,
+            "lPhc": null,
+            "nEIl": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nIsoC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nlPh": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "numpC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "ocPRk": null,
+            "pDC_v_": [
+                [
+                    "s   FeOH    Gt              dnp "
+                ]
+            ],
+            "pSDref": null,
+            "pSDval": null,
+            "p_solt": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "ph_cf": null,
+            "psdC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "rcpc": null,
+            "rpCon": null,
+            "rpkcl": null,
+            "rprcl": null,
+            "smcDl": null,
+            "smcSl": null,
+            "solvc": null,
+            "umpCon": null,
+            "umpcl": null,
+            "xSmD": null
+        },
+        "key": [
+            "s",
+            "FeOH",
+            "Goethite",
+            "c",
+            "nagra-psi_"
+        ],
+        "project": "phases-psina14"
+    },
+    {
+        "dod": {
+            "Ascp": null,
+            "CDc": null,
+            "Cap_t": null,
+            "DQFc": null,
+            "DcEq": null,
+            "DisPar": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "EIpc": null,
+            "FSI_t": null,
+            "IsoC": null,
+            "IsoP": null,
+            "IsoS": null,
+            "MaSDj": null,
+            "MsDt": null,
+            "PEIpc": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Pdqf": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "PhDCC": [
+                [
+                    "O"
+                ]
+            ],
+            "PhDCS": [
+                [
+                    "d"
+                ]
+            ],
+            "PhEq": null,
+            "PhName": "Pyrite FeS2",
+            "PhNote": "nagra-psi",
+            "Ph_Nc": [
+                [
+                    1,
+                    0
+                ]
+            ],
+            "Ph_Ps": [
+                [
+                    "s",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Ph_ncp": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Ph_npx": 0,
+            "Ph_nsc": 0,
+            "Ph_nsi": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "PrpCon": [
+                [
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "SAT_C": null,
+            "SCM_C": null,
+            "Vpor": [
+                [
+                    0,
+                    1,
+                    1,
+                    0
+                ]
+            ],
+            "XfIEC": null,
+            "apCon": null,
+            "dc_cf": null,
+            "dcpcl": null,
+            "dhc": null,
+            "dielc": null,
+            "eimLl": null,
+            "eimPl": null,
+            "feSAr": null,
+            "ipccl": null,
+            "ipicl": null,
+            "ipxT": null,
+            "ixdiel": null,
+            "ixsolv": null,
+            "kin_t": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "lDCd": null,
+            "lDCr": null,
+            "lICu": null,
+            "lPh": null,
+            "lPhC": null,
+            "lPhc": null,
+            "nEIl": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nIsoC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nlPh": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "numpC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "ocPRk": null,
+            "pDC_v_": [
+                [
+                    "s   FeS     Py              dnp "
+                ]
+            ],
+            "pSDref": null,
+            "pSDval": null,
+            "p_solt": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "ph_cf": null,
+            "psdC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "rcpc": null,
+            "rpCon": null,
+            "rpkcl": null,
+            "rprcl": null,
+            "smcDl": null,
+            "smcSl": null,
+            "solvc": null,
+            "umpCon": null,
+            "umpcl": null,
+            "xSmD": null
+        },
+        "key": [
+            "s",
+            "FeS",
+            "Pyrite",
+            "c",
+            "nagra-psi_"
+        ],
+        "project": "phases-psina14"
+    },
+    {
+        "dod": {
+            "Ascp": null,
+            "CDc": null,
+            "Cap_t": null,
+            "DQFc": null,
+            "DcEq": null,
+            "DisPar": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "EIpc": null,
+            "FSI_t": null,
+            "IsoC": null,
+            "IsoP": null,
+            "IsoS": null,
+            "MaSDj": null,
+            "MsDt": null,
+            "PEIpc": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Pdqf": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "PhDCC": [
+                [
+                    "O"
+                ]
+            ],
+            "PhDCS": [
+                [
+                    "d"
+                ]
+            ],
+            "PhEq": null,
+            "PhName": "Troilite FeS ",
+            "PhNote": "nagra-psi",
+            "Ph_Nc": [
+                [
+                    1,
+                    0
+                ]
+            ],
+            "Ph_Ps": [
+                [
+                    "s",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Ph_ncp": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Ph_npx": 0,
+            "Ph_nsc": 0,
+            "Ph_nsi": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "PrpCon": [
+                [
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "SAT_C": null,
+            "SCM_C": null,
+            "Vpor": [
+                [
+                    0,
+                    1,
+                    1,
+                    0
+                ]
+            ],
+            "XfIEC": null,
+            "apCon": null,
+            "dc_cf": null,
+            "dcpcl": null,
+            "dhc": null,
+            "dielc": null,
+            "eimLl": null,
+            "eimPl": null,
+            "feSAr": null,
+            "ipccl": null,
+            "ipicl": null,
+            "ipxT": null,
+            "ixdiel": null,
+            "ixsolv": null,
+            "kin_t": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "lDCd": null,
+            "lDCr": null,
+            "lICu": null,
+            "lPh": null,
+            "lPhC": null,
+            "lPhc": null,
+            "nEIl": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nIsoC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nlPh": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "numpC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "ocPRk": null,
+            "pDC_v_": [
+                [
+                    "s   FeS     Tro             dnp "
+                ]
+            ],
+            "pSDref": null,
+            "pSDval": null,
+            "p_solt": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "ph_cf": null,
+            "psdC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "rcpc": null,
+            "rpCon": null,
+            "rpkcl": null,
+            "rprcl": null,
+            "smcDl": null,
+            "smcSl": null,
+            "solvc": null,
+            "umpCon": null,
+            "umpcl": null,
+            "xSmD": null
+        },
+        "key": [
+            "s",
+            "FeS",
+            "Troilite",
+            "c",
+            "nagra-psi_"
+        ],
+        "project": "phases-psina14"
+    },
+    {
+        "dod": {
+            "Ascp": null,
+            "CDc": null,
+            "Cap_t": null,
+            "DQFc": null,
+            "DcEq": null,
+            "DisPar": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "EIpc": null,
+            "FSI_t": null,
+            "IsoC": null,
+            "IsoP": null,
+            "IsoS": null,
+            "MaSDj": null,
+            "MsDt": null,
+            "PEIpc": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Pdqf": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "PhDCC": [
+                [
+                    "O"
+                ]
+            ],
+            "PhDCS": [
+                [
+                    "d"
+                ]
+            ],
+            "PhEq": null,
+            "PhName": "Melanterite FeSO4(H2O)7 cryst.",
+            "PhNote": "nagra-psi",
+            "Ph_Nc": [
+                [
+                    1,
+                    0
+                ]
+            ],
+            "Ph_Ps": [
+                [
+                    "s",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Ph_ncp": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Ph_npx": 0,
+            "Ph_nsc": 0,
+            "Ph_nsi": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "PrpCon": [
+                [
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "SAT_C": null,
+            "SCM_C": null,
+            "Vpor": [
+                [
+                    0,
+                    1,
+                    1,
+                    0
+                ]
+            ],
+            "XfIEC": null,
+            "apCon": null,
+            "dc_cf": null,
+            "dcpcl": null,
+            "dhc": null,
+            "dielc": null,
+            "eimLl": null,
+            "eimPl": null,
+            "feSAr": null,
+            "ipccl": null,
+            "ipicl": null,
+            "ipxT": null,
+            "ixdiel": null,
+            "ixsolv": null,
+            "kin_t": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "lDCd": null,
+            "lDCr": null,
+            "lICu": null,
+            "lPh": null,
+            "lPhC": null,
+            "lPhc": null,
+            "nEIl": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nIsoC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nlPh": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "numpC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "ocPRk": null,
+            "pDC_v_": [
+                [
+                    "s   FeSO    Melanterite     dnp "
+                ]
+            ],
+            "pSDref": null,
+            "pSDval": null,
+            "p_solt": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "ph_cf": null,
+            "psdC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "rcpc": null,
+            "rpCon": null,
+            "rpkcl": null,
+            "rprcl": null,
+            "smcDl": null,
+            "smcSl": null,
+            "solvc": null,
+            "umpCon": null,
+            "umpcl": null,
+            "xSmD": null
+        },
+        "key": [
+            "s",
+            "FeSO",
+            "Melanterite",
+            "c",
+            "nagra-psi_"
+        ],
+        "project": "phases-psina14"
+    },
+    {
+        "dod": {
+            "Ascp": null,
+            "CDc": null,
+            "Cap_t": null,
+            "DQFc": null,
+            "DcEq": null,
+            "DisPar": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "EIpc": null,
+            "FSI_t": null,
+            "IsoC": null,
+            "IsoP": null,
+            "IsoS": null,
+            "MaSDj": null,
+            "MsDt": null,
+            "PEIpc": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Pdqf": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "PhDCC": [
+                [
+                    "O"
+                ]
+            ],
+            "PhDCS": [
+                [
+                    "d"
+                ]
+            ],
+            "PhEq": null,
+            "PhName": "Magnesite MgCO3 cryst.",
+            "PhNote": "nagra-psi",
+            "Ph_Nc": [
+                [
+                    1,
+                    0
+                ]
+            ],
+            "Ph_Ps": [
+                [
+                    "s",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Ph_ncp": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Ph_npx": 0,
+            "Ph_nsc": 0,
+            "Ph_nsi": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "PrpCon": [
+                [
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "SAT_C": null,
+            "SCM_C": null,
+            "Vpor": [
+                [
+                    0,
+                    1,
+                    1,
+                    0
+                ]
+            ],
+            "XfIEC": null,
+            "apCon": null,
+            "dc_cf": null,
+            "dcpcl": null,
+            "dhc": null,
+            "dielc": null,
+            "eimLl": null,
+            "eimPl": null,
+            "feSAr": null,
+            "ipccl": null,
+            "ipicl": null,
+            "ipxT": null,
+            "ixdiel": null,
+            "ixsolv": null,
+            "kin_t": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "lDCd": null,
+            "lDCr": null,
+            "lICu": null,
+            "lPh": null,
+            "lPhC": null,
+            "lPhc": null,
+            "nEIl": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nIsoC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nlPh": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "numpC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "ocPRk": null,
+            "pDC_v_": [
+                [
+                    "s   MgCO    Mgs             dnp "
+                ]
+            ],
+            "pSDref": null,
+            "pSDval": null,
+            "p_solt": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "ph_cf": null,
+            "psdC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "rcpc": null,
+            "rpCon": null,
+            "rpkcl": null,
+            "rprcl": null,
+            "smcDl": null,
+            "smcSl": null,
+            "solvc": null,
+            "umpCon": null,
+            "umpcl": null,
+            "xSmD": null
+        },
+        "key": [
+            "s",
+            "MgCO",
+            "Magnesite",
+            "c",
+            "nagra-psi_"
+        ],
+        "project": "phases-psina14"
+    },
+    {
+        "dod": {
+            "Ascp": null,
+            "CDc": null,
+            "Cap_t": null,
+            "DQFc": null,
+            "DcEq": null,
+            "DisPar": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "EIpc": null,
+            "FSI_t": null,
+            "IsoC": null,
+            "IsoP": null,
+            "IsoS": null,
+            "MaSDj": null,
+            "MsDt": null,
+            "PEIpc": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Pdqf": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "PhDCC": [
+                [
+                    "O"
+                ]
+            ],
+            "PhDCS": [
+                [
+                    "d"
+                ]
+            ],
+            "PhEq": null,
+            "PhName": "Brucite Mg(OH)2 cryst.",
+            "PhNote": "nagra-psi",
+            "Ph_Nc": [
+                [
+                    1,
+                    0
+                ]
+            ],
+            "Ph_Ps": [
+                [
+                    "s",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Ph_ncp": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Ph_npx": 0,
+            "Ph_nsc": 0,
+            "Ph_nsi": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "PrpCon": [
+                [
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "SAT_C": null,
+            "SCM_C": null,
+            "Vpor": [
+                [
+                    0,
+                    1,
+                    1,
+                    0
+                ]
+            ],
+            "XfIEC": null,
+            "apCon": null,
+            "dc_cf": null,
+            "dcpcl": null,
+            "dhc": null,
+            "dielc": null,
+            "eimLl": null,
+            "eimPl": null,
+            "feSAr": null,
+            "ipccl": null,
+            "ipicl": null,
+            "ipxT": null,
+            "ixdiel": null,
+            "ixsolv": null,
+            "kin_t": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "lDCd": null,
+            "lDCr": null,
+            "lICu": null,
+            "lPh": null,
+            "lPhC": null,
+            "lPhc": null,
+            "nEIl": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nIsoC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nlPh": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "numpC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "ocPRk": null,
+            "pDC_v_": [
+                [
+                    "s   MgOH    Brc             dnp "
+                ]
+            ],
+            "pSDref": null,
+            "pSDval": null,
+            "p_solt": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "ph_cf": null,
+            "psdC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "rcpc": null,
+            "rpCon": null,
+            "rpkcl": null,
+            "rprcl": null,
+            "smcDl": null,
+            "smcSl": null,
+            "solvc": null,
+            "umpCon": null,
+            "umpcl": null,
+            "xSmD": null
+        },
+        "key": [
+            "s",
+            "MgOH",
+            "Brucite",
+            "c",
+            "nagra-psi_"
+        ],
+        "project": "phases-psina14"
+    },
+    {
+        "dod": {
+            "Ascp": null,
+            "CDc": null,
+            "Cap_t": null,
+            "DQFc": null,
+            "DcEq": null,
+            "DisPar": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "EIpc": null,
+            "FSI_t": null,
+            "IsoC": null,
+            "IsoP": null,
+            "IsoS": null,
+            "MaSDj": null,
+            "MsDt": null,
+            "PEIpc": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Pdqf": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "PhDCC": [
+                [
+                    "O"
+                ]
+            ],
+            "PhDCS": [
+                [
+                    "d"
+                ]
+            ],
+            "PhEq": null,
+            "PhName": "Elemental sulphur S rhomb. cryst.",
+            "PhNote": "nagra-psi",
+            "Ph_Nc": [
+                [
+                    1,
+                    0
+                ]
+            ],
+            "Ph_Ps": [
+                [
+                    "s",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Ph_ncp": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Ph_npx": 0,
+            "Ph_nsc": 0,
+            "Ph_nsi": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "PrpCon": [
+                [
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "SAT_C": null,
+            "SCM_C": null,
+            "Vpor": [
+                [
+                    0,
+                    1,
+                    1,
+                    0
+                ]
+            ],
+            "XfIEC": null,
+            "apCon": null,
+            "dc_cf": null,
+            "dcpcl": null,
+            "dhc": null,
+            "dielc": null,
+            "eimLl": null,
+            "eimPl": null,
+            "feSAr": null,
+            "ipccl": null,
+            "ipicl": null,
+            "ipxT": null,
+            "ixdiel": null,
+            "ixsolv": null,
+            "kin_t": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "lDCd": null,
+            "lDCr": null,
+            "lICu": null,
+            "lPh": null,
+            "lPhC": null,
+            "lPhc": null,
+            "nEIl": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nIsoC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nlPh": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "numpC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "ocPRk": null,
+            "pDC_v_": [
+                [
+                    "s   S0      Sulfur          dnp "
+                ]
+            ],
+            "pSDref": null,
+            "pSDval": null,
+            "p_solt": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "ph_cf": null,
+            "psdC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "rcpc": null,
+            "rpCon": null,
+            "rpkcl": null,
+            "rprcl": null,
+            "smcDl": null,
+            "smcSl": null,
+            "solvc": null,
+            "umpCon": null,
+            "umpcl": null,
+            "xSmD": null
+        },
+        "key": [
+            "s",
+            "S",
+            "Sulphur",
+            "c",
+            "nagra-psi_"
+        ],
+        "project": "phases-psina14"
+    },
+    {
+        "dod": {
+            "Ascp": null,
+            "CDc": null,
+            "Cap_t": null,
+            "DQFc": null,
+            "DcEq": null,
+            "DisPar": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "EIpc": null,
+            "FSI_t": null,
+            "IsoC": null,
+            "IsoP": null,
+            "IsoS": null,
+            "MaSDj": null,
+            "MsDt": null,
+            "PEIpc": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Pdqf": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "PhDCC": [
+                [
+                    "O"
+                ]
+            ],
+            "PhDCS": [
+                [
+                    "d"
+                ]
+            ],
+            "PhEq": null,
+            "PhName": "Quartz          ",
+            "PhNote": "nagra-psi",
+            "Ph_Nc": [
+                [
+                    1,
+                    1
+                ]
+            ],
+            "Ph_Ps": [
+                [
+                    "s",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Ph_ncp": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Ph_npx": 0,
+            "Ph_nsc": 0,
+            "Ph_nsi": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "PrpCon": [
+                [
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "SAT_C": null,
+            "SCM_C": null,
+            "Vpor": [
+                [
+                    0,
+                    1,
+                    1,
+                    0
+                ]
+            ],
+            "XfIEC": null,
+            "apCon": null,
+            "dc_cf": null,
+            "dcpcl": null,
+            "dhc": null,
+            "dielc": null,
+            "eimLl": null,
+            "eimPl": null,
+            "feSAr": null,
+            "ipccl": null,
+            "ipicl": null,
+            "ipxT": null,
+            "ixdiel": null,
+            "ixsolv": null,
+            "kin_t": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "lDCd": null,
+            "lDCr": null,
+            "lICu": null,
+            "lPh": null,
+            "lPhC": null,
+            "lPhc": null,
+            "nEIl": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nIsoC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nlPh": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "numpC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "ocPRk": null,
+            "pDC_v_": [
+                [
+                    "s   SiO     Qtz             dnp "
+                ]
+            ],
+            "pSDref": [
+                [
+                    "                                "
+                ]
+            ],
+            "pSDval": [
+                [
+                    "                        "
+                ]
+            ],
+            "p_solt": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "ph_cf": null,
+            "psdC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "rcpc": null,
+            "rpCon": null,
+            "rpkcl": null,
+            "rprcl": null,
+            "smcDl": null,
+            "smcSl": null,
+            "solvc": null,
+            "umpCon": null,
+            "umpcl": null,
+            "xSmD": null
+        },
+        "key": [
+            "s",
+            "SiO",
+            "Quartz",
+            "c",
+            "psi-nagra_"
+        ],
+        "project": "phases-psina14"
+    },
+    {
+        "dod": {
+            "Ascp": null,
+            "CDc": null,
+            "Cap_t": null,
+            "DQFc": null,
+            "DcEq": null,
+            "DisPar": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "EIpc": null,
+            "FSI_t": null,
+            "IsoC": null,
+            "IsoP": null,
+            "IsoS": null,
+            "MaSDj": null,
+            "MsDt": null,
+            "PEIpc": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Pdqf": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "PhDCC": [
+                [
+                    "O"
+                ]
+            ],
+            "PhDCS": [
+                [
+                    "d"
+                ]
+            ],
+            "PhEq": null,
+            "PhName": "Silica SiO2 amorphous",
+            "PhNote": "nagra-psi",
+            "Ph_Nc": [
+                [
+                    1,
+                    0
+                ]
+            ],
+            "Ph_Ps": [
+                [
+                    "s",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Ph_ncp": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Ph_npx": 0,
+            "Ph_nsc": 0,
+            "Ph_nsi": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "PrpCon": [
+                [
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "SAT_C": null,
+            "SCM_C": null,
+            "Vpor": [
+                [
+                    0,
+                    1,
+                    1,
+                    0
+                ]
+            ],
+            "XfIEC": null,
+            "apCon": null,
+            "dc_cf": null,
+            "dcpcl": null,
+            "dhc": null,
+            "dielc": null,
+            "eimLl": null,
+            "eimPl": null,
+            "feSAr": null,
+            "ipccl": null,
+            "ipicl": null,
+            "ipxT": null,
+            "ixdiel": null,
+            "ixsolv": null,
+            "kin_t": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "lDCd": null,
+            "lDCr": null,
+            "lICu": null,
+            "lPh": null,
+            "lPhC": null,
+            "lPhc": null,
+            "nEIl": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nIsoC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nlPh": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "numpC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "ocPRk": null,
+            "pDC_v_": [
+                [
+                    "s   SiO     Amor-Sl         dnp "
+                ]
+            ],
+            "pSDref": null,
+            "pSDval": null,
+            "p_solt": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "ph_cf": null,
+            "psdC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "rcpc": null,
+            "rpCon": null,
+            "rpkcl": null,
+            "rprcl": null,
+            "smcDl": null,
+            "smcSl": null,
+            "solvc": null,
+            "umpCon": null,
+            "umpcl": null,
+            "xSmD": null
+        },
+        "key": [
+            "s",
+            "SiO",
+            "Silica-amorph",
+            "c",
+            "nagra-psi_"
+        ],
+        "project": "phases-psina14"
+    },
+    {
+        "dod": {
+            "Ascp": null,
+            "CDc": null,
+            "Cap_t": null,
+            "DQFc": null,
+            "DcEq": null,
+            "DisPar": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "EIpc": null,
+            "FSI_t": null,
+            "IsoC": null,
+            "IsoP": null,
+            "IsoS": null,
+            "MaSDj": null,
+            "MsDt": null,
+            "PEIpc": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Pdqf": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "PhDCC": [
+                [
+                    "O"
+                ]
+            ],
+            "PhDCS": [
+                [
+                    "d"
+                ]
+            ],
+            "PhEq": null,
+            "PhName": "Strontianite SrCO3 cryst.",
+            "PhNote": "nagra-psi",
+            "Ph_Nc": [
+                [
+                    1,
+                    0
+                ]
+            ],
+            "Ph_Ps": [
+                [
+                    "s",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Ph_ncp": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Ph_npx": 0,
+            "Ph_nsc": 0,
+            "Ph_nsi": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "PrpCon": [
+                [
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "SAT_C": null,
+            "SCM_C": null,
+            "Vpor": [
+                [
+                    0,
+                    1,
+                    1,
+                    0
+                ]
+            ],
+            "XfIEC": null,
+            "apCon": null,
+            "dc_cf": null,
+            "dcpcl": null,
+            "dhc": null,
+            "dielc": null,
+            "eimLl": null,
+            "eimPl": null,
+            "feSAr": null,
+            "ipccl": null,
+            "ipicl": null,
+            "ipxT": null,
+            "ixdiel": null,
+            "ixsolv": null,
+            "kin_t": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "lDCd": null,
+            "lDCr": null,
+            "lICu": null,
+            "lPh": null,
+            "lPhC": null,
+            "lPhc": null,
+            "nEIl": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nIsoC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nlPh": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "numpC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "ocPRk": null,
+            "pDC_v_": [
+                [
+                    "s   SrCO    Str             dnp "
+                ]
+            ],
+            "pSDref": null,
+            "pSDval": null,
+            "p_solt": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "ph_cf": null,
+            "psdC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "rcpc": null,
+            "rpCon": null,
+            "rpkcl": null,
+            "rprcl": null,
+            "smcDl": null,
+            "smcSl": null,
+            "solvc": null,
+            "umpCon": null,
+            "umpcl": null,
+            "xSmD": null
+        },
+        "key": [
+            "s",
+            "SrCO",
+            "Strontianite",
+            "c",
+            "nagra-psi_"
+        ],
+        "project": "phases-psina14"
+    },
+    {
+        "dod": {
+            "Ascp": null,
+            "CDc": null,
+            "Cap_t": null,
+            "DQFc": null,
+            "DcEq": null,
+            "DisPar": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "EIpc": null,
+            "FSI_t": null,
+            "IsoC": null,
+            "IsoP": null,
+            "IsoS": null,
+            "MaSDj": null,
+            "MsDt": null,
+            "PEIpc": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Pdqf": [
+                [
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "PhDCC": [
+                [
+                    "O"
+                ]
+            ],
+            "PhDCS": [
+                [
+                    "d"
+                ]
+            ],
+            "PhEq": null,
+            "PhName": "Celestite SrSO4 cryst.",
+            "PhNote": "nagra-psi",
+            "Ph_Nc": [
+                [
+                    1,
+                    0
+                ]
+            ],
+            "Ph_Ps": [
+                [
+                    "s",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "Ph_ncp": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Ph_npx": 0,
+            "Ph_nsc": 0,
+            "Ph_nsi": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "PrpCon": [
+                [
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "SAT_C": null,
+            "SCM_C": null,
+            "Vpor": [
+                [
+                    0,
+                    1,
+                    1,
+                    0
+                ]
+            ],
+            "XfIEC": null,
+            "apCon": null,
+            "dc_cf": null,
+            "dcpcl": null,
+            "dhc": null,
+            "dielc": null,
+            "eimLl": null,
+            "eimPl": null,
+            "feSAr": null,
+            "ipccl": null,
+            "ipicl": null,
+            "ipxT": null,
+            "ixdiel": null,
+            "ixsolv": null,
+            "kin_t": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "lDCd": null,
+            "lDCr": null,
+            "lICu": null,
+            "lPh": null,
+            "lPhC": null,
+            "lPhc": null,
+            "nEIl": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nIsoC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "nlPh": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "numpC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "ocPRk": null,
+            "pDC_v_": [
+                [
+                    "s   SrSO    Cls             dnp "
+                ]
+            ],
+            "pSDref": null,
+            "pSDval": null,
+            "p_solt": [
+                [
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N",
+                    "N"
+                ]
+            ],
+            "ph_cf": null,
+            "psdC": [
+                [
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "rcpc": null,
+            "rpCon": null,
+            "rpkcl": null,
+            "rprcl": null,
+            "smcDl": null,
+            "smcSl": null,
+            "solvc": null,
+            "umpCon": null,
+            "umpcl": null,
+            "xSmD": null
+        },
+        "key": [
+            "s",
+            "SrSO",
+            "Celestite",
+            "c",
+            "nagra-psi_"
+        ],
+        "project": "phases-psina14"
+    }
+]
+
