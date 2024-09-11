@@ -1,0 +1,7 @@
+# Importing references from .json / .ris / .bib files to DataSource
+Use a free web-tool https://anystyle.io/ (info here https://github.com/inukshuk/anystyle) to parse references from text to csl-json file. In case of lacking reference data, the full reference can be previously found via https://citation-finder.hubmed.org/.<br>
+In a Main Window, follow <mark style="background-color: lightblue">Module</mark> → <mark style="background-color: lightblue">DataSource (Vertex)...</mark> in the main menu or press <b>DataSource (Vertex)</b> button in the left-side panel:<br>
+<center><img src="pics/lit_import_1.png" width="80%"/></center><br>
+In the displayed window, go <mark style="background-color: lightblue">Database</mark> → <mark style="background-color: lightblue">Import DB Records from Foreign Format File</mark><br>:
+<center><img src="pics/lit_import_2.png" width="80%"/></center><br>
+In the displayed dialogue, follow the steps as in the picture below: add Name (1) and Comment (2) to the imported object (optionally), choose the path to .ris or .json file, from which the records should be imported (File Path) (3), choose FormatKeyValueFile for .ris or leave default FormatStructDataFile for .json in the drop-down menu of Format Description (4), choose the proper importing script file (.ris or .json) pressing <b>“Read Import/Export Description from File”</b> button (5) and press the <b>“Execute Import from Foreign-Format File”</b> button (6):<br> <center><img src="pics/lit_import_3.png" width="80%"/></center><br>
