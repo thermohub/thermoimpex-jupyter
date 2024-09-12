@@ -1,0 +1,79 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.radioactivity.decay_type" :   "{\"0\" :   \"STABLE\"}",
+               "properties.radioactivity.half_life_lambda.values" :   "[ 0 ]",
+               "properties.datasources" :   "[\"Mines23\"]",
+               "properties.sourcetdb" :   "{\"27\" :   \"MINES23\"}",
+               "properties.atomic_mass.name" :   "\"M0i\"",
+               "properties.entropy.name" :   "\"S0i\"",
+               "properties.heat_capacity.name" :   "\"Cp0i\"",
+               "properties.volume.name" :   "\"V0i\"",
+               "properties.isotope_abundance.name" :   "\"IXi\""
+          },
+          "pairs" :   {
+
+          },
+          "matches" :   {
+               "key.0" :   {
+                    "field" :   "properties.symbol"
+               },
+               "key.1" :   {
+                    "field" :   "properties.class_",
+                    "convert" :   {
+                         "e" :   "{\"0\" :   \"ELEMENT\"}",
+                         "o" :   "{\"0\" :   \"ELEMENT\"}",
+                         "h" :   "{\"0\" :   \"ELEMENT\"}",
+                         "z" :   "{\"4\" :   \"CHARGE\"}",
+                         "a" :   "{\"2\" :   \"LIGAND\"}",
+                         "v" :   "{\"5\" :   \"OTHER_EC\"}"
+                    }
+               },
+               "key.2" :   {
+                    "field" :   "properties.name"
+               },
+               "dod.M0i" :   {
+                    "field" :   "properties.atomic_mass.values"
+               },
+               "dod.S0i" :   {
+                    "field" :   "properties.entropy.values"
+               },
+               "dod.Cp0i" :   {
+                    "field" :   "properties.heat_capacity.values"
+               },
+               "dod.V0i" :   {
+                    "field" :   "properties.volume.values"
+               },
+               "dod.IXi" :   {
+                    "field" :   "properties.isotope_abundance.values"
+               },
+               "dod.Valen" :   {
+                    "field" :   "properties.valences.values"
+               },
+               "dod.indMT" :   {
+                    "field" :   "properties.number"
+               },
+               "dod.StdSt" :   {
+                    "field" :   "properties.aggregate_state",
+                    "convert" :   {
+                         "g   " :  "{\"0\" :   \"AS_GAS\"}",
+                         "s   " :  "{\"3\" :   \"AS_CRYSTAL\"}",
+                         "l   " :  "{\"1\" :   \"AS_LIQUID\"}",
+                         "`   " :  "{\"6\" :   \"AS_IONEX\"}"
+                    }
+               },
+               "dod.ICname" :   {
+                    "field" :   "properties.comment"
+               },
+               "dod.ICform" :   {
+                    "field" :   "properties.formula"
+               },
+               "dod.IC_DC" :   {
+                    "field" :   "properties.substance"
+               }
+          }
+     },
+     "renderer" :   "JSON",
+     "label" :   "VertexElement",
+     "comment" :   "Import"
+}
