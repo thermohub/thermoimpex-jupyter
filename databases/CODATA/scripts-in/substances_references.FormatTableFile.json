@@ -1,0 +1,59 @@
+{
+     "block": {
+          "defaults": {
+               "properties.sourcetdb": "{\"0\" : \"CODATA\"}",
+               "properties.vertextype": "\"VertexSubstance\"",
+               "properties.ref_for_field": "{}"
+          },
+          "matches": {
+               "substance": {
+                    "field": "properties.symbol",
+                    "ignore": false,
+                    "script": ""
+               },
+               "ref": {
+                    "field": "properties.ref_for_field[\"properties\"]"
+               }
+          },
+          "script": ""
+     },
+     "format": {
+          "Nhcols": 10,
+          "Nhrows": 1,
+          "headers": [
+               "substance",
+               "formula",
+               "state",
+               "dHf_298",
+               "dHf_298_error",
+               "S_298",
+               "S_298_error",
+               "H_298-H_0",
+               "H_298-H_0_error",
+               "ref"
+          ],
+          "rowend": "\n",
+          "rows_one_block": 1,
+          "colends": ",",
+          "usequotes": false,
+          "usemore": false,
+          "comment_regexp": ""
+     },
+     "renderer": "",
+     "label": "VertexTemporary",
+     "separators": {
+          "v_sep": ",",
+          "l_sep": "",
+          "r_sep": "",
+          "c_head": "",
+          "c_end": "",
+          "eod": "",
+          "encoding": "",
+          "str_delim": "",
+          "bod": ""
+     },
+     "comment": "",
+     "fname": "",
+     "Nblocks": 0,
+     "Nlines": 0
+}

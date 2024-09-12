@@ -1,0 +1,45 @@
+{
+     "block": {
+          "defaults": {
+               "properties.datasources": "[\"codata89\"]",
+               "properties.sourcetdbs": "{\"0\" :   \"CODATA\"}",
+               "properties.name": "\"codata89\"",
+               "properties.symbol": "\"coda89\"",
+               "properties.stype": "{\"0\" :   \"TDS_REF\"}",
+               "properties.level": 0
+          },
+          "matches": "",
+          "script": ""
+     },
+     "format": {
+          "Nhcols": 2,
+          "Nhrows": 1,
+          "headers": [
+               "name",
+               "type"
+          ],
+          "rowend": "\n",
+          "rows_one_block": 1,
+          "colends": ",",
+          "usequotes": false,
+          "usemore": false,
+          "comment_regexp": ""
+     },
+     "renderer": "",
+     "label": "VertexThermoDataSet",
+     "separators": {
+          "v_sep": ",",
+          "l_sep": "",
+          "r_sep": "",
+          "c_head": "",
+          "c_end": "",
+          "eod": "",
+          "encoding": "",
+          "str_delim": "",
+          "bod": ""
+     },
+     "comment": "",
+     "fname": "",
+     "Nblocks": 0,
+     "Nlines": 0
+}
