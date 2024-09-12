@@ -15,5 +15,7 @@ Import Thermodynamic Databases
 - [SUCPRT](/databases/SUPCRT/readme.md)
 - [CEMDATA](/databases/CEMDATA/readme.md)
 - [NASA](/databases/NASA/readme.md)
-
+- [MINES](/databases/MINES/readme.md)
+- [HERACLES](/databases/HERACLES/readme.md)
+- [CODATA](/databases/CODATA/readme.md)
 
