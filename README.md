@@ -30,5 +30,4 @@ Formats for data types in the [ThermoHub](https://thermohub.org/thermohub/thermo
 
 
 ## Acknowledgements  
-
-This work had support from the [ETH Domain Open Research Data]((https://ethrat.ch/en/eth-domain/open-research-data/)) (ORD) Program, [Contribute](https://ethrat.ch/en/measure-1-calls-for-field-specific-actions/) funding scheme.
+This project was supported by the [Open Research Data Program](https://ethrat.ch/en/eth-domain/open-research-data/) of the ETH Board.
