@@ -41,6 +41,11 @@
           "name": "OTHER_EC",
           "value": 5,
           "doc": "Other type of independent component\n"
+        },
+        {
+          "name": "IONEX",
+          "value": 6,
+          "doc": "Ion echange\n"
         }
       ]
     },

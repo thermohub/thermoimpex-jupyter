@@ -246,6 +246,11 @@
           "doc": "Component of pure condenced phase phase (pure substance)\n"
         },
         {
+          "name": "SC_IONEX",
+          "value": 7,
+          "doc": "Surface (adsorption) species\n"
+        },
+        {
           "name": "SC_OTHER",
           "value": 101,
           "doc": "Other type of component\n"
