@@ -1,0 +1,62 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "log_k" :   "0.0"
+          },
+          "pairs" :   {
+               "gamma" :   {
+                    "datatype" :   "string",
+                    "organization" :   "list"
+               }
+          },
+          "matches" :   {
+               "head2" :   {
+                    "field" :   "properties.formula",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "head0" :   {
+                    "field" :   "properties.comment",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               }
+          },
+          "script" :   "if rintable.properties.formula == \'-1\' then rintable.properties.formula = \'e-\' end;\n
+			if rintable.properties.formula == \'-\' then rintable.properties.formula = \'e-\' end;\n
+                        frm = rintable.properties.formula;\n  frm = string.gsub(frm, \'Zz\',  \'e-\' );\n frm = string.gsub(frm, \'|(.-)|\',  \'\' );\n frm = string.gsub(frm, \'@\',  \'\' ); rintable.properties.formula = frm;"
+     },
+     "format" :   {
+          "head_regexp" :   "\n%head2\t=\t%head2\n",
+          "end_regexp" :   "",
+          "key_regexp" :   "\t-%key \t",
+          "value_regexp" :   "%value",
+          "value_next" :   "\n",
+          "value_token_regexp" :   "  ",
+          "comment_regexp" :   "# ",
+          "Ndata" :   0
+     },
+     "renderer" :   " ",
+     "label" :   "VertexSubstance",
+     "separators" :   {
+          "v_sep" :   "",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0,
+     "direction" :   1
+}

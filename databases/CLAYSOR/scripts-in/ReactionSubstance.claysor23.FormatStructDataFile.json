@@ -1,0 +1,148 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.datasources" :   "[\"ClaySor23\"]",
+               "properties.sourcetdb" :   "{\"28\" :   \"CLAYSOR23\"}"
+          },
+          "pairs" :   {
+               "dod.rSDref" :   {
+                    "organization" :   "table"
+               }
+          },
+          "matches" :   {
+               "dod.rSDref" :   {
+                    "field" :   "properties.datasources"
+               },
+               "key.2" :   {
+                    "field" :   "properties.symbol"
+               },
+               "dod.RDname" :   {
+                    "field" :   "properties.name"
+               },
+               "key.0" :   {
+                    "field" :   "properties.aggregate_state",
+                    "convert" :   {
+                         "a" :   "{\"4\" :   \"AS_AQUEOUS\"}",
+                         "g" :   "{\"0\" :   \"AS_GAS\"}",
+                         "c" :   "{\"3\" :   \"AS_CRYSTAL\"}",
+                         "s" :   "{\"3\" :   \"AS_CRYSTAL\"}",
+                         "l" :   "{\"1\" :   \"AS_LIQUID\"}"
+                    }
+               },
+               "dod.PrTr_.0.1" :   {
+                    "field" :   "properties.Tst",
+                    "script" :   "field = field+273.15"
+               },
+               "dod.PrTr_.0.0" :   {
+                    "field" :   "properties.Pst",
+                    "script" :   "field = field*1e05"
+               },
+               "dod.RE_set.0.0" :   {
+                    "field" :   "properties.class_",
+                    "convert" :   {
+                         "d" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "r" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "n" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "i" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "f" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "T" :   "{\"2\" :   \"SC_AQSOLUTE\"}",
+                         "E" :   "{\"2\" :   \"SC_AQSOLUTE\"}",
+                         "S" :   "{\"2\" :   \"SC_AQSOLUTE\"}",
+                         "K" :   "{\"4\" :   \"SC_SURFSPECIES\"}",
+                         "W" :   "{\"3\" :   \"SC_AQSOLVENT\"}",
+                         "L" :   "{\"3\" :   \"SC_AQSOLVENT\"}",
+                         "G" :   "{\"1\" :   \"SC_GASFLUID\"}",
+                         "V" :   "{\"1\" :   \"SC_GASFLUID\"}",
+                         "C" :   "{\"1\" :   \"SC_GASFLUID\"}",
+                         "H" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "N" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "I" :   "{\"0\" :   \"SC_COMPONENT\"}",
+                         "J" :   "{\"0\" :   \"SC_COMPONENT\"}",
+                         "M" :   "{\"0\" :   \"SC_COMPONENT\"}",
+                         "F" :   "{\"0\" :   \"SC_COMPONENT\"}",
+                         "D" :   "{\"0\" :   \"SC_COMPONENT\"}",
+                         "Q" :   "{\"0\" :   \"SC_COMPONENT\"}",
+                         "P" :   "{\"0\" :   \"SC_COMPONENT\"}",
+                         "R" :   "{\"0\" :   \"SC_COMPONENT\"}",
+                         "U" :   "{\"0\" :   \"SC_COMPONENT\"}",
+                         "0" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "2" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "4" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "6" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "8" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "1" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "3" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "5" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "7" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "9" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "A" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "B" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "X" :   "{\"4\" :   \"SC_SURFSPECIES\"}",
+                         "EX" :   "{\"7\" :   \"SC_IONEX\"}",
+                         "Y" :   "{\"4\" :   \"SC_SURFSPECIES\"}",
+                         "Z" :   "{\"4\" :   \"SC_SURFSPECIES\"}",
+                         "O" :   "{\"0\" :   \"SC_COMPONENT\"}"
+                    }
+               },
+               "dod.RDform" :   {
+                    "field" :   "properties.formula"
+               },
+               "dod.Zz_" :   {
+                    "field" :   "properties.formula_charge"
+               },
+               "dod.M0_" :   {
+                    "field" :   "properties.mass_per_mole"
+               },
+               "dod.G0r.0.1" :   {
+                    "field" :   "properties.sm_gibbs_energy.values"
+               },
+               "dod.H0r.0.1" :   {
+                    "field" :   "properties.sm_enthalpy.values",
+                    "script" :   "field = nil "
+               },
+               "dod.S0r.0.1" :   {
+                    "field" :   "properties.sm_entropy_abs.values",
+                    "script" :   "field = nil "
+               },
+               "dod.Cp0r.0.1" :   {
+                    "field" :   "properties.sm_heat_capacity_p.values",
+                    "script" :   "field = nil "
+               },
+               "dod.V0r.0.1" :   {
+                    "field" :   "properties.sm_volume.values",
+                    "script" :   "field = nil "
+               },
+               "dod.G0r.0.2" :   {
+                    "field" :   "properties.sm_gibbs_energy.errors"
+               },
+               "dod.H0r.0.2" :   {
+                    "field" :   "properties.sm_enthalpy.errors",
+                    "script" :   "field = nil "
+               },
+               "dod.S0r.0.2" :   {
+                    "field" :   "properties.sm_entropy_abs.errors",
+                    "script" :   "field = nil "
+               },
+               "dod.Cp0r.0.2" :   {
+                    "field" :   "properties.sm_heat_capacity_p.errors",
+                    "script" :   "field = nil "
+               },
+               "dod.V0r.0.2" :   {
+                    "field" :   "properties.sm_volume.errors",
+                    "script" :   "field = nil "
+               }
+          },
+          "script": "name = '_rdc_'.. rintable.properties.name rintable.properties.name = name
+          
+          rintable.properties.drsm_enthalpy = nil
+          rintable.properties.sm_entropy_abs = nil
+          rintable.properties.drsm_heat_capacity_p = nil
+          rintable.properties.drsm_volume = nil
+          
+          
+          "
+     },
+     "renderer" :   "JSON",
+     "label" :   "VertexSubstance",
+     "comment" :   "Import"
+}

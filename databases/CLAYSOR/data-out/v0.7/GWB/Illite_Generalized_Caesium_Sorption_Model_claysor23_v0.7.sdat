@@ -1,0 +1,177 @@
+Dataset of surface reactions for gwb programs
+Dataset format: sep22
+Surface type: IonEx_IGCSM
+Model type: ion-exchange  gaines-thomas
+Surface potential: n/a
+Surface capacitance: n/a
+Thermo dataset: PSINagra2020v1-5.tdat
+* The ClaySor 2023 Sorption Thermodynamic Databse of 2 SPNE SC/CE Sorption Model for Illite and Montmorillonite  
+* 
+* transferred into GWB format from the PHREEQC file claysor23_v0.7.dat by Dr. Frank Bok (HZDR) f.bok@hzdr.de
+* Note that the user sets the exchange capacity (CEC) from the command line with the "exchange_capacity" command or
+* within the GUI sub-menu "Sorbing Surfaces".
+* 
+* The database is consistent and shold be used for GWB calculations with the PSI/Nagra 
+* TDB 2020 (Hummel & Thoenen 2023) aqueous thermodynamic database http://www.psi.ch/les/database, see "Thermo dataset" above
+* 
+* Database of reactions generated using ThermoMatch reactions generator tool. 
+* Reactions exported to phreeqc format using ThermoMatch export functionality.
+* https://thermohub.org/thermomatch. For questions G. Dan Miron dan.miron@psi.ch
+* 
+* Change history
+* 25 Nov. 2024 first release v0.1 
+* 16 Dec. 2024 v0.2 after fixes to references 
+* 14 Jan. 2025 fixes of format, added missing secondary master reaction, exchange constants in Gaines-Thomas convetion
+* 23 Jan. 2025 Changed edge site naming 
+* 19 Feb. 2025 Added references
+* 17 Mar. 2925 v0.6 Changed edge and exchange site naming 
+* 21 Mar. 2025 v0.7 Change constants for Nb on both strong and weak sites of montmorilonite, added one reaction on strong sites, added corresponding reference to ref. list
+* 27 Mar. 2025 fix references, typos
+* 
+
+-end-
+
+   3 basis species
+
+>IltX:Na
+     charge=    0       mole wt.=    22.9900 g
+     sorbed species= Na+
+     1 elements in species
+        1.000 Na      
+* Illite_IMt-2
+* planar sites
+* site capacities for 1 g Na-Illite:
+* >IltxNa 	0.00018 moles/g Illite_IMt-2
+
+>IltXfe:Na
+     charge=    0       mole wt.=    22.9900 g
+     sorbed species= Na+
+     1 elements in species
+        1.000 Na      
+* Illite_IMt-2
+* frayed edge sites
+* site capacities for 1 g Na-Illite:
+* >IltxNa 	5.625e-07 moles/g Illite_IMt-2
+
+>IltXtt:Na
+     charge=    0       mole wt.=    22.9900 g
+     sorbed species= Na+
+     1 elements in species
+        1.000 Na      
+* Illite_IMt-2
+* type 2 sites
+* site capacities for 1 g Na-Illite:
+* >IltxNa 	4.5e-05 moles/g Illite_IMt-2
+
+-end-
+
+   14 surface species
+
+>IltXfe2:Ca
+     charge=    0       mole wt.=    40.0780 g
+     3 species in reaction
+        2.000 >IltXfe:Na        1.000 Ca++           -2.000 Na+     
+     Selectivity coefficient= .2010
+* Ca on frayed edge ion exchange on illite 0.5 meq/kg error: 0.1 ref: Wick_ea:2018:pap:
+
+>IltXfe:Cs
+     charge=    0       mole wt.=   132.9050 g
+     3 species in reaction
+        1.000 >IltXfe:Na        1.000 Cs+            -1.000 Na+     
+     Selectivity coefficient= 6.6410
+* Cs on frayed edge ion exchange on illite 0.5 meq/kg error: 0.05 ref: Marinich_ea:2024:rep:
+
+>IltXfe:H
+     charge=    0       mole wt.=     1.0080 g
+     3 species in reaction
+        1.000 >IltXfe:Na        1.000 H+             -1.000 Na+     
+     Selectivity coefficient= 1.7500
+* H on frayed edge ion exchange on illite 0.5 meq/kg error: 0.2 ref: Per_communicat_Kulik:2024:man
+
+>IltXfe:K
+     charge=    0       mole wt.=    39.0980 g
+     3 species in reaction
+        1.000 >IltXfe:Na        1.000 K+             -1.000 Na+     
+     Selectivity coefficient= 2.4000
+* K on frayed edge ion exchange on illite 0.5 meq/kg error: 0.2 ref: Bradbury_Baeyens:2017:rep:
+
+>IltXfe2:Mg
+     charge=    0       mole wt.=    24.3050 g
+     3 species in reaction
+        2.000 >IltXfe:Na        1.000 Mg++           -2.000 Na+     
+     Selectivity coefficient= .2010
+*  Mg on frayed edge ion exchange on illite 0.5 meq/kg error: 0.1 ref: Marinich_ea:2024:rep:
+
+>IltXfe:NH4
+     charge=    0       mole wt.=    18.0390 g
+     3 species in reaction
+        1.000 >IltXfe:Na        1.000 NH4+           -1.000 Na+     
+     Selectivity coefficient= 3.4000
+* NH4 on frayed edge ion exchange on illite 0.5 meq/kg error: 0.3 ref: Wick_ea:2018:pap:
+
+>IltXfe2:Sr
+     charge=    0       mole wt.=    87.6210 g
+     3 species in reaction
+        2.000 >IltXfe:Na        1.000 Sr++           -2.000 Na+     
+     Selectivity coefficient= .2010
+* Sr on frayed edge ion exchange on illite 0.5 meq/kg error: 0.1 ref: Marinich_ea:2024:rep:
+
+>IltXtt2:Ca
+     charge=    0       mole wt.=    40.0780 g
+     3 species in reaction
+        2.000 >IltXtt:Na        1.000 Ca++           -2.000 Na+     
+     Selectivity coefficient= .0010
+* Ca on type II ion exchange on illite 40 meq/kg error: 0.1 ref: Wick_ea:2018:pap:
+
+>IltXtt:Cs
+     charge=    0       mole wt.=   132.9050 g
+     3 species in reaction
+        1.000 >IltXtt:Na        1.000 Cs+            -1.000 Na+     
+     Selectivity coefficient= 3.0270
+* Cs on type II ion exchange on illite 40 meq/kg error: 0.85 ref: Marinich_ea:2024:rep:
+
+>IltXtt:H
+     charge=    0       mole wt.=     1.0080 g
+     3 species in reaction
+        1.000 >IltXtt:Na        1.000 H+             -1.000 Na+     
+     Selectivity coefficient= 1E-10
+* H on type II ion exchange on illite 40 meq/kg error: 0.2 ref: Per_communicat_Kulik:2024:man
+* original value 0
+
+>IltXtt:K
+     charge=    0       mole wt.=    39.0980 g
+     3 species in reaction
+        1.000 >IltXtt:Na        1.000 K+             -1.000 Na+     
+     Selectivity coefficient= 2.1000
+* K on type II ion exchange on illite 40 meq/kg error: 0.2 ref: Bradbury_Baeyens:2017:rep:
+
+>IltXtt2:Mg
+     charge=    0       mole wt.=    24.3050 g
+     3 species in reaction
+        2.000 >IltXtt:Na        1.000 Mg++           -2.000 Na+     
+     Selectivity coefficient= .0010
+* Mg on type II ion exchange on illite 40 meq/kg error: 0.1 ref: Marinich_ea:2024:rep:
+
+>IltXtt:NH4
+     charge=    0       mole wt.=    18.0390 g
+     3 species in reaction
+        1.000 >IltXtt:Na        1.000 NH4+           -1.000 Na+     
+     Selectivity coefficient= 2.1000
+* NH4 on type II ion exchange on illite 40 meq/kg error: 0.1 ref: Wick_ea:2018:pap:
+
+>IltXtt2:Sr
+     charge=    0       mole wt.=    87.6210 g
+     3 species in reaction
+        2.000 >IltXtt:Na        1.000 Sr++           -2.000 Na+     
+     Selectivity coefficient= .0010
+* Sr on type II ion exchange on illite 40 meq/kg error: 0.1 ref: Marinich_ea:2024:rep:
+
+-end-
+* References:
+* Bradbury, M.H., Baeyens, B., 2000. A generalised sorption model for the concentration dependent uptake of caesium by argillaceous rocks. J. Contam. Hydrol. 42, 141–163. https://doi.org/10.1016/S0169-7722(99)00094-7
+* Bradbury, M.H., Baeyens, B., 2017. The development of a thermodynamic sorption data base for illite and the application to argillaceous rocks. NAGRA Tech. Rep. 17 14, 105
+* Hummel, W., Thoenen, T., 2023. The PSI Chemical Thermodynamic Database 2020. Nagra technical report NTB 21-03
+* Marinich, O., Marques Fernandes, M., Miron, G.D. & Kulik, D.A., 2024. ClaySor 2023: Update of 2 SPNE SC/CE Sorption Model for Illite and Montmorillonite in GEMS Implementation. Nagra Technical Report NTB 23-05
+* Marinich, O., Miron, G.D., Kulik, D.A., Marques Fernandes, M., & Baeyens, B., 2025. ClaySor 2023: Implementation of the 2SPNE SC/CE Sorption Model and Database for Deep Geological Repository Safety Assessment. Preprint
+* Personal communication with D.Kulik, manual input
+* Wick, S., Baeyens, B., Marques Fernandes, M., Voegelin, A., 2018. Thallium Adsorption onto Illite. Environ. Sci. Technol. 52, 571 580. https://doi.org/10.1021/acs.est.7b04485

@@ -1,0 +1,109 @@
+# The ClaySor 2023 Sorption Thermodynamic Databse of 2SPNE SC/CE Sorption Model for Illite and Montmorillonite  
+#
+# DOCUMENTATION:
+# Marinich, O., Marques Fernandes, M., Miron, G.D. & Kulik, D.A. (2024): ClaySor 2023: Update
+# of 2SPNE SC/CE Sorption Model for Illite and Montmorillonite in GEMS Implementation.
+# Nagra Technical Report NTB 23-05.
+#
+# The database is consistent and shold be used for PHREEQC calculations with the PSI/Nagra 
+# TDB 2020 (Hummel & Thoenen 2023) aqueous thermodynamic database http://www.psi.ch/les/database
+#
+# Database of reactions generated using ThermoMatch reactions generator tool. 
+# Reactions exported to phreeqc format using ThermoMatch export functionality.
+# https://thermohub.org/thermomatch. For questions G. Dan Miron dan.miron@psi.ch
+#
+# Details on the PHREEQC database generation procedure: 
+# Miron G.D., Marinich, O. (2024) ClaySor 2023: Update of 2SPNE SC/CE Sorption 
+# Model for Illite and Montmorillonite in PHREEQC format, Nagra AN-XX-XX.
+#
+# Change history -----------------------------------------------------------------------------------
+# 
+# 25 Nov. 2024 first release v0.1 
+# 16 Dec. 2024 v0.2 after fixes to references 
+# 14 Jan. 2025 fixes of format, added missing secondary master reaction, exchange constants in Gaines-Thomas convetion 
+# 23 Jan. 2025 Changed edge site naming 
+#
+# # Input site capacities for moles/g 1 g Na-Montmorillonite
+# EXCHANGE 1
+#	  ClayNa 	0.00087 
+#
+# SURFACE 1
+#  # surface name, sites capacity moles/g clay for 1 g Na-Montmorillonite
+#        Esm_sOH        2e-6  # strong sites
+#        Esm_vOH        4e-5  # weak sites w1
+#        Esm_wOH        4e-5  # weak sites w2
+# -no_edl     
+#
+# # Input site capacities for 1 g Illite 
+# EXCHANGE 1
+#	  ClaiNa 	0.000225 
+#
+# # Alternative input site capacities moles/g for the 
+# # generalized caesium soprtion model for 1 g Na-Illite 
+# EXCHANGE 1
+#	  ClaiNa 	0.00018 # planar sites
+#         ClfeiNa	5.625e-07 # frayed edge sites
+#	  ClttiNa	4.5e-05 # type 2 sites
+#
+# SURFACE 1
+#  # surface name, sites capacity moles/g clay for 1 g Na-Illite 
+#        Esi_sOH        2e-6  # strong sites
+#        Esi_vOH        4e-5  # weak sites w1
+#        Esi_wOH        4e-5  # weak sites w2
+# -no_edl
+
+
+
+EXCHANGE_SPECIES 
+
+# illite cation exchange
+
+Clai- = Clai-	# ionExchangeSite_illit
+	-log_K	0.0 
+	
+Clai- + Na+ = NaClai	# ionExchangeSite_illit
+	-log_k = 0.0
+		
+Clfei- = Clfei-	# IonExIll_frayed_edge	
+	-log_K	0.0 
+
+Cltti- = Cltti-	# IonExIll_type2_site	
+	-log_K	0.0 
+
+Clfei- + Na+ = NaClfei	# IonExIll_frayed_edge	
+	-log_K	0.0 
+
+Cltti- + Na+ = NaCltti	# IonExIll_type2_site	
+	-log_K	0.0 
+	
+# montmorillonite cation echange
+
+Clay- = Clay-	# IonExchangeSite_mont	
+	-log_K	0.0  
+
+Clay- + Na+ = NaClay	# IonExchangeSite_mont	
+	-log_K	0.0  
+	
+SURFACE_SPECIES 
+
+# surface complexation species of illite
+
+Esi_sOH = Esi_sOH	# EdgeSite_S_illite
+	-log_K	0.0
+
+Esi_vOH = Esi_vOH	# EdgeSite_W1_illite	
+	-log_K	0.0
+
+Esi_wOH = Esi_wOH	# EdgeSite_W2_illite
+	-log_K	0.0
+
+# surface complexation species of montmorillonite
+
+Esm_sOH = Esm_sOH	# EdgeSite_S_mont 
+	-log_K	0.0
+
+Esm_vOH = Esm_vOH	# EdgeSite_W1_mont 
+	-log_K	0.0
+
+Esm_wOH = Esm_wOH	# EdgeSite_W2_mont
+	-log_K	0.0

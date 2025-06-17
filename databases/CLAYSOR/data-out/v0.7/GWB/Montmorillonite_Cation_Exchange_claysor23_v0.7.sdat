@@ -1,0 +1,191 @@
+Dataset of surface reactions for gwb programs
+Dataset format: sep22
+Surface type: IonEx_Mnt
+Model type: ion-exchange  gaines-thomas
+Surface potential: n/a
+Surface capacitance: n/a
+Thermo dataset: PSINagra2020v1-5.tdat
+* The ClaySor 2023 Sorption Thermodynamic Databse of 2 SPNE SC/CE Sorption Model for Illite and Montmorillonite  
+* 
+* transferred into GWB format from the PHREEQC file claysor23_v0.7.dat by Dr. Frank Bok (HZDR) f.bok@hzdr.de
+* Note that the user sets the exchange capacity (CEC) from the command line with the "exchange_capacity" command or
+* within the GUI sub-menu "Sorbing Surfaces".
+* 
+* The database is consistent and shold be used for GWB calculations with the PSI/Nagra 
+* TDB 2020 (Hummel & Thoenen 2023) aqueous thermodynamic database http://www.psi.ch/les/database, see "Thermo dataset" above
+* 
+* Database of reactions generated using ThermoMatch reactions generator tool. 
+* Reactions exported to phreeqc format using ThermoMatch export functionality.
+* https://thermohub.org/thermomatch. For questions G. Dan Miron dan.miron@psi.ch
+* 
+* Change history
+* 25 Nov. 2024 first release v0.1 
+* 16 Dec. 2024 v0.2 after fixes to references 
+* 14 Jan. 2025 fixes of format, added missing secondary master reaction, exchange constants in Gaines-Thomas convetion
+* 23 Jan. 2025 Changed edge site naming 
+* 19 Feb. 2025 Added references
+* 17 Mar. 2925 v0.6 Changed edge and exchange site naming 
+* 21 Mar. 2025 v0.7 Change constants for Nb on both strong and weak sites of montmorilonite, added one reaction on strong sites, added corresponding reference to ref. list
+* 27 Mar. 2025 fix references, typos
+* 
+
+-end-
+
+   1 basis species
+
+>MntX:Na
+     charge=    0       mole wt.=    22.9900 g
+     sorbed species= Na+
+     1 elements in species
+        1.000 Na      
+* Montmorillonite(HcNa)
+* site capacities for 1 g Na-Montmorillonite:
+* >MntxNa 	0.00087 moles/g Montmorillonite(HcNa)
+
+-end-
+
+   18 surface species
+
+>MntX3:Am
+     charge=    0       mole wt.=   243.0000 g
+     3 species in reaction
+        3.000 >MntX:Na        1.000 Am+++          -3.000 Na+     
+     Selectivity coefficient= 1.6380
+* Am on ion exchange  error: 0.09 ref: Marinich_ea:2024:rep:
+
+>MntX2:Ba
+     charge=    0       mole wt.=   137.3280 g
+     3 species in reaction
+        2.000 >MntX:Na        1.000 Ba++           -2.000 Na+     
+     Selectivity coefficient= 0.9010
+* Ba+2 on ion exchange, as logKx = 0.113 ref: Klinkenberg_ea:2021:pap: 
+
+>MntX2:Ca
+     charge=    0       mole wt.=    40.0780 g
+     3 species in reaction
+        2.000 >MntX:Na        1.000 Ca++           -2.000 Na+     
+     Selectivity coefficient= .3960
+* Ca on ion exchange, as logKx = 0.03 error: 0.27 ref: Curti:2023:rep:
+
+>MntX2:Cd
+     charge=    0       mole wt.=   112.4100 g
+     3 species in reaction
+        2.000 >MntX:Na        1.000 Cd++           -2.000 Na+     
+     Selectivity coefficient= .6740
+* Cd on ion exchange on montmorillonite as separate phase error: 0.03 ref: Marinich_ea:2024:rep:
+
+*>MntX2:Co
+*     charge=    0       mole wt.=    58.9332 g
+*     3 species in reaction
+*        2.000 >MntX:Na        1.000 Co++           -2.000 Na+     
+*     Selectivity coefficient= .5710
+** Co on ion exchange on montmorillonite as separate phase error: 0.06 ref: Marinich_ea:2024:rep:
+
+>MntX:Cs
+     charge=    0       mole wt.=   132.9050 g
+     3 species in reaction
+        1.000 >MntX:Na        1.000 Cs+            -1.000 Na+     
+     Selectivity coefficient= 1.0950
+* Cs on ion exchange error: 0.37 ref: Marinich_ea:2024:rep:
+
+>MntX3:Eu
+     charge=    0       mole wt.=   151.9660 g
+     3 species in reaction
+        3.000 >MntX:Na        1.000 Eu+++          -3.000 Na+     
+     Selectivity coefficient= 1.5320
+* Eu on ion exchange (corrected as logKmx -= 6.112)  error: 0.14 ref: Marinich_ea:2024:rep:
+
+>MntX2:Fe
+     charge=    0       mole wt.=    55.8450 g
+     3 species in reaction
+        2.000 >MntX:Na        1.000 Fe++           -2.000 Na+     
+     Selectivity coefficient= 1.3320
+* Fe2+ on ion exchange, corrected as logKmx -= 0.3 error: 0.11 ref: Marinich_ea:2024:rep:
+
+>MntX:H
+     charge=    0       mole wt.=     1.0080 g
+     3 species in reaction
+        1.000 >MntX:Na        1.000 H+             -1.000 Na+     
+     Selectivity coefficient= 1E-10
+* H+ on ion exchange on montmorillonite as separate phase ref: Per_communicat_Kulik:2024:man
+* original value 0
+
+>MntX:K
+     charge=    0       mole wt.=    39.0980 g
+     3 species in reaction
+        1.000 >MntX:Na        1.000 K+             -1.000 Na+     
+     Selectivity coefficient= 0.6020
+* K on ion exchange (montmorillonite) Kx = 0.602 error: 0.22 ref: Curti:2023:rep:
+
+>MntX2:Mg
+     charge=    0       mole wt.=    24.3050 g
+     3 species in reaction
+        2.000 >MntX:Na        1.000 Mg++           -2.000 Na+     
+     Selectivity coefficient= .3310
+*  Mg+2 on ion exchange, as logKx = 0.095 error: 0.3 ref: Curti:2023:rep:
+
+>MntX2:Mn
+     charge=    0       mole wt.=    54.9380 g
+     3 species in reaction
+        2.000 >MntX:Na        1.000 Mn++           -2.000 Na+     
+     Selectivity coefficient= .4770
+* Mn on ion exchange on montmorillonite as separate phase error: 0.09 ref: Marinich_ea:2024:rep:
+
+>MntX2:Ni
+     charge=    0       mole wt.=    58.6930 g
+     3 species in reaction
+        2.000 >MntX:Na        1.000 Ni++           -2.000 Na+     
+     Selectivity coefficient= .5740
+* Ni on ion exchange, corrected as logKmx -= 3.056 error: 0.06 ref: Marinich_ea:2024:rep:
+
+>MntX:NpO2
+     charge=    0       mole wt.=   268.9980 g
+     3 species in reaction
+        1.000 >MntX:Na        1.000 NpO2+          -1.000 Na+     
+     Selectivity coefficient= .0440
+* NpO2+ on ion exchange error: 0.12 ref: Marinich_ea:2024:rep:
+
+>MntX2:Pb
+     charge=    0       mole wt.=   207.0000 g
+     3 species in reaction
+        2.000 >MntX:Na        1.000 Pb++           -2.000 Na+     
+     Selectivity coefficient= 1.1810
+* Pb on ion exchange on montmorillonite as separate phase error: 0.37 ref: Marinich_ea:2024:rep:
+
+>MntX2:Ra
+     charge=    0       mole wt.=   226.0000 g
+     3 species in reaction
+        2.000 >MntX:Na        1.000 Ra++           -2.000 Na+     
+     Selectivity coefficient= 1.3360
+* Ra on ion exchange on montmorillonite as separate phase error: 0.13 ref: Marinich_ea:2024:rep:
+
+>MntX2:Sr
+     charge=    0       mole wt.=    87.6210 g
+     3 species in reaction
+        2.000 >MntX:Na        1.000 Sr++           -2.000 Na+     
+     Selectivity coefficient= .4140
+* Sr+2 on ion exchange, as logKx = 0.113 error: 0.27 ref: Curti:2023:rep:
+
+>MntX2:UO2
+     charge=    0       mole wt.=   270.0270 g
+     3 species in reaction
+        2.000 >MntX:Na        1.000 UO2++          -2.000 Na+     
+     Selectivity coefficient= .4640
+*  UO2 on ion exchange (logKc=0.45) as logKmx -= 3.056 error: 0.3 ref: Marinich_ea:2024:rep:
+
+>MntX2:Zn
+     charge=    0       mole wt.=    65.4000 g
+     3 species in reaction
+        2.000 >MntX:Na        1.000 Zn++           -2.000 Na+     
+     Selectivity coefficient= .5910
+* Zn on ion exchange on montmorillonite as separate phase ref: Bradbury_Baeyens:1995:rep:
+
+-end-
+* References:
+* Bradbury, M.H., Baeyens, B., 1995. A quantitative mechanistic description of Ni, Zn and Ca sorption on Na-montorillonite. Part III: Modelling. Nagra NTB 95-06
+* Curti, E., 2023. Bentonite pore waters (BPW) for the Sectoral Plan, phase SGT-3: Model development, testing and final calculations, Nagra Work Report NAB 22-43. Wettingen, Switzerland
+* Hummel, W., Thoenen, T., 2023. The PSI Chemical Thermodynamic Database 2020. Nagra technical report NTB 21-03 
+* Klinkenberg, M., Brandt, F., Baeyens, B., Bosbach, D., Fernandes, M.M., 2021. Adsorption of barium and radium on montmorillonite: A comparative experimental and modelling study. Appl. Geochemistry 135. https://doi.org/10.1016/j.apgeochem.2021.105117
+* Marinich, O., Marques Fernandes, M., Miron, G.D. & Kulik, D.A., 2024. ClaySor 2023: Update of 2 SPNE SC/CE Sorption Model for Illite and Montmorillonite in GEMS Implementation. Nagra Technical Report NTB 23-05
+* Marinich, O., Miron, G.D., Kulik, D.A., Marques Fernandes, M., & Baeyens, B., 2025. ClaySor 2023: Implementation of the 2SPNE SC/CE Sorption Model and Database for Deep Geological Repository Safety Assessment. Preprint
+* Personal communication with D.Kulik, manual input

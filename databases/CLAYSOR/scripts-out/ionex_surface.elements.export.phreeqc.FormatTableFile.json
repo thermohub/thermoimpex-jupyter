@@ -1,0 +1,75 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "alk" :   "0.0"
+          },
+          "pairs" :   {
+
+          },
+          "matches" :   {
+               "element" :   {
+                    "field" :   "properties.symbol",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "species" :   {
+                    "field" :   "properties.substance",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "comment" :   {
+                    "field" :   "properties.name",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               }
+          },
+          "script" :   " rintable.properties.name = ' # ' .. rintable.properties.name "
+     },
+     "format" :   {
+          "Nhcols" :   2,
+          "Nhrows" :   0,
+          "headers" :   [
+               "element",
+               "species",
+               "comment"
+          ],
+          "rowend" :   "\n",
+          "colends" :   "\t",
+          "usequotes" :   false,
+          "usemore" :   true,
+          "comment_regexp" :   "#.*",
+          "colsizes" :   [
+
+          ],
+          "value_regexp" :   [
+
+          ]
+     },
+     "renderer" :   "",
+     "label" :   "VertexElement",
+     "separators" :   {
+          "v_sep" :   "",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0,
+     "direction" :   1
+}

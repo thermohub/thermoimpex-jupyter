@@ -1,0 +1,177 @@
+{
+     "block" :   {
+          "defaults" :   {
+
+          },
+          "pairs" :   {
+               "analytical_expression" :   {
+                    "datatype" :   "string",
+                    "organization" :   "list"
+               },
+               "gamma" :   {
+                    "datatype" :   "string",
+                    "organization" :   "list"
+               }
+          },
+          "matches" :   {
+               "head2" :   {
+                    "field" :   "properties.name",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "head0" :   {
+                    "field" :   "properties.equation",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "log_K" :   {
+                    "field" :   "properties.logKr.values",
+                    "ignore" :   false,
+                    "script" :   "value = tostring(value)",
+                    "convert" :   {
+
+                    }
+               }
+          },
+          "script" :   "
+          
+          function modifyString(str)
+    		-- Find the number and substring before 'Na'
+    		local numberBeforeNa, substringBeforeNa = str:match('(%d+)(%a*)Na')
+    		
+    		-- convert from Vanselow to Gaines-Thomas
+    		if numberBeforeNa == '2' then
+    		local K = 10^rintable.properties.logKr.values[1] K = K*2
+    		rintable.properties.logKr.values[1] = math.log10(K)
+    		end
+    		if numberBeforeNa == '3' then
+    		local K = 10^rintable.properties.logKr.values[1] K = K*3
+    		rintable.properties.logKr.values[1] = math.log10(K)
+    		end
+    		if numberBeforeNa == '4' then
+    		local K = 10^rintable.properties.logKr.values[1] K = K*4
+    		rintable.properties.logKr.values[1] = math.log10(K)
+    		end
+    
+    		-- If both number and substring are found, replace the substring with the substring followed by the number
+    		if numberBeforeNa and substringBeforeNa then
+        		str = str:gsub(substringBeforeNa, substringBeforeNa .. numberBeforeNa)
+    		end
+    
+    	return str
+	end
+
+function modifyString2(str)
+    if not str then
+        return nil, 'Input string is nil'
+    end
+    
+    -- Split the string into two parts: before and after the '=' sign
+    local beforeEqual, afterEqual = str:match('^(.-)=(.*)$')
+    
+    if not beforeEqual or not afterEqual then
+        return str, 'No = found in the string'
+    end
+    
+    -- Remove the number before 'Na' in the part before '='
+    beforeEqual = beforeEqual:gsub('(%d+)(%a*Na)', '%2')
+    
+    -- Combine the parts back together
+    return beforeEqual .. '=' .. afterEqual
+end
+
+
+-- Function to rearrange the chemical formula
+function rearrange_formula(reaction)
+    -- Split the reaction at the '=' symbol
+    local reactants, products = reaction:match('^(.-)%s*=%s*(.+)$')
+    if not reactants or not products then
+        return reaction -- Return as is if the format is invalid
+    end
+
+    -- Split products into a list by ' + ' delimiter, keeping the + and - signs
+    local product_list = {}
+    for product in products:gmatch('([%d%a%-%(%)%+%-%d]+)') do
+        -- Remove extra spaces from the product and add it to the list
+        local clean_product = product:gsub('%s+', '')
+        if clean_product ~= '' and clean_product ~='+' then
+            --print(clean_product)
+            table.insert(product_list, clean_product)
+        end
+    end
+
+    -- Separate products into matched (starting with Cl, iS, or Ss) and remaining
+    local matched_products = {}
+    local remaining_products = {}
+    for _, product in ipairs(product_list) do
+        if product:match('^Cl') or product:match('^iS') or product:match('^Ss') or product:match('^Sv') or product:match('^Sw') then
+            table.insert(matched_products, product)
+        else
+            table.insert(remaining_products, product)
+        end
+    end
+
+    -- Create the rearranged products string
+    local rearranged_products = table.concat(matched_products, ' + ')
+    if #remaining_products > 0 then
+        rearranged_products = rearranged_products .. ' + ' .. table.concat(remaining_products, ' + ')
+    end
+
+    -- Return the reaction with reactants as is and rearranged products
+    return reactants .. ' = ' .. rearranged_products
+end
+
+          frm = rintable.properties.equation;\n  frm = string.gsub(frm, \'Zz\',  \'e-\' );\n frm = string.gsub(frm, \'@\',  \'\' ); frm = string.gsub(frm, '=i', 'i'); frm = string.gsub(frm, '=S', 'S');
+          frm = string.gsub(frm,'%(l%)', '')
+          frm = modifyString(frm)
+          frm = modifyString2(frm)
+          frm = rearrange_formula(frm)
+          -- frm = string.gsub(frm, \'|(.-)|\',  \'\' );\n
+          if rintable.properties.logKr.errors ~= nil then
+          	frm = frm .. ' # ' .. rintable.properties.name .. ' error: ' .. rintable.properties.logKr.errors[1]  .. ' ref: ' .. rintable.properties.datasources[1]
+          else
+                frm = frm .. ' # ' .. rintable.properties.name .. ' ref: ' .. rintable.properties.datasources[1]
+          end
+    
+          rintable.properties.equation = frm; 
+          logK = math.floor(rintable.properties.logKr.values[1] * 1000 + 0.5) / 1000 rintable.properties.logKr.values[1] = logK
+          -- if rintable.properties.TPMethods[1].logk_ft_coeffs.values[1] == 0.0 then rintable.properties.TPMethods[1].logk_ft_coeffs.values[1] = rintable.properties.logKr.values[1] end
+          -- if rintable.properties.logKr.errors ~= nil then local error = ' # err: ' .. rintable.properties.logKr.errors[1] print(head0) rintable.properties.logKr.values[1] = rintable.properties.logKr.values[1] .. error end
+          
+          "
+     },
+     "format" :   {
+          "head_regexp" :   "\n%head0\n",
+          "end_regexp" :   "",
+          "key_regexp" :   "\t-%key\t",
+          "value_regexp" :   "%value",
+          "value_next" :   "\n",
+          "value_token_regexp" :   " ",
+          "comment_regexp" :   "# ",
+          "Ndata" :   0
+     },
+     "renderer" :   " ",
+     "label" :   "VertexReaction",
+     "separators" :   {
+          "v_sep" :   "",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0,
+     "direction" :   1
+}

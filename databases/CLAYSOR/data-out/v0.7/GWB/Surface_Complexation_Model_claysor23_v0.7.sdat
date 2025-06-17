@@ -1,0 +1,1423 @@
+Dataset of surface reactions for gwb programs
+Dataset format: sep22
+Surface type: Mnt/Ilt
+Model type: two-layer  appelo-postma
+Surface potential: 0
+Surface capacitance: variable  (specify a value in F/m2 to set a constant capacitance model)
+Thermo dataset: PSINagra2020v1-5.tdat
+* The ClaySor 2023 Sorption Thermodynamic Databse of 2 SPNE SC/CE Sorption Model for Illite and Montmorillonite  
+* 
+* transferred into GWB format from the PHREEQC file claysor23_v0.7.dat by Dr. Frank Bok (HZDR) f.bok@hzdr.de
+* Note that the user sets the exchange capacity (CEC) from the command line with the "exchange_capacity" command or
+* within the GUI sub-menu "Sorbing Surfaces".
+* 
+* The database is consistent and shold be used for GWB calculations with the PSI/Nagra 
+* TDB 2020 (Hummel & Thoenen 2023) aqueous thermodynamic database http://www.psi.ch/les/database, see "Thermo dataset" above
+* 
+* Database of reactions generated using ThermoMatch reactions generator tool. 
+* Reactions exported to phreeqc format using ThermoMatch export functionality.
+* https://thermohub.org/thermomatch. For questions G. Dan Miron dan.miron@psi.ch
+* 
+* Change history
+* 25 Nov. 2024 first release v0.1 
+* 16 Dec. 2024 v0.2 after fixes to references 
+* 14 Jan. 2025 fixes of format, added missing secondary master reaction, exchange constants in Gaines-Thomas convetion
+* 23 Jan. 2025 Changed edge site naming 
+* 19 Feb. 2025 Added references
+* 17 Mar. 2925 v0.6 Changed edge and exchange site naming 
+* 21 Mar. 2025 v0.7 Change constants for Nb on both strong and weak sites of montmorilonite, added one reaction on strong sites, added corresponding reference to ref. list
+* 27 Mar. 2025 fix references, typos
+* 
+
+-end-
+
+   6 basis species
+
+>Ilt_sOH
+     charge=    0       mole wt.=    17.0070 g
+     2 elements in species
+        1.000 H               1.000 O       
+* strong sites on 1 g Na-Illite
+
+>Ilt_vOH
+     charge=    0       mole wt.=    17.0070 g
+     2 elements in species
+        1.000 H               1.000 O       
+* weak sites w1 on 1 g Na-Illite
+
+>Ilt_wOH
+     charge=    0       mole wt.=    17.0070 g
+     2 elements in species
+        1.000 H               1.000 O       
+* weak sites w2 on 1 g Na-Illite
+
+>Mnt_sOH
+     charge=    0       mole wt.=    17.0070 g
+     2 elements in species
+        1.000 H               1.000 O       
+* strong sites on Na-Montmorillonite
+
+>Mnt_vOH
+     charge=    0       mole wt.=    17.0070 g
+     2 elements in species
+        1.000 H               1.000 O       
+* weak sites 1 on Na-Montmorillonite
+
+>Mnt_wOH
+     charge=    0       mole wt.=    17.0070 g
+     2 elements in species
+        1.000 H               1.000 O       
+* weak sites 2 on Na-Montmorillonite
+
+-end-
+
+   2 sorbing minerals
+
+Montmorillonite(HcNa)
+     surface area= 18.0000 m2/g
+     3 sorption sites
+     >Mnt_sOH      site density= .0007449996 mol/mol mineral
+     >Mnt_vOH      site density=  .01489999 mol/mol mineral
+     >Mnt_wOH      site density=  .01489999 mol/mol mineral
+* Na-Montmorillonite
+* surface name, sites capacity moles/g for 1 g Na-Montmorillonite
+* Mnt_sOH        2e-6  (strong sites)
+* Mnt_vOH        4e-5  (weak sites w1)
+* Mnt_wOH        4e-5  (weak sites w2)
+* phases in PSINagra2020 TDB (Hummel and Thoenen 2023) 
+
+Illite_IMt-2
+     surface area= 18.0000 m2/g
+     3 sorption sites
+     >Ilt_sOH      site density= .000803668 mol/mol mineral
+     >Ilt_vOH      site density=  .01607336 mol/mol mineral
+     >Ilt_wOH      site density=  .01607336 mol/mol mineral
+* Na-Illite
+* surface name, sites capacity moles/g for 1 g Na-Illite:
+* Ilt_sOH        2e-6  (strong sites)
+* Ilt_vOH        4e-5  (weak sites w1)
+* Ilt_wOH        4e-5 (weak sites w2)
+* phases in PSINagra2020 TDB (Hummel and Thoenen 2023) 
+
+-end-
+
+   131 surface species
+
+>Ilt_sOH2+
+     charge=    1       mole wt.=    18.0150 g
+     2 species in reaction
+        1.000 >Ilt_sOH        1.000 H+      
+     log K    a=  -4.0000    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Protonated OH group on strong edge site on illite ref: Bradbury_Baeyens:2009:pap:
+
+>Ilt_sO-
+     charge=   -1       mole wt.=    15.9990 g
+     2 species in reaction
+        1.000 >Ilt_sOH       -1.000 H+      
+     log K    a=  6.2000    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Deprotonated OH group on strong edge site on illite ref: Bradbury_Baeyens:2009:pap:
+
+>Ilt_vOH2+
+     charge=    1       mole wt.=    18.0150 g
+     2 species in reaction
+        1.000 >Ilt_vOH        1.000 H+      
+     log K    a=  -4.0000    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Protonated OH group on weak 1 edge site on illite ref: Bradbury_Baeyens:2009:pap:
+
+>Ilt_vO-
+     charge=   -1       mole wt.=    15.9990 g
+     2 species in reaction
+        1.000 >Ilt_vOH       -1.000 H+      
+     log K    a=  6.2000    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Deprotonated OH group on weak W1 edge site on illite ref: Bradbury_Baeyens:2009:pap:
+
+>Ilt_wOH2+
+     charge=    1       mole wt.=    18.0150 g
+     2 species in reaction
+        1.000 >Ilt_wOH        1.000 H+      
+     log K    a=  -8.5000    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Protonated OH group on weak 2 edge site on illite ref: Bradbury_Baeyens:2009:pap:
+
+>Ilt_wO-
+     charge=   -1       mole wt.=    15.9990 g
+     2 species in reaction
+        1.000 >Ilt_wOH       -1.000 H+      
+     log K    a=  10.5000    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Deprotonated OH group on weak 2 edge site on illite ref: Bradbury_Baeyens:2009:pap:
+
+>Ilt_sOAm(OH)2
+     charge=    0       mole wt.=   293.0130 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 Am+++           2.000 H2O     
+       -3.000 H+      
+     log K    a=  12.9620    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Am on strong edge site on illite error: 0.07 ref: Marinich_ea:2024:rep:
+
+>Ilt_sOAm++
+     charge=    2       mole wt.=   258.9990 g
+     3 species in reaction
+        1.000 >Ilt_sOH        1.000 Am+++          -1.000 H+      
+     log K    a=  -2.6950    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Am on strong edge site on illite error: 0.26 ref: Marinich_ea:2024:rep:
+
+>Ilt_sOAmOH+
+     charge=    1       mole wt.=   276.0060 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 Am+++           1.000 H2O     
+       -2.000 H+      
+     log K    a=  5.1710    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Am on strong edge site K1 on illite error: 1.55 ref: Marinich_ea:2024:rep:
+
+>Ilt_sOCd+
+     charge=    1       mole wt.=   128.4090 g
+     3 species in reaction
+        1.000 >Ilt_sOH        1.000 Cd++           -1.000 H+      
+     log K    a=  -.9300    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Cd on strong edge site K0 on illite ref: Marinich_ea:2024:rep:
+
+>Ilt_sOCm++
+     charge=    2       mole wt.=   262.9990 g
+     3 species in reaction
+        1.000 >Ilt_sOH        1.000 Cm+++          -1.000 H+      
+     log K    a=  -2.5610    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Cm on strong edge site on illite error: 0.2 ref: Marinich_ea:2024:rep:
+
+>Ilt_sOCmOH+
+     charge=    1       mole wt.=   280.0060 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 Cm+++           1.000 H2O     
+       -2.000 H+      
+     log K    a=  3.1810    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Cm on strong edge site K1 on illite error: 0.38 ref: Marinich_ea:2024:rep:
+* 
+* >Ilt_sOCo+
+*     charge=    1       mole wt.=    74.9326 g
+*     3 species in reaction
+*        1.000 >Ilt_sOH        1.000 Co++           -1.000 H+      
+*     log K    a=  -1.1800    b=  0.0   
+*     TminK= 298.15        TmaxK= 298.15
+* 
+* * Surface complexation of Co on strong edge site K0 on illite error: 0.11 ref: Marinich_ea:2024:rep:
+* 
+* >Ilt_sOCoOH
+*     charge=    0       mole wt.=    91.9399 g
+*     4 species in reaction
+*        1.000 >Ilt_sOH        1.000 Co++           1.000 H2O      
+*        -1.000 H+      
+*     log K    a=  7.2450    b=  0.0   
+*     TminK= 298.15        TmaxK= 298.15
+* 
+* * Surface complexation of Co on strong edge site K1 on illite error: 0.56 ref: Marinich_ea:2024:rep:
+
+>Ilt_sOEu(OH)3-
+     charge=   -1       mole wt.=   218.9860 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 Eu+++           3.000 H2O     
+       -4.000 H+      
+     log K    a=  21.3360    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Eu on strong edge site K2 on illite error: 0.17 ref: Marinich_ea:2024:rep:
+
+>Ilt_sOEu++
+     charge=    2       mole wt.=   167.9650 g
+     3 species in reaction
+        1.000 >Ilt_sOH        1.000 Eu+++          -1.000 H+      
+     log K    a=  -2.4670    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Eu on strong edge site on illite error: 0.4 ref: Marinich_ea:2024:rep:
+
+>Ilt_sOEuOH+
+     charge=    1       mole wt.=   184.9720 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 Eu+++           1.000 H2O     
+       -2.000 H+      
+     log K    a=  4.2760    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Eu on strong edge site K1 on illite error: 0.17 ref: Marinich_ea:2024:rep:
+
+>Ilt_sOFe+
+     charge=    1       mole wt.=    71.8440 g
+     3 species in reaction
+        1.000 >Ilt_sOH        1.000 Fe++           -1.000 H+      
+     log K    a=  -1.2800    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Fe on strong edge site on illite ref: Marinich_ea:2024:rep:
+
+>Ilt_sOMn+
+     charge=    1       mole wt.=    70.9370 g
+     3 species in reaction
+        1.000 >Ilt_sOH        1.000 Mn++           -1.000 H+      
+     log K    a=  -.9760    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Mn on strong edge site K0 on illite error: 0.09 ref: Marinich_ea:2024:rep:
+
+>Ilt_sONb(OH)5-
+     charge=   -1       mole wt.=   193.9400 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 Nb(OH)4+        1.000 H2O     
+       -2.000 H+      
+     log K    a=  -.7380    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Nb on strong edge site of illite error: 0.22 ref: Marinich_ea:2024:rep:
+
+>Ilt_sONb(OH)6--
+     charge=   -2       mole wt.=   210.9470 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 Nb(OH)4+        2.000 H2O     
+       -3.000 H+      
+     log K    a=  5.7380    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Nb on strong edge site of illite error: 0.54 ref: Marinich_ea:2024:rep:
+
+>Ilt_sONi+
+     charge=    1       mole wt.=    74.6920 g
+     3 species in reaction
+        1.000 >Ilt_sOH        1.000 Ni++           -1.000 H+      
+     log K    a=  -.6480    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Ni on strong edge site K0 on illite error: 0.04 ref: Marinich_ea:2024:rep:
+
+>Ilt_sONiOH
+     charge=    0       mole wt.=    91.6990 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 Ni++            1.000 H2O     
+       -2.000 H+      
+     log K    a=  7.9180    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Ni on strong edge site K1 on illite error: 0.15 ref: Marinich_ea:2024:rep:
+
+>Ilt_sONp(OH)2+
+     charge=    1       mole wt.=   287.0130 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 Np++++          2.000 H2O     
+       -3.000 H+      
+     log K    a=  -6.2300    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Np on strong edge site of illite ref: Marinich_ea:2024:rep:
+
+>Ilt_sONp(OH)3
+     charge=    0       mole wt.=   304.0200 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 Np++++          3.000 H2O     
+       -4.000 H+      
+     log K    a=  -.4300    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Np on strong edge site of illite ref: Marinich_ea:2024:rep:
+
+>Ilt_sONp+++
+     charge=    3       mole wt.=   252.9990 g
+     3 species in reaction
+        1.000 >Ilt_sOH        1.000 Np++++         -1.000 H+      
+     log K    a=  -9.7700    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Np on strong edge site of illite ref: Marinich_ea:2024:rep:
+
+>Ilt_sONpO2
+     charge=    0       mole wt.=   284.9970 g
+     3 species in reaction
+        1.000 >Ilt_sOH        1.000 NpO2+          -1.000 H+      
+     log K    a=  1.3230    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of NpO2+ on strong edge site on illite error: 0.22 ref: Marinich_ea:2024:rep:
+
+>Ilt_sONpO2OH-
+     charge=   -1       mole wt.=   302.0040 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 NpO2+           1.000 H2O     
+       -2.000 H+      
+     log K    a=  10.0630    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of NpO2+ on strong edge site on illite error: 0.36 ref: Marinich_ea:2024:rep:
+
+>Ilt_sONpOH++
+     charge=    2       mole wt.=   270.0060 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 Np++++          1.000 H2O     
+       -2.000 H+      
+     log K    a=  -9.5600    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Np on strong edge site of illite ref: Marinich_ea:2024:rep:
+
+>Ilt_sOPaO2(OH)2--
+     charge=   -2       mole wt.=   313.0470 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 PaO(OH)++        2.000 H2O     
+       -4.000 H+      
+     log K    a=  13.9980    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation (probab) of PaOOH+2 on strong edge site on illite error: 0.21 ref: Marinich_ea:2024:rep:
+
+>Ilt_sOPaO2OH-
+     charge=   -1       mole wt.=   296.0400 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 PaO(OH)++        1.000 H2O     
+       -3.000 H+      
+     log K    a=  4.8910    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of PaOOH+2 on strong edge site on illite error: 0.14 ref: Marinich_ea:2024:rep:
+
+>Ilt_sOPaOOH+
+     charge=    1       mole wt.=   280.0410 g
+     3 species in reaction
+        1.000 >Ilt_sOH        1.000 PaO(OH)++       -1.000 H+      
+     log K    a=  -6.5090    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of PaOOH+2 on strong edge site on illite error: 0.13 ref: Marinich_ea:2024:rep:
+
+>Ilt_sOPb+
+     charge=    1       mole wt.=   222.9990 g
+     3 species in reaction
+        1.000 >Ilt_sOH        1.000 Pb++           -1.000 H+      
+     log K    a=  -2.8960    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Pb on strong edge site K0 on illite error: 0.22 ref: Marinich_ea:2024:rep:
+
+>Ilt_sOPbOH
+     charge=    0       mole wt.=   240.0060 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 Pb++            1.000 H2O     
+       -2.000 H+      
+     log K    a=  5.1060    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Pb on strong edge site K1 on illite error: 0.24 ref: Marinich_ea:2024:rep:
+
+>Ilt_sOPu(OH)2+
+     charge=    1       mole wt.=   292.0130 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 Pu++++          2.000 H2O     
+       -3.000 H+      
+     log K    a=  -5.9200    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Pu on strong edge site of illite ref: Marinich_ea:2024:rep:
+
+>Ilt_sOPu(OH)2
+     charge=    0       mole wt.=   292.0130 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 Pu+++           2.000 H2O     
+       -3.000 H+      
+     log K    a=  13.0000    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Pu(III) on strong edge site on illite ref: Marinich_ea:2024:rep:
+
+>Ilt_sOPu(OH)3
+     charge=    0       mole wt.=   309.0200 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 Pu++++          3.000 H2O     
+       -4.000 H+      
+     log K    a=  .6300    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Pu(+4) on strong edge site of illite ref: Marinich_ea:2024:rep:
+
+>Ilt_sOPu++
+     charge=    2       mole wt.=   276.0140 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 Pu+++           1.000 H2O     
+       -1.000 H+      
+     log K    a=  -2.6200    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Pu(III) on strong edge site on illite ref: Marinich_ea:2024:rep:
+
+>Ilt_sOPu+++
+     charge=    3       mole wt.=   257.9990 g
+     3 species in reaction
+        1.000 >Ilt_sOH        1.000 Pu++++         -1.000 H+      
+     log K    a=  -9.1900    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Pu on strong edge site of illite ref: Marinich_ea:2024:rep:
+
+>Ilt_sOPuOH+
+     charge=    1       mole wt.=   275.0060 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 Pu+++           1.000 H2O     
+       -2.000 H+      
+     log K    a=  3.8800    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Pu(III) on strong edge site K1 on illite ref: Marinich_ea:2024:rep:
+
+>Ilt_sOPuOH++
+     charge=    2       mole wt.=   275.0060 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 Pu++++          1.000 H2O     
+       -2.000 H+      
+     log K    a=  -7.9200    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Pu on strong edge site of illite ref: Marinich_ea:2024:rep:
+
+>Ilt_sOSn(OH)3
+     charge=    0       mole wt.=   185.7310 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 Sn++++          3.000 H2O     
+       -4.000 H+      
+     log K    a=  -15.8600    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Sn on strong edge site of illite error: 0.2 ref: Marinich_ea:2024:rep:
+
+>Ilt_sOSn(OH)4-
+     charge=   -1       mole wt.=   202.7380 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 Sn++++          4.000 H2O     
+       -5.000 H+      
+     log K    a=  -9.5310    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Sn on strong edge site of illite error: 0.29 ref: Marinich_ea:2024:rep:
+
+>Ilt_sOSn(OH)5--
+     charge=   -2       mole wt.=   219.7450 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 Sn++++          5.000 H2O     
+       -6.000 H+      
+     log K    a=  -1.0230    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Sn on strong edge site of illite error: 0.13 ref: Marinich_ea:2024:rep:
+
+>Ilt_sOTh(OH)3
+     charge=    0       mole wt.=   299.0580 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 Th++++          3.000 H2O     
+       -4.000 H+      
+     log K    a=  9.1180    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Th on strong edge site of illite error: 1.56 ref: Marinich_ea:2024:rep:
+
+>Ilt_sOTh(OH)4-
+     charge=   -1       mole wt.=   316.0650 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 Th++++          4.000 H2O     
+       -5.000 H+      
+     log K    a=  15.2040    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Th on strong edge site of illite error: 0.13 ref: Marinich_ea:2024:rep:
+
+>Ilt_sOTh+++
+     charge=    3       mole wt.=   248.0370 g
+     3 species in reaction
+        1.000 >Ilt_sOH        1.000 Th++++         -1.000 H+      
+     log K    a=  -6.7310    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of TH on strong edge site on illite error: 1.61 ref: Marinich_ea:2024:rep:
+
+>Ilt_sOThOH++
+     charge=    2       mole wt.=   265.0440 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 Th++++          1.000 H2O     
+       -2.000 H+      
+     log K    a=  -2.4100    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Th on strong edge site of illite error: 0.91 ref: Marinich_ea:2024:rep:
+
+>Ilt_sOU(OH)2+
+     charge=    1       mole wt.=   288.0420 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 U++++           2.000 H2O     
+       -3.000 H+      
+     log K    a=  -3.7000    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of U on strong edge site of illite ref: Marinich_ea:2024:rep:
+
+>Ilt_sOU(OH)3
+     charge=    0       mole wt.=   305.0490 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 U++++           3.000 H2O     
+       -4.000 H+      
+     log K    a=  1.3600    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of U(+4) on strong edge site of illite ref: Marinich_ea:2024:rep:
+
+>Ilt_sOU+++
+     charge=    3       mole wt.=   254.0280 g
+     3 species in reaction
+        1.000 >Ilt_sOH        1.000 U++++          -1.000 H+      
+     log K    a=  -8.6200    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of U on strong edge site of illite ref: Marinich_ea:2024:rep:
+
+>Ilt_sOUO2(OH)2-
+     charge=   -1       mole wt.=   247.9800 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 UO2++          -2.000 H2O     
+       -3.000 H+      
+     log K    a=  11.0740    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of U(VI) on strong edge site on illite error: 0.26 ref: Marinich_ea:2024:rep:
+
+>Ilt_sOUO2(OH)3--
+     charge=   -2       mole wt.=   337.0470 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 UO2++           3.000 H2O     
+       -4.000 H+      
+     log K    a=  19.2890    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of U(VI) on strong edge site on illite error: 0.18 ref: Marinich_ea:2024:rep:
+
+>Ilt_sOUO2+
+     charge=    1       mole wt.=   286.0260 g
+     3 species in reaction
+        1.000 >Ilt_sOH        1.000 UO2++          -1.000 H+      
+     log K    a=  -2.3710    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of U(VI) on strong edge site on illite error: 0.17 ref: Marinich_ea:2024:rep:
+
+>Ilt_sOUO2OH
+     charge=    0       mole wt.=   303.0330 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 UO2++           1.000 H2O     
+       -2.000 H+      
+     log K    a=  4.4280    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of U(VI) on strong edge site on illite error: 0.82 ref: Marinich_ea:2024:rep:
+
+>Ilt_sOZn+
+     charge=    1       mole wt.=    81.3990 g
+     3 species in reaction
+        1.000 >Ilt_sOH        1.000 Zn++           -1.000 H+      
+     log K    a=  -2.0680    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* surface complexation of Zn on strong edge site K0 on illite error: 0.14 ref: Marinich_ea:2024:rep:
+
+>Ilt_sOZnOH
+     charge=    0       mole wt.=    98.4060 g
+     4 species in reaction
+        1.000 >Ilt_sOH        1.000 Zn++            1.000 H2O     
+       -2.000 H+      
+     log K    a=  6.3740    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Zn on strong edge site K1 on illite error: 0.21 ref: Marinich_ea:2024:rep:
+
+>Ilt_vOCd+
+     charge=    1       mole wt.=   128.4090 g
+     3 species in reaction
+        1.000 >Ilt_vOH        1.000 Cd++           -1.000 H+      
+     log K    a=  1.9200    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Cd on weak 1 edge site on illite ref: Marinich_ea:2024:rep:
+* >Ilt_vOCo+
+*     charge=    1       mole wt.=    74.9326 g
+*     3 species in reaction
+*        1.000 >Ilt_vOH        1.000 Co++           -1.000 H+      
+*     log K    a=  1.8600    b=  0.0   
+*     TminK= 298.15        TmaxK= 298.15
+* 
+* * Surface complexation of Co on weak (I) edge site K0 on illite error: 0.66 ref: Marinich_ea:2024:rep:
+
+>Ilt_vOEu++
+     charge=    2       mole wt.=   167.9650 g
+     3 species in reaction
+        1.000 >Ilt_vOH        1.000 Eu+++          -1.000 H+      
+     log K    a=  -.9990    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Eu on weak 1 (W1) edge site on illite error: 0.19 ref: Marinich_ea:2024:rep:
+
+>Ilt_vOFe+
+     charge=    1       mole wt.=    71.8440 g
+     3 species in reaction
+        1.000 >Ilt_vOH        1.000 Fe++           -1.000 H+      
+     log K    a=  1.5400    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Fe on weak 1 edge site on illite ref: Marinich_ea:2024:rep:
+
+>Ilt_vOMn+
+     charge=    1       mole wt.=    70.9370 g
+     3 species in reaction
+        1.000 >Ilt_vOH        1.000 Mn++           -1.000 H+      
+     log K    a=  2.3990    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Mn on weak edge site K0 on illite error: 0.24 ref: Marinich_ea:2024:rep:
+
+>Ilt_vONi+
+     charge=    1       mole wt.=    74.6920 g
+     3 species in reaction
+        1.000 >Ilt_vOH        1.000 Ni++           -1.000 H+      
+     log K    a=  1.9200    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Ni on weak 1 (W1) edge site on illite error: 0.12 ref: Marinich_ea:2024:rep:
+
+>Ilt_vOPb+
+     charge=    1       mole wt.=   222.9990 g
+     3 species in reaction
+        1.000 >Ilt_vOH        1.000 Pb++           -1.000 H+      
+     log K    a=  -.6990    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Pb on weak 1 (W1) edge site on illite error: 0.29 ref: Marinich_ea:2024:rep:
+
+>Ilt_vOUO2(OH)2-
+     charge=   -1       mole wt.=   320.0400 g
+     4 species in reaction
+        1.000 >Ilt_vOH        1.000 UO2++           2.000 H2O     
+       -3.000 H+      
+     log K    a=  12.3230    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of U(VI) on weak W1 edge site on illite error: 0.15 ref: Marinich_ea:2024:rep:
+
+>Ilt_vOUO2+
+     charge=    1       mole wt.=   286.0260 g
+     3 species in reaction
+        1.000 >Ilt_vOH        1.000 UO2++          -1.000 H+      
+     log K    a=  .8310    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of U(VI) on weak W1 edge site on illite error: 0.23 ref: Marinich_ea:2024:rep:
+
+>Ilt_vOUO2OH
+     charge=    0       mole wt.=   303.0330 g
+     4 species in reaction
+        1.000 >Ilt_vOH        1.000 UO2++           1.000 H2O     
+       -2.000 H+      
+     log K    a=  5.5980    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of U(VI) on weak W1 edge site on illite error: 0.13 ref: Marinich_ea:2024:rep:
+
+>Ilt_vOZn+
+     charge=    1       mole wt.=    81.3990 g
+     3 species in reaction
+        1.000 >Ilt_vOH        1.000 Zn++           -1.000 H+      
+     log K    a=  .7310    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Zn on weak 1 (W1) edge site on illite error: 0.19 ref: Marinich_ea:2024:rep:
+
+>Ilt_vOZnOH
+     charge=    0       mole wt.=    98.4060 g
+     4 species in reaction
+        1.000 >Ilt_vOH        1.000 Zn++            1.000 H2O     
+       -2.000 H+      
+     log K    a=  8.5000    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Zn on weak (1) edge site K1 on illite error: 0.16 ref: Marinich_ea:2024:rep:
+
+>Ilt_wORa+
+     charge=    1       mole wt.=   241.9990 g
+     3 species in reaction
+        1.000 >Ilt_wOH        1.000 Ra++           -1.000 H+      
+     log K    a=  3.8500    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Ra on weak(II) edge site on illite error: 0.3 ref: Marinich_ea:2024:rep:
+
+>Mnt_sOH2+
+     charge=    1       mole wt.=    18.0150 g
+     2 species in reaction
+        1.000 >Mnt_sOH        1.000 H+      
+     log K    a=  -4.5000    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Protonated OH group on strong edge site on mont ref: Bradbury_Baeyens:1997:pap:
+
+>Mnt_sO-
+     charge=   -1       mole wt.=    15.9990 g
+     2 species in reaction
+        1.000 >Mnt_sOH       -1.000 H+      
+     log K    a=  7.9000    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Deprotonated OH group on strong edge site on mont ref: Bradbury_Baeyens:1997:pap:
+
+>Mnt_vOH2+
+     charge=    1       mole wt.=    18.0150 g
+     2 species in reaction
+        1.000 >Mnt_vOH        1.000 H+      
+     log K    a=  -4.5000    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Protonated OH group on weak 1 edge site on mont ref: Bradbury_Baeyens:1997:pap:
+
+>Mnt_vO-
+     charge=   -1       mole wt.=    15.9990 g
+     2 species in reaction
+        1.000 >Mnt_vOH       -1.000 H+      
+     log K    a=  7.9000    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Deprotonated OH group on weak 1 edge site on mont ref: Bradbury_Baeyens:1997:pap:
+
+>Mnt_wOH2+
+     charge=    1       mole wt.=    18.0150 g
+     2 species in reaction
+        1.000 >Mnt_wOH        1.000 H+      
+     log K    a=  -6.0000    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Protonated OH group on weak 2 edge site on mont ref: Bradbury_Baeyens:1997:pap:
+
+>Mnt_wO-
+     charge=   -1       mole wt.=    15.9990 g
+     2 species in reaction
+        1.000 >Mnt_wOH       -1.000 H+      
+     log K    a=  10.5000    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Deprotonated OH group on weak 2 edge site on mont ref: Bradbury_Baeyens:1997:pap:
+
+>Mnt_sOAm(OH)2
+     charge=    0       mole wt.=   293.0130 g
+     4 species in reaction
+        1.000 >Mnt_sOH        1.000 Am+++           2.000 H2O     
+       -3.000 H+      
+     log K    a=  14.6820    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Am on strong edge site on mont error: 0.15 ref: Marinich_ea:2024:rep:
+
+>Mnt_sOAm++
+     charge=    2       mole wt.=   258.9990 g
+     3 species in reaction
+        1.000 >Mnt_sOH        1.000 Am+++          -1.000 H+      
+     log K    a=  -2.3230    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Am on strong edge site on mont error: 0.12 ref: Marinich_ea:2024:rep:
+
+>Mnt_sOCd+
+     charge=    1       mole wt.=   128.4090 g
+     3 species in reaction
+        1.000 >Mnt_sOH        1.000 Cd++           -1.000 H+      
+     log K    a=  1.0250    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Cd on strong edge site K0 on mont error: 0.3 ref: Marinich_ea:2024:rep:
+* >Mnt_sOCo+
+*     charge=    1       mole wt.=    74.9326 g
+*     3 species in reaction
+*        1.000 >Mnt_sOH        1.000 Co++           -1.000 H+      
+*     log K    a=  0.1800    b=  0.0   
+*     TminK= 298.15        TmaxK= 298.15
+* 
+* * Surface complexation of Co on strong edge site K0 on mont error: 0.13 ref: Marinich_ea:2024:rep:
+* 
+* >Mnt_sOCoOH
+*     charge=    0       mole wt.=    91.9399 g
+*     4 species in reaction
+*        1.000 >Mnt_sOH        1.000 Co++           1.000 H2O      
+*        -1.000 H+      
+*     log K    a=  9.2910    b=  0.0   
+*     TminK= 298.15        TmaxK= 298.15
+* 
+* * Surface complexation of Co on strong edge site K1 on mont error: 0.31 ref: Marinich_ea:2024:rep:
+
+>Mnt_sOEu(OH)3-
+     charge=   -1       mole wt.=   218.9860 g
+     4 species in reaction
+        1.000 >Mnt_sOH        1.000 Eu+++           3.000 H2O     
+       -4.000 H+      
+     log K    a=  22.1700    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Eu on strong edge site K2 on mont error: 0.17 ref: Marinich_ea:2024:rep:
+
+>Mnt_sOEu++
+     charge=    2       mole wt.=   167.9650 g
+     3 species in reaction
+        1.000 >Mnt_sOH        1.000 Eu+++          -1.000 H+      
+     log K    a=  -1.6550    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Eu on strong edge site on mont error: 0.1 ref: Marinich_ea:2024:rep:
+
+>Mnt_sOEuOH+
+     charge=    1       mole wt.=   184.9720 g
+     4 species in reaction
+        1.000 >Mnt_sOH        1.000 Eu+++           1.000 H2O     
+       -2.000 H+      
+     log K    a=  6.2260    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* surface complexation of Eu on strong edge site K1 error: 0.3 ref: Marinich_ea:2024:rep:
+
+>Mnt_sOFe+
+     charge=    1       mole wt.=    71.8440 g
+     3 species in reaction
+        1.000 >Mnt_sOH        1.000 Fe++           -1.000 H+      
+     log K    a=  -1.7010    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Fe on strong edge site on mont error: 0.17 ref: Marinich_ea:2024:rep:
+
+>Mnt_sOMn+
+     charge=    1       mole wt.=    70.9370 g
+     3 species in reaction
+        1.000 >Mnt_sOH        1.000 Mn++           -1.000 H+      
+     log K    a=  .6310    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Mn on strong edge site K0 on mont error: 0.17 ref: Marinich_ea:2024:rep:
+
+>Mnt_sONb(OH)5-
+     charge=   -1       mole wt.=   193.9400 g
+     4 species in reaction
+        1.000 >Mnt_sOH        1.000 Nb(OH)4+        1.000 H2O     
+       -2.000 H+      
+     log K    a=  -.2500    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Nb on strong edge site K0 on mont error: 0.33 ref: Marinich_ea:2025:pap:
+
+>Mnt_sONb(OH)6--
+     charge=   -2       mole wt.=   210.9470 g
+     4 species in reaction
+        1.000 >Mnt_sOH        1.000 Nb(OH)4+        2.000 H2O     
+       -3.000 H+      
+     log K    a=  7.9700    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Nb on strong edge site of mont error: 0.25 ref: Marinich_ea:2025:pap:
+
+>Mnt_sONi+
+     charge=    1       mole wt.=    74.6920 g
+     3 species in reaction
+        1.000 >Mnt_sOH        1.000 Ni++           -1.000 H+      
+     log K    a=  .8080    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Ni on strong edge site on mont error: 0.06 ref: Marinich_ea:2024:rep:
+
+>Mnt_sONiOH
+     charge=    0       mole wt.=    91.6990 g
+     4 species in reaction
+        1.000 >Mnt_sOH        1.000 Ni++            1.000 H2O     
+       -2.000 H+      
+     log K    a=  9.4300    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Ni on strong edge site on mont error: 0.08 ref: Marinich_ea:2024:rep:
+
+>Mnt_sONp(OH)2+
+     charge=    1       mole wt.=   287.0130 g
+     4 species in reaction
+        1.000 >Mnt_sOH        1.000 Np++++          2.000 H2O     
+       -3.000 H+      
+     log K    a=  -6.5600    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Np on strong edge site of mont ref: Marinich_ea:2024:rep:
+
+>Mnt_sONp(OH)3
+     charge=    0       mole wt.=   304.0200 g
+     4 species in reaction
+        1.000 >Mnt_sOH        1.000 Np++++          3.000 H2O     
+       -4.000 H+      
+     log K    a=  -.5900    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Np on strong edge site of mont ref: Marinich_ea:2024:rep:
+
+>Mnt_sONp+++
+     charge=    3       mole wt.=   252.9990 g
+     3 species in reaction
+        1.000 >Mnt_sOH        1.000 Np++++         -1.000 H+      
+     log K    a=  -10.1900    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Np on strong edge site of mont ref: Marinich_ea:2024:rep:
+
+>Mnt_sONpO2
+     charge=    0       mole wt.=   284.9970 g
+     3 species in reaction
+        1.000 >Mnt_sOH        1.000 NpO2+          -1.000 H+      
+     log K    a=  2.6250    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of NpO2+ on strong edge site on mont error: 0.11 ref: Marinich_ea:2024:rep:
+
+>Mnt_sONpO2OH-
+     charge=   -1       mole wt.=   302.0040 g
+     4 species in reaction
+        1.000 >Mnt_sOH        1.000 NpO2+           1.000 H2O     
+       -2.000 H+      
+     log K    a=  12.5620    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of PaOOH+2 on strong edge site on mont error: 0.23 ref: Marinich_ea:2024:rep:
+
+>Mnt_sONpOH++
+     charge=    2       mole wt.=   270.0060 g
+     4 species in reaction
+        1.000 >Mnt_sOH        1.000 Np++++          1.000 H2O     
+       -2.000 H+      
+     log K    a=  -9.9700    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Np on strong edge site of mont ref: Marinich_ea:2024:rep:
+
+>Mnt_sOPaO2(OH)2--
+     charge=   -2       mole wt.=   313.0470 g
+     4 species in reaction
+        1.000 >Mnt_sOH        1.000 PaO(OH)++        2.000 H2O     
+       -4.000 H+      
+     log K    a=  15.9460    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation (probab) of PaOOH+2 on strong edge site on mont error: 0.23 ref: Marinich_ea:2024:rep:
+
+>Mnt_sOPaO2
+     charge=    0       mole wt.=   279.0330 g
+     3 species in reaction
+        1.000 >Mnt_sOH        1.000 PaO(OH)++       -2.000 H+      
+     log K    a=  -1.0390    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of PaOOH+2 on strong edge site on mont error: 0.28 ref: Marinich_ea:2024:rep:
+
+>Mnt_sOPaO2OH-
+     charge=   -1       mole wt.=   296.0400 g
+     4 species in reaction
+        1.000 >Mnt_sOH        1.000 PaO(OH)++        1.000 H2O     
+       -3.000 H+      
+     log K    a=  6.7890    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of PaOOH+2 on strong edge site on mont error: 0.31 ref: Marinich_ea:2024:rep:
+
+>Mnt_sOPaOOH+
+     charge=    1       mole wt.=   280.0410 g
+     3 species in reaction
+        1.000 >Mnt_sOH        1.000 PaO(OH)++       -1.000 H+      
+     log K    a=  -6.7110    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of PaOOH+2 on strong edge site on mont error: 0.2 ref: Marinich_ea:2024:rep:
+
+>Mnt_sOPb+
+     charge=    1       mole wt.=   222.9990 g
+     3 species in reaction
+        1.000 >Mnt_sOH        1.000 Pb++           -1.000 H+      
+     log K    a=  1.3710    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Pb on strong edge site K0 on mont error: 0.15 ref: Marinich_ea:2024:rep:
+
+>Mnt_sOPbOH
+     charge=    0       mole wt.=   240.0060 g
+     4 species in reaction
+        1.000 >Mnt_sOH        1.000 Pb++            1.000 H2O     
+       -2.000 H+      
+     log K    a=  7.7770    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Pb on strong edge site K1 on mont error: 0.53 ref: Marinich_ea:2024:rep:
+
+>Mnt_sOPu(OH)2+
+     charge=    1       mole wt.=   292.0130 g
+     4 species in reaction
+        1.000 >Mnt_sOH        1.000 Pu++++          2.000 H2O     
+       -3.000 H+      
+     log K    a=  -6.2300    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Pu on strong edge site of mont ref: Marinich_ea:2024:rep:
+
+>Mnt_sOPu(OH)2
+     charge=    0       mole wt.=   292.0130 g
+     4 species in reaction
+        1.000 >Mnt_sOH        1.000 Pu+++           2.000 H2O     
+       -3.000 H+      
+     log K    a=  14.0700    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Pu(III) on strong edge site on mont ref: Marinich_ea:2024:rep:
+
+>Mnt_sOPu(OH)3
+     charge=    0       mole wt.=   309.0200 g
+     4 species in reaction
+        1.000 >Mnt_sOH        1.000 Pu++++          3.000 H2O     
+       -4.000 H+      
+     log K    a=  .5000    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+*  Surface complexation of Pu on strong edge site of mont ref: Marinich_ea:2024:rep:
+
+>Mnt_sOPu++
+     charge=    2       mole wt.=   276.0140 g
+     4 species in reaction
+        1.000 >Mnt_sOH        1.000 Pu+++           1.000 H2O     
+       -1.000 H+      
+     log K    a=  -1.9100    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Pu(III) on strong edge site on mont ref: Marinich_ea:2024:rep:
+
+>Mnt_sOPu+++
+     charge=    3       mole wt.=   257.9990 g
+     3 species in reaction
+        1.000 >Mnt_sOH        1.000 Pu++++         -1.000 H+      
+     log K    a=  -9.5900    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Pu(IV) on strong edge site on mont ref: Marinich_ea:2024:rep:
+
+>Mnt_sOPuOH+
+     charge=    1       mole wt.=   275.0060 g
+     4 species in reaction
+        1.000 >Mnt_sOH        1.000 Pu+++           1.000 H2O     
+       -2.000 H+      
+     log K    a=  4.7300    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Pu(III) on strong edge site K1 on mont ref: Marinich_ea:2024:rep:
+
+>Mnt_sOPuOH++
+     charge=    2       mole wt.=   275.0060 g
+     4 species in reaction
+        1.000 >Mnt_sOH        1.000 Pu++++          1.000 H2O     
+       -2.000 H+      
+     log K    a=  -8.2900    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Pu on strong edge site of mont ref: Marinich_ea:2024:rep:
+
+>Mnt_sOSn(OH)3
+     charge=    0       mole wt.=   185.7310 g
+     4 species in reaction
+        1.000 >Mnt_sOH        1.000 Sn++++          3.000 H2O     
+       -4.000 H+      
+     log K    a=  -16.2280    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Sn on strong edge site of mont error: 0.16 ref: Marinich_ea:2024:rep:
+
+>Mnt_sOSn(OH)5--
+     charge=   -2       mole wt.=   219.7450 g
+     4 species in reaction
+        1.000 >Mnt_sOH        1.000 Sn++++          5.000 H2O     
+       -6.000 H+      
+     log K    a=  .6650    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Sn on strong edge site of mont error: 0.11 ref: Marinich_ea:2024:rep:
+
+>Mnt_sOTh(OH)3
+     charge=    0       mole wt.=   299.0580 g
+     4 species in reaction
+        1.000 >Mnt_sOH        1.000 Th++++          3.000 H2O     
+       -4.000 H+      
+     log K    a=  9.1490    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Th on strong edge site of mont error: 0.29 ref: Marinich_ea:2024:rep:
+
+>Mnt_sOTh(OH)4-
+     charge=   -1       mole wt.=   316.0650 g
+     4 species in reaction
+        1.000 >Mnt_sOH        1.000 Th++++          4.000 H2O     
+       -5.000 H+      
+     log K    a=  16.8770    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Th on strong edge site of mont error: 0.17 ref: Marinich_ea:2024:rep:
+
+>Mnt_sOTh+++
+     charge=    3       mole wt.=   248.0370 g
+     3 species in reaction
+        1.000 >Mnt_sOH        1.000 Th++++         -1.000 H+      
+     log K    a=  -7.2980    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Th on strong edge site of mont error: 0.33 ref: Marinich_ea:2024:rep:
+
+>Mnt_sOThOH++
+     charge=    2       mole wt.=   265.0440 g
+     4 species in reaction
+        1.000 >Mnt_sOH        1.000 Th++++          1.000 H2O     
+       -2.000 H+      
+     log K    a=  -2.3110    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Th on strong edge site of mont error: 0.86 ref: Marinich_ea:2024:rep:
+
+>Mnt_sOU(OH)2+
+     charge=    1       mole wt.=   288.0420 g
+     4 species in reaction
+        1.000 >Mnt_sOH        1.000 U++++           2.000 H2O     
+       -3.000 H+      
+     log K    a=  -3.9500    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of U on strong edge site of mont ref: Marinich_ea:2024:rep:
+
+>Mnt_sOU(OH)3
+     charge=    0       mole wt.=   305.0490 g
+     4 species in reaction
+        1.000 >Mnt_sOH        1.000 U++++           3.000 H2O     
+       -4.000 H+      
+     log K    a=  1.2600    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of U(+4) on strong edge site of mont ref: Marinich_ea:2024:rep:
+
+>Mnt_sOU+++
+     charge=    3       mole wt.=   254.0280 g
+     3 species in reaction
+        1.000 >Mnt_sOH        1.000 U++++          -1.000 H+      
+     log K    a=  -9.0100    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of U on strong edge site of mont ref: Marinich_ea:2024:rep:
+
+>Mnt_sOUO2(OH)3--
+     charge=   -2       mole wt.=   337.0470 g
+     4 species in reaction
+        1.000 >Mnt_sOH        1.000 UO2++           3.000 H2O     
+       -4.000 H+      
+     log K    a=  21.1170    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of U(VI) on strong edge site on mont error: 0.69 ref: Marinich_ea:2024:rep:
+
+>Mnt_sOUO2+
+     charge=    1       mole wt.=   286.0260 g
+     3 species in reaction
+        1.000 >Mnt_sOH        1.000 UO2++          -1.000 H+      
+     log K    a=  -2.9330    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of U(VI) on strong edge site on mont error: 0.1 ref: Marinich_ea:2024:rep:
+
+>Mnt_sOUO2OH
+     charge=    0       mole wt.=   303.0330 g
+     4 species in reaction
+        1.000 >Mnt_sOH        1.000 UO2++           1.000 H2O     
+       -2.000 H+      
+     log K    a=  4.2140    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of U(VI) on strong edge site on mont error: 0.4 ref: Marinich_ea:2024:rep:
+
+>Mnt_sOUOH++
+     charge=    2       mole wt.=   271.0350 g
+     4 species in reaction
+        1.000 >Mnt_sOH        1.000 U++++           1.000 H2O     
+       -2.000 H+      
+     log K    a=  -7.5300    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of U on strong edge site of mont ref: Marinich_ea:2024:rep:
+
+>Mnt_sOZn+
+     charge=    1       mole wt.=    81.3990 g
+     3 species in reaction
+        1.000 >Mnt_sOH        1.000 Zn++           -1.000 H+      
+     log K    a=  -.9810    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Zn on strong edge site on mont error: 0.15 ref: Marinich_ea:2024:rep:
+
+>Mnt_vOCd+
+     charge=    1       mole wt.=   128.4090 g
+     3 species in reaction
+        1.000 >Mnt_vOH        1.000 Cd++           -1.000 H+      
+     log K    a=  3.1340    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Cd on weak 1 (W1) edge site on mont error: 0.62 ref: Marinich_ea:2024:rep:
+* 
+* >Mnt_vOCo+
+*     charge=    1       mole wt.=    74.9326 g
+*     3 species in reaction
+*        1.000 >Mnt_vOH        1.000 Co++           -1.000 H+      
+*     log K    a=  3.5070    b=  0.0   
+*     TminK= 298.15        TmaxK= 298.15
+* 
+* * Surface complexation of Co on weak (I) edge site K0 on mont error: 0.08 ref: Marinich_ea:2024:rep:
+
+>Mnt_vOEu++
+     charge=    2       mole wt.=   167.9650 g
+     3 species in reaction
+        1.000 >Mnt_vOH        1.000 Eu+++          -1.000 H+      
+     log K    a=  .4520    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Eu on weak 1 edge site on mont  error: 0.16 ref: Marinich_ea:2024:rep:
+
+>Mnt_vOFe+
+     charge=    1       mole wt.=    71.8440 g
+     3 species in reaction
+        1.000 >Mnt_vOH        1.000 Fe++           -1.000 H+      
+     log K    a=  1.6200    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Fe on weak 1 edge site on mont  error: 0.24 ref: Marinich_ea:2024:rep:
+
+>Mnt_vOMn+
+     charge=    1       mole wt.=    70.9370 g
+     3 species in reaction
+        1.000 >Mnt_vOH        1.000 Mn++           -1.000 H+      
+     log K    a=  3.4830    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Mn on weak(I) edge site K0 on mont error: 0.12 ref: Marinich_ea:2024:rep:
+
+>Mnt_vONb(OH)5-
+     charge=   -1       mole wt.=   193.9400 g
+     4 species in reaction
+        1.000 >Mnt_vOH        1.000 Nb(OH)4+        1.000 H2O     
+       -2.000 H+      
+     log K    a=  2.4800    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Nb on weak edge site of mont error: 0.19 ref: Marinich_ea:2025:pap:
+
+>Mnt_vONb(OH)6--
+     charge=   -2       mole wt.=   210.9470 g
+     4 species in reaction
+        1.000 >Mnt_vOH        1.000 Nb(OH)4+        2.000 H2O     
+       -3.000 H+      
+     log K    a=  11.0200    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Nb on weak edge site of mont error: 0.39 ref: Marinich_ea:2025:pap:
+
+>Mnt_vONi+
+     charge=    1       mole wt.=    74.6920 g
+     3 species in reaction
+        1.000 >Mnt_vOH        1.000 Ni++           -1.000 H+      
+     log K    a=  3.5440    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Ni on weak 1 edge site on mont  error: 0.26 ref: Marinich_ea:2024:rep:
+
+>Mnt_vOPb+
+     charge=    1       mole wt.=   222.9990 g
+     3 species in reaction
+        1.000 >Mnt_vOH        1.000 Pb++           -1.000 H+      
+     log K    a=  1.2970    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Pb on weak 1 (W1) edge site on mont error: 0.25 ref: Marinich_ea:2024:rep:
+
+>Mnt_vOSn(OH)3
+     charge=    0       mole wt.=   185.7310 g
+     4 species in reaction
+        1.000 >Mnt_vOH        1.000 Sn++++          3.000 H2O     
+       -4.000 H+      
+     log K    a=  -13.7400    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Sn on weak edge site of mont error: 0.24 ref: Marinich_ea:2024:rep:
+
+>Mnt_vOSn(OH)4-
+     charge=   -1       mole wt.=   202.7380 g
+     4 species in reaction
+        1.000 >Mnt_vOH        1.000 Sn++++          4.000 H2O     
+       -5.000 H+      
+     log K    a=  -6.2190    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Sn on weak edge site of mont error: 0.17 ref: Marinich_ea:2024:rep:
+
+>Mnt_vOUO2+
+     charge=    1       mole wt.=   286.0260 g
+     3 species in reaction
+        1.000 >Mnt_vOH        1.000 UO2++          -1.000 H+      
+     log K    a=  -.0670    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of U(VI) on weak W1 edge site on mont error: 0.31 ref: Marinich_ea:2024:rep:
+
+>Mnt_vOUO2OH
+     charge=    0       mole wt.=   303.0330 g
+     4 species in reaction
+        1.000 >Mnt_vOH        1.000 UO2++           1.000 H2O     
+       -2.000 H+      
+     log K    a=  5.8260    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of U(VI) on weak W1 edge site on mont error: 0.33 ref: Marinich_ea:2024:rep:
+
+>Mnt_vOZn+
+     charge=    1       mole wt.=    81.3990 g
+     3 species in reaction
+        1.000 >Mnt_vOH        1.000 Zn++           -1.000 H+      
+     log K    a=  2.3560    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Zn on weak 1 edge site on mont  error: 0.15 ref: Marinich_ea:2024:rep:
+
+>Mnt_wORa+
+     charge=    1       mole wt.=   241.9990 g
+     3 species in reaction
+        1.000 >Mnt_wOH        1.000 Ra++           -1.000 H+      
+     log K    a=  4.8000    b=  0.0   
+     TminK= 298.15        TmaxK= 298.15
+
+* Surface complexation of Ra on weak(II) edge site on mont error: 0.21 ref: Marinich_ea:2024:rep:
+
+-end-
+* References:
+* Bradbury, M.H., Baeyens, B., 2009. Sorption modelling on illite Part I: Titration measurements and the sorption of Ni, Co, Eu and Sn. Geochim. Cosmochim. Acta 73, 990 1003. https://doi.org/10.1016/j.gca.2008.11.017
+* Hummel, W., Thoenen, T., 2023. The PSI Chemical Thermodynamic Database 2020. Nagra technical report NTB 21-03
+* Marinich, O., Marques Fernandes, M., Miron, G.D. & Kulik, D.A. (2024): ClaySor 2023: Update of 2 SPNE SC/CE Sorption Model for Illite and Montmorillonite in GEMS Implementation. Nagra Technical Report NTB 23-05
+* Marinich, O., Miron, G.D., Kulik, D.A., Marques Fernandes, M., & Baeyens, B. (2025): ClaySor 2023: Implementation of the 2SPNE SC/CE Sorption Model and Database for Deep Geological Repository Safety Assessment. Preprint

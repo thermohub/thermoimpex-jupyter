@@ -1,0 +1,635 @@
+SOLUTION_MASTER_SPECIES 
+
+
+#        ATOMIC WEIGHTS 
+#        Naturally occuring elements: IUPAC 1993 Table 1 rounded to 0.001
+#        Radioelements: Mass number of longest-lived isotope
+#
+#
+#
+#  elemen     species        alk   gfw_formula element_gfw atomic
+#                                                          number
+#
+Am(3)	Am	0.0	Am	243.06100463867	 	
+Ba(2)	Ba	0.0	Ba	137.32800292969	 	
+Ca(2)	Ca	0.0	Ca	40.07799911499	 	
+Cd(2)	Cd	0.0	Cd	112.41400146484	 	
+Cm(3)	Cm	0.0	Cm	247	 	
+Co(2)	Co	0.0	cobalt	58.933200836182	 	
+Cs(1)	Cs	0.0	Cs	132.9049987793	 	
+Eu(3)	Eu	0.0	Eu	151.9640045166	 	
+Fe(2)	Fe	0.0	Fe	55.845001220703	 	
+H(1)	H	0.0	H	1.0079499483109	 	
+K(1)	K	0.0	K	39.098300933838	 	
+Mg(2)	Mg	0.0	Mg	24.305000305176	 	
+Mn(2)	Mn	0.0	Mn	54.937999725342	 	
+Na(1)	Na	0.0	Na	22.989799499512	 	
+Nb(5)	Nb	0.0	Nb	92.90599822998	 	
+Ni(2)	Ni	0.0	Ni	58.693000793457	 	
+Np(6)	Np	0.0	Np	237.04800415039	 	
+O(-2)	O	0.0	O	15.999400138855	 	
+Pa(5)	Pa	0.0	Pa	231.0359954834	 	
+Pb(2)	Pb	0.0	Pb	207.19999694824	 	
+Pu(6)	Pu	0.0	Pu	244.06399536133	 	
+Ra(2)	Ra	0.0	Ra	226.02499389648	 	
+Sn(2)	Sn	0.0	Sn	118.71099853516	 	
+Sr(2)	Sr	0.0	Sr	87.650001525879	 	
+Th(4)	Th	0.0	Th	232.03799438477	 	
+U(6)	U	0.0	U	238.02900695801	 	
+Zn(2)	Zn	0.0	Zn	65.379997253418	 	
+
+
+EXCHANGE_MASTER_SPECIES 
+
+Clai	Clai-	 # ionExchangeSite_illit	
+Clay	Clay-	 # IonExchangeSite_mont	
+Clfei	Clfei-	 # IonExIll_frayed_edge	
+Cltti	Cltti-	 # IonExIll_type2_site	
+
+
+SURFACE_MASTER_SPECIES 
+
+Ess	EssOH	 # EdgeSite_S_mont	
+Essi	EssiOH	 # EdgeSite_S_illite	
+Esv	EsvOH	 # EdgeSite_W1_mont	
+Esvi	EsviOH	 # EdgeSite_W1_illite	
+Esw	EswOH	 # EdgeSite_W2_mont	
+Eswi	EswiOH	 # EdgeSite_W2_illite	
+
+
+EXCHANGE_SPECIES 
+
+
+Am+3 + 3 ClaiNa = Clai3 Am + 3 Na+ # Am on ion exchange  error: 0.09 ref: Marinich_ea:2024:rep:
+	-log_K	1.706 
+
+Ba+2 + 2 ClaiNa = Clai2 Ba + 2 Na+ # Ba on ion exchange on illite as separate phase ref: Marques_Fernandes_ea:2023:pap:
+	-log_K	1.051 
+
+Ca+2 + 2 ClaiNa = Clai2 Ca + 2 Na+ # Ca on ion exchange on illite as separate phase ref: Wick_ea:2018:pap:
+	-log_K	0.4 
+
+Cd+2 + 2 ClaiNa = Clai2 Cd + 2 Na+ # Cd on ion exchange on illite as separate phase ref: Marinich_ea:2024:rep:
+	-log_K	0.601 
+
+Co+2 + 2 ClaiNa = Clai2 Co + 2 Na+ # Co on ion exchange on illite as separate phase error: 0.62 ref: Marinich_ea:2024:rep:
+	-log_K	0.709 
+
+Cs+ + ClaiNa = ClaiCs + Na+ # Cs on ion exchange on illite as separate phase error: 0.74 ref: Marinich_ea:2024:rep:
+	-log_K	1.495 
+
+Eu+3 + 3 ClaiNa = Clai3 Eu + 3 Na+ # Eu on ion exchange on illite as separate phase error: 0.15 ref: Marinich_ea:2024:rep:
+	-log_K	1.778 
+
+Fe+2 + 2 ClaiNa = Clai2 Fe + 2 Na+ # Fe2+ on ion exchange ref: Marinich_ea:2024:rep:
+	-log_K	0.601 
+
+H+ + ClaiNa = ClaiH + Na+ # H+ on ion exchange on illite as separate phase ref: Kulik_ea:2021:rep:
+	-log_K	0 
+
+K+ + ClaiNa = ClaiK + Na+ # K on ion exchange on illite as separate phase error: 0.2 ref: Bradbury_Baeyens:2017:rep:
+	-log_K	1.1 
+
+Mg+2 + 2 ClaiNa = Clai2 Mg + 2 Na+ # Mg on ion exchange on illite as separate phase error: 0.2 ref: Marinich_ea:2024:rep:
+	-log_K	0.4 
+
+Mn+2 + 2 ClaiNa = Clai2 Mn + 2 Na+ # Mn on ion exchange on illite as separate phase error: 0.47 ref: Marinich_ea:2024:rep:
+	-log_K	0.411 
+
+NH4+ + ClaiNa = ClaiNH4 + Na+ # NH4 on ion exchange on illite as separate phase error: 0.1 ref: Wick_ea:2018:pap:
+	-log_K	0.9 
+
+Ni+2 + 2 ClaiNa = Clai2 Ni + 2 Na+ # Ni2+ on ion exchange on illite as separate phase error: 0.07 ref: Marinich_ea:2024:rep:
+	-log_K	0.726 
+
+NpO2+ + ClaiNa = ClaiNpO2 + Na+ # NpO2+ on ion exchange on illite error: 0.45 ref: Marinich_ea:2024:rep:
+	-log_K	0.037 
+
+Pb+2 + 2 ClaiNa = Clai2 Pb + 2 Na+ # Pb2+ on ion exchange on illite as separate phase error: 0.65 ref: Marinich_ea:2024:rep:
+	-log_K	2.276 
+
+Ra+2 + 2 ClaiNa = Clai2 Ra + 2 Na+ # Ra on ion exchange on illite as separate phase error: 0.12 ref: Marinich_ea:2024:rep:
+	-log_K	3.22 
+
+Sr+2 + 2 ClaiNa = Clai2 Sr + 2 Na+ # Sr on ion exchange on illite as separate phase ref: Marinich_ea:2024:rep:
+	-log_K	0.4 
+
+UO2+2 + 2 ClaiNa = Clai2 UO2 + 2 Na+ # UO2 on ion exchange ref: Bradbury_Baeyens:2017:rep:
+	-log_K	0.653 
+
+Zn+2 + 2 ClaiNa = Clai2 Zn + 2 Na+ # Zn on ion exchange on illite as separate phase ref: Montoya_ea:2018:pap:
+	-log_K	0.601 
+
+Ca+2 + 2 ClfeiNa = Clfei2 Ca + 2 Na+ # Ca on frayed edge ion exchange on illite 0.5 meq/kg error: 0.1 ref: Wick_ea:2018:pap:
+	-log_K	0.201 
+
+Cs+ + ClfeiNa = ClfeiCs + Na+ # Cs on frayed edge ion exchange on illite 0.5 meq/kg error: 0.05 ref: Marinich_ea:2024:rep:
+	-log_K	6.641 
+
+H+ + ClfeiNa = ClfeiH + Na+ # H on frayed edge ion exchange on illite 0.5 meq/kg error: 0.2 ref: Kulik_ea:2017:rep:
+	-log_K	1.75 
+
+K+ + ClfeiNa = ClfeiK + Na+ # K on frayed edge ion exchange on illite 0.5 meq/kg error: 0.2 ref: Bradbury_Baeyens:2017:rep:
+	-log_K	2.4 
+
+Mg+2 + 2 ClfeiNa = Clfei2 Mg + 2 Na+ # Mg on frayed edge ion exchange on illite 0.5 meq/kg error: 0.1 ref: Marinich_ea:2024:rep:
+	-log_K	0.201 
+
+NH4+ + ClfeiNa = ClfeiNH4 + Na+ # NH4 on frayed edge ion exchange on illite 0.5 meq/kg error: 0.3 ref: Wick_ea:2018:pap:
+	-log_K	3.4 
+
+Sr+2 + 2 ClfeiNa = Clfei2 Sr + 2 Na+ # Sr on frayed edge ion exchange on illite 0.5 meq/kg error: 0.1 ref: Marinich_ea:2024:rep:
+	-log_K	0.201 
+
+Ca+2 + 2 ClttiNa = Cltti2 Ca + 2 Na+ # Ca on type II ion exchange on illite 40 meq/kg error: 0.1 ref: Wick_ea:2018:pap:
+	-log_K	0.001 
+
+Cs+ + ClttiNa = ClttiCs + Na+ # Cs on type II ion exchange on illite 40 meq/kg error: 0.85 ref: Marinich_ea:2024:rep:
+	-log_K	3.027 
+
+H+ + ClttiNa = ClttiH + Na+ # H on type II ion exchange on illite 40 meq/kg error: 0.2 ref: ---
+	-log_K	0 
+
+K+ + ClttiNa = ClttiK + Na+ # K on type II ion exchange on illite 40 meq/kg error: 0.2 ref: Bradbury_Baeyens:2017:rep:
+	-log_K	2.1 
+
+Mg+2 + 2 ClttiNa = Cltti2 Mg + 2 Na+ # Mg on type II ion exchange on illite 40 meq/kg error: 0.1 ref: Marinich_ea:2024:rep:
+	-log_K	0.001 
+
+NH4+ + ClttiNa = ClttiNH4 + Na+ # NH4 on type II ion exchange on illite 40 meq/kg error: 0.1 ref: Wick_ea:2018:pap:
+	-log_K	2.1 
+
+Sr+2 + 2 ClttiNa = Cltti2 Sr + 2 Na+ # Sr on type II ion exchange on illite 40 meq/kg error: 0.1 ref: Marinich_ea:2024:rep:
+	-log_K	0.001 
+
+Am+3 + 3 ClayNa = Clay3 Am + 3 Na+ # Am on ion exchange  error: 0.09 ref: Marinich_ea:2024:rep:
+	-log_K	1.638 
+
+Ba+2 + 2 ClayNa = Clay2 Ba + 2 Na+ # Ba+2 on ion exchange, as logKx = 0.113 ref: Klinkenberg_ea:2021:pap:   
+	-log_K	0.901 
+
+Ca+2 + 2 ClayNa = Clay2 Ca + 2 Na+ # Ca on ion exchange, as logKx = 0.03 error: 0.27 ref: Curti:2023:rep:
+	-log_K	0.396 
+
+Cd+2 + 2 ClayNa = Clay2 Cd + 2 Na+ # Cd on ion exchange on montmorillonite as separate phase error: 0.03 ref: Marinich_ea:2024:rep:
+	-log_K	0.674 
+
+Co+2 + 2 ClayNa = Clay2 Co + 2 Na+ # Co on ion exchange on montmorillonite as separate phase error: 0.06 ref: Marinich_ea:2024:rep:
+	-log_K	0.571 
+
+Cs+ + ClayNa = ClayCs + Na+ # Cs on ion exchange error: 0.37 ref: Marinich_ea:2024:rep:
+	-log_K	1.095 
+
+Eu+3 + 3 ClayNa = Clay3 Eu + 3 Na+ # Eu on ion exchange (corrected as logKmx -= 6.112)  error: 0.14 ref: Marinich_ea:2024:rep:
+	-log_K	1.532 
+
+Fe+2 + 2 ClayNa = Clay2 Fe + 2 Na+ # Fe2+ on ion exchange, corrected as logKmx -= 0.3 error: 0.11 ref: Marinich_ea:2024:rep:
+	-log_K	1.332 
+
+H+ + ClayNa = ClayH + Na+ # H+ on ion exchange on montmorillonite as separate phase ref: Marinich_ea:2024:rep:
+	-log_K	0 
+
+K+ + ClayNa = ClayK + Na+ # K on ion exchange (montmorillonite) Kx = 0.602 error: 0.22 ref: Curti:2023:rep:
+	-log_K	0.602 
+
+Mg+2 + 2 ClayNa = Clay2 Mg + 2 Na+ # Mg+2 on ion exchange, as logKx = 0.095 error: 0.3 ref: Curti:2023:rep:
+	-log_K	0.331 
+
+Mn+2 + 2 ClayNa = Clay2 Mn + 2 Na+ # Mn on ion exchange on montmorillonite as separate phase error: 0.09 ref: Marinich_ea:2024:rep:
+	-log_K	0.477 
+
+Ni+2 + 2 ClayNa = Clay2 Ni + 2 Na+ # Ni on ion exchange, corrected as logKmx -= 3.056 error: 0.06 ref: Marinich_ea:2024:rep:
+	-log_K	0.574 
+
+NpO2+ + ClayNa = ClayNpO2 + Na+ # NpO2+ on ion exchange error: 0.12 ref: Marinich_ea:2024:rep:
+	-log_K	0.044 
+
+Pb+2 + 2 ClayNa = Clay2 Pb + 2 Na+ # Pb on ion exchange on montmorillonite as separate phase error: 0.37 ref: Marinich_ea:2024:rep:
+	-log_K	1.181 
+
+Ra+2 + 2 ClayNa = Clay2 Ra + 2 Na+ # Ra on ion exchange on montmorillonite as separate phase error: 0.13 ref: Marinich_ea:2024:rep:
+	-log_K	1.336 
+
+Sr+2 + 2 ClayNa = Clay2 Sr + 2 Na+ # Sr+2 on ion exchange, as logKx = 0.113 error: 0.27 ref: Curti:2023:rep:
+	-log_K	0.414 
+
+UO2+2 + 2 ClayNa = Clay2 UO2 + 2 Na+ # UO2 on ion exchange (logKc=0.45) as logKmx -= 3.056 error: 0.3 ref: Marinich_ea:2024:rep:
+	-log_K	0.464 
+
+Zn+2 + 2 ClayNa = Clay2 Zn + 2 Na+ # Zn on ion exchange on montmorillonite as separate phase ref: Bradbury_Baeyens:1995:rep:
+	-log_K	0.591 
+
+
+SURFACE_SPECIES 
+
+
+iSsOH = iSsO- + H+ # Deprotonated OH group on strong edge site on illite ref: Kulik_ea:2017:rep:
+	-log_K	-6.2 
+
+Am+3 + 2 H2 O + iSsOH = iSsOAm(OH)2 + 3 H+ # Surface complexation of Am on strong edge site on illite error: 0.07 ref: Marinich_ea:2024:rep:
+	-log_K	-12.962 
+
+Am+3 + iSsOH = iSsOAm+2 + H+ # Surface complexation of Am on strong edge site on illite error: 0.26 ref: Marinich_ea:2024:rep:
+	-log_K	2.695 
+
+Am+3 + H2 O + iSsOH = iSsOAmOH+ + 2 H+ # Surface complexation of Am on strong edge site K1 on illite error: 1.55 ref: Marinich_ea:2024:rep:
+	-log_K	-5.171 
+
+Cd+2 + iSsOH = iSsOCd+ + H+ # Surface complexation of Cd on strong edge site K0 on illite ref: Marinich_ea:2024:rep:
+	-log_K	0.93 
+
+Cm+3 + iSsOH = iSsOCm+2 + H+ # Surface complexation of Cm on strong edge site on illite error: 0.2 ref: Marinich_ea:2024:rep:
+	-log_K	2.561 
+
+Cm+3 + H2 O + iSsOH = iSsOCmOH+ + 2 H+ # Surface complexation of Cm on strong edge site K1 on illite error: 0.38 ref: Marinich_ea:2024:rep:
+	-log_K	-3.181 
+
+Co+2 + iSsOH = iSsOCo+ + H+ # Surface complexation of Co on strong edge site K0 on illite error: 0.11 ref: Marinich_ea:2024:rep:
+	-log_K	1.18 
+
+Co+2 + H2 O + iSsOH = iSsOCoOH + 2 H+ # Surface complexation of Co on strong edge site K1 on illite error: 0.56 ref: Marinich_ea:2024:rep:
+	-log_K	-7.245 
+
+Eu+3 + 3 H2 O + iSsOH = iSsOEu(OH)3- + 4 H+ # Surface complexation of Eu on strong edge site K2 on illite error: 0.17 ref: Marinich_ea:2024:rep:
+	-log_K	-21.336 
+
+Eu+3 + iSsOH = iSsOEu+2 + H+ # Surface complexation of Eu on strong edge site on illite error: 0.4 ref: Marinich_ea:2024:rep:
+	-log_K	2.467 
+
+Eu+3 + H2 O + iSsOH = iSsOEuOH+ + 2 H+ # Surface complexation of Eu on strong edge site K1 on illite error: 0.17 ref: Marinich_ea:2024:rep:
+	-log_K	-4.276 
+
+Fe+2 + iSsOH = iSsOFe+ + H+ # Surface complexation of Fe on strong edge site on illite ref: Marinich_ea:2024:rep:
+	-log_K	1.28 
+
+H+ + iSsOH = iSsOH2+ # Protonated OH group on strong edge site on illite ref: Kulik_ea:2017:rep:
+	-log_K	4 
+
+Mn+2 + iSsOH = iSsOMn+ + H+ # Surface complexation of Mn on strong edge site K0 on illite error: 0.09 ref: Marinich_ea:2024:rep:
+	-log_K	0.976 
+
+Nb(OH)4+ + H2 O + iSsOH = iSsONb(OH)5- + 2 H+ # Surface complexation of Nb on strong edge site of illite error: 0.22 ref: Marinich_ea:2024:rep:
+	-log_K	0.738 
+
+Nb(OH)4+ + 2 H2 O + iSsOH = iSsONb(OH)6-2 + 3 H+ # Surface complexation of Nb on strong edge site of illite error: 0.54 ref: Marinich_ea:2024:rep:
+	-log_K	-5.738 
+
+Ni+2 + iSsOH = iSsONi+ + H+ # Surface complexation of Ni on strong edge site K0 on illite error: 0.04 ref: Marinich_ea:2024:rep:
+	-log_K	0.648 
+
+Ni+2 + H2 O + iSsOH = iSsONiOH + 2 H+ # Surface complexation of Ni on strong edge site K1 on illite error: 0.15 ref: Marinich_ea:2024:rep:
+	-log_K	-7.918 
+
+Np+4 + 2 H2 O + iSsOH = iSsONp(OH)2+ + 3 H+ # Surface complexation of Np on strong edge site of illite ref: Marinich_ea:2024:rep:
+	-log_K	6.23 
+
+Np+4 + 3 H2 O + iSsOH = iSsONp(OH)3 + 4 H+ # Surface complexation of Np on strong edge site of illite ref: Marinich_ea:2024:rep:
+	-log_K	0.43 
+
+Np+4 + iSsOH = iSsONp+3 + H+ # Surface complexation of Np on strong edge site of illite ref: Marinich_ea:2024:rep:
+	-log_K	9.77 
+
+NpO2+ + iSsOH = iSsONpO2 + H+ # Surface complexation of NpO2+ on strong edge site on illite error: 0.22 ref: Marinich_ea:2024:rep:
+	-log_K	-1.323 
+
+NpO2+ + H2 O + iSsOH = iSsONpO2 OH- + 2 H+ # Surface complexation of NpO2+ on strong edge site on illite error: 0.36 ref: Marinich_ea:2024:rep:
+	-log_K	-10.063 
+
+Np+4 + H2 O + iSsOH = iSsONpOH+2 + 2 H+ # Surface complexation of Np on strong edge site of illite ref: Marinich_ea:2024:rep:
+	-log_K	9.56 
+
+PaO(OH)+2 + 2 H2 O + iSsOH = iSsOPaO2(OH)2-2 + 4 H+ # Surface complexation (probab) of PaOOH+2 on strong edge site on illite error: 0.21 ref: Marinich_ea:2024:rep:
+	-log_K	-13.998 
+
+PaO(OH)+2 + H2 O + iSsOH = iSsOPaO2 OH- + 3 H+ # Surface complexation of PaOOH+2 on strong edge site on illite error: 0.14 ref: Marinich_ea:2024:rep:
+	-log_K	-4.891 
+
+PaO(OH)+2 + iSsOH = iSsOPaOOH+ + H+ # Surface complexation of PaOOH+2 on strong edge site on illite error: 0.13 ref: Marinich_ea:2024:rep:
+	-log_K	6.509 
+
+Pb+2 + iSsOH = iSsOPb+ + H+ # Surface complexation of Pb on strong edge site K0 on illite error: 0.22 ref: Marinich_ea:2024:rep:
+	-log_K	2.896 
+
+Pb+2 + H2 O + iSsOH = iSsOPbOH + 2 H+ # Surface complexation of Pb on strong edge site K1 on illite error: 0.24 ref: Marinich_ea:2024:rep:
+	-log_K	-5.106 
+
+Pu+4 + 2 H2 O + iSsOH = iSsOPu(OH)2+ + 3 H+ # Surface complexation of Pu on strong edge site of illite ref: Marinich_ea:2024:rep:
+	-log_K	5.92 
+
+Pu+3 + 2 H2 O + iSsOH = iSsOPu(OH)2 + 3 H+ # Surface complexation of Pu(III) on strong edge site on illite ref: Marinich_ea:2024:rep:
+	-log_K	-13 
+
+Pu+4 + 3 H2 O + iSsOH = iSsOPu(OH)3 + 4 H+ # Surface complexation of Pu(+4) on strong edge site of illite ref: Marinich_ea:2024:rep:
+	-log_K	-0.63 
+
+Pu+3 + iSsOH = iSsOPu+2 + H+ # Surface complexation of Pu(III) on strong edge site on illite ref: Marinich_ea:2024:rep:
+	-log_K	2.62 
+
+Pu+4 + iSsOH = iSsOPu+3 + H+ # Surface complexation of Pu on strong edge site of illite ref: Marinich_ea:2024:rep:
+	-log_K	9.19 
+
+Pu+3 + H2 O + iSsOH = iSsOPuOH+ + 2 H+ # Surface complexation of Pu(III) on strong edge site K1 on illite ref: Marinich_ea:2024:rep:
+	-log_K	-3.88 
+
+Pu+4 + H2 O + iSsOH = iSsOPuOH+2 + 2 H+ # Surface complexation of Pu on strong edge site of illite ref: Marinich_ea:2024:rep:
+	-log_K	7.92 
+
+Sn+4 + 3 H2 O + iSsOH = iSsOSn(OH)3 + 4 H+ # Surface complexation of Sn on strong edge site of illite error: 0.2 ref: Marinich_ea:2024:rep:
+	-log_K	15.86 
+
+Sn+4 + 4 H2 O + iSsOH = iSsOSn(OH)4- + 5 H+ # Surface complexation of Sn on strong edge site of illite error: 0.29 ref: Marinich_ea:2024:rep:
+	-log_K	9.531 
+
+Sn+4 + 5 H2 O + iSsOH = iSsOSn(OH)5-2 + 6 H+ # Surface complexation of Sn on strong edge site of illite error: 0.13 ref: Marinich_ea:2024:rep:
+	-log_K	1.023 
+
+Th+4 + 3 H2 O + iSsOH = iSsOTh(OH)3 + 4 H+ # Surface complexation of Th on strong edge site of illite error: 1.56 ref: Marinich_ea:2024:rep:
+	-log_K	-9.118 
+
+Th+4 + 4 H2 O + iSsOH = iSsOTh(OH)4- + 5 H+ # Surface complexation of Th on strong edge site of illite error: 0.13 ref: Marinich_ea:2024:rep:
+	-log_K	-15.204 
+
+Th+4 + iSsOH = iSsOTh+3 + H+ # Surface complexation of TH on strong edge site on illite error: 1.61 ref: Marinich_ea:2024:rep:
+	-log_K	6.731 
+
+Th+4 + H2 O + iSsOH = iSsOThOH+2 + 2 H+ # Surface complexation of Th on strong edge site of illite error: 0.91 ref: Marinich_ea:2024:rep:
+	-log_K	2.41 
+
+U+4 + 2 H2 O + iSsOH = iSsOU(OH)2+ + 3 H+ # Surface complexation of U on strong edge site of illite ref: Marinich_ea:2024:rep:
+	-log_K	3.7 
+
+U+4 + 3 H2 O + iSsOH = iSsOU(OH)3 + 4 H+ # Surface complexation of U(+4) on strong edge site of illite ref: Marinich_ea:2024:rep:
+	-log_K	-1.36 
+
+U+4 + iSsOH = iSsOU+3 + H+ # Surface complexation of U on strong edge site of illite ref: Marinich_ea:2024:rep:
+	-log_K	8.62 
+
+UO2+2 + 2 H2 O + iSsOH = iSsOUO2(OH)2- + 3 H+ # Surface complexation of U(VI) on strong edge site on illite error: 0.26 ref: Marinich_ea:2024:rep:
+	-log_K	-11.074 
+
+UO2+2 + 3 H2 O + iSsOH = iSsOUO2(OH)3-2 + 4 H+ # Surface complexation of U(VI) on strong edge site on illite error: 0.18 ref: Marinich_ea:2024:rep:
+	-log_K	-19.289 
+
+UO2+2 + iSsOH = iSsOUO2+ + H+ # Surface complexation of U(VI) on strong edge site on illite error: 0.17 ref: Marinich_ea:2024:rep:
+	-log_K	2.371 
+
+UO2+2 + H2 O + iSsOH = iSsOUO2 OH + 2 H+ # Surface complexation of U(VI) on strong edge site on illite error: 0.82 ref: Marinich_ea:2024:rep:
+	-log_K	-4.428 
+
+Zn+2 + iSsOH = iSsOZn+ + H+ # surface complexation of Zn on strong edge site K0 on illite error: 0.14 ref: Marinich_ea:2024:rep:
+	-log_K	2.068 
+
+Zn+2 + H2 O + iSsOH = iSsOZnOH + 2 H+ # Surface complexation of Zn on strong edge site K1 on illite error: 0.21 ref: Marinich_ea:2024:rep:
+	-log_K	-6.374 
+
+iSvOH = iSvO- + H+ # Deprotonated OH group on weak W1 edge site on illite ref: Kulik_ea:2017:rep:
+	-log_K	-6.2 
+
+Cd+2 + iSvOH = iSvOCd+ + H+ # Surface complexation of Cd on weak 1 edge site on illite ref: Marinich_ea:2024:rep:
+	-log_K	-1.92 
+
+Co+2 + iSvOH = iSvOCo+ + H+ # Surface complexation of Co on weak (I) edge site K0 on illite error: 0.66 ref: Marinich_ea:2024:rep:
+	-log_K	-1.86 
+
+Eu+3 + iSvOH = iSvOEu+2 + H+ # Surface complexation of Eu on weak 1 (W1) edge site on illite error: 0.19 ref: Marinich_ea:2024:rep:
+	-log_K	0.999 
+
+Fe+2 + iSvOH = iSvOFe+ + H+ # Surface complexation of Fe on weak 1 edge site on illite ref: Marinich_ea:2024:rep:
+	-log_K	-1.54 
+
+H+ + iSvOH = iSvOH2+ # Protonated OH group on weak 1 edge site on illite ref: Kulik_ea:2017:rep:
+	-log_K	4 
+
+Mn+2 + iSvOH = iSvOMn+ + H+ # Surface complexation of Mn on weak edge site K0 on illite error: 0.24 ref: Marinich_ea:2024:rep:
+	-log_K	-2.399 
+
+Ni+2 + iSvOH = iSvONi+ + H+ # Surface complexation of Ni on weak 1 (W1) edge site on illite error: 0.12 ref: Marinich_ea:2024:rep:
+	-log_K	-1.92 
+
+Pb+2 + iSvOH = iSvOPb+ + H+ # Surface complexation of Pb on weak 1 (W1) edge site on illite error: 0.29 ref: Marinich_ea:2024:rep:
+	-log_K	0.699 
+
+UO2+2 + 2 H2 O + iSvOH = iSvOUO2(OH)2- + 3 H+ # Surface complexation of U(VI) on weak W1 edge site on illite error: 0.15 ref: Marinich_ea:2024:rep:
+	-log_K	-12.323 
+
+UO2+2 + iSvOH = iSvOUO2+ + H+ # Surface complexation of U(VI) on weak W1 edge site on illite error: 0.23 ref: Marinich_ea:2024:rep:
+	-log_K	-0.831 
+
+UO2+2 + H2 O + iSvOH = iSvOUO2 OH + 2 H+ # Surface complexation of U(VI) on weak W1 edge site on illite error: 0.13 ref: Marinich_ea:2024:rep:
+	-log_K	-5.598 
+
+Zn+2 + iSvOH = iSvOZn+ + H+ # Surface complexation of Zn on weak 1 (W1) edge site on illite error: 0.19 ref: Marinich_ea:2024:rep:
+	-log_K	-0.731 
+
+Zn+2 + H2 O + iSvOH = iSvOZnOH + 2 H+ # Surface complexation of Zn on weak (1) edge site K1 on illite error: 0.16 ref: Marinich_ea:2024:rep:
+	-log_K	-8.5 
+
+iSwOH = iSwO- + H+ # Deprotonated OH group on weak 2 edge site on illite ref: Kulik_ea:2017:rep:
+	-log_K	-10.5 
+
+H+ + iSwOH = iSwOH2+ # Protonated OH group on weak 2 edge site on illite ref: Kulik_ea:2017:rep:
+	-log_K	8.5 
+
+Ra+2 + iSwOH = iSwORa+ + H+ # Surface complexation of Ra on weak(II) edge site on illite error: 0.3 ref: Marinich_ea:2024:rep:
+	-log_K	-3.85 
+
+SsOH = SsO- + H+ # Deprotonated OH group on strong edge site on mont ref: ClaySor:2017:dat:         
+	-log_K	-7.9 
+
+Am+3 + 2 H2 O + SsOH = SsOAm(OH)2 + 3 H+ # Surface complexation of Am on strong edge site on mont error: 0.15 ref: Marinich_ea:2024:rep:
+	-log_K	-14.682 
+
+Am+3 + SsOH = SsOAm+2 + H+ # Surface complexation of Am on strong edge site on mont error: 0.12 ref: Marinich_ea:2024:rep:
+	-log_K	2.323 
+
+Cd+2 + SsOH = SsOCd+ + H+ # Surface complexation of Cd on strong edge site K0 on mont error: 0.3 ref: Marinich_ea:2024:rep:
+	-log_K	-1.025 
+
+Co+2 + SsOH = SsOCo+ + H+ # Surface complexation of Co on strong edge site K0 on mont error: 0.13 ref: Marinich_ea:2024:rep:
+	-log_K	-0.18 
+
+Co+2 + H2 O + SsOH = SsOCoOH + 2 H+ # Surface complexation of Co on strong edge site K1 on mont error: 0.31 ref: Marinich_ea:2024:rep:
+	-log_K	-9.291 
+
+Eu+3 + 3 H2 O + SsOH = SsOEu(OH)3- + 4 H+ # Surface complexation of Eu on strong edge site K2 on mont error: 0.17 ref: Marinich_ea:2024:rep:
+	-log_K	-22.17 
+
+Eu+3 + SsOH = SsOEu+2 + H+ # Surface complexation of Eu on strong edge site on mont error: 0.1 ref: Marinich_ea:2024:rep:
+	-log_K	1.655 
+
+Eu+3 + H2 O + SsOH = SsOEuOH+ + 2 H+ # surface complexation of Eu on strong edge site K1 error: 0.3 ref: Marinich_ea:2024:rep:
+	-log_K	-6.226 
+
+Fe+2 + SsOH = SsOFe+ + H+ # Surface complexation of Fe on strong edge site on mont error: 0.17 ref: Marinich_ea:2024:rep:
+	-log_K	1.701 
+
+H+ + SsOH = SsOH2+ # Protonated OH group on strong edge site on mont ref: ClaySor:2017:rep:         
+	-log_K	4.5 
+
+Mn+2 + SsOH = SsOMn+ + H+ # Surface complexation of Mn on strong edge site K0 on mont error: 0.17 ref: Marinich_ea:2024:rep:
+	-log_K	-0.631 
+
+Nb(OH)4+ + H2 O + SsOH = SsONb(OH)5- + 2 H+ # Surface complexation of Nb on strong edge site of mont error: 0.23 ref: Marinich_ea:2024:rep:
+	-log_K	0.725 
+
+Ni+2 + SsOH = SsONi+ + H+ # Surface complexation of Ni on strong edge site on mont error: 0.06 ref: Marinich_ea:2024:rep:
+	-log_K	-0.808 
+
+Ni+2 + H2 O + SsOH = SsONiOH + 2 H+ # Surface complexation of Ni on strong edge site on mont error: 0.08 ref: Marinich_ea:2024:rep:
+	-log_K	-9.43 
+
+Np+4 + 2 H2 O + SsOH = SsONp(OH)2+ + 3 H+ # Surface complexation of Np on strong edge site of mont ref: Marinich_ea:2024:rep:
+	-log_K	6.56 
+
+Np+4 + 3 H2 O + SsOH = SsONp(OH)3 + 4 H+ # Surface complexation of Np on strong edge site of mont ref: Marinich_ea:2024:rep:
+	-log_K	0.59 
+
+Np+4 + SsOH = SsONp+3 + H+ # Surface complexation of Np on strong edge site of mont ref: Marinich_ea:2024:rep:
+	-log_K	10.19 
+
+NpO2+ + SsOH = SsONpO2 + H+ # Surface complexation of NpO2+ on strong edge site on mont error: 0.11 ref: Marinich_ea:2024:rep:
+	-log_K	-2.625 
+
+NpO2+ + H2 O + SsOH = SsONpO2 OH- + 2 H+ # Surface complexation of PaOOH+2 on strong edge site on mont error: 0.23 ref: Marinich_ea:2024:rep:
+	-log_K	-12.562 
+
+Np+4 + H2 O + SsOH = SsONpOH+2 + 2 H+ # Surface complexation of Np on strong edge site of mont ref: Marinich_ea:2024:rep:
+	-log_K	9.97 
+
+PaO(OH)+2 + 2 H2 O + SsOH = SsOPaO2(OH)2-2 + 4 H+ # Surface complexation (probab) of PaOOH+2 on strong edge site on mont error: 0.23 ref: Marinich_ea:2024:rep:
+	-log_K	-15.946 
+
+PaO(OH)+2 + SsOH = SsOPaO2 + 2 H+ # Surface complexation of PaOOH+2 on strong edge site on mont error: 0.28 ref: Marinich_ea:2024:rep:
+	-log_K	1.039 
+
+PaO(OH)+2 + H2 O + SsOH = SsOPaO2 OH- + 3 H+ # Surface complexation of PaOOH+2 on strong edge site on mont error: 0.31 ref: Marinich_ea:2024:rep:
+	-log_K	-6.789 
+
+PaO(OH)+2 + SsOH = SsOPaOOH+ + H+ # Surface complexation of PaOOH+2 on strong edge site on mont error: 0.2 ref: Marinich_ea:2024:rep:
+	-log_K	6.711 
+
+Pb+2 + SsOH = SsOPb+ + H+ # Surface complexation of Pb on strong edge site K0 on mont error: 0.15 ref: Marinich_ea:2024:rep:
+	-log_K	1.371 
+
+Pb+2 + H2 O + SsOH = SsOPbOH + 2 H+ # Surface complexation of Pb on strong edge site K1 on mont error: 0.53 ref: Marinich_ea:2024:rep:
+	-log_K	-7.777 
+
+Pu+4 + 2 H2 O + SsOH = SsOPu(OH)2+ + 3 H+ # Surface complexation of Pu on strong edge site of mont ref: Marinich_ea:2024:rep:
+	-log_K	6.23 
+
+Pu+3 + 2 H2 O + SsOH = SsOPu(OH)2 + 3 H+ # Surface complexation of Pu(III) on strong edge site on mont ref: Marinich_ea:2024:rep:
+	-log_K	-14.07 
+
+Pu+4 + 3 H2 O + SsOH = SsOPu(OH)3 + 4 H+ # Surface complexation of Pu on strong edge site of mont ref: Marinich_ea:2024:rep:
+	-log_K	-0.5 
+
+Pu+3 + SsOH = SsOPu+2 + H+ # Surface complexation of Pu(III) on strong edge site on mont ref: Marinich_ea:2024:rep:
+	-log_K	1.91 
+
+Pu+4 + SsOH = SsOPu+3 + H+ # Surface complexation of Pu(IV) on strong edge site on mont ref: Marinich_ea:2024:rep:
+	-log_K	9.59 
+
+Pu+3 + H2 O + SsOH = SsOPuOH+ + 2 H+ # Surface complexation of Pu(III) on strong edge site K1 on mont ref: Marinich_ea:2024:rep:
+	-log_K	-4.73 
+
+Pu+4 + H2 O + SsOH = SsOPuOH+2 + 2 H+ # Surface complexation of Pu on strong edge site of mont ref: Marinich_ea:2024:rep:
+	-log_K	8.29 
+
+Sn+4 + 3 H2 O + SsOH = SsOSn(OH)3 + 4 H+ # Surface complexation of Sn on strong edge site of mont error: 0.16 ref: Marinich_ea:2024:rep:
+	-log_K	16.228 
+
+Sn+4 + 5 H2 O + SsOH = SsOSn(OH)5-2 + 6 H+ # Surface complexation of Sn on strong edge site of mont error: 0.11 ref: Marinich_ea:2024:rep:
+	-log_K	-0.665 
+
+Th+4 + 3 H2 O + SsOH = SsOTh(OH)3 + 4 H+ # Surface complexation of Th on strong edge site of mont error: 0.29 ref: Marinich_ea:2024:rep:
+	-log_K	-9.149 
+
+Th+4 + 4 H2 O + SsOH = SsOTh(OH)4- + 5 H+ # Surface complexation of Th on strong edge site of mont error: 0.17 ref: Marinich_ea:2024:rep:
+	-log_K	-16.877 
+
+Th+4 + SsOH = SsOTh+3 + H+ # Surface complexation of Th on strong edge site of mont error: 0.33 ref: Marinich_ea:2024:rep:
+	-log_K	7.298 
+
+Th+4 + H2 O + SsOH = SsOThOH+2 + 2 H+ # Surface complexation of Th on strong edge site of mont error: 0.86 ref: Marinich_ea:2024:rep:
+	-log_K	2.311 
+
+U+4 + 2 H2 O + SsOH = SsOU(OH)2+ + 3 H+ # Surface complexation of U on strong edge site of mont ref: Marinich_ea:2024:rep:
+	-log_K	3.95 
+
+U+4 + 3 H2 O + SsOH = SsOU(OH)3 + 4 H+ # Surface complexation of U(+4) on strong edge site of mont ref: Marinich_ea:2024:rep:
+	-log_K	-1.26 
+
+U+4 + SsOH = SsOU+3 + H+ # Surface complexation of U on strong edge site of mont ref: Marinich_ea:2024:rep:
+	-log_K	9.01 
+
+UO2+2 + 3 H2 O + SsOH = SsOUO2(OH)3-2 + 4 H+ # Surface complexation of U(VI) on strong edge site on mont error: 0.69 ref: Marinich_ea:2024:rep:
+	-log_K	-21.117 
+
+UO2+2 + SsOH = SsOUO2+ + H+ # Surface complexation of U(VI) on strong edge site on mont error: 0.1 ref: Marinich_ea:2024:rep:
+	-log_K	2.933 
+
+UO2+2 + H2 O + SsOH = SsOUO2 OH + 2 H+ # Surface complexation of U(VI) on strong edge site on mont error: 0.4 ref: Marinich_ea:2024:rep:
+	-log_K	-4.214 
+
+U+4 + H2 O + SsOH = SsOUOH+2 + 2 H+ # Surface complexation of U on strong edge site of mont ref: Marinich_ea:2024:rep:
+	-log_K	7.53 
+
+Zn+2 + SsOH = SsOZn+ + H+ # Surface complexation of Zn on strong edge site on mont error: 0.15 ref: Marinich_ea:2024:rep:
+	-log_K	0.981 
+
+SvOH = SvO- + H+ # Deprotonated OH group on weak 1 edge site on mont ref: ClaySor:2017:dat:
+	-log_K	-7.9 
+
+Cd+2 + SvOH = SvOCd+ + H+ # Surface complexation of Cd on weak 1 (W1) edge site on mont error: 0.62 ref: Marinich_ea:2024:rep:
+	-log_K	-3.134 
+
+Co+2 + SvOH = SvOCo+ + H+ # Surface complexation of Co on weak (I) edge site K0 on mont error: 0.08 ref: Marinich_ea:2024:rep:
+	-log_K	-3.507 
+
+Eu+3 + SvOH = SvOEu+2 + H+ # Surface complexation of Eu on weak 1 edge site on mont  error: 0.16 ref: Marinich_ea:2024:rep:
+	-log_K	-0.452 
+
+Fe+2 + SvOH = SvOFe+ + H+ # Surface complexation of Fe on weak 1 edge site on mont  error: 0.24 ref: Marinich_ea:2024:rep:
+	-log_K	-1.62 
+
+H+ + SvOH = SvOH2+ # Protonated OH group on weak 1 edge site on mont ref: ClaySor:2017:dat:
+	-log_K	4.5 
+
+Mn+2 + SvOH = SvOMn+ + H+ # Surface complexation of Mn on weak(I) edge site K0 on mont error: 0.12 ref: Marinich_ea:2024:rep:
+	-log_K	-3.483 
+
+Nb(OH)4+ + H2 O + SvOH = SvONb(OH)5- + 2 H+ # Surface complexation of Nb on weak edge site of mont error: 0.23 ref: Marinich_ea:2024:rep:
+	-log_K	-2.398 
+
+Nb(OH)4+ + 2 H2 O + SvOH = SvONb(OH)6-2 + 3 H+ # Surface complexation of Nb on weak edge site of mont error: 0.65 ref: Marinich_ea:2024:rep:
+	-log_K	-11.11 
+
+Ni+2 + SvOH = SvONi+ + H+ # Surface complexation of Ni on weak 1 edge site on mont  error: 0.26 ref: Marinich_ea:2024:rep:
+	-log_K	-3.544 
+
+Pb+2 + SvOH = SvOPb+ + H+ # Surface complexation of Pb on weak 1 (W1) edge site on mont error: 0.25 ref: Marinich_ea:2024:rep:
+	-log_K	-1.297 
+
+Sn+4 + 3 H2 O + SvOH = SvOSn(OH)3 + 4 H+ # Surface complexation of Sn on weak edge site of mont error: 0.24 ref: Marinich_ea:2024:rep:
+	-log_K	13.74 
+
+Sn+4 + 4 H2 O + SvOH = SvOSn(OH)4- + 5 H+ # Surface complexation of Sn on weak edge site of mont error: 0.17 ref: Marinich_ea:2024:rep:
+	-log_K	6.219 
+
+UO2+2 + SvOH = SvOUO2+ + H+ # Surface complexation of U(VI) on weak W1 edge site on mont error: 0.31 ref: Marinich_ea:2024:rep:
+	-log_K	0.067 
+
+UO2+2 + H2 O + SvOH = SvOUO2 OH + 2 H+ # Surface complexation of U(VI) on weak W1 edge site on mont error: 0.33 ref: Marinich_ea:2024:rep:
+	-log_K	-5.826 
+
+Zn+2 + SvOH = SvOZn+ + H+ # Surface complexation of Zn on weak 1 edge site on mont  error: 0.15 ref: Marinich_ea:2024:rep:
+	-log_K	-2.356 
+
+SwOH = SwO- + H+ # Deprotonated OH group on weak 2 edge site on mont ref: ClaySor:2017:rep:
+	-log_K	-10.5 
+
+H+ + SwOH = SwOH2+ # Protonated OH group on weak 2 edge site on mont ref: ClaySor:2017:rep:
+	-log_K	6 
+
+Ra+2 + SwOH = SwORa+ + H+ # Surface complexation of Ra on weak(II) edge site on mont error: 0.21 ref: Marinich_ea:2024:rep:
+	-log_K	-4.8 

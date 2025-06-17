@@ -1,0 +1,60 @@
+{
+     "block" :   {
+          "defaults" :   {
+
+          },
+          "pairs" :   {
+               "gamma" :   {
+                    "datatype" :   "string",
+                    "organization" :   "list"
+               }
+          },
+          "matches" :   {
+               "head2" :   {
+                    "field" :   "properties.formula",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "gamma" :   {
+                    "field" :   "properties.aq_edh_props.values",
+                    "ignore" :   false,
+                    "script" :   "if field[1] == -1 then field[1] = 0.0 end; if field[1] == 4 and field[2] == 0 then field[2] = 0.064 end;",
+                    "convert" :   {
+
+                    }
+               }
+          },
+          "script" :   ""
+     },
+     "format" :   {
+          "head_regexp" :   "\n%head0\n",
+          "end_regexp" :   "",
+          "key_regexp" :   "\t-%key\t",
+          "value_regexp" :   "%value",
+          "value_next" :   "\n",
+          "value_token_regexp" :   " ",
+          "comment_regexp" :   "# ",
+          "Ndata" :   0
+     },
+     "renderer" :   " ",
+     "label" :   "VertexSubstance",
+     "separators" :   {
+          "v_sep" :   "",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0,
+     "direction" :   1
+}

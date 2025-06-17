@@ -1,0 +1,200 @@
+Dataset of surface reactions for gwb programs
+Dataset format: sep22
+Surface type: IonEx_Ilt
+Model type: ion-exchange  gaines-thomas
+Surface potential: n/a
+Surface capacitance: n/a
+Thermo dataset: PSINagra2020v1-5.tdat
+* The ClaySor 2023 Sorption Thermodynamic Databse of 2 SPNE SC/CE Sorption Model for Illite and Montmorillonite  
+* 
+* transferred into GWB format from the PHREEQC file claysor23_v0.7.dat by Dr. Frank Bok (HZDR) f.bok@hzdr.de
+* Note that the user sets the exchange capacity (CEC) from the command line with the "exchange_capacity" command or
+* within the GUI sub-menu "Sorbing Surfaces".
+* 
+* The database is consistent and shold be used for GWB calculations with the PSI/Nagra 
+* TDB 2020 (Hummel & Thoenen 2023) aqueous thermodynamic database http://www.psi.ch/les/database, see "Thermo dataset" above
+* 
+* Database of reactions generated using ThermoMatch reactions generator tool. 
+* Reactions exported to phreeqc format using ThermoMatch export functionality.
+* https://thermohub.org/thermomatch. For questions G. Dan Miron dan.miron@psi.ch
+* 
+* Change history
+* 25 Nov. 2024 first release v0.1 
+* 16 Dec. 2024 v0.2 after fixes to references 
+* 14 Jan. 2025 fixes of format, added missing secondary master reaction, exchange constants in Gaines-Thomas convetion
+* 23 Jan. 2025 Changed edge site naming 
+* 19 Feb. 2025 Added references
+* 17 Mar. 2925 v0.6 Changed edge and exchange site naming 
+* 21 Mar. 2025 v0.7 Change constants for Nb on both strong and weak sites of montmorilonite, added one reaction on strong sites, added corresponding reference to ref. list
+* 27 Mar. 2025 fix references, typos
+* 
+
+-end-
+
+   1 basis species
+
+>IltX:Na
+     charge=    0       mole wt.=    22.9900 g
+     sorbed species= Na+
+     1 elements in species
+        1.000 Na      
+* Illite_IMt-2
+* site capacities for 1 g Na-Illite:
+* >IltxNa 	0.000225 moles/g Illite_IMt-2
+
+-end-
+
+   19 surface species
+
+>IltX3:Am
+     charge=    0       mole wt.=   243.0000 g
+     3 species in reaction
+        3.000 >IltX:Na        1.000 Am+++          -3.000 Na+     
+     Selectivity coefficient= 1.7060
+* Am on ion exchange  error: 0.09 ref: Marinich_ea:2024:rep:
+
+>IltX2:Ba
+     charge=    0       mole wt.=   137.3280 g
+     3 species in reaction
+        2.000 >IltX:Na        1.000 Ba++           -2.000 Na+     
+     Selectivity coefficient= 1.0510
+* Ba on ion exchange on illite as separate phase ref: Marques_Fernandes_ea:2023:pap:
+
+>IltX2:Ca
+     charge=    0       mole wt.=    40.0780 g
+     3 species in reaction
+        2.000 >IltX:Na        1.000 Ca++           -2.000 Na+     
+     Selectivity coefficient= .4000
+* Ca on ion exchange on illite as separate phase ref: Wick_ea:2018:pap:
+
+>IltX2:Cd
+     charge=    0       mole wt.=   112.4100 g
+     3 species in reaction
+        2.000 >IltX:Na        1.000 Cd++           -2.000 Na+     
+     Selectivity coefficient= .6010
+* Cd on ion exchange on illite as separate phase ref: Marinich_ea:2024:rep:
+
+*>IltX2:Co
+*     charge=    0       mole wt.=    58.6930 g
+*     3 species in reaction
+*        2.000 >IltX:Na        1.000 Co++           -2.000 Na+     
+*     Selectivity coefficient= .7090
+** Co on ion exchange on illite as separate phase error: 0.62 ref: Marinich_ea:2024:rep:
+
+>IltX:Cs
+     charge=    0       mole wt.=   132.9050 g
+     3 species in reaction
+        1.000 >IltX:Na        1.000 Cs+            -1.000 Na+     
+     Selectivity coefficient= 1.4950
+* Cs on ion exchange on illite as separate phase error: 0.74 ref: Marinich_ea:2024:rep:
+
+>IltX3:Eu
+     charge=    0       mole wt.=   151.9660 g
+     3 species in reaction
+        3.000 >IltX:Na        1.000 Eu+++          -3.000 Na+     
+     Selectivity coefficient= 1.7780
+* Eu on ion exchange on illite as separate phase error: 0.15 ref: Marinich_ea:2024:rep:
+
+>IltX2:Fe
+     charge=    0       mole wt.=    55.8450 g
+     3 species in reaction
+        2.000 >IltX:Na        1.000 Fe++           -2.000 Na+     
+     Selectivity coefficient= .6010
+* Fe2+ on ion exchange ref: Marinich_ea:2024:rep:
+
+>IltX:H
+     charge=    0       mole wt.=     1.0080 g
+     3 species in reaction
+        1.000 >IltX:Na        1.000 H+             -1.000 Na+     
+     Selectivity coefficient= 1E-10
+* H+ on ion exchange on illite as separate phase ref: Per_communicat_Kulik:2024:man
+* original value 0
+
+>IltX:K
+     charge=    0       mole wt.=    39.0980 g
+     3 species in reaction
+        1.000 >IltX:Na        1.000 K+             -1.000 Na+     
+     Selectivity coefficient= 1.1000
+* K on ion exchange on illite as separate phase error: 0.2 ref: Bradbury_Baeyens:2017:rep:
+
+>IltX2:Mg
+     charge=    0       mole wt.=    24.3050 g
+     3 species in reaction
+        2.000 >IltX:Na        1.000 Mg++           -2.000 Na+     
+     Selectivity coefficient= .4000
+*  Mg on ion exchange on illite as separate phase error: 0.2 ref: Marinich_ea:2024:rep:
+
+>IltX2:Mn
+     charge=    0       mole wt.=    54.9380 g
+     3 species in reaction
+        2.000 >IltX:Na        1.000 Mn++           -2.000 Na+     
+     Selectivity coefficient= .4110
+* Mn on ion exchange on illite as separate phase error: 0.47 ref: Marinich_ea:2024:rep:
+
+>IltX:NH4
+     charge=    0       mole wt.=    18.0390 g
+     3 species in reaction
+        1.000 >IltX:Na        1.000 NH4+           -1.000 Na+     
+     Selectivity coefficient= .9000
+* NH4 on ion exchange on illite as separate phase error: 0.1 ref: Wick_ea:2018:pap:
+
+>IltX2:Ni
+     charge=    0       mole wt.=    58.6930 g
+     3 species in reaction
+        2.000 >IltX:Na        1.000 Ni++           -2.000 Na+     
+     Selectivity coefficient= .7260
+* Ni2+ on ion exchange on illite as separate phase error: 0.07 ref: Marinich_ea:2024:rep:
+
+>IltX:NpO2
+     charge=    0       mole wt.=   268.9980 g
+     3 species in reaction
+        1.000 >IltX:Na        1.000 NpO2+          -1.000 Na+     
+     Selectivity coefficient= .0370
+* NpO2+ on ion exchange on illite error: 0.45 ref: Marinich_ea:2024:rep:
+
+>IltX2:Pb
+     charge=    0       mole wt.=   207.0000 g
+     3 species in reaction
+        2.000 >IltX:Na        1.000 Pb++           -2.000 Na+     
+     Selectivity coefficient= 2.2760
+* Pb2+ on ion exchange on illite as separate phase error: 0.65 ref: Marinich_ea:2024:rep:
+
+>IltX2:Ra
+     charge=    0       mole wt.=   226.0000 g
+     3 species in reaction
+        2.000 >IltX:Na        1.000 Ra++           -2.000 Na+     
+     Selectivity coefficient= 3.2200
+* Ra on ion exchange on illite as separate phase error: 0.12 ref: Marinich_ea:2024:rep:
+
+>IltX2:Sr
+     charge=    0       mole wt.=    87.6210 g
+     3 species in reaction
+        2.000 >IltX:Na        1.000 Sr++           -2.000 Na+     
+     Selectivity coefficient= .4000
+* Sr on ion exchange on illite as separate phase ref: Marinich_ea:2024:rep:
+
+>IltX2:UO2
+     charge=    0       mole wt.=   270.0270 g
+     3 species in reaction
+        2.000 >IltX:Na        1.000 UO2++          -2.000 Na+     
+     Selectivity coefficient= .6530
+* UO2 on ion exchange ref: Bradbury_Baeyens:2017:rep:
+
+>IltX2:Zn
+     charge=    0       mole wt.=    65.4000 g
+     3 species in reaction
+        2.000 >IltX:Na        1.000 Zn++           -2.000 Na+     
+     Selectivity coefficient= .6010
+* Zn on ion exchange on illite as separate phase ref: Montoya_ea:2018:pap:
+
+-end-
+* References:
+* Bradbury, M.H., Baeyens, B., 2017. The development of a thermodynamic sorption data base for illite and the application to argillaceous rocks. NAGRA Tech. Rep. 17 14, 105
+* Hummel, W., Thoenen, T., 2023. The PSI Chemical Thermodynamic Database 2020. Nagra technical report NTB 21-03
+* Marinich, O., Marques Fernandes, M., Miron, G.D. & Kulik, D.A., 2024. ClaySor 2023: Update of 2 SPNE SC/CE Sorption Model for Illite and Montmorillonite in GEMS Implementation. Nagra Technical Report NTB 23-05
+* Marinich, O., Miron, G.D., Kulik, D.A., Marques Fernandes, M., & Baeyens, B., 2025. ClaySor 2023: Implementation of the 2SPNE SC/CE Sorption Model and Database for Deep Geological Repository Safety Assessment. Preprint
+* Marques Fernandes, M., Klinkenberg, M., Baeyens, B., Bosbach, D., Brandt, F., 2023. Adsorption of Ba and 226Ra on illite: A comparative experimental and modelling study. Appl. Geochemistry 159, 105815. https://doi.org/10.1016/j.apgeochem.2023.105815
+* Montoya, V., Baeyens, B., Glaus, M.A., Kupcik, T., Marques Fernandes, M., Van Laer, L., Bruggeman, C., Maes, N., Sch fer, T., 2018. Sorption of Sr, Co and Zn on illite: Batch experiments and modelling including Co in-diffusion measurements on compacted samples. Geochim. Cosmochim. Acta 223, 1 20. https://doi.org/10.1016/j.gca.2017.11.027
+* Personal communication with D.Kulik, manual input
+* Wick, S., Baeyens, B., Marques Fernandes, M., Voegelin, A., 2018. Thallium Adsorption onto Illite. Environ. Sci. Technol. 52, 571 580. https://doi.org/10.1021/acs.est.7b04485
+

@@ -1,0 +1,5713 @@
+[
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "16/11/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    null,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "Am+3",
+            "DCname": "Am+3",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -598700,
+                    4800
+                ]
+            ],
+            "H0d": [
+                [
+                    -616700,
+                    1500
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 243.06100463867188,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    -201,
+                    15
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 3,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "Am",
+            "Am+3",
+            "psi"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "16/11/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    null,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "Ba+2",
+            "DCname": "Ba+2",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -557656,
+                    2582
+                ]
+            ],
+            "H0d": [
+                [
+                    -534800,
+                    2500
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 137.3280029296875,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    8.399999618530273,
+                    2
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 2,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "Ba",
+            "Ba+2",
+            "psi"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "16/11/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    null,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "Ca+2",
+            "DCname": "Ca+2",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -552806,
+                    1050
+                ]
+            ],
+            "H0d": [
+                [
+                    -543000,
+                    1000
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 40.077999114990234,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    -56.20000076293945,
+                    1
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 2,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "Ca",
+            "Ca+2",
+            "psi"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "16/11/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    null,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "Cd+2",
+            "DCname": "Cd+2",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -77733,
+                    750
+                ]
+            ],
+            "H0d": [
+                [
+                    -75920,
+                    600
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 112.41400146484375,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    -72.80000305175781,
+                    1.5
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 2,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "Cd",
+            "Cd+2",
+            "psi"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "16/11/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    null,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "Cm+3",
+            "DCname": "Cm+3",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -595400,
+                    6800
+                ]
+            ],
+            "H0d": [
+                [
+                    -615000,
+                    6000
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 247,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    -191,
+                    10
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 3,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "Cm",
+            "Cm+3",
+            "psi"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "16/11/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    null,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "Co+2",
+            "DCname": "Co+2",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -55587,
+                    1499
+                ]
+            ],
+            "H0d": [
+                [
+                    -57600,
+                    1300
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 58.93320083618164,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    -107.3916244506836,
+                    2.5031862258911133
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    "N",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 2,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "THERMOCHIMIE11a:2022:data"
+                ]
+            ],
+            "dSDval": [
+                [
+                    "all props."
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "Co",
+            "Co+2",
+            "THER"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "3/12/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    null,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "Cs+",
+            "DCname": "Cs+",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -291456,
+                    535
+                ]
+            ],
+            "H0d": [
+                [
+                    -258000,
+                    500
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 132.90499877929688,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    132.10000610351562,
+                    0.5
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 1,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "Cs",
+            "Cs+",
+            "psi"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "17/11/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    -80.5999984741211,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "Eu+3",
+            "DCname": "Eu+3",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -575900,
+                    4100
+                ]
+            ],
+            "H0d": [
+                [
+                    -605400,
+                    4000
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 151.96400451660156,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    -217.1999969482422,
+                    3.200000047683716
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 3,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "Eu",
+            "Eu+3",
+            "psi"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "17/11/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    -23,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "Fe+2",
+            "DCname": "Fe+2",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -90720,
+                    640
+                ]
+            ],
+            "H0d": [
+                [
+                    -90290,
+                    520
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 55.845001220703125,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    -102.16999816894531,
+                    2.7799999713897705
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 2,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "Fe",
+            "Fe+2",
+            "psi"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "16/11/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    null,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "K+",
+            "DCname": "K+",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -282510,
+                    116
+                ]
+            ],
+            "H0d": [
+                [
+                    -252140,
+                    80
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 39.09830093383789,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    101.19999694824219,
+                    0.20000000298023224
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 1,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "K",
+            "K+",
+            "psi"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "16/11/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    null,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "Mg+2",
+            "DCname": "Mg+2",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -455375,
+                    1335
+                ]
+            ],
+            "H0d": [
+                [
+                    -467000,
+                    600
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 24.30500030517578,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    -137,
+                    4
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 2,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "Mg",
+            "Mg+2",
+            "psi"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "16/11/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    null,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "Mn+2",
+            "DCname": "Mn+2",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -228270,
+                    580
+                ]
+            ],
+            "H0d": [
+                [
+                    -220800,
+                    500
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 54.9379997253418,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    -73.5999984741211,
+                    1
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 2,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "Mn",
+            "Mn+2",
+            "psi"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "3/12/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    null,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "NO3-",
+            "DCname": "NO3-",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -110794,
+                    417
+                ]
+            ],
+            "H0d": [
+                [
+                    -206850,
+                    400
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 62.00490188598633,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    146.6999969482422,
+                    0.4000000059604645
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": -1,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "NO",
+            "NO3-",
+            "psi"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "16/11/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    null,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "Na+",
+            "DCname": "Na+",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -261953,
+                    96
+                ]
+            ],
+            "H0d": [
+                [
+                    -240340,
+                    60
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 22.98979949951172,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    58.45000076293945,
+                    0.15000000596046448
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 1,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "Na",
+            "Na+",
+            "psi"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "17/11/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    179,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "Nb(OH)4+",
+            "DCname": "Nb(OH)4+",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -1196000,
+                    null
+                ]
+            ],
+            "H0d": [
+                [
+                    -1375000,
+                    null
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 160.93499755859375,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    42.400001525878906,
+                    null
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 1,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "NbOH",
+            "Nb(OH)4+",
+            "psi"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "16/11/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    -46.099998474121094,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "Ni+2",
+            "DCname": "Ni+2",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -45770,
+                    770
+                ]
+            ],
+            "H0d": [
+                [
+                    -55010,
+                    880
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 58.69300079345703,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    -131.8000030517578,
+                    1.399999976158142
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 2,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "Ni",
+            "Ni+2",
+            "psi"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "17/11/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    null,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "Np|+4|+4",
+            "DCname": "Np+4",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -491800,
+                    5600
+                ]
+            ],
+            "H0d": [
+                [
+                    -556000,
+                    4200
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 237.04800415039062,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    -426.3999938964844,
+                    12.399999618530273
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 4,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "Np",
+            "Np+4",
+            "psi"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "17/11/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    -4,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "Np|+5|O2+",
+            "DCname": "NpO2+",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -907800,
+                    5600
+                ]
+            ],
+            "H0d": [
+                [
+                    -978200,
+                    4600
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 269.0469970703125,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    -45.900001525878906,
+                    10.699999809265137
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 1,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "NpO",
+            "NpO2+",
+            "psi"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "17/11/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    null,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "PaO(OH)+2",
+            "DCname": "PaO(OH)+2",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -1051700,
+                    21900
+                ]
+            ],
+            "H0d": [
+                [
+                    -1115000,
+                    21000
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 264.0429992675781,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    -21,
+                    21
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 2,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "PaOOH",
+            "PaO(OH)+2",
+            "psi"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "16/11/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    null,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "Pb+2",
+            "DCname": "Pb+2",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -24238,
+                    399
+                ]
+            ],
+            "H0d": [
+                [
+                    920,
+                    250
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 207.1999969482422,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    18.5,
+                    1
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 2,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "Pb",
+            "Pb+2",
+            "psi"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "17/11/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    null,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "Pu|+3|+3",
+            "DCname": "Pu+3",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -579000,
+                    2700
+                ]
+            ],
+            "H0d": [
+                [
+                    -591800,
+                    2000
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 244.06399536132812,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    -184.5,
+                    6.199999809265137
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 3,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "Pu",
+            "Pu+3",
+            "psi"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "17/11/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    null,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "Pu|+4|+4",
+            "DCname": "Pu+4",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -478000,
+                    2700
+                ]
+            ],
+            "H0d": [
+                [
+                    -539900,
+                    3100
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 244.06399536132812,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    -414.5,
+                    10.199999809265137
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 4,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "Pu",
+            "Pu+4",
+            "psi"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "17/11/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    null,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "Ra+2",
+            "DCname": "Ra+2",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -561500,
+                    2900
+                ]
+            ],
+            "H0d": [
+                [
+                    -527600,
+                    2000
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 226.02499389648438,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    54,
+                    5
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 2,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "Ra",
+            "Ra+2",
+            "psi"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "16/11/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    null,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "Sn|+4|+4",
+            "DCname": "Sn+4",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    46700,
+                    3900
+                ]
+            ],
+            "H0d": [
+                [
+                    -31500,
+                    7300
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 118.71099853515625,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    -472.5,
+                    20.5
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 4,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "Sn",
+            "Sn+4",
+            "psi"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "16/11/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    null,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "Sr+2",
+            "DCname": "Sr+2",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -563864,
+                    781
+                ]
+            ],
+            "H0d": [
+                [
+                    -550900,
+                    500
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 87.6500015258789,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    -31.5,
+                    2
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 2,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "Sr",
+            "Sr+2",
+            "psi"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "16/11/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    -224,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "Th+4",
+            "DCname": "Th+4",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -704783,
+                    5298
+                ]
+            ],
+            "H0d": [
+                [
+                    -768700,
+                    2300
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 232.03799438476562,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    -423.1000061035156,
+                    16
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 4,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "Th",
+            "Th+4",
+            "psi"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "17/11/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    -220,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "U|+4|+4",
+            "DCname": "U+4",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -529900,
+                    1800
+                ]
+            ],
+            "H0d": [
+                [
+                    -591200,
+                    3300
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 238.0290069580078,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    -416.8999938964844,
+                    12.600000381469727
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 4,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "U",
+            "U+4",
+            "psi"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "17/11/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    null,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "U|+5|O2+",
+            "DCname": "UO2+",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -961000,
+                    1800
+                ]
+            ],
+            "H0d": [
+                [
+                    -1025100,
+                    3000
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 270.02801513671875,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    -25,
+                    8
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 1,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "UO",
+            "UO2+",
+            "psi"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "17/11/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    42.400001525878906,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "U|+6|O2+2",
+            "DCname": "UO2+2",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -952550,
+                    1750
+                ]
+            ],
+            "H0d": [
+                [
+                    -1019000,
+                    1500
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 270.02801513671875,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    -98.19999694824219,
+                    3
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 2,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "UO",
+            "UO2+2",
+            "psi"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "16/11/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    null,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "Zn+2",
+            "DCname": "Zn+2",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -147203,
+                    254
+                ]
+            ],
+            "H0d": [
+                [
+                    -153390,
+                    200
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 65.37999725341797,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    -109.80000305175781,
+                    0.5
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 2,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "Zn",
+            "Zn+2",
+            "psi"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "3/12/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "H+",
+            "DCname": "H+",
+            "DCset": [
+                [
+                    "T",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    0,
+                    null
+                ]
+            ],
+            "H0d": [
+                [
+                    0,
+                    null
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 1.007949948310852,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    0,
+                    null
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 1,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "wY_",
+            "H+",
+            "psi"
+        ],
+        "project": "backup"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "3/12/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    75.35099792480469,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "H2O@",
+            "DCname": "H2O(l)",
+            "DCset": [
+                [
+                    "W",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -237140,
+                    41
+                ]
+            ],
+            "H0d": [
+                [
+                    -285830,
+                    40
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 18.015300750732422,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    69.94999694824219,
+                    0.029999999329447746
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    "N",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    1.8070000410079956,
+                    0
+                ]
+            ],
+            "Zz": 0,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "wZ_",
+            "H2O(l)",
+            "psi"
+        ],
+        "project": "backup"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "3/12/20",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    14.418000221252441,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "-",
+            "DCname": "e-",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    0,
+                    null
+                ]
+            ],
+            "H0d": [
+                [
+                    0,
+                    null
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 0,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    65.33999633789062,
+                    0.001500000013038516
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    " ",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 0,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "PSI2020                         "
+                ]
+            ],
+            "dSDval": [
+                [
+                    " "
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "",
+            "e-",
+            "psi"
+        ],
+        "project": "backup"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "10 Feb 98",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    38.119998931884766,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    1,
+                    0,
+                    2,
+                    0
+                ]
+            ],
+            "DCform": "ClaiNa",
+            "DCname": "Sodium on clay illite ion exchange as separate solution phase",
+            "DCset": [
+                [
+                    "EX",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "+",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -251921,
+                    null
+                ]
+            ],
+            "H0d": [
+                [
+                    -249801.45130424498,
+                    null
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 4443.98974609375,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    58.409000396728516,
+                    null
+                ]
+            ],
+            "TCint": [
+                [
+                    0
+                ],
+                [
+                    99
+                ]
+            ],
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    "N",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    162.66000366210938,
+                    0
+                ]
+            ],
+            "Zz": 0,
+            "ab": [
+                [
+                    -1,
+                    null
+                ]
+            ],
+            "aiCpT": [
+                [
+                    38.119998931884766
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "Schock_ea:1997:pap:"
+                ],
+                [
+                    "Marinich_ea:2024:rep:"
+                ]
+            ],
+            "dSDval": [
+                [
+                    "S0d and Cp0d"
+                ],
+                [
+                    "As for Na+ ion (mol.fr.)"
+                ]
+            ]
+        },
+        "key": [
+            "i",
+            "IlltX",
+            "ClaiNa@",
+            "csm0"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "10 Feb 98",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    38.119998931884766,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    1,
+                    0,
+                    2,
+                    0
+                ]
+            ],
+            "DCform": "ClfeiNa",
+            "DCname": "Sodium on clay illite frayed edge ion exchange as separate solution phas_mont    ClfeiNa",
+            "DCset": [
+                [
+                    "EX",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "+",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -251921,
+                    null
+                ]
+            ],
+            "H0d": [
+                [
+                    -249801.45130424498,
+                    null
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 22.98979949951172,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    58.409000396728516,
+                    null
+                ]
+            ],
+            "TCint": [
+                [
+                    0
+                ],
+                [
+                    99
+                ]
+            ],
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    "N",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 0,
+            "ab": [
+                [
+                    -1,
+                    null
+                ]
+            ],
+            "aiCpT": [
+                [
+                    38.119998931884766
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "Schock_ea:1997:pap:"
+                ],
+                [
+                    "Marinich_ea:2024:rep:"
+                ]
+            ],
+            "dSDval": [
+                [
+                    "S0d and Cp0d"
+                ],
+                [
+                    "As for Na+ ion (mol.fr.)"
+                ]
+            ]
+        },
+        "key": [
+            "i",
+            "IlltX",
+            "ClfeiNa@",
+            "csm0"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "10 Feb 98",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    38.119998931884766,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    1,
+                    0,
+                    2,
+                    0
+                ]
+            ],
+            "DCform": "ClttiNa",
+            "DCname": "Sodium on clay illite type II ion exchange as separate solution phase",
+            "DCset": [
+                [
+                    "EX",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "+",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -251921,
+                    null
+                ]
+            ],
+            "H0d": [
+                [
+                    -249801.45130424498,
+                    null
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 22.98979949951172,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    58.409000396728516,
+                    null
+                ]
+            ],
+            "TCint": [
+                [
+                    0
+                ],
+                [
+                    99
+                ]
+            ],
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    "N",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "Zz": 0,
+            "ab": [
+                [
+                    -1,
+                    null
+                ]
+            ],
+            "aiCpT": [
+                [
+                    38.119998931884766
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "Schock_ea:1997:pap:"
+                ],
+                [
+                    "Marinich_ea:2024:rep:"
+                ]
+            ],
+            "dSDval": [
+                [
+                    "S0d and Cp0d"
+                ],
+                [
+                    "As for Na+ ion (mol.fr.)"
+                ]
+            ]
+        },
+        "key": [
+            "i",
+            "IlltX",
+            "ClttiNa@",
+            "csm0"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "10 Feb 98",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    38.099998474121094,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    1,
+                    0,
+                    2,
+                    0
+                ]
+            ],
+            "DCform": "ClayNa",
+            "DCname": "Na+ ion on clay ion exchange site (as solid solution) g0(Na+,aq)+9960 j/_mont    ClayNa",
+            "DCset": [
+                [
+                    "EX",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "+",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -251921,
+                    null
+                ]
+            ],
+            "H0d": [
+                [
+                    -249804.13431758882,
+                    null
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 1172.98974609375,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    58.400001525878906,
+                    null
+                ]
+            ],
+            "TCint": [
+                [
+                    0
+                ],
+                [
+                    99
+                ]
+            ],
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "N",
+                    "N",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    42.84700012207031,
+                    0
+                ]
+            ],
+            "Zz": 0,
+            "ab": [
+                [
+                    -1,
+                    null
+                ]
+            ],
+            "aiCpT": [
+                [
+                    38.099998474121094
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "Schock_ea:1997:pap:"
+                ],
+                [
+                    "Marinich_ea:2024:rep:"
+                ]
+            ],
+            "dSDval": [
+                [
+                    "S0d and Cp0d"
+                ],
+                [
+                    "Props as Na+ (g0(x))"
+                ]
+            ]
+        },
+        "key": [
+            "i",
+            "MontX",
+            "ClayNa@",
+            "csm0"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "10 Feb 98",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    75.36000061035156,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    1,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "EssiOH@",
+            "DCname": "Amphoteric OH group on strong edge site of illite (props as H2O,l)",
+            "DCset": [
+                [
+                    "X",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "+",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -237183,
+                    null
+                ]
+            ],
+            "H0d": [
+                [
+                    -266397.52591819764,
+                    null
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 18.015300750732422,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    69.9229965209961,
+                    null
+                ]
+            ],
+            "TCint": [
+                [
+                    0
+                ],
+                [
+                    99
+                ]
+            ],
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    "N",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    1.8070000410079956,
+                    0
+                ]
+            ],
+            "Zz": 0,
+            "ab": [
+                [
+                    -1,
+                    null
+                ]
+            ],
+            "aiCpT": [
+                [
+                    75.36000061035156
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "Schock_ea:1997:pap:           "
+                ]
+            ],
+            "dSDval": [
+                [
+                    "As liquid water supcrt"
+                ]
+            ]
+        },
+        "key": [
+            "z",
+            "IllEdS",
+            "=iSsOH@",
+            "csm0"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "10 Feb 98",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    75.36000061035156,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    1,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "EsviOH@",
+            "DCname": "Amphoteric OH group on weak w1 edge site (props as H2O,l) ",
+            "DCset": [
+                [
+                    "X",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "+",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -237183,
+                    null
+                ]
+            ],
+            "H0d": [
+                [
+                    -266397.52591819764,
+                    null
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 18.015300750732422,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    69.9229965209961,
+                    null
+                ]
+            ],
+            "TCint": [
+                [
+                    0
+                ],
+                [
+                    99
+                ]
+            ],
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    "N",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    1.8070000410079956,
+                    0
+                ]
+            ],
+            "Zz": 0,
+            "ab": [
+                [
+                    -1,
+                    null
+                ]
+            ],
+            "aiCpT": [
+                [
+                    75.36000061035156
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "Schock_ea:1997:pap:"
+                ]
+            ],
+            "dSDval": [
+                [
+                    "As liquid water supcrt"
+                ]
+            ]
+        },
+        "key": [
+            "z",
+            "IllEdS",
+            "=iSvOH@",
+            "csm0"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "10 Feb 98",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    75.36000061035156,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    1,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "EswiOH@",
+            "DCname": "Amphoteric OH group on weak w2 edge site of illite (props as H2O,l)",
+            "DCset": [
+                [
+                    "X",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "+",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -237183,
+                    null
+                ]
+            ],
+            "H0d": [
+                [
+                    -266397.52591819764,
+                    null
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 18.015300750732422,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    69.9229965209961,
+                    null
+                ]
+            ],
+            "TCint": [
+                [
+                    0
+                ],
+                [
+                    99
+                ]
+            ],
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    "N",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    1.8070000410079956,
+                    0
+                ]
+            ],
+            "Zz": 0,
+            "ab": [
+                [
+                    -1,
+                    null
+                ]
+            ],
+            "aiCpT": [
+                [
+                    75.36000061035156
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "Schock_ea:1997:pap:"
+                ]
+            ],
+            "dSDval": [
+                [
+                    "As liquid water supcrt"
+                ]
+            ]
+        },
+        "key": [
+            "z",
+            "IllEdS",
+            "=iSwOH@",
+            "csm0"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "10 Feb 98",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    75.36000061035156,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    1,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "EssOH@",
+            "DCname": "Amphoteric OH group on strong edge site of mont(props as H2O,l)",
+            "DCset": [
+                [
+                    "X",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "+",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -237183,
+                    null
+                ]
+            ],
+            "H0d": [
+                [
+                    -266397.52591819764,
+                    null
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 18.015300750732422,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    69.9229965209961,
+                    null
+                ]
+            ],
+            "TCint": [
+                [
+                    0
+                ],
+                [
+                    99
+                ]
+            ],
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    "N",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    1.8070000410079956,
+                    0
+                ]
+            ],
+            "Zz": 0,
+            "ab": [
+                [
+                    -1,
+                    null
+                ]
+            ],
+            "aiCpT": [
+                [
+                    75.36000061035156
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "Schock_ea:1997:pap:"
+                ]
+            ],
+            "dSDval": [
+                [
+                    "As liquid water supcrt"
+                ]
+            ]
+        },
+        "key": [
+            "z",
+            "MonEdS",
+            "=SsOH@",
+            "csm0"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "10 Feb 98",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    75.36000061035156,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    1,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "EsvOH@",
+            "DCname": "Amphoteric OH group on weak w1 edge site of mont (props as H2O,l)",
+            "DCset": [
+                [
+                    "X",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "+",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -237183,
+                    null
+                ]
+            ],
+            "H0d": [
+                [
+                    -266397.52591819764,
+                    null
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 18.015300750732422,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    69.9229965209961,
+                    null
+                ]
+            ],
+            "TCint": [
+                [
+                    0
+                ],
+                [
+                    99
+                ]
+            ],
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    "N",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    1.8070000410079956,
+                    0
+                ]
+            ],
+            "Zz": 0,
+            "ab": [
+                [
+                    -1,
+                    null
+                ]
+            ],
+            "aiCpT": [
+                [
+                    75.36000061035156
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "Schock_ea:1997:pap:"
+                ]
+            ],
+            "dSDval": [
+                [
+                    "As liquid water supcrt"
+                ]
+            ]
+        },
+        "key": [
+            "z",
+            "MonEdS",
+            "=SvOH@",
+            "csm0"
+        ],
+        "project": "species"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "10 Feb 98",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    75.36000061035156,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    1,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "EswOH@",
+            "DCname": "Amphoteric OH group on weak w2 edge site of mont (props as H2O,l)",
+            "DCset": [
+                [
+                    "X",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "+",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -237183,
+                    null
+                ]
+            ],
+            "H0d": [
+                [
+                    -266397.52591819764,
+                    null
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 18.015300750732422,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    69.9229965209961,
+                    null
+                ]
+            ],
+            "TCint": [
+                [
+                    0
+                ],
+                [
+                    99
+                ]
+            ],
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "C",
+                    "N",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    1.8070000410079956,
+                    0
+                ]
+            ],
+            "Zz": 0,
+            "ab": [
+                [
+                    -1,
+                    null
+                ]
+            ],
+            "aiCpT": [
+                [
+                    75.36000061035156
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "Schock_ea:1997:pap:"
+                ]
+            ],
+            "dSDval": [
+                [
+                    "As liquid water supcrt"
+                ]
+            ]
+        },
+        "key": [
+            "z",
+            "MonEdS",
+            "=SwOH@",
+            "csm0"
+        ],
+        "project": "species"
+    }
+]
+

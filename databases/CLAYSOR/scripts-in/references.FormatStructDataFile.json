@@ -1,0 +1,68 @@
+{
+     "block" :   {
+            "defaults" :   {
+               "properties.year" : "\"1000\""
+          },
+          "matches" :   {
+               "dod.SDtitl" :   {
+                    "field" :   "properties.title"
+               },
+               "key.2" :   {
+                    "field" :   "properties.bibliographic_type",
+                    "convert" :   {
+                         "pap" :   "{\"0\": \"ARTICLE\"}",
+                         "book" :   "{\"1\": \"BOOK\"}",
+                         "PhD" :   "{\"10\": \"PHDTHESIS\"}",
+                         "report" :   "{\"12\": \"TECHREPORT\"}",
+                         "progr" :   "{\"13\": \"UNPUBLISHED\"}",
+                         "dat" :   "{\"12\": \"TECHREPORT\"}"
+                    }
+               },
+               "key" :   {
+                    "field" :   "properties.keywords"
+               },
+               "dod.SDauth" :   {
+               	    "field" :   "properties.author",
+               	    "script": "
+               	    local input_str = field[1]
+               	    field={}
+               	    
+-- Pattern to match each author
+for author in input_str:gmatch('([^,]+,[^,]+)') do
+    -- Remove any leading or trailing spaces
+    author = author:gsub('^%s+',''):gsub('%s+$', '')
+    
+    -- Ensure there's a space after the comma
+    author = author:gsub(',', ', ')
+    
+    table.insert(field, author)
+end
+
+-- Print each author in the list
+--for i, author in ipairs(field) do
+   -- print(author)
+--end
+				"
+               },
+               "dod.SDedit" :   {
+                    "field" :   "properties.journal"
+               },
+               "dod.SDvoly" :   {
+                    "field" :   "properties.volume",
+                    "script" : ""
+               },
+               "dod.SDpage" :   {
+                    "field" :   "properties.pages"
+               }
+          },
+          "script" :   "
+          v = rintable.properties.volume
+          rintable.properties.year, rintable.properties.volume = rintable.properties.volume:match('([^,]+),%s*(.+)')        
+          if rintable.properties.year == nil then rintable.properties.year = v end
+          function stripChars(str)\n    local tableAccents = {}\n    tableAccents[\"À\"] = \"A\"\n    tableAccents[\"Á\"] = \"A\"\n    tableAccents[\"Â\"] = \"A\"\n    tableAccents[\"Ã\"] = \"A\"\n    tableAccents[\"Ä\"] = \"A\"\n    tableAccents[\"Å\"] = \"A\"\n    tableAccents[\"Æ\"] = \"AE\"\n    tableAccents[\"Ç\"] = \"C\"\n    tableAccents[\"È\"] = \"E\"\n    tableAccents[\"É\"] = \"E\"\n    tableAccents[\"Ê\"] = \"E\"\n    tableAccents[\"Ë\"] = \"E\"\n    tableAccents[\"Ì\"] = \"I\"\n    tableAccents[\"Í\"] = \"I\"\n    tableAccents[\"Î\"] = \"I\"\n    tableAccents[\"Ï\"] = \"I\"\n    tableAccents[\"Ð\"] = \"D\"\n    tableAccents[\"Ñ\"] = \"N\"\n    tableAccents[\"Ò\"] = \"O\"\n    tableAccents[\"Ó\"] = \"O\"\n    tableAccents[\"Ô\"] = \"O\"\n    tableAccents[\"Õ\"] = \"O\"\n    tableAccents[\"Ö\"] = \"O\"\n    tableAccents[\"Ø\"] = \"O\"\n    tableAccents[\"Ù\"] = \"U\"\n    tableAccents[\"Ú\"] = \"U\"\n    tableAccents[\"Û\"] = \"U\"\n    tableAccents[\"Ü\"] = \"U\"\n    tableAccents[\"Ý\"] = \"Y\"\n    tableAccents[\"Þ\"] = \"P\"\n    tableAccents[\"ß\"] = \"s\"\n    tableAccents[\"à\"] = \"a\"\n    tableAccents[\"á\"] = \"a\"\n    tableAccents[\"â\"] = \"a\"\n    tableAccents[\"ã\"] = \"a\"\n    tableAccents[\"ä\"] = \"a\"\n    tableAccents[\"å\"] = \"a\"\n    tableAccents[\"æ\"] = \"ae\"\n    tableAccents[\"ç\"] = \"c\"\n    tableAccents[\"è\"] = \"e\"\n    tableAccents[\"é\"] = \"e\"\n    tableAccents[\"ê\"] = \"e\"\n    tableAccents[\"ë\"] = \"e\"\n    tableAccents[\"ì\"] = \"i\"\n    tableAccents[\"í\"] = \"i\"\n    tableAccents[\"î\"] = \"i\"\n    tableAccents[\"ï\"] = \"i\"\n    tableAccents[\"ð\"] = \"eth\"\n    tableAccents[\"ñ\"] = \"n\"\n    tableAccents[\"ò\"] = \"o\"\n    tableAccents[\"ó\"] = \"o\"\n    tableAccents[\"ô\"] = \"o\"\n    tableAccents[\"õ\"] = \"o\"\n    tableAccents[\"ö\"] = \"o\"\n    tableAccents[\"ø\"] = \"o\"\n    tableAccents[\"ù\"] = \"u\"\n    tableAccents[\"ú\"] = \"u\"\n    tableAccents[\"û\"] = \"u\"\n    tableAccents[\"ü\"] = \"u\"\n    tableAccents[\"ý\"] = \"y\"\n    tableAccents[\"þ\"] = \"p\"\n    tableAccents[\"ÿ\"] = \"y\"\n\n    local normalisedString = \"\"\n\n    local normalisedString = str:gsub(\"[%z\\1-\\127\\194-\\244][\\128-\\191]*\", tableAccents)\n\n    return normalisedString\nend\n\nif rintable.properties.shortname == \"\" or rintable.properties.shortname == nil then\n    rintable.properties.shortname = rintable.properties.author[1]\nend\nif rintable.properties.bibliographic_type ~= '{\"1\": \"BOOK\"}' then\n    rintable.properties.booktitle = \"\"\nend\nif rintable.properties.bibliographic_type == '{\"1\": \"BOOK\"}' then\n    rintable.properties.booktitle = rintable.properties.title\nelse rintable.properties.booktitle = nil\n end\nsize = 0\nfor k, v in pairs(rintable.properties.author) do\n    size = size + 1\nend\nyear = rintable.properties.year\n if size == 1 then\n    first = rintable.properties.author[1]:gsub(\"[%p%c%s]\", \"\")\n    first = stripChars(first)\n    shrtn = \"[\" .. year .. string.upper(string.sub(first, 1, 3)) .. \"]\"\n    rintable.properties.shortname = shrtn\nend\nif size > 1 then\n    first = rintable.properties.author[1]:gsub(\"[%p%c%s]\", \"\")\n    first = stripChars(first)\n    second = rintable.properties.author[2]:gsub(\"[%p%c%s]\", \"\")\n    second = stripChars(second)\n    shrtn = \"[\" .. year .. string.upper(string.sub(first, 1, 3)) .. \"/\" .. string.upper(string.sub(second, 1, 3)) .. \"]\"\n    rintable.properties.shortname = shrtn\nend\n"
+      },
+     "renderer" :   "JSON",
+     "label" :   "VertexDataSource",
+     "comment" :   "test"
+}
+

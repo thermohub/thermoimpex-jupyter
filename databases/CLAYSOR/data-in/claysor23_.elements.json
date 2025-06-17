@@ -1,0 +1,854 @@
+[
+    {
+        "dod": {
+            "Cp0i": null,
+            "IC_DC": "",
+            "ICform": "Am",
+            "ICname": "Am",
+            "IXi": 1,
+            "M0i": 243.06100463867188,
+            "Ri": null,
+            "S0i": 55.400001525878906,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 95
+        },
+        "key": [
+            "Am",
+            "e",
+            "Am"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": null,
+            "IC_DC": "",
+            "ICform": "Ba",
+            "ICname": "Ba",
+            "IXi": 1,
+            "M0i": 137.3280029296875,
+            "Ri": null,
+            "S0i": 62.41999816894531,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 56
+        },
+        "key": [
+            "Ba",
+            "e",
+            "Ba"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 25.929000854492188,
+            "IC_DC": "",
+            "ICform": "Ca",
+            "ICname": "Ca",
+            "IXi": 1,
+            "M0i": 40.077999114990234,
+            "Ri": null,
+            "S0i": 41.59000015258789,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 20
+        },
+        "key": [
+            "Ca",
+            "e",
+            "Ca"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 26.020000457763672,
+            "IC_DC": "",
+            "ICform": "Cd",
+            "ICname": "Cd",
+            "IXi": 1,
+            "M0i": 112.41400146484375,
+            "Ri": null,
+            "S0i": 51.79999923706055,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 48
+        },
+        "key": [
+            "Cd",
+            "e",
+            "Cd"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 0,
+            "IC_DC": "Clai-",
+            "ICform": "clai",
+            "ICname": "Ion exchange planar site on illite",
+            "IXi": null,
+            "M0i": 4421.10009765625,
+            "Ri": null,
+            "S0i": 0,
+            "StdSt": null,
+            "V0i": 0,
+            "Valen": -1,
+            "Zi": null,
+            "indMT": 0
+        },
+        "key": [
+            "Clai",
+            "x",
+            "ionExchangeSite_illit"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 0,
+            "IC_DC": "Clay-",
+            "ICform": "clay",
+            "ICname": "Ion exchange site on montmorillonite",
+            "IXi": null,
+            "M0i": 1126.345947265625,
+            "Ri": null,
+            "S0i": 0,
+            "StdSt": null,
+            "V0i": 0,
+            "Valen": -1,
+            "Zi": null,
+            "indMT": 0
+        },
+        "key": [
+            "Clay",
+            "x",
+            "IonExchangeSite_mont"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 0,
+            "IC_DC": "Clfei-",
+            "ICform": "clfei",
+            "ICname": "Ion exchange frayed edge site on illite",
+            "IXi": null,
+            "M0i": 0,
+            "Ri": null,
+            "S0i": 0,
+            "StdSt": null,
+            "V0i": 0,
+            "Valen": -1,
+            "Zi": null,
+            "indMT": 0
+        },
+        "key": [
+            "Clfei",
+            "x",
+            "IonExIll_frayed_edge"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 0,
+            "IC_DC": "Cltti-",
+            "ICform": "cltti",
+            "ICname": "Ion exchange type II site on illite",
+            "IXi": null,
+            "M0i": 0,
+            "Ri": null,
+            "S0i": 0,
+            "StdSt": null,
+            "V0i": 0,
+            "Valen": -1,
+            "Zi": null,
+            "indMT": 0
+        },
+        "key": [
+            "Cltti",
+            "x",
+            "IonExIll_type2_site"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": null,
+            "IC_DC": "",
+            "ICform": "Cm",
+            "ICname": "Cm",
+            "IXi": 1,
+            "M0i": 247,
+            "Ri": null,
+            "S0i": 70.80000305175781,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 96
+        },
+        "key": [
+            "Cm",
+            "e",
+            "Cm"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 24.809999465942383,
+            "IC_DC": "",
+            "ICform": "Co",
+            "ICname": "Cobalt",
+            "IXi": 1,
+            "M0i": 58.93320083618164,
+            "Ri": null,
+            "S0i": 30.040000915527344,
+            "StdSt": "cr  ",
+            "V0i": 6.619999885559082,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 27
+        },
+        "key": [
+            "Co",
+            "e",
+            "cobalt"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 32.209999084472656,
+            "IC_DC": "",
+            "ICform": "Cs",
+            "ICname": "Cs",
+            "IXi": 1,
+            "M0i": 132.90499877929688,
+            "Ri": null,
+            "S0i": 85.2300033569336,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 55
+        },
+        "key": [
+            "Cs",
+            "e",
+            "Cs"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 0,
+            "IC_DC": "EssOH",
+            "ICform": "Ess",
+            "ICname": "Montmorillonite edge site strong",
+            "IXi": null,
+            "M0i": 1.007949948310852,
+            "Ri": null,
+            "S0i": 0,
+            "StdSt": null,
+            "V0i": 0,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 0
+        },
+        "key": [
+            "Ess",
+            "s",
+            "EdgeSite_S_mont"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 0,
+            "IC_DC": "EssiOH",
+            "ICform": "Essi",
+            "ICname": "Edge site strong illite",
+            "IXi": null,
+            "M0i": 1.007949948310852,
+            "Ri": null,
+            "S0i": 0,
+            "StdSt": null,
+            "V0i": 0,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 0
+        },
+        "key": [
+            "Essi",
+            "s",
+            "EdgeSite_S_illite"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 0,
+            "IC_DC": "EsvOH",
+            "ICform": "Esv",
+            "ICname": "Montmorillonite edge site weak 1",
+            "IXi": null,
+            "M0i": 1.007949948310852,
+            "Ri": null,
+            "S0i": 0,
+            "StdSt": null,
+            "V0i": 0,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 0
+        },
+        "key": [
+            "Esv",
+            "s",
+            "EdgeSite_W1_mont"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 0,
+            "IC_DC": "EsviOH",
+            "ICform": "Esvi",
+            "ICname": "Edge site weak 1 illite",
+            "IXi": null,
+            "M0i": 1.007949948310852,
+            "Ri": null,
+            "S0i": 0,
+            "StdSt": null,
+            "V0i": 0,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 0
+        },
+        "key": [
+            "Esvi",
+            "s",
+            "EdgeSite_W1_illite"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 0,
+            "IC_DC": "EswOH",
+            "ICform": "Esw",
+            "ICname": "Montmorillonite edge site weak 2",
+            "IXi": null,
+            "M0i": 1.007949948310852,
+            "Ri": null,
+            "S0i": 0,
+            "StdSt": null,
+            "V0i": 0,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 0
+        },
+        "key": [
+            "Esw",
+            "s",
+            "EdgeSite_W2_mont"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 0,
+            "IC_DC": "EswiOH",
+            "ICform": "Eswi",
+            "ICname": "Edge site weak 2 illite",
+            "IXi": null,
+            "M0i": 1.007949948310852,
+            "Ri": null,
+            "S0i": 0,
+            "StdSt": null,
+            "V0i": 0,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 0
+        },
+        "key": [
+            "Eswi",
+            "s",
+            "EdgeSite_W2_illite"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 27.649999618530273,
+            "IC_DC": "",
+            "ICform": "Eu",
+            "ICname": "Eu",
+            "IXi": 1,
+            "M0i": 151.96400451660156,
+            "Ri": null,
+            "S0i": 77.80000305175781,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 63
+        },
+        "key": [
+            "Eu",
+            "e",
+            "Eu"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 25.083999633789062,
+            "IC_DC": "",
+            "ICform": "Fe",
+            "ICname": "Fe",
+            "IXi": 1,
+            "M0i": 55.845001220703125,
+            "Ri": null,
+            "S0i": 27.084999084472656,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 26
+        },
+        "key": [
+            "Fe",
+            "e",
+            "Fe"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 14.418000221252441,
+            "IC_DC": "",
+            "ICform": "H",
+            "ICname": "H",
+            "IXi": 1,
+            "M0i": 1.007949948310852,
+            "Ri": null,
+            "S0i": 65.33999633789062,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 1
+        },
+        "key": [
+            "H",
+            "h",
+            "H"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 29.600000381469727,
+            "IC_DC": "",
+            "ICform": "K",
+            "ICname": "K",
+            "IXi": 1,
+            "M0i": 39.09830093383789,
+            "Ri": null,
+            "S0i": 64.68000030517578,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 19
+        },
+        "key": [
+            "K",
+            "e",
+            "K"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 24.868999481201172,
+            "IC_DC": "",
+            "ICform": "Mg",
+            "ICname": "Mg",
+            "IXi": 1,
+            "M0i": 24.30500030517578,
+            "Ri": null,
+            "S0i": 32.66999816894531,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 12
+        },
+        "key": [
+            "Mg",
+            "e",
+            "Mg"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 26.31999969482422,
+            "IC_DC": "",
+            "ICform": "Mn",
+            "ICname": "Mn",
+            "IXi": 1,
+            "M0i": 54.9379997253418,
+            "Ri": null,
+            "S0i": 32.0099983215332,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 25
+        },
+        "key": [
+            "Mn",
+            "e",
+            "Mn"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 28.229999542236328,
+            "IC_DC": "",
+            "ICform": "Na",
+            "ICname": "Na",
+            "IXi": 1,
+            "M0i": 22.98979949951172,
+            "Ri": null,
+            "S0i": 51.29999923706055,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 11
+        },
+        "key": [
+            "Na",
+            "e",
+            "Na"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 24.600000381469727,
+            "IC_DC": "",
+            "ICform": "Nb",
+            "ICname": "Nb",
+            "IXi": 1,
+            "M0i": 92.90599822998047,
+            "Ri": null,
+            "S0i": 36.400001525878906,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 5,
+            "Zi": null,
+            "indMT": 41
+        },
+        "key": [
+            "Nb",
+            "e",
+            "Nb"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 26.06999969482422,
+            "IC_DC": "",
+            "ICform": "Ni",
+            "ICname": "Ni",
+            "IXi": 1,
+            "M0i": 58.69300079345703,
+            "Ri": null,
+            "S0i": 29.8700008392334,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 28
+        },
+        "key": [
+            "Ni",
+            "e",
+            "Ni"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 29.6200008392334,
+            "IC_DC": "",
+            "ICform": "Np",
+            "ICname": "Np",
+            "IXi": 1,
+            "M0i": 237.04800415039062,
+            "Ri": null,
+            "S0i": 50.459999084472656,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 6,
+            "Zi": null,
+            "indMT": 93
+        },
+        "key": [
+            "Np",
+            "e",
+            "Np"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 14.689000129699707,
+            "IC_DC": "",
+            "ICform": "O",
+            "ICname": "O",
+            "IXi": 1,
+            "M0i": 15.99940013885498,
+            "Ri": null,
+            "S0i": 102.57599639892578,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": -2,
+            "Zi": null,
+            "indMT": 8
+        },
+        "key": [
+            "O",
+            "o",
+            "O"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 28.200000762939453,
+            "IC_DC": "",
+            "ICform": "Pa",
+            "ICname": "Pa",
+            "IXi": 1,
+            "M0i": 231.03599548339844,
+            "Ri": null,
+            "S0i": 51.599998474121094,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 5,
+            "Zi": null,
+            "indMT": 91
+        },
+        "key": [
+            "Pa",
+            "e",
+            "Pa"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 26.649999618530273,
+            "IC_DC": "",
+            "ICform": "Pb",
+            "ICname": "Pb",
+            "IXi": 1,
+            "M0i": 207.1999969482422,
+            "Ri": null,
+            "S0i": 64.80000305175781,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 82
+        },
+        "key": [
+            "Pb",
+            "e",
+            "Pb"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 31.489999771118164,
+            "IC_DC": "",
+            "ICform": "Pu",
+            "ICname": "Pu",
+            "IXi": 1,
+            "M0i": 244.06399536132812,
+            "Ri": null,
+            "S0i": 54.459999084472656,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 6,
+            "Zi": null,
+            "indMT": 94
+        },
+        "key": [
+            "Pu",
+            "e",
+            "Pu"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": null,
+            "IC_DC": "",
+            "ICform": "Ra",
+            "ICname": "Ra",
+            "IXi": 1,
+            "M0i": 226.02499389648438,
+            "Ri": null,
+            "S0i": 71,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 88
+        },
+        "key": [
+            "Ra",
+            "e",
+            "Ra"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 27.110000610351562,
+            "IC_DC": "",
+            "ICform": "Sn",
+            "ICname": "Sn",
+            "IXi": 1,
+            "M0i": 118.71099853515625,
+            "Ri": null,
+            "S0i": 51.18000030517578,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 50
+        },
+        "key": [
+            "Sn",
+            "e",
+            "Sn"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": null,
+            "IC_DC": "",
+            "ICform": "Sr",
+            "ICname": "Sr",
+            "IXi": 1,
+            "M0i": 87.6500015258789,
+            "Ri": null,
+            "S0i": 55.70000076293945,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 38
+        },
+        "key": [
+            "Sr",
+            "e",
+            "Sr"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 26.229999542236328,
+            "IC_DC": "",
+            "ICform": "Th",
+            "ICname": "Th",
+            "IXi": 1,
+            "M0i": 232.03799438476562,
+            "Ri": null,
+            "S0i": 52.63999938964844,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 4,
+            "Zi": null,
+            "indMT": 90
+        },
+        "key": [
+            "Th",
+            "e",
+            "Th"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 27.65999984741211,
+            "IC_DC": "",
+            "ICform": "U",
+            "ICname": "U",
+            "IXi": 1,
+            "M0i": 238.0290069580078,
+            "Ri": null,
+            "S0i": 50.20000076293945,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 6,
+            "Zi": null,
+            "indMT": 92
+        },
+        "key": [
+            "U",
+            "e",
+            "U"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 25.389999389648438,
+            "IC_DC": "",
+            "ICform": "Zn",
+            "ICname": "Zn",
+            "IXi": 1,
+            "M0i": 65.37999725341797,
+            "Ri": null,
+            "S0i": 41.630001068115234,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 30
+        },
+        "key": [
+            "Zn",
+            "e",
+            "Zn"
+        ],
+        "project": "elements"
+    }
+]
+
