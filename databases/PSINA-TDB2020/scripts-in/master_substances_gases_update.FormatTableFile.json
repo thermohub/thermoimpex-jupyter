@@ -1,0 +1,214 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.sourcetdb" :   "{\"26\" : \"PSI_NAGRA20\"}",
+               "properties.Tst" :   "298.15",
+               "properties.Pst" :   "1e05",
+	       "properties.datasources" : "[\"PSI2020\", \"\", \"\", \"\", \"\", \"\"]",
+               "properties.TPMethods" :   "[{\"method\":{}, \"limitsTP\":{\"range\": \"false\", \"lowerT\":\"298.15\", \"upperT\":\"298.15\" }, \"m_heat_capacity_ft_coeffs\": {\"values\": [0,0,0,0,0,0,0,0,0]}}]",
+               "properties.sm_gibbs_energy.values": "[777777]",
+               "properties.sm_gibbs_energy.errors": "[0]",
+               "properties.sm_gibbs_energy.units": "[\"kJ/mol\"]",
+               "properties.sm_enthalpy.values": "[777777]",
+               "properties.sm_enthalpy.errors": "[0]",
+               "properties.sm_enthalpy.units": "[\"kJ/mol\"]",
+               "properties.sm_entropy_abs.values": "[777777]",
+               "properties.sm_entropy_abs.errors": "[0]",
+               "properties.sm_entropy_abs.units": "[\"J/(mol*K)\"]",
+               "properties.sm_heat_capacity_p.values": "[777777]",
+               "properties.sm_heat_capacity_p.errors": "[0]",
+               "properties.sm_heat_capacity_p.units": "[\"J/(mol*K)\"]",
+               "properties.sm_volume.values": "[777777]",
+               "properties.sm_volume.errors": "[0]",
+               "properties.sm_volume.units": "[\"J/bar\"]"
+               
+          },
+          "matches" :   {
+               "Symbol" :   {
+                    "field" :   "properties.symbol",
+                    "ignore" :   true,
+                    "script" :   ""
+               },
+               "Name" :   {
+                    "field" :   "properties.name",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "DfGm [kJ/mol]" :   {
+                    "field" :   "properties.sm_gibbs_energy.values",
+                    "ignore" :   false
+               },
+               "DfGm_Ref" :   {
+                    "field" :   "properties.datasources.1",
+                    "script" :   "field = 'DfGm_Ref: '.. field",
+                    "ignore" :   false
+               },
+               "sigma DfGm [kJ/mol]" :   {
+                    "field" :   "properties.sm_gibbs_energy.errors",
+                    "script" :   "",
+                    "ignore" :   false
+               },
+               "DfHm [kJ/mol]" :   {
+                    "field" :   "properties.sm_enthalpy.values",
+                    "script" :   "",
+                    "ignore" :   false
+               },
+               "DfHm_Ref" :   {
+                    "field" :   "properties.datasources.2",
+                    "script" :   "field = 'DfHm_Ref: '.. field",
+                    "ignore" :   false
+               },
+               "sigma DfHm [kJ/mol]" :   {
+                    "field" :   "properties.sm_enthalpy.errors",
+                    "script" :   "",
+                    "ignore" :   false
+               },
+               "Sm [J/(K mol)]" :   {
+                    "field" :   "properties.sm_entropy_abs.values",
+                    "ignore" :   false
+               },
+               "Sm_Ref" :   {
+                    "field" :   "properties.datasources.3",
+                    "script" :   "field = 'Sm_Ref: '.. field",
+                    "ignore" :   false
+               },
+               "sigma Sm [J/(K mol)]" :   {
+                    "field" :   "properties.sm_entropy_abs.errors",
+                    "ignore" :   false
+               },
+               "Cpm [J/(K mol)]" :   {
+                    "field" :   "properties.sm_heat_capacity_p.values",
+                    "ignore" :   false
+               },
+               "Cpm_Ref" :   {
+                    "field" :   "properties.datasources.4",
+                    "script" :   "field = 'Cpm_Ref: '.. field",
+                    "ignore" :   false
+               },
+               "sigma Cpm [J/(K mol)]" :   {
+                    "field" :   "properties.sm_heat_capacity_p.errors",
+                    "ignore" :   false
+               },              
+               "a0" :   {
+                    "field" :   "properties.TPMethods.0.m_heat_capacity_ft_coeffs.values.0"
+               },               
+               "a1*T" :   {
+                    "field" :   "properties.TPMethods.0.m_heat_capacity_ft_coeffs.values.1"
+               },               
+               "a2*T^-2" :   {
+                    "field" :   "properties.TPMethods.0.m_heat_capacity_ft_coeffs.values.2"
+               },               
+               "a3*T^-0.5" :   {
+                    "field" :   "properties.TPMethods.0.m_heat_capacity_ft_coeffs.values.3"
+               },               
+               "a4*T^2" :   {
+                    "field" :   "properties.TPMethods.0.m_heat_capacity_ft_coeffs.values.4"
+               },               
+               "a8*T-1" :   {
+                    "field" :   "properties.TPMethods.0.m_heat_capacity_ft_coeffs.values.8"
+               },
+               "Tmin" :   {
+                    "field" :   "properties.TPMethods.0.limitsTP.lowerT",
+                    "ignore" :   false
+               },
+               "Tmax" :   {
+                    "field" :   "properties.TPMethods.0.limitsTP.upperT",
+                    "ignore" :   false
+               }
+               
+          },
+          "script" :   "
+                rintable.properties.TPMethods[1].method = {}
+                rintable.properties.TPMethods[1].method['0'] = 'cp_ft_equation'
+                rintable.properties.TPMethods[1].m_heat_capacity_ft_coeffs.names = {
+                    'a0',
+                    'a1',
+                    'a2',
+                    'a3',
+                    'a4',
+                    'a5',
+                    'a6',
+                    'a7',
+                    'a8',
+                    
+                }     
+                
+                rintable.properties.TPMethods[1].m_heat_capacity_ft_coeffs.units = {
+                    'J/(mol*K)',
+                    'J/(mol*K^2)',
+                    '(J*K)/mol',
+                    'J/(mol*K^0.5)',
+                    'J/(mol*K^3)',
+                    'J/(mol*K^4)',
+                    'J/(mol*K^5)',
+                    '(J*K^2)/mol',
+                    'J/mol'
+                } 
+
+               if rintable.properties.sm_gibbs_energy.values[1] == 777777 then
+                	rintable.properties.sm_gibbs_energy = nil
+               end 
+               if rintable.properties.sm_enthalpy.values[1] == 777777 then
+                	rintable.properties.sm_enthalpy = nil
+               end
+               if rintable.properties.sm_entropy_abs.values[1] == 777777 then
+                	rintable.properties.sm_entropy_abs = nil
+               end
+               if rintable.properties.sm_heat_capacity_p.values[1] == 777777 then
+                	rintable.properties.sm_heat_capacity_p = nil
+               end
+               if rintable.properties.sm_volume.values[1] == 777777 then
+                	rintable.properties.sm_volume = nil
+               end 
+          "
+     },
+     "format" :   {
+          "Nhcols" :   21,
+          "Nhrows" :   1,
+          "headers" :   [
+               "Symbol_2020",
+               "Name",
+               "Composition",
+               "abbreviation",
+               "label",
+               "DfGm [kJ/mol]",
+               "DfGm_Ref",
+               "DfHm [kJ/mol]",
+               "DfHm_Ref",
+               "Sm [J/(K mol)]",
+               "Sm_Ref",
+               "sigma Sm [J/(K mol)]",
+               "Cpm [J/(K mol)]",
+               "sigma Cpm [J/(K mol)]",
+               "Cpm_Ref",           
+               "a1*T",               
+               "a2*T^-2",               
+               "a3*T^-0.5",               
+               "a4*T^2",               
+               "a5*T-1"
+          ],
+          "rowend" :   "\n",
+          "rows_one_block" :   1,
+          "colends" :   ",",
+          "usequotes" :   false,
+          "usemore" :   false,
+          "comment_regexp" :   ""
+     },
+     "renderer" :   "",
+     "label" :   "VertexSubstance",
+     "separators" :   {
+          "v_sep" :   ",",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0
+}

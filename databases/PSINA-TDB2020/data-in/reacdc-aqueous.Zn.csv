@@ -1,4 +1,4 @@
-﻿Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
+Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
 ZnOH+,ZnOH+,ZnOH+,aq,-8.94,0.06,56.7,0.7,0,,15,350,1 Zn+2 1 H2O(l) -1 H+ = ZnOH+
 Zn(OH)2(aq),Zn(OH)2(aq),Zn(OH)2(aq),aq,-17.89,0.15,107.1,3.1,-65,27,20,350,1 Zn+2 2 H2O(l) -2 H+ = Zn(OH)2(aq)
 Zn(OH)3-,Zn(OH)3-,Zn(OH)3-,aq,-27.98,0.1,143.5,2.5,-196,23,12,350,1 Zn+2 3 H2O(l) -3 H+ = Zn(OH)3-
@@ -24,4 +24,4 @@ ZnSO4(aq),ZnSO4(aq),ZnSO4(aq),aq,2.3,0.04,6.04,0.54,,,,,1 Zn+2 1 SO4-2 = ZnSO4(a
 Zn(SO4)2-2,Zn(SO4)2-2,Zn(SO4)2-2,aq,3.2,0.2,10,5,,,15,65,1 Zn+2 2 SO4-2 = Zn(SO4)2-2
 Zn(HS)2(aq),Zn(HS)2(aq),Zn(HS|-2|)2(aq),aq,9.3,0.17,-13.7,3.2,0,,50,100,1 Zn+2 2 HS- = Zn(HS)2(aq)
 Zn(HS)3-,Zn(HS)3-,Zn(HS|-2|)3-,aq,13.3,0.05,-50.7,1.7,0,,25,100,1 Zn+2 3 HS- = Zn(HS)3-
-ZnS(HS)-,ZnS(HS)-,ZnS(HS|-2|)-,aq,3.36,0.2,25.9,3,0,,75,100,1 Zn+2 2 HS- -1 H+ = ZnS(HS)-
+ZnS(HS)-,ZnS(HS)-,ZnS|-2|(HS|-2|)-,aq,3.36,0.2,25.9,3,0,,75,100,1 Zn+2 2 HS- -1 H+ = ZnS(HS)-

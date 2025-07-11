@@ -1,0 +1,79 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.sourcetdb" :   "{\"26\" : \"PSI_NAGRA20\"}",
+               "properties.Tst" :   "298.15",
+               "properties.Pst" :   "1e05",
+               "properties.sm_volume.values": "[777777]",
+               "properties.sm_volume.units": "[\"J/bar\"]"
+               
+          },
+          "matches" :   {
+               "Symbol" :   {
+                    "field" :   "properties.symbol",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "Vm" :   {
+                    "field" :   "properties.sm_volume.values",
+                    "script" : "field[1] = field[1]/10",
+                    "ignore" :   false
+               },
+               "Vm_Ref" :   {
+                    "field" :   "properties.datasources.0",
+                    "script" :   "field = 'Vm_Ref: '.. field",
+                    "ignore" :   false
+               }
+               
+          },
+          "script" :   " 
+                         if rintable.properties.sm_volume.values[1] == 777777 then
+                	rintable.properties.sm_volume = nil
+               end 
+               
+               if rintable.properties.datasources[3] ~= nil then rintable.properties.datasources[1] = 'TDB2020' 
+              -- else
+              -- r = rintable.properties.datasources[1]
+              -- rintable.properties.datasources = ['TDB2020',r] 
+               end 
+          
+          "
+     },
+     "format" :   {
+          "Nhcols" :   8,
+          "Nhrows" :   1,
+          "headers" :   [
+               "Symbol",
+               "Name",
+               "Formula",
+               "group",
+               "V0",
+               "Reference",
+               "Vm",
+               "Vm_Ref"
+          ],
+          "rowend" :   "\n",
+          "rows_one_block" :   1,
+          "colends" :   ",",
+          "usequotes" :   false,
+          "usemore" :   false,
+          "comment_regexp" :   ""
+     },
+     "renderer" :   "",
+     "label" :   "VertexSubstance",
+     "separators" :   {
+          "v_sep" :   ",",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0
+}

@@ -1,4 +1,4 @@
-﻿Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
+Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
 AcOH+2,AcOH+2,AcOH+2,aq,-8.6,0.2,,,,,,,1 Ac+3 1 H2O(l) -1 H+ = AcOH+2
 Ac(OH)3(aq),Ac(OH)3(aq),Ac(OH)3(aq),aq,-31.2,0.2,,,,,,,1 Ac+3 3 H2O(l) -3 H+ = Ac(OH)3(aq)
 AcF+2,AcF+2,AcF+2,aq,3.61,0.2,,,,,,,1 Ac+3 1 F- = AcF+2
@@ -8,8 +8,8 @@ AcCl+2,AcCl+2,AcCl+2,aq,0.6,0.5,,,,,,,1 Ac+3 1 Cl- = AcCl+2
 AcH2PO4+2,AcH2PO4+2,AcH2PO4+2,aq,2.7,0.2,,,,,,,1 Ac+3 1 H2PO4- = AcH2PO4+2
 AcSO4+,AcSO4+,AcSO4+,aq,3.5,0.2,,,,,,,1 Ac+3 1 SO4-2 = AcSO4+
 AcSCN+2,AcSCN+2,AcS|0|C|0|N|-1|+2,aq,1,0.5,,,,,,,1 Ac+3 1 SCN- = AcSCN+2
-Ac(Ox)+,Ac(Ox)+,Ac(Ox)+,aq,5.9,0.6,,,,,,,1 Ac+3 1 Ox-2 = Ac(Ox)+
-Ac(Ox)2-,Ac(Ox)2-,Ac(Ox)2-,aq,9.6,1.2,,,,,,,1 Ac+3 2 Ox-2 = Ac(Ox)2-
+Ac(Oxa)+,Ac(Oxa)+,Ac(Oxa)+,aq,5.9,0.6,,,,,,,1 Ac+3 1 Oxa-2 = Ac(Oxa)+
+Ac(Oxa)2-,Ac(Oxa)2-,Ac(Oxa)2-,aq,9.6,1.2,,,,,,,1 Ac+3 2 Oxa-2 = Ac(Oxa)2-
 Ac(Cit)(aq),Ac(Cit)(aq),Ac(Cit)(aq),aq,8.9,0.5,,,,,,,1 Ac+3 1 Cit-3 = Ac(Cit)(aq)
 Ac(Edta)-,Ac(Edta)-,Ac(Edta)-,aq,16.8,0.5,,,,,,,1 Ac+3 1 Edta-4 = Ac(Edta)-
 AcHEdta(aq),AcHEdta(aq),AcHEdta(aq),aq,2.6,0.8,,,,,,,1 Ac(Edta)- 1 H+ = AcHEdta(aq)

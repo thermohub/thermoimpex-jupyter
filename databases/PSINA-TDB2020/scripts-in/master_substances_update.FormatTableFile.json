@@ -1,0 +1,231 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.sourcetdb" :   "{\"26\" : \"PSI_NAGRA20\"}",
+               "properties.Tst" :   "298.15",
+               "properties.Pst" :   "1e05",
+	       "properties.datasources" : "[\"PSI2020\", \"\", \"\", \"\", \"\", \"\"]",
+               "properties.aggregate_state" : "{\"4\" : \"AS_AQUEOUS\"}",
+               "properties.class_" : "{\"2\" : \"SC_AQSOLUTE\"}",
+               "properties.TPMethods" :   "[{\"method\":{}, \"eos_hkf_coeffs\":{\"values\":[777777,777777,777777,777777,777777,777777,777777]}}, {\"method\":{}}, {\"method\":{}}]"
+               
+          },
+          "matches" :   {
+               "Symbol" :   {
+                    "field" :   "properties.symbol",
+                    "ignore" :   true,
+                    "script" :   ""
+               },
+               "Name" :   {
+                    "field" :   "properties.name",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "DfGm [kJ/mol]" :   {
+                    "field" :   "properties.sm_gibbs_energy.values",
+                    "script" :   "",
+                    "ignore" :   false
+               },
+               "DfGm_Ref" :   {
+                    "field" :   "properties.datasources.1",
+                    "script" :   "field = 'DfGm_Ref: '.. field",
+                    "ignore" :   false
+               },
+               "sigma DfGm [kJ/mol]" :   {
+                    "field" :   "properties.sm_gibbs_energy.errors",
+                    "script" :   "",
+                    "ignore" :   false
+               },
+               "DfHm [kJ/mol]" :   {
+                    "field" :   "properties.sm_enthalpy.values",
+                    "script" :   "",
+                    "ignore" :   false
+               },
+               "DfHm_Ref" :   {
+                    "field" :   "properties.datasources.2",
+                    "script" :   "field = 'DfHm_Ref: '.. field",
+                    "ignore" :   false
+               },
+               "sigma DfHm [kJ/mol]" :   {
+                    "field" :   "properties.sm_enthalpy.errors",
+                    "script" :   "",
+                    "ignore" :   false
+               },
+               "Sm [J/(K mol)]" :   {
+                    "field" :   "properties.sm_entropy_abs.values",
+                    "ignore" :   false
+               },
+               "Sm_Ref" :   {
+                    "field" :   "properties.datasources.3",
+                    "script" :   "field = 'Sm_Ref: '.. field",
+                    "ignore" :   false
+               },
+               "sigma Sm [J/(K mol)]" :   {
+                    "field" :   "properties.sm_entropy_abs.errors",
+                    "ignore" :   false
+               },
+               "Cpm [J/(K mol)]" :   {
+                    "field" :   "properties.sm_heat_capacity_p.values",
+                    "ignore" :   false
+               },
+               "Cpm_Ref" :   {
+                    "field" :   "properties.datasources.4",
+                    "script" :   "field = 'Cpm_Ref: '.. field",
+                    "ignore" :   false
+               },
+               "sigma Cpm [J/(K mol)]" :   {
+                    "field" :   "properties.sm_heat_capacity_p.errors",
+                    "ignore" :   false
+               },
+               "Vm [cm3/mol]" :   {
+                    "field" :   "properties.sm_volume.values",
+                    "script" : "field[1] = field[1]/10",
+                    "ignore" :   false
+               },
+               "Vm_Ref" :   {
+                    "field" :   "properties.datasources.5",
+                    "script" :   "field = 'Vm_Ref: '.. field",
+                    "ignore" :   false
+               },
+               "sigma Vm [cm3/mol]" :   {
+                    "field" :   "properties.sm_volume.errors",
+                    "script" : "field[1] = field[1]/10",
+                    "ignore" :   false
+               },               
+               "a1*10 [cal*mol-1*bar-1]" :   {
+                    "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.0",
+                    "script" :   "field = field/10"
+               },               
+               "a2*10-2 [cal*mol-1]" :   {
+                    "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.1",
+                    "script" :   "field = field / 1e-02;"
+               },               
+               "a3 [cal*K*mol-1*bar-1]" :   {
+                    "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.2"
+               },               
+               "a4*10-4[cal*K*mol-1]" :   {
+                    "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.3",
+                    "script" :   "field = field / 1e-04;"
+               },               
+               "c1 [cal*K-1*mol-1]" :   {
+                    "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.4"
+               },               
+               "c2" :   {
+                    "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.5",
+                    "script" :   "field = field / 1e-04;"
+               },               
+               "w" :   {
+                    "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.6",
+                    "script" :   "field = field / 1e-05;"
+               },
+               "method" : {
+                    "field" :   "properties.TPMethods.0.method",
+                    "convert" :   {
+                         "hkf" :   "{\"2\" :   \"solute_hkf88_gems\"}",
+                         "hgk" :   "{\"29\" :   \"water_eos_hgk84_lvs83_gems\"}"
+                    }
+               }
+          },
+          "script" :   "
+
+          if rintable.properties.sm_gibbs_energy ~= nil then rintable.properties.sm_gibbs_energy.units = {'kJ/mol'} end;
+          if rintable.properties.sm_enthalpy ~= nil then rintable.properties.sm_enthalpy.units = {'kJ/mol'} end;
+          if rintable.properties.sm_entropy_abs ~= nil then rintable.properties.sm_entropy_abs.units = {'J/(mol*K)'} end;
+          if rintable.properties.sm_heat_capacity_p ~= nil then rintable.properties.sm_heat_capacity_p.units = {'J/(mol*K)'} end;
+          if rintable.properties.sm_volume ~= nil then rintable.properties.sm_volume.units = {'J/bar'} end;
+
+
+    
+if rintable.properties.symbol == 'H2O(l)' or rintable.properties.formula == 'H2O' or rintable.properties.formula == 'H2O@' then
+   rintable.properties.class_ = {}
+   rintable.properties.class_['3'] = 'SC_AQSOLVENT'
+   rintable.properties.TPMethods[1].method = {}
+   rintable.properties.TPMethods[1].method['29'] = 'water_eos_hgk84_lvs83_gems'
+   rintable.properties.TPMethods[2].method = {}
+   rintable.properties.TPMethods[2].method['26'] = 'water_diel_jnort91_gems'
+   table.remove(rintable.properties.TPMethods, 3)
+   
+else    
+   if rintable.properties.TPMethods[1].eos_hkf_coeffs ~= nil then
+     if rintable.properties.TPMethods[1].eos_hkf_coeffs.values[1] ~= 777777 then
+        rintable.properties.TPMethods[1].eos_hkf_coeffs.names = {'a1', 'a2', 'a3', 'a4', 'c1', 'c2', 'wref'}
+        rintable.properties.TPMethods[1].eos_hkf_coeffs.units = {
+                'cal/(mol*bar)',
+                'cal/mol',
+                '(cal*K)/mol',
+                'cal/(mol*K)',
+                '(cal*K)/mol',
+                'cal/mol'
+            }
+                table.remove(rintable.properties.TPMethods, 3)
+    	        table.remove(rintable.properties.TPMethods, 2)
+     else
+    	        table.remove(rintable.properties.TPMethods, 3)
+    	        table.remove(rintable.properties.TPMethods, 2)
+        	table.remove(rintable.properties.TPMethods, 1)
+     end
+   else
+           table.remove(rintable.properties.TPMethods, 3)
+    	   table.remove(rintable.properties.TPMethods, 2)
+           table.remove(rintable.properties.TPMethods, 1)
+
+   end
+end
+     
+          "
+     },
+     "format" :   {
+          "Nhcols" :   25,
+          "Nhrows" :   1,
+          "headers" :   [
+               "Symbol",
+               "Name",
+               "Composition",
+               "agg_state",
+               "DfGm [kJ/mol]",
+               "DfGm_Ref",
+               "DfHm [kJ/mol]",
+               "DfHm_Ref",
+               "Sm [J/(K mol)]",
+               "Sm_Ref",
+               "sigma Sm [J/(K mol)]",
+               "Cpm [J/(K mol)]",
+               "sigma Cpm [J/(K mol)]",
+               "Cpm_Ref",
+               "Vm [cm3/mol]",
+               "sigma Vm [cm3/mol]",
+               "Vm_Ref",
+               "a1*10 [cal*mol-1*bar-1]",               
+               "a2*10-2 [cal*mol-1]",               
+               "a3 [cal*K*mol-1*bar-1]",               
+               "a4*10-4[cal*K*mol-1]",               
+               "c1 [cal*K-1*mol-1]",               
+               "c2*10-4 [cal*K*mol-1]",               
+               "w*10-5 [cal*mol-1]",
+               "method"
+          ],
+          "rowend" :   "\n",
+          "rows_one_block" :   1,
+          "colends" :   ",",
+          "usequotes" :   false,
+          "usemore" :   false,
+          "comment_regexp" :   ""
+     },
+     "renderer" :   "",
+     "label" :   "VertexSubstance",
+     "separators" :   {
+          "v_sep" :   ",",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0
+}

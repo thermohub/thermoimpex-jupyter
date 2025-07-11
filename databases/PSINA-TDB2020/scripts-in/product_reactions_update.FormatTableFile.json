@@ -1,0 +1,109 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.sourcetdb" :   "{\"26\" : \"PSI_NAGRA20\"}",
+               "properties.Tst" :   "298.15",
+               "properties.Pst" :   "1e05",
+	       "properties.datasources" : "[\"PSI2020\",\"\", \"\", \"\"]",
+               "properties.reactyp" :   "{\"1\" :   \"FE_FORMATION\"}",
+               "properties.level" :   "0" 
+          },
+          "matches" :   {
+               "Symbol" :   {
+                    "field" :   "properties.symbol",
+                    "ignore" :   true,
+                    "script" :   ""
+               },
+               "logK" :   {
+                    "field" :   "properties.logKr.values"
+               },
+               "logK_Ref" :   {
+                    "field" :   "properties.datasources.1",
+                    "script" :   "field = 'logK_Ref: '.. field",
+                    "ignore" :   false
+               },
+               "sigma logK" :   {
+                    "field" :   "properties.logKr.errors"
+               },
+               "DrHm [kJ/mol]" :   {
+                    "field" :   "properties.drsm_enthalpy.values",
+                    "script" :   "",
+                    "ignore" :   false
+               },
+               "DrHm_Ref" :   {
+                    "field" :   "properties.datasources.2",
+                    "script" :   "field = 'DrHm_Ref: '.. field",
+                    "ignore" :   false
+               },
+               "sigma DrHm [kJ/mol]" :   {
+                    "field" :   "properties.drsm_enthalpy.errors",
+                    "script" :   "",
+                    "ignore" :   false
+               },
+               "DrCpm [J/(K mol)]" :   {
+                    "field" :   "properties.drsm_heat_capacity_p.values"
+               },
+               "DrCpm_Ref" :   {
+                    "field" :   "properties.datasources.3",
+                    "script" :   "field = 'DrCpm_Ref: '.. field",
+                    "ignore" :   false
+               },
+               "sigma DrCpm [J/(K mol)]" :   {
+                    "field" :   "properties.drsm_heat_capacity_p.errors"
+               },
+               "T-min" :   {
+                    "field" :   "properties.limitsTP.lowerT",
+		    "script": "field = field"
+               },
+               "T-max" :   {
+                    "field" :   "properties.limitsTP.upperT",
+		    "script": "field = field"
+               }
+          },
+          "script" :   "
+          if rintable.properties.drsm_enthalpy ~= nil then rintable.properties.drsm_enthalpy.units = {'kJ/mol'} end;
+          if rintable.properties.drsm_heat_capacity_p ~= nil then rintable.properties.drsm_heat_capacity_p.units = {'J/(mol*K)'} end;
+          "
+     },
+     "format" :   {
+          "Nhcols" :   12,
+          "Nhrows" :   1,
+          "headers" :   [
+               "Symbol",
+               "logK",
+               "sigma logK",
+               "logK_Ref",
+	       "DrHm [kJ/mol]",
+	       "sigma DrHm [kJ/mol]",
+	       "DrHm_Ref",
+	       "DrCpm [J/(K mol)]",
+	       "sigma DrCpm [J/(K mol)]",
+	       "DrCpm_Ref",
+	       "T-min",
+	       "T-max"
+          ],
+          "rowend" :   "\n",
+          "rows_one_block" :   1,
+          "colends" :   ",",
+          "usequotes" :   false,
+          "usemore" :   false,
+          "comment_regexp" :   ""
+     },
+     "renderer" :   "",
+     "label" :   "VertexReaction",
+     "separators" :   {
+          "v_sep" :   ",",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0
+}

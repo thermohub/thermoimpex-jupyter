@@ -1,0 +1,3 @@
+References are written in ThermoHub records and then to GEMS backup json files which then need to be fixed to the correct GEMS style. In addition a script to import references from json to GEMS. These references are first converted to json using https://anystyle.io/ and a list of references from an excel table - The user is responisble to fix the generated json as there might be bugs.
+
+references.xlsx contains the table with reference code in different styles, as well as GEMS style. 

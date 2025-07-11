@@ -1,0 +1,3 @@
+,Symbol,Name,Composition,label,logK,sigma logK,logK_Ref,DrGm [kJ/mol],DrGm_Ref,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrHm_Ref,DrSm [J/(K mol)],sigma DrSm [J/(K mol)],DrSm_Ref,DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],DrCpm_Ref,T-min,T-max,Reaction,logKf(T)_coefficients,a0,a0_e,a1*T,a1_e,a2*T^-1,a2_e,a3*lnT,a3_e,logK test
+Si,SiO(OH)3-,SiO(OH)3-,SiO(OH)3-,recommended,4.197,0.07,2024RAN/PAL,-23.955,calculated,-26.498,0.274,2024RAN/PAL,-8.53,0.91,calculated,0,,2024RAN/PAL,273,523,1 Si(OH)4(aq) 1 OH- -1 H2O(l) = SiO(OH)3-,,-0.45,0.05,,,1384.09,14.32,,,4.197
+,SiO2(OH)2-2,SiO2(OH)2-2,SiO2(OH)2-2,recommended,4.839,0.084,2025MIR,-27.621,calculated,-56.549,5,2025MIR,-97.024,18,calculated,0,,2025MIR,273,423,1 Si(OH)4(aq) 2 OH- -2 H2O(l) = SiO2(OH)2-2,,-5.07,,,,2953.74,,,,4.839

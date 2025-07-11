@@ -35,6 +35,7 @@
                },
                "type" :   {
                     "field" :   "properties.class_",
+                    "ignore" :   false,
                     "convert" :   {
                          "element" :   "{\"0\" :   \"ELEMENT\"}",
                          "charge" :   "{\"4\" :   \"CHARGE\"}",

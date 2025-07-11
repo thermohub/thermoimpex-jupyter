@@ -1,5 +1,5 @@
 Symbol,Name,Composition,agg_state,logK,sigma logK,logK_Ref,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrHm_Ref,DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],DrCpm_Ref,T-min,T-max,Reaction
-Pb(aq),Pb(aq),Pb(aq),aq,-7.3,,2023HUM/THO,,,,,,,,,1 Pb(cr) = Pb(aq)
+Pb(aq),Pb(aq),Pb|0|(aq),aq,-7.3,,2023HUM/THO,,,,,,,,,1 Pb(cr) = Pb(aq)
 PbOH+,PbOH+,PbOH+,aq,-7.46,0.06,2009POW/BRO,56,1.5,2016BRO/EKB,0,,2016BRO/EKB,15,300,1 Pb+2 1 H2O(l) -1 H+ = PbOH+
 Pb(OH)2(aq),Pb(OH)2(aq),Pb(OH)2(aq),aq,-16.94,0.09,2009POW/BRO,90,0.9,2016BRO/EKB,0,,2016BRO/EKB,25,260,1 Pb+2 2 H2O(l) -2 H+ = Pb(OH)2(aq)
 Pb(OH)3-,Pb(OH)3-,Pb(OH)3-,aq,-28.03,0.06,2009POW/BRO,135.8,3,2016BRO/EKB,251,36,2016BRO/EKB,20,260,1 Pb+2 3 H2O(l) -3 H+ = Pb(OH)3-

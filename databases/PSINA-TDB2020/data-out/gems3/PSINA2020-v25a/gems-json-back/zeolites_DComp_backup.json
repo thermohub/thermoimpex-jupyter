@@ -1,0 +1,5239 @@
+[
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   OjjbC----23/4/25"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Chabazite-Ca"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "CaAl2Si4O12(H2O)6"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    0,
+                    506.4617919921875,
+                    25.115999221801758,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -7144010,
+                    null,
+                    -7806740,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    581,
+                    null,
+                    617,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Vm_Ref: (Coombs et al.) 1997)"
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 6,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": null
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "s",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "CaAlSiO",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Chabazite-Ca",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   OjjbC----23/4/25"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Clinoptilolite"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Ca0.52Al1.04Si4.96O12(H2O)3.1"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    0,
+                    436.041748046875,
+                    20.00200080871582,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -6151940,
+                    null,
+                    -6642180,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    454,
+                    null,
+                    449,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Vm_Ref: webmineral.com"
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 6,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": null
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "s",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "CaAlSiO",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Clinoptilolite",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   OjjbC----23/4/25"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Heulandite_1"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Ca1.07Al2.14Si6.86O18(H2O)4.4"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    0,
+                    660.5409545898438,
+                    31.760000228881836,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -9353660,
+                    null,
+                    -10118600,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    541,
+                    null,
+                    611,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Vm_Ref: (Robie and Hemingway) 19"
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 6,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": null
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "s",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "CaAlSiO",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Heulandite_1",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   OjjbC----23/4/25"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Heulandite_2"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Ca1.07Al2.14Si6.86O18(H2O)4.5"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    0,
+                    662.3424072265625,
+                    31.760000228881836,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -9371260,
+                    null,
+                    -10131200,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    581,
+                    null,
+                    619,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Vm_Ref: Heulandite_1"
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 6,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": null
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "s",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "CaAlSiO",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Heulandite_2",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   OjjbC----23/4/25"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Low-silica_P-Ca"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "CaAl2Si2O8(H2O)4.5"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    0,
+                    359.2716064453125,
+                    12.475000381469727,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -5076030,
+                    null,
+                    -5527740,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    491,
+                    null,
+                    435,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Vm_Ref: materialsproject.org"
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 6,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": null
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "s",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "CaAlSiO",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Low-silica_P-Ca",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   OjjbC----23/4/25"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Mordenite-Ca"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Ca0.34Al0.68Si5.32O12(H2O)2.9"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    0,
+                    425.62237548828125,
+                    20.979999542236328,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -5995730,
+                    null,
+                    -6489110,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    386,
+                    null,
+                    404,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Vm_Ref: (Robie and Hemingway) 19"
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 6,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": null
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "s",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "CaAlSiO",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Mordenite-Ca",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   OjjbC----23/4/25"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Scolecite"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "CaAl2Si3O10(H2O)3"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    0,
+                    392.3334045410156,
+                    17.229999542236328,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -5560520,
+                    null,
+                    -6011650,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    367,
+                    null,
+                    383,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Vm_Ref: (Robie and Hemingway) 19"
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 6,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": null
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "s",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "CaAlSiO",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Scolecite",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   OjjbC----23/4/25"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Stilbite"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Ca1.11Al2.22Si6.78O18(H2O)6.8"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    0,
+                    705.291259765625,
+                    33.34000015258789,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -9944750,
+                    null,
+                    -10815600,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    748,
+                    null,
+                    782,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Vm_Ref: (Robie and Hemingway) 19"
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 6,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": null
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "s",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "CaAlSiO",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Stilbite",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   OjjbC----23/4/25"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Analcime"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Na2Al2Si4O12(H2O)2"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    0,
+                    440.30419921875,
+                    9.739999771118164,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -6139700,
+                    null,
+                    -6575840,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    469,
+                    null,
+                    425,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Vm_Ref: (Robie and Hemingway) 19"
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 6,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": null
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "s",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "NaAlSiO",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Analcime",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   OjjbC----23/4/25"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Cancrinite-NO3"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Na8Al6Si6O24(NO3)2(H2O)4"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    0,
+                    1094.3665771484375,
+                    43.95100021362305,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -13600800,
+                    null,
+                    -14717600,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    1149,
+                    null,
+                    1119,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Vm_Ref: mindat.org"
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 6,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": null
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "s",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "NaAlSiO",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Cancrinite-NO3",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   OjjbC----23/4/25"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Chabazite-Na"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Na2Al2Si4O12(H2O)6"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    0,
+                    512.3634033203125,
+                    24.167999267578125,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -7117550,
+                    null,
+                    -7808310,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    548,
+                    null,
+                    578,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Vm_Ref: webmineral.com"
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 6,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": null
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "s",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "NaAlSiO",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Chabazite-Na",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   OjjbC----23/4/25"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Faujasite-X"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Na2Al2Si2.5O9(H2O)6.2"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    0,
+                    425.8403625488281,
+                    22.895000457763672,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -5857790,
+                    null,
+                    -6456940,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    566,
+                    null,
+                    586,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Vm_Ref: Faujasite-Y"
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 6,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": null
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "s",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "NaAlSiO",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Faujasite-X",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   OjjbC----23/4/25"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Faujasite-Y"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Na2Al2Si4O12(H2O)8"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    0,
+                    548.3930053710938,
+                    29.483999252319336,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -7578220,
+                    null,
+                    -8352620,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    734,
+                    null,
+                    739,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Vm_Ref: webmineral.com"
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 6,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": null
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "s",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "NaAlSiO",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Faujasite-Y",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   OjjbC----23/4/25"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Hydrosodalite"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Na8Al6Si6O24(OH)2(H2O)2"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    0,
+                    968.3427734375,
+                    38.88999938964844,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -13221400,
+                    null,
+                    -14120100,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    943,
+                    null,
+                    895,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Vm_Ref: Cancrinite-NO3"
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 6,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": null
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "s",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "NaAlSiO",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Hydrosodalite",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   OjjbC----23/4/25"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Linda_type_A"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Na1.98Al1.98Si2.02O8(H2O)5.31"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    0,
+                    379.3274841308594,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -5203750,
+                    null,
+                    -5701890,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    584,
+                    null,
+                    513,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    ""
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 6,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": null
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "s",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "NaAlSiO",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Linda_type_A",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   OjjbC----23/4/25"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Low-silica_P-Na"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Na2Al2Si2O8(H2O)3.8"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    0,
+                    352.5628356933594,
+                    12.241999626159668,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -4858720,
+                    null,
+                    -5314820,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    374,
+                    null,
+                    384,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Vm_Ref: Low-silica_P-Ca"
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 6,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": null
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "s",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "NaAlSiO",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Low-silica_P-Na",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   OjjbC----23/4/25"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Molecular_sieve_4Å"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Na2Al2Si2O8(H2O)4.5"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    0,
+                    365.1731872558594,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -5029880,
+                    null,
+                    -5486360,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    536,
+                    null,
+                    475,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    ""
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 6,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": null
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "s",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "NaAlSiO",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Molecular_sieve_",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   OjjbC----23/4/25"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Mordenite-Na"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Na0.72Al0.72Si5.28O12(H2O)2.71"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    0,
+                    425.0815124511719,
+                    20.979999542236328,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -5955950,
+                    null,
+                    -6442400,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    388,
+                    null,
+                    405,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Vm_Ref: (Robie and Hemingway) 19"
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 6,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": null
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "s",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "NaAlSiO",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Mordenite-Na",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   OjjbC----23/4/25"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Natrolite"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Na2Al2Si3O10(H2O)2"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    0,
+                    380.22021484375,
+                    16.920000076293945,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -5305150,
+                    null,
+                    -5707020,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    360,
+                    null,
+                    359,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Vm_Ref: (Robie and Hemingway) 19"
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 6,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": null
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "s",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "NaAlSiO",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Natrolite",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   OjjbC----23/4/25"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Phillipsite-Na"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Na2.5Al2.5Si5.5O16(H2O)5"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    0,
+                    625.459228515625,
+                    13.89799976348877,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -8717830,
+                    null,
+                    -9438720,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    692,
+                    null,
+                    620,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Vm_Ref: (Blanc et al.) 2015a)"
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 6,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": null
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "s",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "NaAlSiO",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Phillipsite-Na",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   OjjbC----23/4/25"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Sodalite"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Na8Al6Si6O24Cl2"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    0,
+                    969.2053833007812,
+                    41.7760009765625,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -12719100,
+                    null,
+                    -13473400,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    848,
+                    null,
+                    812,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Vm_Ref: mindat.org"
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 6,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": null
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "s",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "NaAlSiO",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Sodalite",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    },
+    {
+        "dod": [
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 24,
+                "dyn": false,
+                "id": 524,
+                "label": "dcstr",
+                "val": [
+                    "CSC   OjjbC----23/4/25"
+                ]
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 525,
+                "label": "DCname",
+                "val": "Phillipsite-NaK"
+            },
+            {
+                "dM": 72,
+                "dN": 1,
+                "dot": 0,
+                "dyn": false,
+                "id": 526,
+                "label": "DCform",
+                "val": "Na1.5KAl2.5Si5.5O16(H2O)5"
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -1,
+                "dyn": false,
+                "id": 527,
+                "label": "DC_cnt",
+                "val": [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 528,
+                "label": "dcflt1",
+                "val": [
+                    0,
+                    641.5677490234375,
+                    13.89799976348877,
+                    null
+                ]
+            },
+            {
+                "dM": 4,
+                "dN": 1,
+                "dot": -6,
+                "dyn": false,
+                "id": 529,
+                "label": "dcdbl1",
+                "val": [
+                    -8741260,
+                    null,
+                    -9461670,
+                    null
+                ]
+            },
+            {
+                "dM": 12,
+                "dN": 1,
+                "dot": -5,
+                "dyn": false,
+                "id": 530,
+                "label": "dcflt2",
+                "val": [
+                    707,
+                    null,
+                    626,
+                    null,
+                    1,
+                    25,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 2,
+                "dot": -5,
+                "dyn": true,
+                "id": 531,
+                "label": "TCint",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 532,
+                "label": "aiCpT",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 533,
+                "label": "aiNEs",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 8,
+                "dot": -5,
+                "dyn": true,
+                "id": 534,
+                "label": "aiHKF",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 535,
+                "label": "aiVTP",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 7,
+                "dot": -5,
+                "dyn": true,
+                "id": 536,
+                "label": "CritPg",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 12,
+                "dot": -5,
+                "dyn": true,
+                "id": 537,
+                "label": "aiODc",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 5,
+                "dot": -5,
+                "dyn": true,
+                "id": 538,
+                "label": "FT_p",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 3,
+                "dot": -5,
+                "dyn": true,
+                "id": 539,
+                "label": "FT_pb",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": -5,
+                "dyn": true,
+                "id": 540,
+                "label": "Cemp_s",
+                "val": null
+            },
+            {
+                "dM": 0,
+                "dN": 1,
+                "dot": 4,
+                "dyn": true,
+                "id": 541,
+                "label": "FT_typ",
+                "val": null
+            },
+            {
+                "dM": 1,
+                "dN": 1,
+                "dot": 32,
+                "dyn": true,
+                "id": 542,
+                "label": "dSDref",
+                "val": [
+                    "Vm_Ref: (Blanc et al.) 2015a)"
+                ]
+            },
+            {
+                "dM": 0,
+                "dN": 6,
+                "dot": 24,
+                "dyn": true,
+                "id": 543,
+                "label": "dSDval",
+                "val": null
+            }
+        ],
+        "key": [
+            {
+                "fl": 4,
+                "fv": "s",
+                "fx": 0
+            },
+            {
+                "fl": 8,
+                "fv": "NaKAlSi",
+                "fx": 1
+            },
+            {
+                "fl": 16,
+                "fv": "Phillipsite-NaK",
+                "fx": 2
+            },
+            {
+                "fl": 4,
+                "fv": "psi",
+                "fx": 3
+            }
+        ]
+    }
+]
+
