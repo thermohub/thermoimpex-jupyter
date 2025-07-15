@@ -13,6 +13,7 @@ Arbitrary foreign format types:
 Import Thermodynamic Databases
 
 - [PSI/Nagra TDB2020](/databases/PSINA-TDB2020/readme.md)
+- [THEREDA](/databases/THEREDA/readme.md)
 - [ThermoChimie](/databases/THERMOCHIMIE/readme.md)
 - [SUCPRT](/databases/SUPCRT/readme.md)
 - [CEMDATA](/databases/CEMDATA/readme.md)
