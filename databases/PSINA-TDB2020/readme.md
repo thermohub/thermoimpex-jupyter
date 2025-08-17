@@ -8,5 +8,11 @@ Import in to a local database ´ORD_TDB2020_v25´
 
 - [Update PSI/Nagra TDB2020 Jupyter](update-PSI-table-data.ipynb)
 
+# Export thermodynamic data from thermohub/thermofun to phreeqc
+
+- [Export PSI/Nagra TDB2020 to phreeqc](export-PSINA-phreeqc.ipynb)
+
+The script uses a thermofun database file and not the thermoimpex scripts
+
 
 

@@ -1,0 +1,183 @@
+
+# SECONDARY MASTER SPECIES
+
+e- + Ag+ = Ag
+	-analytical_expression	-5.5229840565736 0 3765.5002159267 0 0 0 0 
+	-log_K	7.106558 
+
+2H2O + Am+3 = AmO2+ + 4H+ + 2e-
+	-analytical_expression	7.6197970800303 0 -20060.729822844 0 0 0 0 
+	-log_K	-59.666694 
+
+HAsO4-2 + 4H+ + 2e- = As(OH)3 + H2O
+	-analytical_expression	7.1214302797363 0 6356.4297097623 0 0 0 0 
+	-log_K	28.441 
+
+H2O + B(OH)3 = B(OH)4- + H+
+	-analytical_expression	62.005762224225 0 -3795.789604023 -23.6456507959562 0 0 0 
+	-log_K	-9.235 
+
+HCO3- + 9H+ + 8e- = CH4 + 3H2O
+	-analytical_expression	-16.979331416003 0 13365.567016947 0 0 0 0 
+	-log_K	27.849 
+
+4H2O + Cl- = ClO4- + 8H+ + 8e-
+	-analytical_expression	19.23878626066 0 -61691.366854282 0 0 0 0 
+	-log_K	-187.672346 
+
+HCO3- = CO3-2 + H+
+	-analytical_expression	93.913935528567 0 -5302.5937504862 -34.9404835641854 0 0 0 
+	-log_K	-10.329 
+
+e- + Cu+2 = Cu+
+	-analytical_expression	2.817078 0 0 0 0 0 0 
+	-log_K	2.817078 
+
+Fe+2 = Fe+3 + e-
+	-analytical_expression	18.69116016635 0 -3200.5458172679 -8.48901498703084 0 0 0 
+	-log_K	-13.050009 
+
+2H+ + 2e- = H2
+	-analytical_expression	-54.254650788486 0 2456.4471817166 17.3416112314047 0 0 0 
+	-log_K	-3.105 
+
+SeO3-2 + 8H+ + 6e- = H2Se + 3H2O
+	-analytical_expression	-2.0209072458622 0 17710.234804343 0 0 0 0 
+	-log_K	57.380446 
+
+NO3- + HCO3- + 12H+ + 10e- = HCN + 6H2O
+	-analytical_expression	-18.108581843631 0 37303.210732519 0 0 0 0 
+	-log_K	107.007 
+
+Hg+2 + 2e- = Hg
+	-analytical_expression	-3.4716147549211 0 7689.2673988981 0 0 0 0 
+	-log_K	22.318246 
+
+SO4-2 + 9H+ + 8e- = HS- + 4H2O
+	-analytical_expression	-10.156909066972 0 13072.955944543 0 0 0 0 
+	-log_K	33.69 
+
+SeO3-2 + H2O = HSeO4- + H+ + 2e-
+	-analytical_expression	10.01991824693 0 -10825.873920376 0 0 0 0 
+	-log_K	-26.283969 
+
+2I- = I2 + 2e-
+	-analytical_expression	-20.95 0 0 0 0 0 0 
+	-log_K	-20.95 
+
+I- + 3H2O = IO3- + 6H+ + 6e-
+	-analytical_expression	-111.565 0 0 0 0 0 0 
+	-log_K	-111.565 
+
+Mn+2 = Mn+3 + e-
+	-analytical_expression	-6.565232050651 0 -5630.7521608669 0 0 0 0 
+	-log_K	-25.450058 
+
+2NO3- + 12H+ + 10e- = N2 + 6H2O
+	-analytical_expression	-22.538566443028 0 68515.337033357 0 0 0 0 
+	-log_K	207.263 
+
+NO3- + 10H+ + 8e- = NH4+ + 3H2O
+	-analytical_expression	-18.198555674196 0 40945.701474059 0 0 0 0 
+	-log_K	119.134 
+
+NpO2+2 + 4H+ + 3e- = Np+3 + 2H2O
+	-analytical_expression	-8.2173462889386 0 12439.888076364 0 0 0 0 
+	-log_K	33.510615 
+
+NpO2+2 + 4H+ + 2e- = Np+4 + 2H2O
+	-analytical_expression	-16.964338467591 0 13944.207763126 0 0 0 0 
+	-log_K	29.814076 
+
+NpO2+2 + e- = NpO2+
+	-analytical_expression	-0.98407579509028 0 6137.4153887 0 0 0 0 
+	-log_K	19.60392 
+
+2H2O = O2 + 4H+ + 4e-
+	-analytical_expression	-35.570814769961 0 -27109.786143763 16.3728229323974 0 0 0 
+	-log_K	-85.984 
+
+H2O = OH- + H+
+	-analytical_expression	69.591820886234 0 -6205.3263444059 -25.3710681687146 0 0 0 
+	-log_K	-14 
+
+HPO4-2 = PO4-3 + H+
+	-analytical_expression	-9.7922052495127 0 -762.60650787251 0 0 0 0 
+	-log_K	-12.35 
+
+Pa+4 + 2H2O = PaO(OH)+2 + 3H+ + e-
+	-analytical_expression	15.745212721444 0 -4077.3331509951 0 0 0 0 
+	-log_K	2.070763 
+
+Pb+2 + 2e- = Pb
+	-analytical_expression	-11.54629 0 0 0 0 0 0 
+	-log_K	-11.54629 
+
+Pd+2 + 2e- = Pd
+	-analytical_expression	21.228575 0 0 0 0 0 0 
+	-log_K	21.228575 
+
+Po+2 + 4e- = Po-2
+	-analytical_expression	-26.261194 0 0 0 0 0 0 
+	-log_K	-26.261194 
+
+Po+2 + 2e- = Po
+	-analytical_expression	14.741255 0 0 0 0 0 0 
+	-log_K	14.741255 
+
+Po+2 = Po+4 + 2e-
+	-analytical_expression	-26.699173 0 0 0 0 0 0 
+	-log_K	-26.699173 
+
+PuO2+2 + 4H+ + 3e- = Pu+3 + 2H2O
+	-analytical_expression	-8.8493694906686 0 17835.590286175 0 0 0 0 
+	-log_K	50.959681 
+
+PuO2+2 + 4H+ + 2e- = Pu+4 + 2H2O
+	-analytical_expression	-17.450108366442 0 15124.680850655 0 0 0 0 
+	-log_K	33.265347 
+
+PuO2+2 + e- = PuO2+
+	-analytical_expression	0.35832059205517 0 4608.2350954144 0 0 0 0 
+	-log_K	15.802266 
+
+SO4-2 + 8H+ + 6e- = S + 4H2O
+	-analytical_expression	-3.3604711243974 0 9703.9066460654 0 0 0 0 
+	-log_K	29.186456 
+
+2SO4-2 + 10H+ + 8e- = S2O3-2 + 5H2O
+	-analytical_expression	-7.355322531434 0 13526.863516695 0 0 0 0 
+	-log_K	38.014 
+
+SeO3-2 + 6H+ + 4e- = Se + 3H2O
+	-analytical_expression	55.147062 0 0 0 0 0 0 
+	-log_K	55.147062 
+
+Sn+4 + 2e- = Sn+2
+	-analytical_expression	16.851514491084 0 -1153.311759851 0 0 0 0 
+	-log_K	12.979932 
+
+SO4-2 + 2H+ + 2e- = SO3-2 + H2O
+	-analytical_expression	-5.4975451749373 0 626.27753625969 0 0 0 0 
+	-log_K	-3.397 
+
+TcO(OH)2 + H2O = TcO4- + 4H+ + 3e-
+	-analytical_expression	-30.169715 0 0 0 0 0 0 
+	-log_K	-30.169715 
+
+TcO(OH)2 + 4H+ + e- = Tc+3 + 3H2O
+	-analytical_expression	11.869219 0 0 0 0 0 0 
+	-log_K	11.869219 
+
+TiO+2 + 2H+ + e- = Ti+3 + H2O
+	-analytical_expression	1.706364 0 0 0 0 0 0 
+	-log_K	1.706364 
+
+UO2+2 + 4H+ + 2e- = U+4 + 2H2O
+	-analytical_expression	32.998926763648 0 5325.6984790302 -16.9022588221838 0 0 0 
+	-log_K	9.045133 
+
+UO2+2 + e- = UO2+
+	-analytical_expression	0.41055391451219 0 318.62326698783 0 0 0 0 
+	-log_K	1.480368 
+

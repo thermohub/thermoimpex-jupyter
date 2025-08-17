@@ -1,0 +1,3676 @@
+
+# PRODUCT SPECIES
+
+2 NpO2+2 + 2 H2O = (NpO2)2(OH)2+2 + 2 H+
+	-log_K	-6.2700	# +- 0.2100
+
+2 NpO2+2 + 3 H2O + CO3-2 = (NpO2)2CO3(OH)3- + 3 H+
+	-log_K	-1.8100	# +- 1.6600
+
+3 NpO2+2 + 6 CO3-2 = (NpO2)3(CO3)6-6
+	-log_K	51.4300	# +- 1.6900
+
+3 NpO2+2 + 5 H2O = (NpO2)3(OH)5+ + 5 H+
+	-log_K	-17.1200	# +- 0.2200
+
+2 PuO2+2 + 2 H2O = (PuO2)2(OH)2+2 + 2 H+
+	# dHr 65.400 +- 1.000 kJ/mol
+	-analytical_expression 3.957519 0.000000 -3416.059289 0.000000 0.000000 0.000000
+	-log_K	-7.5000	# +- 1.0000
+
+3 PuO2+2 + 6 CO3-2 = (PuO2)3(CO3)6-6
+	-log_K	48.6000	# +- 2.5000
+
+OH- + UEdta = UEdtaOH-
+	-log_K	9.1000
+
+2 UEdtaOH- = (UEdtaOH)2-2
+	-log_K	2.7000
+
+2 UO2+2 + 2 H2O = (UO2)2(OH)2+2 + 2 H+
+	# dHr 47.800 +- 0.500 kJ/mol
+	-analytical_expression 2.754150 0.000000 -2496.752813 0.000000 0.000000 0.000000
+	-log_K	-5.6200	# +- 0.0800
+
+2 UO2+2 + 3 H2O + CO3-2 = (UO2)2CO3(OH)3- + 3 H+
+	-log_K	-0.8600	# +- 0.5000
+
+2 UO2+2 + Edta-4 = (UO2)2Edta
+	-log_K	20.6000	# +- 0.4000
+
+2 UO2+2 + NpO2+2 + 6 CO3-2 = (UO2)2NpO2(CO3)6-6
+	-log_K	53.5900	# +- 2.7000
+
+2 UO2+2 + H2O = (UO2)2OH+3 + H+
+	-log_K	-2.7000	# +- 1.0000
+
+2 UO2+2 + PuO2+2 + 6 CO3-2 = (UO2)2PuO2(CO3)6-6
+	-log_K	53.5000	# +- 1.4000
+
+3 UO2+2 + 6 CO3-2 = (UO2)3(CO3)6-6
+	# dHr -62.700 +- 2.400 kJ/mol
+	-analytical_expression 43.015498 0.000000 3275.029318 0.000000 0.000000 0.000000
+	-log_K	54.0000	# +- 1.0000
+
+3 UO2+2 + 4 H2O = (UO2)3(OH)4+2 + 4 H+
+	# dHr 99.200 +- 0.500 kJ/mol
+	-analytical_expression 5.478989 0.000000 -5181.545588 0.000000 0.000000 0.000000
+	-log_K	-11.9000	# +- 0.3000
+
+3 UO2+2 + 5 H2O = (UO2)3(OH)5+ + 5 H+
+	# dHr 120.700 +- 0.600 kJ/mol
+	-analytical_expression 5.595605 0.000000 -6304.562021 0.000000 0.000000 0.000000
+	-log_K	-15.5500	# +- 0.1200
+
+3 UO2+2 + 7 H2O = (UO2)3(OH)7- + 7 H+
+	-log_K	-32.2000	# +- 0.8000
+
+3 UO2+2 + 3 H2O + CO3-2 = (UO2)3O(OH)2(HCO3)+ + 3 H+
+	-log_K	0.6600	# +- 0.5000
+
+4 UO2+2 + 7 H2O = (UO2)4(OH)7+ + 7 H+
+	-log_K	-21.9000	# +- 1.0000
+
+2 UO2+2 + 2 Cit-3 = (UO2Cit)2-2
+	-log_K	21.3000	# +- 0.5000
+
+Cit-3 + Ac+3 = Ac(Cit)
+	-log_K	8.9000	# +- 0.5000
+
+Edta-4 + Ac+3 = Ac(Edta)-
+	-log_K	16.8000	# +- 0.5000
+
+3 H2O + Ac+3 = Ac(OH)3 + 3 H+
+	-log_K	-31.2000	# +- 0.2000
+
+Oxa-2 + Ac+3 = Ac(Oxa)+
+	-log_K	5.9000	# +- 0.6000
+
+2 Oxa-2 + Ac+3 = Ac(Oxa)2-
+	-log_K	9.6000	# +- 1.2000
+
+Cl- + Ac+3 = AcCl+2
+	-log_K	0.6000	# +- 0.5000
+
+F- + Ac+3 = AcF+2
+	-log_K	3.6100	# +- 0.2000
+
+2 F- + Ac+3 = AcF2+
+	-log_K	6.7300	# +- 0.2000
+
+3 F- + Ac+3 = AcF3
+	-log_K	9.7500
+
+HPO4-2 + H+ = H2PO4-
+	# dHr -3.600 kJ/mol
+	# dCpr 213.221 +- 5.000 J/(mol*K)
+	-analytical_expression -68.011440 0.000000 3508.608439 25.644446 0.000000 0.000000
+	-log_K	7.2120
+
+H2PO4- + Ac+3 = AcH2PO4+2
+	-log_K	2.7000	# +- 0.2000
+
+H+ + Ac(Edta)- = AcHEdta
+	-log_K	2.6000	# +- 0.8000
+
+H2O + Ac+3 = AcOH+2 + H+
+	-log_K	-8.6000	# +- 0.2000
+
+HCN + HS- = SCN- + 2 H+ + 2 e-
+	# dHr -11.050 kJ/mol
+	-analytical_expression 4.005135 0.000000 577.178213 0.000000 0.000000 0.000000
+	-log_K	5.9410
+
+SCN- + Ac+3 = AcSCN+2
+	-log_K	1.0000	# +- 0.5000
+
+SO4-2 + Ac+3 = AcSO4+
+	-log_K	3.5000	# +- 0.2000
+
+HCN = CN- + H+
+	# dHr 43.600 kJ/mol
+	-analytical_expression -1.571654 0.000000 -2277.372859 0.000000 0.000000 0.000000
+	-log_K	-9.2100
+
+2 CN- + Ag+ = Ag(CN)2-
+	-log_K	20.8800	# +- 0.2000
+
+3 CN- + Ag+ = Ag(CN)3-2
+	-log_K	21.8000	# +- 0.2000
+
+2 HS- + Ag+ = Ag(HS)2-
+	# dHr -61.100 +- 3.600 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 6.695804 0.000000 3191.456002 0.000000 0.000000 0.000000
+	-log_K	17.4000	# +- 0.2800
+
+2 H2O + Ag+ = Ag(OH)2- + 2 H+
+	# dHr 69.100 +- 4.700 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -12.234273 0.000000 -3609.322582 0.000000 0.000000 0.000000
+	-log_K	-24.3400	# +- 0.1400
+
+OH- + CN- + Ag+ = Ag(OH)CN-
+	-log_K	13.3000	# +- 0.3000
+
+H2Se = HSe- + H+
+	-log_K	-3.8500	# +- 0.0500
+
+3 HSe- + 3 CN- + Ag+ = Ag(SeCN)3-2 + 3 H+ + 6 e-
+	-log_K	52.9400	# +- 0.6000
+
+3 HS- + 2 Ag+ = Ag2S(HS)2-2 + H+
+	-log_K	31.1000
+
+H2Se + 2 Ag+ = Ag2Se + 2 H+
+	-log_K	31.3362	# +- 0.6539
+
+Br- + Ag+ = AgBr
+	# dHr -32.900 +- 4.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -1.223798 0.000000 1718.476309 0.000000 0.000000 0.000000
+	-log_K	4.5400	# +- 0.1000
+
+2 Br- + Ag+ = AgBr2-
+	# dHr -48.000 +- 4.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -0.929188 0.000000 2507.199478 0.000000 0.000000 0.000000
+	-log_K	7.4800	# +- 0.1000
+
+3 Br- + Ag+ = AgBr3-2
+	# dHr -52.700 kJ/mol
+	-analytical_expression -0.932588 0.000000 2752.696093 0.000000 0.000000 0.000000
+	-log_K	8.3000	# +- 0.2000
+
+4 Br- + Ag+ = AgBr4-3
+	-log_K	7.2000
+
+Cl- + Ag+ = AgCl
+	# dHr -27.600 +- 4.200 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -1.605283 0.000000 1441.639700 0.000000 0.000000 0.000000
+	-log_K	3.2300	# +- 0.1100
+
+2 Cl- + Ag+ = AgCl2-
+	# dHr -21.300 +- 1.300 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 1.418423 0.000000 1112.569768 0.000000 0.000000 0.000000
+	-log_K	5.1500	# +- 0.1100
+
+3 Cl- + Ag+ = AgCl3-2
+	# dHr -41.800 +- 2.100 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -2.283001 0.000000 2183.352879 0.000000 0.000000 0.000000
+	-log_K	5.0400	# +- 0.0800
+
+4 Cl- + Ag+ = AgCl4-3
+	# dHr -69.900 +- 4.200 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -8.605880 0.000000 3651.109240 0.000000 0.000000 0.000000
+	-log_K	3.6400	# +- 0.1100
+
+CO3-2 + Ag+ = AgCO3-
+	-log_K	2.4000
+
+F- + Ag+ = AgF
+	# dHr -11.700 +- 4.200 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -1.939740 0.000000 611.129873 0.000000 0.000000 0.000000
+	-log_K	0.1100	# +- 0.1000
+
+HPO4-2 + Ag+ = AgHPO4-
+	-log_K	4.5000
+
+HS- + Ag+ = AgHS
+	-log_K	13.5000
+
+I- + Ag+ = AgI
+	# dHr -68.300 +- 4.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -5.675574 0.000000 3567.535924 0.000000 0.000000 0.000000
+	-log_K	6.2900	# +- 0.1000
+
+2 I- + Ag+ = AgI2-
+	# dHr -80.000 +- 4.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -2.595314 0.000000 4178.665797 0.000000 0.000000 0.000000
+	-log_K	11.4200	# +- 0.1000
+
+3 I- + Ag+ = AgI3-2
+	# dHr -101.400 +- 4.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -4.524410 0.000000 5296.458897 0.000000 0.000000 0.000000
+	-log_K	13.2400	# +- 0.1000
+
+4 I- + Ag+ = AgI4-3
+	-log_K	13.1000
+
+H2O + Ag+ = AgOH + H+
+	# dHr 78.800 +- 4.700 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 2.055084 0.000000 -4115.985810 0.000000 0.000000 0.000000
+	-log_K	-11.7500	# +- 0.1400
+
+SeO3-2 + Ag+ = AgSeO3-
+	-log_K	3.1000	# +- 0.3000
+
+HSeO4- = SeO4-2 + H+
+	# dHr -20.800 +- 3.200 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -5.393982 0.000000 1086.453107 0.000000 0.000000 0.000000
+	-log_K	-1.7500	# +- 0.1000
+
+SeO4-2 + Ag+ = AgSeO4-
+	-log_K	1.0000	# +- 0.5000
+
+SO4-2 + Ag+ = AgSO4-
+	# dHr 6.300 +- 1.300 kJ/mol
+	-analytical_expression 2.283706 0.000000 -329.069931 0.000000 0.000000 0.000000
+	-log_K	1.1800	# +- 0.0700
+
+2 H2O + Al+3 = Al(OH)2+ + 2 H+
+	# dHr 110.810 +- 0.804 kJ/mol
+	# dCpr 0.000 J/(mol*K)
+	-analytical_expression 8.779914 0.000000 -5787.974461 0.000000 0.000000 0.000000
+	-log_K	-10.6330	# +- 0.1800
+
+4 H2O + Al+3 = Al(OH)4- + 4 H+
+	# dHr 180.421 +- 1.283 kJ/mol
+	# dCpr 0.000 +- 27.000 J/(mol*K)
+	-analytical_expression 8.739961 0.000000 -9423.988271 0.000000 0.000000 0.000000
+	-log_K	-22.8683	# +- 0.3000
+
+F- + H+ = HF
+	# dHr 13.307 kJ/mol
+	# dCpr 144.356 J/(K*mol)
+	-analytical_expression -44.993903 0.000000 1553.039869 17.361937 0.000000 0.000000
+	-log_K	3.1760
+
+HF + Al(OH)4- = Al(OH)2F + H2O + OH-
+	# dHr -14.700 +- 3.000 kJ/mol
+	# dCpr -201.000 +- 27.000 J/(K*mol)
+	-analytical_expression 69.152070 0.000000 -2362.416543 -24.174606 0.000000 0.000000
+	-log_K	1.4100	# +- 0.1500
+
+2 F- + Al(OH)4- = Al(OH)2F2- + 2 OH-
+	# dHr 75.200 +- 2.800 kJ/mol
+	# dCpr -216.000 +- 22.000 J/(K*mol)
+	-analytical_expression 81.479344 0.000000 -7291.792708 -25.978681 0.000000 0.000000
+	-log_K	-7.2600	# +- 0.1500
+
+3 H2O + Al+3 = Al(OH)3 + 3 H+
+	# dHr 135.182 +- 2.049 kJ/mol
+	# dCpr 0.000 J/(mol*K)
+	-analytical_expression 8.020017 0.000000 -7061.004996 0.000000 0.000000 0.000000
+	-log_K	-15.6627	# +- 0.4400
+
+SO4-2 + Al+3 = AlSO4+
+	# dHr -10.700 +- 5.000 kJ/mol
+	# dCpr 1180.000 +- 200.000 J/(K*mol)
+	-analytical_expression -411.123068 0.000000 18935.467357 141.920570 0.000000 0.000000
+	-log_K	3.5600	# +- 0.2000
+
+SO4-2 + AlSO4+ = Al(SO4)2-
+	# dHr -12.800 +- 5.000 kJ/mol
+	# dCpr 1100.000 +- 200.000 J/(K*mol)
+	-analytical_expression -385.173952 0.000000 17799.288127 132.298837 0.000000 0.000000
+	-log_K	1.8900	# +- 0.2000
+
+32 H2O + 13 Al+3 = Al13(OH)32+7 + 32 H+
+	# dHr 1255.800 +- 9.700 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 119.975388 0.000000 -65594.606342 0.000000 0.000000 0.000000
+	-log_K	-100.0300	# +- 0.0900
+
+2 H2O + 2 Al+3 = Al2(OH)2+4 + 2 H+
+	# dHr 83.600 +- 4.900 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 7.026003 0.000000 -4366.705757 0.000000 0.000000 0.000000
+	-log_K	-7.6200	# +- 0.1100
+
+4 H2O + 3 Al+3 = Al3(OH)4+5 + 4 H+
+	# dHr 146.300 +- 4.500 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 11.730505 0.000000 -7641.735075 0.000000 0.000000 0.000000
+	-log_K	-13.9000	# +- 0.1200
+
+F- + Al+3 = AlF+2
+	# dHr 4.810 +- 0.200 kJ/mol
+	-analytical_expression 7.922671 0.000000 -251.242281 0.000000 0.000000 0.000000
+	-log_K	7.0800	# +- 0.0700
+
+F- + AlF+2 = AlF2+
+	# dHr 3.260 +- 0.400 kJ/mol
+	-analytical_expression 6.221124 0.000000 -170.280631 0.000000 0.000000 0.000000
+	-log_K	5.6500	# +- 0.0800
+
+F- + AlF2+ = AlF3
+	# dHr 0.790 +- 0.400 kJ/mol
+	-analytical_expression 4.188401 0.000000 -41.264325 0.000000 0.000000 0.000000
+	-log_K	4.0500	# +- 0.1100
+
+F- + AlF3 = AlF4-
+	# dHr 1.170 +- 0.400 kJ/mol
+	-analytical_expression 2.714974 0.000000 -61.112987 0.000000 0.000000 0.000000
+	-log_K	2.5100	# +- 0.1400
+
+F- + AlF4- = AlF5-2
+	# dHr -3.140 +- 0.400 kJ/mol
+	-analytical_expression 0.449899 0.000000 164.012633 0.000000 0.000000 0.000000
+	-log_K	1.0000	# +- 0.2000
+
+F- + AlF5-2 = AlF6-3
+	# dHr -6.500 +- 0.800 kJ/mol
+	-analytical_expression -1.138744 0.000000 339.516596 0.000000 0.000000 0.000000
+	-log_K	0.0000	# +- 0.3000
+
+H2O + Al+3 = AlOH+2 + H+
+	# dHr 55.960 +- 0.536 kJ/mol
+	# dCpr 0.000 J/(mol*K)
+	-analytical_expression 4.829922 0.000000 -2922.976725 0.000000 0.000000 0.000000
+	-log_K	-4.9738	# +- 0.1300
+
+2 HF + Al(OH)4- = AlOHF2 + 2 H2O + OH-
+	# dHr -8.400 +- 2.900 kJ/mol
+	# dCpr -192.000 +- 27.000 J/(K*mol)
+	-analytical_expression 68.327236 0.000000 -2551.326189 -23.092161 0.000000 0.000000
+	-log_K	2.6300	# +- 0.1500
+
+Si(OH)4 + Al+3 = AlSiO(OH)3+2 + H+
+	# dHr 66.600 +- 3.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 9.347749 0.000000 -3478.739276 0.000000 0.000000 0.000000
+	-log_K	-2.3200	# +- 0.2200
+
+Cit-3 + Am+3 = Am(Cit)
+	-log_K	8.5500	# +- 0.2000
+
+2 Cit-3 + Am+3 = Am(Cit)2-3
+	-log_K	13.9000	# +- 1.0000
+
+2 CO3-2 + Am+3 = Am(CO3)2-
+	-log_K	12.9000	# +- 0.4000
+
+3 CO3-2 + Am+3 = Am(CO3)3-3
+	-log_K	15.0000	# +- 0.5000
+
+Edta-4 + Am+3 = Am(Edta)-
+	# dHr -10.600 +- 2.000 kJ/mol
+	-analytical_expression 17.812971 0.000000 553.673218 0.000000 0.000000 0.000000
+	-log_K	19.6700	# +- 0.1100
+
+OH- + Am(Edta)- = Am(Edta)OH-2
+	-log_K	2.6600	# +- 0.1900
+
+Cit-3 + H+ = HCit-2
+	# dHr 3.300 +- 0.300 kJ/mol
+	# dCpr 222.000 +- 14.000 J/(K*mol)
+	-analytical_expression -70.725844 0.000000 3284.917086 26.700311 0.000000 0.000000
+	-log_K	6.3600	# +- 0.0200
+
+HCit-2 + Am+3 = Am(HCit)+
+	-log_K	6.5000	# +- 1.0000
+
+2 HCit-2 + Am+3 = Am(HCit)2-
+	-log_K	10.8000	# +- 1.0000
+
+H+ + Am(Edta)- = Am(HEdta)
+	-log_K	2.1700	# +- 0.2500
+
+H3Isa- + Am+3 = Am(Isa)- + 3 H+
+	-log_K	22.2000	# +- 1.0000
+
+2 NO3- + Am+3 = Am(NO3)2+
+	# dHr 10.800 +- 2.200 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 2.772067 0.000000 -564.119883 0.000000 0.000000 0.000000
+	-log_K	0.8800	# +- 0.1100
+
+2 H2O + Am+3 = Am(OH)2+ + 2 H+
+	-log_K	-15.1000	# +- 0.7000
+
+3 H2O + Am+3 = Am(OH)3 + 3 H+
+	-log_K	-26.2000	# +- 0.5000
+
+Oxa-2 + Am+3 = Am(Oxa)+
+	-log_K	6.5100	# +- 0.1500
+
+2 Oxa-2 + Am+3 = Am(Oxa)2-
+	-log_K	10.7100	# +- 0.2000
+
+3 Oxa-2 + Am+3 = Am(Oxa)3-3
+	-log_K	13.0000	# +- 1.0000
+
+2 SO4-2 + Am+3 = Am(SO4)2-
+	# dHr 70.000 +- 7.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 17.263400 0.000000 -3656.332572 0.000000 0.000000 0.000000
+	-log_K	5.0000	# +- 1.0000
+
+Cl- + Am+3 = AmCl+2
+	-log_K	0.2400	# +- 0.3500
+
+2 Cl- + Am+3 = AmCl2+
+	# dHr 54.900 +- 4.500 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 8.808009 0.000000 -2867.609403 0.000000 0.000000 0.000000
+	-log_K	-0.8100	# +- 0.3500
+
+CO3-2 + Am+3 = AmCO3+
+	-log_K	8.0000	# +- 0.4000
+
+F- + Am+3 = AmF+2
+	# dHr 12.100 +- 2.200 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 5.519816 0.000000 -632.023202 0.000000 0.000000 0.000000
+	-log_K	3.4000	# +- 0.3000
+
+2 F- + Am+3 = AmF2+
+	# dHr 45.100 +- 14.500 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 13.701133 0.000000 -2355.722843 0.000000 0.000000 0.000000
+	-log_K	5.8000	# +- 0.2000
+
+H2PO4- + Am+3 = AmH2PO4+2
+	-log_K	2.4600	# +- 0.1300
+
+HCO3- + Am+3 = AmHCO3+2
+	-log_K	3.1000	# +- 0.3000
+
+HPO4-2 + Am+3 = AmHPO4+
+	-log_K	6.2000	# +- 0.8000
+
+NO3- + Am+3 = AmNO3+2
+	# dHr 1.800 +- 1.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 1.595345 0.000000 -94.019980 0.000000 0.000000 0.000000
+	-log_K	1.2800	# +- 0.0500
+
+2 CO3-2 + AmO2+ = AmO2(CO3)2-3
+	-log_K	6.7000	# +- 0.8000
+
+3 CO3-2 + AmO2+ = AmO2(CO3)3-5
+	-log_K	5.1000	# +- 1.0000
+
+2 H2O + AmO2+ = AmO2(OH)2- + 2 H+
+	-log_K	-23.6000	# +- 0.5000
+
+CO3-2 + AmO2+ = AmO2CO3-
+	-log_K	5.1000	# +- 0.5000
+
+H2O + AmO2+ = AmO2OH + H+
+	-log_K	-11.3000	# +- 0.7000
+
+H2O + Am+3 = AmOH+2 + H+
+	-log_K	-7.2000	# +- 0.5000
+
+SCN- + Am+3 = AmSCN+2
+	-log_K	1.3000	# +- 0.3000
+
+OH- + Si(OH)4 = SiO(OH)3- + H2O
+	# dHr -26.498 +- 0.274 kJ/mol
+	# dCpr 0.000 J/(mol*K)
+	-analytical_expression -0.445222 0.000000 1384.078578 0.000000 0.000000 0.000000
+	-log_K	4.1970	# +- 0.0700
+
+SiO(OH)3- + Am+3 = AmSiO(OH)3+2
+	# dHr 15.000 kJ/mol
+	-analytical_expression 10.427871 0.000000 -783.499837 0.000000 0.000000 0.000000
+	-log_K	7.8000	# +- 0.5000
+
+SO4-2 + Am+3 = AmSO4+
+	# dHr 40.000 +- 4.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 10.507657 0.000000 -2089.332898 0.000000 0.000000 0.000000
+	-log_K	3.5000	# +- 0.3000
+
+H2O + As(OH)3 = As(OH)4- + H+
+	# dHr 27.343 kJ/mol
+	-analytical_expression -4.441741 0.000000 -1428.215736 0.000000 0.000000 0.000000
+	-log_K	-9.2320
+
+HAsO4-2 = AsO4-3 + H+
+	# dHr 18.200 kJ/mol
+	-analytical_expression -8.414516 0.000000 -950.646469 0.000000 0.000000 0.000000
+	-log_K	-11.6030
+
+UO2+2 + 3 CO3-2 + 2 Ba+2 = Ba2UO2(CO3)3
+	-log_K	29.7500	# +- 0.5000
+
+CO3-2 + Ba+2 = BaCO3
+	# dHr 12.600 +- 1.000 kJ/mol
+	# dCpr 286.000 +- 53.000 J/(K*mol)
+	-analytical_expression -95.166179 0.000000 3795.842553 34.397698 0.000000 0.000000
+	-log_K	2.6800	# +- 0.0500
+
+F- + Ba+2 = BaF+
+	# dHr 11.700 +- 3.400 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 2.719740 0.000000 -611.129873 0.000000 0.000000 0.000000
+	-log_K	0.6700	# +- 0.2100
+
+H2PO4- + Ba+2 = BaH2PO4+
+	-log_K	0.6000	# +- 0.3000
+
+HCO3- + Ba+2 = BaHCO3+
+	# dHr 22.000 +- 2.800 kJ/mol
+	# dCpr 266.000 +- 13.000 J/(K*mol)
+	-analytical_expression -88.212625 0.000000 2993.382020 31.992264 0.000000 0.000000
+	-log_K	0.9900	# +- 0.0500
+
+HPO4-2 + Ba+2 = BaHPO4
+	-log_K	2.2500	# +- 0.2000
+
+H2O + Ba+2 = BaOH+ + H+
+	# dHr 60.900 +- 10.500 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -2.650842 0.000000 -3181.009338 0.000000 0.000000 0.000000
+	-log_K	-13.3200	# +- 0.0700
+
+PO4-3 + Ba+2 = BaPO4-
+	-log_K	4.7000	# +- 0.3000
+
+SO4-2 + Ba+2 = BaSO4
+	# dHr 3.200 +- 0.600 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 2.830613 0.000000 -167.146632 0.000000 0.000000 0.000000
+	-log_K	2.2700	# +- 0.0400
+
+UO2+2 + 3 CO3-2 + Ba+2 = BaUO2(CO3)3-2
+	-log_K	25.6000	# +- 0.3000
+
+Cit-3 + Ca+2 = Ca(Cit)-
+	# dHr 0.000 +- 6.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 4.800000 0.000000 0.000000 0.000000 0.000000 0.000000
+	-log_K	4.8000	# +- 0.0300
+
+Edta-4 + Ca+2 = Ca(Edta)-2
+	# dHr -22.200 +- 0.400 kJ/mol
+	-analytical_expression 8.800750 0.000000 1159.579759 0.000000 0.000000 0.000000
+	-log_K	12.6900	# +- 0.0600
+
+HCit-2 + H+ = H2Cit-
+	# dHr -2.400 +- 0.300 kJ/mol
+	# dCpr 167.000 +- 8.000 J/(K*mol)
+	-analytical_expression -54.063360 0.000000 2726.111944 20.085369 0.000000 0.000000
+	-log_K	4.7800	# +- 0.0100
+
+H2Cit- + Ca+2 = Ca(H2Cit)+
+	-log_K	1.5300	# +- 0.1600
+
+H3Isa- + Ca+2 = Ca(H2Isa) + H+
+	-log_K	-10.4000	# +- 0.5000
+
+H3Isa- + Ca+2 = Ca(H3Isa)+
+	-log_K	1.7000	# +- 0.3000
+
+HCit-2 + Ca+2 = Ca(HCit)
+	-log_K	2.9200	# +- 0.0700
+
+H+ + Ca(Edta)-2 = Ca(HEdta)-
+	-log_K	3.5400	# +- 0.0900
+
+Oxa-2 + Ca+2 = Ca(Oxa)
+	-log_K	3.1900	# +- 0.0600
+
+2 Oxa-2 + Ca+2 = Ca(Oxa)2-2
+	-log_K	4.0200	# +- 0.1900
+
+4 H2O + Am+3 + 2 Ca+2 = Ca2Am(OH)4+3 + 4 H+
+	-log_K	-37.2000	# +- 0.6000
+
+4 H2O + Cm+3 + 2 Ca+2 = Ca2Cm(OH)4+3 + 4 H+
+	-log_K	-37.2000	# +- 0.6000
+
+UO2+2 + 3 CO3-2 + 2 Ca+2 = Ca2UO2(CO3)3
+	# dHr -47.000 +- 6.000 kJ/mol
+	-analytical_expression 22.566003 0.000000 2454.966155 0.000000 0.000000 0.000000
+	-log_K	30.8000	# +- 0.4000
+
+Zr+4 + 6 H2O + 2 Ca+2 = Ca2Zr(OH)6+2 + 6 H+
+	-log_K	-22.6000	# +- 0.3000
+
+6 H2O + Am+3 + 3 Ca+2 = Ca3Am(OH)6+3 + 6 H+
+	-log_K	-60.7000	# +- 0.5000
+
+6 H2O + Cm+3 + 3 Ca+2 = Ca3Cm(OH)6+3 + 6 H+
+	-log_K	-60.7000	# +- 0.5000
+
+NpO2+ + 5 H2O + 3 Ca+2 = Ca3NpO2(OH)5+2 + 5 H+
+	-log_K	-54.8000	# +- 0.3000
+
+Zr+4 + 6 H2O + 3 Ca+2 = Ca3Zr(OH)6+4 + 6 H+
+	-log_K	-23.2000	# +- 0.3000
+
+Np+4 + 8 H2O + 4 Ca+2 = Ca4Np(OH)8+4 + 8 H+
+	-log_K	-56.1000	# +- 0.8000
+
+Pu+4 + 8 H2O + 4 Ca+2 = Ca4Pu(OH)8+4 + 8 H+
+	-log_K	-56.2000	# +- 0.6000
+
+Th+4 + 8 H2O + 4 Ca+2 = Ca4Th(OH)8+4 + 8 H+
+	-log_K	-62.4000	# +- 0.6000
+
+3 H2O + Am+3 + Ca+2 = CaAm(OH)3+2 + 3 H+
+	-log_K	-26.3000	# +- 0.5000
+
+3 H2O + Cm+3 + Ca+2 = CaCm(OH)3+2 + 3 H+
+	-log_K	-26.3000	# +- 0.5000
+
+CO3-2 + Ca+2 = CaCO3
+	# dHr 13.900 +- 2.200 kJ/mol
+	# dCpr 447.000 +- 130.000 J/(K*mol)
+	-analytical_expression -150.712304 0.000000 6235.251013 53.761436 0.000000 0.000000
+	-log_K	3.2300	# +- 0.1400
+
+F- + Ca+2 = CaF+
+	# dHr 12.800 +- 1.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 3.572450 0.000000 -668.586527 0.000000 0.000000 0.000000
+	-log_K	1.3300	# +- 0.0400
+
+H2PO4- + Ca+2 = CaH2PO4+
+	# dHr 3.000 +- 13.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 1.515574 0.000000 -156.699967 0.000000 0.000000 0.000000
+	-log_K	0.9900	# +- 0.0900
+
+HCO3- + Ca+2 = CaHCO3+
+	# dHr 8.700 +- 2.500 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 2.594165 0.000000 -454.429905 0.000000 0.000000 0.000000
+	-log_K	1.0700	# +- 0.0700
+
+HPO4-2 + Ca+2 = CaHPO4
+	# dHr 13.100 +- 6.300 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 4.875008 0.000000 -684.256524 0.000000 0.000000 0.000000
+	-log_K	2.5800	# +- 0.0500
+
+MoO4-2 + Ca+2 = CaMoO4
+	# dHr 7.000 kJ/mol
+	-analytical_expression 3.726340 0.000000 -365.633257 0.000000 0.000000 0.000000
+	-log_K	2.5000	# +- 0.5000
+
+NpO2+ + 2 H2O + Ca+2 = CaNpO2(OH)2+ + 2 H+
+	-log_K	-20.6000	# +- 0.2000
+
+H2O + Ca+2 = CaOH+ + H+
+	# dHr 53.900 +- 1.400 kJ/mol
+	# dCpr -446.800 +- 39.300 J/(K*mol)
+	-analytical_expression 153.180315 0.000000 -9773.555603 -53.737382 0.000000 0.000000
+	-log_K	-12.5700	# +- 0.0300
+
+PO4-3 + Ca+2 = CaPO4-
+	# dHr -1.000 +- 18.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 6.284809 0.000000 52.233322 0.000000 0.000000 0.000000
+	-log_K	6.4600	# +- 0.1100
+
+SeO4-2 + Ca+2 = CaSeO4
+	-log_K	2.0000	# +- 0.1000
+
+SiO(OH)3- + Ca+2 = CaSiO(OH)3+
+	-log_K	1.1700	# +- 0.1300
+
+2 OH- + Si(OH)4 = SiO2(OH)2-2 + 2 H2O
+	# dHr -56.549 +- 5.000 kJ/mol
+	# dCpr 0.000 J/(mol*K)
+	-analytical_expression -5.067900 0.000000 2953.742152 0.000000 0.000000 0.000000
+	-log_K	4.8390	# +- 0.0840
+
+SiO2(OH)2-2 + Ca+2 = CaSiO2(OH)2
+	-log_K	4.0000	# +- 0.1000
+
+SO4-2 + Ca+2 = CaSO4
+	# dHr 6.900 +- 1.700 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 3.518821 0.000000 -360.409925 0.000000 0.000000 0.000000
+	-log_K	2.3100	# +- 0.0400
+
+UO2+2 + 3 CO3-2 + Ca+2 = CaUO2(CO3)3-2
+	# dHr -47.000 +- 6.000 kJ/mol
+	-analytical_expression 18.766003 0.000000 2454.966155 0.000000 0.000000 0.000000
+	-log_K	27.0000	# +- 0.2000
+
+Zr+4 + 6 H2O + Ca+2 = CaZr(OH)6 + 6 H+
+	-log_K	-24.6000	# +- 0.3000
+
+2 CO3-2 + Cd+2 = Cd(CO3)2-2
+	-log_K	6.2000
+
+2 HS- + Cd+2 = Cd(HS)2
+	-log_K	14.4300	# +- 0.0500
+
+3 HS- + Cd+2 = Cd(HS)3-
+	-log_K	16.3000	# +- 0.6000
+
+4 HS- + Cd+2 = Cd(HS)4-2
+	-log_K	18.4300	# +- 0.0500
+
+2 H2O + Cd+2 = Cd(OH)2 + 2 H+
+	-log_K	-20.1900	# +- 0.1300
+
+3 H2O + Cd+2 = Cd(OH)3- + 3 H+
+	-log_K	-33.5000	# +- 0.5000
+
+4 H2O + Cd+2 = Cd(OH)4-2 + 4 H+
+	-log_K	-47.2800	# +- 0.1500
+
+2 SO4-2 + Cd+2 = Cd(SO4)2-2
+	# dHr 5.700 +- 2.500 kJ/mol
+	-analytical_expression 4.318591 0.000000 -297.729938 0.000000 0.000000 0.000000
+	-log_K	3.3200	# +- 0.1500
+
+H2O + 2 Cd+2 = Cd2OH+3 + H+
+	# dHr 45.600 +- 2.000 kJ/mol
+	-analytical_expression -0.751271 0.000000 -2381.839504 0.000000 0.000000 0.000000
+	-log_K	-8.7400	# +- 0.1000
+
+Cl- + Cd+2 = CdCl+
+	# dHr 3.300 +- 0.600 kJ/mol
+	-analytical_expression 2.558132 0.000000 -172.369964 0.000000 0.000000 0.000000
+	-log_K	1.9800	# +- 0.0600
+
+2 Cl- + Cd+2 = CdCl2
+	# dHr 7.900 +- 1.400 kJ/mol
+	-analytical_expression 4.024012 0.000000 -412.643247 0.000000 0.000000 0.000000
+	-log_K	2.6400	# +- 0.0900
+
+3 Cl- + Cd+2 = CdCl3-
+	-log_K	2.3000	# +- 0.2100
+
+4 Cl- + Cd+2 = CdCl4-2
+	-log_K	1.7000
+
+CO3-2 + Cd+2 = CdCO3
+	-log_K	4.4000	# +- 0.2000
+
+H2PO4- + Cd+2 = CdH2PO4+
+	-log_K	1.9000	# +- 0.4000
+
+HCO3- + Cd+2 = CdHCO3+
+	-log_K	1.7000	# +- 0.4000
+
+HPO4-2 + Cd+2 = CdHPO4
+	-log_K	3.7200	# +- 0.2000
+
+HS- + Cd+2 = CdHS+
+	-log_K	7.4000	# +- 0.7000
+
+H2O + Cd+2 = CdOH+ + H+
+	# dHr 54.800 +- 2.000 kJ/mol
+	-analytical_expression -0.199510 0.000000 -2862.386071 0.000000 0.000000 0.000000
+	-log_K	-9.8000	# +- 0.1000
+
+2 HS- + Cd+2 = CdS(HS)- + H+
+	-log_K	6.8000	# +- 0.2000
+
+SO4-2 + Cd+2 = CdSO4
+	# dHr 8.300 +- 0.500 kJ/mol
+	-analytical_expression 3.814089 0.000000 -433.536576 0.000000 0.000000 0.000000
+	-log_K	2.3600	# +- 0.0400
+
+F- + Cf+3 = CfF+2
+	# dHr 11.800 +- 1.600 kJ/mol
+	-analytical_expression 6.067259 0.000000 -616.353205 0.000000 0.000000 0.000000
+	-log_K	4.0000	# +- 0.4000
+
+SCN- + Cf+3 = CfSCN+2
+	-log_K	1.5000	# +- 0.3000
+
+SO4-2 + Cf+3 = CfSO4+
+	# dHr 18.100 +- 3.100 kJ/mol
+	-analytical_expression 6.770965 0.000000 -945.423136 0.000000 0.000000 0.000000
+	-log_K	3.6000	# +- 0.4000
+
+2 CO3-2 + Cm+3 = Cm(CO3)2-
+	-log_K	12.9000	# +- 0.4000
+
+3 CO3-2 + Cm+3 = Cm(CO3)3-3
+	-log_K	15.0000	# +- 0.5000
+
+2 NO3- + Cm+3 = Cm(NO3)2+
+	# dHr 10.800 +- 2.200 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 2.772067 0.000000 -564.119883 0.000000 0.000000 0.000000
+	-log_K	0.8800	# +- 0.1100
+
+2 H2O + Cm+3 = Cm(OH)2+ + 2 H+
+	-log_K	-15.1000	# +- 0.7000
+
+3 H2O + Cm+3 = Cm(OH)3 + 3 H+
+	-log_K	-26.2000	# +- 0.5000
+
+2 SO4-2 + Cm+3 = Cm(SO4)2-
+	# dHr 70.000 +- 7.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 17.263400 0.000000 -3656.332572 0.000000 0.000000 0.000000
+	-log_K	5.0000	# +- 1.0000
+
+Cl- + Cm+3 = CmCl+2
+	-log_K	0.2400	# +- 0.3500
+
+2 Cl- + Cm+3 = CmCl2+
+	# dHr 54.900 +- 4.500 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 8.808009 0.000000 -2867.609403 0.000000 0.000000 0.000000
+	-log_K	-0.8100	# +- 0.3500
+
+CO3-2 + Cm+3 = CmCO3+
+	-log_K	8.0000	# +- 0.4000
+
+F- + Cm+3 = CmF+2
+	# dHr 12.100 +- 2.200 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 5.519816 0.000000 -632.023202 0.000000 0.000000 0.000000
+	-log_K	3.4000	# +- 0.3000
+
+2 F- + Cm+3 = CmF2+
+	# dHr 45.100 +- 14.500 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 13.701133 0.000000 -2355.722843 0.000000 0.000000 0.000000
+	-log_K	5.8000	# +- 0.2000
+
+H2PO4- + Cm+3 = CmH2PO4+2
+	-log_K	2.4600	# +- 0.1300
+
+HCO3- + Cm+3 = CmHCO3+2
+	-log_K	3.1000	# +- 0.3000
+
+HPO4-2 + Cm+3 = CmHPO4+
+	-log_K	6.2000	# +- 0.8000
+
+NO3- + Cm+3 = CmNO3+2
+	# dHr 1.800 +- 1.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 1.595345 0.000000 -94.019980 0.000000 0.000000 0.000000
+	-log_K	1.2800	# +- 0.0500
+
+H2O + Cm+3 = CmOH+2 + H+
+	-log_K	-7.2000	# +- 0.5000
+
+SCN- + Cm+3 = CmSCN+2
+	-log_K	1.3000	# +- 0.3000
+
+SiO(OH)3- + Cm+3 = CmSiO(OH)3+2
+	# dHr 15.800 +- 4.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 10.568024 0.000000 -825.286495 0.000000 0.000000 0.000000
+	-log_K	7.8000	# +- 0.5000
+
+SO4-2 + Cm+3 = CmSO4+
+	# dHr 40.000 +- 4.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 10.507657 0.000000 -2089.332898 0.000000 0.000000 0.000000
+	-log_K	3.5000	# +- 0.3000
+
+H+ + HCO3- = CO2 + H2O
+	# dHr -9.109 kJ/mol
+	# dCpr 366.658 J/(K*mol)
+	-analytical_expression -123.514621 0.000000 6185.892232 44.098570 0.000000 0.000000
+	-log_K	6.3520
+
+2 HCO3- + Cu+2 = Cu(CO3)2-2 + 2 H+
+	-log_K	-10.3000	# +- 0.1000
+
+OH- + CO3-2 + Cu+2 = Cu(CO3)OH-
+	-log_K	11.2100	# +- 0.3000
+
+HPO4-2 + H2PO4- + Cu+2 = Cu(H2PO4)(HPO4)-
+	-log_K	5.4000	# +- 0.2000
+
+2 H2PO4- + Cu+ = Cu(H2PO4)(HPO4)-2 + H+
+	-log_K	-3.0000	# +- 0.2000
+
+2 H2PO4- + Cu+ = Cu(H2PO4)2-
+	-log_K	1.8000	# +- 0.2000
+
+2 H2PO4- + Cu+2 = Cu(H2PO4)2
+	-log_K	1.9000	# +- 0.2000
+
+2 HPO4-2 + Cu+2 = Cu(HPO4)2-2
+	-log_K	7.4000	# +- 0.2000
+
+2 HS- + Cu+ = Cu(HS)2-
+	# dHr -102.000 +- 7.000 kJ/mol
+	# dCpr 800.000 +- 300.000 J/(K*mol)
+	-analytical_expression -280.559708 0.000000 17786.490963 96.217336 0.000000 0.000000
+	-log_K	17.1800	# +- 0.1300
+
+2 H2O + Cu+ = Cu(OH)2- + 2 H+
+	# dHr 61.000 +- 12.000 kJ/mol
+	# dCpr -277.000 +- 98.000 J/(K*mol)
+	-analytical_expression 88.951728 0.000000 -7500.054800 -33.315252 0.000000 0.000000
+	-log_K	-18.6400	# +- 0.6000
+
+2 H2O + Cu+2 = Cu(OH)2 + 2 H+
+	# dHr 89.900 +- 0.700 kJ/mol
+	# dCpr 1174.000 +- 6.000 J/(K*mol)
+	-analytical_expression -411.159785 0.000000 13587.354927 141.198940 0.000000 0.000000
+	-log_K	-16.2000	# +- 0.2000
+
+3 H2O + Cu+2 = Cu(OH)3- + 3 H+
+	-log_K	-26.6000	# +- 0.0900
+
+4 H2O + Cu+2 = Cu(OH)4-2 + 4 H+
+	# dHr 167.000 +- 5.700 kJ/mol
+	# dCpr 864.000 +- 57.000 J/(K*mol)
+	-analytical_expression -312.742830 0.000000 4732.422588 103.914723 0.000000 0.000000
+	-log_K	-39.7400	# +- 0.1800
+
+2 H2O + 2 Cu+2 = Cu2(OH)2+2 + 2 H+
+	# dHr 71.400 +- 5.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 2.078668 0.000000 -3729.459223 0.000000 0.000000 0.000000
+	-log_K	-10.4300	# +- 0.0700
+
+4 Cl- + 2 Cu+ = Cu2Cl4-2
+	-log_K	10.3200	# +- 0.5000
+
+H2O + 2 Cu+2 = Cu2OH+3 + H+
+	-log_K	-6.4000	# +- 0.1200
+
+3 HS- + 2 Cu+ = Cu2S(HS)2-2 + H+
+	-log_K	29.8700	# +- 0.1300
+
+4 H2O + 3 Cu+2 = Cu3(OH)4+2 + 4 H+
+	-log_K	-21.1000	# +- 0.2000
+
+Cl- + Cu+ = CuCl
+	-log_K	3.3000	# +- 0.2500
+
+Cl- + Cu+2 = CuCl+
+	-log_K	0.8300	# +- 0.0900
+
+2 Cl- + Cu+ = CuCl2-
+	-log_K	5.4800	# +- 0.2500
+
+2 Cl- + Cu+2 = CuCl2
+	-log_K	0.6000	# +- 0.3000
+
+3 Cl- + Cu+ = CuCl3-2
+	-log_K	4.8100	# +- 0.2500
+
+HCO3- + Cu+2 = CuCO3 + H+
+	-log_K	-3.5600	# +- 0.0300
+
+H2PO4- + Cu+ = CuH2PO4
+	-log_K	0.8700	# +- 0.3000
+
+H2PO4- + Cu+2 = CuH2PO4+
+	-log_K	1.1400	# +- 0.1500
+
+HCO3- + Cu+2 = CuHCO3+
+	-log_K	1.8400	# +- 0.1000
+
+HPO4-2 + Cu+2 = CuHPO4
+	-log_K	4.1100	# +- 0.3000
+
+HS- + Cu+ = CuHS
+	-log_K	13.0000
+
+H2O + Cu+ = CuOH + H+
+	# dHr 41.300 +- 4.400 kJ/mol
+	# dCpr -848.000 +- 123.000 J/(K*mol)
+	-analytical_expression 296.047800 0.000000 -15363.449814 -101.990376 0.000000 0.000000
+	-log_K	-7.8500	# +- 0.4100
+
+H2O + Cu+2 = CuOH+ + H+
+	# dHr 66.000 +- 2.800 kJ/mol
+	# dCpr 1008.000 +- 23.000 J/(K*mol)
+	-analytical_expression -349.023797 0.000000 12250.552729 121.233843 0.000000 0.000000
+	-log_K	-7.9500	# +- 0.1600
+
+SO4-2 + Cu+2 = CuSO4
+	# dHr 7.300 +- 1.500 kJ/mol
+	-analytical_expression 3.628897 0.000000 -381.303254 0.000000 0.000000 0.000000
+	-log_K	2.3500	# +- 0.0500
+
+2 CO3-2 + Eu+3 = Eu(CO3)2-
+	-log_K	12.1000	# +- 0.3000
+
+2 H2O + Eu+3 = Eu(OH)2+ + 2 H+
+	-log_K	-15.1000	# +- 0.2000
+
+3 H2O + Eu+3 = Eu(OH)3 + 3 H+
+	-log_K	-23.7000	# +- 0.1000
+
+4 H2O + Eu+3 = Eu(OH)4- + 4 H+
+	-log_K	-36.2000	# +- 0.5000
+
+2 SO4-2 + Eu+3 = Eu(SO4)2-
+	-log_K	5.7000	# +- 0.2000
+
+CO3-2 + Eu+3 = EuCO3+
+	-log_K	8.1000	# +- 0.2000
+
+F- + Eu+3 = EuF+2
+	# dHr 8.100 +- 0.910 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 5.699051 0.000000 -423.089912 0.000000 0.000000 0.000000
+	-log_K	4.2800	# +- 0.0700
+
+2 F- + Eu+3 = EuF2+
+	# dHr 18.500 +- 2.300 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 10.051041 0.000000 -966.316465 0.000000 0.000000 0.000000
+	-log_K	6.8100	# +- 0.3000
+
+HPO4-2 + 2 H+ = H3PO4
+	# dHr 4.880 kJ/mol
+	# dCpr 340.221 +- 5.000 J/(mol*K)
+	-analytical_expression -108.815208 0.000000 5043.487231 40.918948 0.000000 0.000000
+	-log_K	9.3520
+
+H3PO4 + Eu+3 = EuH2PO4+2 + H+
+	# dHr 14.700 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 3.465314 0.000000 -767.829840 0.000000 0.000000 0.000000
+	-log_K	0.8900	# +- 0.1300
+
+H2O + Eu+3 = EuOH+2 + H+
+	-log_K	-7.6400	# +- 0.0400
+
+SiO(OH)3- + Eu+3 = EuSiO(OH)3+2
+	# dHr 14.500 +- 2.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 10.340276 0.000000 -757.383176 0.000000 0.000000 0.000000
+	-log_K	7.8000	# +- 0.5000
+
+SO4-2 + Eu+3 = EuSO4+
+	-log_K	3.9500	# +- 0.0800
+
+6 CN- + Fe+3 = Fe(CN)6-3
+	# dHr 286.900 +- 32.800 kJ/mol
+	-analytical_expression 97.652419 0.000000 -14985.740213 0.000000 0.000000 0.000000
+	-log_K	47.3900	# +- 5.1200
+
+6 CN- + Fe+2 = Fe(CN)6-4
+	# dHr -358.900 +- 30.100 kJ/mol
+	-analytical_expression -22.466201 0.000000 18746.539430 0.000000 0.000000 0.000000
+	-log_K	40.4100	# +- 4.5700
+
+2 HCO3- + Fe+2 = Fe(CO3)2-2 + 2 H+
+	-log_K	-13.3300	# +- 0.2900
+
+3 CO3-2 + Fe+3 = Fe(CO3)3-3
+	-log_K	24.0000	# +- 2.0000
+
+3 H3PO4 + Fe+3 = Fe(H2PO4)3 + 3 H+
+	-log_K	3.5000	# +- 1.0000
+
+2 HSeO4- + Fe+2 = Fe(HSeO4)2
+	-log_K	5.7000	# +- 1.0000
+
+2 H2O + Fe+2 = Fe(OH)2 + 2 H+
+	# dHr 115.400 +- 1.000 kJ/mol
+	# dCpr 0.000 J/(mol*K)
+	-analytical_expression -0.302910 0.000000 -6027.725412 0.000000 0.000000 0.000000
+	-log_K	-20.5200	# +- 0.0800
+
+2 H2O + Fe+3 = Fe(OH)2+ + 2 H+
+	# dHr 113.100 +- 3.000 kJ/mol
+	# dCpr 0.000 J/(mol*K)
+	-analytical_expression 14.104150 0.000000 -5907.588770 0.000000 0.000000 0.000000
+	-log_K	-5.7100	# +- 0.1000
+
+3 H2O + Fe+2 = Fe(OH)3- + 3 H+
+	# dHr 140.300 +- 2.200 kJ/mol
+	# dCpr 0.000 J/(mol*K)
+	-analytical_expression -8.100643 0.000000 -7328.335141 0.000000 0.000000 0.000000
+	-log_K	-32.6800	# +- 0.1500
+
+3 H2O + Fe+3 = Fe(OH)3 + 3 H+
+	# dHr 146.300 +- 4.800 kJ/mol
+	# dCpr -150.000 +- 43.000 J/(mol*K)
+	-analytical_expression 65.846164 0.000000 -9977.739839 -18.040750 0.000000 0.000000
+	-log_K	-12.2600	# +- 0.2600
+
+4 H2O + Fe+3 = Fe(OH)4- + 4 H+
+	# dHr 146.800 +- 1.800 kJ/mol
+	# dCpr 0.000 J/(mol*K)
+	-analytical_expression 4.118101 0.000000 -7667.851737 0.000000 0.000000 0.000000
+	-log_K	-21.6000	# +- 0.2300
+
+H2O + CO3-2 + Fe+3 = Fe(OH)CO3 + H+
+	-log_K	10.7000	# +- 2.0000
+
+SCN- + Fe+3 = FeSCN+2
+	-log_K	3.0600	# +- 0.0500
+
+SCN- + FeSCN+2 = Fe(SCN)2+
+	-log_K	2.2300	# +- 0.5000
+
+2 SO4-2 + Fe+3 = Fe(SO4)2-
+	-log_K	6.2200	# +- 0.1600
+
+2 SO4-2 + Fe+2 = Fe(SO4)2-2
+	-log_K	2.0000	# +- 0.4000
+
+2 H2O + 2 Fe+3 = Fe2(OH)2+4 + 2 H+
+	# dHr 30.100 +- 9.500 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 2.363262 0.000000 -1572.223006 0.000000 0.000000 0.000000
+	-log_K	-2.9100	# +- 0.0700
+
+4 H2O + 3 Fe+3 = Fe3(OH)4+5 + 4 H+
+	# dHr 59.800 kJ/mol
+	-analytical_expression 4.176447 0.000000 -3123.552683 0.000000 0.000000 0.000000
+	-log_K	-6.3000
+
+Cl- + Fe+2 = FeCl+
+	# dHr 21.550 +- 1.770 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 2.775375 0.000000 -1125.628099 0.000000 0.000000 0.000000
+	-log_K	-1.0000	# +- 0.8000
+
+Cl- + Fe+3 = FeCl+2
+	# dHr 22.480 +- 4.600 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 5.458303 0.000000 -1174.205089 0.000000 0.000000 0.000000
+	-log_K	1.5200	# +- 0.1000
+
+2 Cl- + Fe+3 = FeCl2+
+	-log_K	2.2000	# +- 0.2000
+
+3 Cl- + Fe+3 = FeCl3
+	-log_K	1.0000	# +- 0.3000
+
+4 Cl- + Fe+3 = FeCl4-
+	-log_K	-1.0000	# +- 0.8000
+
+HCO3- + Fe+2 = FeCO3 + H+
+	-log_K	-4.7700	# +- 0.2700
+
+F- + Fe+2 = FeF+
+	-log_K	1.7000	# +- 0.2000
+
+F- + Fe+3 = FeF+2
+	# dHr 12.800 +- 7.400 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 8.332450 0.000000 -668.586527 0.000000 0.000000 0.000000
+	-log_K	6.0900	# +- 0.0400
+
+2 F- + Fe+3 = FeF2+
+	# dHr 22.000 +- 14.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 14.264211 0.000000 -1149.133094 0.000000 0.000000 0.000000
+	-log_K	10.4100	# +- 0.3300
+
+H2PO4- + Fe+2 = FeH2PO4+
+	-log_K	2.7000	# +- 1.0000
+
+HPO4-2 + Fe+2 = FeHPO4
+	-log_K	3.6000	# +- 1.0000
+
+SeO3-2 + H+ = HSeO3-
+	-log_K	8.3600	# +- 0.2300
+
+HSeO3- + H+ = H2SeO3
+	-log_K	2.6400	# +- 0.1400
+
+HSeO3- + H2SeO3 + Fe+2 = FeHSeO3(H2SeO3)+
+	-log_K	7.0000	# +- 1.0000
+
+HSeO3- + Fe+2 = FeHSeO3+
+	-log_K	3.7000	# +- 1.0500
+
+SO4-2 + H+ + Fe+2 = FeHSO4+
+	-log_K	3.0680
+
+SO4-2 + H+ = HSO4-
+	# dHr 16.128 kJ/mol
+	# dCpr 239.237 J/(K*mol)
+	-analytical_expression -78.880642 0.000000 2883.306120 28.773433 0.000000 0.000000
+	-log_K	1.9880
+
+HSO4- + Fe+3 = FeHSO4+2
+	-log_K	1.7300	# +- 0.7600
+
+H2O + Fe+2 = FeOH+ + H+
+	# dHr 54.600 +- 0.900 kJ/mol
+	# dCpr 0.000 J/(mol*K)
+	-analytical_expression 0.135452 0.000000 -2851.939406 0.000000 0.000000 0.000000
+	-log_K	-9.4300	# +- 0.1000
+
+H2O + Fe+3 = FeOH+2 + H+
+	# dHr 43.300 +- 0.600 kJ/mol
+	# dCpr 0.000 J/(mol*K)
+	-analytical_expression 5.385789 0.000000 -2261.702862 0.000000 0.000000 0.000000
+	-log_K	-2.2000	# +- 0.0200
+
+H3PO4 + Fe+3 = FePO4 + 3 H+
+	-log_K	0.7000	# +- 1.0000
+
+HS- + H+ = H2S
+	# dHr -22.300 kJ/mol
+	-analytical_expression 3.083231 0.000000 1164.803091 0.000000 0.000000 0.000000
+	-log_K	6.9900
+
+H2S + Fe+2 = FeS + 2 H+
+	-log_K	-8.8000	# +- 1.1000
+
+H2SeO3 + Fe+3 = FeSeO3+ + 2 H+
+	-log_K	0.9000	# +- 0.5000
+
+SiO(OH)3- + Fe+3 = FeSiO(OH)3+2
+	-log_K	9.6900	# +- 0.0600
+
+SO4-2 + Fe+2 = FeSO4
+	# dHr 8.400 +- 6.200 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 3.911608 0.000000 -438.759909 0.000000 0.000000 0.000000
+	-log_K	2.4400	# +- 0.0300
+
+SO4-2 + Fe+3 = FeSO4+
+	-log_K	4.2500	# +- 0.1000
+
+HAsO4-2 + H+ = H2AsO4-
+	# dHr -3.220 kJ/mol
+	-analytical_expression 6.199884 0.000000 168.191298 0.000000 0.000000 0.000000
+	-log_K	6.7640
+
+Edta-4 + H+ = HEdta-3
+	# dHr -19.800 +- 0.500 kJ/mol
+	-analytical_expression 7.771210 0.000000 1034.219785 0.000000 0.000000 0.000000
+	-log_K	11.2400	# +- 0.0300
+
+HEdta-3 + H+ = H2Edta-2
+	# dHr -15.200 +- 0.400 kJ/mol
+	-analytical_expression 4.137090 0.000000 793.946501 0.000000 0.000000 0.000000
+	-log_K	6.8000	# +- 0.0200
+
+Fe(CN)6-4 + H+ = HFe(CN)6-3
+	# dHr 2.100 +- 3.000 kJ/mol
+	-analytical_expression 4.647902 0.000000 -109.689977 0.000000 0.000000 0.000000
+	-log_K	4.2800	# +- 0.1000
+
+HFe(CN)6-3 + H+ = H2Fe(CN)6-2
+	-log_K	2.4000	# +- 0.3000
+
+MoO4-2 + 2 H+ = H2MoO4
+	# dHr -35.020 +- 5.100 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 1.964796 0.000000 1829.210952 0.000000 0.000000 0.000000
+	-log_K	8.1000	# +- 0.1000
+
+H3Nb6O19-5 = Nb6O19-8 + 3 H+
+	-log_K	-38.6000	# +- 0.5000
+
+Nb6O19-8 + 2 H+ = H2Nb6O19-6
+	-log_K	27.0000	# +- 0.4000
+
+Oxa-2 + H+ = HOxa-
+	# dHr 7.300 +- 0.100 kJ/mol
+	-analytical_expression 5.528897 0.000000 -381.303254 0.000000 0.000000 0.000000
+	-log_K	4.2500	# +- 0.0100
+
+HOxa- + H+ = H2Oxa
+	# dHr 3.300 +- 0.500 kJ/mol
+	-analytical_expression 1.978132 0.000000 -172.369964 0.000000 0.000000 0.000000
+	-log_K	1.4000	# +- 0.0300
+
+4 e- + Po+2 + 2 H+ = H2Po
+	-log_K	-14.4358
+
+HAsO4-2 + 2 H+ = H3AsO4
+	# dHr 3.840 kJ/mol
+	-analytical_expression 9.699735 0.000000 -200.575958 0.000000 0.000000 0.000000
+	-log_K	9.0270
+
+H2Cit- + H+ = H3Cit
+	# dHr -4.500 +- 0.300 kJ/mol
+	# dCpr 116.000 +- 6.000 J/(K*mol)
+	-analytical_expression -38.239538 0.000000 2041.560302 13.951514 0.000000 0.000000
+	-log_K	3.1300	# +- 0.0100
+
+H2Edta-2 + H+ = H3Edta-
+	# dHr 7.100 +- 0.400 kJ/mol
+	-analytical_expression 4.393859 0.000000 -370.856589 0.000000 0.000000 0.000000
+	-log_K	3.1500	# +- 0.0200
+
+H2O + Nb(OH)4+ = Nb(OH)5 + H+
+	# dHr 9.000 +- 4.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -0.313277 0.000000 -470.099902 0.000000 0.000000 0.000000
+	-log_K	-1.8900	# +- 0.1200
+
+6 Nb(OH)5 = H3Nb6O19-5 + 5 H+ + 11 H2O
+	-log_K	-20.6000	# +- 0.8000
+
+H3Edta- + H+ = H4Edta
+	# dHr 1.900 +- 1.500 kJ/mol
+	-analytical_expression 2.562864 0.000000 -99.243313 0.000000 0.000000 0.000000
+	-log_K	2.2300	# +- 0.0500
+
+H3Isa- + H+ = H4Isa
+	-log_K	4.0000	# +- 0.5000
+
+H4Edta + H+ = H5Edta+
+	-log_K	1.3000	# +- 0.1000
+
+H5Edta+ + H+ = H6Edta+2
+	-log_K	-0.5000	# +- 0.2000
+
+2 F- + H+ = HF2-
+	# dHr 15.200 kJ/mol
+	# dCpr 273.600 J/(K*mol)
+	-analytical_expression -89.432693 0.000000 3466.926187 32.906329 0.000000 0.000000
+	-log_K	3.6200
+
+2 HS- + Hg+2 = Hg(HS)2
+	-log_K	37.8000
+
+2 H2O + Hg+2 = Hg(OH)2 + 2 H+
+	# dHr 51.000 +- 1.800 kJ/mol
+	-analytical_expression 2.954763 0.000000 -2663.899445 0.000000 0.000000 0.000000
+	-log_K	-5.9800	# +- 0.0600
+
+3 H2O + Hg+2 = Hg(OH)3- + 3 H+
+	-log_K	-21.1000	# +- 0.3000
+
+2 SO4-2 + Hg+2 = Hg(SO4)2-2
+	-log_K	3.8000
+
+2 e- + 2 Hg+2 = Hg2+2
+	# dHr -173.550 +- 0.640 kJ/mol
+	-analytical_expression 0.388399 0.000000 9065.093112 0.000000 0.000000 0.000000
+	-log_K	30.7929	# +- 0.1464
+
+H2O + Hg2+2 = Hg2OH+ + H+
+	-log_K	-4.6000	# +- 0.5000
+
+Cl- + Hg+2 = HgCl+
+	# dHr -21.300 +- 0.700 kJ/mol
+	-analytical_expression 3.578423 0.000000 1112.569768 0.000000 0.000000 0.000000
+	-log_K	7.3100	# +- 0.0400
+
+2 Cl- + Hg+2 = HgCl2
+	# dHr -49.100 +- 1.000 kJ/mol
+	-analytical_expression 5.398101 0.000000 2564.656133 0.000000 0.000000 0.000000
+	-log_K	14.0000	# +- 0.0700
+
+Cl- + HgCl2 = HgCl3-
+	# dHr 0.500 +- 2.500 kJ/mol
+	-analytical_expression 1.012596 0.000000 -26.116661 0.000000 0.000000 0.000000
+	-log_K	0.9250	# +- 0.0900
+
+Cl- + HgCl3- = HgCl4-2
+	# dHr -10.500 +- 2.500 kJ/mol
+	-analytical_expression -1.229510 0.000000 548.449886 0.000000 0.000000 0.000000
+	-log_K	0.6100	# +- 0.1200
+
+HCO3- + Hg+2 = HgCO3 + H+
+	-log_K	1.1400	# +- 0.2317
+
+HCO3- + Hg+2 = HgHCO3+
+	-log_K	5.4700	# +- 0.1539
+
+HPO4-2 + Hg+2 = HgHPO4
+	-log_K	10.9000	# +- 0.6000
+
+H2O + Hg+2 = HgOH+ + H+
+	-log_K	-3.4000	# +- 0.0800
+
+H2O + Cl- + Hg+2 = HgOHCl + H+
+	-log_K	4.2700	# +- 0.3500
+
+HCO3- + Hg(OH)2 = HgOHCO3- + H2O
+	-log_K	0.9800	# +- 0.1000
+
+HPO4-2 + Hg+2 = HgPO4- + H+
+	-log_K	5.3000	# +- 0.6000
+
+2 HS- + Hg+2 = HgS(HS)- + H+
+	-log_K	31.5000	# +- 0.2000
+
+2 HS- + Hg+2 = HgS2-2 + 2 H+
+	-log_K	22.3000	# +- 0.2000
+
+SO4-2 + Hg+2 = HgSO4
+	-log_K	2.8000	# +- 0.2000
+
+IO3- + H+ = HIO3
+	-log_K	0.7880
+
+MoO4-2 + H+ = HMoO4-
+	# dHr 15.670 +- 1.980 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 6.845250 0.000000 -818.496163 0.000000 0.000000 0.000000
+	-log_K	4.1000	# +- 0.0500
+
+Nb6O19-8 + H+ = HNb6O19-7
+	-log_K	14.0000	# +- 0.4000
+
+2 CO3-2 + Ho+3 = Ho(CO3)2-
+	-log_K	12.1000	# +- 0.3000
+
+2 H2O + Ho+3 = Ho(OH)2+ + 2 H+
+	-log_K	-14.8700	# +- 0.3000
+
+3 H2O + Ho+3 = Ho(OH)3 + 3 H+
+	-log_K	-23.4700	# +- 0.3000
+
+4 H2O + Ho+3 = Ho(OH)4- + 4 H+
+	-log_K	-35.9700	# +- 0.3000
+
+SiO(OH)3- + Ho+3 = HoSiO(OH)3+2
+	# dHr 15.000 kJ/mol
+	-analytical_expression 10.427871 0.000000 -783.499837 0.000000 0.000000 0.000000
+	-log_K	7.8000	# +- 0.5000
+
+2 SO4-2 + Ho+3 = Ho(SO4)2-
+	-log_K	5.7000	# +- 0.2000
+
+CO3-2 + Ho+3 = HoCO3+
+	-log_K	8.1000	# +- 0.2000
+
+F- + Ho+3 = HoF+2
+	# dHr 9.830 +- 0.830 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 6.012132 0.000000 -513.453560 0.000000 0.000000 0.000000
+	-log_K	4.2900	# +- 0.0700
+
+2 F- + Ho+3 = HoF2+
+	# dHr 21.000 +- 1.600 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 10.409020 0.000000 -1096.899772 0.000000 0.000000 0.000000
+	-log_K	6.7300	# +- 0.3000
+
+H3PO4 + Ho+3 = HoH2PO4+2 + H+
+	# dHr 14.700 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 3.465314 0.000000 -767.829840 0.000000 0.000000 0.000000
+	-log_K	0.8900	# +- 0.1300
+
+H2O + Ho+3 = HoOH+2 + H+
+	# dHr 49.000 +- 2.900 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 1.174380 0.000000 -2559.432800 0.000000 0.000000 0.000000
+	-log_K	-7.4100	# +- 0.0700
+
+SO4-2 + Ho+3 = HoSO4+
+	-log_K	3.9500	# +- 0.0800
+
+2 HPO4-2 + H+ = HP2O7-3 + H2O
+	-log_K	6.0100
+
+4 e- + Po+2 + H+ = HPo-
+	-log_K	-14.9263
+
+3 Se + H2Se = HSe4- + H+
+	-log_K	14.6066	# +- 3.0241
+
+SO3-2 + H+ = HSO3-
+	# dHr 120.950 kJ/mol
+	-analytical_expression 28.409402 0.000000 -6317.620351 0.000000 0.000000 0.000000
+	-log_K	7.2200
+
+I2 + I- = I3-
+	-log_K	2.8700
+
+CO3-2 + K+ = KCO3-
+	# dHr 18.600 +- 5.000 kJ/mol
+	-analytical_expression 4.158560 0.000000 -971.539798 0.000000 0.000000 0.000000
+	-log_K	0.9000	# +- 0.5000
+
+Edta-4 + K+ = KEdta-3
+	-log_K	1.8000	# +- 0.3000
+
+Fe(CN)6-3 + K+ = KFe(CN)6-2
+	# dHr 2.100 +- 1.300 kJ/mol
+	-analytical_expression 1.827902 0.000000 -109.689977 0.000000 0.000000 0.000000
+	-log_K	1.4600	# +- 0.0500
+
+Fe(CN)6-4 + K+ = KFe(CN)6-3
+	# dHr 3.600 +- 1.000 kJ/mol
+	-analytical_expression 2.980689 0.000000 -188.039961 0.000000 0.000000 0.000000
+	-log_K	2.3500	# +- 0.0500
+
+H2PO4- + K+ = KH2PO4
+	# dHr 5.000 +- 8.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 1.165957 0.000000 -261.166612 0.000000 0.000000 0.000000
+	-log_K	0.2900	# +- 0.1600
+
+HCO3- + K+ = KHCO3
+	# dHr 12.500 +- 5.000 kJ/mol
+	-analytical_expression 1.849893 0.000000 -652.916531 0.000000 0.000000 0.000000
+	-log_K	-0.3400	# +- 0.5000
+
+HPO4-2 + K+ = KHPO4-
+	# dHr 18.000 +- 15.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 4.033446 0.000000 -940.199804 0.000000 0.000000 0.000000
+	-log_K	0.8800	# +- 0.0700
+
+H2O + K+ = KOH + H+
+	# dHr 59.000 +- 1.900 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -4.163706 0.000000 -3081.766025 0.000000 0.000000 0.000000
+	-log_K	-14.5000	# +- 0.4000
+
+PO4-3 + K+ = KPO4-2
+	# dHr 6.000 +- 8.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 2.511149 0.000000 -313.399935 0.000000 0.000000 0.000000
+	-log_K	1.4600	# +- 0.1600
+
+SO4-2 + K+ = KSO4-
+	# dHr 12.900 +- 1.700 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 3.099969 0.000000 -673.809860 0.000000 0.000000 0.000000
+	-log_K	0.8400	# +- 0.0500
+
+F- + Li+ = LiF
+	# dHr 6.000 +- 1.200 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 1.281149 0.000000 -313.399935 0.000000 0.000000 0.000000
+	-log_K	0.2300	# +- 0.1100
+
+H2PO4- + Li+ = LiH2PO4
+	-log_K	0.6000	# +- 0.4000
+
+HPO4-2 + Li+ = LiHPO4-
+	# dHr 20.000 +- 12.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 4.783828 0.000000 -1044.666449 0.000000 0.000000 0.000000
+	-log_K	1.2800	# +- 0.1200
+
+H2O + Li+ = LiOH + H+
+	# dHr 55.300 +- 3.700 kJ/mol
+	# dCpr -64.100 +- 34.600 J/(K*mol)
+	-analytical_expression 18.272684 0.000000 -3886.755434 -7.709414 0.000000 0.000000
+	-log_K	-13.8400	# +- 0.1400
+
+PO4-3 + Li+ = LiPO4-2
+	-log_K	1.8000	# +- 0.3000
+
+SO4-2 + Li+ = LiSO4-
+	# dHr 0.000 kJ/mol
+	-analytical_expression 0.900000 0.000000 0.000000 0.000000 0.000000 0.000000
+	-log_K	0.9000	# +- 0.3000
+
+Cit-3 + Mg+2 = Mg(Cit)-
+	-log_K	4.8100	# +- 0.0300
+
+Edta-4 + Mg+2 = Mg(Edta)-2
+	# dHr 19.800 +- 0.400 kJ/mol
+	-analytical_expression 14.368790 0.000000 -1034.219785 0.000000 0.000000 0.000000
+	-log_K	10.9000	# +- 0.1000
+
+H2Cit- + Mg+2 = Mg(H2Cit)+
+	-log_K	1.3100	# +- 0.1600
+
+HCit-2 + Mg+2 = Mg(HCit)
+	-log_K	2.6000	# +- 0.0700
+
+H+ + Mg(Edta)-2 = Mg(HEdta)-
+	-log_K	4.5000	# +- 0.2000
+
+Oxa-2 + Mg+2 = Mg(Oxa)
+	-log_K	3.5600	# +- 0.0400
+
+2 Oxa-2 + Mg+2 = Mg(Oxa)2-2
+	-log_K	5.1700	# +- 0.0800
+
+UO2+2 + 3 CO3-2 + 2 Mg+2 = Mg2UO2(CO3)3
+	-log_K	27.1000	# +- 0.6000
+
+CO3-2 + Mg+2 = MgCO3
+	# dHr 11.000 +- 1.100 kJ/mol
+	# dCpr 90.000 +- 44.000 J/(K*mol)
+	-analytical_expression -26.578290 0.000000 827.036311 10.824450 0.000000 0.000000
+	-log_K	2.9800	# +- 0.0300
+
+F- + Mg+2 = MgF+
+	# dHr 10.500 +- 1.000 kJ/mol
+	# dCpr -30.500 +- 7.300 J/(K*mol)
+	-analytical_expression 14.389561 0.000000 -1023.437521 -3.668286 0.000000 0.000000
+	-log_K	1.8800	# +- 0.0500
+
+H2PO4- + Mg+2 = MgH2PO4+
+	-log_K	1.1100	# +- 0.2000
+
+HCO3- + Mg+2 = MgHCO3+
+	# dHr 3.250 +- 0.220 kJ/mol
+	# dCpr 175.700 +- 8.800 J/(K*mol)
+	-analytical_expression -59.827117 0.000000 2566.481948 21.131732 0.000000 0.000000
+	-log_K	1.0700	# +- 0.0300
+
+HPO4-2 + Mg+2 = MgHPO4
+	# dHr 13.300 +- 7.400 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 5.060046 0.000000 -694.703189 0.000000 0.000000 0.000000
+	-log_K	2.7300	# +- 0.0600
+
+H2O + Mg+2 = MgOH+ + H+
+	# dHr 70.800 +- 0.700 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 0.703553 0.000000 -3698.119230 0.000000 0.000000 0.000000
+	-log_K	-11.7000	# +- 0.0400
+
+PO4-3 + Mg+2 = MgPO4-
+	-log_K	4.9000	# +- 0.5000
+
+SeO4-2 + Mg+2 = MgSeO4
+	-log_K	2.2000	# +- 0.2000
+
+SiO(OH)3- + Mg+2 = MgSiO(OH)3+
+	-log_K	1.3600	# +- 0.1400
+
+SiO2(OH)2-2 + Mg+2 = MgSiO2(OH)2
+	-log_K	5.5200	# +- 0.1600
+
+SO4-2 + Mg+2 = MgSO4
+	# dHr 20.300 +- 2.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 5.806386 0.000000 -1060.336446 0.000000 0.000000 0.000000
+	-log_K	2.2500	# +- 0.0500
+
+UO2+2 + 3 CO3-2 + Mg+2 = MgUO2(CO3)3-2
+	-log_K	26.2000	# +- 0.2000
+
+2 H2O + Mn+2 = Mn(OH)2 + 2 H+
+	# dHr 117.400 +- 2.600 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -1.612527 0.000000 -6132.192056 0.000000 0.000000 0.000000
+	-log_K	-22.1800	# +- 0.2000
+
+2 H2O + Mn+3 = Mn(OH)2+ + 2 H+
+	-log_K	1.5000	# +- 0.5000
+
+3 H2O + Mn+2 = Mn(OH)3- + 3 H+
+	# dHr 171.900 +- 3.100 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -4.224595 0.000000 -8978.908130 0.000000 0.000000 0.000000
+	-log_K	-34.3400	# +- 0.4500
+
+4 H2O + Mn+2 = Mn(OH)4-2 + 4 H+
+	# dHr 256.400 +- 5.200 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -3.360919 0.000000 -13392.623878 0.000000 0.000000 0.000000
+	-log_K	-48.2800	# +- 0.4000
+
+Cl- + Mn+2 = MnCl+
+	# dHr 11.500 +- 3.500 kJ/mol
+	# dCpr 323.000 +- 40.000 J/(K*mol)
+	-analytical_expression -110.882885 0.000000 4429.513716 38.847749 0.000000 0.000000
+	-log_K	0.1000	# +- 0.5000
+
+Cl- + Mn+3 = MnCl+2
+	# dHr 22.500 +- 10.000 kJ/mol
+	-analytical_expression 4.741807 0.000000 -1175.249755 0.000000 0.000000 0.000000
+	-log_K	0.8000	# +- 0.5000
+
+CO3-2 + Mn+2 = MnCO3
+	# dHr 16.000 +- 6.000 kJ/mol
+	-analytical_expression 7.403063 0.000000 -835.733159 0.000000 0.000000 0.000000
+	-log_K	4.6000	# +- 0.1700
+
+F- + Mn+2 = MnF+
+	# dHr 15.100 +- 1.600 kJ/mol
+	-analytical_expression 3.995390 0.000000 -788.723169 0.000000 0.000000 0.000000
+	-log_K	1.3500	# +- 0.1800
+
+F- + Mn+3 = MnF+2
+	# dHr 4.800 +- 1.000 kJ/mol
+	-analytical_expression 7.440919 0.000000 -250.719948 0.000000 0.000000 0.000000
+	-log_K	6.6000	# +- 0.5000
+
+2 F- + Mn+3 = MnF2+
+	# dHr 8.100 +- 1.000 kJ/mol
+	-analytical_expression 13.319051 0.000000 -423.089912 0.000000 0.000000 0.000000
+	-log_K	11.9000	# +- 0.5000
+
+3 F- + Mn+3 = MnF3
+	# dHr 8.900 +- 1.000 kJ/mol
+	-analytical_expression 16.859204 0.000000 -464.876570 0.000000 0.000000 0.000000
+	-log_K	15.3000	# +- 0.6000
+
+HCO3- + Mn+2 = MnHCO3+
+	# dHr 4.200 +- 1.400 kJ/mol
+	# dCpr 231.000 +- 90.000 J/(K*mol)
+	-analytical_expression -78.806711 0.000000 3378.067382 27.782756 0.000000 0.000000
+	-log_K	1.2700	# +- 0.0500
+
+H2O + Mn+2 = MnOH+ + H+
+	# dHr 57.300 +- 1.100 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -0.541532 0.000000 -2992.969377 0.000000 0.000000 0.000000
+	-log_K	-10.5800	# +- 0.0400
+
+H2O + Mn+3 = MnOH+2 + H+
+	# dHr 22.900 +- 5.500 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 5.211884 0.000000 -1196.143084 0.000000 0.000000 0.000000
+	-log_K	1.2000	# +- 0.4000
+
+H2O + F- + Mn+3 = MnOHF+ + H+
+	-log_K	7.3000	# +- 0.5000
+
+SeO4-2 + Mn+2 = MnSeO4
+	-log_K	2.4300	# +- 0.0500
+
+SO4-2 + Mn+2 = MnSO4
+	# dHr 12.700 +- 1.100 kJ/mol
+	# dCpr 180.000 +- 23.000 J/(K*mol)
+	-analytical_expression -58.515860 0.000000 2139.842521 21.648901 0.000000 0.000000
+	-log_K	2.2300	# +- 0.0500
+
+Edta-4 + Na+ = Na(Edta)-3
+	# dHr -4.000 +- 3.000 kJ/mol
+	-analytical_expression 2.099234 0.000000 208.933290 0.000000 0.000000 0.000000
+	-log_K	2.8000	# +- 0.2000
+
+CO3-2 + Na+ = NaCO3-
+	# dHr 18.000 +- 4.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 4.163446 0.000000 -940.199804 0.000000 0.000000 0.000000
+	-log_K	1.0100	# +- 0.2000
+
+F- + Na+ = NaF
+	# dHr 13.600 +- 2.200 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 2.102603 0.000000 -710.373185 0.000000 0.000000 0.000000
+	-log_K	-0.2800	# +- 0.1300
+
+H2PO4- + Na+ = NaH2PO4
+	# dHr 17.000 +- 8.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 3.278254 0.000000 -887.966482 0.000000 0.000000 0.000000
+	-log_K	0.3000	# +- 0.1700
+
+HCO3- + Na+ = NaHCO3
+	# dHr 11.600 +- 4.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 1.852220 0.000000 -605.906541 0.000000 0.000000 0.000000
+	-log_K	-0.1800	# +- 0.2500
+
+HPO4-2 + Na+ = NaHPO4-
+	# dHr 23.000 +- 15.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 5.059403 0.000000 -1201.366417 0.000000 0.000000 0.000000
+	-log_K	1.0300	# +- 0.0700
+
+H2O + Na+ = NaOH + H+
+	# dHr 51.900 +- 1.800 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -5.307565 0.000000 -2710.909436 0.000000 0.000000 0.000000
+	-log_K	-14.4000	# +- 0.2000
+
+PO4-3 + Na+ = NaPO4-2
+	# dHr 7.000 +- 8.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 2.786340 0.000000 -365.633257 0.000000 0.000000 0.000000
+	-log_K	1.5600	# +- 0.1700
+
+SO4-2 + Na+ = NaSO4-
+	# dHr 4.700 +- 3.300 kJ/mol
+	-analytical_expression 1.533400 0.000000 -245.496616 0.000000 0.000000 0.000000
+	-log_K	0.7100	# +- 0.0500
+
+2 H2O + Nb(OH)4+ = Nb(OH)6- + 2 H+
+	# dHr 26.000 +- 9.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -2.135023 0.000000 -1358.066384 0.000000 0.000000 0.000000
+	-log_K	-6.6900	# +- 0.1400
+
+3 H2O + Nb(OH)4+ = Nb(OH)7-2 + 3 H+
+	# dHr 63.000 +- 22.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -5.052940 0.000000 -3290.699315 0.000000 0.000000 0.000000
+	-log_K	-16.0900	# +- 0.3400
+
+NH4+ = NH3 + H+
+	# dHr 52.090 kJ/mol
+	-analytical_expression -0.111279 0.000000 -2720.833767 0.000000 0.000000 0.000000
+	-log_K	-9.2370
+
+Cit-3 + Ni+2 = Ni(Cit)-
+	-log_K	6.7600	# +- 0.0800
+
+2 Cit-3 + Ni+2 = Ni(Cit)2-4
+	-log_K	8.5000	# +- 0.4000
+
+4 CN- + Ni+2 = Ni(CN)4-2
+	# dHr -180.700 +- 4.000 kJ/mol
+	-analytical_expression -1.457090 0.000000 9438.561368 0.000000 0.000000 0.000000
+	-log_K	30.2000	# +- 0.1200
+
+5 CN- + Ni+2 = Ni(CN)5-3
+	# dHr -191.100 +- 8.000 kJ/mol
+	-analytical_expression -4.979081 0.000000 9981.787922 0.000000 0.000000 0.000000
+	-log_K	28.5000	# +- 0.5000
+
+2 CO3-2 + Ni+2 = Ni(CO3)2-2
+	-log_K	6.0000
+
+Edta-4 + Ni+2 = Ni(Edta)-2
+	# dHr -26.100 +- 0.400 kJ/mol
+	-analytical_expression 15.967504 0.000000 1363.289716 0.000000 0.000000 0.000000
+	-log_K	20.5400	# +- 0.1300
+
+H2Cit- + Ni+2 = Ni(H2Cit)+
+	-log_K	2.0500	# +- 0.2500
+
+H3Isa- + Ni+2 = Ni(H3Isa)+
+	-log_K	2.4000
+
+HCit-2 + Ni+2 = Ni(HCit)
+	-log_K	4.1600	# +- 0.1000
+
+H+ + Ni(Edta)-2 = Ni(HEdta)-
+	# dHr -7.500 +- 1.300 kJ/mol
+	-analytical_expression 2.346064 0.000000 391.749918 0.000000 0.000000 0.000000
+	-log_K	3.6600	# +- 0.1600
+
+2 HS- + Ni+2 = Ni(HS)2
+	-log_K	11.1000	# +- 0.1000
+
+2 NH3 + Ni+2 = Ni(NH3)2+2
+	-log_K	4.9000
+
+3 NH3 + Ni+2 = Ni(NH3)3+2
+	-log_K	6.5000
+
+4 NH3 + Ni+2 = Ni(NH3)4+2
+	-log_K	7.6000
+
+5 NH3 + Ni+2 = Ni(NH3)5+2
+	-log_K	8.3000
+
+6 NH3 + Ni+2 = Ni(NH3)6+2
+	-log_K	8.2000
+
+2 H2O + Ni+2 = Ni(OH)2 + 2 H+
+	# dHr 90.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -2.232772 0.000000 -4700.999021 0.000000 0.000000 0.000000
+	-log_K	-18.0000
+
+3 H2O + Ni+2 = Ni(OH)3- + 3 H+
+	# dHr 121.200 +- 6.500 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -7.966800 0.000000 -6330.678682 0.000000 0.000000 0.000000
+	-log_K	-29.2000	# +- 1.7000
+
+Oxa-2 + Ni+2 = Ni(Oxa)
+	# dHr 0.000 +- 0.300 kJ/mol
+	-analytical_expression 5.190000 0.000000 0.000000 0.000000 0.000000 0.000000
+	-log_K	5.1900	# +- 0.0400
+
+2 Oxa-2 + Ni+2 = Ni(Oxa)2-2
+	# dHr -7.800 +- 0.300 kJ/mol
+	-analytical_expression 6.273507 0.000000 407.419915 0.000000 0.000000 0.000000
+	-log_K	7.6400	# +- 0.0700
+
+2 SCN- + Ni+2 = Ni(SCN)2
+	# dHr -21.000 +- 8.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -0.989020 0.000000 1096.899772 0.000000 0.000000 0.000000
+	-log_K	2.6900	# +- 0.0700
+
+3 SCN- + Ni+2 = Ni(SCN)3-
+	# dHr -29.000 +- 10.000 kJ/mol
+	-analytical_expression -2.060551 0.000000 1514.766351 0.000000 0.000000 0.000000
+	-log_K	3.0200	# +- 0.1800
+
+4 e- + HCN + 5 H+ + SeO3-2 = SeCN- + 3 H2O
+	-log_K	57.3000	# +- 0.6000
+
+2 SeCN- + Ni+2 = Ni(SeCN)2
+	# dHr -25.000 +- 4.000 kJ/mol
+	-analytical_expression -2.139786 0.000000 1305.833061 0.000000 0.000000 0.000000
+	-log_K	2.2400	# +- 0.1400
+
+H2O + 2 Ni+2 = Ni2OH+3 + H+
+	# dHr 45.900 +- 6.000 kJ/mol
+	-analytical_expression -2.558714 0.000000 -2397.509501 0.000000 0.000000 0.000000
+	-log_K	-10.6000	# +- 1.0000
+
+4 H2O + 4 Ni+2 = Ni4(OH)4+4 + 4 H+
+	# dHr 190.000 +- 10.000 kJ/mol
+	-analytical_expression 5.766370 0.000000 -9924.331267 0.000000 0.000000 0.000000
+	-log_K	-27.5200	# +- 0.1500
+
+Cl- + Ni+2 = NiCl+
+	-log_K	0.0800	# +- 0.6000
+
+CO3-2 + Ni+2 = NiCO3
+	-log_K	4.2000	# +- 0.4000
+
+F- + Ni+2 = NiF+
+	# dHr 9.500 +- 3.000 kJ/mol
+	-analytical_expression 3.094319 0.000000 -496.216563 0.000000 0.000000 0.000000
+	-log_K	1.4300	# +- 0.0800
+
+HAsO4-2 + Ni+2 = NiHAsO4
+	-log_K	2.9000	# +- 0.3000
+
+HCO3- + Ni+2 = NiHCO3+
+	-log_K	1.0000
+
+HP2O7-3 + Ni+2 = NiHP2O7-
+	# dHr 47.900 +- 15.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 13.531669 0.000000 -2501.976146 0.000000 0.000000 0.000000
+	-log_K	5.1400	# +- 0.2500
+
+HPO4-2 + Ni+2 = NiHPO4
+	-log_K	3.0500	# +- 0.0900
+
+HS- + Ni+2 = NiHS+
+	-log_K	5.5000	# +- 0.2000
+
+NH3 + Ni+2 = NiNH3+2
+	-log_K	2.7000
+
+NO3- + Ni+2 = NiNO3+
+	-log_K	0.5000	# +- 1.0000
+
+H2O + Ni+2 = NiOH+ + H+
+	# dHr 53.800 +- 1.700 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -0.114701 0.000000 -2810.152748 0.000000 0.000000 0.000000
+	-log_K	-9.5400	# +- 0.1400
+
+2 HPO4-2 = P2O7-4 + H2O
+	-log_K	-3.3900
+
+P2O7-4 + Ni+2 = NiP2O7-2
+	# dHr 30.600 +- 10.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 14.090858 0.000000 -1598.339667 0.000000 0.000000 0.000000
+	-log_K	8.7300	# +- 0.2500
+
+SCN- + Ni+2 = NiSCN+
+	# dHr -11.800 +- 5.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -0.257259 0.000000 616.353205 0.000000 0.000000 0.000000
+	-log_K	1.8100	# +- 0.0400
+
+SeCN- + Ni+2 = NiSeCN+
+	# dHr -12.800 +- 0.400 kJ/mol
+	-analytical_expression -0.472450 0.000000 668.586527 0.000000 0.000000 0.000000
+	-log_K	1.7700	# +- 0.0600
+
+SeO4-2 + Ni+2 = NiSeO4
+	-log_K	2.6700	# +- 0.0500
+
+SiO(OH)3- + Ni+2 = NiSiO(OH)3+
+	-log_K	6.3000
+
+SO4-2 + Ni+2 = NiSO4
+	# dHr 5.660 +- 0.810 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 3.341583 0.000000 -295.640605 0.000000 0.000000 0.000000
+	-log_K	2.3500	# +- 0.0300
+
+2 CO3-2 + Np+3 = Np(CO3)2-
+	-log_K	12.9000
+
+3 CO3-2 + Np+3 = Np(CO3)3-3
+	-log_K	15.0000
+
+4 CO3-2 + Np+4 = Np(CO3)4-4
+	-log_K	38.9000	# +- 0.5000
+
+5 CO3-2 + Np+4 = Np(CO3)5-6
+	-log_K	37.8000	# +- 0.6000
+
+Edta-4 + Np+4 = Np(Edta)
+	-log_K	31.2000	# +- 0.6000
+
+2 HCO3- + 2 H2O + Np+4 = Np(OH)2(CO3)2-2 + 4 H+
+	-log_K	-2.2000	# +- 0.5000
+
+2 H2O + Np+3 = Np(OH)2+ + 2 H+
+	-log_K	-14.7000
+
+2 H2O + Np+4 = Np(OH)2+2 + 2 H+
+	-log_K	0.3500	# +- 0.3000
+
+3 H2O + Np+3 = Np(OH)3 + 3 H+
+	-log_K	-25.8000
+
+3 OH- + H3Isa- + Np+4 = Np(OH)3(H3Isa)
+	-log_K	43.5000
+
+H3Isa- + Np(OH)3(H3Isa) = Np(OH)3(H3Isa)2-
+	-log_K	2.1000
+
+3 H2O + Np+4 = Np(OH)3+ + 3 H+
+	-log_K	-2.8000	# +- 1.0000
+
+4 H2O + Np+4 = Np(OH)4 + 4 H+
+	-log_K	-8.3000	# +- 1.1000
+
+4 OH- + H3Isa- + Np+4 = Np(OH)4(H3Isa)-
+	-log_K	50.1000
+
+H3Isa- + Np(OH)4(H3Isa)- = Np(OH)4(H3Isa)2-2
+	-log_K	1.9000
+
+4 H2O + CO3-2 + Np+4 = Np(OH)4CO3-2 + 4 H+
+	-log_K	-5.5000	# +- 0.5000
+
+H2Oxa + Np+4 = Np(Oxa)+2 + 2 H+
+	-log_K	6.5000
+
+2 H2Oxa + Np+4 = Np(Oxa)2 + 4 H+
+	-log_K	7.5000
+
+3 H2Oxa + Np+4 = Np(Oxa)3-2 + 6 H+
+	-log_K	8.0000
+
+2 SCN- + Np+4 = Np(SCN)2+2
+	# dHr -9.000 +- 9.000 kJ/mol
+	-analytical_expression 2.523277 0.000000 470.099902 0.000000 0.000000 0.000000
+	-log_K	4.1000	# +- 0.5000
+
+3 SCN- + Np+4 = Np(SCN)3+
+	# dHr -13.000 +- 9.000 kJ/mol
+	-analytical_expression 2.522512 0.000000 679.033192 0.000000 0.000000 0.000000
+	-log_K	4.8000	# +- 0.5000
+
+2 SO4-2 + Np+3 = Np(SO4)2-
+	-log_K	3.7000
+
+2 SO4-2 + Np+4 = Np(SO4)2
+	# dHr 55.400 +- 3.900 kJ/mol
+	-analytical_expression 20.755605 0.000000 -2893.726064 0.000000 0.000000 0.000000
+	-log_K	11.0500	# +- 0.2700
+
+Cl- + Np+3 = NpCl+2
+	-log_K	0.2400
+
+Cl- + Np+4 = NpCl+3
+	-log_K	1.5000	# +- 0.3000
+
+2 Cl- + Np+3 = NpCl2+
+	-log_K	-0.7400
+
+CO3-2 + Np+3 = NpCO3+
+	-log_K	8.0000
+
+F- + Np+3 = NpF+2
+	-log_K	3.4000
+
+F- + Np+4 = NpF+3
+	# dHr 1.500 +- 2.000 kJ/mol
+	-analytical_expression 9.222787 0.000000 -78.349984 0.000000 0.000000 0.000000
+	-log_K	8.9600	# +- 0.1400
+
+2 F- + Np+3 = NpF2+
+	-log_K	5.8000
+
+2 F- + Np+4 = NpF2+2
+	-log_K	15.7000	# +- 0.3000
+
+I- + Np+4 = NpI+3
+	-log_K	1.5000	# +- 0.4000
+
+NO3- + Np+4 = NpNO3+3
+	-log_K	1.9000	# +- 0.1500
+
+2 CO3-2 + NpO2+2 = NpO2(CO3)2-2
+	-log_K	15.0000
+
+2 CO3-2 + NpO2+ = NpO2(CO3)2-3
+	-log_K	6.5300	# +- 0.1000
+
+H2O + 2 CO3-2 + NpO2+ = NpO2(CO3)2OH-4 + H+
+	-log_K	-5.3000	# +- 1.1700
+
+3 CO3-2 + NpO2+2 = NpO2(CO3)3-4
+	# dHr -41.900 +- 4.100 kJ/mol
+	-analytical_expression 12.559479 0.000000 2188.576211 0.000000 0.000000 0.000000
+	-log_K	19.9000	# +- 0.5000
+
+3 CO3-2 + NpO2+ = NpO2(CO3)3-5
+	# dHr -13.300 +- 5.100 kJ/mol
+	-analytical_expression 3.169954 0.000000 694.703189 0.000000 0.000000 0.000000
+	-log_K	5.5000	# +- 0.1500
+
+H2Edta-2 + NpO2+ = NpO2(H2Edta)-
+	-log_K	4.4700	# +- 0.1400
+
+HEdta-3 + NpO2+ = NpO2(HEdta)-2
+	-log_K	5.8200	# +- 0.1100
+
+2 HPO4-2 + NpO2+2 = NpO2(HPO4)2-2
+	-log_K	9.5000	# +- 1.0000
+
+H2O + NpO2+ = NpO2(OH) + H+
+	# dHr 64.784 kJ/mol
+	-analytical_expression 0.049601 0.000000 -3383.883562 0.000000 0.000000 0.000000
+	-log_K	-11.3000	# +- 0.7000
+
+2 H2O + NpO2+ = NpO2(OH)2- + 2 H+
+	# dHr 118.610 kJ/mol
+	-analytical_expression -2.820545 0.000000 -6195.394377 0.000000 0.000000 0.000000
+	-log_K	-23.6000	# +- 0.5000
+
+2 H2O + NpO2+2 = NpO2(OH)2 + 2 H+
+	-log_K	-12.2000
+
+3 H2O + NpO2+2 = NpO2(OH)3- + 3 H+
+	-log_K	-21.2000	# +- 1.1000
+
+4 H2O + NpO2+2 = NpO2(OH)4-2 + 4 H+
+	-log_K	-33.0000	# +- 1.1000
+
+2 Oxa-2 + NpO2+ = NpO2(Oxa)2-3
+	-log_K	5.8000	# +- 0.2000
+
+2 SO4-2 + NpO2+2 = NpO2(SO4)2-2
+	# dHr 26.000 +- 1.200 kJ/mol
+	-analytical_expression 9.254977 0.000000 -1358.066384 0.000000 0.000000 0.000000
+	-log_K	4.7000	# +- 0.1000
+
+Cit-3 + NpO2+ = NpO2Cit-2
+	-log_K	3.6800	# +- 0.0500
+
+Cl- + NpO2+2 = NpO2Cl+
+	-log_K	0.4000	# +- 0.1700
+
+CO3-2 + NpO2+ = NpO2CO3-
+	-log_K	4.9600	# +- 0.0600
+
+CO3-2 + NpO2+2 = NpO2CO3
+	-log_K	9.8600	# +- 0.1000
+
+2 H2O + CO3-2 + NpO2+ = NpO2CO3(OH)2-3 + 2 H+
+	-log_K	-20.3400	# +- 0.1500
+
+H2O + CO3-2 + NpO2+ = NpO2CO3OH-2 + H+
+	-log_K	-7.0000	# +- 0.3000
+
+Edta-4 + NpO2+ = NpO2Edta-3
+	-log_K	9.2300	# +- 0.1300
+
+H2O + NpO2Edta-3 = NpO2EdtaOH-4 + H+
+	-log_K	-12.4000
+
+F- + NpO2+ = NpO2F
+	-log_K	1.4000	# +- 0.3000
+
+F- + NpO2+2 = NpO2F+
+	-log_K	4.5700	# +- 0.0700
+
+2 F- + NpO2+ = NpO2F2-
+	-log_K	1.9000	# +- 0.4000
+
+2 F- + NpO2+2 = NpO2F2
+	-log_K	7.6000	# +- 0.0800
+
+H2PO4- + NpO2+ = NpO2H2PO4
+	-log_K	1.4000	# +- 0.2000
+
+H2PO4- + NpO2+2 = NpO2H2PO4+
+	-log_K	3.3200	# +- 0.5000
+
+HPO4-2 + NpO2+ = NpO2HPO4-
+	# dHr -11.000 +- 11.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 1.022894 0.000000 574.566547 0.000000 0.000000 0.000000
+	-log_K	2.9500	# +- 0.1000
+
+HPO4-2 + NpO2+2 = NpO2HPO4
+	-log_K	6.2000	# +- 0.7000
+
+IO3- + NpO2+ = NpO2IO3
+	-log_K	0.5000	# +- 0.3000
+
+IO3- + NpO2+2 = NpO2IO3+
+	-log_K	1.2000	# +- 0.3000
+
+H2O + NpO2+2 = NpO2OH+ + H+
+	-log_K	-5.1000	# +- 0.4000
+
+Oxa-2 + NpO2+ = NpO2Oxa-
+	-log_K	3.9000	# +- 0.1000
+
+SCN- + NpO2+ = NpO2SCN
+	-log_K	0.0800	# +- 0.3000
+
+SiO(OH)3- + NpO2+ = NpO2SiO(OH)3
+	-log_K	2.5000	# +- 0.3000
+
+SiO(OH)3- + NpO2+2 = NpO2SiO(OH)3+
+	-log_K	7.2000
+
+SO4-2 + NpO2+ = NpO2SO4-
+	# dHr 22.000 +- 7.000 kJ/mol
+	-analytical_expression 5.154211 0.000000 -1149.133094 0.000000 0.000000 0.000000
+	-log_K	1.3000	# +- 0.2000
+
+SO4-2 + NpO2+2 = NpO2SO4
+	# dHr 16.700 +- 0.500 kJ/mol
+	-analytical_expression 6.205697 0.000000 -872.296485 0.000000 0.000000 0.000000
+	-log_K	3.2800	# +- 0.0600
+
+H2O + Np+3 = NpOH+2 + H+
+	-log_K	-6.8000	# +- 0.3000
+
+H2O + Np+4 = NpOH+3 + H+
+	-log_K	0.5500	# +- 0.2000
+
+SCN- + Np+4 = NpSCN+3
+	# dHr -7.000 +- 3.000 kJ/mol
+	-analytical_expression 1.773660 0.000000 365.633257 0.000000 0.000000 0.000000
+	-log_K	3.0000	# +- 0.3000
+
+SiO(OH)3- + Np+3 = NpSiO(OH)3+2
+	# dHr 15.000 kJ/mol
+	-analytical_expression 10.427871 0.000000 -783.499837 0.000000 0.000000 0.000000
+	-log_K	7.8000	# +- 0.5000
+
+SiO(OH)3- + Np+4 = NpSiO(OH)3+3
+	-log_K	11.1500	# +- 0.1800
+
+SO4-2 + Np+3 = NpSO4+
+	-log_K	3.3000
+
+SO4-2 + Np+4 = NpSO4+2
+	# dHr 29.800 +- 8.900 kJ/mol
+	-analytical_expression 12.070704 0.000000 -1556.553009 0.000000 0.000000 0.000000
+	-log_K	6.8500	# +- 0.1600
+
+2 H2O + Pa+4 = Pa(OH)2+2 + 2 H+
+	-log_K	1.9000	# +- 0.5000
+
+3 H2O + Pa+4 = Pa(OH)3+ + 3 H+
+	-log_K	0.9000	# +- 0.5000
+
+H2O + PaO(OH)+2 = PaO(OH)2+ + H+
+	# dHr 4.700 +- 2.500 kJ/mol
+	-analytical_expression -0.436600 0.000000 -245.496616 0.000000 0.000000 0.000000
+	-log_K	-1.2600	# +- 0.1400
+
+H2O + PaO(OH)2+ = PaO(OH)3 + H+
+	# dHr 57.000 +- 35.000 kJ/mol
+	-analytical_expression 4.945911 0.000000 -2977.299380 0.000000 0.000000 0.000000
+	-log_K	-5.0400	# +- 0.3500
+
+H2O + PaO(OH)3 = PaO(OH)4- + H+
+	-log_K	-9.4000	# +- 0.2000
+
+2 SO4-2 + H+ + PaO(OH)+2 = PaO(SO4)2- + H2O
+	-log_K	7.0000	# +- 0.2000
+
+3 SO4-2 + H+ + PaO(OH)+2 = PaO(SO4)3-3 + H2O
+	-log_K	8.5900	# +- 0.2300
+
+H+ + PaO(OH)+2 = PaO+3 + H2O
+	-log_K	0.0400	# +- 0.3600
+
+HF + PaO(OH)+2 = PaOF+2 + H2O
+	-log_K	3.8000	# +- 0.5000
+
+2 HF + PaO(OH)+2 = PaOF2+ + H+ + H2O
+	-log_K	7.9000	# +- 0.5000
+
+3 HF + PaO(OH)+2 = PaOF3 + 2 H+ + H2O
+	-log_K	10.9000	# +- 0.5000
+
+H2O + Pa+4 = PaOH+3 + H+
+	-log_K	1.3000	# +- 0.5000
+
+SO4-2 + H+ + PaO(OH)+2 = PaOSO4+ + H2O
+	-log_K	3.8900	# +- 0.1800
+
+2 CO3-2 + Pb+2 = Pb(CO3)2-2
+	-log_K	10.1300	# +- 0.2400
+
+Cl- + CO3-2 + Pb+2 = Pb(CO3)Cl-
+	-log_K	6.4700	# +- 0.1600
+
+OH- + CO3-2 + Pb+2 = Pb(CO3)OH-
+	-log_K	10.9000	# +- 0.2000
+
+2 HPO4-2 + Pb+2 = Pb(HPO4)2-2
+	-log_K	6.5000
+
+2 HS- + Pb+2 = Pb(HS)2
+	-log_K	12.5000
+
+2 H2O + Pb+2 = Pb(OH)2 + 2 H+
+	# dHr 90.000 +- 0.900 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -1.172772 0.000000 -4700.999021 0.000000 0.000000 0.000000
+	-log_K	-16.9400	# +- 0.0900
+
+3 H2O + Pb+2 = Pb(OH)3- + 3 H+
+	# dHr 135.800 +- 3.000 kJ/mol
+	# dCpr 251.000 +- 36.000 J/(K*mol)
+	-analytical_expression -92.048275 0.000000 -3184.370552 30.188189 0.000000 0.000000
+	-log_K	-28.0300	# +- 0.0600
+
+2 SO4-2 + Pb+2 = Pb(SO4)2-2
+	# dHr 18.400 +- 1.000 kJ/mol
+	-analytical_expression 6.373522 0.000000 -961.093133 0.000000 0.000000 0.000000
+	-log_K	3.1500	# +- 0.5000
+
+H2O + 2 Pb+2 = Pb2OH+3 + H+
+	-log_K	-6.7300	# +- 0.3100
+
+4 H2O + 3 Pb+2 = Pb3(OH)4+2 + 4 H+
+	# dHr 111.400 +- 5.600 kJ/mol
+	-analytical_expression -3.493676 0.000000 -5818.792122 0.000000 0.000000 0.000000
+	-log_K	-23.0100	# +- 0.0700
+
+4 H2O + 4 Pb+2 = Pb4(OH)4+4 + 4 H+
+	# dHr 85.000 +- 2.000 kJ/mol
+	-analytical_expression -5.678729 0.000000 -4439.832409 0.000000 0.000000 0.000000
+	-log_K	-20.5700	# +- 0.0600
+
+8 H2O + 6 Pb+2 = Pb6(OH)8+4 + 8 H+
+	# dHr 210.900 +- 7.100 kJ/mol
+	-analytical_expression -5.942129 0.000000 -11016.007706 0.000000 0.000000 0.000000
+	-log_K	-42.8900	# +- 0.0700
+
+Cl- + Pb+2 = PbCl+
+	# dHr 10.300 +- 1.500 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 3.304472 0.000000 -538.003221 0.000000 0.000000 0.000000
+	-log_K	1.5000	# +- 0.0300
+
+2 Cl- + Pb+2 = PbCl2
+	# dHr 17.000 +- 0.600 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 5.078254 0.000000 -887.966482 0.000000 0.000000 0.000000
+	-log_K	2.1000	# +- 0.0500
+
+3 Cl- + Pb+2 = PbCl3-
+	# dHr 14.700 +- 1.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 4.575314 0.000000 -767.829840 0.000000 0.000000 0.000000
+	-log_K	2.0000	# +- 0.1000
+
+4 Cl- + Pb+2 = PbCl4-2
+	# dHr 14.000 +- 5.000 kJ/mol
+	-analytical_expression 3.912680 0.000000 -731.266514 0.000000 0.000000 0.000000
+	-log_K	1.4600	# +- 0.1000
+
+CO3-2 + Pb+2 = PbCO3
+	-log_K	6.4500	# +- 0.7000
+
+H2PO4- + Pb+2 = PbH2PO4+
+	-log_K	2.8000
+
+HCO3- + Pb+2 = PbHCO3+
+	-log_K	3.0000	# +- 0.4000
+
+HPO4-2 + Pb+2 = PbHPO4
+	-log_K	4.2000	# +- 0.2000
+
+H2O + Pb+2 = PbOH+ + H+
+	# dHr 56.000 +- 1.500 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 2.350720 0.000000 -2925.066058 0.000000 0.000000 0.000000
+	-log_K	-7.4600	# +- 0.0600
+
+2 HS- + Pb+2 = PbS(HS)- + H+
+	-log_K	6.1000
+
+SO4-2 + Pb+2 = PbSO4
+	# dHr 9.200 +- 0.500 kJ/mol
+	-analytical_expression 4.331761 0.000000 -480.546567 0.000000 0.000000 0.000000
+	-log_K	2.7200	# +- 0.0500
+
+2 NH3 + Pd+2 = Pd(NH3)2+2
+	-log_K	18.5000	# +- 0.2000
+
+3 NH3 + Pd+2 = Pd(NH3)3+2
+	-log_K	26.0000	# +- 0.2000
+
+4 NH3 + Pd+2 = Pd(NH3)4+2
+	-log_K	32.8000	# +- 0.2000
+
+2 H2O + Pd+2 = Pd(OH)2 + 2 H+
+	-log_K	-4.6000
+
+3 H2O + Pd+2 = Pd(OH)3- + 3 H+
+	-log_K	-16.6000
+
+Cl- + Pd+2 = PdCl+
+	# dHr -18.600 +- 0.800 kJ/mol
+	# dCpr 121.000 +- 21.000 J/(K*mol)
+	-analytical_expression -40.568926 0.000000 2855.916974 14.552872 0.000000 0.000000
+	-log_K	5.0200	# +- 0.0400
+
+Cl- + PdCl+ = PdCl2
+	# dHr -10.900 +- 1.200 kJ/mol
+	# dCpr 124.000 +- 32.000 J/(K*mol)
+	-analytical_expression -41.839465 0.000000 2500.440486 14.913687 0.000000 0.000000
+	-log_K	3.4500	# +- 0.0600
+
+Cl- + PdCl2 = PdCl3-
+	# dHr -3.500 +- 1.100 kJ/mol
+	# dCpr 30.000 +- 32.000 J/(K*mol)
+	-analytical_expression -9.008302 0.000000 650.017581 3.608150 0.000000 0.000000
+	-log_K	2.1000	# +- 0.0600
+
+Cl- + PdCl3- = PdCl4-2
+	# dHr -13.600 +- 1.900 kJ/mol
+	# dCpr 113.000 +- 52.000 J/(K*mol)
+	-analytical_expression -41.034267 0.000000 2470.163441 13.590699 0.000000 0.000000
+	-log_K	0.8800	# +- 0.0900
+
+NH3 + Pd+2 = PdNH3+2
+	-log_K	9.6000	# +- 0.2000
+
+H2O + Pd+2 = PdOH+ + H+
+	-log_K	-2.0000
+
+2 NO3- + Po+4 = Po(NO3)2+2
+	-log_K	3.7000	# +- 0.4000
+
+3 NO3- + Po+4 = Po(NO3)3+
+	-log_K	4.4000	# +- 0.5000
+
+2 H2O + Po+4 = Po(OH)2+2 + 2 H+
+	-log_K	-1.5096
+
+3 H2O + Po+4 = Po(OH)3+ + 3 H+
+	-log_K	-4.0168	# +- 0.0072
+
+4 H2O + Po+4 = Po(OH)4 + 4 H+
+	-log_K	-8.5241	# +- 0.0144
+
+6 H2O + Po+4 = Po(OH)6-2 + 6 H+
+	-log_K	-33.4686	# +- 0.0577
+
+6 Cl- + Po+2 = PoCl6-2 + 2 e-
+	-log_K	-18.9035	# +- 0.1230
+
+H2O + PoCl6-2 = Po(OH)Cl4- + 2 Cl- + H+
+	-log_K	-2.1600
+
+2 SO4-2 + Po+4 = Po(SO4)2
+	-log_K	9.1000	# +- 0.7000
+
+SO4-2 + Po(SO4)2 = Po(SO4)3-2
+	-log_K	2.2000
+
+Cl- + Po+2 = PoCl+
+	-log_K	3.7500
+
+2 Cl- + Po+2 = PoCl2
+	-log_K	6.1300
+
+3 Cl- + Po+2 = PoCl3-
+	-log_K	7.0200
+
+4 Cl- + Po+2 = PoCl4-2
+	-log_K	7.5564	# +- 0.0820
+
+NO3- + Po+4 = PoNO3+3
+	-log_K	2.0000	# +- 0.9000
+
+H2O + Po+4 = PoOH+3 + H+
+	-log_K	-0.5023	# +- 0.0072
+
+SO4-2 + Po+2 = PoSO4
+	-log_K	1.1205	# +- 0.0732
+
+SO4-2 + Po+4 = PoSO4+2
+	-log_K	5.2000	# +- 0.6000
+
+Cit-3 + Pu+3 = Pu(Cit)
+	-log_K	8.7000
+
+2 CO3-2 + Pu+3 = Pu(CO3)2-
+	-log_K	12.9000
+
+3 CO3-2 + Pu+3 = Pu(CO3)3-3
+	-log_K	15.0000
+
+4 CO3-2 + Pu+4 = Pu(CO3)4-4
+	-log_K	37.0000	# +- 1.1000
+
+5 CO3-2 + Pu+4 = Pu(CO3)5-6
+	-log_K	35.6500	# +- 1.1300
+
+Edta-4 + Pu+3 = Pu(Edta)-
+	# dHr -8.700 +- 1.200 kJ/mol
+	-analytical_expression 18.655835 0.000000 454.429905 0.000000 0.000000 0.000000
+	-log_K	20.1800	# +- 0.3700
+
+Edta-4 + Pu+4 = Pu(Edta)
+	-log_K	31.6000	# +- 1.0000
+
+OH- + Pu(Edta) = Pu(Edta)OH-
+	-log_K	9.3000
+
+OH- + Pu(Edta)OH- = Pu(Edta)(OH)2-2
+	-log_K	6.9000
+
+HCit-2 + Pu+3 = Pu(HCit)+
+	-log_K	6.1000
+
+H+ + Pu(Edta)- = Pu(HEdta)
+	-log_K	1.8400	# +- 0.2600
+
+2 H2O + Pu+3 = Pu(OH)2+ + 2 H+
+	-log_K	-14.8000
+
+2 H2O + Pu+4 = Pu(OH)2+2 + 2 H+
+	-log_K	-1.2000	# +- 0.6000
+
+3 H2O + Pu+3 = Pu(OH)3 + 3 H+
+	-log_K	-25.9000
+
+3 H2O + Pu+4 = Pu(OH)3+ + 3 H+
+	-log_K	-3.1000	# +- 0.9000
+
+4 H2O + Pu+4 = Pu(OH)4 + 4 H+
+	-log_K	-9.3000	# +- 0.5000
+
+Oxa-2 + Pu+3 = Pu(Oxa)+
+	-log_K	8.5000
+
+H2Oxa + Pu+4 = Pu(Oxa)+2 + 2 H+
+	-log_K	7.3000
+
+2 Oxa-2 + Pu+3 = Pu(Oxa)2-
+	-log_K	12.7000
+
+H2Oxa + Pu(Oxa)+2 = Pu(Oxa)2 + 2 H+
+	-log_K	3.3000
+
+H2Oxa + Pu(Oxa)2 = Pu(Oxa)3-2 + 2 H+
+	-log_K	0.3000
+
+3 Oxa-2 + Pu+3 = Pu(Oxa)3-3
+	-log_K	12.1000
+
+2 SO4-2 + Pu+3 = Pu(SO4)2-
+	# dHr 12.000 +- 16.000 kJ/mol
+	-analytical_expression 7.802297 0.000000 -626.799869 0.000000 0.000000 0.000000
+	-log_K	5.7000	# +- 0.8000
+
+2 SO4-2 + Pu+4 = Pu(SO4)2
+	-log_K	11.1400	# +- 0.3400
+
+Cl- + Pu+3 = PuCl+2
+	-log_K	1.2000	# +- 0.2000
+
+Cl- + Pu+4 = PuCl+3
+	-log_K	1.8000	# +- 0.3000
+
+3 H2O + CO3-2 + Pu+4 = PuCO3(OH)3- + 3 H+
+	-log_K	6.0000
+
+CO3-2 + Pu+3 = PuCO3+
+	-log_K	8.0000
+
+F- + Pu+3 = PuF+2
+	-log_K	3.4000
+
+F- + Pu+4 = PuF+3
+	# dHr 9.100 +- 2.200 kJ/mol
+	-analytical_expression 10.434242 0.000000 -475.323234 0.000000 0.000000 0.000000
+	-log_K	8.8400	# +- 0.1000
+
+2 F- + Pu+3 = PuF2+
+	-log_K	5.8000
+
+2 F- + Pu+4 = PuF2+2
+	# dHr 11.000 +- 5.000 kJ/mol
+	-analytical_expression 17.627106 0.000000 -574.566547 0.000000 0.000000 0.000000
+	-log_K	15.7000	# +- 0.2000
+
+H2PO4- + Pu+3 = PuH2PO4+2
+	-log_K	2.2000	# +- 0.6000
+
+H3PO4 + Pu+4 = PuH3PO4+4
+	-log_K	2.4000	# +- 0.3000
+
+NO3- + Pu+4 = PuNO3+3
+	-log_K	1.9500	# +- 0.1500
+
+2 CO3-2 + PuO2+2 = PuO2(CO3)2-2
+	# dHr -27.000 +- 4.000 kJ/mol
+	-analytical_expression 9.969832 0.000000 1410.299706 0.000000 0.000000 0.000000
+	-log_K	14.7000	# +- 0.5000
+
+2 CO3-2 + PuO2+ = PuO2(CO3)2-3
+	-log_K	6.3400	# +- 0.2000
+
+3 CO3-2 + PuO2+2 = PuO2(CO3)3-4
+	# dHr -38.600 +- 2.000 kJ/mol
+	-analytical_expression 11.237611 0.000000 2016.206247 0.000000 0.000000 0.000000
+	-log_K	18.0000	# +- 0.5000
+
+3 CO3-2 + PuO2+ = PuO2(CO3)3-5
+	# dHr -19.110 +- 8.500 kJ/mol
+	-analytical_expression 2.262092 0.000000 998.178792 0.000000 0.000000 0.000000
+	-log_K	5.6100	# +- 0.2400
+
+2 H2PO4- + PuO2+2 = PuO2(H2PO4)2
+	-log_K	4.9200
+
+2 H2O + PuO2+2 = PuO2(OH)2 + 2 H+
+	-log_K	-13.2000	# +- 1.5000
+
+3 H2O + PuO2+2 = PuO2(OH)3- + 3 H+
+	-log_K	-24.0000	# +- 1.6000
+
+2 SO4-2 + PuO2+2 = PuO2(SO4)2-2
+	# dHr 43.000 +- 9.000 kJ/mol
+	-analytical_expression 11.933231 0.000000 -2246.032866 0.000000 0.000000 0.000000
+	-log_K	4.4000	# +- 0.2000
+
+Cl- + PuO2+2 = PuO2Cl+
+	-log_K	0.2300	# +- 0.0300
+
+2 Cl- + PuO2+2 = PuO2Cl2
+	-log_K	-1.1500	# +- 0.3000
+
+CO3-2 + PuO2+ = PuO2CO3-
+	-log_K	5.0300	# +- 0.1200
+
+CO3-2 + PuO2+2 = PuO2CO3
+	-log_K	9.5000	# +- 0.5000
+
+F- + PuO2+2 = PuO2F+
+	-log_K	4.5600	# +- 0.2000
+
+2 F- + PuO2+2 = PuO2F2
+	-log_K	7.2500	# +- 0.4500
+
+H2PO4- + PuO2+2 = PuO2H2PO4+
+	-log_K	3.2600
+
+HPO4-2 + PuO2+2 = PuO2HPO4
+	-log_K	7.2400
+
+H2O + PuO2+ = PuO2OH + H+
+	-log_K	-9.7300
+
+H2O + PuO2+2 = PuO2OH+ + H+
+	# dHr 28.000 +- 15.000 kJ/mol
+	-analytical_expression -0.594640 0.000000 -1462.533029 0.000000 0.000000 0.000000
+	-log_K	-5.5000	# +- 0.5000
+
+PO4-3 + PuO2+2 = PuO2PO4-
+	-log_K	11.7600	# +- 0.7000
+
+SiO(OH)3- + PuO2+ = PuO2SiO(OH)3
+	-log_K	2.5000	# +- 0.3000
+
+SiO(OH)3- + PuO2+2 = PuO2SiO(OH)3+
+	-log_K	6.4000
+
+SO4-2 + PuO2+ = PuO2SO4-
+	-log_K	1.2600	# +- 0.1200
+
+SO4-2 + PuO2+2 = PuO2SO4
+	# dHr 16.100 +- 0.600 kJ/mol
+	-analytical_expression 6.200582 0.000000 -840.956492 0.000000 0.000000 0.000000
+	-log_K	3.3800	# +- 0.2000
+
+H2O + Pu+3 = PuOH+2 + H+
+	-log_K	-6.9000	# +- 0.3000
+
+H2O + Pu+4 = PuOH+3 + H+
+	-log_K	0.0000	# +- 0.2000
+
+SCN- + Pu+3 = PuSCN+2
+	-log_K	1.3000	# +- 4.0000
+
+SiO(OH)3- + Pu+3 = PuSiO(OH)3+2
+	# dHr 15.000 kJ/mol
+	-analytical_expression 10.427871 0.000000 -783.499837 0.000000 0.000000 0.000000
+	-log_K	7.8000	# +- 0.5000
+
+SiO(OH)3- + Pu+4 = PuSiO(OH)3+3
+	-log_K	11.8800	# +- 0.1800
+
+SO4-2 + Pu+3 = PuSO4+
+	# dHr 17.200 +- 2.300 kJ/mol
+	-analytical_expression 6.913292 0.000000 -898.413146 0.000000 0.000000 0.000000
+	-log_K	3.9000	# +- 0.6000
+
+SO4-2 + Pu+4 = PuSO4+2
+	-log_K	6.8900	# +- 0.2300
+
+CO3-2 + Ra+2 = RaCO3
+	# dHr 13.000 +- 7.000 kJ/mol
+	-analytical_expression 4.947488 0.000000 -679.033192 0.000000 0.000000 0.000000
+	-log_K	2.6700	# +- 0.0900
+
+F- + Ra+2 = RaF+
+	# dHr 11.600 +- 2.600 kJ/mol
+	-analytical_expression 2.512220 0.000000 -605.906541 0.000000 0.000000 0.000000
+	-log_K	0.4800	# +- 0.1300
+
+HCO3- + Ra+2 = RaHCO3+
+	# dHr 27.000 +- 12.000 kJ/mol
+	-analytical_expression 5.810168 0.000000 -1410.299706 0.000000 0.000000 0.000000
+	-log_K	1.0800	# +- 0.1600
+
+H2O + Ra+2 = RaOH+ + H+
+	# dHr 62.000 +- 14.000 kJ/mol
+	-analytical_expression -2.838132 0.000000 -3238.465992 0.000000 0.000000 0.000000
+	-log_K	-13.7000	# +- 0.4000
+
+SO4-2 + Ra+2 = RaSO4
+	# dHr 1.400 +- 4.400 kJ/mol
+	-analytical_expression 2.525268 0.000000 -73.126651 0.000000 0.000000 0.000000
+	-log_K	2.2800	# +- 0.0500
+
+HS- = S-2 + H+
+	-log_K	-19.0000
+
+HSe- = Se-2 + H+
+	-log_K	-14.9100	# +- 0.2000
+
+2 Se-2 = Se2-2 + 2 e-
+	-log_K	25.3200	# +- 0.3300
+
+3 Se-2 = Se3-2 + 4 e-
+	-log_K	49.9700	# +- 0.6800
+
+3 Se + H2Se = Se4-2 + 2 H+
+	-log_K	5.0566	# +- 3.0224
+
+4 Si(OH)4 = Si4O8(OH)4-4 + 4 H+ + 4 H2O
+	-log_K	-36.2800	# +- 0.1600
+
+Al(OH)4- + SiO2(OH)2-2 = SiAlO3(OH)4-3 + H2O
+	-log_K	-0.4000	# +- 0.2000
+
+2 CO3-2 + Sm+3 = Sm(CO3)2-
+	-log_K	12.1000	# +- 0.3000
+
+2 H2O + Sm+3 = Sm(OH)2+ + 2 H+
+	-log_K	-15.2200	# +- 0.3000
+
+3 H2O + Sm+3 = Sm(OH)3 + 3 H+
+	-log_K	-23.8200	# +- 0.3000
+
+4 H2O + Sm+3 = Sm(OH)4- + 4 H+
+	-log_K	-36.3200	# +- 0.3000
+
+2 SO4-2 + Sm+3 = Sm(SO4)2-
+	-log_K	5.7000	# +- 0.2000
+
+2 H2O + 2 Sm+3 = Sm2(OH)2+4 + 2 H+
+	-log_K	-14.5000	# +- 0.4000
+
+5 H2O + 3 Sm+3 = Sm3(OH)5+4 + 5 H+
+	-log_K	-33.9000	# +- 0.3000
+
+CO3-2 + Sm+3 = SmCO3+
+	-log_K	8.1000	# +- 0.2000
+
+F- + Sm+3 = SmF+2
+	# dHr 8.070 +- 1.230 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 5.583795 0.000000 -421.522912 0.000000 0.000000 0.000000
+	-log_K	4.1700	# +- 0.0700
+
+2 F- + Sm+3 = SmF2+
+	# dHr 18.700 +- 1.700 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 9.976080 0.000000 -976.763130 0.000000 0.000000 0.000000
+	-log_K	6.7000	# +- 0.3000
+
+H3PO4 + Sm+3 = SmH2PO4+2 + H+
+	# dHr 14.700 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 3.465314 0.000000 -767.829840 0.000000 0.000000 0.000000
+	-log_K	0.8900	# +- 0.1300
+
+H2O + Sm+3 = SmOH+2 + H+
+	# dHr 42.700 +- 5.400 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -0.279326 0.000000 -2230.362869 0.000000 0.000000 0.000000
+	-log_K	-7.7600	# +- 0.0900
+
+SiO(OH)3- + Sm+3 = SmSiO(OH)3+2
+	# dHr 15.000 kJ/mol
+	-analytical_expression 10.427871 0.000000 -783.499837 0.000000 0.000000 0.000000
+	-log_K	7.8000	# +- 0.5000
+
+SO4-2 + Sm+3 = SmSO4+
+	-log_K	3.9500	# +- 0.0800
+
+2 H2PO4- + Sn+2 = Sn(H2PO4)2
+	-log_K	6.1000	# +- 0.2000
+
+2 HPO4-2 + Sn+2 = Sn(HPO4)2-2
+	-log_K	13.6000	# +- 0.2000
+
+3 HPO4-2 + Sn+2 = Sn(HPO4)3-4
+	-log_K	13.5000	# +- 0.2000
+
+2 NO3- + Sn+2 = Sn(NO3)2
+	-log_K	1.3900	# +- 0.5300
+
+2 H2O + Sn+2 = Sn(OH)2 + 2 H+
+	-log_K	-7.6800	# +- 0.4000
+
+3 H2O + Sn+2 = Sn(OH)3- + 3 H+
+	-log_K	-17.0000	# +- 0.6000
+
+4 H2O + Sn+4 = Sn(OH)4 + 4 H+
+	-log_K	7.5400	# +- 0.6900
+
+H2O + Sn(OH)4 = Sn(OH)5- + H+
+	-log_K	-8.6000	# +- 0.4000
+
+2 H2O + Sn(OH)4 = Sn(OH)6-2 + 2 H+
+	-log_K	-18.6700	# +- 0.3000
+
+H2O + Cl- + Sn+2 = Sn(OH)Cl + H+
+	-log_K	-2.5000	# +- 0.3000
+
+4 H2O + 3 Sn+2 = Sn3(OH)4+2 + 4 H+
+	-log_K	-5.6000	# +- 0.4700
+
+Br- + Sn+2 = SnBr+
+	# dHr 5.100 +- 2.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 2.223476 0.000000 -266.389945 0.000000 0.000000 0.000000
+	-log_K	1.3300	# +- 0.1800
+
+2 Br- + Sn+2 = SnBr2
+	# dHr 12.900 +- 2.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 4.229969 0.000000 -673.809860 0.000000 0.000000 0.000000
+	-log_K	1.9700	# +- 0.2100
+
+3 Br- + Sn+2 = SnBr3-
+	# dHr 7.200 +- 4.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 3.191378 0.000000 -376.079922 0.000000 0.000000 0.000000
+	-log_K	1.9300	# +- 0.2700
+
+Cl- + Sn+2 = SnCl+
+	# dHr 2.250 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 1.804181 0.000000 -117.524976 0.000000 0.000000 0.000000
+	-log_K	1.4100	# +- 0.2000
+
+Cl- + Sn+4 = SnCl+3
+	-log_K	3.1900	# +- 0.5000
+
+2 Cl- + Sn+2 = SnCl2
+	# dHr -4.810 kJ/mol
+	# dCpr 187.000 J/(K*mol)
+	-analytical_expression -64.042326 0.000000 3163.461553 22.490802 0.000000 0.000000
+	-log_K	2.2200	# +- 0.2000
+
+2 Cl- + Sn+4 = SnCl2+2
+	-log_K	5.9500	# +- 0.3600
+
+3 Cl- + Sn+2 = SnCl3-
+	# dHr -17.000 kJ/mol
+	# dCpr 408.000 J/(K*mol)
+	-analytical_expression -143.342048 0.000000 7241.899439 49.070841 0.000000 0.000000
+	-log_K	2.3700	# +- 0.2000
+
+4 Cl- + Sn+2 = SnCl4-2
+	# dHr 0.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 2.030000 0.000000 0.000000 0.000000 0.000000 0.000000
+	-log_K	2.0300	# +- 0.2000
+
+4 Cl- + Sn+4 = SnCl4
+	-log_K	9.5700	# +- 0.3200
+
+5 Cl- + Sn+4 = SnCl5-
+	-log_K	10.9300	# +- 0.4100
+
+6 Cl- + Sn+4 = SnCl6-2
+	-log_K	9.8300	# +- 0.4900
+
+F- + Sn+2 = SnF+
+	-log_K	5.2500	# +- 0.1900
+
+2 F- + Sn+2 = SnF2
+	-log_K	8.8900	# +- 0.2100
+
+3 F- + Sn+2 = SnF3-
+	-log_K	11.5000	# +- 1.0000
+
+6 F- + Sn+4 = SnF6-2
+	-log_K	25.0000
+
+H2PO4- + Sn+2 = SnH2PO4+
+	-log_K	3.4000	# +- 0.2000
+
+HPO4-2 + H2PO4- + Sn+2 = SnH2PO4HPO4-
+	-log_K	10.5000	# +- 0.2000
+
+HPO4-2 + Sn+2 = SnHPO4
+	-log_K	9.6000	# +- 0.2000
+
+NO3- + Sn+2 = SnNO3+
+	-log_K	1.2700	# +- 0.3100
+
+H2O + Sn+2 = SnOH+ + H+
+	-log_K	-3.5300	# +- 0.4000
+
+PO4-3 + Sn+2 = SnPO4-
+	-log_K	18.1000	# +- 0.2000
+
+SCN- + Sn+2 = SnSCN+
+	-log_K	1.5000	# +- 0.7000
+
+SO4-2 + Sn+2 = SnSO4
+	-log_K	3.4300	# +- 0.2500
+
+UO2+2 + 3 CO3-2 + 2 Sr+2 = Sr2UO2(CO3)3
+	-log_K	29.7000	# +- 0.5000
+
+CO3-2 + Sr+2 = SrCO3
+	# dHr 20.600 +- 1.900 kJ/mol
+	# dCpr 241.000 +- 100.000 J/(K*mol)
+	-analytical_expression -77.911949 0.000000 2677.174544 28.985472 0.000000 0.000000
+	-log_K	2.7900	# +- 0.0500
+
+F- + Sr+2 = SrF+
+	# dHr 10.900 +- 3.700 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 2.829586 0.000000 -569.343215 0.000000 0.000000 0.000000
+	-log_K	0.9200	# +- 0.1500
+
+H2PO4- + Sr+2 = SrH2PO4+
+	-log_K	0.6900	# +- 0.2000
+
+HCO3- + Sr+2 = SrHCO3+
+	# dHr 25.000 +- 1.500 kJ/mol
+	# dCpr 226.000 +- 90.000 J/(K*mol)
+	-analytical_expression -73.503541 0.000000 2213.747449 27.181397 0.000000 0.000000
+	-log_K	1.1800	# +- 0.0400
+
+HPO4-2 + Sr+2 = SrHPO4
+	# dHr 9.000 +- 15.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 3.926723 0.000000 -470.099902 0.000000 0.000000 0.000000
+	-log_K	2.3500	# +- 0.1200
+
+H2O + Sr+2 = SrOH+ + H+
+	# dHr 61.600 +- 10.500 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -2.358208 0.000000 -3217.572663 0.000000 0.000000 0.000000
+	-log_K	-13.1500	# +- 0.0500
+
+PO4-3 + Sr+2 = SrPO4-
+	-log_K	5.6200	# +- 0.2000
+
+SO4-2 + Sr+2 = SrSO4
+	# dHr 8.700 +- 2.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 3.814165 0.000000 -454.429905 0.000000 0.000000 0.000000
+	-log_K	2.2900	# +- 0.0400
+
+UO2+2 + 3 CO3-2 + Sr+2 = SrUO2(CO3)3-2
+	-log_K	25.9000	# +- 0.2000
+
+2 H+ + 2 TcO(OH)2 = Tc2O2(OH)2+2 + 2 H2O
+	-log_K	12.9900	# +- 0.4100
+
+4 H+ + 10 Cl- + Tc2O2(OH)2+2 = Tc2OCl10-4 + 3 H2O
+	-log_K	-0.4000	# +- 1.1000
+
+H+ + 0.5 Tc2OCl10-4 = TcCl5- + 0.5 H2O
+	-log_K	-1.7650	# +- 0.6450
+
+Cl- + TcCl5- = TcCl6-2
+	-log_K	-2.0800	# +- 1.2900
+
+2 H+ + CO3-2 + TcO(OH)2 = TcCO3(OH)2 + H2O
+	-log_K	19.3000	# +- 0.3000
+
+H+ + CO3-2 + TcO(OH)2 = TcCO3(OH)3-
+	-log_K	11.0000	# +- 0.6000
+
+H2O + TcO(OH)2 = TcO(OH)3- + H+
+	-log_K	-10.9200	# +- 0.1700
+
+5 CO3-2 + Th+4 = Th(CO3)5-6
+	-log_K	31.0000	# +- 0.7000
+
+2 H3PO4 + Th+4 = Th(H2PO4)2+2 + 2 H+
+	-log_K	6.2000	# +- 0.3200
+
+2 H3PO4 + Th+4 = Th(H3PO4)(H2PO4)+3 + H+
+	-log_K	5.4200	# +- 0.3200
+
+2 IO3- + Th+4 = Th(IO3)2+2
+	-log_K	6.9700	# +- 0.1200
+
+3 IO3- + Th+4 = Th(IO3)3+
+	-log_K	9.8700	# +- 0.1100
+
+2 NO3- + Th+4 = Th(NO3)2+2
+	-log_K	2.3000	# +- 0.4000
+
+2 OH- + 2 CO3-2 + Th+4 = Th(OH)2(CO3)2-2
+	-log_K	36.8000	# +- 0.5000
+
+2 H2O + Th+4 = Th(OH)2+2 + 2 H+
+	# dHr 85.700 +- 41.400 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 8.813905 0.000000 -4476.395735 0.000000 0.000000 0.000000
+	-log_K	-6.2000	# +- 0.5000
+
+2 OH- + CO3-2 + Th+4 = Th(OH)2CO3
+	-log_K	30.5000	# +- 0.6000
+
+3 Si(OH)4 + 3 H2O + Th+4 = Th(OH)3(SiO(OH)3)3-2 + 6 H+
+	-log_K	-27.8000	# +- 0.7000
+
+3 OH- + CO3-2 + Th+4 = Th(OH)3CO3-
+	-log_K	38.3000	# +- 0.7000
+
+4 H2O + Th+4 = Th(OH)4 + 4 H+
+	-log_K	-17.4000	# +- 0.7000
+
+4 OH- + CO3-2 + Th+4 = Th(OH)4CO3-2
+	-log_K	40.4000	# +- 0.6000
+
+2 SCN- + Th+4 = Th(SCN)2+2
+	-log_K	3.4000	# +- 0.8000
+
+2 SO4-2 + Th+4 = Th(SO4)2
+	# dHr 40.380 +- 1.080 kJ/mol
+	-analytical_expression 16.764230 0.000000 -2109.181561 0.000000 0.000000 0.000000
+	-log_K	9.6900	# +- 0.2700
+
+3 SO4-2 + Th+4 = Th(SO4)3-2
+	-log_K	10.7480	# +- 0.0760
+
+2 H2O + 2 Th+4 = Th2(OH)2+6 + 2 H+
+	# dHr 58.300 +- 5.700 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 4.313660 0.000000 -3045.202699 0.000000 0.000000 0.000000
+	-log_K	-5.9000	# +- 0.5000
+
+3 H2O + 2 Th+4 = Th2(OH)3+5 + 3 H+
+	-log_K	-6.8000	# +- 0.2000
+
+12 H2O + 4 Th+4 = Th4(OH)12+4 + 12 H+
+	-log_K	-26.6000	# +- 0.2000
+
+8 H2O + 4 Th+4 = Th4(OH)8+8 + 8 H+
+	# dHr 243.000 +- 21.300 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 22.171516 0.000000 -12692.697357 0.000000 0.000000 0.000000
+	-log_K	-20.4000	# +- 0.4000
+
+14 H2O + 6 Th+4 = Th6(OH)14+10 + 14 H+
+	-log_K	-36.8000	# +- 1.2000
+
+15 H2O + 6 Th+4 = Th6(OH)15+9 + 15 H+
+	# dHr 472.800 +- 22.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 46.030504 0.000000 -24695.914858 0.000000 0.000000 0.000000
+	-log_K	-36.8000	# +- 1.5000
+
+Cl- + Th+4 = ThCl+3
+	-log_K	1.7000	# +- 0.1000
+
+F- + Th+4 = ThF+3
+	# dHr -0.400 +- 2.000 kJ/mol
+	-analytical_expression 8.799923 0.000000 20.893329 0.000000 0.000000 0.000000
+	-log_K	8.8700	# +- 0.1500
+
+2 F- + Th+4 = ThF2+2
+	# dHr -3.300 +- 0.400 kJ/mol
+	-analytical_expression 15.051868 0.000000 172.369964 0.000000 0.000000 0.000000
+	-log_K	15.6300	# +- 0.2300
+
+3 F- + Th+4 = ThF3+
+	-log_K	20.6700	# +- 0.1600
+
+4 F- + Th+4 = ThF4
+	-log_K	25.5800	# +- 0.1800
+
+6 F- + Th+4 = ThF6-2
+	-log_K	29.2300	# +- 0.6200
+
+H3PO4 + Th+4 = ThH2PO4+3 + H+
+	-log_K	3.4500	# +- 0.3200
+
+H3PO4 + Th+4 = ThH3PO4+4
+	-log_K	1.8900	# +- 0.3100
+
+IO3- + Th+4 = ThIO3+3
+	-log_K	4.1400	# +- 0.1000
+
+NO3- + Th+4 = ThNO3+3
+	-log_K	1.3000	# +- 0.2000
+
+OH- + 4 CO3-2 + Th+4 = ThOH(CO3)4-5
+	-log_K	35.6000	# +- 0.5000
+
+H2O + Th+4 = ThOH+3 + H+
+	# dHr 44.200 +- 6.300 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 5.243461 0.000000 -2308.712853 0.000000 0.000000 0.000000
+	-log_K	-2.5000	# +- 0.5000
+
+SCN- + Th+4 = ThSCN+3
+	-log_K	2.0000	# +- 0.5000
+
+SO4-2 + Th+4 = ThSO4+2
+	# dHr 20.920 +- 0.740 kJ/mol
+	-analytical_expression 9.835005 0.000000 -1092.721106 0.000000 0.000000 0.000000
+	-log_K	6.1700	# +- 0.3200
+
+2 H2O + 2 Ti+3 = Ti2(OH)2+4 + 2 H+
+	-log_K	-2.6400	# +- 0.1000
+
+2 H2O + TiO+2 = TiO(OH)2 + 2 H+
+	-log_K	-5.4900	# +- 0.1400
+
+3 H2O + TiO+2 = TiO(OH)3- + 3 H+
+	-log_K	-17.4000	# +- 0.5000
+
+H2O + Ti+3 = TiOH+2 + H+
+	-log_K	-1.6500	# +- 0.1100
+
+H2O + TiO+2 = TiOOH+ + H+
+	-log_K	-2.4800	# +- 0.1000
+
+4 CO3-2 + U+4 = U(CO3)4-4
+	-log_K	35.2200	# +- 1.0300
+
+5 CO3-2 + U+4 = U(CO3)5-6
+	# dHr -20.000 +- 4.000 kJ/mol
+	-analytical_expression 30.396172 0.000000 1044.666449 0.000000 0.000000 0.000000
+	-log_K	33.9000	# +- 1.0000
+
+2 NO3- + U+4 = U(NO3)2+2
+	-log_K	2.3000	# +- 0.3500
+
+2 H2O + U+4 = U(OH)2+2 + 2 H+
+	-log_K	-1.9000	# +- 0.2000
+
+3 H2O + U+4 = U(OH)3+ + 3 H+
+	-log_K	-5.2000	# +- 0.4000
+
+4 H2O + U+4 = U(OH)4 + 4 H+
+	-log_K	-10.0000	# +- 1.4000
+
+Oxa-2 + U+4 = UOxa+2
+	-log_K	11.0000
+
+Oxa-2 + UOxa+2 = U(Oxa)2
+	-log_K	8.0000
+
+Oxa-2 + U(Oxa)2 = U(Oxa)3-2
+	-log_K	5.0000
+
+Oxa-2 + U(Oxa)3-2 = U(Oxa)4-4
+	-log_K	3.0000
+
+2 SCN- + U+4 = U(SCN)2+2
+	# dHr -18.000 +- 4.000 kJ/mol
+	-analytical_expression 1.106554 0.000000 940.199804 0.000000 0.000000 0.000000
+	-log_K	4.2600	# +- 0.1800
+
+2 SO4-2 + U+4 = U(SO4)2
+	# dHr 32.700 +- 2.800 kJ/mol
+	-analytical_expression 16.238759 0.000000 -1708.029644 0.000000 0.000000 0.000000
+	-log_K	10.5100	# +- 0.2000
+
+Cl- + U+4 = UCl+3
+	# dHr -19.000 +- 9.000 kJ/mol
+	-analytical_expression -1.608637 0.000000 992.433127 0.000000 0.000000 0.000000
+	-log_K	1.7200	# +- 0.1300
+
+3 H2O + CO3-2 + U+4 = UCO3(OH)3- + 3 H+
+	-log_K	4.0000
+
+Edta-4 + U+4 = UEdta
+	-log_K	29.5000	# +- 0.2000
+
+OH- + UEdtaOH- = UEdta(OH)2-2
+	-log_K	5.9000
+
+F- + U+4 = UF+3
+	# dHr -5.600 +- 0.500 kJ/mol
+	-analytical_expression 8.438928 0.000000 292.506606 0.000000 0.000000 0.000000
+	-log_K	9.4200	# +- 0.5100
+
+2 F- + U+4 = UF2+2
+	# dHr -3.500 +- 0.600 kJ/mol
+	-analytical_expression 15.946830 0.000000 182.816629 0.000000 0.000000 0.000000
+	-log_K	16.5600	# +- 0.7100
+
+3 F- + U+4 = UF3+
+	# dHr 0.500 +- 4.000 kJ/mol
+	-analytical_expression 21.977596 0.000000 -26.116661 0.000000 0.000000 0.000000
+	-log_K	21.8900	# +- 0.8300
+
+4 F- + U+4 = UF4
+	# dHr -8.430 kJ/mol
+	-analytical_expression 24.863136 0.000000 440.326908 0.000000 0.000000 0.000000
+	-log_K	26.3400	# +- 0.9600
+
+5 F- + U+4 = UF5-
+	-log_K	27.7300	# +- 0.7400
+
+6 F- + U+4 = UF6-2
+	-log_K	29.8000	# +- 0.7000
+
+H2PO4- + U+4 = UH2PO4+3
+	-log_K	6.8000	# +- 0.7000
+
+I- + U+4 = UI+3
+	-log_K	1.2500	# +- 0.3000
+
+NO3- + U+4 = UNO3+3
+	-log_K	1.4700	# +- 0.1300
+
+2 CO3-2 + UO2+2 = UO2(CO3)2-2
+	# dHr 18.500 +- 4.000 kJ/mol
+	-analytical_expression 19.851041 0.000000 -966.316465 0.000000 0.000000 0.000000
+	-log_K	16.6100	# +- 0.0900
+
+3 CO3-2 + UO2+2 = UO2(CO3)3-4
+	# dHr -39.200 +- 4.100 kJ/mol
+	-analytical_expression 14.972496 0.000000 2047.546240 0.000000 0.000000 0.000000
+	-log_K	21.8400	# +- 0.0400
+
+3 CO3-2 + UO2+ = UO2(CO3)3-5
+	-log_K	7.1900	# +- 0.3600
+
+2 H3AsO4 + UO2+2 = UO2(H2AsO4)2 + 2 H+
+	-log_K	0.2900	# +- 0.5300
+
+2 H3PO4 + UO2+2 = UO2(H2PO4)(H3PO4)+ + H+
+	-log_K	1.6500	# +- 0.1100
+
+2 H3PO4 + UO2+2 = UO2(H2PO4)2 + 2 H+
+	-log_K	0.6400	# +- 0.1100
+
+H3Isa- + UO2+2 = UO2(H3Isa)+
+	# dHr -1.000 +- 1.000 kJ/mol
+	-analytical_expression 3.324809 0.000000 52.233322 0.000000 0.000000 0.000000
+	-log_K	3.5000	# +- 0.2000
+
+2 H3Isa- + UO2+2 = UO2(H3Isa)2
+	# dHr 1.400 +- 1.800 kJ/mol
+	-analytical_expression 6.445268 0.000000 -73.126651 0.000000 0.000000 0.000000
+	-log_K	6.2000	# +- 0.2000
+
+3 H3Isa- + UO2+2 = UO2(H3Isa)3-
+	# dHr -6.200 +- 3.000 kJ/mol
+	-analytical_expression 6.913813 0.000000 323.846599 0.000000 0.000000 0.000000
+	-log_K	8.0000	# +- 0.2000
+
+HCit-2 + UO2+2 = UO2(HCit)
+	-log_K	5.0000	# +- 1.0000
+
+HEdta-3 + UO2+2 = UO2(HEdta)-
+	-log_K	8.3700	# +- 0.1000
+
+2 HSeO3- + UO2+2 = UO2(HSeO3)2
+	-log_K	5.5100	# +- 0.1100
+
+2 IO3- + UO2+2 = UO2(IO3)2
+	-log_K	3.5900	# +- 0.1500
+
+2 H2O + UO2+2 = UO2(OH)2 + 2 H+
+	-log_K	-12.1500	# +- 0.0700
+
+3 H2O + UO2+2 = UO2(OH)3- + 3 H+
+	-log_K	-20.2500	# +- 0.4200
+
+4 H2O + UO2+2 = UO2(OH)4-2 + 4 H+
+	-log_K	-32.4000	# +- 0.6800
+
+2 Oxa-2 + UO2+2 = UO2(Oxa)2-2
+	-log_K	11.6500	# +- 0.1500
+
+3 Oxa-2 + UO2+2 = UO2(Oxa)3-4
+	-log_K	13.8000	# +- 1.5000
+
+2 SCN- + UO2+2 = UO2(SCN)2
+	# dHr 8.900 +- 0.600 kJ/mol
+	-analytical_expression 2.799204 0.000000 -464.876570 0.000000 0.000000 0.000000
+	-log_K	1.2400	# +- 0.5500
+
+3 SCN- + UO2+2 = UO2(SCN)3-
+	# dHr 6.000 +- 1.200 kJ/mol
+	-analytical_expression 3.151149 0.000000 -313.399935 0.000000 0.000000 0.000000
+	-log_K	2.1000	# +- 0.5000
+
+2 SeO4-2 + UO2+2 = UO2(SeO4)2-2
+	# dHr 31.000 +- 4.000 kJ/mol
+	-analytical_expression 9.460934 0.000000 -1619.232996 0.000000 0.000000 0.000000
+	-log_K	4.0300	# +- 0.0900
+
+2 SO4-2 + UO2+2 = UO2(SO4)2-2
+	# dHr 35.100 +- 1.000 kJ/mol
+	-analytical_expression 10.289219 0.000000 -1833.389618 0.000000 0.000000 0.000000
+	-log_K	4.1400	# +- 0.1500
+
+3 SO4-2 + UO2+2 = UO2(SO4)3-4
+	-log_K	3.0200	# +- 0.3800
+
+Cit-3 + UO2+2 = UO2Cit-
+	-log_K	8.9600	# +- 0.1700
+
+Cl- + UO2+2 = UO2Cl+
+	# dHr 8.000 +- 2.000 kJ/mol
+	-analytical_expression 1.571531 0.000000 -417.866580 0.000000 0.000000 0.000000
+	-log_K	0.1700	# +- 0.0200
+
+2 Cl- + UO2+2 = UO2Cl2
+	# dHr 15.000 +- 6.000 kJ/mol
+	-analytical_expression 1.527871 0.000000 -783.499837 0.000000 0.000000 0.000000
+	-log_K	-1.1000	# +- 0.4000
+
+CO3-2 + UO2+2 = UO2CO3
+	# dHr 5.000 +- 2.000 kJ/mol
+	-analytical_expression 10.815957 0.000000 -261.166612 0.000000 0.000000 0.000000
+	-log_K	9.9400	# +- 0.0300
+
+F- + CO3-2 + UO2+2 = UO2CO3F-
+	-log_K	13.7500	# +- 0.0900
+
+2 F- + CO3-2 + UO2+2 = UO2CO3F2-2
+	-log_K	15.5700	# +- 0.1400
+
+3 F- + CO3-2 + UO2+2 = UO2CO3F3-3
+	-log_K	16.3800	# +- 0.1100
+
+Edta-4 + UO2+2 = UO2Edta-2
+	-log_K	13.7000	# +- 0.2000
+
+F- + UO2+2 = UO2F+
+	# dHr -0.540 +- 0.260 kJ/mol
+	-analytical_expression 5.065397 0.000000 28.205994 0.000000 0.000000 0.000000
+	-log_K	5.1600	# +- 0.0600
+
+2 F- + UO2+2 = UO2F2
+	# dHr -1.340 +- 0.180 kJ/mol
+	-analytical_expression 8.595243 0.000000 69.992652 0.000000 0.000000 0.000000
+	-log_K	8.8300	# +- 0.0800
+
+3 F- + UO2+2 = UO2F3-
+	# dHr -1.180 +- 0.300 kJ/mol
+	-analytical_expression 10.693274 0.000000 61.635320 0.000000 0.000000 0.000000
+	-log_K	10.9000	# +- 0.1000
+
+4 F- + UO2+2 = UO2F4-2
+	# dHr -2.120 +- 0.470 kJ/mol
+	-analytical_expression 11.468594 0.000000 110.734644 0.000000 0.000000 0.000000
+	-log_K	11.8400	# +- 0.1100
+
+H3AsO4 + UO2+2 = UO2H2AsO4+ + H+
+	-log_K	1.3400	# +- 0.4200
+
+H3PO4 + UO2+2 = UO2H2PO4+ + H+
+	-log_K	1.1200	# +- 0.0600
+
+H3PO4 + UO2+2 = UO2H3PO4+2
+	-log_K	0.7600	# +- 0.1500
+
+HAsO4-2 + UO2+2 = UO2HAsO4
+	-log_K	7.1600	# +- 0.3700
+
+HPO4-2 + UO2+2 = UO2HPO4
+	-log_K	7.2400	# +- 0.2600
+
+HSeO3- + UO2+2 = UO2HSeO3+
+	-log_K	3.2700	# +- 0.1500
+
+IO3- + UO2+2 = UO2IO3+
+	-log_K	2.0000	# +- 0.0200
+
+NO3- + UO2+2 = UO2NO3+
+	# dHr 20.900 +- 3.500 kJ/mol
+	-analytical_expression 3.471501 0.000000 -1091.676439 0.000000 0.000000 0.000000
+	-log_K	-0.1900	# +- 0.1500
+
+H2O + UO2+2 = UO2OH+ + H+
+	# dHr 43.300 +- 2.300 kJ/mol
+	-analytical_expression 2.335789 0.000000 -2261.702862 0.000000 0.000000 0.000000
+	-log_K	-5.2500	# +- 0.2400
+
+Oxa-2 + UO2+2 = UO2Oxa
+	# dHr 25.400 +- 18.400 kJ/mol
+	-analytical_expression 11.579862 0.000000 -1326.726390 0.000000 0.000000 0.000000
+	-log_K	7.1300	# +- 0.1600
+
+PO4-3 + UO2+2 = UO2PO4-
+	-log_K	11.0100	# +- 0.4800
+
+SCN- + UO2+2 = UO2SCN+
+	# dHr 3.220 +- 0.060 kJ/mol
+	-analytical_expression 1.964116 0.000000 -168.191298 0.000000 0.000000 0.000000
+	-log_K	1.4000	# +- 0.2300
+
+SeO4-2 + UO2+2 = UO2SeO4
+	# dHr 20.000 +- 2.000 kJ/mol
+	-analytical_expression 6.433828 0.000000 -1044.666449 0.000000 0.000000 0.000000
+	-log_K	2.9300	# +- 0.0400
+
+SiO(OH)3- + UO2+2 = UO2SiO(OH)3+
+	# dHr 9.900 +- 3.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 9.664395 0.000000 -517.109892 0.000000 0.000000 0.000000
+	-log_K	7.9300	# +- 0.1900
+
+SO4-2 + UO2+2 = UO2SO4
+	# dHr 19.500 +- 1.600 kJ/mol
+	-analytical_expression 6.566233 0.000000 -1018.549788 0.000000 0.000000 0.000000
+	-log_K	3.1500	# +- 0.1000
+
+H2O + U+4 = UOH+3 + H+
+	# dHr 46.910 kJ/mol
+	-analytical_expression 7.678230 0.000000 -2450.265156 0.000000 0.000000 0.000000
+	-log_K	-0.5400	# +- 0.0600
+
+SCN- + U+4 = USCN+3
+	# dHr -27.000 +- 8.000 kJ/mol
+	-analytical_expression -1.900168 0.000000 1410.299706 0.000000 0.000000 0.000000
+	-log_K	2.8300	# +- 0.1500
+
+SO4-2 + U+4 = USO4+2
+	# dHr 8.000 +- 2.700 kJ/mol
+	-analytical_expression 7.981531 0.000000 -417.866580 0.000000 0.000000 0.000000
+	-log_K	6.5800	# +- 0.1900
+
+2 CO3-2 + Zn+2 = Zn(CO3)2-2
+	-log_K	6.7500	# +- 0.6000
+
+HPO4-2 + H2PO4- + Zn+2 = Zn(H2PO4)(HPO4)-
+	-log_K	4.0000	# +- 0.5000
+
+2 H2PO4- + Zn+2 = Zn(H2PO4)2
+	-log_K	2.0000	# +- 0.2000
+
+PO4-3 + HPO4-2 + Zn+2 = Zn(HPO4)(PO4)-3
+	-log_K	12.5000	# +- 0.2000
+
+2 HPO4-2 + Zn+2 = Zn(HPO4)2-2
+	-log_K	7.1000	# +- 0.2000
+
+3 HPO4-2 + Zn+2 = Zn(HPO4)3-4
+	-log_K	7.4000	# +- 0.2000
+
+2 HS- + Zn+2 = Zn(HS)2
+	# dHr -13.700 +- 3.200 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 6.899878 0.000000 715.596518 0.000000 0.000000 0.000000
+	-log_K	9.3000	# +- 0.1700
+
+3 HS- + Zn+2 = Zn(HS)3-
+	# dHr -50.700 +- 1.700 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 4.417795 0.000000 2648.229449 0.000000 0.000000 0.000000
+	-log_K	13.3000	# +- 0.0500
+
+2 H2O + Zn+2 = Zn(OH)2 + 2 H+
+	# dHr 107.100 +- 3.100 kJ/mol
+	# dCpr -65.000 +- 27.000 J/(K*mol)
+	-analytical_expression 23.612454 0.000000 -6606.457566 -7.817659 0.000000 0.000000
+	-log_K	-17.8900	# +- 0.1500
+
+HPO4-2 + 2 H2O + Zn+2 = Zn(OH)2HPO4-2 + 2 H+
+	-log_K	-17.0000	# +- 0.3000
+
+3 H2O + Zn+2 = Zn(OH)3- + 3 H+
+	# dHr 143.500 +- 2.500 kJ/mol
+	# dCpr -196.000 +- 23.000 J/(K*mol)
+	-analytical_expression 65.728164 0.000000 -10547.861330 -23.573247 0.000000 0.000000
+	-log_K	-27.9800	# +- 0.1000
+
+4 H2O + Zn+2 = Zn(OH)4-2 + 4 H+
+	# dHr 178.300 +- 5.800 kJ/mol
+	# dCpr -348.000 +- 56.000 J/(K*mol)
+	-analytical_expression 112.630160 0.000000 -14732.732446 -41.854541 0.000000 0.000000
+	-log_K	-40.3500	# +- 0.2200
+
+2 SO4-2 + Zn+2 = Zn(SO4)2-2
+	# dHr 10.000 +- 5.000 kJ/mol
+	-analytical_expression 4.951914 0.000000 -522.333225 0.000000 0.000000 0.000000
+	-log_K	3.2000	# +- 0.2000
+
+CO3-2 + 2 Zn+2 = Zn2CO3+2
+	-log_K	5.3000	# +- 0.4000
+
+H2O + 2 Zn+2 = Zn2OH+3 + H+
+	-log_K	-7.9000	# +- 0.3000
+
+Cl- + Zn+2 = ZnCl+
+	-log_K	0.4000	# +- 0.0900
+
+2 Cl- + Zn+2 = ZnCl2
+	-log_K	0.6900	# +- 0.1500
+
+3 Cl- + Zn+2 = ZnCl3-
+	-log_K	0.4800	# +- 0.5400
+
+4 Cl- + Zn+2 = ZnCl4-2
+	-log_K	-2.0000
+
+CO3-2 + Zn+2 = ZnCO3
+	-log_K	4.7500	# +- 0.0600
+
+H2PO4- + Zn+2 = ZnH2PO4+
+	-log_K	0.9000	# +- 0.2000
+
+HCO3- + Zn+2 = ZnHCO3+
+	-log_K	1.6200	# +- 0.1000
+
+HPO4-2 + Zn+2 = ZnHPO4
+	-log_K	3.3000	# +- 0.2000
+
+H2O + Zn+2 = ZnOH+ + H+
+	# dHr 56.700 +- 0.700 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 0.993354 0.000000 -2961.629383 0.000000 0.000000 0.000000
+	-log_K	-8.9400	# +- 0.0600
+
+2 HS- + Zn+2 = ZnS(HS)- + H+
+	# dHr 25.900 +- 3.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 7.897458 0.000000 -1352.843052 0.000000 0.000000 0.000000
+	-log_K	3.3600	# +- 0.2000
+
+SO4-2 + Zn+2 = ZnSO4
+	# dHr 6.040 +- 0.540 kJ/mol
+	-analytical_expression 3.358156 0.000000 -315.489268 0.000000 0.000000 0.000000
+	-log_K	2.3000	# +- 0.0400
+
+4 CO3-2 + Zr+4 = Zr(CO3)4-4
+	-log_K	42.9000	# +- 1.0000
+
+2 NO3- + Zr+4 = Zr(NO3)2+2
+	-log_K	2.6400	# +- 0.1700
+
+2 H2O + Zr+4 = Zr(OH)2+2 + 2 H+
+	-log_K	0.9800	# +- 1.0600
+
+4 H2O + Zr+4 = Zr(OH)4 + 4 H+
+	-log_K	-2.1900	# +- 1.7000
+
+6 H2O + Zr+4 = Zr(OH)6-2 + 6 H+
+	-log_K	-29.0000	# +- 0.7000
+
+2 SO4-2 + Zr+4 = Zr(SO4)2
+	# dHr 67.380 +- 7.258 kJ/mol
+	-analytical_expression 23.344398 0.000000 -3519.481267 0.000000 0.000000 0.000000
+	-log_K	11.5400	# +- 0.2100
+
+3 SO4-2 + Zr+4 = Zr(SO4)3-2
+	-log_K	14.3000	# +- 0.5000
+
+4 H2O + 3 Zr+4 = Zr3(OH)4+8 + 4 H+
+	# dHr -1.980 +- 18.028 kJ/mol
+	-analytical_expression 0.053121 0.000000 103.421978 0.000000 0.000000 0.000000
+	-log_K	0.4000	# +- 0.3000
+
+9 H2O + 3 Zr+4 = Zr3(OH)9+3 + 9 H+
+	-log_K	12.1900	# +- 0.0800
+
+15 H2O + 4 Zr+4 = Zr4(OH)15+ + 15 H+
+	-log_K	12.5800	# +- 0.2400
+
+16 H2O + 4 Zr+4 = Zr4(OH)16 + 16 H+
+	# dHr 301.120 +- 21.266 kJ/mol
+	-analytical_expression 61.143641 0.000000 -15728.498058 0.000000 0.000000 0.000000
+	-log_K	8.3900	# +- 0.8000
+
+8 H2O + 4 Zr+4 = Zr4(OH)8+8 + 8 H+
+	-log_K	6.5200	# +- 0.6500
+
+Cl- + Zr+4 = ZrCl+3
+	-log_K	1.5900	# +- 0.0600
+
+2 Cl- + Zr+4 = ZrCl2+2
+	-log_K	2.1700	# +- 0.2400
+
+F- + Zr+4 = ZrF+3
+	# dHr -5.300 +- 0.800 kJ/mol
+	-analytical_expression 9.191485 0.000000 276.836609 0.000000 0.000000 0.000000
+	-log_K	10.1200	# +- 0.0700
+
+2 F- + Zr+4 = ZrF2+2
+	# dHr -9.900 +- 1.300 kJ/mol
+	-analytical_expression 16.815605 0.000000 517.109892 0.000000 0.000000 0.000000
+	-log_K	18.5500	# +- 0.3100
+
+3 F- + Zr+4 = ZrF3+
+	# dHr -8.900 +- 2.100 kJ/mol
+	-analytical_expression 23.160796 0.000000 464.876570 0.000000 0.000000 0.000000
+	-log_K	24.7200	# +- 0.3800
+
+4 F- + Zr+4 = ZrF4
+	# dHr -18.700 +- 3.400 kJ/mol
+	-analytical_expression 26.833920 0.000000 976.763130 0.000000 0.000000 0.000000
+	-log_K	30.1100	# +- 0.4000
+
+5 F- + Zr+4 = ZrF5-
+	-log_K	34.6000	# +- 0.4200
+
+6 F- + Zr+4 = ZrF6-2
+	-log_K	38.1100	# +- 0.4300
+
+NO3- + Zr+4 = ZrNO3+3
+	-log_K	1.5900	# +- 0.0800
+
+H2O + Zr+4 = ZrOH+3 + H+
+	-log_K	0.3200	# +- 0.2200
+
+SO4-2 + Zr+4 = ZrSO4+2
+	# dHr 36.940 +- 7.153 kJ/mol
+	-analytical_expression 13.511571 0.000000 -1929.498932 0.000000 0.000000 0.000000
+	-log_K	7.0400	# +- 0.0900
+

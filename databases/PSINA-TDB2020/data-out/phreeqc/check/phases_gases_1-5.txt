@@ -1,0 +1,44 @@
+
+PHASES
+
+# GASES
+
+CH4(g)
+	CH4 = CH4
+	-analytical_expression	-77.853949655669 0 3951.6692052782 24.9527633016809 0 0 0 
+	-log_K	-2.856 
+
+CO2(g)
+	CO2 + H2O = HCO3- + H+
+	-analytical_expression	56.063177560537 0 -2360.5962170202 -22.6175685638136 0 0 0 
+	-log_K	-7.82 
+
+H2(g)
+	H2 = H2
+	-analytical_expression	-54.256875499195 0 2456.5461351344 17.3419720464137 0 0 0 
+	-log_K	-3.106 
+
+H2S(g)
+	H2S = HS- + H+
+	-analytical_expression	-7.2566768724412 0 -224.60328656519 0 0 0 0 
+	-log_K	-8.01 
+
+H2Se(g)
+	H2Se = H2Se
+	-analytical_expression	3.9805512291809 0 -1514.7663512536 0 0 0 0 
+	-log_K	-1.1 
+
+Hg(g)
+	Hg = Hg
+	-analytical_expression	-7.6754047795847 0 2004.7149159005 0 0 0 0 
+	-log_K	-0.951555 
+
+N2(g)
+	N2 = N2
+	-analytical_expression	-82.354324304642 0 3988.061960472 26.5888188238906 0 0 0 
+	-log_K	-3.186 
+
+O2(g)
+	O2 = O2
+	-analytical_expression	-74.900188753903 0 3741.3053335447 24.0288363354516 0 0 0 
+	-log_K	-2.894

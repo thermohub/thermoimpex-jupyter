@@ -1,0 +1,2409 @@
+
+# MINERALS
+
+Mercury
+	Hg = Hg
+	# dHr 23.000 +- 2.200 kJ/mol
+	-analytical_expression -2.500597 0.000000 -1201.366417 0.000000 0.000000 0.000000
+	-log_K	-6.5300	# +- 0.0300
+
+(HgOH)3PO4(s)
+	(HgOH)3PO4 + 4 H+ = 3 H2O + HPO4-2 + 3 Hg+2
+	-log_K	-14.0000	# +- 1.1000
+
+(NH4)4NpO2(CO3)3(s)
+	(NH4)4NpO2(CO3)3 = 3 CO3-2 + 4 NH4+ + NpO2+2
+	-Vm	110.660	# cm^3/mol
+	-log_K	-27.3400	# +- 0.5800
+
+(PuO2)3(PO4)2:4(H2O)(am)
+	(PuO2)3(PO4)2(H2O)4 = 4 H2O + 2 PO4-3 + 3 PuO2+2
+	-Vm	238.420	# cm^3/mol
+	-log_K	-48.9700	# +- 0.6900
+
+Soddyite
+	(UO2)2SiO4(H2O)2 + 4 H+ = 2 H2O + Si(OH)4 + 2 UO2+2
+	-Vm	131.270	# cm^3/mol
+	-log_K	5.7500	# +- 0.2600
+
+Trögerite
+	(UO2)3(AsO4)2(H2O)12 = 2 AsO4-3 + 12 H2O + 3 UO2+2
+	-Vm	271.690	# cm^3/mol
+	-log_K	-45.3300	# +- 1.0000
+
+(UO2)3(PO4)2:4H2O(cr)
+	(UO2)3(PO4)2(H2O)4 + 6 H+ = 4 H2O + 2 H3PO4 + 3 UO2+2
+	-Vm	238.420	# cm^3/mol
+	-log_K	-5.9600	# +- 0.3000
+
+Ac(OH)3(aged)
+	Ac(OH)3 + 3 H+ = Ac+3 + 3 H2O
+	-Vm	46.560	# cm^3/mol
+	-log_K	21.1000	# +- 0.2000
+
+Ac(OH)3(fresh)
+	Ac(OH)3 + 3 H+ = Ac+3 + 3 H2O
+	-Vm	46.560	# cm^3/mol
+	-log_K	23.3000	# +- 0.2000
+
+Ac2(Oxa)3(s)
+	Ac2(Oxa)3 = 2 Ac+3 + 3 Oxa-2
+	-Vm	267.930	# cm^3/mol
+	-log_K	-25.7000	# +- 0.6000
+
+Bayerite
+	Al(OH)3 + OH- = Al(OH)4-
+	# dHr 16.175 +- 2.000 kJ/mol
+	# dCpr 212.332 +- 40.000 J/(mol*K)
+	-analytical_expression -72.319023 0.000000 2461.849766 25.537524 0.000000 0.000000
+	-log_K	-0.8710	# +- 0.1000
+
+Diaspore
+	Al(OOH) + 3 H+ = Al+3 + 2 H2O
+	-Vm	17.760	# +- 0.030 cm^3/mol
+	# dHr -110.300 +- 3.400 kJ/mol
+	# dCpr -37.130 +- 10.000 J/(mol*K)
+	-analytical_expression 0.553861 0.000000 5183.096421 -4.465687 0.000000 0.000000
+	-log_K	6.8880	# +- 0.4000
+
+Corundum
+	Al2O3 + 6 H+ = 2 Al+3 + 3 H2O
+	-Vm	25.590	# +- 0.010 cm^3/mol
+	# dHr -261.694 +- 5.360 kJ/mol
+	# dCpr -119.403 J/(mol*K)
+	-analytical_expression 14.278689 0.000000 11809.635555 -14.360801 0.000000 0.000000
+	-log_K	18.3535	# +- 0.5093
+
+Silver
+	Ag = Ag
+	-Vm	10.270	# cm^3/mol
+	# dHr 33.700 +- 8.500 kJ/mol
+	# dCpr 0.000 +- 0.141 J/(K*mol)
+	-analytical_expression -0.496049 0.000000 -1760.262967 0.000000 0.000000 0.000000
+	-log_K	-6.4000	# +- 0.5000
+
+Ag2CO3(cr)
+	Ag2CO3 = 2 Ag+ + CO3-2
+	-Vm	45.380	# cm^3/mol
+	-log_K	-11.0700	# +- 0.0400
+
+Ag2O(am)
+	Ag2O + 2 H+ = 2 Ag+ + H2O
+	-Vm	34.180	# cm^3/mol
+	# dHr -32.000 +- 26.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 7.013874 0.000000 1671.466319 0.000000 0.000000 0.000000
+	-log_K	12.6200	# +- 0.0800
+
+Ag2O(cr)
+	Ag2O + 2 H+ = 2 Ag+ + H2O
+	-Vm	34.180	# cm^3/mol
+	# dHr -38.800 +- 6.600 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 5.022573 0.000000 2026.652911 0.000000 0.000000 0.000000
+	-log_K	11.8200	# +- 0.2000
+
+Ag2S(cr)
+	Ag2S + 2 H+ = 2 Ag+ + H2S
+	-Vm	34.190	# cm^3/mol
+	# dHr 207.000 +- 4.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 7.424624 0.000000 -10812.297749 0.000000 0.000000 0.000000
+	-log_K	-28.8400	# +- 0.4000
+
+Ag2Se(alpha)
+	Ag2Se + 2 H+ = H2Se + 2 Ag+
+	-Vm	36.340	# cm^3/mol
+	# dHr 266.009 +- 2.402 kJ/mol
+	-analytical_expression 7.606286 0.000000 -13894.533874 0.000000 0.000000 0.000000
+	-log_K	-38.9962	# +- 0.4215
+
+Ag2SeO3(cr)
+	Ag2SeO3 = 2 Ag+ + SeO3-2
+	-Vm	57.120	# cm^3/mol
+	# dHr 67.820 +- 1.510 kJ/mol
+	-analytical_expression -3.918518 0.000000 -3542.463929 0.000000 0.000000 0.000000
+	-log_K	-15.8000	# +- 0.3000
+
+Ag2SeO4(cr)
+	Ag2SeO4 = 2 Ag+ + SeO4-2
+	-Vm	62.170	# cm^3/mol
+	# dHr 30.590 +- 4.100 kJ/mol
+	-analytical_expression -2.500894 0.000000 -1597.817334 0.000000 0.000000 0.000000
+	-log_K	-7.8600	# +- 0.5000
+
+Ag2SO4(s)
+	Ag2SO4 = 2 Ag+ + SO4-2
+	-Vm	57.420	# cm^3/mol
+	# dHr 17.300 +- 0.400 kJ/mol
+	-analytical_expression -1.909188 0.000000 -903.636479 0.000000 0.000000 0.000000
+	-log_K	-4.9400	# +- 0.0400
+
+Ag3PO4(s)
+	Ag3PO4 + H+ = 3 Ag+ + HPO4-2
+	-Vm	65.500	# cm^3/mol
+	-log_K	-9.0500	# +- 0.0800
+
+AgBr(cr)
+	AgBr = Ag+ + Br-
+	-Vm	28.990	# cm^3/mol
+	# dHr 85.500 +- 1.800 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 2.678867 0.000000 -4465.949070 0.000000 0.000000 0.000000
+	-log_K	-12.3000	# +- 0.0400
+
+AgCl(cr)
+	AgCl = Ag+ + Cl-
+	-Vm	25.730	# cm^3/mol
+	# dHr 65.720 +- 0.140 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 1.765580 0.000000 -3432.773952 0.000000 0.000000 0.000000
+	-log_K	-9.7480	# +- 0.0380
+
+AgCN(s)
+	AgCN = Ag+ + CN-
+	-Vm	43.190	# cm^3/mol
+	-log_K	-15.8400	# +- 0.2000
+
+AgI(cr)
+	AgI = Ag+ + I-
+	-Vm	41.300	# cm^3/mol
+	# dHr 110.400 +- 4.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 3.261133 0.000000 -5766.558799 0.000000 0.000000 0.000000
+	-log_K	-16.0800	# +- 0.0300
+
+AgSeCN(cr)
+	AgSeCN + H+ + 2 e- = Ag+ + CN- + HSe-
+	-Vm	56.820	# cm^3/mol
+	-log_K	-27.0300	# +- 0.7000
+
+Gibbsite
+	Al(OH)3 + 3 H+ = Al+3 + 3 H2O
+	-Vm	31.960	# +- 0.020 cm^3/mol
+	# dHr -104.323 +- 2.859 kJ/mol
+	# dCpr 1.168 J/(mol*K)
+	-analytical_expression -10.913407 0.000000 5467.325006 0.140501 0.000000 0.000000
+	-log_K	7.7718	# +- 0.3326
+
+Kaolinite
+	Al2Si2O5(OH)4 + 6 H+ = 2 Al+3 + H2O + 2 Si(OH)4
+	-Vm	99.340	# cm^3/mol
+	# dHr -172.800 +- 5.000 kJ/mol
+	-analytical_expression -22.833078 0.000000 9025.918121 0.000000 0.000000 0.000000
+	-log_K	7.4400	# +- 0.0600
+
+Boehmite
+	AlOOH + 3 H+ = Al+3 + 2 H2O
+	-Vm	19.540	# cm^3/mol
+	# dHr -148.500 +- 8.300 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -16.615926 0.000000 7756.648385 0.000000 0.000000 0.000000
+	-log_K	9.4000	# +- 0.4000
+
+Am(OH)3(am)
+	Am(OH)3 + 3 H+ = Am+3 + 3 H2O
+	-Vm	46.560	# cm^3/mol
+	-log_K	16.9000	# +- 0.8000
+
+Am(OH)3(cr)
+	Am(OH)3 + 3 H+ = Am+3 + 3 H2O
+	-Vm	46.560	# cm^3/mol
+	-log_K	15.6000	# +- 0.6000
+
+Am2(CO3)3(am_hyd)
+	Am2(CO3)3 = 2 Am+3 + 3 CO3-2
+	-Vm	168.070	# cm^3/mol
+	-log_K	-33.4000	# +- 2.2000
+
+AmO2OH(am)
+	AmO2OH + H+ = AmO2+ + H2O
+	-log_K	5.3000	# +- 0.5000
+
+AmOHCO3(am_hyd)
+	AmOHCO3 = Am+3 + CO3-2 + OH-
+	-Vm	88.960	# cm^3/mol
+	-log_K	-20.2000	# +- 1.0000
+
+AmOHCO3:0.5H2O(cr)
+	AmOHCO3(H2O)0.5 = Am+3 + CO3-2 + 0.5 H2O + OH-
+	-Vm	91.470	# cm^3/mol
+	-log_K	-22.4000	# +- 0.5000
+
+Ba[(UO2)(AsO4)]2:7H2O(cr)
+	Ba(UO2)2(AsO4)2(H2O)7 = 2 AsO4-3 + Ba+2 + 7 H2O + 2 UO2+2
+	-Vm	270.330	# cm^3/mol
+	# dHr 27.977 kJ/mol
+	-analytical_expression -39.798670 0.000000 -1461.331662 0.000000 0.000000 0.000000
+	-log_K	-44.7000	# +- 1.0000
+
+Meta-uranocircite_II
+	Ba(UO2)2(PO4)2(H2O)6 = Ba+2 + 6 H2O + 2 PO4-3 + 2 UO2+2
+	-Vm	251.660	# cm^3/mol
+	# dHr 44.162 kJ/mol
+	-analytical_expression -44.463196 0.000000 -2306.727986 0.000000 0.000000 0.000000
+	-log_K	-52.2000	# +- 1.0000
+
+Ba3(PO4)2(s)
+	Ba3(PO4)2 = 3 Ba+2 + 2 PO4-3
+	-Vm	116.430	# cm^3/mol
+	-log_K	-29.0000	# +- 0.5000
+
+Witherite
+	BaCO3 = Ba+2 + CO3-2
+	-Vm	45.810	# cm^3/mol
+	# dHr 3.300 +- 0.400 kJ/mol
+	# dCpr -508.000 +- 10.000 J/(K*mol)
+	-analytical_expression 169.725698 0.000000 -8083.639430 -61.098008 0.000000 0.000000
+	-log_K	-8.5700	# +- 0.0300
+
+BaHPO4(cr)
+	BaHPO4 = Ba+2 + HPO4-2
+	-Vm	58.470	# cm^3/mol
+	-log_K	-7.2000	# +- 0.3000
+
+BaSeO3(cr)
+	BaSeO3 = Ba+2 + SeO3-2
+	-Vm	53.180	# cm^3/mol
+	# dHr -5.300 +- 3.980 kJ/mol
+	-analytical_expression -7.428515 0.000000 276.836609 0.000000 0.000000 0.000000
+	-log_K	-6.5000	# +- 0.2500
+
+BaSeO4(cr)
+	BaSeO4 = Ba+2 + SeO4-2
+	-Vm	57.670	# cm^3/mol
+	# dHr 5.700 +- 6.600 kJ/mol
+	-analytical_expression -6.251409 0.000000 -297.729938 0.000000 0.000000 0.000000
+	-log_K	-7.2500	# +- 0.1100
+
+Barite
+	BaSO4 = Ba+2 + SO4-2
+	-Vm	52.100	# cm^3/mol
+	# dHr 26.100 +- 0.400 kJ/mol
+	# dCpr -422.500 +- 2.900 J/(K*mol)
+	-analytical_expression 142.418937 0.000000 -7943.036467 -50.814780 0.000000 0.000000
+	-log_K	-9.9600	# +- 0.0700
+
+Beidellite_SBld-1
+	(Ca0.185K0.104)(Si3.574Al0.426)(Al1.812Mg0.090Fe0.112)O10(OH)2 + 2.296 H2O + 7.704 H+ = 0.112 Fe+3 + 2.238 Al+3 + 0.185 Ca+2 + 0.104 K+ + 0.09 Mg+2 + 3.574 Si(OH)4
+	-Vm	137.980	# cm^3/mol
+	# dHr -230.560 +- 10.059 kJ/mol
+	# dCpr -111.267 J/(K*mol)
+	-analytical_expression 6.110381 0.000000 10310.105968 -13.382298 0.000000 0.000000
+	-log_K	7.5770	# +- 1.4317
+
+Beidellite(Ca)
+	Ca0.17Al2.34Si3.66O10(OH)2 + 2.64 H2O + 7.36 H+ = 2.34 Al+3 + 0.17 Ca+2 + 3.66 Si(OH)4
+	-Vm	134.100	# cm^3/mol
+	# dHr -213.805 +- 7.956 kJ/mol
+	# dCpr -106.812 J/(K*mol)
+	-analytical_expression 5.674807 0.000000 9504.339315 -12.846516 0.000000 0.000000
+	-log_K	5.7647	# +- 0.8948
+
+Beidellite(K)
+	K0.34Al2.34Si3.66O10(OH)2 + 2.64 H2O + 7.36 H+ = 2.34 Al+3 + 0.34 K+ + 3.66 Si(OH)4
+	-Vm	133.220	# cm^3/mol
+	# dHr -195.273 +- 7.954 kJ/mol
+	# dCpr -104.151 J/(K*mol)
+	-analytical_expression 6.821231 0.000000 8577.780749 -12.526400 0.000000 0.000000
+	-log_K	4.5955	# +- 0.8943
+
+Beidellite(Mg)
+	Mg0.17Al2.34Si3.66O10(OH)2 + 2.64 H2O + 7.36 H+ = 2.34 Al+3 + 0.17 Mg+2 + 3.66 Si(OH)4
+	-Vm	130.110	# cm^3/mol
+	# dHr -214.985 +- 7.955 kJ/mol
+	# dCpr -104.074 J/(K*mol)
+	-analytical_expression 3.974520 0.000000 9608.617010 -12.517193 0.000000 0.000000
+	-log_K	5.2290	# +- 0.8946
+
+Beidellite(Na)
+	Na0.34Al2.34Si3.66O10(OH)2 + 2.64 H2O + 7.36 H+ = 2.34 Al+3 + 0.34 Na+ + 3.66 Si(OH)4
+	-Vm	132.490	# cm^3/mol
+	# dHr -193.891 +- 7.954 kJ/mol
+	# dCpr -93.313 J/(K*mol)
+	-analytical_expression 2.017541 0.000000 8674.378495 -11.222895 0.000000 0.000000
+	-log_K	3.3412	# +- 0.8943
+
+Berthierine_ISGS
+	(Si1.332Al0.668)(Al0.976Fe1.622Mg0.157)O5(OH)4 + 8.672 H+ = 0.182 Fe+3 + 1.644 Al+3 + 1.44 Fe+2 + 3.672 H2O + 0.157 Mg+2 + 1.332 Si(OH)4
+	-Vm	101.160	# cm^3/mol
+	# dHr -322.502 +- 7.888 kJ/mol
+	# dCpr -1.068 J/(K*mol)
+	-analytical_expression -28.130684 0.000000 16828.736635 -0.128462 0.000000 0.000000
+	-log_K	27.9953	# +- 1.3679
+
+Berthierine(FeII)
+	(Fe2Al)(SiAl)O5(OH)4 + 10 H+ = 2 Al+3 + 2 Fe+2 + 5 H2O + Si(OH)4
+	-Vm	103.860	# cm^3/mol
+	# dHr -381.099 +- 5.517 kJ/mol
+	# dCpr -22.793 J/(K*mol)
+	-analytical_expression -24.121680 0.000000 19551.078421 -2.741349 0.000000 0.000000
+	-log_K	34.6697	# +- 0.5443
+
+Berthierine(FeIII)
+	(Fe2.67Al0.33)(Si1.34Al0.66)O5(OH)4 + 8.64 H+ = 0.33 Fe+3 + 0.99 Al+3 + 2.34 Fe+2 + 3.64 H2O + 1.34 Si(OH)4
+	-Vm	103.270	# cm^3/mol
+	# dHr -303.714 +- 3.496 kJ/mol
+	# dCpr 18.783 J/(K*mol)
+	-analytical_expression -30.898025 0.000000 16156.521516 2.259122 0.000000 0.000000
+	-log_K	28.8813	# +- 0.4361
+
+Grossular
+	Ca3Al2(SiO4)3 + 12 H+ = 2 Al+3 + 3 Ca+2 + 3 Si(OH)4
+	-Vm	125.280	# +- 0.050 cm^3/mol
+	# dHr -454.582 +- 7.995 kJ/mol
+	# dCpr -104.202 J/(mol*K)
+	-analytical_expression 6.181099 0.000000 22121.556126 -12.532518 0.000000 0.000000
+	-log_K	49.3663	# +- 1.0833
+
+Andradite
+	Ca3Fe2(SiO4)3 + 12 H+ = 2 Fe+3 + 3 Ca+2 + 3 Si(OH)4
+	-Vm	132.040	# +- 0.050 cm^3/mol
+	# dHr -343.812 +- 8.077 kJ/mol
+	# dCpr -73.179 J/(mol*K)
+	-analytical_expression -1.300994 0.000000 16818.805431 -8.801315 0.000000 0.000000
+	-log_K	33.3313	# +- 1.3350
+
+Hemihydrate
+	CaSO4(H2O)0.5 = Ca+2 + 0.5 H2O + SO4-2
+	-Vm	53.150	# cm^3/mol
+	# dHr -19.015 +- 2.272 kJ/mol
+	# dCpr -381.006 +- 5.000 J/(mol*K)
+	-analytical_expression 126.087738 0.000000 -4940.351718 -45.824263 0.000000 0.000000
+	-log_K	-3.8714	# +- 0.4025
+
+Wollastonite
+	CaSiO3 + H2O + 2 H+ = Ca+2 + Si(OH)4
+	-Vm	39.900	# +- 0.030 cm^3/mol
+	# dHr -84.263 +- 2.218 kJ/mol
+	# dCpr 2.582 J/(mol*K)
+	-analytical_expression -2.454741 0.000000 4441.524918 0.310495 0.000000 0.000000
+	-log_K	13.2105	# +- 0.3640
+
+Ca(H3Isa)2(cr)
+	Ca(H3Isa)2 = Ca+2 + 2 H3Isa-
+	-log_K	-6.4000	# +- 0.2000
+
+Portlandite
+	Ca(OH)2 + 2 H+ = Ca+2 + 2 H2O
+	-Vm	33.060	# +- 0.020 cm^3/mol
+	# dHr -129.515 +- 1.414 kJ/mol
+	# dCpr 32.296 J/(mol*K)
+	-analytical_expression -11.223612 0.000000 7267.931438 3.884261 0.000000 0.000000
+	-log_K	22.7645	# +- 0.2613
+
+Whewellite
+	Ca(Oxa)(H2O) = Ca+2 + H2O + Oxa-2
+	-Vm	65.820	# cm^3/mol
+	# dHr 21.500 +- 0.500 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -4.963384 0.000000 -1123.016433 0.000000 0.000000 0.000000
+	-log_K	-8.7300	# +- 0.0600
+
+Weddelite
+	Ca(Oxa)(H2O)2 = Ca+2 + 2 H2O + Oxa-2
+	-Vm	83.650	# cm^3/mol
+	# dHr 25.200 +- 1.100 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -3.885176 0.000000 -1316.279726 0.000000 0.000000 0.000000
+	-log_K	-8.3000	# +- 0.0600
+
+Ca(Oxa):3H2O(cr)
+	Ca(Oxa)(H2O)3 = Ca+2 + 3 H2O + Oxa-2
+	-Vm	97.930	# cm^3/mol
+	# dHr 29.700 +- 1.300 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -2.986815 0.000000 -1551.329677 0.000000 0.000000 0.000000
+	-log_K	-8.1900	# +- 0.0400
+
+Uranophane
+	Ca(UO2)2(SiO3OH)2(H2O)5 + 6 H+ = Ca+2 + 5 H2O + 2 Si(OH)4 + 2 UO2+2
+	-Vm	278.050	# cm^3/mol
+	# dHr -86.000 +- 16.000 kJ/mol
+	-analytical_expression -3.546462 0.000000 4492.065731 0.000000 0.000000 0.000000
+	-log_K	11.5200	# +- 0.1600
+
+Ca[(UO2)(AsO4)]2:10H2O(cr)
+	Ca(UO2)2(AsO4)2(H2O)10 = 2 AsO4-3 + Ca+2 + 10 H2O + 2 UO2+2
+	-Vm	262.820	# cm^3/mol
+	# dHr 33.018 kJ/mol
+	-analytical_expression -39.315530 0.000000 -1724.639841 0.000000 0.000000 0.000000
+	-log_K	-45.1000	# +- 1.0000
+
+Meta-autunite
+	Ca(UO2)2(PO4)2(H2O)6 = Ca+2 + 6 H2O + 2 PO4-3 + 2 UO2+2
+	-Vm	247.370	# cm^3/mol
+	# dHr 18.009 kJ/mol
+	-analytical_expression -46.844978 0.000000 -940.669904 0.000000 0.000000 0.000000
+	-log_K	-50.0000	# +- 1.0000
+
+Ca0.5NpO2(OH)2:1.3H2O(cr)
+	Ca0.5NpO2(OH)2(H2O)1.3 + 2 H+ = 0.5 Ca+2 + 3.3 H2O + NpO2+
+	-Vm	242.660	# cm^3/mol
+	-log_K	12.3000	# +- 0.0700
+
+Ca3(Cit)2:4H2O(cr)
+	Ca3(Cit)2(H2O)4 = 3 Ca+2 + 2 Cit-3 + 4 H2O
+	-Vm	285.250	# cm^3/mol
+	-log_K	-17.9000	# +- 0.1000
+
+Tuite
+	Ca3(PO4)2 = 3 Ca+2 + 2 PO4-3
+	-Vm	97.620	# cm^3/mol
+	# dHr -81.200 +- 5.000 kJ/mol
+	# dCpr -5620.000 +- 100.000 J/(K*mol)
+	-analytical_expression 1922.962493 0.000000 -83280.966026 -675.926783 0.000000 0.000000
+	-log_K	-28.9000	# +- 0.1000
+
+Ca4H(PO4)3:2.5H2O(s)
+	Ca4H(PO4)3(H2O)2.5 = 4 Ca+2 + H+ + 2.5 H2O + 3 PO4-3
+	-Vm	182.630	# cm^3/mol
+	# dHr -21.000 +- 19.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -52.159020 0.000000 1096.899772 0.000000 0.000000 0.000000
+	-log_K	-48.4800	# +- 0.1600
+
+Cl-apatite
+	Ca5(PO4)3Cl = 5 Ca+2 + Cl- + 3 PO4-3
+	-Vm	163.880	# cm^3/mol
+	# dHr -120.000 +- 41.000 kJ/mol
+	# dCpr -1920.000 +- 100.000 J/(K*mol)
+	-analytical_expression 604.665469 0.000000 -23632.862279 -230.921606 0.000000 0.000000
+	-log_K	-46.0000	# +- 5.0000
+
+F-apatite
+	Ca5(PO4)3F = 5 Ca+2 + F- + 3 PO4-3
+	-Vm	157.560	# cm^3/mol
+	# dHr -61.000 +- 15.000 kJ/mol
+	# dCpr -1887.000 +- 50.000 J/(K*mol)
+	-analytical_expression 589.827118 0.000000 -26200.707256 -226.952641 0.000000 0.000000
+	-log_K	-59.6300	# +- 0.2000
+
+OH-apatite
+	Ca5(PO4)3OH = 5 Ca+2 + OH- + 3 PO4-3
+	-Vm	159.600	# cm^3/mol
+	# dHr -68.000 +- 15.000 kJ/mol
+	# dCpr -1938.000 +- 50.000 J/(K*mol)
+	-analytical_expression 607.782502 0.000000 -26629.315618 -233.086496 0.000000 0.000000
+	-log_K	-58.2900	# +- 0.1500
+
+Aragonite
+	CaCO3 = CO3-2 + Ca+2
+	-Vm	34.150	# cm^3/mol
+	# dHr -10.900 +- 0.300 kJ/mol
+	# dCpr -366.000 +- 19.000 J/(K*mol)
+	-analytical_expression 117.811022 0.000000 -5130.508408 -44.019431 0.000000 0.000000
+	-log_K	-8.3200	# +- 0.0500
+
+Calcite
+	CaCO3 + H+ = Ca+2 + HCO3-
+	-Vm	36.930	# +- 0.010 cm^3/mol
+	# dHr -25.430 +- 1.575 kJ/mol
+	# dCpr -159.455 J/(mol*K)
+	-analytical_expression 53.204830 0.000000 -1154.953769 -19.177889 0.000000 0.000000
+	-log_K	1.8767	# +- 0.2814
+
+Vaterite
+	CaCO3 = CO3-2 + Ca+2
+	-Vm	37.630	# cm^3/mol
+	# dHr -15.400 +- 0.800 kJ/mol
+	# dCpr -321.000 +- 36.000 J/(K*mol)
+	-analytical_expression 101.689963 0.000000 -4194.657028 -38.607206 0.000000 0.000000
+	-log_K	-7.9100	# +- 0.0500
+
+Fluorite
+	CaF2 = Ca+2 + 2 F-
+	-Vm	24.540	# cm^3/mol
+	# dHr 7.800 +- 1.900 kJ/mol
+	# dCpr -170.000 +- 15.000 J/(K*mol)
+	-analytical_expression 50.378907 0.000000 -3054.891981 -20.446184 0.000000 0.000000
+	-log_K	-10.4600	# +- 0.0900
+
+CaHK3(PO4)2(cr)
+	CaHK3(PO4)2 = Ca+2 + H+ + 3 K+ + 2 PO4-3
+	-Vm	130.950	# cm^3/mol
+	-log_K	-22.4000	# +- 0.8000
+
+Monetite
+	CaHPO4 = Ca+2 + HPO4-2
+	-Vm	46.450	# cm^3/mol
+	# dHr -18.800 +- 0.700 kJ/mol
+	# dCpr -345.000 +- 20.000 J/(K*mol)
+	-analytical_expression 110.540418 0.000000 -4390.824494 -41.493726 0.000000 0.000000
+	-log_K	-6.8600	# +- 0.0200
+
+Brushite
+	CaHPO4(H2O)2 = Ca+2 + 2 H2O + HPO4-2
+	-Vm	73.920	# cm^3/mol
+	# dHr -5.400 +- 1.300 kJ/mol
+	# dCpr -282.000 +- 20.000 J/(K*mol)
+	-analytical_expression 91.118206 0.000000 -4109.629014 -33.916611 0.000000 0.000000
+	-log_K	-6.5900	# +- 0.0200
+
+Dolomite
+	CaMg(CO3)2 + 2 H+ = Ca+2 + 2 HCO3- + Mg+2
+	-Vm	64.340	# +- 0.030 cm^3/mol
+	# dHr -64.439 +- 2.349 kJ/mol
+	# dCpr -300.193 J/(mol*K)
+	-analytical_expression 97.322684 0.000000 -1309.152462 -36.104715 0.000000 0.000000
+	-log_K	3.5930	# +- 0.3125
+
+Powellite
+	CaMoO4 = Ca+2 + MoO4-2
+	-Vm	47.000	# cm^3/mol
+	# dHr 4.790 +- 1.660 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -7.620833 0.000000 -250.197615 0.000000 0.000000 0.000000
+	-log_K	-8.4600	# +- 0.3100
+
+Cancrinite-NO3
+	Na8Al6Si6O24(NO3)2(H2O)4 + 24 H+ = 6 Al+3 + 4 H2O + 8 Na+ + 2 NO3- + 6 Si(OH)4
+	-Vm	439.510	# cm^3/mol
+	# dHr -773.215 +- 17.742 kJ/mol
+	# dCpr -274.957 J/(K*mol)
+	-analytical_expression 38.981327 0.000000 36105.591480 -33.069552 0.000000 0.000000
+	-log_K	78.2516	# +- 1.8146
+
+CaNpO2(OH)2.6Cl0.4:2H2O(cr)
+	CaNpO2(OH)2.6Cl0.4(H2O)2 + 2.6 H+ = Ca+2 + 0.4 Cl- + 4.6 H2O + NpO2+
+	-Vm	282.600	# cm^3/mol
+	-log_K	19.9000	# +- 0.1000
+
+CaSeO3:H2O(cr)
+	CaSeO3(H2O) = Ca+2 + H2O + SeO3-2
+	-Vm	58.160	# cm^3/mol
+	-log_K	-6.4000	# +- 0.2500
+
+CaSn(OH)6(pr)
+	CaSn(OH)6 = Ca+2 + Sn(OH)6-2
+	-Vm	81.000	# cm^3/mol
+	-log_K	-9.7000	# +- 0.1000
+
+Anhydrite
+	CaSO4 = Ca+2 + SO4-2
+	-Vm	46.010	# +- 0.010 cm^3/mol
+	# dHr -17.830 +- 1.688 kJ/mol
+	# dCpr -398.262 J/(mol*K)
+	-analytical_expression 131.993486 0.000000 -5270.962826 -47.899661 0.000000 0.000000
+	-log_K	-4.2100	# +- 0.3276
+
+Gypsum
+	CaSO4(H2O)2 = Ca+2 + 2 H2O + SO4-2
+	-Vm	74.690	# +- 0.220 cm^3/mol
+	# dHr -1.000 +- 0.100 kJ/mol
+	# dCpr -335.396 +- 3.000 J/(mol*K)
+	-analytical_expression 112.548984 0.000000 -5171.011035 -40.338637 0.000000 0.000000
+	-log_K	-4.6100	# +- 0.0500
+
+Becquerelite
+	CaU6O19(H2O)11 + 14 H+ = Ca+2 + 18 H2O + 6 UO2+2
+	-Vm	386.350	# cm^3/mol
+	-log_K	40.5000	# +- 1.6000
+
+Cd(OH)2(s)
+	Cd(OH)2 + 2 H+ = Cd+2 + 2 H2O
+	-Vm	29.670	# cm^3/mol
+	# dHr -94.600 +- 5.000 kJ/mol
+	-analytical_expression -2.853109 0.000000 4941.272304 0.000000 0.000000 0.000000
+	-log_K	13.7200	# +- 0.1200
+
+Cd[(UO2)(AsO4)]2:8H2O(cr)
+	Cd(UO2)2(AsO4)2(H2O)8 = 2 AsO4-3 + Cd+2 + 8 H2O + 2 UO2+2
+	-Vm	282.740	# cm^3/mol
+	# dHr 36.967 kJ/mol
+	-analytical_expression -38.923699 0.000000 -1930.909231 0.000000 0.000000 0.000000
+	-log_K	-45.4000	# +- 1.0000
+
+Cd[(UO2)(PO4)]2:10H2O(cr)
+	Cd(UO2)2(PO4)2(H2O)10 = Cd+2 + 10 H2O + 2 PO4-3 + 2 UO2+2
+	-Vm	292.160	# cm^3/mol
+	-log_K	-50.3400	# +- 0.3000
+
+Cd3(PO4)2(s)
+	Cd3(PO4)2 = 3 Cd+2 + 2 PO4-3
+	-Vm	109.050	# cm^3/mol
+	-log_K	-36.9000	# +- 0.4000
+
+Cd5H2(PO4)4:4H2O(s)
+	Cd5H2(PO4)4(H2O)4 + 2 H+ = 5 Cd+2 + 4 H2O + 4 HPO4-2
+	-Vm	248.420	# cm^3/mol
+	-log_K	-31.8000	# +- 1.0000
+
+Otavite
+	CdCO3 = CO3-2 + Cd+2
+	-Vm	34.300	# cm^3/mol
+	# dHr 0.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -12.060000 0.000000 0.000000 0.000000 0.000000 0.000000
+	-log_K	-12.0600	# +- 0.0400
+
+CdS(s)
+	CdS + H+ = Cd+2 + HS-
+	-Vm	29.930	# cm^3/mol
+	-log_K	-14.1000	# +- 0.3000
+
+Chabazite-Ca
+	CaAl2Si4O12(H2O)6 + 8 H+ = 2 Al+3 + Ca+2 + 2 H2O + 4 Si(OH)4
+	-Vm	251.160	# cm^3/mol
+	# dHr -235.417 +- 7.707 kJ/mol
+	# dCpr 16.693 J/(K*mol)
+	-analytical_expression -30.375511 0.000000 12556.563881 2.007743 0.000000 0.000000
+	-log_K	16.7074	# +- 0.9259
+
+Chabazite-Na
+	Na2Al2Si4O12(H2O)6 + 8 H+ = 2 Al+3 + 2 H2O + 2 Na+ + 4 Si(OH)4
+	-Vm	241.680	# cm^3/mol
+	# dHr -171.527 +- 7.643 kJ/mol
+	# dCpr 162.868 J/(K*mol)
+	-analytical_expression -70.747253 0.000000 11495.801324 19.588360 0.000000 0.000000
+	-log_K	16.2800	# +- 0.9081
+
+Clinoptilolite
+	Ca0.52Al1.04Si4.96O12(H2O)3.1 + 4.74 H2O + 4.16 H+ = 1.04 Al+3 + 0.52 Ca+2 + 4.96 Si(OH)4
+	-Vm	200.020	# cm^3/mol
+	# dHr -97.874 +- 7.470 kJ/mol
+	# dCpr 6.752 J/(K*mol)
+	-analytical_expression -17.393269 0.000000 5217.420180 0.812030 0.000000 0.000000
+	-log_K	2.1154	# +- 1.0062
+
+Cronstedtite
+	(Fe4)(Si)O5(OH)4 + 10 H+ = 2 Fe+3 + 2 Fe+2 + 5 H2O + Si(OH)4
+	-Vm	370.630	# cm^3/mol
+	# dHr -257.239 +- 2.681 kJ/mol
+	# dCpr 56.368 J/(K*mol)
+	-analytical_expression -48.642998 0.000000 14314.254675 6.779418 0.000000 0.000000
+	-log_K	16.1425	# +- 0.3750
+
+Cs(UO2)(AsO4):2.5H2O(cr)
+	Cs(UO2)(AsO4)(H2O)2.5 = AsO4-3 + Cs+ + 2.5 H2O + UO2+2
+	-Vm	134.860	# cm^3/mol
+	# dHr 55.584 kJ/mol
+	-analytical_expression -15.462160 0.000000 -2903.336995 0.000000 0.000000 0.000000
+	-log_K	-25.2000	# +- 1.0000
+
+Cs(UO2)(BO3):H2O(cr)
+	Cs(UO2)(BO3)(H2O) + 2 H+ = 0.5 (UO2)2(OH)2+2 + B(OH)3 + Cs+
+	-Vm	90.250	# cm^3/mol
+	# dHr -14.739 kJ/mol
+	-analytical_expression 1.337854 0.000000 769.866940 0.000000 0.000000 0.000000
+	-log_K	3.9200	# +- 0.2000
+
+Cs(UO2)(PO4):2.5H2O(cr)
+	Cs(UO2)(PO4)(H2O)2.5 = Cs+ + 2.5 H2O + PO4-3 + UO2+2
+	-Vm	130.400	# cm^3/mol
+	# dHr 43.428 kJ/mol
+	-analytical_expression -18.291787 0.000000 -2268.388728 0.000000 0.000000 0.000000
+	-log_K	-25.9000	# +- 1.0000
+
+Cu(OH)2(s)
+	Cu(OH)2 + 2 H+ = Cu+2 + 2 H2O
+	-Vm	28.970	# cm^3/mol
+	-log_K	8.6700	# +- 0.0500
+
+Metazeunerite
+	Cu(UO2)2(AsO4)2(H2O)8 = 2 AsO4-3 + Cu+2 + 8 H2O + 2 UO2+2
+	-Vm	265.000	# cm^3/mol
+	# dHr 35.638 kJ/mol
+	-analytical_expression -39.456528 0.000000 -1861.491146 0.000000 0.000000 0.000000
+	-log_K	-45.7000	# +- 1.0000
+
+Cu[(UO2)(PO4)]2:8H2O(cr)
+	Cu(UO2)2(PO4)2(H2O)8 = Cu+2 + 8 H2O + 2 PO4-3 + 2 UO2+2
+	-Vm	254.110	# cm^3/mol
+	# dHr 44.158 kJ/mol
+	-analytical_expression -45.063897 0.000000 -2306.519053 0.000000 0.000000 0.000000
+	-log_K	-52.8000	# +- 0.3000
+
+Malachite
+	Cu2CO3(OH)2 = CO3-2 + 2 Cu+2 + 2 OH-
+	-Vm	54.860	# cm^3/mol
+	-log_K	-33.1600	# +- 0.0800
+
+Cuprite
+	Cu2O + 2 H+ = 2 Cu+ + H2O
+	-Vm	23.440	# cm^3/mol
+	# dHr 17.200 +- 3.800 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 2.513292 0.000000 -898.413146 0.000000 0.000000 0.000000
+	-log_K	-0.5000	# +- 0.2400
+
+Chalcotite
+	Cu2S + H+ = 2 Cu+ + HS-
+	-Vm	27.480	# cm^3/mol
+	-log_K	-34.6200	# +- 0.1300
+
+Azurite
+	Cu3(CO3)2(OH)2 = 2 CO3-2 + 3 Cu+2 + 2 OH-
+	-Vm	91.010	# cm^3/mol
+	-log_K	-44.9000	# +- 0.2000
+
+CuCl(s)
+	CuCl = Cl- + Cu+
+	-Vm	23.920	# cm^3/mol
+	-log_K	-6.7000	# +- 0.2000
+
+Tenorite
+	CuO + 2 H+ = Cu+2 + H2O
+	-Vm	12.220	# cm^3/mol
+	# dHr -61.700 +- 1.500 kJ/mol
+	# dCpr -1175.000 +- 13.000 J/(K*mol)
+	-analytical_expression 407.890021 0.000000 -15075.907986 -141.319212 0.000000 0.000000
+	-log_K	7.6400	# +- 0.0600
+
+Covellite
+	CuS + H+ = Cu+2 + HS-
+	-Vm	20.420	# cm^3/mol
+	-log_K	-22.0500	# +- 0.1600
+
+Eu(OH)3(am)
+	Eu(OH)3 + 3 H+ = Eu+3 + 3 H2O
+	-Vm	46.560	# cm^3/mol
+	-log_K	17.6000	# +- 0.8000
+
+Eu(OH)3(cr)
+	Eu(OH)3 + 3 H+ = Eu+3 + 3 H2O
+	-Vm	46.560	# cm^3/mol
+	# dHr 124.390 kJ/mol
+	-analytical_expression 36.692061 0.000000 -6497.302980 0.000000 0.000000 0.000000
+	-log_K	14.9000	# +- 0.3000
+
+Eu2(CO3)3(cr)
+	Eu2(CO3)3 = 3 CO3-2 + 2 Eu+3
+	-Vm	168.070	# cm^3/mol
+	-log_K	-35.0000	# +- 0.3000
+
+EuF3(cr)
+	EuF3 = Eu+3 + 3 F-
+	-Vm	30.500	# cm^3/mol
+	-log_K	-18.7000	# +- 0.4000
+
+EuOHCO3(cr)
+	EuOHCO3 = CO3-2 + Eu+3 + OH-
+	-Vm	88.960	# cm^3/mol
+	-log_K	-21.7000	# +- 0.1000
+
+Eu-rhabdophane
+	EuPO4(H2O)0.667 = Eu+3 + 0.667 H2O + PO4-3
+	-Vm	53.960	# cm^3/mol
+	# dHr -17.000 +- 7.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -27.878254 0.000000 887.966482 0.000000 0.000000 0.000000
+	-log_K	-24.9000	# +- 1.7000
+
+Faujasite-X
+	Na2Al2Si2.5O9(H2O)6.2 + 8 H+ = 2 Al+3 + 5.2 H2O + 2 Na+ + 2.5 Si(OH)4
+	-Vm	228.950	# cm^3/mol
+	# dHr -244.726 +- 6.269 kJ/mol
+	# dCpr 103.409 J/(K*mol)
+	-analytical_expression -53.140859 0.000000 14393.282865 12.437218 0.000000 0.000000
+	-log_K	25.9095	# +- 0.6703
+
+Faujasite-Y
+	Na2Al2Si4O12(H2O)8 + 8 H+ = 2 Al+3 + 4 H2O + 2 Na+ + 4 Si(OH)4
+	-Vm	294.840	# cm^3/mol
+	# dHr -198.891 +- 7.643 kJ/mol
+	# dCpr 152.589 J/(K*mol)
+	-analytical_expression -69.546478 0.000000 12765.067934 18.352094 0.000000 0.000000
+	-log_K	18.6788	# +- 0.9081
+
+Fe(OH)2(s)
+	Fe(OH)2 + 2 H+ = Fe+2 + 2 H2O
+	-Vm	24.480	# cm^3/mol
+	-log_K	12.2600	# +- 0.8800
+
+Ferrihydrite-2line
+	Fe(OH)3 + 3 H+ = Fe+3 + 3 H2O
+	-Vm	34.360	# cm^3/mol
+	-log_K	3.5000	# +- 0.4000
+
+Metakahlerite
+	Fe(UO2)2(AsO4)2(H2O)8 = 2 AsO4-3 + Fe+2 + 8 H2O + 2 UO2+2
+	-Vm	265.760	# cm^3/mol
+	# dHr 37.274 kJ/mol
+	-analytical_expression -39.569915 0.000000 -1946.944861 0.000000 0.000000 0.000000
+	-log_K	-46.1000	# +- 2.2000
+
+Pyrrhotite-4C
+	Fe0.875S + 2 H+ = 0.625 Fe+2 + 0.25 Fe+3 + H2S
+	-Vm	17.490	# cm^3/mol
+	# dHr -12.020 +- 2.530 kJ/mol
+	-analytical_expression -3.615801 0.000000 627.844536 0.000000 0.000000 0.000000
+	-log_K	-1.5100	# +- 0.5200
+
+Fe0.875Se(cr)
+	Fe0.875Se + 2 H+ = 0.625 Fe+2 + 0.25 Fe+3 + H2Se
+	-Vm	25.880	# cm^3/mol
+	# dHr 10.480 +- 5.280 kJ/mol
+	-analytical_expression -3.263994 0.000000 -547.405219 0.000000 0.000000 0.000000
+	-log_K	-5.1000	# +- 0.9300
+
+Pyrrhotite-5C
+	Fe0.9S + 2 H+ = 0.7 Fe+2 + 0.2 Fe+3 + H2S
+	-Vm	16.880	# cm^3/mol
+	# dHr -15.930 +- 2.720 kJ/mol
+	-analytical_expression -3.400799 0.000000 832.076827 0.000000 0.000000 0.000000
+	-log_K	-0.6100	# +- 0.5400
+
+Fe1.042Se(cr)
+	Fe1.042Se + 2 H+ = 1.042 Fe+2 + H2Se + 0.084 e-
+	-Vm	27.760	# cm^3/mol
+	# dHr -5.080 +- 4.500 kJ/mol
+	-analytical_expression -1.279972 0.000000 265.345278 0.000000 0.000000 0.000000
+	-log_K	-0.3900	# +- 0.7900
+
+Fe2(SeO3)3:3H2O(cr)
+	Fe2(SeO3)3(H2O)3 + 6 H+ = 2 Fe+3 + 3 H2O + 3 H2SeO3
+	-Vm	242.510	# cm^3/mol
+	-log_K	-11.3000	# +- 0.6000
+
+Fe-hibbingite
+	Fe2Cl(OH)3 + 3 H+ = Cl- + 2 Fe+2 + 3 H2O
+	-Vm	65.190	# cm^3/mol
+	-log_K	17.2000	# +- 0.2000
+
+Hematite
+	Fe2O3 + 6 H+ = 2 Fe+3 + 3 H2O
+	-Vm	30.270	# +- 0.010 cm^3/mol
+	# dHr -136.021 +- 5.133 kJ/mol
+	# dCpr -91.706 J/(mol*K)
+	-analytical_expression 8.994363 0.000000 5676.667000 -11.029689 0.000000 0.000000
+	-log_K	0.7418	# +- 0.8627
+
+Maghemite
+	Fe2O3 + 6 H+ = 2 Fe+3 + 3 H2O
+	-Vm	29.087	# cm^3/mol
+	-log_K	3.2200	# +- 1.2200
+
+Vivianite
+	Fe3(PO4)2(H2O)8 + 2 H+ = 3 Fe+2 + 8 H2O + 2 HPO4-2
+	-Vm	185.100	# cm^3/mol
+	-log_K	-11.3000	# +- 0.4000
+
+Magnetite
+	Fe3O4 + 8 H+ = 2 Fe+3 + Fe+2 + 4 H2O
+	-Vm	44.520	# +- 0.080 cm^3/mol
+	# dHr -217.976 +- 2.590 kJ/mol
+	# dCpr -85.546 J/(mol*K)
+	-analytical_expression 0.978387 0.000000 10053.376120 -10.288812 0.000000 0.000000
+	-log_K	9.2386	# +- 0.7836
+
+Greigite
+	Fe3S4 + 8 H+ = Fe+2 + 2 Fe+3 + 4 H2S
+	-Vm	72.520	# cm^3/mol
+	-log_K	-13.1800	# +- 2.3100
+
+Fe3Se4(gamma)
+	Fe3Se4 + 8 H+ = Fe+2 + 2 Fe+3 + 4 H2Se
+	-Vm	69.050	# cm^3/mol
+	# dHr 114.800 +- 21.600 kJ/mol
+	-analytical_expression -18.398025 0.000000 -5996.385418 0.000000 0.000000 0.000000
+	-log_K	-38.5100	# +- 3.7900
+
+Fe4(OH)8Cl:nH2O(s)
+	Fe4(OH)8Cl + 8 H+ = Fe+3 + Cl- + 3 Fe+2 + 8 H2O
+	-Vm	187.150	# cm^3/mol
+	-log_K	26.7078	# +- 3.5470
+
+Fe6(OH)12CO3:nH2O(s)
+	Fe6(OH)12CO3 + 2 e- + 13 H+ = HCO3- + 6 Fe+2 + 12 H2O
+	-Vm	281.300	# cm^3/mol
+	-log_K	62.8147	# +- 5.3860
+
+Fe6(OH)12SO4:nH2O(s)
+	Fe6(OH)12SO4 + 12 H+ = 2 Fe+3 + 4 Fe+2 + 12 H2O + SO4-2
+	-Vm	286.140	# cm^3/mol
+	-log_K	29.1866	# +- 5.3678
+
+Siderite
+	FeCO3 = CO3-2 + Fe+2
+	-Vm	29.380	# cm^3/mol
+	# dHr -15.654 kJ/mol
+	# dCpr -405.855 J/(K*mol)
+	-analytical_expression 128.340945 0.000000 -5502.867659 -48.812858 0.000000 0.000000
+	-log_K	-10.9000
+
+Goethite
+	FeOOH + 3 H+ = Fe+3 + 2 H2O
+	-Vm	20.820	# +- 0.040 cm^3/mol
+	# dHr -62.185 +- 1.313 kJ/mol
+	# dCpr -30.452 J/(mol*K)
+	-analytical_expression 0.103503 0.000000 2773.898416 -3.662535 0.000000 0.000000
+	-log_K	0.3445	# +- 0.1901
+
+Lepidocrocite
+	FeOOH + 3 H+ = Fe+3 + 2 H2O
+	-Vm	22.213	# +- 0.080 cm^3/mol
+	# dHr -72.523 +- 2.420 kJ/mol
+	# dCpr -25.344 J/(mol*K)
+	-analytical_expression -1.964504 0.000000 3393.402300 -3.048180 0.000000 0.000000
+	-log_K	1.8745	# +- 0.4038
+
+Rodolicoite
+	FePO4 + 2 H+ = Fe+3 + H2PO4-
+	-Vm	64.500	# cm^3/mol
+	# dHr -85.100 +- 2.200 kJ/mol
+	-analytical_expression -16.298790 0.000000 4445.055741 0.000000 0.000000 0.000000
+	-log_K	-1.3900	# +- 0.3900
+
+FePO4:2H2O(s)
+	FePO4(H2O)2 + 2 H+ = Fe+3 + 2 H2O + H2PO4-
+	-Vm	82.570	# cm^3/mol
+	-log_K	-8.1000	# +- 1.0000
+
+Mackinawite
+	FeS + 2 H+ = Fe+2 + H2S
+	-Vm	21.082	# cm^3/mol
+	-log_K	3.8000	# +- 0.4000
+
+Troilite
+	FeS + 2 H+ = Fe+2 + H2S
+	-Vm	18.200	# cm^3/mol
+	# dHr -27.980 +- 2.550 kJ/mol
+	-analytical_expression -1.901856 0.000000 1461.488362 0.000000 0.000000 0.000000
+	-log_K	3.0000	# +- 0.5200
+
+Marcasite
+	FeS2 + 4 H+ + 2 e- = Fe+2 + 2 H2S
+	-Vm	24.580	# cm^3/mol
+	# dHr 1.940 +- 3.860 kJ/mol
+	-analytical_expression -1.820129 0.000000 -101.332646 0.000000 0.000000 0.000000
+	-log_K	-2.1600	# +- 0.8600
+
+Pyrite
+	FeS2 + 4 H+ + 2 e- = Fe+2 + 2 H2S
+	-Vm	23.940	# cm^3/mol
+	# dHr 6.140 +- 3.850 kJ/mol
+	-analytical_expression -1.764325 0.000000 -320.712600 0.000000 0.000000 0.000000
+	-log_K	-2.8400	# +- 0.8600
+
+Ferroselite
+	FeSeSe + 4 H+ + 2 e- = Fe+2 + 2 H2Se
+	-Vm	29.940	# cm^3/mol
+	# dHr 58.310 +- 9.860 kJ/mol
+	-analytical_expression -0.994588 0.000000 -3045.725032 0.000000 0.000000 0.000000
+	-log_K	-11.2100	# +- 1.7300
+
+Glauconite
+	K0.75(Mg0.25Fe1.5Al0.25)(Al0.25Si3.75)O10(OH)2 + 3 H2O + 7 H+ = 1.25 Fe+3 + 0.5 Al+3 + 0.25 Fe+2 + 0.75 K+ + 0.25 Mg+2 + 3.75 Si(OH)4
+	-Vm	139.760	# cm^3/mol
+	# dHr -134.452 +- 5.548 kJ/mol
+	# dCpr -43.976 J/(K*mol)
+	-analytical_expression -6.362132 0.000000 6338.037790 -5.289067 0.000000 0.000000
+	-log_K	1.8083	# +- 0.7595
+
+H4Edta(cr)
+	H4Edta = H4Edta
+	-Vm	339.820	# cm^3/mol
+	# dHr 29.000 +- 3.000 kJ/mol
+	-analytical_expression 1.280551 0.000000 -1514.766351 0.000000 0.000000 0.000000
+	-log_K	-3.8000	# +- 0.1900
+
+Sabugalite
+	HAl(UO2)4(PO4)4(H2O)16 + 7 H+ = Al+3 + 16 H2O + 4 H2PO4- + 4 UO2+2
+	-Vm	680.550	# cm^3/mol
+	-log_K	-13.1000	# +- 1.2000
+
+Heulandite_1
+	Ca1.07Al2.14Si6.86O18(H2O)4.4 + 5.04 H2O + 8.56 H+ = 2.14 Al+3 + 1.07 Ca+2 + 6.86 Si(OH)4
+	-Vm	317.600	# cm^3/mol
+	# dHr -205.898 +- 11.151 kJ/mol
+	# dCpr 29.256 J/(K*mol)
+	-analytical_expression -34.532946 0.000000 11210.334623 3.518654 0.000000 0.000000
+	-log_K	11.7734	# +- 1.4450
+
+Heulandite_2
+	Ca1.07Al2.14Si6.86O18(H2O)4.5 + 4.94 H2O + 8.56 H+ = 2.14 Al+3 + 1.07 Ca+2 + 6.86 Si(OH)4
+	-Vm	317.600	# cm^3/mol
+	# dHr -221.881 +- 11.151 kJ/mol
+	# dCpr 28.792 J/(K*mol)
+	-analytical_expression -36.099007 0.000000 12037.992747 3.462854 0.000000 0.000000
+	-log_K	12.8452	# +- 1.4450
+
+Hg2Cl2(cr)
+	HgHgCl2 = Hg + 2 Cl- + Hg+2
+	-Vm	32.940	# cm^3/mol
+	# dHr 124.420 +- 2.254 kJ/mol
+	-analytical_expression -4.521955 0.000000 -6498.870059 0.000000 0.000000 0.000000
+	-log_K	-26.3193	# +- 0.1110
+
+Hg3(PO4)2(s)
+	Hg3(PO4)2 + 2 H+ = 2 HPO4-2 + 3 Hg+2
+	-log_K	-30.0000	# +- 0.9000
+
+HgCO3(HgO)2(s)
+	HgCO3(HgO)2 + 5 H+ = 2 H2O + HCO3- + 3 Hg+2
+	-log_K	-1.1355	# +- 0.4629
+
+HgHPO4(s)
+	HgHPO4 = HPO4-2 + Hg+2
+	-Vm	48.940	# cm^3/mol
+	-log_K	-15.2000	# +- 0.3000
+
+Montroydite(red)
+	HgO + 2 H+ = H2O + Hg+2
+	-Vm	19.320	# cm^3/mol
+	# dHr -24.837 +- 0.233 kJ/mol
+	-analytical_expression -1.900112 0.000000 1297.334924 0.000000 0.000000 0.000000
+	-log_K	2.4512	# +- 0.0603
+
+HgS(s)
+	HgS + H+ = HS- + Hg+2
+	-Vm	28.420	# cm^3/mol
+	-log_K	-36.7700	# +- 0.1800
+
+Ho(OH)3(cr)
+	Ho(OH)3 + 3 H+ = 3 H2O + Ho+3
+	-Vm	46.560	# cm^3/mol
+	-log_K	14.7000	# +- 1.0000
+
+Ho2(CO3)3(cr)
+	Ho2(CO3)3 = 3 CO3-2 + 2 Ho+3
+	-Vm	168.070	# cm^3/mol
+	-log_K	-35.0000	# +- 2.0000
+
+HoF3(cr)
+	HoF3 = 3 F- + Ho+3
+	-Vm	28.130	# cm^3/mol
+	-log_K	-17.6000	# +- 0.4000
+
+HoOHCO3(cr)
+	HoOHCO3 = CO3-2 + Ho+3 + OH-
+	-Vm	40.190	# cm^3/mol
+	-log_K	-21.7000	# +- 2.0000
+
+HoPO4(s)
+	HoPO4 = Ho+3 + PO4-3
+	-Vm	42.330	# cm^3/mol
+	-log_K	-25.3000	# +- 0.6000
+
+Hydrosodalite
+	Na8Al6Si6O24(OH)2(H2O)2 + 26 H+ = 6 Al+3 + 4 H2O + 8 Na+ + 6 Si(OH)4
+	-Vm	388.900	# cm^3/mol
+	# dHr -957.015 +- 17.724 kJ/mol
+	# dCpr 82.671 J/(K*mol)
+	-analytical_expression -90.683197 0.000000 51275.542359 9.942924 0.000000 0.000000
+	-log_K	105.8989	# +- 1.8087
+
+Illite_IMt-2
+	(K0.762Na0.044)(Si3.387Al0.613)(Al1.427Fe0.376Mg0.241)O10(OH)2 + 1.548 H2O + 8.452 H+ = 0.292 Fe+3 + 2.04 Al+3 + 0.084 Fe+2 + 0.762 K+ + 0.241 Mg+2 + 0.044 Na+ + 3.387 Si(OH)4
+	-Vm	139.180	# cm^3/mol
+	# dHr -236.663 +- 11.089 kJ/mol
+	# dCpr -86.098 J/(K*mol)
+	-analytical_expression 3.575379 0.000000 11020.837353 -10.355142 0.000000 0.000000
+	-log_K	14.9163	# +- 1.6963
+
+Illite(Al)
+	K0.85Al2.85Si3.15O10(OH)2 + 0.6 H2O + 9.4 H+ = 2.85 Al+3 + 0.85 K+ + 3.15 Si(OH)4
+	-Vm	138.980	# cm^3/mol
+	# dHr -272.983 +- 8.623 kJ/mol
+	# dCpr -128.904 J/(K*mol)
+	-analytical_expression 10.313216 0.000000 12251.361069 -15.503523 0.000000 0.000000
+	-log_K	13.0420	# +- 0.8965
+
+Illite(FeII)
+	K0.85Fe0.25Al2.35Si3.4O10(OH)2 + 1.6 H2O + 8.4 H+ = 2.35 Al+3 + 0.25 Fe+2 + 0.85 K+ + 3.4 Si(OH)4
+	-Vm	140.670	# cm^3/mol
+	# dHr -222.584 +- 7.747 kJ/mol
+	# dCpr -97.797 J/(K*mol)
+	-analytical_expression 4.681905 0.000000 10103.299285 -11.762174 0.000000 0.000000
+	-log_K	9.4638	# +- 0.8559
+
+Illite(FeIII)
+	K0.85Fe0.25Al2.6Si3.15O10(OH)2 + 0.6 H2O + 9.4 H+ = 0.25 Fe+3 + 2.6 Al+3 + 0.85 K+ + 3.15 Si(OH)4
+	-Vm	138.920	# cm^3/mol
+	# dHr -268.772 +- 8.075 kJ/mol
+	# dCpr -125.899 J/(K*mol)
+	-analytical_expression 9.334329 0.000000 12078.192451 -15.142099 0.000000 0.000000
+	-log_K	12.3766	# +- 0.8566
+
+Illite(Mg)
+	K0.85Mg0.25Al2.35Si3.4O10(OH)2 + 1.6 H2O + 8.4 H+ = 2.35 Al+3 + 0.85 K+ + 0.25 Mg+2 + 3.4 Si(OH)4
+	-Vm	140.060	# cm^3/mol
+	# dHr -231.661 +- 7.747 kJ/mol
+	# dCpr -95.023 J/(K*mol)
+	-analytical_expression 3.685048 0.000000 10620.584307 -11.428526 0.000000 0.000000
+	-log_K	11.0275	# +- 0.8562
+
+K(UO2)(AsO4):3H2O(cr)
+	K(UO2)(AsO4)(H2O)3 = AsO4-3 + 3 H2O + K+ + UO2+2
+	-Vm	138.160	# cm^3/mol
+	# dHr 44.761 kJ/mol
+	-analytical_expression -15.458257 0.000000 -2338.015747 0.000000 0.000000 0.000000
+	-log_K	-23.3000	# +- 1.0000
+
+K(UO2)(BO3):H2O(cr)
+	K(UO2)(BO3)(H2O) + 2 H+ = 0.5 (UO2)2(OH)2+2 + B(OH)3 + K+
+	-Vm	133.790	# cm^3/mol
+	# dHr 3.891 kJ/mol
+	-analytical_expression 4.581670 0.000000 -203.239858 0.000000 0.000000 0.000000
+	-log_K	3.9000	# +- 0.2000
+
+K(UO2)(PO4):3H2O(cr)
+	K(UO2)(PO4)(H2O)3 = 3 H2O + K+ + PO4-3 + UO2+2
+	-Vm	129.420	# cm^3/mol
+	# dHr 40.869 kJ/mol
+	-analytical_expression -18.340102 0.000000 -2134.723656 0.000000 0.000000 0.000000
+	-log_K	-25.5000	# +- 1.0000
+
+Boltwoodite
+	K(UO2)(SiO3OH)(H2O) + 3 H+ = H2O + K+ + Si(OH)4 + UO2+2
+	-Vm	101.510	# cm^3/mol
+	# dHr -27.700 +- 8.000 kJ/mol
+	-analytical_expression -0.372802 0.000000 1446.863032 0.000000 0.000000 0.000000
+	-log_K	4.4800	# +- 1.1700
+
+Compreignacite
+	K2U6O19(H2O)11 + 14 H+ = 18 H2O + 2 K+ + 6 UO2+2
+	-Vm	391.530	# cm^3/mol
+	-log_K	37.1000	# +- 0.5400
+
+K3NpO2(CO3)2(s)
+	K3NpO2(CO3)2 = 2 CO3-2 + 3 K+ + NpO2+
+	-log_K	-15.4600	# +- 0.1600
+
+K4NpO2(CO3)3(s)
+	K4NpO2(CO3)3 = 3 CO3-2 + 4 K+ + NpO2+2
+	-log_K	-26.9300	# +- 1.0000
+
+KNpO2CO3(s)
+	KNpO2CO3 = CO3-2 + K+ + NpO2+
+	-Vm	87.820	# cm^3/mol
+	-log_K	-13.1500	# +- 0.1900
+
+Li(UO2)(AsO4):4H2O(cr)
+	Li(UO2)(AsO4)(H2O)4 = AsO4-3 + 4 H2O + Li+ + UO2+2
+	-Vm	138.160	# cm^3/mol
+	# dHr 16.279 kJ/mol
+	-analytical_expression -17.548059 0.000000 -850.306256 0.000000 0.000000 0.000000
+	-log_K	-20.4000	# +- 1.0000
+
+Li(UO2)(BO3):1.5H2O(cr)
+	Li(UO2)(BO3)(H2O)1.5 + 2 H+ = 0.5 (UO2)2(OH)2+2 + B(OH)3 + 0.5 H2O + Li+
+	-Vm	92.550	# cm^3/mol
+	# dHr -22.050 kJ/mol
+	-analytical_expression 0.717029 0.000000 1151.744760 0.000000 0.000000 0.000000
+	-log_K	4.5800	# +- 0.2000
+
+Li(UO2)(PO4):4H2O(cr)
+	Li(UO2)(PO4)(H2O)4 = 4 H2O + Li+ + PO4-3 + UO2+2
+	-Vm	133.130	# cm^3/mol
+	# dHr 37.288 kJ/mol
+	-analytical_expression -18.967462 0.000000 -1947.676128 0.000000 0.000000 0.000000
+	-log_K	-25.5000	# +- 1.0000
+
+Linda_type_A
+	Na1.98Al1.98Si2.02O8(H2O)5.31 + 7.92 H+ = 1.98 Al+3 + 5.23 H2O + 1.98 Na+ + 2.02 Si(OH)4
+	# dHr -291.033 +- 5.875 kJ/mol
+	# dCpr 86.936 J/(K*mol)
+	-analytical_expression -52.380180 0.000000 16555.529853 10.455925 0.000000 0.000000
+	-log_K	29.0198	# +- 0.6013
+
+Low-silica_P-Ca
+	CaAl2Si2O8(H2O)4.5 + 8 H+ = 2 Al+3 + Ca+2 + 4.5 H2O + 2 Si(OH)4
+	-Vm	124.750	# cm^3/mol
+	# dHr -305.210 +- 5.990 kJ/mol
+	# dCpr -3.055 J/(K*mol)
+	-analytical_expression -28.236669 0.000000 15894.556177 -0.367372 0.000000 0.000000
+	-log_K	24.1649	# +- 0.6287
+
+Low-silica_P-Na
+	Na2Al2Si2O8(H2O)3.8 + 8 H+ = 2 Al+3 + 3.8 H2O + 2 Na+ + 2 Si(OH)4
+	-Vm	122.420	# cm^3/mol
+	# dHr -255.724 +- 5.907 kJ/mol
+	# dCpr 102.367 J/(K*mol)
+	-analytical_expression -52.526351 0.000000 14951.504987 12.311889 0.000000 0.000000
+	-log_K	28.0862	# +- 0.6022
+
+Brucite
+	Mg(OH)2 + 2 H+ = 2 H2O + Mg+2
+	-Vm	24.630	# +- 0.070 cm^3/mol
+	# dHr -115.324 +- 1.517 kJ/mol
+	# dCpr 52.183 J/(mol*K)
+	-analytical_expression -21.334967 0.000000 6836.445577 6.276147 0.000000 0.000000
+	-log_K	17.1245	# +- 0.2795
+
+Glushinskite
+	Mg(Oxa)(H2O)2 = 2 H2O + Mg+2 + Oxa-2
+	-Vm	80.190	# cm^3/mol
+	-log_K	-6.4000	# +- 0.2000
+
+Mg[(UO2)(AsO4)]2:10H2O(cr)
+	Mg(UO2)2(AsO4)2(H2O)10 = 2 AsO4-3 + 10 H2O + Mg+2 + 2 UO2+2
+	-Vm	276.310	# cm^3/mol
+	# dHr 10.546 kJ/mol
+	-analytical_expression -42.752431 0.000000 -550.852619 0.000000 0.000000 0.000000
+	-log_K	-44.6000	# +- 0.5000
+
+Meta-saleite
+	Mg(UO2)2(PO4)2(H2O)8 = 8 H2O + Mg+2 + 2 PO4-3 + 2 UO2+2
+	-Vm	279.880	# cm^3/mol
+	# dHr 6.615 kJ/mol
+	-analytical_expression -48.041109 0.000000 -345.523428 0.000000 0.000000 0.000000
+	-log_K	-49.2000	# +- 1.2000
+
+Mg2KH(PO4)2:15H2O(cr)
+	Mg2KH(PO4)2(H2O)15 = H+ + 15 H2O + K+ + 2 Mg+2 + 2 PO4-3
+	-Vm	303.200	# cm^3/mol
+	# dHr 58.900 kJ/mol
+	# dCpr -690.000 J/(K*mol)
+	-analytical_expression 223.036808 0.000000 -13822.164605 -82.987452 0.000000 0.000000
+	-log_K	-28.6700	# +- 0.6000
+
+Farringtonite
+	Mg3(PO4)2 = 3 Mg+2 + 2 PO4-3
+	-Vm	95.250	# cm^3/mol
+	# dHr -184.300 kJ/mol
+	# dCpr -1316.000 J/(K*mol)
+	-analytical_expression 405.688672 0.000000 -10867.947130 -158.277517 0.000000 0.000000
+	-log_K	-22.4100	# +- 0.3000
+
+Cattite
+	Mg3(PO4)2(H2O)22 = 22 H2O + 3 Mg+2 + 2 PO4-3
+	-Vm	386.180	# cm^3/mol
+	# dHr 22.400 kJ/mol
+	# dCpr -449.000 J/(K*mol)
+	-analytical_expression 137.971428 0.000000 -8162.467349 -54.001980 0.000000 0.000000
+	-log_K	-23.0300	# +- 0.5600
+
+Mg3(PO4)2:4H2O(cr)
+	Mg3(PO4)2(H2O)4 = 4 H2O + 3 Mg+2 + 2 PO4-3
+	-Vm	128.060	# cm^3/mol
+	# dHr -232.000 kJ/mol
+	# dCpr -1175.000 J/(K*mol)
+	-analytical_expression 346.914922 0.000000 -6180.573171 -141.319212 0.000000 0.000000
+	-log_K	-23.5000	# +- 1.8000
+
+Bobierrite
+	Mg3(PO4)2(H2O)8 = 8 H2O + 3 Mg+2 + 2 PO4-3
+	-Vm	185.420	# cm^3/mol
+	# dHr -183.900 kJ/mol
+	# dCpr -1034.000 J/(K*mol)
+	-analytical_expression 304.214509 0.000000 -6497.151504 -124.360906 0.000000 0.000000
+	-log_K	-25.3000	# +- 1.0000
+
+Magnesite
+	MgCO3 + H+ = HCO3- + Mg+2
+	-Vm	28.020	# +- 0.010 cm^3/mol
+	# dHr -44.727 +- 1.706 kJ/mol
+	# dCpr -142.807 J/(mol*K)
+	-analytical_expression 44.600067 0.000000 112.275187 -17.175632 0.000000 0.000000
+	-log_K	2.4767	# +- 0.3114
+
+Newberyite
+	MgHPO4(H2O)3 = H+ + 3 H2O + Mg+2 + PO4-3
+	-Vm	83.020	# cm^3/mol
+	# dHr -0.800 kJ/mol
+	# dCpr -497.000 J/(K*mol)
+	-analytical_expression 155.799198 0.000000 -7698.175792 -59.775020 0.000000 0.000000
+	-log_K	-17.9300	# +- 0.2300
+
+Phosphorröslerite
+	MgHPO4(H2O)7 = H+ + 7 H2O + Mg+2 + PO4-3
+	-Vm	160.500	# cm^3/mol
+	# dHr -27.900 kJ/mol
+	# dCpr -356.000 J/(K*mol)
+	-analytical_expression 102.644391 0.000000 -4086.808276 -42.816714 0.000000 0.000000
+	-log_K	-17.0100	# +- 0.2500
+
+MgKPO4:H2O(cr)
+	MgKPO4(H2O) = H2O + K+ + Mg+2 + PO4-3
+	-Vm	70.500	# cm^3/mol
+	# dHr -35.900 kJ/mol
+	# dCpr -581.000 J/(K*mol)
+	-analytical_expression 186.016348 0.000000 -7172.948841 -69.877840 0.000000 0.000000
+	-log_K	-10.9500	# +- 1.5000
+
+K-struvite
+	MgKPO4(H2O)6 = 6 H2O + K+ + Mg+2 + PO4-3
+	-Vm	142.500	# cm^3/mol
+	# dHr 6.200 kJ/mol
+	# dCpr -405.000 J/(K*mol)
+	-analytical_expression 131.810467 0.000000 -6631.059461 -48.710026 0.000000 0.000000
+	-log_K	-10.9600	# +- 0.3100
+
+MgSeO3:6H2O(cr)
+	MgSeO3(H2O)6 = 6 H2O + Mg+2 + SeO3-2
+	-Vm	124.430	# cm^3/mol
+	# dHr 18.030 +- 1.820 kJ/mol
+	-analytical_expression -2.661299 0.000000 -941.766804 0.000000 0.000000 0.000000
+	-log_K	-5.8200	# +- 0.2500
+
+Pyrochroite
+	Mn(OH)2 + 2 H+ = 2 H2O + Mn+2
+	-Vm	24.630	# cm^3/mol
+	# dHr -123.000 +- 17.000 kJ/mol
+	-analytical_expression -6.358545 0.000000 6424.698662 0.000000 0.000000 0.000000
+	-log_K	15.1900	# +- 0.1000
+
+Mn[(UO2)(AsO4)]2:8H2O(cr)
+	Mn(UO2)2(AsO4)2(H2O)8 = 2 AsO4-3 + 8 H2O + Mn+2 + 2 UO2+2
+	-Vm	269.040	# cm^3/mol
+	# dHr 36.089 kJ/mol
+	-analytical_expression -38.077517 0.000000 -1885.048374 0.000000 0.000000 0.000000
+	-log_K	-44.4000	# +- 1.0000
+
+Mn[(UO2)(PO4)]2:10H2O(cr)
+	Mn(UO2)2(PO4)2(H2O)10 = 10 H2O + Mn+2 + 2 PO4-3 + 2 UO2+2
+	-Vm	256.690	# cm^3/mol
+	-log_K	-50.2200	# +- 0.4000
+
+Bixbyite
+	Mn2O3 + 6 H+ = 2 Mn+3 + 3 H2O
+	-Vm	31.370	# cm^3/mol
+	# dHr -124.512 +- 4.123 kJ/mol
+	-analytical_expression -22.611564 0.000000 6503.670896 0.000000 0.000000 0.000000
+	-log_K	-0.7981	# +- 0.2478
+
+Hausmannite
+	MnMn2O4 + 8 H+ = 2 Mn+3 + 4 H2O + Mn+2
+	-Vm	46.950	# cm^3/mol
+	# dHr -205.649 +- 4.301 kJ/mol
+	-analytical_expression -25.429679 0.000000 10741.741875 0.000000 0.000000 0.000000
+	-log_K	10.5983	# +- 0.3181
+
+Rhodochrosite
+	MnCO3 + H+ = HCO3- + Mn+2
+	-Vm	31.070	# cm^3/mol
+	# dHr -18.820 +- 0.749 kJ/mol
+	-analytical_expression -3.825304 0.000000 983.031094 0.000000 0.000000 0.000000
+	-log_K	-0.5282	# +- 0.1468
+
+Manganosite
+	MnO + 2 H+ = H2O + Mn+2
+	-Vm	13.220	# cm^3/mol
+	# dHr -121.417 +- 0.707 kJ/mol
+	-analytical_expression -3.305147 0.000000 6342.029207 0.000000 0.000000 0.000000
+	-log_K	17.9661	# +- 0.1342
+
+Manganite
+	MnOOH + 3 H+ = 2 H2O + Mn+3
+	-Vm	20.080	# cm^3/mol
+	# dHr -64.000 +- 5.300 kJ/mol
+	-analytical_expression -11.292251 0.000000 3342.932637 0.000000 0.000000 0.000000
+	-log_K	-0.0800	# +- 0.3000
+
+MnSeO3:2H2O(cr)
+	MnSeO3(H2O)2 = 2 H2O + Mn+2 + SeO3-2
+	-Vm	66.640	# cm^3/mol
+	-log_K	-7.6000	# +- 1.0000
+
+Molecular_sieve_4Å
+	Na2Al2Si2O8(H2O)4.5 + 8 H+ = 2 Al+3 + 4.5 H2O + 2 Na+ + 2 Si(OH)4
+	# dHr -284.270 +- 5.907 kJ/mol
+	# dCpr 64.120 J/(K*mol)
+	-analytical_expression -45.046183 0.000000 15846.918977 7.711783 0.000000 0.000000
+	-log_K	27.1869	# +- 0.6022
+
+Montmorillonite(HcCa)
+	Ca0.3Mg0.6Al1.4Si4O10(OH)2 + 4 H2O + 6 H+ = 1.4 Al+3 + 0.3 Ca+2 + 0.6 Mg+2 + 4 Si(OH)4
+	-Vm	140.320	# cm^3/mol
+	# dHr -168.848 +- 6.695 kJ/mol
+	# dCpr -40.229 J/(K*mol)
+	-analytical_expression -8.621365 0.000000 8192.992900 -4.838468 0.000000 0.000000
+	-log_K	6.8856	# +- 0.8530
+
+Montmorillonite(HcK)
+	K0.6Mg0.6Al1.4Si4O10(OH)2 + 4 H2O + 6 H+ = 1.4 Al+3 + 0.6 K+ + 0.6 Mg+2 + 4 Si(OH)4
+	-Vm	138.750	# cm^3/mol
+	# dHr -133.912 +- 6.689 kJ/mol
+	# dCpr -35.535 J/(K*mol)
+	-analytical_expression -6.596925 0.000000 6441.280420 -4.273839 0.000000 0.000000
+	-log_K	4.4319	# +- 0.8513
+
+Montmorillonite(HcMg)
+	Mg0.3Mg0.6Al1.4Si4O10(OH)2 + 4 H2O + 6 H+ = 1.4 Al+3 + 0.9 Mg+2 + 4 Si(OH)4
+	-Vm	133.270	# cm^3/mol
+	# dHr -171.248 +- 6.701 kJ/mol
+	# dCpr -35.394 J/(K*mol)
+	-analytical_expression -11.623416 0.000000 8393.649926 -4.256956 0.000000 0.000000
+	-log_K	5.9955	# +- 0.8562
+
+Montmorillonite(HcNa)
+	Na0.6Mg0.6Al1.4Si4O10(OH)2 + 4 H2O + 6 H+ = 1.4 Al+3 + 0.6 Mg+2 + 0.6 Na+ + 4 Si(OH)4
+	-Vm	137.470	# cm^3/mol
+	# dHr -149.942 +- 6.689 kJ/mol
+	# dCpr -16.407 J/(K*mol)
+	-analytical_expression -15.076189 0.000000 7576.462527 -1.973324 0.000000 0.000000
+	-log_K	5.4525	# +- 0.8512
+
+Montmorillonite(MgCa)
+	Ca0.17Mg0.34Al1.66Si4O10(OH)2 + 4 H2O + 6 H+ = 1.66 Al+3 + 0.17 Ca+2 + 0.34 Mg+2 + 4 Si(OH)4
+	-Vm	135.580	# cm^3/mol
+	# dHr -161.353 +- 7.075 kJ/mol
+	# dCpr -60.748 J/(K*mol)
+	-analytical_expression -2.822065 0.000000 7481.945582 -7.306252 0.000000 0.000000
+	-log_K	4.1937	# +- 0.8730
+
+Montmorillonite(MgK)
+	K0.34Mg0.34Al1.66Si4O10(OH)2 + 4 H2O + 6 H+ = 1.66 Al+3 + 0.34 K+ + 0.34 Mg+2 + 4 Si(OH)4
+	-Vm	134.690	# cm^3/mol
+	# dHr -141.550 +- 7.073 kJ/mol
+	# dCpr -58.086 J/(K*mol)
+	-analytical_expression -1.675640 0.000000 6489.050697 -6.986136 0.000000 0.000000
+	-log_K	2.8020	# +- 0.8725
+
+Montmorillonite(MgMg)
+	Mg0.17Mg0.34Al1.66Si4O10(OH)2 + 4 H2O + 6 H+ = 1.66 Al+3 + 0.51 Mg+2 + 4 Si(OH)4
+	-Vm	131.580	# cm^3/mol
+	# dHr -162.713 +- 7.077 kJ/mol
+	# dCpr -58.000 J/(K*mol)
+	-analytical_expression -4.525850 0.000000 7595.781008 -6.975726 0.000000 0.000000
+	-log_K	3.6895	# +- 0.8740
+
+Montmorillonite(MgNa)
+	Na0.34Mg0.34Al1.66Si4O10(OH)2 + 4 H2O + 6 H+ = 1.66 Al+3 + 0.34 Mg+2 + 0.34 Na+ + 4 Si(OH)4
+	-Vm	133.960	# cm^3/mol
+	# dHr -150.638 +- 7.073 kJ/mol
+	# dCpr -47.248 J/(K*mol)
+	-analytical_expression -6.479331 0.000000 7132.531329 -5.682631 0.000000 0.000000
+	-log_K	3.3820	# +- 0.8724
+
+Molybdite
+	MoO3 + H2O = 2 H+ + MoO4-2
+	-Vm	30.560	# cm^3/mol
+	# dHr 33.630 +- 0.966 kJ/mol
+	-analytical_expression -6.043943 0.000000 -1756.622529 0.000000 0.000000 0.000000
+	-log_K	-11.9357	# +- 0.1792
+
+Mordenite-Ca
+	Ca0.34Al0.68Si5.32O12(H2O)2.9 + 6.38 H2O + 2.72 H+ = 0.68 Al+3 + 0.34 Ca+2 + 5.32 Si(OH)4
+	-Vm	209.800	# cm^3/mol
+	# dHr -16.336 +- 7.663 kJ/mol
+	# dCpr 51.906 J/(K*mol)
+	-analytical_expression -25.308859 0.000000 1661.627186 6.242813 0.000000 0.000000
+	-log_K	-4.2883	# +- 1.0571
+
+Mordenite-Na
+	Na0.72Al0.72Si5.28O12(H2O)2.71 + 6.41 H2O + 2.88 H+ = 0.72 Al+3 + 0.72 Na+ + 5.28 Si(OH)4
+	-Vm	209.800	# cm^3/mol
+	# dHr -6.017 +- 7.625 kJ/mol
+	# dCpr 73.478 J/(K*mol)
+	-analytical_expression -30.967561 0.000000 1458.603062 8.837361 0.000000 0.000000
+	-log_K	-4.2079	# +- 1.0490
+
+Na(UO2)(AsO4):3H2O(cr)
+	Na(UO2)(AsO4)(H2O)3 = AsO4-3 + 3 H2O + Na+ + UO2+2
+	-Vm	133.370	# cm^3/mol
+	# dHr 31.249 kJ/mol
+	-analytical_expression -17.325443 0.000000 -1632.239093 0.000000 0.000000 0.000000
+	-log_K	-22.8000	# +- 1.0000
+
+Na(UO2)(BO3):H2O(cr)
+	Na(UO2)(BO3)(H2O) + 2 H+ = 0.5 (UO2)2(OH)2+2 + B(OH)3 + Na+
+	-Vm	128.980	# cm^3/mol
+	# dHr -15.031 kJ/mol
+	-analytical_expression 1.836698 0.000000 785.119070 0.000000 0.000000 0.000000
+	-log_K	4.4700	# +- 0.2000
+
+Na(UO2)(PO4):3H2O(cr)
+	Na(UO2)(PO4)(H2O)3 = 3 H2O + Na+ + PO4-3 + UO2+2
+	-Vm	124.600	# cm^3/mol
+	# dHr 27.236 kJ/mol
+	-analytical_expression -19.528486 0.000000 -1422.626770 0.000000 0.000000 0.000000
+	-log_K	-24.3000	# +- 1.0000
+
+Na-boltwoodite
+	Na(UO2)(SiO3OH)(H2O) + 3 H+ = H2O + Na+ + Si(OH)4 + UO2+2
+	-Vm	98.570	# cm^3/mol
+	# dHr -44.800 +- 5.800 kJ/mol
+	-analytical_expression -2.038576 0.000000 2340.052846 0.000000 0.000000 0.000000
+	-log_K	5.8100	# +- 0.4400
+
+Na2Np2O7:0.1H2O(cr)
+	Na2Np2O7(H2O)0.1 + 6 H+ = 3.1 H2O + 2 Na+ + 2 NpO2+2
+	-Vm	99.040	# cm^3/mol
+	-log_K	25.2000	# +- 2.2000
+
+Na2U2O7:H2O(cr)
+	Na2U2O7(H2O)1 + 6 H+ = 4 H2O + 2 Na+ + 2 UO2+2
+	-Vm	101.880	# cm^3/mol
+	-log_K	24.4000	# +- 0.4000
+
+Na3NpO2(CO3)2(cr)
+	Na3NpO2(CO3)2 = 2 CO3-2 + 3 Na+ + NpO2+
+	-log_K	-14.2200	# +- 0.5000
+
+Na6Th(CO3)5:12H2O(cr)
+	Na6Th(CO3)5(H2O)12 = 5 CO3-2 + 12 H2O + 6 Na+ + Th+4
+	-Vm	377.110	# cm^3/mol
+	-log_K	-42.2000	# +- 0.8000
+
+Na7HNb6O19:15H2O(cr)
+	Na7HNb6O19(H2O)15 = 15 H2O + HNb6O19-7 + 7 Na+
+	-log_K	-11.6000
+
+Dawsonite
+	NaAlCO3(OH)2 + 3 H+ = Al+3 + 2 H2O + HCO3- + Na+
+	-Vm	59.300	# cm^3/mol
+	# dHr -93.400 +- 7.000 kJ/mol
+	# dCpr -3.500 +- 30.000 J/(K*mol)
+	-analytical_expression -10.118447 0.000000 4824.085540 -0.420951 0.000000 0.000000
+	-log_K	5.0200	# +- 0.3000
+
+NaAm(CO3)2:5H2O(cr)
+	NaAm(CO3)2(H2O)5 = Am+3 + 2 CO3-2 + 5 H2O + Na+
+	-log_K	-21.0000	# +- 0.5000
+
+NaAmO2CO3(s)
+	NaAmO2CO3 = AmO2+ + CO3-2 + Na+
+	-log_K	-10.9000	# +- 0.4000
+
+NaNpO2CO3:3.5H2O(cr)
+	NaNpO2CO3(H2O)3.5 = CO3-2 + 3.5 H2O + Na+ + NpO2+
+	-Vm	118.600	# cm^3/mol
+	-log_K	-11.0000	# +- 0.2400
+
+Natrolite
+	Na2Al2Si3O10(H2O)2 + 8 H+ = 2 Al+3 + 2 Na+ + 3 Si(OH)4
+	-Vm	169.200	# cm^3/mol
+	# dHr -239.242 +- 6.685 kJ/mol
+	# dCpr 36.072 J/(K*mol)
+	-analytical_expression -33.197486 0.000000 13058.165938 4.338433 0.000000 0.000000
+	-log_K	21.3350	# +- 0.7451
+
+Nb2O5(pr)
+	Nb2O5 + 5 H2O = 2 Nb(OH)5
+	-Vm	61.820	# cm^3/mol
+	-log_K	-16.0000	# +- 0.5000
+
+NH4(UO2)(AsO4):3H2O(cr)
+	NH4(UO2)(AsO4)(H2O)3 = AsO4-3 + 3 H2O + NH4+ + UO2+2
+	-Vm	149.390	# cm^3/mol
+	# dHr 49.760 kJ/mol
+	-analytical_expression -15.982475 0.000000 -2599.130125 0.000000 0.000000 0.000000
+	-log_K	-24.7000	# +- 1.0000
+
+NH4(UO2)(PO4):3H2O(cr)
+	NH4(UO2)(PO4)(H2O)3 = 3 H2O + NH4+ + PO4-3 + UO2+2
+	-Vm	118.130	# cm^3/mol
+	# dHr 45.176 kJ/mol
+	-analytical_expression -18.185552 0.000000 -2359.692575 0.000000 0.000000 0.000000
+	-log_K	-26.1000	# +- 1.0000
+
+Ni(OH)2(cr_beta)
+	Ni(OH)2 + 2 H+ = 2 H2O + Ni+2
+	-Vm	23.590	# cm^3/mol
+	# dHr -84.340 kJ/mol
+	# dCpr 22.602 J/(K*mol)
+	-analytical_expression -11.662677 0.000000 4757.347614 2.718380 0.000000 0.000000
+	-log_K	11.0200	# +- 0.2000
+
+Ni(Oxa):2H2O(cr)
+	Ni(Oxa)(H2O)2 = 2 H2O + Ni+2 + Oxa-2
+	-Vm	83.650	# cm^3/mol
+	-log_K	9.9600
+
+Rauchite
+	Ni(UO2)2(AsO4)2(H2O)10 = 2 AsO4-3 + 10 H2O + Ni+2 + 2 UO2+2
+	-Vm	277.360	# cm^3/mol
+	# dHr 42.176 kJ/mol
+	-analytical_expression -38.511127 0.000000 -2202.992608 0.000000 0.000000 0.000000
+	-log_K	-45.9000	# +- 1.0000
+
+Ni[(UO2)(PO4)]2:8H2O(cr)
+	Ni(UO2)2(PO4)2(H2O)8 = 8 H2O + Ni+2 + 2 PO4-3 + 2 UO2+2
+	-Vm	266.520	# cm^3/mol
+	# dHr 17.528 kJ/mol
+	-analytical_expression -46.829245 0.000000 -915.545676 0.000000 0.000000 0.000000
+	-log_K	-49.9000	# +- 1.0000
+
+Ni3(AsO3)2:xH2O(s)
+	Ni3(AsO3)2 + 6 H+ = 2 As(OH)3 + 3 Ni+2
+	-log_K	28.7000	# +- 0.7000
+
+Ni[(UO2)(PO4)]2:8H2O(cr)
+	Ni(UO2)2(PO4)2(H2O)8 = 8 H2O + Ni+2 + 2 PO4-3 + 2 UO2+2
+	-Vm	266.520	# cm^3/mol
+	# dHr 17.528 kJ/mol
+	-analytical_expression -46.829245 0.000000 -915.545676 0.000000 0.000000 0.000000
+	-log_K	-49.9000	# +- 1.0000
+
+NiCO3(cr)
+	NiCO3 = CO3-2 + Ni+2
+	-Vm	27.050	# cm^3/mol
+	# dHr -16.689 kJ/mol
+	-analytical_expression -13.923770 0.000000 871.721918 0.000000 0.000000 0.000000
+	-log_K	-11.0000	# +- 0.1800
+
+NiCO3:5.5H2O(s)
+	NiCO3(H2O)5.5 = CO3-2 + 5.5 H2O + Ni+2
+	-Vm	110.760	# cm^3/mol
+	# dHr 10.917 kJ/mol
+	-analytical_expression -5.617435 0.000000 -570.231181 0.000000 0.000000 0.000000
+	-log_K	-7.5300	# +- 0.1000
+
+NiO(cr)
+	NiO + 2 H+ = H2O + Ni+2
+	-Vm	10.970	# cm^3/mol
+	# dHr -61.830 kJ/mol
+	# dCpr 30.951 J/(K*mol)
+	-analytical_expression -9.179913 0.000000 3711.597550 3.722528 0.000000 0.000000
+	-log_K	12.4800	# +- 0.1500
+
+NiSeO3:2H2O(cr)
+	NiSeO3(H2O)2 = 2 H2O + Ni+2 + SeO3-2
+	-Vm	65.200	# cm^3/mol
+	-log_K	-5.8000	# +- 1.0000
+
+Nontronite_Nau-1
+	(Ca0.247K0.020)(Si3.458Al0.542)(Fe1.688Al0.276Mg0.068)O10(OH)2 + 1.832 H2O + 8.168 H+ = 1.688 Fe+3 + 0.818 Al+3 + 0.247 Ca+2 + 0.02 K+ + 0.068 Mg+2 + 3.458 Si(OH)4
+	-Vm	136.380	# cm^3/mol
+	# dHr -192.992 +- 7.669 kJ/mol
+	# dCpr -96.911 J/(K*mol)
+	-analytical_expression 1.367730 0.000000 8571.398621 -11.655656 0.000000 0.000000
+	-log_K	1.2752	# +- 1.3531
+
+Nontronite(Ca)
+	Ca0.17Fe1.67Al0.67Si3.66O10(OH)2 + 2.64 H2O + 7.36 H+ = 1.67 Fe+3 + 0.67 Al+3 + 0.17 Ca+2 + 3.66 Si(OH)4
+	-Vm	133.740	# cm^3/mol
+	# dHr -151.288 +- 5.653 kJ/mol
+	# dCpr -86.704 J/(K*mol)
+	-analytical_expression 0.932204 0.000000 6551.971858 -10.428066 0.000000 0.000000
+	-log_K	-2.8959	# +- 0.7591
+
+Nontronite(K)
+	K0.34Fe1.67Al0.67Si3.66O10(OH)2 + 2.64 H2O + 7.36 H+ = 1.67 Fe+3 + 0.67 Al+3 + 0.34 K+ + 3.66 Si(OH)4
+	-Vm	132.850	# cm^3/mol
+	# dHr -132.755 +- 5.651 kJ/mol
+	# dCpr -84.043 J/(K*mol)
+	-analytical_expression 2.078628 0.000000 5625.413292 -10.107949 0.000000 0.000000
+	-log_K	-4.0651	# +- 0.7584
+
+Nontronite(Mg)
+	Mg0.17Fe1.67Al0.67Si3.66O10(OH)2 + 2.64 H2O + 7.36 H+ = 1.67 Fe+3 + 0.67 Al+3 + 0.17 Mg+2 + 3.66 Si(OH)4
+	-Vm	129.740	# cm^3/mol
+	# dHr -152.468 +- 5.652 kJ/mol
+	# dCpr -83.966 J/(K*mol)
+	-analytical_expression -0.768084 0.000000 6656.249553 -10.098743 0.000000 0.000000
+	-log_K	-3.4316	# +- 0.7588
+
+Nontronite(Na)
+	Na0.34Fe1.67Al0.67Si3.66O10(OH)2 + 2.64 H2O + 7.36 H+ = 1.67 Fe+3 + 0.67 Al+3 + 0.34 Na+ + 3.66 Si(OH)4
+	-Vm	132.120	# cm^3/mol
+	# dHr -141.373 +- 5.651 kJ/mol
+	# dCpr -73.205 J/(K*mol)
+	-analytical_expression -2.725062 0.000000 6244.344262 -8.804445 0.000000 0.000000
+	-log_K	-3.5675	# +- 0.7584
+
+Np(Oxa)2:6H2O(cr)
+	Np(Oxa)2(H2O)6 + 4 H+ = 6 H2O + 2 H2Oxa + Np+4
+	-Vm	191.610	# cm^3/mol
+	-log_K	-12.7000	# +- 1.0000
+
+NpO2(am_hyd)
+	NpO2 + 4 H+ = 2 H2O + Np+4
+	-Vm	24.020	# cm^3/mol
+	-log_K	-0.7000	# +- 0.5000
+
+NpO2(OH)2:H2O(cr_hex)
+	NpO2(OH)2(H2O) + 2 H+ = 3 H2O + NpO2+2
+	-Vm	231.080	# cm^3/mol
+	-log_K	5.4700	# +- 0.4000
+
+NpO2CO3(cr)
+	NpO2CO3 = CO3-2 + NpO2+2
+	-Vm	56.440	# cm^3/mol
+	-log_K	-14.8300	# +- 0.2300
+
+NpO2OH(am)
+	NpO2OH + H+ = H2O + NpO2+
+	# dHr -41.100 +- 3.000 kJ/mol
+	-analytical_expression -1.900367 0.000000 2146.789553 0.000000 0.000000 0.000000
+	-log_K	5.3000	# +- 0.2000
+
+Pa2O5(act)
+	Pa2O5 + 2 H+ + H2O = 2 PaO(OH)2+
+	-Vm	50.100	# cm^3/mol
+	-log_K	-4.0000
+
+Lead
+	Pb = Pb
+	-Vm	18.270	# cm^3/mol
+	-log_K	-7.3000
+
+Pb[(UO2)(AsO4)]2:10H2O(cr)
+	Pb(UO2)2(AsO4)2(H2O)10 = 2 AsO4-3 + 10 H2O + Pb+2 + 2 UO2+2
+	-Vm	317.170	# cm^3/mol
+	# dHr 83.010 kJ/mol
+	-analytical_expression -31.757360 0.000000 -4335.888097 0.000000 0.000000 0.000000
+	-log_K	-46.3000	# +- 1.0000
+
+Pb[(UO2)(PO4)]2:8H2O(cr)
+	Pb(UO2)2(PO4)2(H2O)8 = 8 H2O + 2 PO4-3 + Pb+2 + 2 UO2+2
+	-Vm	280.130	# cm^3/mol
+	-log_K	-49.8500	# +- 0.5000
+
+Pb2(CO3)Cl2(s)
+	Pb2(CO3)Cl2 = CO3-2 + 2 Cl- + 2 Pb+2
+	-Vm	87.400	# cm^3/mol
+	-log_K	-19.8600	# +- 0.1600
+
+Parsonite
+	Pb2(UO2)(PO4)2(H2O)2 = 2 H2O + 2 PO4-3 + 2 Pb+2 + UO2+2
+	-Vm	146.600	# cm^3/mol
+	-log_K	-52.2000	# +- 0.8000
+
+Pb3(PO4)2(s)
+	Pb3(PO4)2 = 2 PO4-3 + 3 Pb+2
+	-Vm	109.050	# cm^3/mol
+	-log_K	-44.4000	# +- 1.0000
+
+Pb5(PO4)3Cl(s)
+	Pb5(PO4)3Cl = Cl- + 3 PO4-3 + 5 Pb+2
+	-Vm	191.030	# cm^3/mol
+	-log_K	-84.4000	# +- 2.0000
+
+PbClOH(s)
+	PbClOH = Cl- + OH- + Pb+2
+	-Vm	42.000	# cm^3/mol
+	-log_K	-13.2700
+
+PbCO3(s)
+	PbCO3 = CO3-2 + Pb+2
+	-Vm	40.590	# cm^3/mol
+	-log_K	-13.1800	# +- 0.0700
+
+PbHPO4(s)
+	PbHPO4 = HPO4-2 + Pb+2
+	-Vm	53.770	# cm^3/mol
+	-log_K	-11.4000	# +- 0.3000
+
+PbO(s_red)
+	PbO + 2 H+ = H2O + Pb+2
+	-Vm	23.670	# cm^3/mol
+	# dHr -66.100 +- 0.700 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 1.039847 0.000000 3452.622614 0.000000 0.000000 0.000000
+	-log_K	12.6200	# +- 0.0700
+
+PbO(s_yellow)
+	PbO + 2 H+ = H2O + Pb+2
+	-Vm	23.150	# cm^3/mol
+	-log_K	12.9000	# +- 0.0800
+
+PbS(s)
+	PbS + H+ = HS- + Pb+2
+	-Vm	31.490	# cm^3/mol
+	-log_K	-12.2800	# +- 0.1000
+
+PbSO4(cr)
+	PbSO4 = Pb+2 + SO4-2
+	-Vm	47.950	# cm^3/mol
+	# dHr 11.550 +- 0.618 kJ/mol
+	-analytical_expression -5.824063 0.000000 -603.294959 0.000000 0.000000 0.000000
+	-log_K	-7.8475	# +- 0.1280
+
+Palladium
+	Pd = Pd
+	-log_K	-9.5000	# +- 0.5000
+
+PdO(cr)
+	PdO + 2 H+ = H2O + Pd+2
+	-Vm	14.680	# cm^3/mol
+	# dHr 3.653 +- 2.620 kJ/mol
+	-analytical_expression -3.021337 0.000000 -190.792432 0.000000 0.000000 0.000000
+	-log_K	-3.6613	# +- 0.4596
+
+Phillipsite-Na
+	Na2.5Al2.5Si5.5O16(H2O)5 + H2O + 10 H+ = 2.5 Al+3 + 2.5 Na+ + 5.5 Si(OH)4
+	-Vm	138.980	# cm^3/mol
+	# dHr -266.595 +- 10.078 kJ/mol
+	# dCpr 139.860 J/(K*mol)
+	-analytical_expression -74.659116 0.000000 16103.243265 16.821194 0.000000 0.000000
+	-log_K	20.9744	# +- 1.2209
+
+Phillipsite-NaK
+	Na1.5KAl2.5Si5.5O16(H2O)5 + H2O + 10 H+ = 2.5 Al+3 + K+ + 1.5 Na+ + 5.5 Si(OH)4
+	-Vm	138.980	# cm^3/mol
+	# dHr -255.445 +- 10.077 kJ/mol
+	# dCpr 104.131 J/(K*mol)
+	-analytical_expression -60.709556 0.000000 14964.414350 12.523957 0.000000 0.000000
+	-log_K	20.4711	# +- 1.2206
+
+Polonium
+	Po = Po
+	-Vm	22.730	# cm^3/mol
+	-log_K	-7.0000
+
+Po(SO4)2:H2O(s)
+	Po(SO4)2(H2O) + HSO4- = H+ + H2O + Po(SO4)3-2
+	-Vm	134.580	# cm^3/mol
+	-log_K	-6.3300	# +- 0.0400
+
+PoO2(s)
+	PoO2 + 4 H+ = Po+4 + 2 H2O
+	-Vm	27.080	# cm^3/mol
+	-log_K	1.0096
+
+PoSO4(s)
+	PoSO4 = Po+2 + SO4-2
+	-log_K	-8.9100
+
+Pu(HPO4)2(am_hyd)
+	Pu(HPO4)2 = 2 HPO4-2 + Pu+4
+	-log_K	-30.4500	# +- 0.5100
+
+Pu(OH)3(am)
+	Pu(OH)3 + 3 H+ = 3 H2O + Pu+3
+	-Vm	46.560	# cm^3/mol
+	-log_K	14.5800	# +- 0.7500
+
+Pu(Oxa)2:6H2O(cr)
+	Pu(Oxa)2(H2O)6 = 6 H2O + Pu(Oxa)2
+	-Vm	202.390	# cm^3/mol
+	-log_K	-4.6000	# +- 0.2000
+
+Pu2(Oxa)3:10H2O(cr)
+	Pu2(Oxa)3(H2O)10 + 6 H+ = 10 H2O + 3 H2Oxa + 2 Pu+3
+	-Vm	267.930	# cm^3/mol
+	-log_K	-7.5000
+
+PuO2(am_hyd)
+	PuO2 + 4 H+ = 2 H2O + Pu+4
+	-Vm	24.010	# cm^3/mol
+	-log_K	-2.3300	# +- 0.5200
+
+PuO2(OH)2(am_hyd)
+	PuO2(OH)2 + 2 H+ = 2 H2O + PuO2+2
+	-log_K	5.1700	# +- 0.6500
+
+PuO2CO3(cr)
+	PuO2CO3 = CO3-2 + PuO2+2
+	-Vm	56.440	# cm^3/mol
+	-log_K	-14.8200	# +- 0.1200
+
+PuO2OH(am)
+	PuO2OH + H+ = H2O + PuO2+
+	-log_K	5.0000	# +- 0.5000
+
+PuPO4(am_hyd)
+	PuPO4 = PO4-3 + Pu+3
+	-Vm	89.000	# cm^3/mol
+	-log_K	-24.4400	# +- 0.5500
+
+RaCO3(cr)
+	RaCO3 = CO3-2 + Ra+2
+	-Vm	46.320	# cm^3/mol
+	# dHr 3.400 +- 1.000 kJ/mol
+	# dCpr -430.800 +- 5.000 J/(K*mol)
+	-analytical_expression 143.735744 0.000000 -6886.598977 -51.813035 0.000000 0.000000
+	-log_K	-7.5700	# +- 0.7000
+
+RaSO4(cr)
+	RaSO4 = Ra+2 + SO4-2
+	-Vm	55.660	# cm^3/mol
+	# dHr 38.800 +- 1.000 kJ/mol
+	# dCpr -428.300 +- 3.800 J/(K*mol)
+	-analytical_expression 146.372926 0.000000 -8696.725180 -51.512356 0.000000 0.000000
+	-log_K	-10.2600	# +- 0.3000
+
+Ripidolite_Cca-2
+	(Si2.633Al1.367)(Al1.116Fe1.927Mg2.952Mn0.012)(Ca0.011)O10(OH)8 + 17.468 H+ = 0.215 Fe+3 + 2.483 Al+3 + 0.011 Ca+2 + 1.712 Fe+2 + 7.468 H2O + 2.952 Mg+2 + 0.012 Mn+2 + 2.633 Si(OH)4
+	-Vm	158.770	# cm^3/mol
+	# dHr -636.903 +- 11.553 kJ/mol
+	-analytical_expression -50.473242 0.000000 33267.552657 0.000000 0.000000 0.000000
+	-log_K	61.1067	# +- 1.7642
+
+S(orth)
+	S = S
+	-Vm	15.510	# cm^3/mol
+	# dHr 48.200 +- 5.400 kJ/mol
+	# dCpr 0.000 +- 0.071 J/(K*mol)
+	-analytical_expression 1.794227 0.000000 -2517.646142 0.000000 0.000000 0.000000
+	-log_K	-6.6500	# +- 0.0701
+
+Saponite_SapCa-2
+	(Na0.394K0.021Ca0.038)(Si3.569Al0.397)(Mg2.949Fe0.055)O10(OH)2 + 2.276 H2O + 7.724 H+ = 0.034 Fe+3 + 0.397 Al+3 + 0.038 Ca+2 + 0.021 Fe+2 + 0.021 K+ + 2.949 Mg+2 + 0.394 Na+ + 3.569 Si(OH)4
+	-Vm	141.660	# cm^3/mol
+	# dHr -288.656 +- 7.292 kJ/mol
+	# dCpr 71.010 J/(K*mol)
+	-analytical_expression -43.823960 0.000000 16183.317441 8.540434 0.000000 0.000000
+	-log_K	31.5879	# +- 1.1962
+
+Saponite(Ca)
+	Ca0.17Mg3Al0.34Si3.66O10(OH)2 + 2.64 H2O + 7.36 H+ = 0.34 Al+3 + 0.17 Ca+2 + 3 Mg+2 + 3.66 Si(OH)4
+	-Vm	142.570	# cm^3/mol
+	# dHr -274.393 +- 5.505 kJ/mol
+	# dCpr 70.422 J/(K*mol)
+	-analytical_expression -43.237493 0.000000 15429.196756 8.469829 0.000000 0.000000
+	-log_K	29.4703	# +- 0.8327
+
+Saponite(FeCa)
+	Ca0.17Mg2FeAl0.34Si3.66O10(OH)2 + 2.64 H2O + 7.36 H+ = 0.34 Al+3 + 0.17 Ca+2 + Fe+2 + 2 Mg+2 + 3.66 Si(OH)4
+	-Vm	145.150	# cm^3/mol
+	# dHr -262.558 +- 5.373 kJ/mol
+	# dCpr 59.276 J/(K*mol)
+	-analytical_expression -40.087508 0.000000 14637.427399 7.129225 0.000000 0.000000
+	-log_K	26.6475	# +- 0.7817
+
+Saponite(FeK)
+	K0.34Mg2FeAl0.34Si3.66O10(OH)2 + 2.64 H2O + 7.36 H+ = 0.34 Al+3 + Fe+2 + 0.34 K+ + 2 Mg+2 + 3.66 Si(OH)4
+	-Vm	144.270	# cm^3/mol
+	# dHr -244.016 +- 5.370 kJ/mol
+	# dCpr 61.938 J/(K*mol)
+	-analytical_expression -38.941083 0.000000 13710.346500 7.449342 0.000000 0.000000
+	-log_K	25.4766	# +- 0.7811
+
+Saponite(FeMg)
+	Mg0.17Mg2FeAl0.34Si3.66O10(OH)2 + 2.64 H2O + 7.36 H+ = 0.34 Al+3 + Fe+2 + 2.17 Mg+2 + 3.66 Si(OH)4
+	-Vm	141.160	# cm^3/mol
+	# dHr -263.728 +- 5.394 kJ/mol
+	# dCpr 62.024 J/(K*mol)
+	-analytical_expression -41.791293 0.000000 14741.338494 7.459751 0.000000 0.000000
+	-log_K	26.1101	# +- 0.7897
+
+Saponite(FeNa)
+	Na0.34Mg2FeAl0.34Si3.66O10(OH)2 + 2.64 H2O + 7.36 H+ = 0.34 Al+3 + Fe+2 + 2 Mg+2 + 0.34 Na+ + 3.66 Si(OH)4
+	-Vm	143.540	# cm^3/mol
+	# dHr -251.644 +- 5.370 kJ/mol
+	# dCpr 72.766 J/(K*mol)
+	-analytical_expression -43.741275 0.000000 14277.410748 8.751644 0.000000 0.000000
+	-log_K	25.8008	# +- 0.7811
+
+Saponite(K)
+	K0.34Mg3Al0.34Si3.66O10(OH)2 + 2.64 H2O + 7.36 H+ = 0.34 Al+3 + 0.34 K+ + 3 Mg+2 + 3.66 Si(OH)4
+	-Vm	144.270	# cm^3/mol
+	# dHr -255.861 +- 5.503 kJ/mol
+	# dCpr 73.084 J/(K*mol)
+	-analytical_expression -42.091069 0.000000 14502.638190 8.789946 0.000000 0.000000
+	-log_K	28.3012	# +- 0.8321
+
+Saponite(Mg)
+	Mg0.17Mg3Al0.34Si3.66O10(OH)2 + 2.64 H2O + 7.36 H+ = 0.34 Al+3 + 3.17 Mg+2 + 3.66 Si(OH)4
+	-Vm	138.580	# cm^3/mol
+	# dHr -275.573 +- 5.537 kJ/mol
+	# dCpr 73.161 J/(K*mol)
+	-analytical_expression -44.937780 0.000000 15533.474450 8.799153 0.000000 0.000000
+	-log_K	28.9347	# +- 0.8440
+
+Saponite(Na)
+	Na0.34Mg3Al0.34Si3.66O10(OH)2 + 2.64 H2O + 7.36 H+ = 0.34 Al+3 + 3 Mg+2 + 0.34 Na+ + 3.66 Si(OH)4
+	-Vm	143.540	# cm^3/mol
+	# dHr -264.479 +- 5.502 kJ/mol
+	# dCpr 83.922 J/(K*mol)
+	-analytical_expression -46.894759 0.000000 15121.569160 10.093451 0.000000 0.000000
+	-log_K	28.7988	# +- 0.8321
+
+Scolecite
+	CaAl2Si3O10(H2O)3 + 8 H+ = 2 Al+3 + Ca+2 + H2O + 3 Si(OH)4
+	-Vm	172.300	# cm^3/mol
+	# dHr -282.769 +- 6.759 kJ/mol
+	# dCpr -19.742 J/(K*mol)
+	-analytical_expression -19.420820 0.000000 14462.534703 -2.374372 0.000000 0.000000
+	-log_K	23.2115	# +- 0.7667
+
+Selenium
+	Se = Se
+	-Vm	16.420	# cm^3/mol
+	-log_K	-6.0000	# +- 1.0000
+
+Silica(am)
+	SiO2 + 2 H2O = Si(OH)4
+	-Vm	27.270	# cm^3/mol
+	# dHr 13.444 +- 0.209 kJ/mol
+	# dCpr 0.000 J/(mol*K)
+	-analytical_expression -0.336727 0.000000 -702.224787 0.000000 0.000000 0.000000
+	-log_K	-2.6920	# +- 0.0200
+
+Quartz
+	SiO2 + 2 H2O = Si(OH)4
+	-Vm	22.690	# cm^3/mol
+	# dHr 20.475 +- 1.720 kJ/mol
+	# dCpr -0.233 J/(mol*K)
+	-analytical_expression -0.092766 0.000000 -1073.088360 -0.028046 0.000000 0.000000
+	-log_K	-3.7613	# +- 0.2633
+
+Sm(OH)3(cr)
+	Sm(OH)3 + 3 H+ = 3 H2O + Sm+3
+	-Vm	38.430	# cm^3/mol
+	-log_K	15.0000	# +- 1.0000
+
+Sm2(CO3)3(cr)
+	Sm2(CO3)3 = 3 CO3-2 + 2 Sm+3
+	-Vm	168.070	# cm^3/mol
+	-log_K	-35.0000	# +- 2.0000
+
+Smectite_MX80
+	(Na0.409K0.024Ca0.009)(Si3.738Al0.262)(Al1.598 Mg0.214Fe0.208)O10(OH)2 + 2.952 H2O + 7.048 H+ = 0.173 Fe+3 + 1.86 Al+3 + 0.009 Ca+2 + 0.035 Fe+2 + 0.024 K+ + 0.214 Mg+2 + 0.409 Na+ + 3.738 Si(OH)4
+	-Vm	134.920	# cm^3/mol
+	# dHr -189.706 +- 8.943 kJ/mol
+	# dCpr -72.147 J/(K*mol)
+	-analytical_expression -2.743649 0.000000 8785.415803 -8.677209 0.000000 0.000000
+	-log_K	5.2516	# +- 1.2703
+
+SmF3(cr)
+	SmF3 = 3 F- + Sm+3
+	-Vm	30.760	# cm^3/mol
+	# dHr 73.000 +- 40.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 31.988974 0.000000 -3813.032539 0.000000 0.000000 0.000000
+	-log_K	19.2000	# +- 0.4000
+
+SmOHCO3(cr)
+	SmOHCO3 = CO3-2 + OH- + Sm+3
+	-Vm	42.740	# cm^3/mol
+	-log_K	-21.7000	# +- 2.0000
+
+Sm-rhabdophane
+	SmPO4(H2O)0.667 = 0.667 H2O + PO4-3 + Sm+3
+	-Vm	53.960	# cm^3/mol
+	# dHr -22.000 +- 8.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -29.054211 0.000000 1149.133094 0.000000 0.000000 0.000000
+	-log_K	-25.2000	# +- 1.3000
+
+SnO(s)
+	SnO + 2 H+ = H2O + Sn+2
+	-Vm	21.130	# cm^3/mol
+	-log_K	1.6000	# +- 0.3000
+
+SnO2(am)
+	SnO2 + 2 H2O = Sn(OH)4
+	-Vm	28.900	# cm^3/mol
+	-log_K	-7.2200	# +- 0.0800
+
+Cassiterite
+	SnO2 + 2 H2O = Sn(OH)4
+	-Vm	21.550	# cm^3/mol
+	-log_K	-8.0600	# +- 0.1100
+
+Sodalite
+	Na8Al6Si6O24Cl2 + 24 H+ = 6 Al+3 + 2 Cl- + 8 Na+ + 6 Si(OH)4
+	-Vm	417.760	# cm^3/mol
+	# dHr -794.526 +- 17.725 kJ/mol
+	# dCpr -380.752 J/(K*mol)
+	-analytical_expression 67.672571 0.000000 35571.137702 -45.793714 0.000000 0.000000
+	-log_K	73.6652	# +- 1.8092
+
+Sr[(UO2)(AsO4)]2:8H2O(cr)
+	Sr(UO2)2(AsO4)2(H2O)8 = 2 AsO4-3 + 8 H2O + Sr+2 + 2 UO2+2
+	-Vm	309.450	# cm^3/mol
+	# dHr 33.257 kJ/mol
+	-analytical_expression -39.273659 0.000000 -1737.123605 0.000000 0.000000 0.000000
+	-log_K	-45.1000	# +- 1.0000
+
+Sr[(UO2)(PO4)]2:6H2O(cr)
+	Sr(UO2)2(PO4)2(H2O)6 = 6 H2O + 2 PO4-3 + Sr+2 + 2 UO2+2
+	-Vm	283.190	# cm^3/mol
+	# dHr 29.514 kJ/mol
+	-analytical_expression -46.129400 0.000000 -1541.614279 0.000000 0.000000 0.000000
+	-log_K	-51.3000	# +- 1.0000
+
+Sr3(PO4)2(s)
+	Sr3(PO4)2 = 2 PO4-3 + 3 Sr+2
+	-Vm	99.980	# cm^3/mol
+	-log_K	-28.8000	# +- 0.4000
+
+Strontianite
+	SrCO3 = CO3-2 + Sr+2
+	-Vm	39.010	# cm^3/mol
+	# dHr -1.600 +- 0.600 kJ/mol
+	# dCpr -471.000 +- 28.000 J/(K*mol)
+	-analytical_expression 155.223264 0.000000 -7251.481642 -56.647956 0.000000 0.000000
+	-log_K	-9.2700	# +- 0.0300
+
+SrHPO4(beta)
+	SrHPO4 = HPO4-2 + Sr+2
+	-Vm	53.230	# cm^3/mol
+	# dHr -19.300 +- 3.900 kJ/mol
+	# dCpr -345.000 +- 50.000 J/(K*mol)
+	-analytical_expression 110.372822 0.000000 -4364.707833 -41.493726 0.000000 0.000000
+	-log_K	-6.9400	# +- 0.0700
+
+SrSeO3(cr)
+	SrSeO3 = SeO3-2 + Sr+2
+	-Vm	46.150	# cm^3/mol
+	# dHr -6.200 +- 2.960 kJ/mol
+	-analytical_expression -7.386187 0.000000 323.846599 0.000000 0.000000 0.000000
+	-log_K	-6.3000	# +- 0.5000
+
+Celestite
+	SrSO4 = SO4-2 + Sr+2
+	-Vm	46.250	# cm^3/mol
+	# dHr -1.300 +- 0.600 kJ/mol
+	# dCpr -413.500 +- 2.900 J/(K*mol)
+	-analytical_expression 137.850152 0.000000 -6371.683146 -49.732335 0.000000 0.000000
+	-log_K	-6.5800	# +- 0.1000
+
+Stilbite
+	Ca1.11Al2.22Si6.78O18(H2O)6.8 + 2.32 H2O + 8.88 H+ = 2.22 Al+3 + 1.11 Ca+2 + 6.78 Si(OH)4
+	-Vm	333.400	# cm^3/mol
+	# dHr -234.338 +- 11.165 kJ/mol
+	# dCpr 35.737 J/(K*mol)
+	-analytical_expression -39.954035 0.000000 12796.829932 4.298208 0.000000 0.000000
+	-log_K	13.6024	# +- 1.4377
+
+TcO2(am_hyd_ag)
+	TcO2 + H2O = TcO(OH)2
+	-Vm	19.270	# cm^3/mol
+	-log_K	-8.7200	# +- 0.4000
+
+TcO2(am_hyd_fr)
+	TcO2 + H2O = TcO(OH)2
+	-Vm	19.270	# cm^3/mol
+	-log_K	-7.6600	# +- 1.2200
+
+Th3(PO4)4(s)
+	Th3(PO4)4 = 4 PO4-3 + 3 Th+4
+	-Vm	285.410	# cm^3/mol
+	-log_K	-112.0000	# +- 2.1000
+
+ThF4(cr_hyd)
+	ThF4 = 4 F- + Th+4
+	-Vm	50.010	# cm^3/mol
+	-log_K	-31.8000	# +- 0.4000
+
+ThO2(am_hyd_ag)
+	ThO2 + 4 H+ = 2 H2O + Th+4
+	-Vm	26.400	# cm^3/mol
+	-log_K	8.5000	# +- 0.9000
+
+ThO2(am_hyd_fr)
+	ThO2 + 4 H+ = 2 H2O + Th+4
+	-Vm	26.400	# cm^3/mol
+	-log_K	9.3000	# +- 0.9000
+
+TiO2(am_hyd)
+	TiO2 + 2 H+ = H2O + TiO+2
+	-Vm	20.520	# cm^3/mol
+	-log_K	0.1900	# +- 0.4200
+
+U(OH)2SO4(cr)
+	U(OH)2SO4 + 2 H+ = 2 H2O + SO4-2 + U+4
+	-Vm	71.900	# cm^3/mol
+	-log_K	-3.1700	# +- 0.5000
+
+U(Oxa)2:6H2O(cr)
+	U(Oxa)2(H2O)6 = 6 H2O + U(Oxa)2
+	-Vm	202.390	# cm^3/mol
+	# dHr 10.400 +- 1.000 kJ/mol
+	# dCpr 513.000 +- 41.000 J/(K*mol)
+	-analytical_expression -182.464764 0.000000 7445.909738 61.699367 0.000000 0.000000
+	-log_K	-4.8200	# +- 0.2000
+
+UF4:2.5H2O(cr)
+	UF4(H2O)2.5 = 4 F- + 2.5 H2O + U+4
+	-Vm	75.530	# cm^3/mol
+	# dHr 4.746 kJ/mol
+	-analytical_expression -29.288542 0.000000 -247.899348 0.000000 0.000000 0.000000
+	-log_K	-30.1200	# +- 0.7000
+
+UO2(am_hyd)
+	UO2 + 4 H+ = 2 H2O + U+4
+	-Vm	24.620	# cm^3/mol
+	-log_K	1.5000	# +- 1.0000
+
+Rutherfordine
+	UO2CO3 = CO3-2 + UO2+2
+	-Vm	58.080	# cm^3/mol
+	# dHr -2.740 kJ/mol
+	-analytical_expression -15.240024 0.000000 143.119304 0.000000 0.000000 0.000000
+	-log_K	-14.7600	# +- 0.0200
+
+Hydrogen_uranospinite
+	UO2HAsO4(H2O)4 = AsO4-3 + H+ + 4 H2O + UO2+2
+	-Vm	135.780	# cm^3/mol
+	# dHr 32.837 kJ/mol
+	-analytical_expression -17.247239 0.000000 -1715.185610 0.000000 0.000000 0.000000
+	-log_K	-23.0000	# +- 0.3000
+
+Chernikovite
+	UO2HPO4(H2O)4 + 2 H+ = 4 H2O + H3PO4 + UO2+2
+	-Vm	134.340	# cm^3/mol
+	# dHr 18.895 kJ/mol
+	-analytical_expression 0.810242 0.000000 -986.948628 0.000000 0.000000 0.000000
+	-log_K	-2.5000	# +- 0.0900
+
+UO2Oxa:3H2O(cr)
+	UO2Oxa(H2O)3 = 3 H2O + UO2Oxa
+	-Vm	98.420	# cm^3/mol
+	# dHr 20.200 +- 3.500 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression 1.738867 0.000000 -1055.113114 0.000000 0.000000 0.000000
+	-log_K	-1.8000	# +- 0.2700
+
+Metaschoepite
+	UO3(H2O)2 + 2 H+ = 3 H2O + UO2+2
+	-Vm	39.236	# cm^3/mol
+	# dHr -53.463 kJ/mol
+	# dCpr 96.383 J/(K*mol)
+	-analytical_expression -37.734669 0.000000 4293.557766 11.592144 0.000000 0.000000
+	-log_K	5.3500	# +- 0.1300
+
+Coffinite
+	USiO4 + 4 H+ = Si(OH)4 + U+4
+	-Vm	64.730	# cm^3/mol
+	# dHr -79.000 kJ/mol
+	-analytical_expression -18.340122 0.000000 4126.432474 0.000000 0.000000 0.000000
+	-log_K	-4.5000
+
+Vermiculite_SO
+	Ca0.445(Si2.778Al1.222)(Al0.192Mg2.468Fe0.254Ti0.018Mn0.007)O10(OH)2 + 10.852 H+ = 0.226 Fe+3 + 1.414 Al+3 + 0.445 Ca+2 + 0.028 Fe+2 + 0.87 H2O + 2.468 Mg+2 + 0.007 Mn+2 + 2.778 Si(OH)4 + 0.018 TiO+2
+	-Vm	148.360	# cm^3/mol
+	-log_K	43.9015	# +- 1.2333
+
+Vermiculite(Ca)
+	Ca0.43Mg3Al0.86Si3.14O10(OH)2 + 0.56 H2O + 9.44 H+ = 0.86 Al+3 + 0.43 Ca+2 + 3 Mg+2 + 3.14 Si(OH)4
+	-Vm	149.800	# cm^3/mol
+	# dHr -381.076 +- 5.268 kJ/mol
+	# dCpr 41.119 J/(K*mol)
+	-analytical_expression -41.440248 0.000000 20545.242485 4.945425 0.000000 0.000000
+	-log_K	39.7060	# +- 0.7713
+
+Vermiculite(K)
+	K0.86Mg3Al0.86Si3.14O10(OH)2 + 0.56 H2O + 9.44 H+ = 0.86 Al+3 + 0.86 K+ + 3 Mg+2 + 3.14 Si(OH)4
+	-Vm	147.560	# cm^3/mol
+	# dHr -339.077 +- 5.251 kJ/mol
+	# dCpr 47.846 J/(K*mol)
+	-analytical_expression -38.537792 0.000000 18456.235322 5.754565 0.000000 0.000000
+	-log_K	37.6040	# +- 0.7674
+
+Vermiculite(Mg)
+	Mg0.43Mg3Al0.86Si3.14O10(OH)2 + 0.56 H2O + 9.44 H+ = 0.86 Al+3 + 3.43 Mg+2 + 3.14 Si(OH)4
+	-Vm	139.690	# cm^3/mol
+	# dHr -383.346 +- 5.344 kJ/mol
+	# dCpr 48.051 J/(K*mol)
+	-analytical_expression -45.742311 0.000000 20771.763858 5.779126 0.000000 0.000000
+	-log_K	38.2266	# +- 0.8006
+
+Vermiculite(Na)
+	Na0.86Mg3Al0.86Si3.14O10(OH)2 + 0.56 H2O + 9.44 H+ = 0.86 Al+3 + 3 Mg+2 + 0.86 Na+ + 3.14 Si(OH)4
+	-Vm	303.000	# cm^3/mol
+	# dHr -359.079 +- 5.250 kJ/mol
+	# dCpr 75.264 J/(K*mol)
+	-analytical_expression -50.689126 0.000000 19927.985937 9.052090 0.000000 0.000000
+	-log_K	38.5485	# +- 0.7673
+
+Wülfingite
+	Zn(OH)2 + 2 H+ = 2 H2O + Zn+2
+	-Vm	32.480	# cm^3/mol
+	# dHr -100.000 +- 11.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -6.139142 0.000000 5223.332246 0.000000 0.000000 0.000000
+	-log_K	11.3800	# +- 0.2000
+
+Zn[(UO2)(AsO4)]2:8H2O(cr)
+	Zn(UO2)2(AsO4)2(H2O)8 = 2 AsO4-3 + 8 H2O + 2 UO2+2 + Zn+2
+	-Vm	256.210	# cm^3/mol
+	# dHr 28.695 kJ/mol
+	-analytical_expression -40.072882 0.000000 -1498.835188 0.000000 0.000000 0.000000
+	-log_K	-45.1000	# +- 1.0000
+
+Zn[(UO2)(PO4)]2:8H2O(cr)
+	Zn(UO2)2(PO4)2(H2O)8 = 8 H2O + 2 PO4-3 + 2 UO2+2 + Zn+2
+	-Vm	267.680	# cm^3/mol
+	# dHr 23.516 kJ/mol
+	-analytical_expression -45.680199 0.000000 -1228.318811 0.000000 0.000000 0.000000
+	-log_K	-49.8000	# +- 1.0000
+
+Zn3(PO4)2:4H2O(s)
+	Zn3(PO4)2(H2O)4 = 4 H2O + 2 PO4-3 + 3 Zn+2
+	-Vm	109.050	# cm^3/mol
+	-log_K	-35.3000	# +- 0.1000
+
+Hydrozincite
+	Zn5(OH)6(CO3)2 + 6 H+ = 2 CO3-2 + 6 H2O + 5 Zn+2
+	-Vm	139.340	# cm^3/mol
+	# dHr -248.000 +- 15.000 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -34.397473 0.000000 12953.863969 0.000000 0.000000 0.000000
+	-log_K	9.0500	# +- 0.1000
+
+Smithsonite
+	ZnCO3 = CO3-2 + Zn+2
+	-Vm	28.280	# cm^3/mol
+	# dHr -4.100 +- 1.300 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -11.658285 0.000000 214.156622 0.000000 0.000000 0.000000
+	-log_K	-10.9400	# +- 0.0800
+
+Zincite
+	ZnO + 2 H+ = H2O + Zn+2
+	-Vm	14.340	# cm^3/mol
+	# dHr -88.760 +- 0.340 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -4.359991 0.000000 4636.229701 0.000000 0.000000 0.000000
+	-log_K	11.1900	# +- 0.0700
+
+Sphalerite
+	ZnS + 2 H+ = H2S + Zn+2
+	-Vm	23.830	# cm^3/mol
+	# dHr 17.800 +- 1.900 kJ/mol
+	# dCpr 0.000 J/(K*mol)
+	-analytical_expression -0.561593 0.000000 -929.753140 0.000000 0.000000 0.000000
+	-log_K	-3.6800	# +- 0.0500
+
+Zr(HPO4)2:H2O(cr)
+	Zr(HPO4)2(H2O) + 4 H+ = H2O + 2 H3PO4 + Zr+4
+	-Vm	146.830	# cm^3/mol
+	# dHr -16.470 +- 6.170 kJ/mol
+	-analytical_expression -25.685403 0.000000 860.282821 0.000000 0.000000 0.000000
+	-log_K	-22.8000	# +- 3.1000
+
+Zr(OH)4(am_fr)
+	Zr(OH)4 + 4 H+ = 4 H2O + Zr+4
+	-Vm	49.000	# cm^3/mol
+	-log_K	-3.2400	# +- 0.1000
+
+Baddeleyite
+	ZrO2 + 4 H+ = 2 H2O + Zr+4
+	-Vm	21.150	# cm^3/mol
+	# dHr -79.560 +- 5.170 kJ/mol
+	-analytical_expression -20.938230 0.000000 4155.683135 0.000000 0.000000 0.000000
+	-log_K	-7.0000	# +- 1.6000
+
+As(cr)
+	As + 4 H2O = 7 H+ + HAsO4-2 + 5 e-
+	-Vm	12.960	# cm^3/mol
+	# dHr 236.980 kJ/mol
+	-analytical_expression 0.527863 0.000000 -12378.252756 0.000000 0.000000 0.000000
+	-log_K	-40.9890
+
+Graphite
+	C + 3 H2O = 5 H+ + HCO3- + 4 e-
+	-Vm	5.300	# cm^3/mol
+	# dHr 167.275 kJ/mol
+	-analytical_expression 7.486145 0.000000 -8737.329014 0.000000 0.000000 0.000000
+	-log_K	-21.8190
+
+Cu(cr)
+	Cu = Cu+2 + 2 e-
+	-Vm	7.110	# cm^3/mol
+	# dHr 64.900 +- 1.000 kJ/mol
+	-analytical_expression -0.020077 0.000000 -3389.942627 0.000000 0.000000 0.000000
+	-log_K	-11.3900	# +- 0.2700
+
+Iron(alpha)
+	Fe = 2 e- + Fe+2
+	-Vm	7.040	# cm^3/mol
+	# dHr -90.295 +- 0.600 kJ/mol
+	# dCpr -18.639 +- 0.500 J/(K*mol)
+	-analytical_expression 6.595058 0.000000 4426.136945 -2.241735 0.000000 0.000000
+	-log_K	15.8934	# +- 0.1121
+
+Pyrolusite
+	MnO2 + 2 e- + 4 H+ = 2 H2O + Mn+2
+	-Vm	16.610	# cm^3/mol
+	# dHr -272.475 +- 0.860 kJ/mol
+	-analytical_expression -6.103991 0.000000 14232.254092 0.000000 0.000000 0.000000
+	-log_K	41.6312	# +- 0.1593
+
+Tugarinovite
+	MoO2 + 2 H2O = 2 e- + 4 H+ + MoO4-2
+	-Vm	20.640	# cm^3/mol
+	# dHr 162.718 +- 2.247 kJ/mol
+	-analytical_expression -1.428889 0.000000 -8499.281319 0.000000 0.000000 0.000000
+	-log_K	-29.9356	# +- 0.4660
+
+Tin(beta)
+	Sn = 4 e- + Sn+4
+	-Vm	16.290	# cm^3/mol
+	# dHr -31.500 +- 7.300 kJ/mol
+	-analytical_expression -13.699969 0.000000 1645.349657 0.000000 0.000000 0.000000
+	-log_K	-8.1814	# +- 0.6832
+
+Titanium
+	Ti + H2O = 2 H+ + TiO+2 + 4 e-
+	-Vm	10.630	# cm^3/mol
+	-log_K	59.6000	# +- 0.4000
+
