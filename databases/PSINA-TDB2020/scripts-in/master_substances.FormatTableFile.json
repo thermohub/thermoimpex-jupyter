@@ -104,7 +104,23 @@ end;
 rintable.properties.formula = formula
 
 if rintable.properties.aggregate_state['0'] == 'AS_GAS' then rintable.properties.class_['2'] = nil rintable.properties.class_['1'] = 'SC_GASFLUID' end;
-if rintable.properties.aggregate_state['3'] == 'AS_CRYSTAL' then rintable.properties.class_['2'] = nil rintable.properties.class_['0'] = 'SC_COMPONENT' end;"
+if rintable.properties.aggregate_state['3'] == 'AS_CRYSTAL' then rintable.properties.class_['2'] = nil rintable.properties.class_['0'] = 'SC_COMPONENT' end;
+
+
+    if rintable.properties.symbol == 'H2O(l)' or rintable.properties.formula == 'H2O@' then
+        rintable.properties.class_['2'] = nil
+        rintable.properties.class_['3'] = 'SC_AQSOLVENT'
+        --[[rintable.properties.TPMethods = {{method = {}}, {method = {}}, {method = {}}}
+        rintable.properties.TPMethods[1].method = {}
+        rintable.properties.TPMethods[1].method['32'] = 'water_eos_iapws95_reaktoro'
+        rintable.properties.TPMethods[2].method = {}
+        rintable.properties.TPMethods[2].method['25'] = 'water_diel_jnort91_reaktoro'
+    else
+       rintable.properties.TPMethods = nil ]]
+    end
+
+
+"
      },
      "format" :   {
           "Nhcols" :   13,

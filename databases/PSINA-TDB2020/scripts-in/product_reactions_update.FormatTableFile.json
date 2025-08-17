@@ -51,6 +51,19 @@
                "sigma DrCpm [J/(K mol)]" :   {
                     "field" :   "properties.drsm_heat_capacity_p.errors"
                },
+               "DrVm [cm3/mol]" :   {
+                    "field" :   "properties.drsm_volume.values",
+                    "script" :   "field[1] = field[1]/10"
+               },
+               "sigma DrVm [cm3/mol]" :   {
+                    "field" :   "properties.drsm_volume.errors",
+                    "script" :   "field[1] = field[1]/10"
+               },
+               "DrVm_Ref" :   {
+                    "field" :   "properties.datasources.4",
+                    "script" :   "field = 'DrVm_Ref: '.. field",
+                    "ignore" :   false
+               },
                "T-min" :   {
                     "field" :   "properties.limitsTP.lowerT",
 		    "script": "field = field"
@@ -63,10 +76,11 @@
           "script" :   "
           if rintable.properties.drsm_enthalpy ~= nil then rintable.properties.drsm_enthalpy.units = {'kJ/mol'} end;
           if rintable.properties.drsm_heat_capacity_p ~= nil then rintable.properties.drsm_heat_capacity_p.units = {'J/(mol*K)'} end;
+          if rintable.properties.drsm_volume ~= nil then rintable.properties.drsm_volume.units = {'J/bar'} end;
           "
      },
      "format" :   {
-          "Nhcols" :   12,
+          "Nhcols" :   15,
           "Nhrows" :   1,
           "headers" :   [
                "Symbol",
@@ -79,6 +93,9 @@
 	       "DrCpm [J/(K mol)]",
 	       "sigma DrCpm [J/(K mol)]",
 	       "DrCpm_Ref",
+	       "DrVm [cm3/mol]",
+	       "sigma DrVm [cm3/mol]",
+	       "DrVm_Ref",
 	       "T-min",
 	       "T-max"
           ],

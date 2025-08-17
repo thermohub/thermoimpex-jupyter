@@ -1,5 +1,5 @@
 Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
-As(OH)3(aq),As(OH)3(aq),As|+3|(OH)3(aq),aq,28.441,,-121.693,,31.827,,,,1 HAsO4-2 4 H+ 2 e- -1 H2O(l)   = As(OH)3(aq)
+As(OH)3(aq),As(OH)3(aq),As|+3|(OH)3(aq),aq,28.441,,-121.693,,31.827,,,,1 HAsO4-2 4 H+ 2 e-   -1 H2O(l)   = As(OH)3(aq)
 As(OH)4-,As(OH)4-,As|+3|(OH)4-,aq,-9.232,,27.343,,,,,,1 As(OH)3(aq) 1 H2O(l) -1 H+     = As(OH)4-
 AsO4-3,AsO4-3,As|+5|O4-3,aq,-11.603,,18.2,,,,,,1 HAsO4-2 -1 H+       = AsO4-3
 B(OH)4-,B(OH)4-,B(OH)4-,aq,-9.235,,14.053,,-196.602,,,,1 B(OH)3(aq) 1 H2O(l) -1 H+     = B(OH)4-
@@ -35,3 +35,4 @@ S-2,S-2,S|-2|-2,aq,-19,,,,,,,,1 HS- -1 H+       = S-2
 S2O3-2,S2O3-2,S|+2|2O3-2,aq,38.014,,-258.97,,,,,,2 SO4-2 10 H+ 8 e- -5 H2O(l)   = S2O3-2
 SCN-,SCN-,S|0|C|0|N|-1|-,aq,5.941,,-11.05,,,,,,1 HCN(aq) 1 HS- -2 e- -2 H+   = SCN-
 SO3-2,SO3-2,S|+4|O3-2,aq,-3.397,,-11.99,,,,,,1 SO4-2 2 H+ 2 e- -1 H2O(l)   = SO3-2
+S(aq),S(aq),S|0|,aq,-6.65,0.07,48.2,5.4,0,,4,80,1 S(orth) = S(aq)

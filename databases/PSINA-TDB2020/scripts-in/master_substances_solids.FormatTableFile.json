@@ -90,7 +90,11 @@ or string.find(symbol, '%(mcr%)' )
 or string.find(symbol, '%(lin%)' ) 
 or string.find(symbol, '%(cycl%)' ) 
 or string.find(symbol, '%(subst%)' )
+or string.find(symbol, '%(orth%)' )  
 or string.find(symbol, '%(rhomb%)' )  
+or string.find(symbol, '%(alpha%)' ) 
+or string.find(symbol, '%(beta%)' )  
+or string.find(symbol, '%(gamma%)' )   
 or string.find(symbol, '%(dis%)' ) then
 rintable.properties.aggregate_state['4'] = nil
 rintable.properties.class_['2'] = nil

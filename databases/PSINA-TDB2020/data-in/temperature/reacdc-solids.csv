@@ -1,7 +1,9 @@
 comment,Symbol,Name,Composition,agg_state,abbreviation,label,logK,sigma logK,logK_Ref,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrHm_Ref,DrSm [J/(K mol)],sigma DrSm [J/(K mol)],DrSm_Ref,DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],DrCpm_Ref,T-min,T-max,Reaction,logKf(T)_coefficients,a0,a0_e,a1*T,a1_e,a2*T^-1,a2_e,a3*lnT,a3_e
-r,Fe(OH)3(mic),2-line ferrihydrite,Fe|+3|(OH)3,s,fhy,recommended,3.5,0.4,2023HUM/THO,,,,,,,,,,273,373,Fe(OH)3(mic) + 3H+ = Fe+3 + 3H2O(l),,,,,,,,,
+r,Fe(OH)3(mic),Ferrihydrite-2line,Fe|+3|(OH)3,s,fhy,recommended,3.5,0.4,2023HUM/THO,,,,,,,,,,273,373,Fe(OH)3(mic) + 3H+ = Fe+3 + 3H2O(l),,,,,,,,,
 d,MgCO3(s),Magnesite,MgCO3,s,mgs,recommended,-7.85,0.229,2024RAN/PAL,,,,,,,,,,273,523,MgCO3(s) = Mg+2 + CO3-2,,,,,,,,,
 d,Mg(OH)2(s),Brucite,Mg(OH)2,s,brc,recommended,17.11,0.2,2023HUM/THO,,,,,,,,,,273,523,Mg(OH)2(s) + H+ = Mg+2 + 2H2O(l),,,,,,,,,
-r,CaSO4w2(cr),_rdc_Gypsum,CaSO4(H2O)2,s,gy,recommended,-4.61,0.05,2024RAN/PAL,,,,,,,,,,273,423,CaSO4w2(cr) = Ca2+ + SO4-2 + 2H2O(l),,,,,,,,,
+r,CaSO4w2(cr),Gypsum,CaSO4(H2O)2,s,gy,recommended,4.61,0.05,2024RAN/PAL,-1,0.1,2024RAN/PAL,91.6,1,2024RAN/PAL,335.396,3,2024RAN/PAL,273,423,Ca2+ + SO4-2 + 2H2O(l) = CaSO4w2(cr),,,,,,,,,
 r,CaSO4w0.5(cr),Hemihydrate ,CaSO4(H2O)0.5,s,hh,recommended,-0.735,0.35,2018LI/ZEN,18.011,2,2018LI/ZEN,46.327,2,2018LI/ZEN,47.497,5,2018LI/ZEN,371,473,CaSO4w2(cr) = CaSO4w0.5(cr) + 1.5H2O(l) ,,,,,,,,,
-r,SiO2(am),Silica(am),SiO2,s,siam,recommended,-2.692,0.02,2024RAN/PAL,13.444,0.209,2024RAN/PAL,-6.442,0.72,2024RAN/PAL,0,,2024RAN/PAL,273,423,SiO2(am) + 4H2O(l) = Si(OH)4(aq),,-0.336466,0.013877,,,-702.2267,5.5668,,
+r,SiO2(am),Silica(am),SiO2,s,siam,recommended,-2.692,0.02,2024RAN/PAL,13.444,0.209,2024RAN/PAL,-6.442,0.72,2024RAN/PAL,0,,2024RAN/PAL,273,423,SiO2(am) + 2H2O(l) = Si(OH)4(aq),,-0.336466,0.013877,,,-702.2267,5.5668,,
+r,Al(OH)3(s),Bayerite,Al(OH)3,s,byr,recommended,-0.871,0.1,2024RAN/PAL,16.175,2,2024RAN/PAL,37.576,7,calculated,212.332,40,2025MIR,273,373,Al(OH)3(s) + OH- = Al(OH)4-,,,,,,,,,
+r,Al(OOH)(alpha),Diaspore,Al(OOH),s,dsp,suplemental,6.888,0.4,calculated,-110.3,3.4,calculated,-238.2,5,calculated,-37.13,10,calculated,423,623,Al(OOH)(alpha) + 3H+ = Al+3 + 2H2O(l),,,,,,,,,

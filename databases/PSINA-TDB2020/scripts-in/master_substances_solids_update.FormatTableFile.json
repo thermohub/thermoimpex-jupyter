@@ -31,11 +31,6 @@
                     "ignore" :   false,
                     "script" :   ""
                },
-               "DfGm_Ref" :   {
-                    "field" :   "properties.datasources.1",
-                    "script" :   "field = 'DfGm_Ref: '.. field",
-                    "ignore" :   false
-               },
                "DfHm [kJ/mol]" :   {
                     "field" :   "properties.sm_enthalpy.values",
                     "script" :   "",
@@ -148,9 +143,6 @@
                     '(J*K^2)/mol',
                     'J/mol'
                 } 
-               if rintable.properties.sm_gibbs_energy ~= nil then
-                	rintable.properties.sm_gibbs_energy.values = nil
-               end
                if rintable.properties.sm_enthalpy.values[1] == 777777 then
                 	rintable.properties.sm_enthalpy = nil
                end
@@ -168,7 +160,7 @@
           "
      },
      "format" :   {
-          "Nhcols" :   24,
+          "Nhcols" :   22,
           "Nhrows" :   1,
           "headers" :   [
                "Symbol_2020",
@@ -176,8 +168,6 @@
                "Composition",
                "abbreviation",
                "label",
-               "DfGm [kJ/mol]",
-               "DfGm_Ref",
                "DfHm [kJ/mol]",
                "DfHm_Ref",
                "Sm [J/(K mol)]",
