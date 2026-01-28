@@ -1,6 +1,6 @@
-﻿Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
+Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
 MgHPO4w3(cr),Newberyite,MgHPO4(H2O)3,s,17.93,0.23,0.8,,497,,5,80,1 Mg+2 1 H+ 1 PO4-3 3 H2O(l) = MgHPO4w3(cr)
-MgHPO4w7(cr),Phosphorröslerite,MgHPO4(H2O)7,s,17.01,0.25,27.9,,356,,5,20,1 Mg+2 1 H+ 1 PO4-3 7 H2O(l) = MgHPO4w7(cr)
+MgHPO4w7(cr),Phosphorrosslerite,MgHPO4(H2O)7,s,17.01,0.25,27.9,,356,,5,20,1 Mg+2 1 H+ 1 PO4-3 7 H2O(l) = MgHPO4w7(cr)
 MgKPO4w6(cr),K-struvite,MgKPO4(H2O)6,s,10.96,0.31,-6.2,,405,,5,50,1 Mg+2 1 K+ 1 PO4-3 6 H2O(l) = MgKPO4w6(cr)
 MgKPO4w1(cr),MgKPO4:H2O(cr),MgKPO4(H2O),s,10.95,1.5,35.9,,581,,40,50,1 Mg+2 1 K+ 1 PO4-3 1 H2O(l) = MgKPO4w1(cr)
 Mg2KH(PO4)2w15(cr),Mg2KH(PO4)2:15H2O(cr),Mg2KH(PO4)2(H2O)15,s,28.67,0.6,-58.9,,690,,5,20,2 Mg+2 1 K+ 1 H+ 2 PO4-3 15 H2O(l) = Mg2KH(PO4)2w15(cr)

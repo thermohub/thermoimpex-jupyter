@@ -33,6 +33,12 @@
                          "f" :   "{\"0\" :   \"AS_GAS\"}",
                          "p" :   "{\"8\" :   \"AS_PLASMA\"}"
                     }
+               },
+               "label" :   {
+                    "field" :   "properties.comment"
+               },
+               "Ref" :   {
+                    "field" :   "properties.datasources.0"
                }
           },
           "script" :   "

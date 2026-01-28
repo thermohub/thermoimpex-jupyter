@@ -31,7 +31,7 @@
                 	rintable.properties.sm_volume = nil
                end 
                
-               if rintable.properties.datasources[3] ~= nil then rintable.properties.datasources[1] = 'TDB2020' 
+               if rintable.properties.datasources[3] ~= nil then rintable.properties.datasources[1] = '2025MIR' 
               -- else
               -- r = rintable.properties.datasources[1]
               -- rintable.properties.datasources = ['TDB2020',r] 

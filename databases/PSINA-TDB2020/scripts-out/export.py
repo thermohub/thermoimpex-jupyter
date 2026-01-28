@@ -105,7 +105,11 @@ def remove_phase_sufix(s: str, sufixes_to_remove=None) -> str:
 
 def strip_formula_annotations(formula: str) -> str:
     # remove |...| blocks
-    return re.sub(r'\|[^|]*\|', '', formula)
+    cleaned = re.sub(r'\|[^|]*\|', '', formula)
+    # remove all spaces
+    cleaned = cleaned.replace(" ", "")
+    return cleaned
+
 
 def expand_formula(formula: str) -> str:
     """
@@ -294,7 +298,89 @@ def calculate_logK(T, **A):
 def is_logK_close(calc, exp, rtol=1e-4):
     return np.isclose(calc, exp, rtol=rtol)
 
-## maybe I can give a json and type subst or reaction / substance used for check in generated and reaction in case of database record
+def reset_reaction_props(props):
+    """
+    Set .val and .err of key reaction properties to zero.
+    """
+    props.reaction_gibbs_energy.val = 0
+    props.reaction_gibbs_energy.err = 0
+
+    props.reaction_enthalpy.val = 0
+    props.reaction_enthalpy.err = 0
+
+    props.reaction_heat_capacity_cp.val = 0
+    props.reaction_heat_capacity_cp.err = 0
+
+    props.reaction_entropy.val = 0
+    props.reaction_entropy.err = 0
+
+import numpy as np
+
+def propagate_linear(props, sp, coeff):
+    """
+    Linear (worst-case) error propagation.
+    Adds absolute error contributions directly.
+    """
+    props.reaction_gibbs_energy.err += abs(coeff) * sp.gibbs_energy.err
+    props.reaction_gibbs_energy.val += coeff * sp.gibbs_energy.val
+
+    props.reaction_enthalpy.err += abs(coeff) * sp.enthalpy.err
+    props.reaction_enthalpy.val += coeff * sp.enthalpy.val
+
+    props.reaction_heat_capacity_cp.err += abs(coeff) * sp.heat_capacity_cp.err
+    props.reaction_heat_capacity_cp.val += coeff * sp.heat_capacity_cp.val
+
+    props.reaction_entropy.err += abs(coeff) * sp.entropy.err
+    props.reaction_entropy.val += coeff * sp.entropy.val
+
+
+def propagate_classic(props, sp, coeff):
+    """
+    Classic (independent) error propagation.
+    Uses root-sum-of-squares (RSS) for combining uncertainties.
+    """
+    props.reaction_gibbs_energy.err = np.sqrt(
+        props.reaction_gibbs_energy.err**2 +
+        (coeff * sp.gibbs_energy.err)**2
+    )
+    props.reaction_gibbs_energy.val += coeff * sp.gibbs_energy.val
+
+    props.reaction_enthalpy.err = np.sqrt(
+        props.reaction_enthalpy.err**2 +
+        (coeff * sp.enthalpy.err)**2
+    )
+    props.reaction_enthalpy.val += coeff * sp.enthalpy.val
+
+    props.reaction_heat_capacity_cp.err = np.sqrt(
+        props.reaction_heat_capacity_cp.err**2 +
+        (coeff * sp.heat_capacity_cp.err)**2
+    )
+    props.reaction_heat_capacity_cp.val += coeff * sp.heat_capacity_cp.val
+
+    props.reaction_entropy.err = np.sqrt(
+        props.reaction_entropy.err**2 +
+        (coeff * sp.entropy.err)**2
+    )
+    props.reaction_entropy.val += coeff * sp.entropy.val
+
+
+def react_props(engine, database, react_dict, react_eq):
+    props = engine.thermoPropertiesReaction(298.15, 1e5, react_eq)
+    logK = np.copy(props.log_equilibrium_constant.val)
+    reset_reaction_props(props)
+
+    for species, coeff in react_dict.items():
+        sp = database.getSubstance(species).thermoReferenceProperties()
+        propagate_classic(props,sp,coeff)
+        
+
+
+    # Derived quantity: log_equilibrium_constant
+    C = 8.31451 * np.log(10) * 298.15
+    props.log_equilibrium_constant.val = -props.reaction_gibbs_energy.val / C
+    props.log_equilibrium_constant.err = props.reaction_gibbs_energy.err / C
+    return props
+         
 
 def reaction_properties(engine, reaction=None, substance=None, react_dict=None, react_eq=None, database=None):
 
@@ -309,7 +395,9 @@ def reaction_properties(engine, reaction=None, substance=None, react_dict=None, 
         #print(has_dHr)
  
     elif substance and react_dict:
-        props_obj = engine.thermoPropertiesReaction(298.15, 1e5, react_eq)
+        #props_obj = engine.thermoPropertiesReaction(298.15, 1e5, react_eq)
+        props_obj = react_props(engine, database, react_dict, react_eq)
+        
         datas = parse_json(substance)
 
         # 2) inspect JSON for enthalpy & heat-capacity keys
@@ -815,8 +903,8 @@ product_aqueous = [
 
 product_solids = [
     'Mercury', '(HgOH)3PO4(s)', '(NH4)4NpO2(CO3)3(s)', '(PuO2)3(PO4)2:4(H2O)(am)',
-    'Soddyite', 'Trögerite', '(UO2)3(PO4)2:4H2O(cr)', 'Ac(OH)3(aged)',
-    'Ac(OH)3(fresh)', 'Ac2(Oxa)3(s)', 'Al(OH)3(s)', 'Al(OOH)(alpha)', 'Al2O3(alpha)', 'Silver', 'Ag2CO3(cr)',
+    'Soddyite', 'Trogerite', '(UO2)3(PO4)2:4H2O(cr)', 'Ac(OH)3(aged)',
+    'Ac(OH)3(fresh)', 'Ac2(Oxa)3(s)', 'Al(OH)3(s)', 'Diaspore', 'Al(OH)3(mcr)', 'AlOOH(mcr)', 'Al2O3(alpha)', 'Silver', 'Ag2CO3(cr)', # 'Al(OOH)(alpha)', 
     'Ag2O(am)', 'Ag2O(cr)', 'Ag2S(cr)', 'Ag2Se(alpha)',
     'Ag2SeO3(cr)', 'Ag2SeO4(cr)', 'Ag2SO4(s)', 'Ag3PO4(s)',
     'AgBr(cr)', 'AgCl(cr)', 'AgCN(s)', 'AgI(cr)',
@@ -826,7 +914,7 @@ product_solids = [
     'Meta-uranocircite_II', 'Ba3(PO4)2(s)', 'Witherite', 'BaHPO4(cr)',
     'BaSeO3(cr)', 'BaSeO4(cr)', 'Barite', 'Beidellite_SBld-1',
     'Beidellite(Ca)', 'Beidellite(K)', 'Beidellite(Mg)', 'Beidellite(Na)',
-    'Berthierine_ISGS', 'Berthierine(FeII)', 'Berthierine(FeIII)', 'C3AS3(cr)', 'C3FS3(cr)', 'CaSO4w0.5(cr)',  'CaSiO3(cr)',  'Ca(H3Isa)2(cr)',
+    'Berthierine_ISGS', 'Berthierine(FeII)', 'Berthierine(FeIII)',  'CaSO4w0.5(cr)',  'CaSiO3(cr)',  'Ca(H3Isa)2(cr)', # 'C3AS3(cr)', 'C3FS3(cr)',
     'Portlandite', 'Whewellite', 'Weddelite', 'Ca(Oxa):3H2O(cr)',
     'Uranophane', 'Ca[(UO2)(AsO4)]2:10H2O(cr)', 'Meta-autunite', 'Ca0.5NpO2(OH)2:1.3H2O(cr)',
     'Ca3(Cit)2:4H2O(cr)', 'Tuite', 'Ca4H(PO4)3:2.5H2O(s)', 'Cl-apatite',
@@ -842,11 +930,11 @@ product_solids = [
     'Cuprite', 'Chalcotite', 'Azurite', 'CuCl(s)',
     'Tenorite', 'Covellite', 'Eu(OH)3(am)', 'Eu(OH)3(cr)',
     'Eu2(CO3)3(cr)', 'EuF3(cr)', 'EuOHCO3(cr)', 'Eu-rhabdophane',
-    'Faujasite-X', 'Faujasite-Y', 'Fe(OH)2(s)', 'Ferrihydrite-2line',
+    'Faujasite-X', 'Faujasite-Y', 'Fe(OH)2(s)-white-rust', 'Ferrihydrite-2line',
     'Metakahlerite', 'Pyrrhotite-4C', 'Fe0.875Se(cr)', 'Pyrrhotite-5C',
     'Fe1.042Se(cr)', 'Fe2(SeO3)3:3H2O(cr)', 'Fe-hibbingite', 'Hematite',
     'Maghemite', 'Vivianite', 'Magnetite', 'Greigite',
-    'Fe3Se4(gamma)', 'Fe4(OH)8Cl:nH2O(s)', 'Fe6(OH)12CO3:nH2O(s)', 'Fe6(OH)12SO4:nH2O(s)',
+    'Fe3Se4(gamma)', 'Fe4(OH)8Cl:nH2O(s)-chloride-green-rust-one', 'Fe6(OH)12CO3:nH2O(s)-carbonate-green-rust-one', 'Fe6(OH)12SO4:nH2O(s)-sulfate-green-rust-two',
     'Siderite', 'Goethite', 'Lepidocrocite', 'Rodolicoite',
     'FePO4:2H2O(s)', 'Mackinawite', 'Troilite', 'Marcasite',
     'Pyrite', 'Ferroselite', 'Glauconite', 'H4Edta(cr)',
@@ -857,11 +945,11 @@ product_solids = [
     'Illite(Al)', 'Illite(FeII)', 'Illite(FeIII)', 'Illite(Mg)',
     'K(UO2)(AsO4):3H2O(cr)', 'K(UO2)(BO3):H2O(cr)', 'K(UO2)(PO4):3H2O(cr)', 'Boltwoodite',
     'Compreignacite', 'K3NpO2(CO3)2(s)', 'K4NpO2(CO3)3(s)', 'KNpO2CO3(s)',
-    'Li(UO2)(AsO4):4H2O(cr)', 'Li(UO2)(BO3):1.5H2O(cr)', 'Li(UO2)(PO4):4H2O(cr)', 'Linda_type_A',
+    'Li(UO2)(AsO4):4H2O(cr)', 'Li(UO2)(BO3):1.5H2O(cr)', 'Li(UO2)(PO4):4H2O(cr)', 'Linda_A',
     'Low-silica_P-Ca', 'Low-silica_P-Na', 'Brucite', 'Glushinskite',
     'Mg[(UO2)(AsO4)]2:10H2O(cr)', 'Meta-saleite', 'Mg2KH(PO4)2:15H2O(cr)', 'Farringtonite',
     'Cattite', 'Mg3(PO4)2:4H2O(cr)', 'Bobierrite', 'Magnesite',
-    'Newberyite', 'Phosphorröslerite', 'MgKPO4:H2O(cr)', 'K-struvite',
+    'Newberyite', 'Phosphorrosslerite', 'MgKPO4:H2O(cr)', 'K-struvite',
     'MgSeO3:6H2O(cr)', 'Pyrochroite', 'Mn[(UO2)(AsO4)]2:8H2O(cr)', 'Mn[(UO2)(PO4)]2:10H2O(cr)',
     'Bixbyite', 'Hausmannite', 'Rhodochrosite', 'Manganosite',
     'Manganite', 'MnSeO3:2H2O(cr)', 'Molecular_sieve_4Å', 'Montmorillonite(HcCa)',
@@ -885,7 +973,7 @@ product_solids = [
     'PoO2(s)', 'PoSO4(s)', 'Pu(HPO4)2(am_hyd)', 'Pu(OH)3(am)',
     'Pu(Oxa)2:6H2O(cr)', 'Pu2(Oxa)3:10H2O(cr)', 'PuO2(am_hyd)', 'PuO2(OH)2(am_hyd)',
     'PuO2CO3(cr)', 'PuO2OH(am)', 'PuPO4(am_hyd)', 'RaCO3(cr)',
-    'RaSO4(cr)', 'Ripidolite_Cca-2', 'S(orth)', 'Saponite_SapCa-2',
+    'RaSO4(cr)', 'Ripidolite_Cca-2', 'Sulphur', 'Saponite_SapCa-2',
     'Saponite(Ca)', 'Saponite(FeCa)', 'Saponite(FeK)', 'Saponite(FeMg)',
     'Saponite(FeNa)', 'Saponite(K)', 'Saponite(Mg)', 'Saponite(Na)',
     'Scolecite', 'Selenium', 'Silica(am)', 'Quartz',
@@ -899,10 +987,10 @@ product_solids = [
     'UO2(am_hyd)', 'Rutherfordine', 'Hydrogen_uranospinite', 'Chernikovite',
     'UO2Oxa:3H2O(cr)', 'Metaschoepite', 'Coffinite', 'Vermiculite_SO',
     'Vermiculite(Ca)', 'Vermiculite(K)', 'Vermiculite(Mg)', 'Vermiculite(Na)',
-    'Wülfingite', 'Zn[(UO2)(AsO4)]2:8H2O(cr)', 'Zn[(UO2)(PO4)]2:8H2O(cr)', 'Zn3(PO4)2:4H2O(s)',
+    'Wulfingite', 'Zn[(UO2)(AsO4)]2:8H2O(cr)', 'Zn[(UO2)(PO4)]2:8H2O(cr)', 'Zn3(PO4)2:4H2O(s)',
     'Hydrozincite', 'Smithsonite', 'Zincite', 'Sphalerite',
-    'Zr(HPO4)2:H2O(cr)', 'Zr(OH)4(am_fr)', 'Baddeleyite', 'As(cr)',
-    'Graphite', 'Cu(cr)', 'Iron(alpha)', 'Pyrolusite',
+    'Zr(HPO4)2:H2O(cr)', 'Zr(OH)4(am_fr)', 'Baddeleyite', 'Arsenic',
+    'Graphite', 'Copper','Iron(alpha)', 'Pyrolusite', # 
     'Tugarinovite', 'Tin(beta)', 'Titanium'
 ]
 
@@ -911,7 +999,7 @@ product_solids = [
 zeolites = [
     'Analcime', 'Cancrinite-NO3', 'Chabazite-Ca', 'Chabazite-Na', 'Clinoptilolite',
     'Faujasite-X', 'Faujasite-Y', 'Heulandite_1', 'Heulandite_2', 'Hydrosodalite',
-    'Linda_type_A', 'Low-silica_P-Ca', 'Low-silica_P-Na', 'Molecular_sieve_4Å', 'Mordenite-Ca',
+    'Linda_A', 'Low-silica_P-Ca', 'Low-silica_P-Na', 'Molecular_sieve_4Å', 'Mordenite-Ca',
     'Mordenite-Na', 'Natrolite', 'Phillipsite-Na', 'Phillipsite-NaK', 'Sodalite', 'Stilbite'
 ]
 

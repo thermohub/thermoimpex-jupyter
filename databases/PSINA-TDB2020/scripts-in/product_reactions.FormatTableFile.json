@@ -90,6 +90,12 @@
                "T-max" :   {
                     "field" :   "properties.limitsTP.upperT",
 		    "script": "field = field + 273.15"
+               },
+               "label" :   {
+                    "field" :   "properties.comment"
+               },
+               "Ref" :   {
+                    "field" :   "properties.datasources.0"
                }
           },
           "script" :   "if rintable.properties.drsm_enthalpy ~= nil then rintable.properties.drsm_enthalpy.units = {'kJ/mol'} end; if rintable.properties.drsm_heat_capacity_p ~= nil then rintable.properties.drsm_heat_capacity_p.units = {'J/(K*mol)'} end; if rintable.properties.limitsTP ~= nil then rintable.properties.limitsTP.range = false end;"

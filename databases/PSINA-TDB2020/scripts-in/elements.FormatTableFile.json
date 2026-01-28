@@ -33,6 +33,9 @@
                },
                "sigma Cpm [J/(K mol)]" :   {
                     "field" :   "properties.heat_capacity.errors"
+               },
+               "label" :   {
+                    "field" :   "properties.comment"
                }
           },
           "script" :   "rintable.properties.name = rintable.properties.symbol; if rintable.properties.entropy ~= nil then rintable.properties.entropy.units = {'J/(K*mol)'} end; if rintable.properties.heat_capacity ~= nil then rintable.properties.heat_capacity.units = {'J/(K*mol)'} end; if rintable.properties.symbol == 'Zz' then rintable.properties.class_ = {} rintable.properties.class_['4'] = 'CHARGE' end; if rintable.properties.number > 100 then rintable.properties.class_ = {} rintable.properties.class_['2'] = 'LIGAND' end;"

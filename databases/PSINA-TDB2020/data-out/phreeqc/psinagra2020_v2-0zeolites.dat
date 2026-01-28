@@ -1,0 +1,165 @@
+
+# Zeolite phases selected in TDB2020 
+# NAGRA NTB 21-03:  Hummel W. Thoenen T. (2022): The PSI Chemical Thermodynamic Database 2020,
+#                     Nagra NTB 21-03  
+#
+# These are superseded by the selection of zeolites in cemdata26 database and are provided for compatibility with psinagra2020_v2-0.dat
+
+Cancrinite-NO3
+	Na8Al6Si6O24(NO3)2(H2O)4 + 24 H+ = 6 Al+3 + 4 H2O + 8 Na+ + 2 NO3- + 6 Si(OH)4
+	-Vm	439.510	# cm^3/mol
+	# dHr -773.186 +- 17.743 kJ/mol
+	# dCpr -285.358 +- 180.409 J/(K*mol)
+	-analytical_expression 42.596059 0.000000 35942.089342 -34.320483 0.000000 0.000000
+	-log_K	78.2226	# +- 1.8148
+
+Chabazite-Ca
+	CaAl2Si4O12(H2O)6 + 8 H+ = 2 Al+3 + Ca+2 + 2 H2O + 4 Si(OH)4
+	-Vm	251.160	# cm^3/mol
+	# dHr -235.402 +- 7.708 kJ/mol
+	# dCpr 13.233 +- 60.544 J/(K*mol)
+	-analytical_expression -29.176874 0.000000 12501.910913 1.591555 0.000000 0.000000
+	-log_K	16.6929	# +- 0.9260
+
+Chabazite-Na
+	Na2Al2Si4O12(H2O)6 + 8 H+ = 2 Al+3 + 2 H2O + 2 Na+ + 4 Si(OH)4
+	-Vm	241.680	# cm^3/mol
+	# dHr -171.512 +- 7.643 kJ/mol
+	# dCpr 159.654 +- 60.544 J/(K*mol)
+	-analytical_expression -69.634952 0.000000 11444.991631 19.201853 0.000000 0.000000
+	-log_K	16.2655	# +- 0.9082
+
+Clinoptilolite
+	Ca0.52Al1.04Si4.96O12(H2O)3.1 + 4.74 H2O + 4.16 H+ = 1.04 Al+3 + 0.52 Ca+2 + 4.96 Si(OH)4
+	-Vm	200.020	# cm^3/mol
+	# dHr -97.908 +- 7.472 kJ/mol
+	# dCpr 4.792 +- 32.778 J/(K*mol)
+	-analytical_expression -16.679549 0.000000 5188.716601 0.576388 0.000000 0.000000
+	-log_K	2.1497	# +- 1.0068
+
+Faujasite-X
+	Na2Al2Si2.5O9(H2O)6.2 + 8 H+ = 2 Al+3 + 5.2 H2O + 2 Na+ + 2.5 Si(OH)4
+	-Vm	228.950	# cm^3/mol
+	# dHr -244.688 +- 6.273 kJ/mol
+	# dCpr 100.277 +- 60.214 J/(K*mol)
+	-analytical_expression -52.076155 0.000000 14342.520651 12.060506 0.000000 0.000000
+	-log_K	25.8718	# +- 0.6713
+
+Faujasite-Y
+	Na2Al2Si4O12(H2O)8 + 8 H+ = 2 Al+3 + 4 H2O + 2 Na+ + 4 Si(OH)4
+	-Vm	294.840	# cm^3/mol
+	# dHr -198.862 +- 7.645 kJ/mol
+	# dCpr 149.356 +- 60.545 J/(K*mol)
+	-analytical_expression -68.439453 0.000000 12713.198487 17.963295 0.000000 0.000000
+	-log_K	18.6498	# +- 0.9085
+
+Heulandite_1
+	Ca1.07Al2.14Si6.86O18(H2O)4.4 + 5.04 H2O + 8.56 H+ = 2.14 Al+3 + 1.07 Ca+2 + 6.86 Si(OH)4
+	-Vm	317.600	# cm^3/mol
+	# dHr -205.935 +- 11.153 kJ/mol
+	# dCpr 25.429 +- 65.686 J/(K*mol)
+	-analytical_expression -33.164114 0.000000 11152.662358 3.058404 0.000000 0.000000
+	-log_K	11.8099	# +- 1.4455
+
+Heulandite_2
+	Ca1.07Al2.14Si6.86O18(H2O)4.5 + 4.94 H2O + 8.56 H+ = 2.14 Al+3 + 1.07 Ca+2 + 6.86 Si(OH)4
+	-Vm	317.600	# cm^3/mol
+	# dHr -221.918 +- 11.153 kJ/mol
+	# dCpr 24.964 +- 65.685 J/(K*mol)
+	-analytical_expression -34.730439 0.000000 11980.267494 3.002490 0.000000 0.000000
+	-log_K	12.8810	# +- 1.4455
+
+Hydrosodalite
+	Na8Al6Si6O24(OH)2(H2O)2 + 26 H+ = 6 Al+3 + 4 H2O + 8 Na+ + 6 Si(OH)4
+	-Vm	388.900	# cm^3/mol
+	# dHr -956.986 +- 17.725 kJ/mol
+	# dCpr 73.212 +- 180.409 J/(K*mol)
+	-analytical_expression -87.398130 0.000000 51126.715530 8.805329 0.000000 0.000000
+	-log_K	105.8699	# +- 1.8089
+
+Linda_A
+	Na1.98Al1.98Si2.02O8(H2O)5.31 + 7.92 H+ = 1.98 Al+3 + 5.23 H2O + 1.98 Na+ + 2.02 Si(OH)4
+	# dHr -290.995 +- 5.879 kJ/mol
+	# dCpr 83.868 +- 59.542 J/(K*mol)
+	-analytical_expression -51.338217 0.000000 16505.760548 10.086970 0.000000 0.000000
+	-log_K	28.9819	# +- 0.6025
+
+Low-silica_P-Ca
+	CaAl2Si2O8(H2O)4.5 + 8 H+ = 2 Al+3 + Ca+2 + 4.5 H2O + 2 Si(OH)4
+	-Vm	124.750	# cm^3/mol
+	# dHr -305.177 +- 5.993 kJ/mol
+	# dCpr -6.389 +- 60.137 J/(K*mol)
+	-analytical_expression -27.096836 0.000000 15840.902631 -0.768476 0.000000 0.000000
+	-log_K	24.1323	# +- 0.6296
+
+Low-silica_P-Na
+	Na2Al2Si2O8(H2O)3.8 + 8 H+ = 2 Al+3 + 3.8 H2O + 2 Na+ + 2 Si(OH)4
+	-Vm	122.420	# cm^3/mol
+	# dHr -255.696 +- 5.909 kJ/mol
+	# dCpr 99.286 +- 60.137 J/(K*mol)
+	-analytical_expression -51.471006 0.000000 14902.065631 11.941269 0.000000 0.000000
+	-log_K	28.0587	# +- 0.6028
+
+Molecular_sieve_4Å
+	Na2Al2Si2O8(H2O)4.5 + 8 H+ = 2 Al+3 + 4.5 H2O + 2 Na+ + 2 Si(OH)4
+	# dHr -284.237 +- 5.910 kJ/mol
+	# dCpr 61.032 +- 60.137 J/(K*mol)
+	-analytical_expression -43.992686 0.000000 15797.108707 7.340360 0.000000 0.000000
+	-log_K	27.1543	# +- 0.6030
+
+Mordenite-Ca
+	Ca0.34Al0.68Si5.32O12(H2O)2.9 + 6.38 H2O + 2.72 H+ = 0.68 Al+3 + 0.34 Ca+2 + 5.32 Si(OH)4
+	-Vm	209.800	# cm^3/mol
+	# dHr -16.382 +- 7.667 kJ/mol
+	# dCpr 50.501 +- 23.073 J/(K*mol)
+	-analytical_expression -24.779324 0.000000 1642.184363 6.073859 0.000000 0.000000
+	-log_K	-4.2420	# +- 1.0581
+
+Mordenite-Na
+	Na0.72Al0.72Si5.28O12(H2O)2.71 + 6.41 H2O + 2.88 H+ = 0.72 Al+3 + 0.72 Na+ + 5.28 Si(OH)4
+	-Vm	209.800	# cm^3/mol
+	# dHr -6.064 +- 7.630 kJ/mol
+	# dCpr 72.103 +- 24.105 J/(K*mol)
+	-analytical_expression -30.448082 0.000000 1439.627296 8.671925 0.000000 0.000000
+	-log_K	-4.1614	# +- 1.0500
+
+Natrolite
+	Na2Al2Si3O10(H2O)2 + 8 H+ = 2 Al+3 + 2 Na+ + 3 Si(OH)4
+	-Vm	169.200	# cm^3/mol
+	# dHr -239.242 +- 6.685 kJ/mol
+	# dCpr 32.952 +- 60.306 J/(K*mol)
+	-analytical_expression -32.106012 0.000000 13009.578058 3.963192 0.000000 0.000000
+	-log_K	21.3350	# +- 0.7451
+
+Phillipsite-Na
+	Na2.5Al2.5Si5.5O16(H2O)5 + H2O + 10 H+ = 2.5 Al+3 + 2.5 Na+ + 5.5 Si(OH)4
+	-Vm	138.980	# cm^3/mol
+	# dHr -266.603 +- 10.078 kJ/mol
+	# dCpr 135.839 +- 75.822 J/(K*mol)
+	-analytical_expression -73.246453 0.000000 16041.004691 16.337583 0.000000 0.000000
+	-log_K	20.9816	# +- 1.2209
+
+Phillipsite-NaK
+	Na1.5KAl2.5Si5.5O16(H2O)5 + H2O + 10 H+ = 2.5 Al+3 + K+ + 1.5 Na+ + 5.5 Si(OH)4
+	-Vm	138.980	# cm^3/mol
+	# dHr -255.452 +- 10.078 kJ/mol
+	# dCpr 100.169 +- 75.822 J/(K*mol)
+	-analytical_expression -59.317682 0.000000 14903.101213 12.047493 0.000000 0.000000
+	-log_K	20.4783	# +- 1.2206
+
+Sodalite
+	Na8Al6Si6O24Cl2 + 24 H+ = 6 Al+3 + 2 Cl- + 8 Na+ + 6 Si(OH)4
+	-Vm	417.760	# cm^3/mol
+	# dHr -794.526 +- 17.725 kJ/mol
+	# dCpr -391.422 +- 180.409 J/(K*mol)
+	-analytical_expression 71.405234 0.000000 35404.975048 -47.076977 0.000000 0.000000
+	-log_K	73.6652	# +- 1.8092
+
+Stilbite
+	Ca1.11Al2.22Si6.78O18(H2O)6.8 + 2.32 H2O + 8.88 H+ = 2.22 Al+3 + 1.11 Ca+2 + 6.78 Si(OH)4
+	-Vm	333.400	# cm^3/mol
+	# dHr -234.355 +- 11.165 kJ/mol
+	# dCpr 31.765 +- 67.999 J/(K*mol)
+	-analytical_expression -38.550487 0.000000 12735.851566 3.820440 0.000000 0.000000
+	-log_K	13.6192	# +- 1.4378
+

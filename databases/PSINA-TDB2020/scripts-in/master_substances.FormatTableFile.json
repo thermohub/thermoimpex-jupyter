@@ -6,11 +6,17 @@
                "properties.Pst" :   "1e05",
 	       "properties.datasources" : "[\"PSI2020\"]",
                "properties.aggregate_state" : "{\"4\" : \"AS_AQUEOUS\"}",
-               "properties.class_" : "{\"2\" : \"SC_AQSOLUTE\"}"
-          },
+               "properties.class_" : "{\"2\" : \"SC_AQSOLUTE\"}",
+               "properties.TPMethods" :   "[{\"method\":{\"43\": \"standard_entropy_cp_integration\"}, \"limitsTP\": {\"lowerT\": 298, \"range\": \"False\", \"upperT\": 298}}, {\"method\":{\"34\": \"mv_constant\"}}]"
+                        },
           "matches" :   {
                "Symbol" :   {
                     "field" :   "properties.symbol",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "Name" :   {
+                    "field" :   "properties.name",
                     "ignore" :   false,
                     "script" :   ""
                },
@@ -20,7 +26,7 @@
                "agg_state" :   {
                     "field" :   "properties.aggregate_state",
                     "convert" :   {
-                         "aq" :   "{\"4\" :   \"AS_AQUEOUS\"}",
+                         "aq" :  "{\"4\" :   \"AS_AQUEOUS\"}",
                          "g" :   "{\"0\" :   \"AS_GAS\"}",
                          "c" :   "{\"3\" :   \"AS_CRYSTAL\"}",
                          "s" :   "{\"3\" :   \"AS_CRYSTAL\"}",
@@ -58,9 +64,15 @@
                },
                "sigma Cpm [J/(K mol)]" :   {
                     "field" :   "properties.sm_heat_capacity_p.errors"
+               },
+               "label" :   {
+                    "field" :   "properties.comment"
+               },
+               "Ref" :   {
+                    "field" :   "properties.datasources.0"
                }
           },
-          "script" :   "rintable.properties.name = rintable.properties.symbol; if rintable.properties.sm_gibbs_energy ~= nil then rintable.properties.sm_gibbs_energy.units = {'kJ/mol'} end; if rintable.properties.sm_enthalpy ~= nil then rintable.properties.sm_enthalpy.units = {'kJ/mol'} end; if rintable.properties.sm_entropy_abs ~= nil then rintable.properties.sm_entropy_abs.units = {'J/(K*mol)'} end; if rintable.properties.sm_heat_capacity_p ~= nil then rintable.properties.sm_heat_capacity_p.units = {'J/(K*mol)'} end;
+          "script" :   "if rintable.properties.sm_gibbs_energy ~= nil then rintable.properties.sm_gibbs_energy.units = {'kJ/mol'} end; if rintable.properties.sm_enthalpy ~= nil then rintable.properties.sm_enthalpy.units = {'kJ/mol'} end; if rintable.properties.sm_entropy_abs ~= nil then rintable.properties.sm_entropy_abs.units = {'J/(K*mol)'} end; if rintable.properties.sm_heat_capacity_p ~= nil then rintable.properties.sm_heat_capacity_p.units = {'J/(K*mol)'} end;
 
 formula = rintable.properties.formula
 symbol = rintable.properties.symbol
@@ -85,7 +97,11 @@ or string.find(symbol, '%(mcr%)' )
 or string.find(symbol, '%(lin%)' ) 
 or string.find(symbol, '%(cycl%)' ) 
 or string.find(symbol, '%(subst%)' )
+or string.find(symbol, '%(orth%)' )  
 or string.find(symbol, '%(rhomb%)' )  
+or string.find(symbol, '%(alpha%)' ) 
+or string.find(symbol, '%(beta%)' )  
+or string.find(symbol, '%(gamma%)' )   
 or string.find(symbol, '%(dis%)' ) then
 rintable.properties.aggregate_state['4'] = nil
 rintable.properties.class_['2'] = nil
@@ -119,16 +135,43 @@ if rintable.properties.aggregate_state['3'] == 'AS_CRYSTAL' then rintable.proper
        rintable.properties.TPMethods = nil ]]
     end
 
+if rintable.properties.name == nil or rintable.properties.name == '' then
+    rintable.properties.name = rintable.properties.symbol
+end
 
+if rintable.properties.aggregate_state['0'] == 'AS_GAS' then
+    rintable.properties.TPMethods[2].method = {}
+    rintable.properties.TPMethods[2].method['40'] = 'mv_pvnrt'
+end
+
+if rintable.properties.sm_volume == nil then
+   table.remove(rintable.properties.TPMethods, 2)
+   end
+
+if rintable.properties.TPMethods == nil then
+rintable.properties.TPMethods = {}
+  --[[  rintable.properties.TPMethods = {{
+        limitsTP: {
+            lowerT: 298,
+            range: False,
+            upperT: 298
+        },
+        method: {
+            
+        }
+    }} ]]
+end
 "
      },
      "format" :   {
-          "Nhcols" :   13,
+          "Nhcols" :   15,
           "Nhrows" :   1,
           "headers" :   [
                "Symbol",
                "Composition",
                "agg_state",
+               "Ref",
+               "label",
                "DfGm [kJ/mol]",
                "DfGm_Ref",
                "DfHm [kJ/mol]",

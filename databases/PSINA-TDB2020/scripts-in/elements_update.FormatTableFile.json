@@ -72,6 +72,9 @@
                     "field" :   "properties.datasources",
                     "ignore" :   false,
                     "script" :   ""
+               },
+               "label" :   {
+                    "field" :   "properties.comment"
                }           
           },
           "script" :   ""

@@ -6,6 +6,7 @@
                "properties.Pst" :   "1e05",
 	       "properties.datasources" : "[\"PSI2020\",\"\", \"\", \"\"]",
                "properties.reactyp" :   "{\"1\" :   \"FE_FORMATION\"}",
+               "properties.TPMethods" :   "[{\"method\":{}}]",
                "properties.level" :   "0" 
           },
           "matches" :   {
@@ -71,19 +72,34 @@
                "T-max" :   {
                     "field" :   "properties.limitsTP.upperT",
 		    "script": "field = field"
+               },
+               "label" :   {
+                    "field" :   "properties.comment"
+               },
+               "Ref" :   {
+                    "field" :   "properties.datasources.0",
+                    "ignore" :   false
                }
           },
           "script" :   "
           if rintable.properties.drsm_enthalpy ~= nil then rintable.properties.drsm_enthalpy.units = {'kJ/mol'} end;
           if rintable.properties.drsm_heat_capacity_p ~= nil then rintable.properties.drsm_heat_capacity_p.units = {'J/(mol*K)'} end;
-          if rintable.properties.drsm_volume ~= nil then rintable.properties.drsm_volume.units = {'J/bar'} end;
+          if rintable.properties.drsm_volume ~= nil then rintable.properties.drsm_volume.units = {'J/bar'} 
+                          rintable.properties.TPMethods[1].method = {}
+          	rintable.properties.TPMethods[1].method['13'] = 'dr_volume_constant'
+          end;
+          if next(rintable.properties.TPMethods[1].method) == nil then
+    		rintable.properties.TPMethods = nil
+	  end
           "
      },
      "format" :   {
-          "Nhcols" :   15,
+          "Nhcols" :   17,
           "Nhrows" :   1,
           "headers" :   [
                "Symbol",
+	       "label",
+               "Ref",
                "logK",
                "sigma logK",
                "logK_Ref",
