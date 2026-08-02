@@ -30,5 +30,11 @@ Propose a new database to be added in the [issue tracker](https://github.com/the
 Formats for data types in the [ThermoHub](https://thermohub.org/thermohub/thermohub/) database are described by their respective [JSON schemas](https://github.com/thermohub/thermoimpex-jupyter/tree/main/Resources/data/schemas). GitHub [ThermoHub](https://github.com/thermohub/thermohub) and Zenodo [ThermoHub](https://zenodo.org/records/7385311).
 
 
+## Resources/
+
+`Resources/` is pulled in from the [thermomatch](https://bitbucket.org/gems4/thermomatch)
+repository via git subtree. See [TECHINFO.md](TECHINFO.md) for how to check which
+thermomatch branch/commit it reflects, pull updates, or push local edits back upstream.
+
 ## Acknowledgements  
 This project was supported by the [Open Research Data Program](https://ethrat.ch/en/eth-domain/open-research-data/) of the ETH Board.

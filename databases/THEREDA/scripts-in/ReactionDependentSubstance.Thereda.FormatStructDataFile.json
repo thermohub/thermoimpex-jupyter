@@ -2,30 +2,35 @@
     "block": {
         "defaults": {
             "properties.sourcetdb": "{\"12\" :   \"THEREDA\"}",
-            "properties.aggregate_state": "{\"4\" :   \"AS_AQUEOUS\"}",
-            "properties.class_": "{\"2\" :   \"SC_AQSOLUTE\"}",
+            "properties.aggregate_state": "{\"3\" :   \"AS_CRYSTAL\"}",
+            "properties.class_": "{\"0\" :   \"SC_COMPONENT\"}",
             "properties.Tst": "298.15",
             "properties.Pst": "1.0e5",
             "properties.limitsTP": "{\"range\": false, \"lowerT\": 273.15, \"upperT\": 298.15, \"lowerP\": 0.1, \"upperP\": 1e6 }",
-            "properties.temp_import": "[{\"datasources\" : [\"\",\"\"]},
-            {\"datasources\" : [\"\",\"\"]},
-            {\"datasources\" : [\"\",\"\"]},
-            {\"datasources\" : [\"\",\"\"]},
-            {\"datasources\" : [\"\",\"\"]},
-            {\"datasources\" : [\"\",\"\"]},
-            {\"datasources\" : [\"\",\"\"]},
-            {\"datasources\" : [\"\",\"\"]},
-            {\"datasources\" : [\"\",\"\"]},
-            {\"datasources\" : [\"\",\"\"]},
-            {\"datasources\" : [\"\",\"\"], \"values\" : [0,0,0,0,0,0,0,0,0,0]},
-            {\"datasources\" : [\"\",\"\"], \"values\" : [0,0,0,0,0,0,0,0,0,0]},
-            {\"datasources\" : [\"\",\"\"], \"values\" : [0,0,0,0,0,0,0,0,0,0]},
-            {\"datasources\" : [\"\",\"\"], \"values\" : [0,0,0,0,0,0,0,0,0,0]}]"
+            "properties.TPMethods": "[{\"method\" :{\"34\" :   \"mv_constant\"}}]",
+            "properties.temp_import": "[{\"datasources\" : [\"\",\"\"], \"names\" : [\"\",\"\",\"\",\"\"]},
+            {\"datasources\" : [\"\",\"\"], \"names\" : [\"\",\"\",\"\",\"\"]},
+            {\"datasources\" : [\"\",\"\"], \"names\" : [\"\",\"\",\"\",\"\"]},
+            {\"datasources\" : [\"\",\"\"], \"names\" : [\"\",\"\",\"\",\"\"]},
+            {\"datasources\" : [\"\",\"\"], \"names\" : [\"\",\"\",\"\",\"\"]},
+            {\"datasources\" : [\"\",\"\"], \"names\" : [\"\",\"\",\"\",\"\"]},
+            {\"datasources\" : [\"\",\"\"], \"names\" : [\"\",\"\",\"\",\"\"]},
+            {\"datasources\" : [\"\",\"\"], \"names\" : [\"\",\"\",\"\",\"\"]},
+            {\"datasources\" : [\"\",\"\"], \"names\" : [\"\",\"\",\"\",\"\"]},
+            {\"datasources\" : [\"\",\"\"], \"names\" : [\"\",\"\",\"\",\"\"]},
+            {\"datasources\" : [\"\",\"\"], \"names\" : [\"\",\"\",\"\",\"\"]},
+            {\"datasources\" : [\"\",\"\"], \"names\" : [\"\",\"\",\"\",\"\"]},
+            {\"datasources\" : [\"\",\"\"], \"names\" : [\"\",\"\",\"\",\"\"]},
+            {\"datasources\" : [\"\",\"\"], \"names\" : [\"\",\"\",\"\",\"\"]},
+            {\"datasources\" : [\"\",\"\"], \"names\" : [\"\",\"\",\"\",\"\"]}]"
         },
         "pairs": {},
         "matches": {
             "symbol": {
                 "field": "properties.symbol"
+            },
+            "tag": {
+                "field": "properties.tag"
             },
             "Declaration.charge": {
                 "field": "properties.formula_charge"
@@ -33,409 +38,449 @@
             "Declaration.molarmass": {
                 "field": "properties.mass_per_mole"
             },
-            "DataStandard.0.datatype": {
+            "Declaration.description": {
+                "field": "properties.comment"
+            },
+            "DataValue.0.datatype": {
                 "field": "properties.temp_import.0.name"
             },
-            "DataStandard.0.value": {
+            "DataValue.0.a": {
                 "field": "properties.temp_import.0.values"
             },
-            "DataStandard.0.positiveunc": {
+            "DataValue.0.unc_a": {
                 "field": "properties.temp_import.0.errors"
             },
-            "DataStandard.0.reference_1": {
+            "DataValue.0.reference_1": {
                 "field": "properties.temp_import.0.datasources.0"
             },
-            "DataStandard.0.reference_2": {
+            "DataValue.0.reference_2": {
                 "field": "properties.temp_import.0.datasources.1"
             },
-            "DataStandard.0.unctype": {
-                "field": "properties.temp_import.0.errortypes",
-                "convert": {
-                    "Gauss2s": "{\"0\" :   \"NORMAL\"}"
-                }
+            "DataValue.0.dataclass": {
+                "field": "properties.temp_import.0.names.0",
+                "script": "field = tostring(field)"
             },
-            "DataStandard.1.datatype": {
+            "DataValue.0.dataquality": {
+                "field": "properties.temp_import.0.names.1",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.0.editor": {
+                "field": "properties.temp_import.0.names.2"
+            },
+            "DataValue.0.calcmode": {
+                "field": "properties.temp_import.0.names.3"
+            },
+            "DataValue.1.datatype": {
                 "field": "properties.temp_import.1.name"
             },
-            "DataStandard.1.value": {
+            "DataValue.1.a": {
                 "field": "properties.temp_import.1.values"
             },
-            "DataStandard.1.positiveunc": {
+            "DataValue.1.unc_a": {
                 "field": "properties.temp_import.1.errors"
             },
-            "DataStandard.1.reference_1": {
+            "DataValue.1.reference_1": {
                 "field": "properties.temp_import.1.datasources.0"
             },
-            "DataStandard.1.reference_2": {
+            "DataValue.1.reference_2": {
                 "field": "properties.temp_import.1.datasources.1"
             },
-            "DataStandard.1.unctype": {
-                "field": "properties.temp_import.1.errortypes",
-                "convert": {
-                    "Gauss2s": "{\"0\" :   \"NORMAL\"}"
-                }
+            "DataValue.1.dataclass": {
+                "field": "properties.temp_import.1.names.0",
+                "script": "field = tostring(field)"
             },
-            "DataStandard.2.datatype": {
+            "DataValue.1.dataquality": {
+                "field": "properties.temp_import.1.names.1",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.1.editor": {
+                "field": "properties.temp_import.1.names.2"
+            },
+            "DataValue.1.calcmode": {
+                "field": "properties.temp_import.1.names.3"
+            },
+            "DataValue.2.datatype": {
                 "field": "properties.temp_import.2.name"
             },
-            "DataStandard.2.value": {
+            "DataValue.2.a": {
                 "field": "properties.temp_import.2.values"
             },
-            "DataStandard.2.positiveunc": {
+            "DataValue.2.unc_a": {
                 "field": "properties.temp_import.2.errors"
             },
-            "DataStandard.2.reference_1": {
+            "DataValue.2.reference_1": {
                 "field": "properties.temp_import.2.datasources.0"
             },
-            "DataStandard.2.reference_2": {
+            "DataValue.2.reference_2": {
                 "field": "properties.temp_import.2.datasources.1"
             },
-            "DataStandard.2.unctype": {
-                "field": "properties.temp_import.2.errortypes",
-                "convert": {
-                    "Gauss2s": "{\"0\" :   \"NORMAL\"}"
-                }
+            "DataValue.2.dataclass": {
+                "field": "properties.temp_import.2.names.0",
+                "script": "field = tostring(field)"
             },
-            "DataStandard.3.datatype": {
+            "DataValue.2.dataquality": {
+                "field": "properties.temp_import.2.names.1",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.2.editor": {
+                "field": "properties.temp_import.2.names.2"
+            },
+            "DataValue.2.calcmode": {
+                "field": "properties.temp_import.2.names.3"
+            },
+            "DataValue.3.datatype": {
                 "field": "properties.temp_import.3.name"
             },
-            "DataStandard.3.value": {
+            "DataValue.3.a": {
                 "field": "properties.temp_import.3.values"
             },
-            "DataStandard.3.positiveunc": {
+            "DataValue.3.unc_a": {
                 "field": "properties.temp_import.3.errors"
             },
-            "DataStandard.3.reference_1": {
+            "DataValue.3.reference_1": {
                 "field": "properties.temp_import.3.datasources.0"
             },
-            "DataStandard.3.reference_2": {
+            "DataValue.3.reference_2": {
                 "field": "properties.temp_import.3.datasources.1"
             },
-            "DataStandard.3.unctype": {
-                "field": "properties.temp_import.3.errortypes",
-                "convert": {
-                    "Gauss2s": "{\"0\" :   \"NORMAL\"}"
-                }
+            "DataValue.3.dataclass": {
+                "field": "properties.temp_import.3.names.0",
+                "script": "field = tostring(field)"
             },
-            "DataStandard.4.datatype": {
+            "DataValue.3.dataquality": {
+                "field": "properties.temp_import.3.names.1",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.3.editor": {
+                "field": "properties.temp_import.3.names.2"
+            },
+            "DataValue.3.calcmode": {
+                "field": "properties.temp_import.3.names.3"
+            },
+            "DataValue.4.datatype": {
                 "field": "properties.temp_import.4.name"
             },
-            "DataStandard.4.value": {
+            "DataValue.4.a": {
                 "field": "properties.temp_import.4.values"
             },
-            "DataStandard.4.positiveunc": {
+            "DataValue.4.unc_a": {
                 "field": "properties.temp_import.4.errors"
             },
-            "DataStandard.4.reference_1": {
+            "DataValue.4.reference_1": {
                 "field": "properties.temp_import.4.datasources.0"
             },
-            "DataStandard.4.reference_2": {
+            "DataValue.4.reference_2": {
                 "field": "properties.temp_import.4.datasources.1"
             },
-            "DataStandard.4.unctype": {
-                "field": "properties.temp_import.4.errortypes",
-                "convert": {
-                    "Gauss2s": "{\"0\" :   \"NORMAL\"}"
-                }
+            "DataValue.4.dataclass": {
+                "field": "properties.temp_import.4.names.0",
+                "script": "field = tostring(field)"
             },
-            "DataStandard.5.datatype": {
+            "DataValue.4.dataquality": {
+                "field": "properties.temp_import.4.names.1",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.4.editor": {
+                "field": "properties.temp_import.4.names.2"
+            },
+            "DataValue.4.calcmode": {
+                "field": "properties.temp_import.4.names.3"
+            },
+            "DataValue.5.datatype": {
                 "field": "properties.temp_import.5.name"
             },
-            "DataStandard.5.value": {
+            "DataValue.5.a": {
                 "field": "properties.temp_import.5.values"
             },
-            "DataStandard.5.positiveunc": {
+            "DataValue.5.unc_a": {
                 "field": "properties.temp_import.5.errors"
             },
-            "DataStandard.5.reference_1": {
+            "DataValue.5.reference_1": {
                 "field": "properties.temp_import.5.datasources.0"
             },
-            "DataStandard.5.reference_2": {
+            "DataValue.5.reference_2": {
                 "field": "properties.temp_import.5.datasources.1"
             },
-            "DataStandard.5.unctype": {
-                "field": "properties.temp_import.5.errortypes",
-                "convert": {
-                    "Gauss2s": "{\"0\" :   \"NORMAL\"}"
-                }
+            "DataValue.5.dataclass": {
+                "field": "properties.temp_import.5.names.0",
+                "script": "field = tostring(field)"
             },
-            "DataStandard.6.datatype": {
+            "DataValue.5.dataquality": {
+                "field": "properties.temp_import.5.names.1",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.5.editor": {
+                "field": "properties.temp_import.5.names.2"
+            },
+            "DataValue.5.calcmode": {
+                "field": "properties.temp_import.5.names.3"
+            },
+            "DataValue.6.datatype": {
                 "field": "properties.temp_import.6.name"
             },
-            "DataStandard.6.value": {
+            "DataValue.6.a": {
                 "field": "properties.temp_import.6.values"
             },
-            "DataStandard.6.positiveunc": {
+            "DataValue.6.unc_a": {
                 "field": "properties.temp_import.6.errors"
             },
-            "DataStandard.6.reference_1": {
+            "DataValue.6.reference_1": {
                 "field": "properties.temp_import.6.datasources.0"
             },
-            "DataStandard.6.reference_2": {
+            "DataValue.6.reference_2": {
                 "field": "properties.temp_import.6.datasources.1"
             },
-            "DataStandard.6.unctype": {
-                "field": "properties.temp_import.6.errortypes",
-                "convert": {
-                    "Gauss2s": "{\"0\" :   \"NORMAL\"}"
-                }
+            "DataValue.6.dataclass": {
+                "field": "properties.temp_import.6.names.0",
+                "script": "field = tostring(field)"
             },
-            "DataStandard.7.datatype": {
+            "DataValue.6.dataquality": {
+                "field": "properties.temp_import.6.names.1",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.6.editor": {
+                "field": "properties.temp_import.6.names.2"
+            },
+            "DataValue.6.calcmode": {
+                "field": "properties.temp_import.6.names.3"
+            },
+            "DataValue.7.datatype": {
                 "field": "properties.temp_import.7.name"
             },
-            "DataStandard.7.value": {
+            "DataValue.7.a": {
                 "field": "properties.temp_import.7.values"
             },
-            "DataStandard.7.positiveunc": {
+            "DataValue.7.unc_a": {
                 "field": "properties.temp_import.7.errors"
             },
-            "DataStandard.7.reference_1": {
+            "DataValue.7.reference_1": {
                 "field": "properties.temp_import.7.datasources.0"
             },
-            "DataStandard.7.reference_2": {
+            "DataValue.7.reference_2": {
                 "field": "properties.temp_import.7.datasources.1"
             },
-            "DataStandard.7.unctype": {
-                "field": "properties.temp_import.7.errortypes",
-                "convert": {
-                    "Gauss2s": "{\"0\" :   \"NORMAL\"}"
-                }
+            "DataValue.7.dataclass": {
+                "field": "properties.temp_import.7.names.0",
+                "script": "field = tostring(field)"
             },
-            "DataStandard.8.datatype": {
+            "DataValue.7.dataquality": {
+                "field": "properties.temp_import.7.names.1",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.7.editor": {
+                "field": "properties.temp_import.7.names.2"
+            },
+            "DataValue.7.calcmode": {
+                "field": "properties.temp_import.7.names.3"
+            },
+            "DataValue.8.datatype": {
                 "field": "properties.temp_import.8.name"
             },
-            "DataStandard.8.value": {
+            "DataValue.8.a": {
                 "field": "properties.temp_import.8.values"
             },
-            "DataStandard.8.positiveunc": {
+            "DataValue.8.unc_a": {
                 "field": "properties.temp_import.8.errors"
             },
-            "DataStandard.8.reference_1": {
+            "DataValue.8.reference_1": {
                 "field": "properties.temp_import.8.datasources.0"
             },
-            "DataStandard.8.reference_2": {
+            "DataValue.8.reference_2": {
                 "field": "properties.temp_import.8.datasources.1"
             },
-            "DataStandard.8.unctype": {
-                "field": "properties.temp_import.8.errortypes",
-                "convert": {
-                    "Gauss2s": "{\"0\" :   \"NORMAL\"}"
-                }
+            "DataValue.8.dataclass": {
+                "field": "properties.temp_import.8.names.0",
+                "script": "field = tostring(field)"
             },
-            "DataStandard.9.datatype": {
+            "DataValue.8.dataquality": {
+                "field": "properties.temp_import.8.names.1",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.8.editor": {
+                "field": "properties.temp_import.8.names.2"
+            },
+            "DataValue.8.calcmode": {
+                "field": "properties.temp_import.8.names.3"
+            },
+            "DataValue.9.datatype": {
                 "field": "properties.temp_import.9.name"
             },
-            "DataStandard.9.value": {
+            "DataValue.9.a": {
                 "field": "properties.temp_import.9.values"
             },
-            "DataStandard.9.positiveunc": {
+            "DataValue.9.unc_a": {
                 "field": "properties.temp_import.9.errors"
             },
-            "DataStandard.9.reference_1": {
+            "DataValue.9.reference_1": {
                 "field": "properties.temp_import.9.datasources.0"
             },
-            "DataStandard.9.reference_2": {
+            "DataValue.9.reference_2": {
                 "field": "properties.temp_import.9.datasources.1"
             },
-            "DataStandard.9.unctype": {
-                "field": "properties.temp_import.9.errortypes",
-                "convert": {
-                    "Gauss2s": "{\"0\" :   \"NORMAL\"}"
-                }
+            "DataValue.9.dataclass": {
+                "field": "properties.temp_import.9.names.0",
+                "script": "field = tostring(field)"
             },
-            "DataStandard.10.datatype": {
+            "DataValue.9.dataquality": {
+                "field": "properties.temp_import.9.names.1",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.9.editor": {
+                "field": "properties.temp_import.9.names.2"
+            },
+            "DataValue.9.calcmode": {
+                "field": "properties.temp_import.9.names.3"
+            },
+            "DataValue.10.datatype": {
                 "field": "properties.temp_import.10.name"
             },
-            "DataStandard.10.value": {
+            "DataValue.10.a": {
                 "field": "properties.temp_import.10.values"
             },
-            "DataStandard.10.positiveunc": {
+            "DataValue.10.unc_a": {
                 "field": "properties.temp_import.10.errors"
             },
-            "DataStandard.10.reference_1": {
+            "DataValue.10.reference_1": {
                 "field": "properties.temp_import.10.datasources.0"
             },
-            "DataStandard.10.reference_2": {
+            "DataValue.10.reference_2": {
                 "field": "properties.temp_import.10.datasources.1"
             },
-            "DataStandard.10.unctype": {
-                "field": "properties.temp_import.10.errortypes",
-                "convert": {
-                    "Gauss2s": "{\"0\" :   \"NORMAL\"}"
-                }
+            "DataValue.10.dataclass": {
+                "field": "properties.temp_import.10.names.0",
+                "script": "field = tostring(field)"
             },
-            "DataVariable.0.datatype": {
+            "DataValue.10.dataquality": {
+                "field": "properties.temp_import.10.names.1",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.10.editor": {
+                "field": "properties.temp_import.10.names.2"
+            },
+            "DataValue.10.calcmode": {
+                "field": "properties.temp_import.10.names.3"
+            },
+            "DataValue.11.datatype": {
                 "field": "properties.temp_import.11.name"
             },
-            "DataVariable.0.reference_1": {
+            "DataValue.11.a": {
+                "field": "properties.temp_import.11.values"
+            },
+            "DataValue.11.unc_a": {
+                "field": "properties.temp_import.11.errors"
+            },
+            "DataValue.11.reference_1": {
                 "field": "properties.temp_import.11.datasources.0"
             },
-            "DataVariable.0.reference_2": {
+            "DataValue.11.reference_2": {
                 "field": "properties.temp_import.11.datasources.1"
             },
-            "DataVariable.0.a": {
-                "field": "properties.temp_import.11.values.0"
+            "DataValue.11.dataclass": {
+                "field": "properties.temp_import.11.names.0",
+                "script": "field = tostring(field)"
             },
-            "DataVariable.0.b": {
-                "field": "properties.temp_import.11.values.1"
+            "DataValue.11.dataquality": {
+                "field": "properties.temp_import.11.names.1",
+                "script": "field = tostring(field)"
             },
-            "DataVariable.0.c": {
-                "field": "properties.temp_import.11.values.5"
+            "DataValue.11.editor": {
+                "field": "properties.temp_import.11.names.2"
             },
-            "DataVariable.0.d": {
-                "field": "properties.temp_import.11.values.2"
+            "DataValue.11.calcmode": {
+                "field": "properties.temp_import.11.names.3"
             },
-            "DataVariable.0.e": {
-                "field": "properties.temp_import.11.values.4"
-            },
-            "DataVariable.0.f": {
-                "field": "properties.temp_import.11.values.3"
-            },
-            "DataVariable.0.maxpbar": {
-                "field": "properties.temp_import.11.values.6",
-                "script": "field = field*1e5"
-            },
-            "DataVariable.0.maxtk": {
-                "field": "properties.temp_import.11.values.7"
-            },
-            "DataVariable.0.minpbar": {
-                "field": "properties.temp_import.11.values.8",
-                "script": "field = field*1e5"
-            },
-            "DataVariable.0.mintk": {
-                "field": "properties.temp_import.11.values.9"
-            },
-            "DataVariable.1.datatype": {
+            "DataValue.12.datatype": {
                 "field": "properties.temp_import.12.name"
             },
-            "DataVariable.1.reference_1": {
+            "DataValue.12.a": {
+                "field": "properties.temp_import.12.values"
+            },
+            "DataValue.12.unc_a": {
+                "field": "properties.temp_import.12.errors"
+            },
+            "DataValue.12.reference_1": {
                 "field": "properties.temp_import.12.datasources.0"
             },
-            "DataVariable.1.reference_2": {
+            "DataValue.12.reference_2": {
                 "field": "properties.temp_import.12.datasources.1"
             },
-            "DataVariable.1.a": {
-                "field": "properties.temp_import.12.values.0"
+            "DataValue.12.dataclass": {
+                "field": "properties.temp_import.12.names.0",
+                "script": "field = tostring(field)"
             },
-            "DataVariable.1.b": {
-                "field": "properties.temp_import.12.values.1"
+            "DataValue.12.dataquality": {
+                "field": "properties.temp_import.12.names.1",
+                "script": "field = tostring(field)"
             },
-            "DataVariable.1.c": {
-                "field": "properties.temp_import.12.values.5"
+            "DataValue.12.editor": {
+                "field": "properties.temp_import.12.names.2"
             },
-            "DataVariable.1.d": {
-                "field": "properties.temp_import.12.values.2"
+            "DataValue.12.calcmode": {
+                "field": "properties.temp_import.12.names.3"
             },
-            "DataVariable.1.e": {
-                "field": "properties.temp_import.12.values.4"
-            },
-            "DataVariable.1.f": {
-                "field": "properties.temp_import.12.values.3"
-            },
-            "DataVariable.1.maxpbar": {
-                "field": "properties.temp_import.12.values.6",
-                "script": "field = field*1e5"
-            },
-            "DataVariable.1.maxtk": {
-                "field": "properties.temp_import.12.values.7"
-            },
-            "DataVariable.1.minpbar": {
-                "field": "properties.temp_import.12.values.8",
-                "script": "field = field*1e5"
-            },
-            "DataVariable.1.mintk": {
-                "field": "properties.temp_import.12.values.9"
-            },
-            "DataVariable.2.datatype": {
+            "DataValue.13.datatype": {
                 "field": "properties.temp_import.13.name"
             },
-            "DataVariable.2.reference_1": {
+            "DataValue.13.a": {
+                "field": "properties.temp_import.13.values"
+            },
+            "DataValue.13.unc_a": {
+                "field": "properties.temp_import.13.errors"
+            },
+            "DataValue.13.reference_1": {
                 "field": "properties.temp_import.13.datasources.0"
             },
-            "DataVariable.2.reference_2": {
+            "DataValue.13.reference_2": {
                 "field": "properties.temp_import.13.datasources.1"
             },
-            "DataVariable.2.a": {
-                "field": "properties.temp_import.13.values.0"
+            "DataValue.13.dataclass": {
+                "field": "properties.temp_import.13.names.0",
+                "script": "field = tostring(field)"
             },
-            "DataVariable.2.b": {
-                "field": "properties.temp_import.13.values.1"
+            "DataValue.13.dataquality": {
+                "field": "properties.temp_import.13.names.1",
+                "script": "field = tostring(field)"
             },
-            "DataVariable.2.c": {
-                "field": "properties.temp_import.13.values.5"
+            "DataValue.13.editor": {
+                "field": "properties.temp_import.13.names.2"
             },
-            "DataVariable.2.d": {
-                "field": "properties.temp_import.13.values.2"
+            "DataValue.13.calcmode": {
+                "field": "properties.temp_import.13.names.3"
             },
-            "DataVariable.2.e": {
-                "field": "properties.temp_import.13.values.4"
-            },
-            "DataVariable.2.f": {
-                "field": "properties.temp_import.13.values.3"
-            },
-            "DataVariable.2.maxpbar": {
-                "field": "properties.temp_import.13.values.6",
-                "script": "field = field*1e5"
-            },
-            "DataVariable.2.maxtk": {
-                "field": "properties.temp_import.13.values.7"
-            },
-            "DataVariable.2.minpbar": {
-                "field": "properties.temp_import.13.values.8",
-                "script": "field = field*1e5"
-            },
-            "DataVariable.2.mintk": {
-                "field": "properties.temp_import.13.values.9"
-            },
-            "DataVariable.3.datatype": {
+            "DataValue.14.datatype": {
                 "field": "properties.temp_import.14.name"
             },
-            "DataVariable.3.reference_1": {
+            "DataValue.14.a": {
+                "field": "properties.temp_import.14.values"
+            },
+            "DataValue.14.unc_a": {
+                "field": "properties.temp_import.14.errors"
+            },
+            "DataValue.14.reference_1": {
                 "field": "properties.temp_import.14.datasources.0"
             },
-            "DataVariable.3.reference_2": {
+            "DataValue.14.reference_2": {
                 "field": "properties.temp_import.14.datasources.1"
             },
-            "DataVariable.3.a": {
-                "field": "properties.temp_import.14.values.0"
+            "DataValue.14.dataclass": {
+                "field": "properties.temp_import.14.names.0",
+                "script": "field = tostring(field)"
             },
-            "DataVariable.3.b": {
-                "field": "properties.temp_import.14.values.1"
+            "DataValue.14.dataquality": {
+                "field": "properties.temp_import.14.names.1",
+                "script": "field = tostring(field)"
             },
-            "DataVariable.3.c": {
-                "field": "properties.temp_import.14.values.5"
+            "DataValue.14.editor": {
+                "field": "properties.temp_import.14.names.2"
             },
-            "DataVariable.3.d": {
-                "field": "properties.temp_import.14.values.2"
-            },
-            "DataVariable.3.e": {
-                "field": "properties.temp_import.14.values.4"
-            },
-            "DataVariable.3.f": {
-                "field": "properties.temp_import.14.values.3"
-            },
-            "DataVariable.3.maxpbar": {
-                "field": "properties.temp_import.14.values.6",
-                "script": "field = field*1e5"
-            },
-            "DataVariable.3.maxtk": {
-                "field": "properties.temp_import.14.values.7"
-            },
-            "DataVariable.3.minpbar": {
-                "field": "properties.temp_import.14.values.8",
-                "script": "field = field*1e5"
-            },
-            "DataVariable.3.mintk": {
-                "field": "properties.temp_import.14.values.9"
+            "DataValue.14.calcmode": {
+                "field": "properties.temp_import.14.names.3"
             }
         },
         "script":   "formula = rintable.properties.symbol;
-        if (formula == 'H2O(l)') then rintable.properties.class_ = {} rintable.properties.class_['3'] = 'SC_AQSOLVENT' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['4'] =  'AS_AQUEOUS' end;
-        if string.match(formula, '%(g%)') then rintable.properties.class_ = {} rintable.properties.class_['1'] = 'SC_GASFLUID' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['0'] =  'AS_GAS' end;
-        if string.match(formula, '%(cr%)') then rintable.properties.class_ = {} rintable.properties.class_['0'] = 'SC_COMPONENT' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['3'] =  'AS_CRYSTAL' end;
-        if string.match(formula, '%(am%)') then rintable.properties.class_ = {} rintable.properties.class_['0'] = 'SC_COMPONENT' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['3'] =  'AS_CRYSTAL' end;
-        if string.match(formula, '%(s%)') then rintable.properties.class_ = {} rintable.properties.class_['0'] = 'SC_COMPONENT' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['3'] =  'AS_CRYSTAL' end;
-        if string.match(formula, '%(gel%)') then rintable.properties.class_ = {} rintable.properties.class_['0'] = 'SC_COMPONENT' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['3'] =  'AS_CRYSTAL' end;
+        if (formula == 'H2O(l)') then rintable.properties.class_ = {} rintable.properties.class_['3'] = 'SC_AQSOLVENT' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['4'] =  'AS_AQUEOUS' rintable.properties.TPMethods = nil end;
+        if string.match(formula, '%(g%)') then rintable.properties.class_ = {} rintable.properties.class_['1'] = 'SC_GASFLUID' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['0'] =  'AS_GAS' rintable.properties.TPMethods = { {method = {['40'] = 'mv_pvnrt'}} } end;
+        if string.match(formula, '<.->') then rintable.properties.class_ = {} rintable.properties.class_['2'] = 'SC_AQSOLUTE' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['4'] =  'AS_AQUEOUS' rintable.properties.TPMethods = nil end;
 formula = string.gsub(formula, '(_.*)', '');
 formula = string.gsub(formula, '<(%d*)->',  '-%1' );
 formula = string.gsub(formula, '<(%d*)+>',  '+%1' );
@@ -461,12 +506,27 @@ formula = string.gsub(formula, ':([%d%.]*)([^:%s]*)',  '(%2)%1' );
 formula = string.gsub(formula, 'ClO4-', 'Cl|7|O' );
 rintable.properties.formula = formula;
 rintable.properties.name = '_rdc_' .. rintable.properties.symbol;
+        local function calcmode_status(cm)
+        local code, name
+        if cm == 'Entered' then code, name = '1', 'ENTERED'
+        elseif cm == 'NotYetDetermined' then code, name = '0', 'EMPTY'
+        elseif cm == 'CGHF' or cm == 'CF' or cm == 'CRLOGK' or cm == 'CGHR' or cm == 'CTPFUNC' or cm == 'CR' or cm == 'CXTERMEXTRAP' or cm == 'CRLOGKT' or cm == 'CV' or cm == 'CXTERMEXTRAP2' or cm == 'CRHO' then code, name = '3', 'CALCULATED'
+        end;
+        if code == nil then return nil end;
+        return {[1] = {[code] = name}}
+        end;
         for k, v in pairs(rintable.properties.temp_import) do
-        if v.name == 'DFG298' then rintable.properties.sm_gibbs_energy = v end;
-        if v.name == 'DFH298' then rintable.properties.sm_enthalpy = v end;
-        if v.name == 'S298' then rintable.properties.sm_entropy_abs = v end;
-        if v.name == 'CP298' then rintable.properties.sm_heat_capacity_p = v end;
-        if v.name == 'V298' then rintable.properties.sm_volume = v end;
+        if v.names ~= nil then
+        local meta = 'dataclass: ' .. tostring(v.names[1]) .. '; dataquality: ' .. tostring(v.names[2]) .. '; editor: ' .. tostring(v.names[3])
+        if v.comment == nil then v.comment = meta else v.comment = v.comment .. '; ' .. meta end
+        v.status = calcmode_status(v.names[4])
+        v.names = nil
+        end;
+        if v.name == 'DFG298' and v.values ~= nil then rintable.properties.sm_gibbs_energy = v end;
+        if v.name == 'DFH298' and v.values ~= nil then rintable.properties.sm_enthalpy = v end;
+        if v.name == 'S298' and v.values ~= nil then rintable.properties.sm_entropy_abs = v end;
+        if v.name == 'CP298' and v.values ~= nil then rintable.properties.sm_heat_capacity_p = v end;
+        if v.name == 'V298' and v.values ~= nil then rintable.properties.sm_volume = v end;
         end;
         if rintable.properties.sm_gibbs_energy ~= nil then rintable.properties.sm_gibbs_energy.units = {'J/mol'} end
         if rintable.properties.sm_enthalpy ~= nil then rintable.properties.sm_enthalpy.units = {'J/mol'} end 

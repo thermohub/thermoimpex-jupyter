@@ -11,7 +11,7 @@
             "Cemp_s": null,
             "Cp0d": [
                 [
-                    167.05,
+                    167.0500030517578,
                     14
                 ]
             ],
@@ -60,7 +60,7 @@
                     null
                 ]
             ],
-            "M0": 95.0108986,
+            "M0": 95.01090240478516,
             "PrTr": [
                 [
                     1,
@@ -69,8 +69,8 @@
             ],
             "S0d": [
                 [
-                    104.3121,
-                    8.2
+                    104.31210327148438,
+                    8.199999809265137
                 ]
             ],
             "TCint": null,
@@ -136,7 +136,8 @@
             "AlOH",
             "Al(OH)4-",
             "the"
-        ]
+        ],
+        "project": "backup_"
     },
     {
         "dod": {
@@ -199,7 +200,7 @@
                     null
                 ]
             ],
-            "M0": 243.0614,
+            "M0": 243.0614013671875,
             "PrTr": [
                 [
                     1,
@@ -275,539 +276,8 @@
             "Am",
             "Am+3",
             "the"
-        ]
-    },
-    {
-        "dod": {
-            "BetAlp": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "Cdate": "26/7/26",
-            "Cemp_s": null,
-            "Cp0d": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "CritPg": null,
-            "DC_cnt": [
-                [
-                    0,
-                    0,
-                    3,
-                    0
-                ]
-            ],
-            "DCform": "Ca+2",
-            "DCname": "Ca<2+>",
-            "DCset": [
-                [
-                    "S",
-                    "j",
-                    "j",
-                    "b",
-                    "C",
-                    "-",
-                    "-",
-                    "-",
-                    "-"
-                ]
-            ],
-            "FT_p": null,
-            "FT_pb": null,
-            "FT_typ": null,
-            "G0d": [
-                [
-                    -552806.1535,
-                    null
-                ]
-            ],
-            "H0d": [
-                [
-                    -543000,
-                    1000
-                ]
-            ],
-            "LamST": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "M0": 40.078,
-            "PrTr": [
-                [
-                    1,
-                    25
-                ]
-            ],
-            "S0d": [
-                [
-                    -56.2,
-                    1
-                ]
-            ],
-            "TCint": null,
-            "TPcMod": [
-                [
-                    "C",
-                    "S",
-                    "N",
-                    "N",
-                    " ",
-                    " "
-                ]
-            ],
-            "V0d": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "Zz": 2,
-            "ab": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "aiCpT": null,
-            "aiHKF": null,
-            "aiNEs": null,
-            "aiODc": null,
-            "aiVTP": null,
-            "dSDref": [
-                [
-                    "InternallyCalcd"
-                ],
-                [
-                    "BenSaid_ea:2003:book"
-                ],
-                [
-                    "BenSaid_ea:2003:book"
-                ]
-            ],
-            "dSDval": [
-                [
-                    "dGf"
-                ],
-                [
-                    "dHf"
-                ],
-                [
-                    "S"
-                ]
-            ]
-        },
-        "key": [
-            "a",
-            "Ca",
-            "Ca+2",
-            "the"
-        ]
-    },
-    {
-        "dod": {
-            "BetAlp": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "Cdate": "26/7/26",
-            "Cemp_s": null,
-            "Cp0d": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "CritPg": null,
-            "DC_cnt": [
-                [
-                    0,
-                    0,
-                    3,
-                    0
-                ]
-            ],
-            "DCform": "Cd+2",
-            "DCname": "Cd<2+>",
-            "DCset": [
-                [
-                    "S",
-                    "j",
-                    "j",
-                    "b",
-                    "C",
-                    "-",
-                    "-",
-                    "-",
-                    "-"
-                ]
-            ],
-            "FT_p": null,
-            "FT_pb": null,
-            "FT_typ": null,
-            "G0d": [
-                [
-                    -77732.752,
-                    1092.84195
-                ]
-            ],
-            "H0d": [
-                [
-                    -75920,
-                    600
-                ]
-            ],
-            "LamST": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "M0": 112.411,
-            "PrTr": [
-                [
-                    1,
-                    25
-                ]
-            ],
-            "S0d": [
-                [
-                    -72.8,
-                    1.5
-                ]
-            ],
-            "TCint": null,
-            "TPcMod": [
-                [
-                    "C",
-                    "S",
-                    "N",
-                    "N",
-                    " ",
-                    " "
-                ]
-            ],
-            "V0d": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "Zz": 2,
-            "ab": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "aiCpT": null,
-            "aiHKF": null,
-            "aiNEs": null,
-            "aiODc": null,
-            "aiVTP": null,
-            "dSDref": [
-                [
-                    "InternallyCalcd"
-                ],
-                [
-                    "Fuger_ea:1992:book"
-                ],
-                [
-                    "Fuger_ea:1992:book"
-                ]
-            ],
-            "dSDval": [
-                [
-                    "dGf"
-                ],
-                [
-                    "dHf"
-                ],
-                [
-                    "S"
-                ]
-            ]
-        },
-        "key": [
-            "a",
-            "Cd",
-            "Cd+2",
-            "the"
-        ]
-    },
-    {
-        "dod": {
-            "BetAlp": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "Cdate": "26/7/26",
-            "Cemp_s": null,
-            "Cp0d": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "CritPg": null,
-            "DC_cnt": [
-                [
-                    0,
-                    0,
-                    3,
-                    0
-                ]
-            ],
-            "DCform": "Cl-",
-            "DCname": "Cl<->",
-            "DCset": [
-                [
-                    "S",
-                    "j",
-                    "j",
-                    "b",
-                    "C",
-                    "-",
-                    "-",
-                    "-",
-                    "-"
-                ]
-            ],
-            "FT_p": null,
-            "FT_pb": null,
-            "FT_typ": null,
-            "G0d": [
-                [
-                    -131218.368925,
-                    null
-                ]
-            ],
-            "H0d": [
-                [
-                    -167080,
-                    100
-                ]
-            ],
-            "LamST": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "M0": 35.453,
-            "PrTr": [
-                [
-                    1,
-                    25
-                ]
-            ],
-            "S0d": [
-                [
-                    56.6,
-                    0.2
-                ]
-            ],
-            "TCint": null,
-            "TPcMod": [
-                [
-                    "C",
-                    "S",
-                    "N",
-                    "N",
-                    " ",
-                    " "
-                ]
-            ],
-            "V0d": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "Zz": -1,
-            "ab": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "aiCpT": null,
-            "aiHKF": null,
-            "aiNEs": null,
-            "aiODc": null,
-            "aiVTP": null,
-            "dSDref": [
-                [
-                    "InternallyCalcd"
-                ],
-                [
-                    "BenSaid_ea:2003:book"
-                ],
-                [
-                    "BenSaid_ea:2003:book"
-                ]
-            ],
-            "dSDval": [
-                [
-                    "dGf"
-                ],
-                [
-                    "dHf"
-                ],
-                [
-                    "S"
-                ]
-            ]
-        },
-        "key": [
-            "a",
-            "Cl",
-            "Cl-",
-            "the"
-        ]
-    },
-    {
-        "dod": {
-            "BetAlp": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "Cdate": "26/7/26",
-            "Cemp_s": null,
-            "Cp0d": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "CritPg": null,
-            "DC_cnt": [
-                [
-                    0,
-                    0,
-                    3,
-                    0
-                ]
-            ],
-            "DCform": "Cm+3",
-            "DCname": "Cm<3+>",
-            "DCset": [
-                [
-                    "S",
-                    "j",
-                    "j",
-                    "b",
-                    "C",
-                    "-",
-                    "-",
-                    "-",
-                    "-"
-                ]
-            ],
-            "FT_p": null,
-            "FT_pb": null,
-            "FT_typ": null,
-            "G0d": [
-                [
-                    -595936.289,
-                    6300
-                ]
-            ],
-            "H0d": [
-                [
-                    -615000,
-                    5000
-                ]
-            ],
-            "LamST": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "M0": 247.0704,
-            "PrTr": [
-                [
-                    1,
-                    25
-                ]
-            ],
-            "S0d": [
-                [
-                    -188,
-                    13
-                ]
-            ],
-            "TCint": null,
-            "TPcMod": [
-                [
-                    "C",
-                    "S",
-                    "N",
-                    "N",
-                    " ",
-                    " "
-                ]
-            ],
-            "V0d": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "Zz": 3,
-            "ab": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "aiCpT": null,
-            "aiHKF": null,
-            "aiNEs": null,
-            "aiODc": null,
-            "aiVTP": null,
-            "dSDref": [
-                [
-                    "InternallyCalcd"
-                ],
-                [
-                    "Fuger&Oetting:1976:book"
-                ],
-                [
-                    "Fuger&Oetting:1976:book"
-                ]
-            ],
-            "dSDval": [
-                [
-                    "dGf"
-                ],
-                [
-                    "dHf"
-                ],
-                [
-                    "S"
-                ]
-            ]
-        },
-        "key": [
-            "a",
-            "Cm",
-            "Cm+3",
-            "the"
-        ]
+        ],
+        "project": "backup_"
     },
     {
         "dod": {
@@ -870,7 +340,7 @@
                     null
                 ]
             ],
-            "M0": 60.0089,
+            "M0": 60.0088996887207,
             "PrTr": [
                 [
                     1,
@@ -940,7 +410,544 @@
             "CO",
             "CO3-2",
             "the"
-        ]
+        ],
+        "project": "backup_"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "26/7/26",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    3,
+                    0
+                ]
+            ],
+            "DCform": "Ca+2",
+            "DCname": "Ca<2+>",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -552806.1535,
+                    null
+                ]
+            ],
+            "H0d": [
+                [
+                    -543000,
+                    1000
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 40.077999114990234,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    -56.20000076293945,
+                    1
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "N",
+                    "N",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Zz": 2,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "InternallyCalcd"
+                ],
+                [
+                    "BenSaid_ea:2003:book"
+                ],
+                [
+                    "BenSaid_ea:2003:book"
+                ]
+            ],
+            "dSDval": [
+                [
+                    "dGf"
+                ],
+                [
+                    "dHf"
+                ],
+                [
+                    "S"
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "Ca",
+            "Ca+2",
+            "the"
+        ],
+        "project": "backup_"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "26/7/26",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    3,
+                    0
+                ]
+            ],
+            "DCform": "Cd+2",
+            "DCname": "Cd<2+>",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -77732.752,
+                    1092.84195
+                ]
+            ],
+            "H0d": [
+                [
+                    -75920,
+                    600
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 112.41100311279297,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    -72.80000305175781,
+                    1.5
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "N",
+                    "N",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Zz": 2,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "InternallyCalcd"
+                ],
+                [
+                    "Fuger_ea:1992:book"
+                ],
+                [
+                    "Fuger_ea:1992:book"
+                ]
+            ],
+            "dSDval": [
+                [
+                    "dGf"
+                ],
+                [
+                    "dHf"
+                ],
+                [
+                    "S"
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "Cd",
+            "Cd+2",
+            "the"
+        ],
+        "project": "backup_"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "26/7/26",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    3,
+                    0
+                ]
+            ],
+            "DCform": "Cl-",
+            "DCname": "Cl<->",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -131218.368925,
+                    null
+                ]
+            ],
+            "H0d": [
+                [
+                    -167080,
+                    100
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 35.452999114990234,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    56.599998474121094,
+                    0.20000000298023224
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "N",
+                    "N",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Zz": -1,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "InternallyCalcd"
+                ],
+                [
+                    "BenSaid_ea:2003:book"
+                ],
+                [
+                    "BenSaid_ea:2003:book"
+                ]
+            ],
+            "dSDval": [
+                [
+                    "dGf"
+                ],
+                [
+                    "dHf"
+                ],
+                [
+                    "S"
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "Cl",
+            "Cl-",
+            "the"
+        ],
+        "project": "backup_"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "26/7/26",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    3,
+                    0
+                ]
+            ],
+            "DCform": "Cm+3",
+            "DCname": "Cm<3+>",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -595936.289,
+                    6300
+                ]
+            ],
+            "H0d": [
+                [
+                    -615000,
+                    5000
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 247.07040405273438,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    -188,
+                    13
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "N",
+                    "N",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Zz": 3,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "InternallyCalcd"
+                ],
+                [
+                    "Fuger&Oetting:1976:book"
+                ],
+                [
+                    "Fuger&Oetting:1976:book"
+                ]
+            ],
+            "dSDval": [
+                [
+                    "dGf"
+                ],
+                [
+                    "dHf"
+                ],
+                [
+                    "S"
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "Cm",
+            "Cm+3",
+            "the"
+        ],
+        "project": "backup_"
     },
     {
         "dod": {
@@ -1003,7 +1010,7 @@
                     null
                 ]
             ],
-            "M0": 132.9054519,
+            "M0": 132.90545654296875,
             "PrTr": [
                 [
                     1,
@@ -1012,7 +1019,7 @@
             ],
             "S0d": [
                 [
-                    132.1,
+                    132.10000610351562,
                     0.5
                 ]
             ],
@@ -1073,430 +1080,8 @@
             "Cs",
             "Cs+",
             "the"
-        ]
-    },
-    {
-        "dod": {
-            "BetAlp": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "Cdate": "26/7/26",
-            "Cemp_s": null,
-            "Cp0d": [
-                [
-                    0,
-                    0
-                ]
-            ],
-            "CritPg": null,
-            "DC_cnt": [
-                [
-                    0,
-                    0,
-                    4,
-                    0
-                ]
-            ],
-            "DCform": "H+",
-            "DCname": "H<+>",
-            "DCset": [
-                [
-                    "T",
-                    "j",
-                    "j",
-                    "b",
-                    "C",
-                    "-",
-                    "-",
-                    "-",
-                    "-"
-                ]
-            ],
-            "FT_p": null,
-            "FT_pb": null,
-            "FT_typ": null,
-            "G0d": [
-                [
-                    0,
-                    0
-                ]
-            ],
-            "H0d": [
-                [
-                    0,
-                    0
-                ]
-            ],
-            "LamST": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "M0": 1.00794,
-            "PrTr": [
-                [
-                    1,
-                    25
-                ]
-            ],
-            "S0d": [
-                [
-                    0,
-                    0
-                ]
-            ],
-            "TCint": null,
-            "TPcMod": [
-                [
-                    "C",
-                    "S",
-                    "N",
-                    "N",
-                    " ",
-                    " "
-                ]
-            ],
-            "V0d": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "Zz": 1,
-            "ab": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "aiCpT": null,
-            "aiHKF": null,
-            "aiNEs": null,
-            "aiODc": null,
-            "aiVTP": null,
-            "dSDref": [
-                [
-                    "DefinitionConvent"
-                ],
-                [
-                    "DefinitionConvent"
-                ],
-                [
-                    "DefinitionConvent"
-                ],
-                [
-                    "DefinitionConvent"
-                ]
-            ],
-            "dSDval": [
-                [
-                    "dGf"
-                ],
-                [
-                    "dHf"
-                ],
-                [
-                    "S"
-                ],
-                [
-                    "Cp"
-                ]
-            ]
-        },
-        "key": [
-            "a",
-            "wY_",
-            "H+",
-            "the"
-        ]
-    },
-    {
-        "dod": {
-            "BetAlp": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "Cdate": "26/7/26",
-            "Cemp_s": null,
-            "Cp0d": [
-                [
-                    28.836,
-                    null
-                ]
-            ],
-            "CritPg": null,
-            "DC_cnt": [
-                [
-                    0,
-                    0,
-                    4,
-                    0
-                ]
-            ],
-            "DCform": "H|0|2",
-            "DCname": "H2(g)",
-            "DCset": [
-                [
-                    "G",
-                    "j",
-                    "j",
-                    "b",
-                    "C",
-                    "-",
-                    "-",
-                    "-",
-                    "-"
-                ]
-            ],
-            "FT_p": null,
-            "FT_pb": null,
-            "FT_typ": null,
-            "G0d": [
-                [
-                    0,
-                    null
-                ]
-            ],
-            "H0d": [
-                [
-                    0,
-                    null
-                ]
-            ],
-            "LamST": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "M0": 2.01588,
-            "PrTr": [
-                [
-                    1,
-                    25
-                ]
-            ],
-            "S0d": [
-                [
-                    130.68,
-                    0.003
-                ]
-            ],
-            "TCint": null,
-            "TPcMod": [
-                [
-                    "C",
-                    "S",
-                    "N",
-                    "N",
-                    " ",
-                    " "
-                ]
-            ],
-            "V0d": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "Zz": 0,
-            "ab": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "aiCpT": null,
-            "aiHKF": null,
-            "aiNEs": null,
-            "aiODc": null,
-            "aiVTP": null,
-            "dSDref": [
-                [
-                    "DefinitionConvent"
-                ],
-                [
-                    "DefinitionConvent"
-                ],
-                [
-                    "Cox_ea:1989:book"
-                ],
-                [
-                    "BenSaid_ea:2003:book"
-                ]
-            ],
-            "dSDval": [
-                [
-                    "dGf"
-                ],
-                [
-                    "dHf"
-                ],
-                [
-                    "S"
-                ],
-                [
-                    "Cp"
-                ]
-            ]
-        },
-        "key": [
-            "g",
-            "H",
-            "H2(g)",
-            "the"
-        ]
-    },
-    {
-        "dod": {
-            "BetAlp": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "Cdate": "26/7/26",
-            "Cemp_s": null,
-            "Cp0d": [
-                [
-                    75.351,
-                    null
-                ]
-            ],
-            "CritPg": null,
-            "DC_cnt": [
-                [
-                    0,
-                    0,
-                    5,
-                    0
-                ]
-            ],
-            "DCform": "H2O@",
-            "DCname": "H2O(l)",
-            "DCset": [
-                [
-                    "W",
-                    "j",
-                    "j",
-                    "b",
-                    "C",
-                    "-",
-                    "-",
-                    "-",
-                    "-"
-                ]
-            ],
-            "FT_p": null,
-            "FT_pb": null,
-            "FT_typ": null,
-            "G0d": [
-                [
-                    -237140.3161,
-                    0
-                ]
-            ],
-            "H0d": [
-                [
-                    -285830,
-                    40
-                ]
-            ],
-            "LamST": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "M0": 18.01528,
-            "PrTr": [
-                [
-                    1,
-                    25
-                ]
-            ],
-            "S0d": [
-                [
-                    69.95,
-                    0.03
-                ]
-            ],
-            "TCint": null,
-            "TPcMod": [
-                [
-                    "H",
-                    "W",
-                    "F",
-                    "E",
-                    " ",
-                    " "
-                ]
-            ],
-            "V0d": [
-                [
-                    1.8068,
-                    null
-                ]
-            ],
-            "Zz": 0,
-            "ab": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "aiCpT": null,
-            "aiHKF": null,
-            "aiNEs": null,
-            "aiODc": null,
-            "aiVTP": null,
-            "dSDref": [
-                [
-                    "InternallyCalcd"
-                ],
-                [
-                    "Berner_ea:2013:book"
-                ],
-                [
-                    "Berner_ea:2013:book"
-                ],
-                [
-                    "GemsSetCalcd"
-                ],
-                [
-                    "GemsSetCalcd"
-                ]
-            ],
-            "dSDval": [
-                [
-                    "dGf"
-                ],
-                [
-                    "dHf"
-                ],
-                [
-                    "S"
-                ],
-                [
-                    "Cp"
-                ],
-                [
-                    "V"
-                ]
-            ]
-        },
-        "key": [
-            "a",
-            "wZ_",
-            "H2O(l)",
-            "the"
-        ]
+        ],
+        "project": "backup_"
     },
     {
         "dod": {
@@ -1559,7 +1144,7 @@
                     null
                 ]
             ],
-            "M0": 39.0983,
+            "M0": 39.09830093383789,
             "PrTr": [
                 [
                     1,
@@ -1568,8 +1153,8 @@
             ],
             "S0d": [
                 [
-                    101.2,
-                    0.2
+                    101.19999694824219,
+                    0.20000000298023224
                 ]
             ],
             "TCint": null,
@@ -1629,7 +1214,8 @@
             "K",
             "K+",
             "the"
-        ]
+        ],
+        "project": "backup_"
     },
     {
         "dod": {
@@ -1692,7 +1278,7 @@
                     null
                 ]
             ],
-            "M0": 24.305,
+            "M0": 24.30500030517578,
             "PrTr": [
                 [
                     1,
@@ -1762,273 +1348,8 @@
             "Mg",
             "Mg+2",
             "the"
-        ]
-    },
-    {
-        "dod": {
-            "BetAlp": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "Cdate": "26/7/26",
-            "Cemp_s": null,
-            "Cp0d": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "CritPg": null,
-            "DC_cnt": [
-                [
-                    0,
-                    0,
-                    3,
-                    0
-                ]
-            ],
-            "DCform": "Na+",
-            "DCname": "Na<+>",
-            "DCset": [
-                [
-                    "S",
-                    "j",
-                    "j",
-                    "b",
-                    "C",
-                    "-",
-                    "-",
-                    "-",
-                    "-"
-                ]
-            ],
-            "FT_p": null,
-            "FT_pb": null,
-            "FT_typ": null,
-            "G0d": [
-                [
-                    -261952.8935,
-                    null
-                ]
-            ],
-            "H0d": [
-                [
-                    -240340,
-                    60
-                ]
-            ],
-            "LamST": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "M0": 22.98976928,
-            "PrTr": [
-                [
-                    1,
-                    25
-                ]
-            ],
-            "S0d": [
-                [
-                    58.45,
-                    0.15
-                ]
-            ],
-            "TCint": null,
-            "TPcMod": [
-                [
-                    "C",
-                    "S",
-                    "N",
-                    "N",
-                    " ",
-                    " "
-                ]
-            ],
-            "V0d": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "Zz": 1,
-            "ab": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "aiCpT": null,
-            "aiHKF": null,
-            "aiNEs": null,
-            "aiODc": null,
-            "aiVTP": null,
-            "dSDref": [
-                [
-                    "InternallyCalcd"
-                ],
-                [
-                    "BenSaid_ea:2003:book"
-                ],
-                [
-                    "BenSaid_ea:2003:book"
-                ]
-            ],
-            "dSDval": [
-                [
-                    "dGf"
-                ],
-                [
-                    "dHf"
-                ],
-                [
-                    "S"
-                ]
-            ]
-        },
-        "key": [
-            "a",
-            "Na",
-            "Na+",
-            "the"
-        ]
-    },
-    {
-        "dod": {
-            "BetAlp": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "Cdate": "26/7/26",
-            "Cemp_s": null,
-            "Cp0d": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "CritPg": null,
-            "DC_cnt": [
-                [
-                    0,
-                    0,
-                    3,
-                    0
-                ]
-            ],
-            "DCform": "Nd+3",
-            "DCname": "Nd<3+>",
-            "DCset": [
-                [
-                    "S",
-                    "j",
-                    "j",
-                    "b",
-                    "C",
-                    "-",
-                    "-",
-                    "-",
-                    "-"
-                ]
-            ],
-            "FT_p": null,
-            "FT_pb": null,
-            "FT_typ": null,
-            "G0d": [
-                [
-                    -671698.033,
-                    null
-                ]
-            ],
-            "H0d": [
-                [
-                    -696200,
-                    null
-                ]
-            ],
-            "LamST": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "M0": 144.242,
-            "PrTr": [
-                [
-                    1,
-                    25
-                ]
-            ],
-            "S0d": [
-                [
-                    -206.7,
-                    null
-                ]
-            ],
-            "TCint": null,
-            "TPcMod": [
-                [
-                    "C",
-                    "S",
-                    "N",
-                    "N",
-                    " ",
-                    " "
-                ]
-            ],
-            "V0d": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "Zz": 3,
-            "ab": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "aiCpT": null,
-            "aiHKF": null,
-            "aiNEs": null,
-            "aiODc": null,
-            "aiVTP": null,
-            "dSDref": [
-                [
-                    "InternallyCalcd"
-                ],
-                [
-                    "Bailey_ea:1982:book"
-                ],
-                [
-                    "Bailey_ea:1982:book"
-                ]
-            ],
-            "dSDval": [
-                [
-                    "dGf"
-                ],
-                [
-                    "dHf"
-                ],
-                [
-                    "S"
-                ]
-            ]
-        },
-        "key": [
-            "a",
-            "Nd",
-            "Nd+3",
-            "the"
-        ]
+        ],
+        "project": "backup_"
     },
     {
         "dod": {
@@ -2091,7 +1412,7 @@
                     null
                 ]
             ],
-            "M0": 62.0049,
+            "M0": 62.00490188598633,
             "PrTr": [
                 [
                     1,
@@ -2100,8 +1421,8 @@
             ],
             "S0d": [
                 [
-                    146.7,
-                    0.4
+                    146.6999969482422,
+                    0.4000000059604645
                 ]
             ],
             "TCint": null,
@@ -2161,7 +1482,276 @@
             "NO",
             "NO3-",
             "the"
-        ]
+        ],
+        "project": "backup_"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "26/7/26",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    3,
+                    0
+                ]
+            ],
+            "DCform": "Na+",
+            "DCname": "Na<+>",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -261952.8935,
+                    null
+                ]
+            ],
+            "H0d": [
+                [
+                    -240340,
+                    60
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 22.989768981933594,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    58.45000076293945,
+                    0.15000000596046448
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "N",
+                    "N",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Zz": 1,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "InternallyCalcd"
+                ],
+                [
+                    "BenSaid_ea:2003:book"
+                ],
+                [
+                    "BenSaid_ea:2003:book"
+                ]
+            ],
+            "dSDval": [
+                [
+                    "dGf"
+                ],
+                [
+                    "dHf"
+                ],
+                [
+                    "S"
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "Na",
+            "Na+",
+            "the"
+        ],
+        "project": "backup_"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "26/7/26",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    3,
+                    0
+                ]
+            ],
+            "DCform": "Nd+3",
+            "DCname": "Nd<3+>",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -671698.033,
+                    null
+                ]
+            ],
+            "H0d": [
+                [
+                    -696200,
+                    null
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 144.24200439453125,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    -206.6999969482422,
+                    null
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "N",
+                    "N",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Zz": 3,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "InternallyCalcd"
+                ],
+                [
+                    "Bailey_ea:1982:book"
+                ],
+                [
+                    "Bailey_ea:1982:book"
+                ]
+            ],
+            "dSDval": [
+                [
+                    "dGf"
+                ],
+                [
+                    "dHf"
+                ],
+                [
+                    "S"
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "Nd",
+            "Nd+3",
+            "the"
+        ],
+        "project": "backup_"
     },
     {
         "dod": {
@@ -2224,7 +1814,7 @@
                     null
                 ]
             ],
-            "M0": 237.0482,
+            "M0": 237.04820251464844,
             "PrTr": [
                 [
                     1,
@@ -2233,8 +1823,8 @@
             ],
             "S0d": [
                 [
-                    -193.586591298856,
-                    20.253
+                    -193.5865936279297,
+                    20.253000259399414
                 ]
             ],
             "TCint": null,
@@ -2294,7 +1884,8 @@
             "Np",
             "Np+3",
             "the"
-        ]
+        ],
+        "project": "backup_"
     },
     {
         "dod": {
@@ -2357,7 +1948,7 @@
                     null
                 ]
             ],
-            "M0": 237.0482,
+            "M0": 237.04820251464844,
             "PrTr": [
                 [
                     1,
@@ -2366,8 +1957,8 @@
             ],
             "S0d": [
                 [
-                    -426.39,
-                    12.386
+                    -426.3900146484375,
+                    12.38599967956543
                 ]
             ],
             "TCint": null,
@@ -2427,7 +2018,8 @@
             "Np",
             "Np+4",
             "the"
-        ]
+        ],
+        "project": "backup_"
     },
     {
         "dod": {
@@ -2490,7 +2082,7 @@
                     null
                 ]
             ],
-            "M0": 269.047,
+            "M0": 269.0469970703125,
             "PrTr": [
                 [
                     1,
@@ -2499,8 +2091,8 @@
             ],
             "S0d": [
                 [
-                    -45.904,
-                    10.71
+                    -45.90399932861328,
+                    10.710000038146973
                 ]
             ],
             "TCint": null,
@@ -2584,7 +2176,8 @@
             "NpO",
             "NpO2+",
             "the"
-        ]
+        ],
+        "project": "backup_"
     },
     {
         "dod": {
@@ -2598,7 +2191,7 @@
             "Cemp_s": null,
             "Cp0d": [
                 [
-                    29.376,
+                    null,
                     null
                 ]
             ],
@@ -2607,15 +2200,15 @@
                 [
                     0,
                     0,
-                    4,
+                    3,
                     0
                 ]
             ],
-            "DCform": "O|0|2",
-            "DCname": "O2(g)",
+            "DCform": "PO4-3",
+            "DCname": "PO4<3->",
             "DCset": [
                 [
-                    "G",
+                    "S",
                     "j",
                     "j",
                     "b",
@@ -2631,14 +2224,14 @@
             "FT_typ": null,
             "G0d": [
                 [
-                    0,
-                    null
+                    -1025491.3104,
+                    1576
                 ]
             ],
             "H0d": [
                 [
-                    0,
-                    null
+                    -1284400,
+                    4085
                 ]
             ],
             "LamST": [
@@ -2647,7 +2240,7 @@
                     null
                 ]
             ],
-            "M0": 31.9988,
+            "M0": 94.97135925292969,
             "PrTr": [
                 [
                     1,
@@ -2656,8 +2249,8 @@
             ],
             "S0d": [
                 [
-                    205.152,
-                    0.005
+                    -220.97000122070312,
+                    12.845999717712402
                 ]
             ],
             "TCint": null,
@@ -2677,7 +2270,7 @@
                     null
                 ]
             ],
-            "Zz": 0,
+            "Zz": -3,
             "ab": [
                 [
                     null,
@@ -2691,16 +2284,13 @@
             "aiVTP": null,
             "dSDref": [
                 [
-                    "DefinitionConvent"
+                    "InternallyCalcd"
                 ],
                 [
-                    "DefinitionConvent"
+                    "BenSaid_ea:2003:book"
                 ],
                 [
-                    "Bok_ea:2023:pap"
-                ],
-                [
-                    "Bok_ea:2023:pap"
+                    "BenSaid_ea:2003:book"
                 ]
             ],
             "dSDval": [
@@ -2712,18 +2302,16 @@
                 ],
                 [
                     "S"
-                ],
-                [
-                    "Cp"
                 ]
             ]
         },
         "key": [
-            "g",
-            "O",
-            "O2(g)",
+            "a",
+            "PO",
+            "PO4-3",
             "the"
-        ]
+        ],
+        "project": "backup_"
     },
     {
         "dod": {
@@ -2786,7 +2374,7 @@
                     null
                 ]
             ],
-            "M0": 207.2,
+            "M0": 207.1999969482422,
             "PrTr": [
                 [
                     1,
@@ -2856,140 +2444,8 @@
             "Pb",
             "Pb+2",
             "the"
-        ]
-    },
-    {
-        "dod": {
-            "BetAlp": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "Cdate": "26/7/26",
-            "Cemp_s": null,
-            "Cp0d": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "CritPg": null,
-            "DC_cnt": [
-                [
-                    0,
-                    0,
-                    3,
-                    0
-                ]
-            ],
-            "DCform": "PO4-3",
-            "DCname": "PO4<3->",
-            "DCset": [
-                [
-                    "S",
-                    "j",
-                    "j",
-                    "b",
-                    "C",
-                    "-",
-                    "-",
-                    "-",
-                    "-"
-                ]
-            ],
-            "FT_p": null,
-            "FT_pb": null,
-            "FT_typ": null,
-            "G0d": [
-                [
-                    -1025491.3104,
-                    1576
-                ]
-            ],
-            "H0d": [
-                [
-                    -1284400,
-                    4085
-                ]
-            ],
-            "LamST": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "M0": 94.971362,
-            "PrTr": [
-                [
-                    1,
-                    25
-                ]
-            ],
-            "S0d": [
-                [
-                    -220.97,
-                    12.846
-                ]
-            ],
-            "TCint": null,
-            "TPcMod": [
-                [
-                    "C",
-                    "S",
-                    "N",
-                    "N",
-                    " ",
-                    " "
-                ]
-            ],
-            "V0d": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "Zz": -3,
-            "ab": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "aiCpT": null,
-            "aiHKF": null,
-            "aiNEs": null,
-            "aiODc": null,
-            "aiVTP": null,
-            "dSDref": [
-                [
-                    "InternallyCalcd"
-                ],
-                [
-                    "BenSaid_ea:2003:book"
-                ],
-                [
-                    "BenSaid_ea:2003:book"
-                ]
-            ],
-            "dSDval": [
-                [
-                    "dGf"
-                ],
-                [
-                    "dHf"
-                ],
-                [
-                    "S"
-                ]
-            ]
-        },
-        "key": [
-            "a",
-            "PO",
-            "PO4-3",
-            "the"
-        ]
+        ],
+        "project": "backup_"
     },
     {
         "dod": {
@@ -3052,7 +2508,7 @@
                     null
                 ]
             ],
-            "M0": 244.0628,
+            "M0": 244.06280517578125,
             "PrTr": [
                 [
                     1,
@@ -3061,8 +2517,8 @@
             ],
             "S0d": [
                 [
-                    -184.51,
-                    6.154
+                    -184.50999450683594,
+                    6.1539998054504395
                 ]
             ],
             "TCint": null,
@@ -3134,7 +2590,8 @@
             "Pu",
             "Pu+3",
             "the"
-        ]
+        ],
+        "project": "backup_"
     },
     {
         "dod": {
@@ -3197,7 +2654,7 @@
                     null
                 ]
             ],
-            "M0": 244.0628,
+            "M0": 244.06280517578125,
             "PrTr": [
                 [
                     1,
@@ -3206,8 +2663,8 @@
             ],
             "S0d": [
                 [
-                    -414.537095421768,
-                    10.192
+                    -414.537109375,
+                    10.192000389099121
                 ]
             ],
             "TCint": null,
@@ -3267,7 +2724,8 @@
             "Pu",
             "Pu+4",
             "the"
-        ]
+        ],
+        "project": "backup_"
     },
     {
         "dod": {
@@ -3330,7 +2788,7 @@
                     null
                 ]
             ],
-            "M0": 276.0616,
+            "M0": 276.0616149902344,
             "PrTr": [
                 [
                     1,
@@ -3339,8 +2797,8 @@
             ],
             "S0d": [
                 [
-                    1.47978131812846,
-                    30.013
+                    1.4797812700271606,
+                    30.01300048828125
                 ]
             ],
             "TCint": null,
@@ -3412,7 +2870,8 @@
             "PuO",
             "PuO2+",
             "the"
-        ]
+        ],
+        "project": "backup_"
     },
     {
         "dod": {
@@ -3475,7 +2934,7 @@
                     null
                 ]
             ],
-            "M0": 276.0616,
+            "M0": 276.0616149902344,
             "PrTr": [
                 [
                     1,
@@ -3484,8 +2943,8 @@
             ],
             "S0d": [
                 [
-                    -71.2457628710381,
-                    22.12
+                    -71.24576568603516,
+                    22.1200008392334
                 ]
             ],
             "TCint": null,
@@ -3557,7 +3016,154 @@
             "PuO",
             "PuO2+2",
             "the"
-        ]
+        ],
+        "project": "backup_"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "26/7/26",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    5,
+                    0
+                ]
+            ],
+            "DCform": "SO4-2",
+            "DCname": "SO4<2->",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -744004.4953,
+                    418
+                ]
+            ],
+            "H0d": [
+                [
+                    -909340,
+                    400
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 96.0625991821289,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    18.5,
+                    0.4000000059604645
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "N",
+                    "N",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Zz": -2,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "InternallyCalcd"
+                ],
+                [
+                    "BenSaid_ea:2003:book"
+                ],
+                [
+                    "Cox_ea:1989:book"
+                ],
+                [
+                    "BenSaid_ea:2003:book"
+                ],
+                [
+                    "Cox_ea:1989:book"
+                ]
+            ],
+            "dSDval": [
+                [
+                    "dGf"
+                ],
+                [
+                    "dHf"
+                ],
+                [
+                    "dHf"
+                ],
+                [
+                    "S"
+                ],
+                [
+                    "S"
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "SO",
+            "SO4-2",
+            "the"
+        ],
+        "project": "backup_"
     },
     {
         "dod": {
@@ -3620,7 +3226,7 @@
                     null
                 ]
             ],
-            "M0": 126.9582,
+            "M0": 126.95819854736328,
             "PrTr": [
                 [
                     1,
@@ -3629,8 +3235,8 @@
             ],
             "S0d": [
                 [
-                    -5.055,
-                    7.01
+                    -5.054999828338623,
+                    7.010000228881836
                 ]
             ],
             "TCint": null,
@@ -3690,7 +3296,8 @@
             "SeO",
             "SeO3-2",
             "the"
-        ]
+        ],
+        "project": "backup_"
     },
     {
         "dod": {
@@ -3753,7 +3360,7 @@
                     null
                 ]
             ],
-            "M0": 142.9576,
+            "M0": 142.9575958251953,
             "PrTr": [
                 [
                     1,
@@ -3762,8 +3369,8 @@
             ],
             "S0d": [
                 [
-                    32.965,
-                    12.69
+                    32.96500015258789,
+                    12.6899995803833
                 ]
             ],
             "TCint": null,
@@ -3835,7 +3442,8 @@
             "SeO",
             "SeO4-2",
             "the"
-        ]
+        ],
+        "project": "backup_"
     },
     {
         "dod": {
@@ -3849,7 +3457,7 @@
             "Cemp_s": null,
             "Cp0d": [
                 [
-                    237.368,
+                    237.3679962158203,
                     2
                 ]
             ],
@@ -3898,7 +3506,7 @@
                     null
                 ]
             ],
-            "M0": 96.11486,
+            "M0": 96.11486053466797,
             "PrTr": [
                 [
                     1,
@@ -3907,8 +3515,8 @@
             ],
             "S0d": [
                 [
-                    178.853,
-                    3.9
+                    178.85299682617188,
+                    3.9000000953674316
                 ]
             ],
             "TCint": null,
@@ -3992,152 +3600,8 @@
             "SiOH",
             "Si(OH)4@",
             "the"
-        ]
-    },
-    {
-        "dod": {
-            "BetAlp": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "Cdate": "26/7/26",
-            "Cemp_s": null,
-            "Cp0d": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "CritPg": null,
-            "DC_cnt": [
-                [
-                    0,
-                    0,
-                    5,
-                    0
-                ]
-            ],
-            "DCform": "SO4-2",
-            "DCname": "SO4<2->",
-            "DCset": [
-                [
-                    "S",
-                    "j",
-                    "j",
-                    "b",
-                    "C",
-                    "-",
-                    "-",
-                    "-",
-                    "-"
-                ]
-            ],
-            "FT_p": null,
-            "FT_pb": null,
-            "FT_typ": null,
-            "G0d": [
-                [
-                    -744004.4953,
-                    418
-                ]
-            ],
-            "H0d": [
-                [
-                    -909340,
-                    400
-                ]
-            ],
-            "LamST": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "M0": 96.0626,
-            "PrTr": [
-                [
-                    1,
-                    25
-                ]
-            ],
-            "S0d": [
-                [
-                    18.5,
-                    0.4
-                ]
-            ],
-            "TCint": null,
-            "TPcMod": [
-                [
-                    "C",
-                    "S",
-                    "N",
-                    "N",
-                    " ",
-                    " "
-                ]
-            ],
-            "V0d": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "Zz": -2,
-            "ab": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "aiCpT": null,
-            "aiHKF": null,
-            "aiNEs": null,
-            "aiODc": null,
-            "aiVTP": null,
-            "dSDref": [
-                [
-                    "InternallyCalcd"
-                ],
-                [
-                    "BenSaid_ea:2003:book"
-                ],
-                [
-                    "Cox_ea:1989:book"
-                ],
-                [
-                    "BenSaid_ea:2003:book"
-                ],
-                [
-                    "Cox_ea:1989:book"
-                ]
-            ],
-            "dSDval": [
-                [
-                    "dGf"
-                ],
-                [
-                    "dHf"
-                ],
-                [
-                    "dHf"
-                ],
-                [
-                    "S"
-                ],
-                [
-                    "S"
-                ]
-            ]
-        },
-        "key": [
-            "a",
-            "SO",
-            "SO4-2",
-            "the"
-        ]
+        ],
+        "project": "backup_"
     },
     {
         "dod": {
@@ -4200,7 +3664,7 @@
                     null
                 ]
             ],
-            "M0": 87.62,
+            "M0": 87.62000274658203,
             "PrTr": [
                 [
                     1,
@@ -4282,128 +3746,8 @@
             "Sr",
             "Sr+2",
             "the"
-        ]
-    },
-    {
-        "dod": {
-            "BetAlp": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "Cdate": "26/7/26",
-            "Cemp_s": null,
-            "Cp0d": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "CritPg": null,
-            "DC_cnt": [
-                [
-                    0,
-                    0,
-                    1,
-                    0
-                ]
-            ],
-            "DCform": "Tc|+4|O(OH)2@",
-            "DCname": "TcO(OH)2<0>",
-            "DCset": [
-                [
-                    "S",
-                    "j",
-                    "j",
-                    "b",
-                    "C",
-                    "-",
-                    "-",
-                    "-",
-                    "-"
-                ]
-            ],
-            "FT_p": null,
-            "FT_pb": null,
-            "FT_typ": null,
-            "G0d": [
-                [
-                    -572482.83751486,
-                    3483.81359682974
-                ]
-            ],
-            "H0d": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "LamST": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "M0": 148.92038,
-            "PrTr": [
-                [
-                    1,
-                    25
-                ]
-            ],
-            "S0d": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "TCint": null,
-            "TPcMod": [
-                [
-                    "C",
-                    "S",
-                    "N",
-                    "N",
-                    " ",
-                    " "
-                ]
-            ],
-            "V0d": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "Zz": 0,
-            "ab": [
-                [
-                    null,
-                    null
-                ]
-            ],
-            "aiCpT": null,
-            "aiHKF": null,
-            "aiNEs": null,
-            "aiODc": null,
-            "aiVTP": null,
-            "dSDref": [
-                [
-                    "InternallyCalcd"
-                ]
-            ],
-            "dSDval": [
-                [
-                    "dGf"
-                ]
-            ]
-        },
-        "key": [
-            "a",
-            "TcOOH",
-            "TcO(OH)2@",
-            "the"
-        ]
+        ],
+        "project": "backup_"
     },
     {
         "dod": {
@@ -4466,7 +3810,7 @@
                     null
                 ]
             ],
-            "M0": 162.9039,
+            "M0": 162.90390014648438,
             "PrTr": [
                 [
                     1,
@@ -4475,7 +3819,7 @@
             ],
             "S0d": [
                 [
-                    199.6,
+                    199.60000610351562,
                     1.5
                 ]
             ],
@@ -4542,7 +3886,8 @@
             "TcO",
             "TcO4-",
             "the"
-        ]
+        ],
+        "project": "backup_"
     },
     {
         "dod": {
@@ -4605,7 +3950,7 @@
                     null
                 ]
             ],
-            "M0": 162.9039,
+            "M0": 162.90390014648438,
             "PrTr": [
                 [
                     1,
@@ -4663,7 +4008,130 @@
             "TcO",
             "TcO4-2",
             "the"
-        ]
+        ],
+        "project": "backup_"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "26/7/26",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "DCform": "Tc|+4|O(OH)2@",
+            "DCname": "TcO(OH)2<0>",
+            "DCset": [
+                [
+                    "S",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -572482.83751486,
+                    3483.81359682974
+                ]
+            ],
+            "H0d": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 148.92037963867188,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "N",
+                    "N",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Zz": 0,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "InternallyCalcd"
+                ]
+            ],
+            "dSDval": [
+                [
+                    "dGf"
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "TcOOH",
+            "TcO(OH)2@",
+            "the"
+        ],
+        "project": "backup_"
     },
     {
         "dod": {
@@ -4726,7 +4194,7 @@
                     null
                 ]
             ],
-            "M0": 232.03806,
+            "M0": 232.03805541992188,
             "PrTr": [
                 [
                     1,
@@ -4735,7 +4203,7 @@
             ],
             "S0d": [
                 [
-                    -423.1,
+                    -423.1000061035156,
                     16
                 ]
             ],
@@ -4802,7 +4270,8 @@
             "Th",
             "Th+4",
             "the"
-        ]
+        ],
+        "project": "backup_"
     },
     {
         "dod": {
@@ -4865,7 +4334,7 @@
                     null
                 ]
             ],
-            "M0": 238.02891,
+            "M0": 238.02891540527344,
             "PrTr": [
                 [
                     1,
@@ -4874,8 +4343,8 @@
             ],
             "S0d": [
                 [
-                    -416.897498321493,
-                    12.553
+                    -416.8974914550781,
+                    12.553000450134277
                 ]
             ],
             "TCint": null,
@@ -4953,7 +4422,8 @@
             "U",
             "U+4",
             "the"
-        ]
+        ],
+        "project": "backup_"
     },
     {
         "dod": {
@@ -4967,7 +4437,7 @@
             "Cemp_s": null,
             "Cp0d": [
                 [
-                    42.4,
+                    42.400001525878906,
                     3
                 ]
             ],
@@ -5016,7 +4486,7 @@
                     null
                 ]
             ],
-            "M0": 270.02771,
+            "M0": 270.0277099609375,
             "PrTr": [
                 [
                     1,
@@ -5025,7 +4495,7 @@
             ],
             "S0d": [
                 [
-                    -98.2,
+                    -98.19999694824219,
                     3
                 ]
             ],
@@ -5110,7 +4580,8 @@
             "UO",
             "UO2+2",
             "the"
-        ]
+        ],
+        "project": "backup_"
     },
     {
         "dod": {
@@ -5173,7 +4644,7 @@
                     null
                 ]
             ],
-            "M0": 65.409,
+            "M0": 65.40899658203125,
             "PrTr": [
                 [
                     1,
@@ -5182,7 +4653,7 @@
             ],
             "S0d": [
                 [
-                    -109.8,
+                    -109.80000305175781,
                     0.5
                 ]
             ],
@@ -5255,6 +4726,574 @@
             "Zn",
             "Zn+2",
             "the"
-        ]
+        ],
+        "project": "backup_"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "26/7/26",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    4,
+                    0
+                ]
+            ],
+            "DCform": "H+",
+            "DCname": "H<+>",
+            "DCset": [
+                [
+                    "T",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "H0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 1.0079400539398193,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    0,
+                    0
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "N",
+                    "N",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Zz": 1,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "DefinitionConvent"
+                ],
+                [
+                    "DefinitionConvent"
+                ],
+                [
+                    "DefinitionConvent"
+                ],
+                [
+                    "DefinitionConvent"
+                ]
+            ],
+            "dSDval": [
+                [
+                    "dGf"
+                ],
+                [
+                    "dHf"
+                ],
+                [
+                    "S"
+                ],
+                [
+                    "Cp"
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "wY_",
+            "H+",
+            "the"
+        ],
+        "project": "backup_"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "26/7/26",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    75.35099792480469,
+                    null
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    5,
+                    0
+                ]
+            ],
+            "DCform": "H2O@",
+            "DCname": "H2O(l)",
+            "DCset": [
+                [
+                    "W",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    -237140.3161,
+                    0
+                ]
+            ],
+            "H0d": [
+                [
+                    -285830,
+                    40
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 18.01527976989746,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    69.94999694824219,
+                    0.029999999329447746
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "H",
+                    "W",
+                    "F",
+                    "E",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    1.8068000078201294,
+                    null
+                ]
+            ],
+            "Zz": 0,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "InternallyCalcd"
+                ],
+                [
+                    "Berner_ea:2013:book"
+                ],
+                [
+                    "Berner_ea:2013:book"
+                ],
+                [
+                    "GemsSetCalcd"
+                ],
+                [
+                    "GemsSetCalcd"
+                ]
+            ],
+            "dSDval": [
+                [
+                    "dGf"
+                ],
+                [
+                    "dHf"
+                ],
+                [
+                    "S"
+                ],
+                [
+                    "Cp"
+                ],
+                [
+                    "V"
+                ]
+            ]
+        },
+        "key": [
+            "a",
+            "wZ_",
+            "H2O(l)",
+            "the"
+        ],
+        "project": "backup_"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "26/7/26",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    28.836000442504883,
+                    null
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    4,
+                    0
+                ]
+            ],
+            "DCform": "H|0|2",
+            "DCname": "H2(g)",
+            "DCset": [
+                [
+                    "G",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    0,
+                    null
+                ]
+            ],
+            "H0d": [
+                [
+                    0,
+                    null
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 2.0158801078796387,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    130.67999267578125,
+                    0.003000000026077032
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "N",
+                    "N",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Zz": 0,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "DefinitionConvent"
+                ],
+                [
+                    "DefinitionConvent"
+                ],
+                [
+                    "Cox_ea:1989:book"
+                ],
+                [
+                    "BenSaid_ea:2003:book"
+                ]
+            ],
+            "dSDval": [
+                [
+                    "dGf"
+                ],
+                [
+                    "dHf"
+                ],
+                [
+                    "S"
+                ],
+                [
+                    "Cp"
+                ]
+            ]
+        },
+        "key": [
+            "g",
+            "H",
+            "H2(g)",
+            "the"
+        ],
+        "project": "backup_"
+    },
+    {
+        "dod": {
+            "BetAlp": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Cdate": "26/7/26",
+            "Cemp_s": null,
+            "Cp0d": [
+                [
+                    29.375999450683594,
+                    null
+                ]
+            ],
+            "CritPg": null,
+            "DC_cnt": [
+                [
+                    0,
+                    0,
+                    4,
+                    0
+                ]
+            ],
+            "DCform": "O|0|2",
+            "DCname": "O2(g)",
+            "DCset": [
+                [
+                    "G",
+                    "j",
+                    "j",
+                    "b",
+                    "C",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "FT_p": null,
+            "FT_pb": null,
+            "FT_typ": null,
+            "G0d": [
+                [
+                    0,
+                    null
+                ]
+            ],
+            "H0d": [
+                [
+                    0,
+                    null
+                ]
+            ],
+            "LamST": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "M0": 31.99880027770996,
+            "PrTr": [
+                [
+                    1,
+                    25
+                ]
+            ],
+            "S0d": [
+                [
+                    205.15199279785156,
+                    0.004999999888241291
+                ]
+            ],
+            "TCint": null,
+            "TPcMod": [
+                [
+                    "C",
+                    "S",
+                    "N",
+                    "N",
+                    " ",
+                    " "
+                ]
+            ],
+            "V0d": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "Zz": 0,
+            "ab": [
+                [
+                    null,
+                    null
+                ]
+            ],
+            "aiCpT": null,
+            "aiHKF": null,
+            "aiNEs": null,
+            "aiODc": null,
+            "aiVTP": null,
+            "dSDref": [
+                [
+                    "DefinitionConvent"
+                ],
+                [
+                    "DefinitionConvent"
+                ],
+                [
+                    "Bok_ea:2023:pap"
+                ],
+                [
+                    "Bok_ea:2023:pap"
+                ]
+            ],
+            "dSDval": [
+                [
+                    "dGf"
+                ],
+                [
+                    "dHf"
+                ],
+                [
+                    "S"
+                ],
+                [
+                    "Cp"
+                ]
+            ]
+        },
+        "key": [
+            "g",
+            "O",
+            "O2(g)",
+            "the"
+        ],
+        "project": "backup_"
     }
 ]
+

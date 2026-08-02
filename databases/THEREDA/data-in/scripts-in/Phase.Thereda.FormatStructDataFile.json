@@ -25,7 +25,7 @@
 if rintable.properties.temp_import[2] == 'aq' then rintable.properties.symbol = 'aq' end;
 if rintable.properties.symbol == 'aq' then rintable.properties.mixmod = {} rintable.properties.mixmod['32'] = 'M_AQPITZERHMW' rintable.properties.aggregate_state = {} rintable.properties.aggregate_state['4'] =  'AS_AQUEOUS' end;
 rintable.properties.name = rintable.properties.symbol;
-rintable.properties.temp_import[1] = nil; rintable.properties.temp_import[2] = nil; rintable.properties.temp_import = nil;"
+rintable.properties.temp_import[1] = nil; rintable.properties.temp_import[2] = nil;"
     },
     "renderer": "JSON",
     "label": "VertexPhase",

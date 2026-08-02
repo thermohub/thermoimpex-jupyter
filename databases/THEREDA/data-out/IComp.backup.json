@@ -45,28 +45,6 @@
     },
     {
         "dod": {
-            "Cp0i": 24.64,
-            "IC_DC": null,
-            "ICform": "As",
-            "ICname": "Arsenic",
-            "IXi": 1,
-            "M0i": 74.9216,
-            "Ri": null,
-            "S0i": 35.1,
-            "StdSt": "s   ",
-            "V0i": null,
-            "Valen": 5,
-            "Zi": null,
-            "indMT": 33
-        },
-        "key": [
-            "As",
-            "e",
-            "Arsenic"
-        ]
-    },
-    {
-        "dod": {
             "Cp0i": 8.517,
             "IC_DC": null,
             "ICform": "C",
@@ -141,7 +119,7 @@
             "M0i": 35.453,
             "Ri": null,
             "S0i": 111.5405,
-            "StdSt": "s   ",
+            "StdSt": "g   ",
             "V0i": null,
             "Valen": -1,
             "Zi": null,
@@ -199,28 +177,6 @@
     },
     {
         "dod": {
-            "Cp0i": 25.084,
-            "IC_DC": null,
-            "ICform": "Fe",
-            "ICname": "Iron",
-            "IXi": 1,
-            "M0i": 55.845,
-            "Ri": null,
-            "S0i": 27.085,
-            "StdSt": "s   ",
-            "V0i": null,
-            "Valen": 2,
-            "Zi": null,
-            "indMT": 26
-        },
-        "key": [
-            "Fe",
-            "e",
-            "Iron"
-        ]
-    },
-    {
-        "dod": {
             "Cp0i": 14.418,
             "IC_DC": null,
             "ICform": "H",
@@ -229,7 +185,7 @@
             "M0i": 1.00794,
             "Ri": null,
             "S0i": 65.34,
-            "StdSt": "s   ",
+            "StdSt": "g   ",
             "V0i": null,
             "Valen": 1,
             "Zi": null,
@@ -239,28 +195,6 @@
             "H",
             "h",
             "Hydrogen"
-        ]
-    },
-    {
-        "dod": {
-            "Cp0i": 27.219,
-            "IC_DC": null,
-            "ICform": "I",
-            "ICname": "Iodine",
-            "IXi": 1,
-            "M0i": 126.90447,
-            "Ri": null,
-            "S0i": 58.07,
-            "StdSt": "s   ",
-            "V0i": null,
-            "Valen": -1,
-            "Zi": null,
-            "indMT": 53
-        },
-        "key": [
-            "I",
-            "e",
-            "Iodine"
         ]
     },
     {
@@ -317,7 +251,7 @@
             "M0i": 14.0067,
             "Ri": null,
             "S0i": 95.8045,
-            "StdSt": "s   ",
+            "StdSt": "g   ",
             "V0i": null,
             "Valen": 5,
             "Zi": null,
@@ -353,28 +287,6 @@
     },
     {
         "dod": {
-            "Cp0i": 24.6,
-            "IC_DC": null,
-            "ICform": "Nb",
-            "ICname": "Niobium",
-            "IXi": 1,
-            "M0i": 92.90638,
-            "Ri": null,
-            "S0i": 36.4,
-            "StdSt": "s   ",
-            "V0i": null,
-            "Valen": 5,
-            "Zi": null,
-            "indMT": 41
-        },
-        "key": [
-            "Nb",
-            "e",
-            "Niobium"
-        ]
-    },
-    {
-        "dod": {
             "Cp0i": 27.45,
             "IC_DC": null,
             "ICform": "Nd",
@@ -393,28 +305,6 @@
             "Nd",
             "e",
             "Neodymium"
-        ]
-    },
-    {
-        "dod": {
-            "Cp0i": 26.07,
-            "IC_DC": null,
-            "ICform": "Ni",
-            "ICname": "Nickel",
-            "IXi": 1,
-            "M0i": 58.6934,
-            "Ri": null,
-            "S0i": 29.87,
-            "StdSt": "s   ",
-            "V0i": null,
-            "Valen": 2,
-            "Zi": null,
-            "indMT": 28
-        },
-        "key": [
-            "Ni",
-            "e",
-            "Nickel"
         ]
     },
     {
@@ -449,7 +339,7 @@
             "M0i": 15.9994,
             "Ri": null,
             "S0i": 102.576,
-            "StdSt": "s   ",
+            "StdSt": "g   ",
             "V0i": null,
             "Valen": -2,
             "Zi": null,
@@ -481,28 +371,6 @@
             "P",
             "e",
             "Phosphorus"
-        ]
-    },
-    {
-        "dod": {
-            "Cp0i": null,
-            "IC_DC": null,
-            "ICform": "Pa",
-            "ICname": "Protactinium",
-            "IXi": 1,
-            "M0i": 231.0359,
-            "Ri": null,
-            "S0i": 51.9,
-            "StdSt": "s   ",
-            "V0i": null,
-            "Valen": 5,
-            "Zi": null,
-            "indMT": 91
-        },
-        "key": [
-            "Pa",
-            "e",
-            "Protactinium"
         ]
     },
     {
@@ -551,50 +419,6 @@
     },
     {
         "dod": {
-            "Cp0i": 30,
-            "IC_DC": null,
-            "ICform": "Ra",
-            "ICname": "Radium",
-            "IXi": 1,
-            "M0i": 226.0254,
-            "Ri": null,
-            "S0i": 71,
-            "StdSt": "s   ",
-            "V0i": null,
-            "Valen": 2,
-            "Zi": null,
-            "indMT": 88
-        },
-        "key": [
-            "Ra",
-            "e",
-            "Radium"
-        ]
-    },
-    {
-        "dod": {
-            "Cp0i": 31.06,
-            "IC_DC": null,
-            "ICform": "Rb",
-            "ICname": "Rubidium",
-            "IXi": 1,
-            "M0i": 85.4678,
-            "Ri": null,
-            "S0i": 76.78,
-            "StdSt": "s   ",
-            "V0i": null,
-            "Valen": 1,
-            "Zi": null,
-            "indMT": 37
-        },
-        "key": [
-            "Rb",
-            "e",
-            "Rubidium"
-        ]
-    },
-    {
-        "dod": {
             "Cp0i": 22.75,
             "IC_DC": null,
             "ICform": "S",
@@ -613,28 +437,6 @@
             "S",
             "e",
             "Sulfur"
-        ]
-    },
-    {
-        "dod": {
-            "Cp0i": 25.26,
-            "IC_DC": null,
-            "ICform": "Sb",
-            "ICname": "Antimony",
-            "IXi": 1,
-            "M0i": 121.76,
-            "Ri": null,
-            "S0i": 45.52,
-            "StdSt": "s   ",
-            "V0i": null,
-            "Valen": 3,
-            "Zi": null,
-            "indMT": 51
-        },
-        "key": [
-            "Sb",
-            "e",
-            "Antimony"
         ]
     },
     {
@@ -679,28 +481,6 @@
             "Si",
             "e",
             "Silicon"
-        ]
-    },
-    {
-        "dod": {
-            "Cp0i": 29.54,
-            "IC_DC": null,
-            "ICform": "Sm",
-            "ICname": "Samarium",
-            "IXi": 1,
-            "M0i": 150.36,
-            "Ri": null,
-            "S0i": 69.58,
-            "StdSt": "s   ",
-            "V0i": null,
-            "Valen": 3,
-            "Zi": null,
-            "indMT": 62
-        },
-        "key": [
-            "Sm",
-            "e",
-            "Samarium"
         ]
     },
     {
@@ -823,7 +603,7 @@
             "M0i": 0,
             "Ri": null,
             "S0i": 65.34,
-            "StdSt": "s   ",
+            "StdSt": "a   ",
             "V0i": null,
             "Valen": 0,
             "Zi": null,
