@@ -19,8 +19,25 @@
 
 set -e
 
+# CONDA_PREFIX is only exported by `conda activate` (local dev flow). Inside
+# a repo2docker/Binder image build, `binder/postBuild` runs as a plain shell
+# command with the env already on PATH but without CONDA_PREFIX set -- fall
+# back to repo2docker's own NB_PYTHON_PREFIX, then to sys.prefix, before
+# giving up.
 if [ -z "${CONDA_PREFIX}" ]; then
-    echo "No active conda environment detected (CONDA_PREFIX is empty)."
+    if [ -n "${NB_PYTHON_PREFIX}" ]; then
+        export CONDA_PREFIX="${NB_PYTHON_PREFIX}"
+    else
+        PY="$(command -v python3 || command -v python)"
+        if [ -n "${PY}" ]; then
+            export CONDA_PREFIX="$("${PY}" -c 'import sys; print(sys.prefix)')"
+        fi
+    fi
+fi
+
+if [ -z "${CONDA_PREFIX}" ]; then
+    echo "No active conda environment detected (CONDA_PREFIX is empty, and"
+    echo "NB_PYTHON_PREFIX/python were not found to fall back to)."
     echo "Run 'conda devenv && conda activate thermoimpex' first."
     exit 1
 fi
