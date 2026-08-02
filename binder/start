@@ -4,26 +4,38 @@
 # server command. Used here to bring up the local ArangoDB extracted in
 # binder/postBuild before Jupyter launches.
 #
-# CAVEAT: unverified against a live mybinder.org session (see postBuild).
-# The --javascript.startup-directory path below assumes the arangodb3 .deb's
-# internal layout (usr/share/arangodb3/js); if arangod fails to start, check
-# ${HOME}/arangodb-data/arangod.log first -- this path is the likely culprit.
+# CAVEAT: relies on binder/postBuild having already sed-patched
+# arangod.conf's FHS-rooted defaults (database directory, javascript paths,
+# uid, log file) to paths this unprivileged, non-apt-installed user can
+# actually use -- see the comment there. Those settings win over the
+# equivalent command-line flags (verified empirically: --uid, --gid,
+# --log.file, --log.output, --database.directory, --javascript.* all failed
+# to override their config-file counterparts from the CLI here), which is
+# why this just points arangod at that one patched config file instead of
+# passing them individually. If arangod fails to start, check
+# ${HOME}/arangodb-data/arangod.log first.
 set -e
 
 ARANGO_DIR="${HOME}/arangodb-local"
 ARANGO_DATA="${HOME}/arangodb-data"
+ARANGO_CONF="${ARANGO_DIR}/etc/arangodb3/arangod.conf"
 
 if [ -x "${ARANGO_DIR}/usr/sbin/arangod" ] && ! pgrep -f "${ARANGO_DIR}/usr/sbin/arangod" > /dev/null 2>&1; then
-    mkdir -p "${ARANGO_DATA}"
-    "${ARANGO_DIR}/usr/sbin/arangod" \
-        --database.directory="${ARANGO_DATA}/db" \
-        --javascript.startup-directory="${ARANGO_DIR}/usr/share/arangodb3/js" \
-        --javascript.app-path="${ARANGO_DATA}/apps" \
-        --server.endpoint=tcp://127.0.0.1:8529 \
-        --server.authentication=false \
+    mkdir -p "${ARANGO_DATA}/db" "${ARANGO_DATA}/apps"
+    "${ARANGO_DIR}/usr/sbin/arangod" --configuration "${ARANGO_CONF}" \
         > "${ARANGO_DATA}/arangod.log" 2>&1 &
-    echo "Started local ArangoDB (fresh, empty database) on 127.0.0.1:8529 -- log at ${ARANGO_DATA}/arangod.log"
-    echo "No remote ThermoHub data is mirrored in -- credentials for the real hub_main/resources DBs can't be embedded in a public Binder image. Import data manually within the session if needed."
+    ARANGO_PID=$!
+
+    # Give it a few seconds and confirm it's actually still alive rather
+    # than silently backgrounding a dead process.
+    sleep 3
+    if kill -0 "${ARANGO_PID}" 2>/dev/null; then
+        echo "Started local ArangoDB (fresh, empty database) on 127.0.0.1:8529 -- log at ${ARANGO_DATA}/arangod.log"
+        echo "No remote ThermoHub data is mirrored in -- credentials for the real hub_main/resources DBs can't be embedded in a public Binder image. Import data manually within the session if needed."
+    else
+        echo "!! arangod exited within 3s of starting -- last 40 lines of ${ARANGO_DATA}/arangod.log:"
+        tail -n 40 "${ARANGO_DATA}/arangod.log" || true
+    fi
 fi
 
 exec "$@"

@@ -26,11 +26,30 @@ echo "== Fetching a local ArangoDB server without root (dpkg-deb -x, no apt repo
 # verified here.
 ARANGO_PKG=arangodb3_3.9.12-1_amd64.deb
 ARANGO_DIR="${HOME}/arangodb-local"
+ARANGO_CONF="${ARANGO_DIR}/etc/arangodb3/arangod.conf"
 if [ ! -x "${ARANGO_DIR}/usr/sbin/arangod" ]; then
     curl -fOL "https://download.arangodb.com/arangodb39/DEBIAN/amd64/${ARANGO_PKG}"
     mkdir -p "${ARANGO_DIR}"
     dpkg-deb -x "${ARANGO_PKG}" "${ARANGO_DIR}"
     rm -f "${ARANGO_PKG}"
 fi
+
+echo "== Patching the extracted arangod.conf for an unprivileged, non-apt install =="
+# arangod finds this file via a path relative to its own binary (there's no
+# real /etc/arangodb3/ here), and several of its settings win over the
+# equivalent command-line flags -- verified empirically: --uid, --gid,
+# --log.file and --log.output all failed to override their config-file
+# counterparts when tried from the CLI, only editing the file itself worked.
+# The .deb's shipped defaults assume a real `apt install` run as root
+# (FHS paths under /var/lib, /var/log, /usr/share, and dropping privileges
+# to a dedicated 'arangodb' service user), none of which apply here.
+sed -i \
+    -e "s|^directory = /var/lib/arangodb3\$|directory = ${HOME}/arangodb-data/db|" \
+    -e "s|^uid = arangodb\$|# uid = arangodb|" \
+    -e "s|^authentication = true\$|authentication = false|" \
+    -e "s|^startup-directory = /usr/share/arangodb3/js\$|startup-directory = ${ARANGO_DIR}/usr/share/arangodb3/js|" \
+    -e "s|^app-path = /var/lib/arangodb3-apps\$|app-path = ${HOME}/arangodb-data/apps|" \
+    -e "s|^file = /var/log/arangodb3/arangod.log\$|file = -|" \
+    "${ARANGO_CONF}"
 
 echo "postBuild done."
