@@ -36,13 +36,13 @@
           "KeepExpanded" :   true,
           "ShowComments" :   false,
           "ShowEnumNames" :   true,
-          "CanEditDocPages" :   false
+          "CanEditDocPages" :   true
      },
      "common" :   {
           "UserHomeDirectoryPath" :   "~",
-          "WorkDirectoryPath" :   "/home/sveta/devThermo/gitThermoMatch/build-ThermoMatch/Resources/files/test_api",
-          "ResourcesDirectory" :   "Resources",
-          "SchemasDirectory" :   "Resources/data/schemas",
+          "WorkDirectoryPath" :   "/home/dmiron/git/thermomatch/build/debug/Resources/files/PSI2020",
+          "ResourcesDirectory" :   "/home/dmiron/git/thermomatch/thermomatch/Resources",
+          "SchemasDirectory" :   "/home/dmiron/git/thermomatch/thermomatch/Resources/data/schemas/",
           "LuaScriptsDirectory" :   "Resources/lua"
      },
      "ThermoMatch" :   {
@@ -250,22 +250,112 @@
                          "ImpexCondition" :   "group"
                     }
                }
+          },
+          "TableImport" :   {
+               "ImpexDirection" :   false,
+               "ImpexReactionSetName" :   "",
+               "InputOutputFilePath" :   "/home/dmiron/git/thermomatch/thermomatch/Resources/files/2024-ORD/PSI-NAGRA/data/dcomp-aqueous.Pb.csv",
+               "ImpexFormatOverwrite" :   true,
+               "ImpexFormatUseDB" :   false,
+               "InputFileBlockSplit" :   true,
+               "ImpexRowCount" :   11,
+               "ImpexRows" :   {
+                    "row0" :   {
+                         "ImpexBlockOrFileName" :   "icomp",
+                         "ImpexVertexName" :   "VertexElement",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "/home/dmiron/git/thermomatch/thermomatch/Resources/files/2024-ORD/PSI-NAGRA/scripts/elements.FormatTableFile.json",
+                         "ImpexCondition" :   "records"
+                    },
+                    "row1" :   {
+                         "ImpexBlockOrFileName" :   "dcomp-aqueous",
+                         "ImpexVertexName" :   "VertexSubstance",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "/home/dmiron/git/thermomatch/thermomatch/Resources/files/2024-ORD/PSI-NAGRA/scripts/master_substances.FormatTableFile.json",
+                         "ImpexCondition" :   "records"
+                    },
+                    "row2" :   {
+                         "ImpexBlockOrFileName" :   "reacdc-aqueous",
+                         "ImpexVertexName" :   "VertexSubstance",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "/home/dmiron/git/thermomatch/thermomatch/Resources/files/2024-ORD/PSI-NAGRA/scripts/product_substances.FormatTableFile.json",
+                         "ImpexCondition" :   "records"
+                    },
+                    "row3" :   {
+                         "ImpexBlockOrFileName" :   "reacdc-aqueous",
+                         "ImpexVertexName" :   "VertexReaction",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "/home/dmiron/git/thermomatch/thermomatch/Resources/files/2024-ORD/PSI-NAGRA/scripts/product_reactions.FormatTableFile.json",
+                         "ImpexCondition" :   "records_and_links"
+                    },
+                    "row4" :   {
+                         "ImpexBlockOrFileName" :   "reacdc-solids",
+                         "ImpexVertexName" :   "VertexSubstance",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "/home/dmiron/git/thermomatch/thermomatch/Resources/files/2024-ORD/PSI-NAGRA/scripts/product_substances.FormatTableFile.json",
+                         "ImpexCondition" :   "records"
+                    },
+                    "row5" :   {
+                         "ImpexBlockOrFileName" :   "reacdc-solids",
+                         "ImpexVertexName" :   "VertexReaction",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "/home/dmiron/git/thermomatch/thermomatch/Resources/files/2024-ORD/PSI-NAGRA/scripts/product_reactions.FormatTableFile.json",
+                         "ImpexCondition" :   "records_and_links"
+                    },
+                    "row6" :   {
+                         "ImpexBlockOrFileName" :   "reacdc-solids",
+                         "ImpexVertexName" :   "VertexPhase",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "/home/dmiron/git/thermomatch/thermomatch/Resources/files/2024-ORD/PSI-NAGRA/scripts/phase-solids.FormatTableFile.json",
+                         "ImpexCondition" :   "records_and_links"
+                    },
+                    "row7" :   {
+                         "ImpexBlockOrFileName" :   "SIT",
+                         "ImpexVertexName" :   "VertexPhase",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "/home/dmiron/git/thermomatch/thermomatch/Resources/files/2024-ORD/PSI-NAGRA/scripts/phase_sit.FormatTableFile.json",
+                         "ImpexCondition" :   "records"
+                    },
+                    "row8" :   {
+                         "ImpexBlockOrFileName" :   "SIT",
+                         "ImpexVertexName" :   "VertexMixingModel",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "/home/dmiron/git/thermomatch/thermomatch/Resources/files/2024-ORD/PSI-NAGRA/scripts/mixmod_sit.FormatTableFile.json",
+                         "ImpexCondition" :   "records"
+                    },
+                    "row9" :   {
+                         "ImpexBlockOrFileName" :   "SIT",
+                         "ImpexVertexName" :   "VertexInteraction",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "/home/dmiron/git/thermomatch/thermomatch/Resources/files/2024-ORD/PSI-NAGRA/scripts/int_Na.FormatTableFile.json",
+                         "ImpexCondition" :   "records_and_links"
+                    },
+                    "row10" :   {
+                         "ImpexBlockOrFileName" :   "refs",
+                         "ImpexVertexName" :   "VertexDataSource",
+                         "ImpexFormatFile" :   "FormatStructDataFile",
+                         "ImpexFormatScript" :   "/home/dmiron/git/thermomatch/thermomatch/Resources/files/2024-ORD/PSI-NAGRA/scripts/references.FormatStructDataFile.json",
+                         "ImpexCondition" :   "records"
+                    }
+               }
           }
      },
      "log" :   {
           "modules" :   [
                "chemicalfun",
                "jsonarango",
+               "jsonimpex17",
                "jsonio17",
                "jsonui17",
                "thermofun",
                "thermofungui",
-               "thermohub"
+               "thermohub",
+               "thermomatch"
           ],
           "level" :   "info",
           "module_level" :   {
                "jsonimpex17" :   "debug",
-               "thermomatch" :   "debug"
+               "thermomatch" :   "info"
           },
           "file" :   {
                "path" :   "log.txt",

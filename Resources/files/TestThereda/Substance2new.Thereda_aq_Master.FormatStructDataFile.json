@@ -446,6 +446,7 @@ formula = string.gsub(formula, '%(cr%)',  '' );
 formula = string.gsub(formula, '%(am%)',  '' );
 formula = string.gsub(formula, '%(s%)',  '' );
 formula = string.gsub(formula, '%(mcr%)',  '' );
+formula = string.gsub(formula, '%(ncr%)',  '' );
 formula = string.gsub(formula, '%(lin%)',  '' );
 formula = string.gsub(formula, '%(cycl%)',  '' );
 formula = string.gsub(formula, '%(subst%)',  '' );

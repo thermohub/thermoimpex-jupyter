@@ -433,6 +433,13 @@
           "required": "required"
         },
         {
+          "key": 38,
+          "name": "tag",
+          "typeId": "string",
+          "doc": "Short alias (<=15 chars) preferred as GEMS3 DC symbol when the full symbol exceeds GEMS format limits; falls back to a truncated symbol when not set\n",
+          "required": "optional"
+        },
+        {
           "key": 2,
           "name": "sourcetdb",
           "typeId": "map",
