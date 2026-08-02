@@ -1,0 +1,29 @@
+#!/bin/bash
+# repo2docker `start` hook: runs at container start (not build time), as the
+# notebook user, then must exec "$@" to hand off to the actual notebook
+# server command. Used here to bring up the local ArangoDB extracted in
+# binder/postBuild before Jupyter launches.
+#
+# CAVEAT: unverified against a live mybinder.org session (see postBuild).
+# The --javascript.startup-directory path below assumes the arangodb3 .deb's
+# internal layout (usr/share/arangodb3/js); if arangod fails to start, check
+# ${HOME}/arangodb-data/arangod.log first -- this path is the likely culprit.
+set -e
+
+ARANGO_DIR="${HOME}/arangodb-local"
+ARANGO_DATA="${HOME}/arangodb-data"
+
+if [ -x "${ARANGO_DIR}/usr/sbin/arangod" ] && ! pgrep -f "${ARANGO_DIR}/usr/sbin/arangod" > /dev/null 2>&1; then
+    mkdir -p "${ARANGO_DATA}"
+    "${ARANGO_DIR}/usr/sbin/arangod" \
+        --database.directory="${ARANGO_DATA}/db" \
+        --javascript.startup-directory="${ARANGO_DIR}/usr/share/arangodb3/js" \
+        --javascript.app-path="${ARANGO_DATA}/apps" \
+        --server.endpoint=tcp://127.0.0.1:8529 \
+        --server.authentication=false \
+        > "${ARANGO_DATA}/arangod.log" 2>&1 &
+    echo "Started local ArangoDB (fresh, empty database) on 127.0.0.1:8529 -- log at ${ARANGO_DATA}/arangod.log"
+    echo "No remote ThermoHub data is mirrored in -- credentials for the real hub_main/resources DBs can't be embedded in a public Binder image. Import data manually within the session if needed."
+fi
+
+exec "$@"

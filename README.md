@@ -1,4 +1,7 @@
 # <img src="Imp-exp-foreign.png" width="100" height="100"> </br> thermoimpex-jupyter 
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/thermohub/thermoimpex-jupyter/main?urlpath=lab)
+
 Import / Export to / from [ThermoHub](https://thermohub.org/thermohub/thermohub/) using jsonimpex scripts 
 
 A collection of Jupyter notebooks used to import(export) foreign format data to and from [ThermoHub](https://thermohub.org/thermohub/thermohub/) database. ThermoHub aims to ensure the consistency traceability and completeness of thermodynamic datasets within a unified thermodynamic database in an general JSON format, accessible from zenodo, gihub or [db.ThermoHub.org](https://db.thermohub.org), with datasets ready to use for geochemical modelling applications.

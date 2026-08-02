@@ -1,0 +1,36 @@
+#!/bin/bash
+# Runs once, as the unprivileged notebook user, after repo2docker creates the
+# conda env from binder/environment.yml and installs binder/apt.txt. CWD is
+# the repo root.
+#
+# CAVEAT: this has not been exercised against a live repo2docker/mybinder.org
+# build (no Docker/network access in the environment that authored it) --
+# treat it as a best-effort starting point. If the build fails or times out,
+# the two heaviest/most speculative steps are called out below.
+set -e
+
+echo "== Building the thermomatch C++/Python stack (compiles ~6 libraries from source; can take a long time) =="
+# Binder containers are CPU/memory constrained -- lower parallelism than the
+# THREADS=10 default in conda-install-dependencies.sh to reduce OOM risk,
+# at the cost of a slower build.
+THREADS=2 ./conda-install-dependencies.sh
+
+echo "== Fetching a local ArangoDB server without root (dpkg-deb -x, no apt repo needed) =="
+# ArangoDB has no conda-forge package, and binder/apt.txt can't add ArangoDB's
+# own apt repo (apt.txt is plain `apt-get install` from repos already
+# configured in the base image). Instead, extract the .deb's file tree
+# directly -- dpkg-deb doesn't require root, only `apt-get`/`dpkg -i` do.
+# This is the same package thermomatch's own README points to (see
+# TECHINFO.md); best-effort in the sense that its bundled shared libraries
+# are assumed compatible with the repo2docker base image, which hasn't been
+# verified here.
+ARANGO_PKG=arangodb3_3.9.12-1_amd64.deb
+ARANGO_DIR="${HOME}/arangodb-local"
+if [ ! -x "${ARANGO_DIR}/usr/sbin/arangod" ]; then
+    curl -fOL "https://download.arangodb.com/arangodb39/DEBIAN/amd64/${ARANGO_PKG}"
+    mkdir -p "${ARANGO_DIR}"
+    dpkg-deb -x "${ARANGO_PKG}" "${ARANGO_DIR}"
+    rm -f "${ARANGO_PKG}"
+fi
+
+echo "postBuild done."

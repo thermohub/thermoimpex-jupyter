@@ -1,0 +1,8 @@
+# System packages installed as root during the repo2docker build, before
+# binder/postBuild runs as the unprivileged notebook user.
+build-essential
+cmake
+git
+ccache
+curl
+ca-certificates

@@ -1,0 +1,24 @@
+# Conda environment for mybinder.org (built by repo2docker).
+#
+# repo2docker only understands a plain conda `environment.yml`, not the
+# conda-devenv `environment.devenv.yml` at the repo root -- this is a
+# hand-kept equivalent (same package set, minus the Qt6 GUI packages, which
+# were already excluded from the root file too; see ../TECHINFO.md).
+#
+# No `name:` key on purpose: repo2docker's conda buildpack installs straight
+# into the default notebook/kernel environment when none is given, so
+# $CONDA_PREFIX in binder/postBuild points at it directly.
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - thermofun
+  - curl
+  - lua
+  - yaml-cpp
+  - pugixml
+  - eigen
+  - pybind11
+  - pandas
+  - fuzzywuzzy
+  - ipykernel
