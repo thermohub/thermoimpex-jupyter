@@ -1,4 +1,7 @@
 # <img src="Imp-exp-foreign.png" width="100" height="100"> </br> thermoimpex-jupyter 
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/thermohub/thermoimpex-jupyter/main?urlpath=lab)
+
 Import / Export to / from [ThermoHub](https://thermohub.org/thermohub/thermohub/) using jsonimpex scripts 
 
 A collection of Jupyter notebooks used to import(export) foreign format data to and from [ThermoHub](https://thermohub.org/thermohub/thermohub/) database. ThermoHub aims to ensure the consistency traceability and completeness of thermodynamic datasets within a unified thermodynamic database in an general JSON format, accessible from zenodo, gihub or [db.ThermoHub.org](https://db.thermohub.org), with datasets ready to use for geochemical modelling applications.
@@ -29,6 +32,12 @@ Propose a new database to be added in the [issue tracker](https://github.com/the
 
 Formats for data types in the [ThermoHub](https://thermohub.org/thermohub/thermohub/) database are described by their respective [JSON schemas](https://github.com/thermohub/thermoimpex-jupyter/tree/main/Resources/data/schemas). GitHub [ThermoHub](https://github.com/thermohub/thermohub) and Zenodo [ThermoHub](https://zenodo.org/records/7385311).
 
+
+## Resources/
+
+`Resources/` is pulled in from the [thermomatch](https://bitbucket.org/gems4/thermomatch)
+repository via git subtree. See [TECHINFO.md](TECHINFO.md) for how to check which
+thermomatch branch/commit it reflects, pull updates, or push local edits back upstream.
 
 ## Acknowledgements  
 This project was supported by the [Open Research Data Program](https://ethrat.ch/en/eth-domain/open-research-data/) of the ETH Board.

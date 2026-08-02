@@ -1,0 +1,33 @@
+name: thermoimpex
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python =3.10
+  - thermofun
+  - curl
+  - lua
+  - yaml-cpp
+  - pugixml
+  - eigen
+  - pybind11
+  - ipykernel
+  - jupyterlab
+  - pandas
+  - fuzzywuzzy
+
+environment: {}
+
+# This file follows the same conda-devenv convention as thermomatch's own
+# environment.devenv.yml (see https://bitbucket.org/gems4/thermomatch), but
+# deliberately omits the Qt6 packages (qt6-main, qt6-charts, qt6-webengine)
+# used there to build the ThermoMatch desktop GUI: this repo only needs the
+# `thermomatch` *Python* module (built with THERMOMATCH_APPLICATION=OFF, see
+# conda-install-dependencies.sh and TECHINFO.md) to drive the import/export
+# notebooks headlessly.
+#
+# conda install nb_conda_kernels into your base conda environment, always
+# launch Jupyter Lab from base, then switch kernel to this "thermoimpex" env
+# from inside Jupyter -- or just launch Jupyter Lab from inside this env
+# directly, since jupyterlab/ipykernel are included above.

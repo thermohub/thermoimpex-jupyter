@@ -1,0 +1,71 @@
+{
+    "_comment_RedoxElements": "List of plain element symbols. Elements for which the oxidation state commonly differs from their default valence - used by checkAndFixChargeFormula() to try a single-element valence fix when a formula's charge doesn't balance. No hardcoded default any more; omitting this key (or the whole file) means no redox-capable elements at all.",
+    "RedoxElements": ["Fe", "Mn", "U"],
+
+    "_comment_FormulaOverrides": "List of 'formula=>corrected_formula' strings, exact-match on the raw formula. Manual fixes for charge imbalances that can't be resolved automatically (e.g. genuinely mixed-valence species like Fe3O4 = 1x Fe(II) + 2x Fe(III), needing two different valences on the same element symbol via repeated '|valence|' bars). Checked before the single-redox-candidate automatic fix.",
+    "FormulaOverrides": ["Fe3O4=>Fe|+2|Fe|+3|2O4"],
+
+    "_comment_SymbolShortenRules": "List of 'pattern=>replacement' ECMAScript regex pairs (replacement may use $1, $2 back-references), applied in order to shorten a substance/phase symbol to fit GEMS3's fixed-width DC/phase name limits (MAXDCNAME=16/MAXPHNAME=16) when no shorter 'tag' is set. Order matters - rules can interact (e.g. 'inactive=>ina' must precede 'active=>act' since it contains it as a substring).",
+    "SymbolShortenRules": [
+        "<0>=>@",
+        "<(\\d*)\\+>=>+$1",
+        "inactive=>ina",
+        "active=>act"
+    ],
+
+    "_comment_SDrefAuthorKeyOverrides": "List of 'shortname=>authorkey' strings, exact-match on the raw VertexDataSource shortname (before punctuation stripping) - curated short forms for the GEMS3 SD_author key (str[20], 19 usable chars) used when a bibliography record has no author, e.g. sentinel/placeholder sources like 'InternallyCalculated'/'NotApplicable'/'Definition/Convention'.",
+    "SDrefAuthorKeyOverrides": [
+        "InternallyCalculated=>InternallyCalcd",
+        "Definition/Convention=>DefinitionConvent",
+        "NotApplicable=>NotApplicable"
+    ],
+
+    "_comment_ModeCodeRules": "Array of TPcMod/REcMod override rules, loaded separately via ExportToGems3.loadModeCodeRulesFile() (same file, different loader - process-wide vs per-ExportToGems3-instance, see CLAUDE.md). Every matching rule's 'set_method' entries are applied, in array order, to the 6-character TPcMod/REcMod buffer computed by get_DComp/get_ReacDC - later rules can override an earlier rule's same position, but each rule only touches the positions it names.",
+    "ModeCodeRules": [
+        {
+            "_comment": "Match by phase_state only: the GEMS3 key[0] aggregate-state letter (a=aqueous, g=gas, s=solid, l=liquid, f=fluid). Applies to every DComp record whose substance is aqueous.",
+            "record_type": "DComp",
+            "phase_state": "a",
+            "set_method": { "2": "N" }
+        },
+        {
+            "_comment": "Match by substance_class only: the SC_* single-letter code already used at TPcMod/REcMod position 6 (O=SC_COMPONENT, G=SC_GASFLUID, S=SC_AQSOLUTE, W=SC_AQSOLVENT, K=SC_SURFSPECIES, X=SC_SITEMOIETY). W is effectively unique to H2O(l).",
+            "record_type": "DComp",
+            "substance_class": "W",
+            "set_method": { "0": "H", "1": "W", "2": "F", "3": "E" }
+        },
+        {
+            "_comment": "Match by symbol_pattern: an ECMAScript regex searched (not required to match the whole string) against the substance/reaction symbol.",
+            "record_type": "ReacDC",
+            "symbol_pattern": "^Fe.*",
+            "set_method": { "3": "N" }
+        },
+        {
+            "_comment": "Match by v0r_second (ReacDC only): the computed V0r[0][1] value (substance-side molar volume), matched with a small numeric tolerance. Useful for the same kind of 'only if no volume data' condition the old fix_tp_methods.ipynb rules used.",
+            "record_type": "ReacDC",
+            "phase_state": "s",
+            "v0r_second": 0.0,
+            "set_method": { "1": "N" }
+        },
+        {
+            "_comment": "Match by mixmod: reserved for future phase-oriented reuse of this same rule engine - DComp/ReacDC calls never supply it today, so a rule naming mixmod simply never matches there.",
+            "record_type": "DComp",
+            "mixmod": 1,
+            "set_method": { "0": "C" }
+        },
+        {
+            "_comment": "All match dimensions can be combined (AND'd together) in one rule - every dimension present must match.",
+            "record_type": "ReacDC",
+            "phase_state": "a",
+            "substance_class": "S",
+            "symbol_pattern": "\\(aq\\)$",
+            "set_method": { "2": "N", "3": "N" }
+        },
+        {
+            "_comment": "set_method is sparse: name only the 0-based TPcMod/REcMod positions (0..5) you want to force; every other position stays exactly what get_DComp/get_ReacDC's own logic already computed. Rules are applied in file order and later rules can override an earlier rule's same position - use that to write a general rule followed by a more specific exception, as in gems3-export-rules.json (phase_state 'a' followed by substance_class 'W' for H2O(l)).",
+            "record_type": "DComp",
+            "phase_state": "g",
+            "set_method": { "0": "C", "1": "S", "2": "N", "3": "N" }
+        }
+    ]
+}
