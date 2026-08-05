@@ -16,16 +16,26 @@ dependencies:
   - jupyterlab
   - pandas
   - fuzzywuzzy
+  - gems3k
+  - qt6-main
 
 environment: {}
 
 # This file follows the same conda-devenv convention as thermomatch's own
 # environment.devenv.yml (see https://bitbucket.org/gems4/thermomatch), but
-# deliberately omits the Qt6 packages (qt6-main, qt6-charts, qt6-webengine)
-# used there to build the ThermoMatch desktop GUI: this repo only needs the
-# `thermomatch` *Python* module (built with THERMOMATCH_APPLICATION=OFF, see
+# deliberately omits qt6-charts and qt6-webengine (used there to build the
+# ThermoMatch desktop GUI): this repo only needs the `thermomatch` *Python*
+# module (built with THERMOMATCH_APPLICATION=OFF, see
 # conda-install-dependencies.sh and TECHINFO.md) to drive the import/export
 # notebooks headlessly.
+#
+# qt6-main IS needed here despite the above: it provides Qt6::Core for
+# GEMSGUI's `json2db` CLI tool (see conda-install-dependencies.sh), which
+# this repo shells out to -- via subprocess, not a Python binding -- to
+# convert JSON database exports into GEM-Selektor .pdb/.ndx files. GEMSGUI
+# is built there with -DBUILD_APP=OFF, so only Qt6::Core is actually
+# required -- qt6-charts and the GUI app itself are skipped.
+# gems3k is `json2db`'s other real (non-header-only) dependency.
 #
 # conda install nb_conda_kernels into your base conda environment, always
 # launch Jupyter Lab from base, then switch kernel to this "thermoimpex" env

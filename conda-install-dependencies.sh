@@ -3,13 +3,15 @@
 # notebooks: jsonarango, jsonio17, jsonimpex17, ChemicalFun, ThermoFun and
 # ThermoHubClient, followed by the `thermomatch` Python module itself, built
 # with its Qt GUI application disabled (this repo only drives it from Python,
-# it never launches the ThermoMatch desktop app).
+# it never launches the ThermoMatch desktop app), and GEMSGUI's `json2db`
+# CLI tool (JSON -> GEM-Selektor .pdb/.ndx converter, also GUI-disabled --
+# see the json2db block below).
 #
 # This is a trimmed copy of thermomatch's own conda-install-dependencies.sh
 # (https://bitbucket.org/gems4/thermomatch) with the GUI-only pieces removed:
 # jsonui17 and thermofungui (both only used to build the Qt desktop app) are
-# skipped, and qt6-main/qt6-charts/qt6-webengine are correspondingly absent
-# from environment.devenv.yml.
+# skipped, and qt6-charts/qt6-webengine are correspondingly absent from
+# environment.devenv.yml (qt6-main IS present -- see the comment there).
 #
 # Needs gcc v.5 or higher, cmake, git and (for the ArangoDB-backed import
 # steps) ArangoDB server installed locally -- see TECHINFO.md.
@@ -52,6 +54,9 @@ threads=${THREADS:-10}
 BRANCH_JSON=master
 BRANCH_TFUN=master
 BRANCH_THERMOMATCH=master
+# TODO: switch to master once the json2db tool lands there -- it currently
+# only exists on this GEMSGUI branch.
+BRANCH_GEMSGUI=fix_pow_other_bugs
 
 echo "conda prefix: ${CONDA_PREFIX}"
 
@@ -66,7 +71,9 @@ test -f ${CONDA_PREFIX}/lib/libjsonarango.$EXTN || {
                 cmake .. -DCMAKE_CXX_FLAGS=-fPIC -DCMAKE_BUILD_TYPE=Release -DBULID_LOCAL_TESTS=OFF -DBULID_REMOTE_TESTS=OFF -DCMAKE_INSTALL_RPATH=${CONDA_PREFIX}/lib -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=TRUE -DCMAKE_BUILD_WITH_INSTALL_RPATH=TRUE && \
                 make -j $threads && \
                 make install
+        status=$?
         cd ~ && rm -rf ~/code
+        [ $status -eq 0 ] || { echo "ERROR: jsonarango build/install failed" >&2; exit 1; }
 }
 
 # JSONIO17 database client
@@ -80,7 +87,9 @@ test -f ${CONDA_PREFIX}/lib/libjsonio17.$EXTN || {
                 cmake .. -DCMAKE_CXX_FLAGS=-fPIC -DCMAKE_BUILD_TYPE=Release -DBuildTests=OFF -DCMAKE_INSTALL_RPATH=${CONDA_PREFIX}/lib -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=TRUE -DCMAKE_BUILD_WITH_INSTALL_RPATH=TRUE && \
                 make -j $threads && \
                 make install
+        status=$?
         cd ~ && rm -rf ~/code
+        [ $status -eq 0 ] || { echo "ERROR: jsonio17 build/install failed" >&2; exit 1; }
 }
 
 # JSONIMPEX (needed to build the thermomatch python module)
@@ -94,7 +103,9 @@ test -f ${CONDA_PREFIX}/lib/libjsonimpex17.$EXTN || {
                 cmake .. -DCMAKE_CXX_FLAGS=-fPIC -DCMAKE_BUILD_TYPE=Release -DBuildTests=OFF -DCMAKE_INSTALL_RPATH=${CONDA_PREFIX}/lib -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=TRUE -DCMAKE_BUILD_WITH_INSTALL_RPATH=TRUE && \
                 make -j $threads && \
                 make install
+        status=$?
         cd ~ && rm -rf ~/code
+        [ $status -eq 0 ] || { echo "ERROR: jsonimpex17 build/install failed" >&2; exit 1; }
 }
 
 # Eigen3 math library
@@ -107,7 +118,9 @@ test -d ${CONDA_PREFIX}/include/eigen3/Eigen || {
                 cd build && \
                 cmake .. && \
                 make install
+        status=$?
         cd ~ && rm -rf ~/code
+        [ $status -eq 0 ] || { echo "ERROR: eigen3 build/install failed" >&2; exit 1; }
 }
 
 # pybind11
@@ -121,7 +134,9 @@ test -d ${CONDA_PREFIX}/include/pybind11 || {
                 cmake .. -DPYBIND11_TEST=OFF && \
                 make && \
                 make install
+        status=$?
         cd ~ && rm -rf ~/code
+        [ $status -eq 0 ] || { echo "ERROR: pybind11 build/install failed" >&2; exit 1; }
 }
 
 # ChemicalFun library
@@ -135,7 +150,9 @@ test -f ${CONDA_PREFIX}/lib/libChemicalFun.$EXTN || {
                 cmake .. -DCMAKE_CXX_FLAGS=-fPIC -DCMAKE_BUILD_TYPE=Release -DCHEMICALFUN_BUILD_PYTHON=OFF && \
                 make -j $threads && \
                 make install
+        status=$?
         cd ~ && rm -rf ~/code
+        [ $status -eq 0 ] || { echo "ERROR: ChemicalFun build/install failed" >&2; exit 1; }
 }
 
 # ThermoFun library
@@ -149,7 +166,9 @@ test -f ${CONDA_PREFIX}/lib/libThermoFun.$EXTN || {
                 cmake .. -DCMAKE_CXX_FLAGS=-fPIC -DCMAKE_BUILD_TYPE=Release -DTFUN_BUILD_PYTHON=OFF -DCMAKE_PREFIX_PATH=${CONDA_PREFIX}/include/spdlog/ && \
                 make -j $threads && \
                 make install
+        status=$?
         cd ~ && rm -rf ~/code
+        [ $status -eq 0 ] || { echo "ERROR: ThermoFun build/install failed" >&2; exit 1; }
 }
 
 # ThermoHubClient library
@@ -163,7 +182,9 @@ test -f ${CONDA_PREFIX}/lib/libThermoHubClient.$EXTN || {
                 cmake .. -DCMAKE_CXX_FLAGS=-fPIC -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_RPATH=${CONDA_PREFIX}/lib -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=TRUE -DCMAKE_BUILD_WITH_INSTALL_RPATH=TRUE && \
                 make -j $threads && \
                 make install
+        status=$?
         cd ~ && rm -rf ~/code
+        [ $status -eq 0 ] || { echo "ERROR: ThermoHubClient build/install failed" >&2; exit 1; }
 }
 
 # thermomatch itself (Python module only -- Qt GUI application disabled)
@@ -177,8 +198,45 @@ test -f ${CONDA_PREFIX}/lib/python*/site-packages/thermomatch/PyThermoMatch*.$EX
                 cmake .. -DCMAKE_BUILD_TYPE=Release -DTHERMOMATCH_APPLICATION=OFF -DTHERMOMATCH_BUILD_PYTHON=ON -DCMAKE_INSTALL_RPATH=${CONDA_PREFIX}/lib -DCMAKE_INSTALL_RPATH_USE_LINK_PATH=TRUE -DCMAKE_BUILD_WITH_INSTALL_RPATH=TRUE && \
                 make -j $threads && \
                 make install
+        status=$?
         cd ~ && rm -rf ~/code
+        [ $status -eq 0 ] || { echo "ERROR: thermomatch build/install failed" >&2; exit 1; }
 }
+
+# GEMSGUI's json2db tool (converts JSON database records into GEM-Selektor
+# .pdb/.ndx files -- see databases/THEREDA/data-out for example input/output).
+# We only want this one CLI tool, not the gem-selektor desktop app, so this
+# is built with -DBUILD_APP=OFF -DBUILD_TOOLS=OFF -DBUILD_EXPORT=ON: that
+# skips the GUI app/library entirely (no gem-selektor binary gets built) and
+# only needs Qt6::Core (see GEMSGUI's top-level CMakeLists.txt), which is why
+# qt6-main is in environment.devenv.yml but qt6-charts/qt6-webengine are not.
+# `cmake --install` places the binary at ${CONDA_PREFIX}/bin/json2db and its
+# required runtime data (schema/config, via -s) at
+# ${CONDA_PREFIX}/share/gemsgui/Resources.
+test -f ${CONDA_PREFIX}/bin/json2db || {
+        mkdir -p ~/code && \
+                cd ~/code && \
+                git clone https://github.com/gemshub/GEMSGUI.git -b $BRANCH_GEMSGUI && \
+                cd GEMSGUI && \
+                mkdir -p build && \
+                cd build && \
+                cmake .. -DCMAKE_BUILD_TYPE=Release -DBUILD_APP=OFF -DBUILD_TOOLS=OFF -DBUILD_EXPORT=ON -DCMAKE_INSTALL_PREFIX=${CONDA_PREFIX} && \
+                cmake --build . -j $threads --target json2db && \
+                cmake --install . && \
+                test -f ${CONDA_PREFIX}/bin/json2db
+        status=$?
+        cd ~ && rm -rf ~/code
+        [ $status -eq 0 ] || { echo "ERROR: GEMSGUI json2db build/install failed" >&2; exit 1; }
+}
+# Pre-create json2db's -u (user profile) directory once, here, rather than
+# per-call: TVisor::firstTimeSetup() (triggered whenever -u doesn't exist
+# yet) does a real filesystem copy keyed off Resources/projects/, which we
+# deliberately don't install (see benchcomp/CMakeLists.txt in GEMSGUI) to
+# keep json2db's installed footprint ~400KB instead of Resources/'s full
+# ~61MB. Pre-creating it here means that code path never runs at all.
+mkdir -p ${CONDA_PREFIX}/var/gemsgui-user/projects
 
 echo "Done. 'import thermomatch', 'import thermofun', 'import chemicalfun' and"
 echo "'import thermohubclient' should now work from Python inside this conda env."
+echo "'json2db' (JSON -> GEM-Selektor .pdb/.ndx) should now be on PATH; pass"
+echo "'-s \${CONDA_PREFIX}/share/gemsgui' so it finds its Resources/ data."

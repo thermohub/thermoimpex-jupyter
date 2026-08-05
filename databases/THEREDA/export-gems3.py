@@ -4,7 +4,7 @@
 # hot-reload a rebuilt native extension, but `python export-gems3.py` always uses the current build.
 import thermomatch as match
 
-match.ThermoImpexGenerator.setResourcesDirectory("/home/dmiron/git/hub/thermoimpex-jupyter/Resources")
+match.ThermoImpexGenerator.setResourcesDirectory("../../Resources")
 
 # Redox elements / formula overrides / symbol-shortening / SDref author / mode-code rules, loaded
 # as process-wide state - must happen before ExportToGems3(...) below (see exportGems3.h / CLAUDE.md).
