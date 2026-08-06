@@ -1,0 +1,1494 @@
+[
+ {
+  "MineralsSolids": null,
+  "PrimaryMaster": [
+   {
+    "Composition": [
+     {
+      "element": "H",
+      "numberofelement": 2
+     }
+    ],
+    "DataStandard": [
+     {
+      "audit_status": "Auditor assigned",
+      "calcmode": "CGHF",
+      "category": "F",
+      "dataclass": -1,
+      "dataquality": -1,
+      "datasource": -1,
+      "datatype": "DFG298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "InternallyCalculated",
+      "reference_2": null,
+      "value": 0,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Auditor assigned",
+      "calcmode": "Entered",
+      "category": "F",
+      "dataclass": 0,
+      "dataquality": 0,
+      "datasource": 0,
+      "datatype": "DFH298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "Definition/Convention",
+      "reference_2": null,
+      "value": 0,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Auditor assigned",
+      "calcmode": "Entered",
+      "category": "F",
+      "dataclass": 1,
+      "dataquality": 1,
+      "datasource": 1,
+      "datatype": "S298",
+      "description": null,
+      "negativeunc": 0.003,
+      "negativeunc_notallowed": null,
+      "positiveunc": 0.003,
+      "positiveunc_notallowed": null,
+      "reference_1": "COX/WAG1989",
+      "reference_2": null,
+      "value": 130.68,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Auditor assigned",
+      "calcmode": "Entered",
+      "category": "F",
+      "dataclass": 1,
+      "dataquality": 1,
+      "datasource": 1,
+      "datatype": "CP298",
+      "description": null,
+      "negativeunc": 0.002,
+      "negativeunc_notallowed": null,
+      "positiveunc": 0.002,
+      "positiveunc_notallowed": null,
+      "reference_1": "GUI/FAN2003",
+      "reference_2": null,
+      "value": 28.836,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit pending",
+      "calcmode": "Entered",
+      "category": "NA",
+      "dataclass": 6,
+      "dataquality": 6,
+      "datasource": 6,
+      "datatype": "V298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "NotYetDetermined",
+      "reference_2": null,
+      "value_notallowed": null
+     }
+    ],
+    "DataVariable": [],
+    "Declaration": {
+     "charge": 0,
+     "description": null,
+     "enabled": true,
+     "equilibrium_constraint": "Complete equilibrium",
+     "molarmass": 2.01588,
+     "redox": false
+    },
+    "FormingReaction": [],
+    "OxidationState": [
+     {
+      "centralelement": "EA",
+      "oxidationnumber": 0
+     }
+    ],
+    "symbol": "H2(g)"
+   }
+  ],
+  "Product": null,
+  "SecondaryMaster": null,
+  "description": null,
+  "modification": "NA",
+  "symbol": "g"
+ },
+ {
+  "MineralsSolids": null,
+  "PrimaryMaster": [
+   {
+    "Composition": [
+     {
+      "element": "H",
+      "numberofelement": 2
+     },
+     {
+      "element": "O",
+      "numberofelement": 1
+     }
+    ],
+    "DataStandard": [
+     {
+      "audit_status": "Auditor assigned",
+      "calcmode": "CGHF",
+      "category": "F",
+      "dataclass": -1,
+      "dataquality": -1,
+      "datasource": -1,
+      "datatype": "DFG298",
+      "description": null,
+      "negativeunc": 41,
+      "negativeunc_notallowed": null,
+      "positiveunc": 41,
+      "positiveunc_notallowed": null,
+      "reference_1": "InternallyCalculated",
+      "reference_2": null,
+      "value": -237140.3161,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Auditor assigned",
+      "calcmode": "Entered",
+      "category": "F",
+      "dataclass": 1,
+      "dataquality": 1,
+      "datasource": 1,
+      "datatype": "DFH298",
+      "description": null,
+      "negativeunc": 40,
+      "negativeunc_notallowed": null,
+      "positiveunc": 40,
+      "positiveunc_notallowed": null,
+      "reference_1": "GUI/FAN2003",
+      "reference_2": "COX/WAG1989",
+      "value": -285830,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Auditor assigned",
+      "calcmode": "Entered",
+      "category": "F",
+      "dataclass": 1,
+      "dataquality": 1,
+      "datasource": 1,
+      "datatype": "S298",
+      "description": null,
+      "negativeunc": 0.03,
+      "negativeunc_notallowed": null,
+      "positiveunc": 0.03,
+      "positiveunc_notallowed": null,
+      "reference_1": "GUI/FAN2003",
+      "reference_2": "COX/WAG1989",
+      "value": 69.95,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Revision required",
+      "calcmode": "CTPFUNC",
+      "category": "F",
+      "dataclass": -1,
+      "dataquality": -1,
+      "datasource": -1,
+      "datatype": "CP298",
+      "description": null,
+      "negativeunc": 0.08,
+      "negativeunc_notallowed": null,
+      "positiveunc": 0.08,
+      "positiveunc_notallowed": null,
+      "reference_1": "InternallyCalculated",
+      "reference_2": null,
+      "value": 75.30091161505,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit pending",
+      "calcmode": "Entered",
+      "category": "NA",
+      "dataclass": 6,
+      "dataquality": 6,
+      "datasource": 6,
+      "datatype": "V298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "NotYetDetermined",
+      "reference_2": null,
+      "value_notallowed": null
+     }
+    ],
+    "DataVariable": [
+     {
+      "a": 2348.29602,
+      "audit_status": "Audit pending",
+      "b": -4.5477525,
+      "c": 0.0034374024,
+      "calcmode": "Entered",
+      "category": "R",
+      "d": -507654.831,
+      "dataclass": 1,
+      "dataquality": 1,
+      "datasource": 4,
+      "datatype": "CPT",
+      "description": null,
+      "e": 42672174.7,
+      "f": 0,
+      "maxpbar": 1.01325,
+      "maxtk": 400.15,
+      "minpbar": 1.01325,
+      "mintk": 273.15,
+      "reference_1": "VOI/SUK2011",
+      "reference_2": null,
+      "tpfunc": "NEA-transformed"
+     }
+    ],
+    "Declaration": {
+     "charge": 0,
+     "description": null,
+     "enabled": true,
+     "equilibrium_constraint": "Complete equilibrium",
+     "molarmass": 18.0153,
+     "redox": false
+    },
+    "FormingReaction": [],
+    "OxidationState": [
+     {
+      "centralelement": "O",
+      "oxidationnumber": -2
+     }
+    ],
+    "symbol": "H2O(l)"
+   },
+   {
+    "Composition": [
+     {
+      "element": "EA",
+      "numberofelement": -1
+     },
+     {
+      "element": "H",
+      "numberofelement": 1
+     }
+    ],
+    "DataStandard": [
+     {
+      "audit_status": "Auditor assigned",
+      "calcmode": "Entered",
+      "category": "F",
+      "dataclass": 0,
+      "dataquality": 0,
+      "datasource": 0,
+      "datatype": "DFG298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "GUI/FAN2003",
+      "reference_2": "COX/WAG1989",
+      "value": 0,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Auditor assigned",
+      "calcmode": "Entered",
+      "category": "F",
+      "dataclass": 0,
+      "dataquality": 0,
+      "datasource": 0,
+      "datatype": "DFH298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "GUI/FAN2003",
+      "reference_2": "COX/WAG1989",
+      "value": 0,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Auditor assigned",
+      "calcmode": "Entered",
+      "category": "F",
+      "dataclass": 0,
+      "dataquality": 0,
+      "datasource": 0,
+      "datatype": "S298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "GUI/FAN2003",
+      "reference_2": "COX/WAG1989",
+      "value": 0,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Auditor assigned",
+      "calcmode": "Entered",
+      "category": "F",
+      "dataclass": 0,
+      "dataquality": 0,
+      "datasource": 0,
+      "datatype": "CP298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "GUI/FAN2003",
+      "reference_2": "COX/WAG1989",
+      "value": 0,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit pending",
+      "calcmode": "Entered",
+      "category": "NA",
+      "dataclass": 6,
+      "dataquality": 6,
+      "datasource": 6,
+      "datatype": "V298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "NotYetDetermined",
+      "reference_2": null,
+      "value_notallowed": null
+     }
+    ],
+    "DataVariable": [],
+    "Declaration": {
+     "charge": 1,
+     "description": null,
+     "enabled": true,
+     "equilibrium_constraint": "Complete equilibrium",
+     "molarmass": 1.00739,
+     "redox": false
+    },
+    "FormingReaction": [],
+    "OxidationState": [
+     {
+      "centralelement": "H",
+      "oxidationnumber": 1
+     }
+    ],
+    "symbol": "H<+>"
+   },
+   {
+    "Composition": [
+     {
+      "element": "EA",
+      "numberofelement": 1
+     },
+     {
+      "element": "H",
+      "numberofelement": 4
+     },
+     {
+      "element": "O",
+      "numberofelement": 4
+     },
+     {
+      "element": "Al",
+      "numberofelement": 1
+     }
+    ],
+    "DataStandard": [
+     {
+      "audit_status": "Audit pending",
+      "calcmode": "CGHF",
+      "category": "F",
+      "dataclass": -1,
+      "dataquality": -1,
+      "datasource": -1,
+      "datatype": "DFG298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "InternallyCalculated",
+      "reference_2": null,
+      "value": -1305635.8184,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit pending",
+      "calcmode": "Entered",
+      "category": "NA",
+      "dataclass": 6,
+      "dataquality": 6,
+      "datasource": 6,
+      "datatype": "DFH298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "KON/MAY2006",
+      "reference_2": null,
+      "value": -1500645,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit pending",
+      "calcmode": "Entered",
+      "category": "NA",
+      "dataclass": 6,
+      "dataquality": 6,
+      "datasource": 6,
+      "datatype": "S298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "KON/MAY2006",
+      "reference_2": null,
+      "value": 111.24,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit pending",
+      "calcmode": "Entered",
+      "category": "NA",
+      "dataclass": 6,
+      "dataquality": 6,
+      "datasource": 6,
+      "datatype": "CP298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "KON/MAY2006",
+      "reference_2": null,
+      "value": 97.35,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit pending",
+      "calcmode": "Entered",
+      "category": "NA",
+      "dataclass": 6,
+      "dataquality": 6,
+      "datasource": 6,
+      "datatype": "V298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "NotYetDetermined",
+      "reference_2": null,
+      "value_notallowed": null
+     }
+    ],
+    "DataVariable": [],
+    "Declaration": {
+     "charge": -1,
+     "description": null,
+     "enabled": true,
+     "equilibrium_constraint": "Complete equilibrium",
+     "molarmass": 95.0114,
+     "redox": false
+    },
+    "FormingReaction": [],
+    "OxidationState": [
+     {
+      "centralelement": "Al",
+      "oxidationnumber": 3
+     }
+    ],
+    "symbol": "Al(OH)4<->"
+   },
+   {
+    "Composition": [
+     {
+      "element": "EA",
+      "numberofelement": -2
+     },
+     {
+      "element": "Ca",
+      "numberofelement": 1
+     }
+    ],
+    "DataStandard": [
+     {
+      "audit_status": "Auditor assigned",
+      "calcmode": "CGHF",
+      "category": "F",
+      "dataclass": -1,
+      "dataquality": -1,
+      "datasource": -1,
+      "datatype": "DFG298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "InternallyCalculated",
+      "reference_2": null,
+      "value": -552806.1535,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Auditor assigned",
+      "calcmode": "Entered",
+      "category": "F",
+      "dataclass": 1,
+      "dataquality": 1,
+      "datasource": 1,
+      "datatype": "DFH298",
+      "description": null,
+      "negativeunc": 1000,
+      "negativeunc_notallowed": null,
+      "positiveunc": 1000,
+      "positiveunc_notallowed": null,
+      "reference_1": "GUI/FAN2003",
+      "reference_2": null,
+      "value": -543000,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Auditor assigned",
+      "calcmode": "Entered",
+      "category": "F",
+      "dataclass": 1,
+      "dataquality": 1,
+      "datasource": 1,
+      "datatype": "S298",
+      "description": null,
+      "negativeunc": 1,
+      "negativeunc_notallowed": null,
+      "positiveunc": 1,
+      "positiveunc_notallowed": null,
+      "reference_1": "GUI/FAN2003",
+      "reference_2": null,
+      "value": -56.2,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Revision required",
+      "calcmode": "NotYetDetermined",
+      "category": "NA",
+      "dataclass": 6,
+      "dataquality": 6,
+      "datasource": 6,
+      "datatype": "CP298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "NotYetDetermined",
+      "reference_2": null,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit pending",
+      "calcmode": "Entered",
+      "category": "NA",
+      "dataclass": 6,
+      "dataquality": 6,
+      "datasource": 6,
+      "datatype": "V298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "NotYetDetermined",
+      "reference_2": null,
+      "value_notallowed": null
+     }
+    ],
+    "DataVariable": [],
+    "Declaration": {
+     "charge": 2,
+     "description": null,
+     "enabled": true,
+     "equilibrium_constraint": "Complete equilibrium",
+     "molarmass": 40.077,
+     "redox": false
+    },
+    "FormingReaction": [],
+    "OxidationState": [
+     {
+      "centralelement": "Ca",
+      "oxidationnumber": 2
+     }
+    ],
+    "symbol": "Ca<2+>"
+   },
+   {
+    "Composition": [
+     {
+      "element": "EA",
+      "numberofelement": 1
+     },
+     {
+      "element": "Cl",
+      "numberofelement": 1
+     }
+    ],
+    "DataStandard": [
+     {
+      "audit_status": "Auditor assigned",
+      "calcmode": "CGHF",
+      "category": "F",
+      "dataclass": -1,
+      "dataquality": -1,
+      "datasource": -1,
+      "datatype": "DFG298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "InternallyCalculated",
+      "reference_2": null,
+      "value": -131218.368925,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Auditor assigned",
+      "calcmode": "Entered",
+      "category": "F",
+      "dataclass": 1,
+      "dataquality": 1,
+      "datasource": 1,
+      "datatype": "DFH298",
+      "description": null,
+      "negativeunc": 100,
+      "negativeunc_notallowed": null,
+      "positiveunc": 100,
+      "positiveunc_notallowed": null,
+      "reference_1": "GUI/FAN2003",
+      "reference_2": null,
+      "value": -167080,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Auditor assigned",
+      "calcmode": "Entered",
+      "category": "F",
+      "dataclass": 1,
+      "dataquality": 1,
+      "datasource": 1,
+      "datatype": "S298",
+      "description": null,
+      "negativeunc": 0.2,
+      "negativeunc_notallowed": null,
+      "positiveunc": 0.2,
+      "positiveunc_notallowed": null,
+      "reference_1": "GUI/FAN2003",
+      "reference_2": null,
+      "value": 56.6,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit requested",
+      "calcmode": "NotYetDetermined",
+      "category": "NA",
+      "dataclass": 6,
+      "dataquality": 6,
+      "datasource": 6,
+      "datatype": "CP298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "NotYetDetermined",
+      "reference_2": null,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit pending",
+      "calcmode": "Entered",
+      "category": "NA",
+      "dataclass": 6,
+      "dataquality": 6,
+      "datasource": 6,
+      "datatype": "V298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "NotYetDetermined",
+      "reference_2": null,
+      "value_notallowed": null
+     }
+    ],
+    "DataVariable": [],
+    "Declaration": {
+     "charge": -1,
+     "description": null,
+     "enabled": true,
+     "equilibrium_constraint": "Complete equilibrium",
+     "molarmass": 35.454,
+     "redox": false
+    },
+    "FormingReaction": [],
+    "OxidationState": [
+     {
+      "centralelement": "Cl",
+      "oxidationnumber": -1
+     }
+    ],
+    "symbol": "Cl<->"
+   },
+   {
+    "Composition": [
+     {
+      "element": "EA",
+      "numberofelement": 2
+     },
+     {
+      "element": "O",
+      "numberofelement": 3
+     },
+     {
+      "element": "C",
+      "numberofelement": 1
+     }
+    ],
+    "DataStandard": [
+     {
+      "audit_status": "Audit requested",
+      "calcmode": "CGHF",
+      "category": "F",
+      "dataclass": -1,
+      "dataquality": -1,
+      "datasource": -1,
+      "datatype": "DFG298",
+      "description": null,
+      "negativeunc": 390,
+      "negativeunc_notallowed": null,
+      "positiveunc": 390,
+      "positiveunc_notallowed": null,
+      "reference_1": "InternallyCalculated",
+      "reference_2": null,
+      "value": -527899.7738,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit requested",
+      "calcmode": "Entered",
+      "category": "F",
+      "dataclass": 1,
+      "dataquality": 1,
+      "datasource": 1,
+      "datatype": "DFH298",
+      "description": null,
+      "negativeunc": 250,
+      "negativeunc_notallowed": null,
+      "positiveunc": 250,
+      "positiveunc_notallowed": null,
+      "reference_1": "GUI/FAN2003",
+      "reference_2": null,
+      "value": -675230,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit requested",
+      "calcmode": "Entered",
+      "category": "F",
+      "dataclass": 1,
+      "dataquality": 1,
+      "datasource": 1,
+      "datatype": "S298",
+      "description": null,
+      "negativeunc": 1,
+      "negativeunc_notallowed": null,
+      "positiveunc": 1,
+      "positiveunc_notallowed": null,
+      "reference_1": "GUI/FAN2003",
+      "reference_2": null,
+      "value": -50,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit requested",
+      "calcmode": "NotYetDetermined",
+      "category": "NA",
+      "dataclass": 6,
+      "dataquality": 6,
+      "datasource": 6,
+      "datatype": "CP298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "NotYetDetermined",
+      "reference_2": null,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit pending",
+      "calcmode": "Entered",
+      "category": "NA",
+      "dataclass": 6,
+      "dataquality": 6,
+      "datasource": 6,
+      "datatype": "V298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "NotYetDetermined",
+      "reference_2": null,
+      "value_notallowed": null
+     }
+    ],
+    "DataVariable": [],
+    "Declaration": {
+     "charge": -2,
+     "description": null,
+     "enabled": true,
+     "equilibrium_constraint": "Complete equilibrium",
+     "molarmass": 60.01,
+     "redox": false
+    },
+    "FormingReaction": [],
+    "OxidationState": [
+     {
+      "centralelement": "C",
+      "oxidationnumber": 4
+     }
+    ],
+    "symbol": "CO3<2->"
+   },
+   {
+    "Composition": [
+     {
+      "element": "EA",
+      "numberofelement": -1
+     },
+     {
+      "element": "K",
+      "numberofelement": 1
+     }
+    ],
+    "DataStandard": [
+     {
+      "audit_status": "Audit requested",
+      "calcmode": "CGHF",
+      "category": "F",
+      "dataclass": -1,
+      "dataquality": -1,
+      "datasource": -1,
+      "datatype": "DFG298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "InternallyCalculated",
+      "reference_2": null,
+      "value": -282509.559,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit requested",
+      "calcmode": "Entered",
+      "category": "F",
+      "dataclass": 1,
+      "dataquality": 1,
+      "datasource": 1,
+      "datatype": "DFH298",
+      "description": null,
+      "negativeunc": 80,
+      "negativeunc_notallowed": null,
+      "positiveunc": 80,
+      "positiveunc_notallowed": null,
+      "reference_1": "GUI/FAN2003",
+      "reference_2": null,
+      "value": -252140,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit requested",
+      "calcmode": "Entered",
+      "category": "F",
+      "dataclass": 1,
+      "dataquality": 1,
+      "datasource": 1,
+      "datatype": "S298",
+      "description": null,
+      "negativeunc": 0.2,
+      "negativeunc_notallowed": null,
+      "positiveunc": 0.2,
+      "positiveunc_notallowed": null,
+      "reference_1": "GUI/FAN2003",
+      "reference_2": null,
+      "value": 101.2,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit requested",
+      "calcmode": "NotYetDetermined",
+      "category": "NA",
+      "dataclass": 6,
+      "dataquality": 6,
+      "datasource": 6,
+      "datatype": "CP298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "NotYetDetermined",
+      "reference_2": null,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit pending",
+      "calcmode": "Entered",
+      "category": "NA",
+      "dataclass": 6,
+      "dataquality": 6,
+      "datasource": 6,
+      "datatype": "V298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "NotYetDetermined",
+      "reference_2": null,
+      "value_notallowed": null
+     }
+    ],
+    "DataVariable": [],
+    "Declaration": {
+     "charge": 1,
+     "description": null,
+     "enabled": true,
+     "equilibrium_constraint": "Complete equilibrium",
+     "molarmass": 39.0978,
+     "redox": false
+    },
+    "FormingReaction": [],
+    "OxidationState": [
+     {
+      "centralelement": "K",
+      "oxidationnumber": 1
+     }
+    ],
+    "symbol": "K<+>"
+   },
+   {
+    "Composition": [
+     {
+      "element": "EA",
+      "numberofelement": -2
+     },
+     {
+      "element": "Mg",
+      "numberofelement": 1
+     }
+    ],
+    "DataStandard": [
+     {
+      "audit_status": "Audit requested",
+      "calcmode": "CGHF",
+      "category": "F",
+      "dataclass": -1,
+      "dataquality": -1,
+      "datasource": -1,
+      "datatype": "DFG298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "InternallyCalculated",
+      "reference_2": null,
+      "value": -455375.1315,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit requested",
+      "calcmode": "Entered",
+      "category": "F",
+      "dataclass": 1,
+      "dataquality": 1,
+      "datasource": 1,
+      "datatype": "DFH298",
+      "description": null,
+      "negativeunc": 600,
+      "negativeunc_notallowed": null,
+      "positiveunc": 600,
+      "positiveunc_notallowed": null,
+      "reference_1": "GUI/FAN2003",
+      "reference_2": null,
+      "value": -467000,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit requested",
+      "calcmode": "Entered",
+      "category": "F",
+      "dataclass": 1,
+      "dataquality": 1,
+      "datasource": 1,
+      "datatype": "S298",
+      "description": null,
+      "negativeunc": 4,
+      "negativeunc_notallowed": null,
+      "positiveunc": 4,
+      "positiveunc_notallowed": null,
+      "reference_1": "GUI/FAN2003",
+      "reference_2": null,
+      "value": -137,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit requested",
+      "calcmode": "NotYetDetermined",
+      "category": "NA",
+      "dataclass": 6,
+      "dataquality": 6,
+      "datasource": 6,
+      "datatype": "CP298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "NotYetDetermined",
+      "reference_2": null,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit pending",
+      "calcmode": "Entered",
+      "category": "NA",
+      "dataclass": 6,
+      "dataquality": 6,
+      "datasource": 6,
+      "datatype": "V298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "NotYetDetermined",
+      "reference_2": null,
+      "value_notallowed": null
+     }
+    ],
+    "DataVariable": [],
+    "Declaration": {
+     "charge": 2,
+     "description": null,
+     "enabled": true,
+     "equilibrium_constraint": "Complete equilibrium",
+     "molarmass": 24.304,
+     "redox": false
+    },
+    "FormingReaction": [],
+    "OxidationState": [
+     {
+      "centralelement": "Mg",
+      "oxidationnumber": 2
+     }
+    ],
+    "symbol": "Mg<2+>"
+   },
+   {
+    "Composition": [
+     {
+      "element": "EA",
+      "numberofelement": -1
+     },
+     {
+      "element": "Na",
+      "numberofelement": 1
+     }
+    ],
+    "DataStandard": [
+     {
+      "audit_status": "Audit requested",
+      "calcmode": "CGHF",
+      "category": "F",
+      "dataclass": -1,
+      "dataquality": -1,
+      "datasource": -1,
+      "datatype": "DFG298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "InternallyCalculated",
+      "reference_2": null,
+      "value": -261952.8935,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit requested",
+      "calcmode": "Entered",
+      "category": "F",
+      "dataclass": 1,
+      "dataquality": 1,
+      "datasource": 1,
+      "datatype": "DFH298",
+      "description": null,
+      "negativeunc": 60,
+      "negativeunc_notallowed": null,
+      "positiveunc": 60,
+      "positiveunc_notallowed": null,
+      "reference_1": "GUI/FAN2003",
+      "reference_2": null,
+      "value": -240340,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit requested",
+      "calcmode": "Entered",
+      "category": "F",
+      "dataclass": 1,
+      "dataquality": 1,
+      "datasource": 1,
+      "datatype": "S298",
+      "description": null,
+      "negativeunc": 0.15,
+      "negativeunc_notallowed": null,
+      "positiveunc": 0.15,
+      "positiveunc_notallowed": null,
+      "reference_1": "GUI/FAN2003",
+      "reference_2": null,
+      "value": 58.45,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit requested",
+      "calcmode": "NotYetDetermined",
+      "category": "NA",
+      "dataclass": 6,
+      "dataquality": 6,
+      "datasource": 6,
+      "datatype": "CP298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "NotYetDetermined",
+      "reference_2": null,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit pending",
+      "calcmode": "Entered",
+      "category": "NA",
+      "dataclass": 6,
+      "dataquality": 6,
+      "datasource": 6,
+      "datatype": "V298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "NotYetDetermined",
+      "reference_2": null,
+      "value_notallowed": null
+     }
+    ],
+    "DataVariable": [],
+    "Declaration": {
+     "charge": 1,
+     "description": null,
+     "enabled": true,
+     "equilibrium_constraint": "Complete equilibrium",
+     "molarmass": 22.9892207,
+     "redox": false
+    },
+    "FormingReaction": [],
+    "OxidationState": [
+     {
+      "centralelement": "Na",
+      "oxidationnumber": 1
+     }
+    ],
+    "symbol": "Na<+>"
+   },
+   {
+    "Composition": [
+     {
+      "element": "H",
+      "numberofelement": 4
+     },
+     {
+      "element": "O",
+      "numberofelement": 4
+     },
+     {
+      "element": "Si",
+      "numberofelement": 1
+     }
+    ],
+    "DataStandard": [
+     {
+      "audit_status": "Audit pending",
+      "calcmode": "CGHF",
+      "category": "F",
+      "dataclass": -1,
+      "dataquality": -1,
+      "datasource": -1,
+      "datatype": "DFG298",
+      "description": "Thermodynamic data for aqueous Si(OH)4<0> calculated from the formation reaction data for alpha-quartz after [GUN/ARN2000].",
+      "negativeunc": 1156,
+      "negativeunc_notallowed": null,
+      "positiveunc": 1156,
+      "positiveunc_notallowed": null,
+      "reference_1": "InternallyCalculated",
+      "reference_2": null,
+      "value": -1309183.385335,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit pending",
+      "calcmode": "Entered",
+      "category": "F",
+      "dataclass": 1,
+      "dataquality": 1,
+      "datasource": 1,
+      "datatype": "DFH298",
+      "description": "Thermodynamic data for aqueous Si(OH)4<0> calculated from the formation reaction data for alpha-quartz after [GUN/ARN2000].",
+      "negativeunc": 1416.47,
+      "negativeunc_notallowed": null,
+      "positiveunc": 1416.47,
+      "positiveunc_notallowed": null,
+      "reference_1": "GUN/ARN2000",
+      "reference_2": null,
+      "value": -1461723.2163,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit pending",
+      "calcmode": "Entered",
+      "category": "F",
+      "dataclass": 1,
+      "dataquality": 1,
+      "datasource": 1,
+      "datatype": "S298",
+      "description": "Thermodynamic data for aqueous Si(OH)4<0> calculated from the formation reaction data for alpha-quartz after [GUN/ARN2000].",
+      "negativeunc": 10.25,
+      "negativeunc_notallowed": null,
+      "positiveunc": 10.25,
+      "positiveunc_notallowed": null,
+      "reference_1": "GUN/ARN2000",
+      "reference_2": null,
+      "value": 178.8529,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit pending",
+      "calcmode": "NotYetDetermined",
+      "category": "NA",
+      "dataclass": 6,
+      "dataquality": 6,
+      "datasource": 6,
+      "datatype": "CP298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "NotYetDetermined",
+      "reference_2": null,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit pending",
+      "calcmode": "Entered",
+      "category": "NA",
+      "dataclass": 6,
+      "dataquality": 6,
+      "datasource": 6,
+      "datatype": "V298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "NotYetDetermined",
+      "reference_2": null,
+      "value_notallowed": null
+     }
+    ],
+    "DataVariable": [],
+    "Declaration": {
+     "charge": 0,
+     "description": null,
+     "enabled": true,
+     "equilibrium_constraint": "Complete equilibrium",
+     "molarmass": 96.1149,
+     "redox": false
+    },
+    "FormingReaction": [],
+    "OxidationState": [
+     {
+      "centralelement": "Si",
+      "oxidationnumber": 4
+     }
+    ],
+    "symbol": "Si(OH)4<0>"
+   },
+   {
+    "Composition": [
+     {
+      "element": "EA",
+      "numberofelement": 2
+     },
+     {
+      "element": "O",
+      "numberofelement": 4
+     },
+     {
+      "element": "S",
+      "numberofelement": 1
+     }
+    ],
+    "DataStandard": [
+     {
+      "audit_status": "Audit pending",
+      "calcmode": "CGHF",
+      "category": "F",
+      "dataclass": -1,
+      "dataquality": -1,
+      "datasource": -1,
+      "datatype": "DFG298",
+      "description": null,
+      "negativeunc": 418,
+      "negativeunc_notallowed": null,
+      "positiveunc": 418,
+      "positiveunc_notallowed": null,
+      "reference_1": "InternallyCalculated",
+      "reference_2": null,
+      "value": -744004.4953,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit pending",
+      "calcmode": "Entered",
+      "category": "F",
+      "dataclass": 1,
+      "dataquality": 1,
+      "datasource": 1,
+      "datatype": "DFH298",
+      "description": null,
+      "negativeunc": 400,
+      "negativeunc_notallowed": null,
+      "positiveunc": 400,
+      "positiveunc_notallowed": null,
+      "reference_1": "GUI/FAN2003",
+      "reference_2": "COX/WAG1989",
+      "value": -909340,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit requested",
+      "calcmode": "Entered",
+      "category": "F",
+      "dataclass": 1,
+      "dataquality": 1,
+      "datasource": 1,
+      "datatype": "S298",
+      "description": null,
+      "negativeunc": 0.4,
+      "negativeunc_notallowed": null,
+      "positiveunc": 0.4,
+      "positiveunc_notallowed": null,
+      "reference_1": "GUI/FAN2003",
+      "reference_2": "COX/WAG1989",
+      "value": 18.5,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit pending",
+      "calcmode": "NotYetDetermined",
+      "category": "NA",
+      "dataclass": 6,
+      "dataquality": 6,
+      "datasource": 6,
+      "datatype": "CP298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "NotYetDetermined",
+      "reference_2": null,
+      "value_notallowed": null
+     },
+     {
+      "audit_status": "Audit pending",
+      "calcmode": "Entered",
+      "category": "NA",
+      "dataclass": 6,
+      "dataquality": 6,
+      "datasource": 6,
+      "datatype": "V298",
+      "description": null,
+      "negativeunc": null,
+      "negativeunc_notallowed": null,
+      "positiveunc": null,
+      "positiveunc_notallowed": null,
+      "reference_1": "NotYetDetermined",
+      "reference_2": null,
+      "value_notallowed": null
+     }
+    ],
+    "DataVariable": [],
+    "Declaration": {
+     "charge": -2,
+     "description": null,
+     "enabled": true,
+     "equilibrium_constraint": "Complete equilibrium",
+     "molarmass": 96.064,
+     "redox": false
+    },
+    "FormingReaction": [],
+    "OxidationState": [
+     {
+      "centralelement": "S",
+      "oxidationnumber": 6
+     }
+    ],
+    "symbol": "SO4<2->"
+   }
+  ],
+  "Product": null,
+  "SecondaryMaster": null,
+  "description": null,
+  "modification": "NA",
+  "symbol": "aq"
+ }
+]

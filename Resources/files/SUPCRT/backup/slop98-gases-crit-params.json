@@ -1,0 +1,299 @@
+[
+  {
+    "_id" :   "substances/Ar(g);1:SC_GASFLUID;2:SUPCRT",
+    "_key" :   "Ar(g);1:SC_GASFLUID;2:SUPCRT",
+    "_rev" :   "_ZXE8dU---_",
+    "_type" :   "vertex",
+    "_label" :   "substance",
+    "properties" :   {
+         "symbol" :   "Ar(g)",
+         "sourcetdb" :   {
+              "2" :   "SUPCRT"
+         },
+         "formula" :   "Ar",
+         "name" :   "Ar(g)",
+         "class_" :   {
+              "1" :   "SC_GASFLUID"
+         },
+         "aggregate_state" :   {
+              "0" :   "AS_GAS"
+         },
+         "Tst" :   298.15,
+         "Pst" :   100000,
+         "mass_per_mole" :   39.948,
+         "sm_gibbs_energy" :   {
+              "values" :   [
+                   0
+              ]
+         },
+         "sm_enthalpy" :   {
+              "values" :   [
+                   0
+              ]
+         },
+         "sm_entropy_abs" :   {
+              "values" :   [
+                   154.841472
+              ]
+         },
+         "TPMethods" :   [
+              {
+                   "method" :   {
+                        "0" :   "cp_ft_equation"
+                   },
+                   "limitsTP" :   {
+                        "lowerT" :   273.15,
+                        "upperT" :   8000
+                   },
+                   "m_heat_capacity_ft_coeffs" :   {
+                        "values" :   [
+                             4.968,
+                             0,
+                             0
+                        ],
+                        "units" :   [
+                             "J/(mol*K)",
+                             "J/(mol*K^2)",
+                             "(J*K)/mol"
+                        ],
+                        "names" :   [
+                             "a",
+                             "b",
+                             "c"
+                        ]
+                   }
+              },
+              {
+                   "method" :   {
+                        "8" :   "fug_critical_param"
+                   },
+                   "eos_gas_crit_props" :   {
+                        "values" :   [
+                             150.9,
+                             4898000,
+                             0
+                        ],
+                        "units" :   [
+                             "K",
+                             "Pa"
+                        ],
+                        "names" :   [
+                             "CriticalTemperature",
+                             "CriticalPressure",
+                             "AcentricFactor"
+                        ]
+                   }
+              }
+         ],
+         "datasources" :   [
+              "6,8"
+         ],
+         "time_stamp" :   {
+              "year" :   2019,
+              "month" :   10,
+              "day" :   3,
+              "hour" :   15,
+              "minute" :   10,
+              "second" :   43
+         }
+    }
+},
+{
+  "_id" :   "substances/C2H4(g);1:SC_GASFLUID;2:SUPCRT",
+  "_key" :   "C2H4(g);1:SC_GASFLUID;2:SUPCRT",
+  "_rev" :   "_ZXE8dY---_",
+  "_type" :   "vertex",
+  "_label" :   "substance",
+  "properties" :   {
+       "symbol" :   "C2H4(g)",
+       "sourcetdb" :   {
+            "2" :   "SUPCRT"
+       },
+       "formula" :   "C2H4",
+       "name" :   "C2H4(g)",
+       "class_" :   {
+            "1" :   "SC_GASFLUID"
+       },
+       "aggregate_state" :   {
+            "0" :   "AS_GAS"
+       },
+       "Tst" :   298.15,
+       "Pst" :   100000,
+       "mass_per_mole" :   28.05316,
+       "sm_gibbs_energy" :   {
+            "values" :   [
+                 68115.52
+            ]
+       },
+       "sm_enthalpy" :   {
+            "values" :   [
+                 52300
+            ]
+       },
+       "sm_entropy_abs" :   {
+            "values" :   [
+                 219.4508
+            ]
+       },
+       "TPMethods" :   [
+            {
+                 "method" :   {
+                      "0" :   "cp_ft_equation"
+                 },
+                 "limitsTP" :   {
+                      "lowerT" :   273.15,
+                      "upperT" :   1000
+                 },
+                 "m_heat_capacity_ft_coeffs" :   {
+                      "values" :   [
+                           8.35,
+                           0.00015,
+                           -229000
+                      ],
+                      "units" :   [
+                           "J/(mol*K)",
+                           "J/(mol*K^2)",
+                           "(J*K)/mol"
+                      ],
+                      "names" :   [
+                           "a",
+                           "b",
+                           "c"
+                      ]
+                 }
+            },
+            {
+                 "method" :   {
+                      "8" :   "fug_critical_param"
+                 },
+                 "eos_gas_crit_props" :   {
+                      "values" :   [
+                           282.3,
+                           5040000,
+                           0.087
+                      ],
+                      "units" :   [
+                           "K",
+                           "Pa"
+                      ],
+                      "names" :   [
+                           "CriticalTemperature",
+                           "CriticalPressure",
+                           "AcentricFactor"
+                      ]
+                 }
+            }
+       ],
+       "datasources" :   [
+            "G2"
+       ],
+       "time_stamp" :   {
+            "year" :   2019,
+            "month" :   10,
+            "day" :   3,
+            "hour" :   15,
+            "minute" :   10,
+            "second" :   43
+       }
+  }
+},
+{
+  "_id" :   "substances/CH4(g);1:SC_GASFLUID;2:SUPCRT",
+  "_key" :   "CH4(g);1:SC_GASFLUID;2:SUPCRT",
+  "_rev" :   "_ZXE8dVK--_",
+  "_type" :   "vertex",
+  "_label" :   "substance",
+  "properties" :   {
+       "symbol" :   "CH4(g)",
+       "sourcetdb" :   {
+            "2" :   "SUPCRT"
+       },
+       "formula" :   "CH4",
+       "name" :   "CH4(g)",
+       "class_" :   {
+            "1" :   "SC_GASFLUID"
+       },
+       "aggregate_state" :   {
+            "0" :   "AS_GAS"
+       },
+       "Tst" :   298.15,
+       "Pst" :   100000,
+       "mass_per_mole" :   16.04246,
+       "sm_gibbs_energy" :   {
+            "values" :   [
+                 -50720.1216
+            ]
+       },
+       "sm_enthalpy" :   {
+            "values" :   [
+                 -74809.92
+            ]
+       },
+       "sm_entropy_abs" :   {
+            "values" :   [
+                 186.263312
+            ]
+       },
+       "TPMethods" :   [
+            {
+                 "method" :   {
+                      "0" :   "cp_ft_equation"
+                 },
+                 "limitsTP" :   {
+                      "lowerT" :   273.15,
+                      "upperT" :   1500
+                 },
+                 "m_heat_capacity_ft_coeffs" :   {
+                      "values" :   [
+                           5.65,
+                           0.01144,
+                           -46000
+                      ],
+                      "units" :   [
+                           "J/(mol*K)",
+                           "J/(mol*K^2)",
+                           "(J*K)/mol"
+                      ],
+                      "names" :   [
+                           "a",
+                           "b",
+                           "c"
+                      ]
+                 }
+            },
+            {
+                 "method" :   {
+                      "8" :   "fug_critical_param"
+                 },
+                 "eos_gas_crit_props" :   {
+                      "values" :   [
+                           190.6,
+                           4599000,
+                           0.012
+                      ],
+                      "units" :   [
+                           "K",
+                           "Pa"
+                      ],
+                      "names" :   [
+                           "CriticalTemperature",
+                           "CriticalPressure",
+                           "AcentricFactor"
+                      ]
+                 }
+            }
+       ],
+       "datasources" :   [
+            "6,8"
+       ],
+       "time_stamp" :   {
+            "year" :   2019,
+            "month" :   10,
+            "day" :   3,
+            "hour" :   15,
+            "minute" :   10,
+            "second" :   43
+       }
+  }
+}
+]

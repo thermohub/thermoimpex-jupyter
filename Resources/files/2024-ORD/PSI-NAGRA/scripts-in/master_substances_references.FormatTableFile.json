@@ -1,0 +1,71 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.sourcetdb" :   "{\"26\" : \"PSI_NAGRA20\"}",
+	       "properties.vertextype" : "\"VertexSubstance\"",
+	       "properties.ref_for_field" : "{}"
+          },
+          "matches" :   {
+               "Symbol" :   {
+                    "field" :   "properties.symbol",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "DfGm_Ref" :   {
+                    "field" :   "properties.ref_for_field[\"properties-sm_gibbs_energy-values-0\"]"
+               },
+               "DfHm_Ref" :   {
+                    "field" :   "properties.ref_for_field[\"properties-sm_enthalpy-values-0\"]"
+               },
+               "Sm_Ref" :   {
+                    "field" :   "properties.ref_for_field[\"properties-sm_entropy_abs-values-0\"]"
+               },
+               "Cpm_Ref" :   {
+                    "field" :   "properties.ref_for_field[\"properties-sm_heat_capacity_p-values-0\"]"
+               }
+          },
+          "script" :   ""
+     },
+     "format" :   {
+          "Nhcols" :   13,
+          "Nhrows" :   1,
+          "headers" :   [
+               "Symbol",
+               "Composition",
+               "agg_state",
+               "DfGm [kJ/mol]",
+               "DfGm_Ref",
+               "DfHm [kJ/mol]",
+               "DfHm_Ref",
+               "Sm [J/(K mol)]",
+               "Sm_Ref",
+               "sigma Sm [J/(K mol)]",
+               "Cpm [J/(K mol)]",
+               "sigma Cpm [J/(K mol)]",
+               "Cpm_Ref"
+          ],
+          "rowend" :   "\n",
+          "rows_one_block" :   1,
+          "colends" :   ",",
+          "usequotes" :   false,
+          "usemore" :   false,
+          "comment_regexp" :   ""
+     },
+     "renderer" :   "",
+     "label" :   "VertexTemporary",
+     "separators" :   {
+          "v_sep" :   ",",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0
+}

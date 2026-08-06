@@ -1,0 +1,117 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.sourcetdb" :   "{\"enum code\" :   \" name\"}"
+          },
+          "matches" :   {
+               "dod.30.val" :   {
+                    "field" :   "properties.comment"
+               },
+               "key.2.fv" :   {
+                    "field" :   "properties.symbol"
+               },
+               "dod.16.val" :   {
+                    "field" :   "properties.name"
+               },
+               "key.0.fv" :   {
+                    "field" :   "properties.aggregate_state",
+                    "convert" :   {
+                         "a" :   "{\"4\" :   \"AS_AQUEOUS\"}",
+                         "g" :   "{\"0\" :   \"AS_GAS\"}",
+                         "c" :   "{\"3\" :   \"AS_CRYSTAL\"}",
+                         "s" :   "{\"3\" :   \"AS_CRYSTAL\"}",
+                         "l" :   "{\"1\" :   \"AS_LIQUID\"}"
+                    }
+               },
+               "dod.13.val.1" :   {
+                    "field" :   "properties.Tst",
+                    "script" :   "field = field+273.15"
+               },
+               "dod.13.val.0" :   {
+                    "field" :   "properties.Pst",
+                    "script" :   "field = field*1e05"
+               },
+               "dod.1.val.0" :   {
+                    "field" :   "properties.class_",
+                    "convert" :   {
+                         "d" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "r" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "n" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "i" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "f" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "T" :   "{\"2\" :   \"SC_AQSOLUTE\"}",
+                         "E" :   "{\"2\" :   \"SC_AQSOLUTE\"}",
+                         "S" :   "{\"2\" :   \"SC_AQSOLUTE\"}",
+                         "K" :   "{\"4\" :   \"SC_SURFSPECIES\"}",
+                         "W" :   "{\"3\" :   \"SC_AQSOLVENT\"}",
+                         "L" :   "{\"3\" :   \"SC_AQSOLVENT\"}",
+                         "G" :   "{\"1\" :   \"SC_GASFLUID\"}",
+                         "V" :   "{\"1\" :   \"SC_GASFLUID\"}",
+                         "C" :   "{\"1\" :   \"SC_GASFLUID\"}",
+                         "H" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "N" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "I" :   "{\"0\" :   \"SC_COMPONENT\"}",
+                         "J" :   "{\"0\" :   \"SC_COMPONENT\"}",
+                         "M" :   "{\"0\" :   \"SC_COMPONENT\"}",
+                         "F" :   "{\"0\" :   \"SC_COMPONENT\"}",
+                         "D" :   "{\"0\" :   \"SC_COMPONENT\"}",
+                         "Q" :   "{\"0\" :   \"SC_COMPONENT\"}",
+                         "P" :   "{\"0\" :   \"SC_COMPONENT\"}",
+                         "R" :   "{\"0\" :   \"SC_COMPONENT\"}",
+                         "0" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "2" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "4" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "6" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "8" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "1" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "3" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "5" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "7" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "9" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "A" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "B" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "X" :   "{\"4\" :   \"SC_SURFSPECIES\"}",
+                         "Y" :   "{\"4\" :   \"SC_SURFSPECIES\"}",
+                         "Z" :   "{\"4\" :   \"SC_SURFSPECIES\"}",
+                         "O" :   "{\"0\" :   \"SC_COMPONENT\"}"
+                    }
+               },
+               "dod.17.val" :   {
+                    "field" :   "properties.formula"
+               },
+               "dod.7.val.1" :   {
+                    "field" :   "properties.sm_gibbs_energy.values"
+               },
+               "dod.8.val.1" :   {
+                    "field" :   "properties.sm_enthalpy.values"
+               },
+               "dod.9.val.1" :   {
+                    "field" :   "properties.sm_entropy_abs.values"
+               },
+               "dod.10.val.1" :   {
+                    "field" :   "properties.sm_heat_capacity_p.values"
+               },
+               "dod.11.val.1" :   {
+                    "field" :   "properties.sm_volume.values"
+               },
+               "dod.7.val.2" :   {
+                    "field" :   "properties.sm_gibbs_energy.errors"
+               },
+               "dod.8.val.2" :   {
+                    "field" :   "properties.sm_enthalpy.errors"
+               },
+               "dod.9.val.2" :   {
+                    "field" :   "properties.sm_entropy_abs.errors"
+               },
+               "dod.10.val.2" :   {
+                    "field" :   "properties.sm_heat_capacity_p.errors"
+               },
+               "dod.11.val.2" :   {
+                    "field" :   "properties.sm_volume.errors"
+               }
+          }
+     },
+     "renderer" :   "JSON",
+     "label" :   "VertexSubstance",
+     "comment" :   "Import"
+}

@@ -1,0 +1,2549 @@
+[
+     {
+          "_id" :   "elements/Ac;0:ELEMENT;1001:WORK1",
+          "_key" :   "Ac;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsuaC---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Ac",
+               "isotope_mass" :   0,
+               "name" :   "Ac",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         61.9
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         26
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         3
+                    ]
+               },
+               "number" :   89,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Ag;0:ELEMENT;1001:WORK1",
+          "_key" :   "Ag;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsua2---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Ag",
+               "isotope_mass" :   0,
+               "name" :   "Ag",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         42.55
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         25.35
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         1
+                    ]
+               },
+               "number" :   47,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Al;0:ELEMENT;1001:WORK1",
+          "_key" :   "Al;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsube---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Al",
+               "isotope_mass" :   0,
+               "name" :   "Al",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         28.3
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         24.2
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         3
+                    ]
+               },
+               "number" :   13,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Am;0:ELEMENT;1001:WORK1",
+          "_key" :   "Am;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsuc6---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Am",
+               "isotope_mass" :   0,
+               "name" :   "Am",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         55.4
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         3
+                    ]
+               },
+               "number" :   95,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/As;0:ELEMENT;1001:WORK1",
+          "_key" :   "As;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsud6---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "As",
+               "isotope_mass" :   0,
+               "name" :   "As",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         35.1
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         24.64
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         5
+                    ]
+               },
+               "number" :   33,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/B;0:ELEMENT;1001:WORK1",
+          "_key" :   "B;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsue6---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "B",
+               "isotope_mass" :   0,
+               "name" :   "B",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         5.9
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         11.087
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         3
+                    ]
+               },
+               "number" :   5,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Ba;0:ELEMENT;1001:WORK1",
+          "_key" :   "Ba;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsufy---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Ba",
+               "isotope_mass" :   0,
+               "name" :   "Ba",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         62.42
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "number" :   56,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Br;0:ELEMENT;1001:WORK1",
+          "_key" :   "Br;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsugq---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Br",
+               "isotope_mass" :   0,
+               "name" :   "Br",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         76.105
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         37.845
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         -1
+                    ]
+               },
+               "number" :   35,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/C;0:ELEMENT;1001:WORK1",
+          "_key" :   "C;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsuhe---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "C",
+               "isotope_mass" :   0,
+               "name" :   "C",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         5.74
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         8.517
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         4
+                    ]
+               },
+               "number" :   6,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Ca;0:ELEMENT;1001:WORK1",
+          "_key" :   "Ca;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsuii---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Ca",
+               "isotope_mass" :   0,
+               "name" :   "Ca",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         41.59
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         25.929
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "number" :   20,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Cd;0:ELEMENT;1001:WORK1",
+          "_key" :   "Cd;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsuja---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Cd",
+               "isotope_mass" :   0,
+               "name" :   "Cd",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         51.8
+                    ],
+                    "errors" :   [
+                         0.15
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         26.02
+                    ],
+                    "errors" :   [
+                         0.04
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "number" :   48,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Cf;0:ELEMENT;1001:WORK1",
+          "_key" :   "Cf;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsukm---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Cf",
+               "isotope_mass" :   0,
+               "name" :   "Cf",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         81
+                    ],
+                    "errors" :   [
+                         5
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         3
+                    ]
+               },
+               "number" :   98,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Cl;0:ELEMENT;1001:WORK1",
+          "_key" :   "Cl;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsulW---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Cl",
+               "isotope_mass" :   0,
+               "name" :   "Cl",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         111.54
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         16.974
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         -1
+                    ]
+               },
+               "number" :   17,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Cm;0:ELEMENT;1001:WORK1",
+          "_key" :   "Cm;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsumC---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Cm",
+               "isotope_mass" :   0,
+               "name" :   "Cm",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         70.8
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         3
+                    ]
+               },
+               "number" :   96,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Cs;0:ELEMENT;1001:WORK1",
+          "_key" :   "Cs;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsumi---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Cs",
+               "isotope_mass" :   0,
+               "name" :   "Cs",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         85.23
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         32.21
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         1
+                    ]
+               },
+               "number" :   55,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Cu;0:ELEMENT;1001:WORK1",
+          "_key" :   "Cu;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsuna---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Cu",
+               "isotope_mass" :   0,
+               "name" :   "Cu",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         33.15
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         24.44
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "number" :   29,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Eu;0:ELEMENT;1001:WORK1",
+          "_key" :   "Eu;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsupC---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Eu",
+               "isotope_mass" :   0,
+               "name" :   "Eu",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         77.8
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         27.65
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         3
+                    ]
+               },
+               "number" :   63,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/F;0:ELEMENT;1001:WORK1",
+          "_key" :   "F;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsupy---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "F",
+               "isotope_mass" :   0,
+               "name" :   "F",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         101.395
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         15.652
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         -1
+                    ]
+               },
+               "number" :   9,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Fe;0:ELEMENT;1001:WORK1",
+          "_key" :   "Fe;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsuqq---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Fe",
+               "isotope_mass" :   0,
+               "name" :   "Fe",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         27.085
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         25.084
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "number" :   26,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/H;0:ELEMENT;1001:WORK1",
+          "_key" :   "H;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsure---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "H",
+               "isotope_mass" :   0,
+               "name" :   "H",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         65.34
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         14.418
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         1
+                    ]
+               },
+               "number" :   1,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Hg;0:ELEMENT;1001:WORK1",
+          "_key" :   "Hg;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsusW---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Hg",
+               "isotope_mass" :   0,
+               "name" :   "Hg",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         75.9
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "number" :   80,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Ho;0:ELEMENT;1001:WORK1",
+          "_key" :   "Ho;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsut----",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Ho",
+               "isotope_mass" :   0,
+               "name" :   "Ho",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         75.76
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         27.15
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         3
+                    ]
+               },
+               "number" :   67,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "elements/I;0:ELEMENT;1001:WORK1",
+          "_key" :   "I;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsut6---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "I",
+               "isotope_mass" :   0,
+               "name" :   "I",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         58.07
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         27.219
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         -1
+                    ]
+               },
+               "number" :   53,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/K;0:ELEMENT;1001:WORK1",
+          "_key" :   "K;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsuu2---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "K",
+               "isotope_mass" :   0,
+               "name" :   "K",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         64.68
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         29.6
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         1
+                    ]
+               },
+               "number" :   19,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Li;0:ELEMENT;1001:WORK1",
+          "_key" :   "Li;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsuv2---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Li",
+               "isotope_mass" :   0,
+               "name" :   "Li",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         29.12
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         24.86
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         1
+                    ]
+               },
+               "number" :   3,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Mg;0:ELEMENT;1001:WORK1",
+          "_key" :   "Mg;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsuwm---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Mg",
+               "isotope_mass" :   0,
+               "name" :   "Mg",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         32.67
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         24.869
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "number" :   12,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Mn;0:ELEMENT;1001:WORK1",
+          "_key" :   "Mn;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsuxW---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Mn",
+               "isotope_mass" :   0,
+               "name" :   "Mn",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         32.01
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         26.32
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "number" :   25,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Mo;0:ELEMENT;1001:WORK1",
+          "_key" :   "Mo;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsuya---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Mo",
+               "isotope_mass" :   0,
+               "name" :   "Mo",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         28.581
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         24.06
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         6
+                    ]
+               },
+               "number" :   42,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/N;0:ELEMENT;1001:WORK1",
+          "_key" :   "N;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsuzS---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "N",
+               "isotope_mass" :   0,
+               "name" :   "N",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         95.805
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         14.562
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         5
+                    ]
+               },
+               "number" :   7,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Na;0:ELEMENT;1001:WORK1",
+          "_key" :   "Na;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsu0----",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Na",
+               "isotope_mass" :   0,
+               "name" :   "Na",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         51.3
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         28.23
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         1
+                    ]
+               },
+               "number" :   11,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Nb;0:ELEMENT;1001:WORK1",
+          "_key" :   "Nb;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsu0e---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Nb",
+               "isotope_mass" :   0,
+               "name" :   "Nb",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         36.4
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         24.6
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         5
+                    ]
+               },
+               "number" :   41,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Ni;0:ELEMENT;1001:WORK1",
+          "_key" :   "Ni;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsu1W---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Ni",
+               "isotope_mass" :   0,
+               "name" :   "Ni",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         29.87
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         26.07
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "number" :   28,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Np;0:ELEMENT;1001:WORK1",
+          "_key" :   "Np;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsu2G---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Np",
+               "isotope_mass" :   0,
+               "name" :   "Np",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         50.46
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         29.62
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         6
+                    ]
+               },
+               "number" :   93,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/O;0:ELEMENT;1001:WORK1",
+          "_key" :   "O;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsu3S---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "O",
+               "isotope_mass" :   0,
+               "name" :   "O",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         102.576
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         14.689
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         -2
+                    ]
+               },
+               "number" :   8,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/P;0:ELEMENT;1001:WORK1",
+          "_key" :   "P;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsu4O---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "P",
+               "isotope_mass" :   0,
+               "name" :   "P",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         41.09
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         23.824
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         5
+                    ]
+               },
+               "number" :   15,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Pa;0:ELEMENT;1001:WORK1",
+          "_key" :   "Pa;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsu5C---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Pa",
+               "isotope_mass" :   0,
+               "name" :   "Pa",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         51.6
+                    ],
+                    "errors" :   [
+                         0.8
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         28.2
+                    ],
+                    "errors" :   [
+                         0.4
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         5
+                    ]
+               },
+               "number" :   46,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Pb;0:ELEMENT;1001:WORK1",
+          "_key" :   "Pb;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsu5y---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Pb",
+               "isotope_mass" :   0,
+               "name" :   "Pb",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         64.8
+                    ],
+                    "errors" :   [
+                         0.3
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         26.65
+                    ],
+                    "errors" :   [
+                         0.1
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "number" :   82,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Pd;0:ELEMENT;1001:WORK1",
+          "_key" :   "Pd;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsu6q---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Pd",
+               "isotope_mass" :   0,
+               "name" :   "Pd",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         37.8
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         25.9
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "number" :   46,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Po;0:ELEMENT;1001:WORK1",
+          "_key" :   "Po;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsu7a---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Po",
+               "isotope_mass" :   0,
+               "name" :   "Po",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         62.8
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         4
+                    ]
+               },
+               "number" :   84,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Pu;0:ELEMENT;1001:WORK1",
+          "_key" :   "Pu;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsu8W---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Pu",
+               "isotope_mass" :   0,
+               "name" :   "Pu",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         54.46
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         31.49
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         6
+                    ]
+               },
+               "number" :   94,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Ra;0:ELEMENT;1001:WORK1",
+          "_key" :   "Ra;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsu9G---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Ra",
+               "isotope_mass" :   0,
+               "name" :   "Ra",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         71
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "number" :   88,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/S;0:ELEMENT;1001:WORK1",
+          "_key" :   "S;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsv-----",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "S",
+               "isotope_mass" :   0,
+               "name" :   "S",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         32.054
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         22.75
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         6
+                    ]
+               },
+               "number" :   16,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Se;0:ELEMENT;1001:WORK1",
+          "_key" :   "Se;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsv-u---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Se",
+               "isotope_mass" :   0,
+               "name" :   "Se",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         42.09
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         25.09
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         4
+                    ]
+               },
+               "number" :   34,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Si;0:ELEMENT;1001:WORK1",
+          "_key" :   "Si;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsv_a---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Si",
+               "isotope_mass" :   0,
+               "name" :   "Si",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         18.81
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         19.789
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         4
+                    ]
+               },
+               "number" :   14,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Sm;0:ELEMENT;1001:WORK1",
+          "_key" :   "Sm;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsvAK---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Sm",
+               "isotope_mass" :   0,
+               "name" :   "Sm",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         69.64
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         29.53
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         3
+                    ]
+               },
+               "number" :   62,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Sn;0:ELEMENT;1001:WORK1",
+          "_key" :   "Sn;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsvAq---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Sn",
+               "isotope_mass" :   0,
+               "name" :   "Sn",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         51.18
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         27.11
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "number" :   50,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Sr;0:ELEMENT;1001:WORK1",
+          "_key" :   "Sr;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsvBS---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Sr",
+               "isotope_mass" :   0,
+               "name" :   "Sr",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         55.7
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "number" :   38,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Tc;0:ELEMENT;1001:WORK1",
+          "_key" :   "Tc;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsvCa---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Tc",
+               "isotope_mass" :   0,
+               "name" :   "Tc",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         32.5
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         24.9
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         7
+                    ]
+               },
+               "number" :   43,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Th;0:ELEMENT;1001:WORK1",
+          "_key" :   "Th;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsvDS---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Th",
+               "isotope_mass" :   0,
+               "name" :   "Th",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         52.64
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         26.23
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         4
+                    ]
+               },
+               "number" :   90,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Ti;0:ELEMENT;1001:WORK1",
+          "_key" :   "Ti;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsvD6---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Ti",
+               "isotope_mass" :   0,
+               "name" :   "Ti",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         30.72
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         4
+                    ]
+               },
+               "number" :   22,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "elements/U;0:ELEMENT;1001:WORK1",
+          "_key" :   "U;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsvEm---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "U",
+               "isotope_mass" :   0,
+               "name" :   "U",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         50.2
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         27.66
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         6
+                    ]
+               },
+               "number" :   92,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Zn;0:ELEMENT;1001:WORK1",
+          "_key" :   "Zn;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsvFO---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Zn",
+               "isotope_mass" :   0,
+               "name" :   "Zn",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         41.63
+                    ],
+                    "errors" :   [
+                         0.15
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         25.39
+                    ],
+                    "errors" :   [
+                         0.04
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "number" :   30,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Zr;0:ELEMENT;1001:WORK1",
+          "_key" :   "Zr;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_bwNsvF6---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Zr",
+               "isotope_mass" :   0,
+               "name" :   "Zr",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         39.08
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         26.08
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         4
+                    ]
+               },
+               "number" :   40,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Zz;4:CHARGE;1001:WORK1",
+          "_key" :   "Zz;4:CHARGE;1001:WORK1",
+          "_rev" :   "_bwNsvGm---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Zz",
+               "isotope_mass" :   0,
+               "name" :   "Zz",
+               "class_" :   {
+                    "4" :   "CHARGE"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         -65.34
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         -14.418
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         0
+                    ]
+               },
+               "number" :   0,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     }
+]

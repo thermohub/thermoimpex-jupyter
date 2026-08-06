@@ -1,0 +1,222 @@
+SOLUTION_MASTER_SPECIES 
+
+
+#        ATOMIC WEIGHTS 
+#        Naturally occuring elements: IUPAC 1993 Table 1 rounded to 0.001
+#        Radioelements: Mass number of longest-lived isotope
+#
+#
+#
+#  elemen     species        alk   gfw_formula element_gfw atomic
+#                                                          number
+#
+Ca	Ca	0.0	Calcium	40.07799911499	 	
+Na	Na	0.0	Sodium	22.989799499512	 	
+K	K	0.0	Potassium	39.098300933838	 	
+Mg	Mg	0.0	Magnesium	24.305000305176	 	
+H(1)	H	0.0	Hydrogen	1.0079499483109	 	
+O(-2)	O	0.0	Oxygen	15.999400138855	 	
+P(5)	P	0.0	Phosphorus	30.973760604858	 	
+E	e-	0.0	Electric_charge	0	 	
+
+
+SOLUTION_SPECIES 
+
+# PMATCH MASTER SPECIES 
+
+
+K+	=	K+
+	-gamma 	3.710000038147  0.0099999997764826  
+	-log_k 	0.0  
+
+Na+	=	Na+
+	-gamma 	4.3200001716614  0.059999998658895  
+	-log_k 	0.0  
+
+Ca+2	=	Ca+2
+	-gamma 	4.8600001335144  0.15000000596046  
+	-log_k 	0.0  
+
+H+	=	H+
+	-gamma 	9  0  
+	-log_k 	0.0  
+
+H2O@	=	H2O@
+	-gamma 	0  0  
+	-log_k 	0.0  
+
+Mg+2	=	Mg+2
+	-gamma 	5.460000038147  0.21999999880791  
+	-log_k 	0.0  
+
+PO4-3	=	PO4-3
+	-gamma 	4  0.064  
+	-log_k 	0.0  
+
+# PMATCH SECONDARY MASTER SPECIES 
+
+
+PO4-3 + 2H+ + Ca+2 = CaH2PO4+
+	-analytical_expression	-196.15984031525 0 9797.7765551931 74.2755143716701 0 0 0 
+	-log_K	20.492013 
+
+PO4-3 + H+ + Ca+2 = CaHPO4
+	-analytical_expression	-196.15984031525 0 8092.35855519 74.2755143716701 0 0 0 
+	-log_K	14.772013 
+
+H2O + Ca+2 = Ca(OH)+ + H+
+	-analytical_expression	14.192135629868 0 -4635.5309504789 -4.61708579337809 0 0 0 
+	-gamma	4 0.064 
+	-log_K	-12.780039 
+
+PO4-3 + Ca+2 = CaPO4-
+	-analytical_expression	-155.18238474557 0 4696.6479951493 58.9555593773693 0 0 0 
+	-log_K	6.451874 
+
+PO4-3 + 2H+ = H2PO4-
+	-analytical_expression	-155.18238474557 0 8605.394495121 58.9555593773693 0 0 0 
+	-gamma	4.5 0 
+	-log_K	19.561874 
+
+PO4-3 + 3H+ = H3PO4
+	-analytical_expression	-196.15984031525 0 10158.538055171 74.2755143716701 0 0 0 
+	-gamma	0 0 
+	-log_K	21.702013 
+
+2PO4-3 + 3H+ = HP2O7-3 + H2O
+	-analytical_expression	-167.72589361735 0 10109.537205141 66.4911903405692 0 0 0 
+	-log_K	30.709888 
+
+PO4-3 + H+ = HPO4-2
+	-analytical_expression	-86.867947945425 0 5054.7686570773 33.2455955912363 0 0 0 
+	-gamma	4 0.064 
+	-log_K	12.349944 
+
+PO4-3 + K+ + H+ = KHPO4-
+	-analytical_expression	-155.18235736202 0 6768.1915484462 58.9555570922079 0 0 0 
+	-log_K	13.399866 
+
+2PO4-3 + K+ + 2H+ = KP2O7-3 + H2O
+	-analytical_expression	-242.05034809965 0 11125.291129678 92.2011601402877 0 0 0 
+	-log_K	23.409814 
+
+2PO4-3 + 2Mg+2 + K+ + 15H2O + H+ = Mg2KH(PO4)2(H2O)15
+	-analytical_expression	-223.02174297499 0 13821.133022937 82.9827621830052 0 0 0 
+	-log_K	28.67 
+
+2PO4-3 + Mg+2 + 4H+ = MgH2P2O7 + H2O
+	-analytical_expression	-392.31980203999 0 19487.031324897 148.551070357339 0 0 0 
+	-log_K	40.620023 
+
+PO4-3 + Mg+2 + 2H+ = MgH2PO4+
+	-analytical_expression	-196.1598227189 0 9881.2566842393 74.2755083580869 0 0 0 
+	-log_K	20.772009 
+
+2PO4-3 + Mg+2 + 3H+ = MgHP2O7- + H2O
+	-analytical_expression	-351.34221192368 0 16843.845471648 133.231069178717 0 0 0 
+	-log_K	34.821888 
+
+2PO4-3 + Mg+2 + H+ = MgHP2O8-3
+	-analytical_expression	-223.1977219655 0 8616.4362200236 83.359672427864 0 0 0 
+	-log_K	11.970006 
+
+PO4-3 + Mg+2 + H+ = MgHPO4
+	-analytical_expression	-196.1598227189 0 8101.5994848094 74.2755083580869 0 0 0 
+	-log_K	14.803009 
+
+2PO4-3 + Mg+2 + 2H+ = MgP2O7-2 + H2O
+	-analytical_expression	-310.36483230523 0 14046.826188933 117.911140403639 0 0 0 
+	-log_K	28.511756 
+
+PO4-3 + Mg+2 = MgPO4-
+	-analytical_expression	-155.18237544085 0 4240.4799357668 58.9555562503068 0 0 0 
+	-log_K	4.919866 
+
+PO4-3 + Na+ + H+ = NaHPO4-
+	-analytical_expression	-155.18238558615 0 6707.0736804533 58.9555597381844 0 0 0 
+	-log_K	13.194875 
+
+2PO4-3 + Na+ + 2H+ = NaP2O7-3 + H2O
+	-analytical_expression	-242.05019961175 0 11181.936788108 92.2011091450991 0 0 0 
+	-log_K	23.599826 
+
+2PO4-3 + 2H+ = P2O7-4 + H2O
+	-analytical_expression	-177.12589357833 0 10109.537205141 66.4911903405692 0 0 0 
+	-log_K	21.309888 
+
+
+PHASES 
+
+
+
+Bobb
+	Mg3(PO4)2(H2O)8 = 2PO4-3 + 3Mg+2 + 8H2O
+	-Vm	191.09968185425 
+	-analytical_expression	304.19520141266 0 -6514.8225759281 -124.329150605067 0 0 0 
+	-log_K	-25.3 
+
+brushite
+	CaH(PO4)(H2O)2 = PO4-3 + 2H2O + H+ + Ca+2
+	-Vm	74.210000038147 
+	-analytical_expression	191.44500188791 0 -9829.0291292969 -71.7045669556545 0 0 0 
+	-log_K	-18.950001 
+
+Farring
+	Mg3(PO4)2 = 2PO4-3 + 3Mg+2
+	-Vm	95.200004577637 
+	-analytical_expression	405.80380701318 0 -10876.538839726 -158.312401211449 0 0 0 
+	-log_K	-22.41 
+
+HAP
+	Ca5(PO4)3OH + H+ = 3PO4-3 + H2O + 5Ca+2
+	-Vm	159.64005470276 
+	-analytical_expression	640.84204163945 0 -24845.561560975 -243.089669264295 0 0 0 
+	-log_K	-43.999928 
+
+HK3CaP2O8
+	CaK3H(PO4)2 = 2PO4-3 + 3K+ + H+ + Ca+2
+	-Vm	126.48968696594 
+	-analytical_expression	394.64506604314 0 -19718.66796053 -141.813527555676 0 0 0 
+	-log_K	-22.4 
+
+Mg3P2_22H
+	Mg3(PO4)2(H2O)22 = 2PO4-3 + 3Mg+2 + 22H2O
+	-Vm	401.9002532959 
+	-analytical_expression	137.78798811091 0 -8150.5429832019 -53.944008005142 0 0 0 
+	-log_K	-23.03 
+
+Mg3P2_4H
+	Mg3(PO4)2(H2O)4 = 2PO4-3 + 3Mg+2 + 4H2O
+	-Vm	140.70011138916 
+	-analytical_expression	346.91419790748 0 -6180.3572838293 -141.319212316415 0 0 0 
+	-log_K	-23.5 
+
+MKP6H
+	MgKPO4(H2O)6 = PO4-3 + Mg+2 + K+ + 6H2O
+	-Vm	142.49974250793 
+	-analytical_expression	131.71979448749 0 -6622.9273423446 -48.6844054549169 0 0 0 
+	-log_K	-10.96 
+
+MKPH
+	MgKPO4H2O = PO4-3 + Mg+2 + K+ + H2O
+	-Vm	66.0999584198 
+	-analytical_expression	186.18167664565 0 -7179.0299129946 -69.9364118869906 0 0 0 
+	-log_K	-10.95 
+
+Newberyite
+	MgHPO4(H2O)3 = PO4-3 + Mg+2 + 3H2O + H+
+	-Vm	82.200012207031 
+	-analytical_expression	155.83290371668 0 -7699.6190843191 -59.7866848435695 0 0 0 
+	-log_K	-17.93 
+
+OCP
+	Ca4H(PO4)3(H2O)2.5 = 3PO4-3 + 2.5H2O + H+ + 4Ca+2
+	-Vm	182.63000488281 
+	-analytical_expression	546.3242653204 0 -26474.726182498 -204.461881096494 0 0 0 
+	-log_K	-48.399994 
+
+Phosphor
+	MgHPO4(H2O)7 = PO4-3 + Mg+2 + 7H2O + H+
+	-Vm	141.59990310669 
+	-analytical_expression	112.3648661139 0 -6997.832495811 -42.7992768063393 0 0 0 
+	-log_K	-17.01 

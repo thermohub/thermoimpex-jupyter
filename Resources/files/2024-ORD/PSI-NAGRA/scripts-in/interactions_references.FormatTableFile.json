@@ -1,0 +1,62 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.sourcetdb" :   "{\"26\" : \"PSI_NAGRA20\"}",
+	       "properties.vertextype" : "\"VertexInteraction\"",
+	       "properties.ref_for_field" : "{}"
+          },
+          "matches" :   {
+               "Symbol" :   {
+                    "field" :   "properties.symbol",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "logK_Ref" :   {
+                    "field" :   "properties.ref_for_field[\"properties-intpar-values-0\"]"
+               },
+               "DrHm_Ref" :   {
+                    "field" :   "properties.ref_for_field[\"properties-drsm_enthalpy-values-0\"]"
+               },
+               "DrCpm_Ref" :   {
+                    "field" :   "properties.ref_for_field[\"properties-drsm_heat_capacity_p-values-0\"]"
+               }
+          },
+          "script" :   ""
+     },
+     "format" :   {
+          "Nhcols" :   7,
+          "Nhrows" :   1,
+          "headers" :   [
+	       "",
+               "#_ReacDC",
+	       "Symbol_ReacDC",
+	       "#_SIT",
+               "eps_j_Na+",
+               "sigma_eps_j_Na+",
+               "eps_j_Na+_Ref",
+          ],
+          "rowend" :   "\n",
+          "rows_one_block" :   1,
+          "colends" :   ",",
+          "usequotes" :   false,
+          "usemore" :   false,
+          "comment_regexp" :   ""
+     },
+     "renderer" :   "",
+     "label" :   "VertexTemporary",
+     "separators" :   {
+          "v_sep" :   ",",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0
+}

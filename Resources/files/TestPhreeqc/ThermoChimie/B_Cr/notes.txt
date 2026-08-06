@@ -1,0 +1,25 @@
+test_cr_b database contains new generated reactions.
+
+test_thermochimie 8 was previously use to calculate properties. 
+
+H2O used to calculate the dep comp properties G0 was -237.183 kJ/mol not -237.14 as in PSI2020 becuase the EOS was used
+when calculating properties of water.
+
+Reactions were generated using the corrected water and files exported to GEMS format. Phase was taken from old database (were
+all data was as DComp)
+
+WORK to "psi "
+
+5 0 0 0 0 0 0 0
+5 0 0 0 0 0 0 1
+
+^^1 1 32~~
+"THERMOCHIMIE10a:2018:data" 
+^^1 1 24~~
+"all props." 
+
+add "w" to the code of additional aq species, careful not to also add to solids
+
+add W to H2O in sit phase "apsi"
+
+

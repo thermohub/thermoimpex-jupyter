@@ -1,0 +1,76 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.sourcetdb" :   "{\"1002\" :   \"WORK2\"}",
+               "properties.TPMethods" :   "[{\"method\":{\"2\" :   \"solute_hkf88_gems\"}, \"eos_hkf_coeffs\": { \"values\" : [0.0,0.0,0.0,0.0,0.0,0.0,0.0], \"names\" : [\"a1\",\"a2\",\"a3\",\"a4\",\"c1\",\"c2\",\"wref\"], \"units\" : [\"cal/(mol*bar)\",\"cal/mol\", \"(cal*K)/(mol*bar)\", \"(cal*K)/mol\",\"cal/(mol*K)\",\"(cal*K)/mol\",\"cal/mol\"]}}]",
+               "properties.class_": "{\"2\" :   \"SC_AQSOLUTE\"}",
+               "properties.aggregate_state": "{\"4\" :   \"AS_AQUEOUS\"}",
+               "properties.Tst": 298.15,
+               "properties.Pst": 1e5
+          },
+          "matches" :   {
+               "Species" :   {
+                    "field" :   "properties.symbol"
+               },
+               "Gf298" :   {
+                    "field" :   "properties.sm_gibbs_energy.values",
+                    "script" :  "field[1] = field[1]*4.184"
+               },
+               "Hf298" :   {
+                    "field" :   "properties.sm_enthalpy.values",
+                    "script" :  "field[1] = field[1]*4.184"
+               },
+               "S298" :   {
+                    "field" :   "properties.sm_entropy_abs.values",
+                    "script" :  "field[1] = field[1]*4.184"
+               },
+               "Cp298" :   {
+                    "field" :   "properties.sm_heat_capacity_p.values",
+                    "script" :  "field[1] = field[1]*4.184"
+               },
+               "V298" :   {
+                    "field" :   "properties.sm_volume.values",
+                    "script" :  "field[1] = field[1]/10"
+               },
+               "a1" :   {
+                    "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.0",
+                    "script" :  "field = field/10"
+               },
+               "a2" :   {
+                    "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.1",
+                    "script" :  "field = field*100"
+               },
+               "a3" :   {
+                    "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.2"
+               },
+               "a4" :   {
+                    "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.3",
+                    "script" :  "field = field*10000"
+               },
+               "c1" :   {
+                    "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.4"
+               },
+               "c2" :   {
+                    "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.5",
+                    "script" :  "field = field*10000"
+               },
+               "wref" :   {
+                    "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values.6",
+                    "script" :  "field = field*100000"
+               },
+               "datasource" :   {
+                    "field" :   "properties.datasources"
+               }
+          },
+          "script" :   "rintable.properties.formula = rintable.properties.symbol;
+          rintable.properties.name = rintable.properties.symbol;
+          rintable.properties.sm_gibbs_energy.units = {'J/mol'};
+          rintable.properties.sm_enthalpy.units = {'J/mol'};
+          rintable.properties.sm_entropy_abs.units = {'J/(mol*K)'};
+          rintable.properties.sm_heat_capacity_p.units = {'J/(mol*K)'};
+          rintable.properties.sm_volume.units = {'J/bar'};"
+     },
+     "renderer" :   "JSON",
+     "label" :   "VertexSubstance",
+     "comment" :   "Import"
+}

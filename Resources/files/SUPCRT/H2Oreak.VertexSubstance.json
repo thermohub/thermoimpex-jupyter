@@ -1,0 +1,47 @@
+[
+     {
+          "_id" :   "substances/H2O(l);3:SC_AQSOLVENT;21:SUPCRT07",
+          "_key" :   "H2O(l);3:SC_AQSOLVENT;21:SUPCRT07",
+          "_rev" :   "_ZXZrBR6---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "H2O(l)",
+               "sourcetdb" :   {
+                    "21" :   "SUPCRT07"
+               },
+               "formula" :   "H2O",
+               "name" :   "H2O(l)",
+               "class_" :   {
+                    "3" :   "SC_AQSOLVENT"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "formula_charge" :   0,
+               "mass_per_mole" :   18.0153,
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "32" :   "water_eos_iapws95_reaktoro"
+                         }
+                    },
+                    {
+                         "method" :   {
+                              "25" :   "water_diel_jnort91_reaktoro"
+                         }
+                    }
+               ],
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   4,
+                    "hour" :   15,
+                    "minute" :   19,
+                    "second" :   40
+               }
+          }
+     }
+]

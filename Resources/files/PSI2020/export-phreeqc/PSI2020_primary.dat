@@ -1,0 +1,369 @@
+SOLUTION_MASTER_SPECIES 
+
+
+#        ATOMIC WEIGHTS 
+#        Naturally occuring elements: IUPAC 1993 Table 1 rounded to 0.001
+#        Radioelements: Mass number of longest-lived isotope
+#
+#
+#
+#  elemen     species        alk   gfw_formula element_gfw atomic
+#                                                          number
+#
+Ac(3)	 	0.0	Ac	227	 	
+Ag(1)	 	0.0	Ag	107.868	 	
+Al(3)	 	0.0	Al	26.9815	 	
+Am(3)	 	0.0	Am	243.061	 	
+As(5)	 	0.0	As	74.9216	 	
+B(3)	 	0.0	B	10.812	 	
+Ba(2)	 	0.0	Ba	137.328	 	
+Br(-1)	 	0.0	Br	79.904	 	
+C(4)	 	0.0	C	12.0108	 	
+Ca(2)	 	0.0	Ca	40.078	 	
+Cd(2)	 	0.0	Cd	112.414	 	
+Cf(3)	 	0.0	Cf	251	 	
+Cit(-3)	 	0.0	Cit	189.1	 	
+Cl(-1)	 	0.0	Cl	35.453	 	
+Cm(3)	 	0.0	Cm	247	 	
+Cs(1)	 	0.0	Cs	132.905	 	
+Cu(2)	 	0.0	Cu	63.546	 	
+Edta(-4)	 	0.0	Edta	288.212	 	
+Eu(3)	 	0.0	Eu	151.964	 	
+F(-1)	 	0.0	F	18.9984	 	
+Fe(2)	 	0.0	Fe	55.845	 	
+H(1)	 	0.0	H	1.00795	 	
+Hg(2)	 	0.0	Hg	200.592	 	
+Ho(3)	 	0.0	Ho	164.93	 	
+I(-1)	 	0.0	I	126.904	 	
+Isa(-4)	 	0.0	Isa	176.125	 	
+K(1)	 	0.0	K	39.0983	 	
+Li(1)	 	0.0	Li	6.941	 	
+Mg(2)	 	0.0	Mg	24.305	 	
+Mn(2)	 	0.0	Mn	54.938	 	
+Mo(6)	 	0.0	Mo	95.94	 	
+N(5)	 	0.0	N	14.0067	 	
+Na(1)	 	0.0	Na	22.9898	 	
+Nb(5)	 	0.0	Nb	92.906	 	
+Ni(2)	 	0.0	Ni	58.693	 	
+Np(6)	 	0.0	Np	237.048	 	
+O(-2)	 	0.0	O	15.9994	 	
+Oxa(-2)	 	0.0	Oxa	88.019	 	
+P(5)	 	0.0	P	30.9738	 	
+Pa(5)	 	0.0	Pa	231.036	 	
+Pb(2)	 	0.0	Pb	207.2	 	
+Pd(2)	 	0.0	Pd	106.42	 	
+Po(4)	 	0.0	Po	209	 	
+Pu(6)	 	0.0	Pu	244.064	 	
+Ra(2)	 	0.0	Ra	226.025	 	
+S(6)	 	0.0	S	32.067	 	
+Se(4)	 	0.0	Se	78.96	 	
+Si(4)	 	0.0	Si	28.0855	 	
+Sm(3)	 	0.0	Sm	150.36	 	
+Sn(2)	 	0.0	Sn	118.711	 	
+Sr(2)	 	0.0	Sr	87.65	 	
+Tc(7)	 	0.0	Tc	97.907	 	
+Th(4)	 	0.0	Th	232.038	 	
+Ti(4)	 	0.0	Ti	47.867	 	
+U(6)	 	0.0	U	238.029	 	
+Zn(2)	 	0.0	Zn	65.38	 	
+Zr(4)	 	0.0	Zr	91.224	 	
+Zz(0)	 	0.0	Zz	0	 	
+
+
+SOLUTION_SPECIES 
+
+# PMATCH MASTER SPECIES 
+
+
+Ag+	=	Ag+
+	-log_k 	0.0  
+
+Am+3	=	Am+3
+	-log_k 	0.0  
+
+HAsO4-2	=	HAsO4-2
+	-log_k 	0.0  
+
+Cl-	=	Cl-
+	-log_k 	0.0  
+
+Cu+2	=	Cu+2
+	-log_k 	0.0  
+
+Fe+2	=	Fe+2
+	-log_k 	0.0  
+
+HCO3-	=	HCO3-
+	-log_k 	0.0  
+
+Hg+2	=	Hg+2
+	-log_k 	0.0  
+
+I-	=	I-
+	-log_k 	0.0  
+
+Mn+2	=	Mn+2
+	-log_k 	0.0  
+
+MoO4-2	=	MoO4-2
+	-log_k 	0.0  
+
+NO3-	=	NO3-
+	-log_k 	0.0  
+
+NpO2+2	=	NpO2+2
+	-log_k 	0.0  
+
+Pa+4	=	Pa+4
+	-log_k 	0.0  
+
+Pb+2	=	Pb+2
+	-log_k 	0.0  
+
+Pd+2	=	Pd+2
+	-log_k 	0.0  
+
+Po+2	=	Po+2
+	-log_k 	0.0  
+
+PuO2+2	=	PuO2+2
+	-log_k 	0.0  
+
+SeO3-2	=	SeO3-2
+	-log_k 	0.0  
+
+Sn+4	=	Sn+4
+	-log_k 	0.0  
+
+SO4-2	=	SO4-2
+	-log_k 	0.0  
+
+TcO(OH)2	=	TcO(OH)2
+	-log_k 	0.0  
+
+TiO+2	=	TiO+2
+	-log_k 	0.0  
+
+H+	=	H+
+	-log_k 	0.0  
+
+H2O	=	H2O
+	-log_k 	0.0  
+
+e-	=	e-
+	-log_k 	0.0  
+
+UO2+2	=	UO2+2
+	-log_k 	0.0  
+
+# PMATCH SECONDARY MASTER SPECIES 
+
+
+TcO(OH)2 + H2O = TcO4- + 4H+ + 3e-
+	-analytical_expression	40.601312162707 0 -16921.04857378 -5.66443482536885 0 0 0 
+	-log_K	-30.169715 
+
+e- + Ag+ = Ag
+	-analytical_expression	-9.3474101092518 0 3935.7482430967 1.31480989258198 0 0 0 
+	-log_K	7.106558 
+
+2H2O + Am+3 = AmO2+ + 4H+ + 2e-
+	-analytical_expression	50.253121753985 0 -21958.59353297 -14.6570272932122 0 0 0 
+	-log_K	-59.666694 
+
+HAsO4-2 + 4H+ + 2e- = As(OH)3 + H2O
+	-analytical_expression	-4.0128551189636 0 6852.0832004996 3.82788642985784 0 0 0 
+	-log_K	28.441 
+
+HCO3- + 9H+ + 8e- = CH4 + 3H2O
+	-analytical_expression	-167.08105722904 0 20047.490616069 51.6038828504494 0 0 0 
+	-log_K	27.849 
+
+4H2O + Cl- = ClO4- + 8H+ + 8e-
+	-analytical_expression	92.726819080724 0 -64962.757759973 -25.2646517954108 0 0 0 
+	-log_K	-187.672346 
+
+e- + Cu+2 = Cu+
+	-analytical_expression	9.0471072178756 0 -578.15637090974 -1.73407693297171 0 0 0 
+	-log_K	2.817078 
+
+Fe+2 = Fe+3 + e-
+	-analytical_expression	18.69116016635 0 -3200.5458172679 -8.48901498703084 0 0 0 
+	-log_K	-13.050009 
+
+2H+ + 2e- = H2
+	-analytical_expression	-54.254650788486 0 2456.4471817166 17.3416112314047 0 0 0 
+	-log_K	-3.105 
+
+SeO3-2 + 8H+ + 6e- = H2Se + 3H2O
+	-analytical_expression	-50.839013129596 0 19883.420035906 16.7833101409031 0 0 0 
+	-log_K	57.380446 
+
+NO3- + HCO3- + 12H+ + 10e- = HCN + 6H2O
+	-analytical_expression	-125.83271436256 0 42098.654751395 37.0347741477499 0 0 0 
+	-log_K	107.007 
+
+Hg+2 + 2e- = Hg
+	-analytical_expression	6.616305996545 0 7240.1938431467 -3.46815386594352 0 0 0 
+	-log_K	22.318246 
+
+SO4-2 + 9H+ + 8e- = HS- + 4H2O
+	-analytical_expression	-75.24771691195 0 15970.536253293 22.3777468545373 0 0 0 
+	-log_K	33.69 
+
+SeO3-2 + H2O = HSeO4- + H+ + 2e-
+	-analytical_expression	26.292620208175 0 -11550.268997564 -5.59443671363444 0 0 0 
+	-log_K	-26.283969 
+
+2I- = I2 + 2e-
+	-analytical_expression	-11.142964238079 0 -5482.5425424679 3.46815386594352 0 0 0 
+	-log_K	-20.95 
+
+I- + 3H2O = IO3- + 6H+ + 6e-
+	-analytical_expression	58.935755027481 0 -38452.884010536 -16.7833101409031 0 0 0 
+	-log_K	-111.565 
+
+Mn+2 = Mn+3 + e-
+	-analytical_expression	-11.609192426384 0 -5406.2153829912 1.73407693297171 0 0 0 
+	-log_K	-25.450058 
+
+2NO3- + 12H+ + 10e- = N2 + 6H2O
+	-analytical_expression	-263.71599709288 0 79251.583780059 82.9150485113644 0 0 0 
+	-log_K	207.263 
+
+NO3- + 10H+ + 8e- = NH4+ + 3H2O
+	-analytical_expression	-115.16587770395 0 45262.29566313 33.3366608494401 0 0 0 
+	-log_K	119.134 
+
+NpO2+2 + 4H+ + 3e- = Np+3 + 2H2O
+	-analytical_expression	-45.806710587161 0 14113.215008615 12.9229503602403 0 0 0 
+	-log_K	33.510615 
+
+NpO2+2 + 4H+ + 2e- = Np+4 + 2H2O
+	-analytical_expression	-59.597663141546 0 15842.071473253 14.6570272932122 0 0 0 
+	-log_K	29.814076 
+
+NpO2+2 + e- = NpO2+
+	-analytical_expression	5.4592354963684 0 5850.5851504621 -2.21516361156008 0 0 0 
+	-log_K	19.60392 
+
+2H2O = O2 + 4H+ + 4e-
+	-analytical_expression	-35.570814769961 0 -27109.786143763 16.3728229323974 0 0 0 
+	-log_K	-85.984 
+
+Pa+4 + 2H2O = PaO(OH)+2 + 3H+ + e-
+	-analytical_expression	63.422497771133 0 -6199.7336389971 -16.3911042261838 0 0 0 
+	-log_K	2.070763 
+
+Pb+2 + 2e- = Pb
+	-analytical_expression	-3.6427024734794 0 -2162.483719437 -0.262913869848538 0 0 0 
+	-log_K	-11.54629 
+
+Pd+2 + 2e- = Pd
+	-analytical_expression	0.78789495528946 0 6356.7030104888 -0.353117622083864 0 0 0 
+	-log_K	21.228575 
+
+Po+2 + 4e- = Po-2
+	-analytical_expression	-6.0853526195164 0 -898.14711150283 -6.93630773188681 0 0 0 
+	-log_K	-26.261194 
+
+Po+2 + 2e- = Po
+	-analytical_expression	31.829176240381 0 -2536.1235557234 -3.46815386594352 0 0 0 
+	-log_K	14.741255 
+
+Po+2 = Po+4 + 2e-
+	-analytical_expression	-36.787093424283 0 449.07355575141 3.46815386594352 0 0 0 
+	-log_K	-26.699173 
+
+PuO2+2 + 4H+ + 3e- = Pu+3 + 2H2O
+	-analytical_expression	-46.438733788891 0 19508.917218425 12.9229503602403 0 0 0 
+	-log_K	50.959681 
+
+PuO2+2 + 4H+ + 2e- = Pu+4 + 2H2O
+	-analytical_expression	-60.083433040397 0 17022.544560781 14.6570272932122 0 0 0 
+	-log_K	33.265347 
+
+PuO2+2 + e- = PuO2+
+	-analytical_expression	5.4022809677882 0 4383.6983175387 -1.73407693297171 0 0 0 
+	-log_K	15.802266 
+
+SO4-2 + 8H+ + 6e- = S + 4H2O
+	-analytical_expression	-86.498008054031 0 13404.854566377 28.5820812049513 0 0 0 
+	-log_K	29.186456 
+
+2SO4-2 + 10H+ + 8e- = S2O3-2 + 5H2O
+	-analytical_expression	-98.806753089122 0 17597.912458383 31.4403374341141 0 0 0 
+	-log_K	38.014 
+
+SeO3-2 + 6H+ + 4e- = Se + 3H2O
+	-analytical_expression	-68.441883096165 0 19681.265832894 23.269080198291 0 0 0 
+	-log_K	55.147062 
+
+Sn+4 + 2e- = Sn+2
+	-analytical_expression	26.93943524255 0 -1602.3853156024 -3.46815386594352 0 0 0 
+	-log_K	12.979932 
+
+SO4-2 + 2H+ + 2e- = SO3-2 + H2O
+	-analytical_expression	-21.770247136182 0 1350.6726134471 5.59443671363444 0 0 0 
+	-log_K	-3.397 
+
+TcO(OH)2 + 4H+ + e- = Tc+3 + 3H2O
+	-analytical_expression	-120.99162610204 0 25649.744728021 31.1181296311304 0 0 0 
+	-log_K	11.869219 
+
+TiO+2 + 2H+ + e- = Ti+3 + H2O
+	-analytical_expression	-69.685206634711 0 15878.782412954 7.32851364660608 0 0 0 
+	-log_K	1.706364 
+
+UO2+2 + 4H+ + 2e- = U+4 + 2H2O
+	-analytical_expression	32.998926763648 0 5325.6984790302 -16.9022588221838 0 0 0 
+	-log_K	9.045133 
+
+UO2+2 + e- = UO2+
+	-analytical_expression	20.287633996937 0 -566.22419072766 -6.83359572600818 0 0 0 
+	-log_K	1.480368 
+
+
+PHASES 
+
+
+
+As(cr)
+	As + 4H2O = HAsO4-2 + 7H+ + 5e-
+	-analytical_expression	80.750552138596 0 -15949.443398242 -27.5799776534515 0 0 0 
+	-log_K	-40.989 
+
+C(cr)
+	C + 3H2O = HCO3- + 5H+ + 4e-
+	-analytical_expression	66.392171753626 0 -11359.587801312 -20.2514640068464 0 0 0 
+	-log_K	-21.819 
+
+Cu(cr)
+	Cu = 2e- + Cu+2
+	-analytical_expression	-10.107997464686 0 -2940.8690717093 3.46815386594352 0 0 0 
+	-log_K	-11.39 
+
+Fe(alpha)
+	Fe = Fe+2 + 2e-
+	-analytical_expression	6.808109090973 0 4416.3905533813 -2.31498909736705 0 0 0 
+	-log_K	15.893366 
+
+MnO2(cr)
+	MnO2 + 4H+ + 2e- = Mn+2 + 2H2O
+	-analytical_expression	-48.754025399469 0 16129.354746766 14.6570272932122 0 0 0 
+	-log_K	41.616722 
+
+MoO2(cr)
+	MoO2 + 2H2O = MoO4-2 + 4H+ + 2e-
+	-analytical_expression	41.2120559699 0 -10396.381973851 -14.6570272932122 0 0 0 
+	-log_K	-29.921118 
+
+Sn(beta)
+	Sn = Sn+4 + 4e-
+	-analytical_expression	-24.393585818528 0 2121.3028412939 3.67574276775435 0 0 0 
+	-log_K	-8.181439 
+
+Ti(alpha)
+	Ti + H2O = TiO+2 + 2H+ + 4e-
+	-analytical_expression	115.85968994396 0 -15205.172079326 -2.12628284769088 0 0 0 
+	-log_K	59.6 

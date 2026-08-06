@@ -1,0 +1,76 @@
+[
+     {
+          "_id" :   "substances/ANA;_0_:_SC_COMPONENT_;_20_:_CEMDATA18_",
+          "_key" :   "ANA;_0_:_SC_COMPONENT_;_20_:_CEMDATA18_",
+          "_rev" :   "_cbWtQXq--_",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "ANA",
+               "sourcetdb" :   {
+                    "20" :   "CEMDATA18"
+               },
+               "formula" :   "Na2(Al2Si4)O12(H2O)2",
+               "name" :   "_rdc_ANA",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "formula_charge" :   0,
+               "mass_per_mole" :   440.30801391602,
+               "sm_volume" :   {
+                    "values" :   [
+                         19.483999252319
+                    ],
+                    "errors" :   [
+                         28.292999267578
+                    ]
+               },
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -6139705.5
+                    ],
+                    "errors" :   [
+                         11416
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -6575842.3
+                    ],
+                    "errors" :   [
+                         31000
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         469
+                    ],
+                    "errors" :   [
+                         459
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "values" :   [
+                         425
+                    ],
+                    "errors" :   [
+                         425
+                    ]
+               },
+               "comment" :   "Ma_ea:2020:pap",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   6,
+                    "day" :   4,
+                    "hour" :   10,
+                    "minute" :   41,
+                    "second" :   33
+               }
+          }
+     }
+]

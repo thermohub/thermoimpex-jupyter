@@ -1,0 +1,681 @@
+SOLUTION_MASTER_SPECIES 
+
+
+#        ATOMIC WEIGHTS 
+#        Naturally occuring elements: IUPAC 1993 Table 1 rounded to 0.001
+#        Radioelements: Mass number of longest-lived isotope
+#
+#
+#
+#  elemen     species        alk   gfw_formula element_gfw atomic
+#                                                          number
+#
+Al	Al	0.0	aluminum	26.98150062561	13	
+C	C 	0.0	carbon	12.010800361633	6	
+Ca	Ca	0.0	calcium	40.07799911499	20	
+Cl	Cl	0.0	chlorine	35.45299911499	17	
+H	H	0.0	hydrogen	1.0079499483109	1	
+K	K	0.0	potassium	39.098300933838	19	
+Mg	Mg	0.0	magnesium	24.305000305176	12	
+Na	Na	0.0	sodium	22.989799499512	11	
+O	O	0.0	oxygen	15.999400138855	8	
+Si	Si	0.0	silicon	28.085500717163	14	
+Zz	Zz	0.0	electric_charge	0	0	
+
+
+SOLUTION_SPECIES 
+
+# PMATCH MASTER SPECIES 
+
+
+Al+3	=	Al+3
+	-gamma 	9  0  
+	-log_k 	0.0  
+
+OH-	=	OH-
+	-gamma 	3.5  0  
+	-log_k 	0.0  
+
+SiO2@	=	SiO2@
+	-gamma 	0  0  
+	-log_k 	0.0  
+
+H2O@	=	H2O@
+	-gamma 	-1  0  
+	-log_k 	0.0  
+
+Ca+2	=	Ca+2
+	-gamma 	6  0  
+	-log_k 	0.0  
+
+CO3-2	=	CO3-2
+	-gamma 	4.5  0  
+	-log_k 	0.0  
+
+Cl-	=	Cl-
+	-gamma 	3  0  
+	-log_k 	0.0  
+
+K+	=	K+
+	-gamma 	3  0  
+	-log_k 	0.0  
+
+Mg+2	=	Mg+2
+	-gamma 	8  0  
+	-log_k 	0.0  
+
+Na+	=	Na+
+	-gamma 	4  0  
+	-log_k 	0.0  
+
+C|-4|H4@	=	C|-4|H4@
+	-gamma 	0  0  
+	-log_k 	0.0  
+
+# PMATCH SECONDARY MASTER SPECIES 
+
+
+Al+3 + 3OH- = Al(OH)3@
+	-gamma	0 0 
+	-log_K	25.810602 
+
+Al+3 + 4OH- = Al(OH)4-
+	-gamma	3.5 0 
+	-log_K	33.166364 
+
+Al+3 + SiO2@ + H2O@ + OH- = AlH3SiO4+2
+	-gamma	5.5 0 
+	-log_K	11.791434 
+
+Al+3 + OH- = AlOH+2
+	-gamma	5.5 0 
+	-log_K	9.048637 
+
+Ca+2 + CO3-2 = CaCO3@
+	-gamma	0 0 
+	-log_K	3.202499 
+
+Ca+2 + Cl- = CaCl+
+	-gamma	4.5 0 
+	-log_K	0.905389 
+
+Ca+2 + 2Cl- = CaCl2@
+	-gamma	0 0 
+	-log_K	-3.400641 
+
+Ca+2 + CO3-2 + H2O@ = OH- + CaHCO3+
+	-gamma	4.5 0 
+	-log_K	-2.711262 
+
+Ca+2 + SiO2@ + OH- = CaHSiO3+
+	-gamma	4.5 0 
+	-log_K	5.398699 
+
+Ca+2 + OH- = CaOH+
+	-gamma	4.5 0 
+	-log_K	1.16187 
+
+1.Ca+2 + 1.SiO2@ + 2.OH- = H2O@ + 1.CaSiO3@
+	-gamma	4.5 0 
+	-log_K	8.913915 
+
+Al+3 + K+ + 4OH- = 2H2O@ + KAlO2@
+	-gamma	0 0 
+	-log_K	31.85821 
+
+K+ + Cl- = KCl@
+	-gamma	0 0 
+	-log_K	-0.987904 
+
+K+ + OH- = KOH@
+	-gamma	0 0 
+	-log_K	-0.443935 
+
+K+ + CO3-2 = KCO3-
+	-gamma	0 0 
+	-log_K	1.032403 
+
+K+ + CO3-2 + H2O@ = OH- + KHCO3@
+	-gamma	0 0 
+	-log_K	-3.933923 
+
+Mg+2 + CO3-2 = MgCO3@
+	-gamma	0 0 
+	-log_K	2.978955 
+
+Mg+2 + Cl- = MgCl+
+	-gamma	4.5 0 
+	-log_K	0.860015 
+
+Mg+2 + 2Cl- = MgCl2@
+	-gamma	0 0 
+	-log_K	-3.85754 
+
+Mg+2 + CO3-2 + H2O@ = OH- + MgHCO3+
+	-gamma	4.5 0 
+	-log_K	-2.63085 
+
+Mg+2 + SiO2@ + OH- = MgHSiO3+
+	-gamma	4.5 0 
+	-log_K	5.270634 
+
+Mg+2 + OH- = MgOH+
+	-gamma	4.5 0 
+	-log_K	2.312702 
+
+1.Mg+2 + 1.SiO2@ + 2.OH- = H2O@ + 1.MgSiO3@
+	-gamma	4.5 0 
+	-log_K	8.913389 
+
+Al+3 + Na+ + 4OH- = NaAl(OH)4@
+	-gamma	0 0 
+	-log_K	33.314226 
+
+K+ + CO3-2 = NaCO3-
+	-gamma	0 0 
+	-log_K	-2.631375 
+
+Na+ + Cl- = NaCl@
+	-gamma	0 0 
+	-log_K	-0.765236 
+
+Na+ + CO3-2 + H2O@ = OH- + NaHCO3@
+	-gamma	4.5 0 
+	-log_K	-3.844751 
+
+Na+ + SiO2@ + OH- = NaHSiO3@
+	-gamma	0 0 
+	-log_K	6.220522 
+
+Na+ + OH- = NaOH@
+	-gamma	0 0 
+	-log_K	-0.327958 
+
+SiO2@ + OH- = HSiO3-
+	-gamma	3.5 0 
+	-log_K	4.176038 
+
+3.CO3-2 + H2O@ + 1.CH4@ = 6.OH- + 4.CO@
+	-gamma	0 0 
+	-log_K	-75.588441 
+
+1.CO3-2 + H2O@ = 2.OH- + 1.CO2@
+	-gamma	0 0 
+	-log_K	-11.307205 
+
+CO3-2 + H2O@ = OH- + HCO3-
+	-gamma	4 0 
+	-log_K	-3.681473 
+
+Cl- + H2O@ = OH- + HCl@
+	-gamma	0 0 
+	-log_K	-14.704867 
+
+H2O@ + CH4@ + 2OH- = CO3-2 + 4H2@
+	-gamma	0 0 
+	-log_K	-22.559399 
+
+CO3-2 + 3H2O@ = CH4@ + 2OH- + 2O2@
+	-gamma	0 0 
+	-log_K	-161.860406 
+
+Al+3 + 2OH- = Al(OH)2+
+	-gamma	4.5 0 
+	-log_K	17.011788 
+
+
+PHASES 
+
+
+
+CO(g)
+	3.CO3-2 + H2O@ + 1.CH4@ = 6.OH- + 4.CO
+	-log_K	-63.557696 
+
+CO2(g)
+	1.CO3-2 + H2O@ = 2.OH- + 1.CO2
+	-log_K	-9.849437 
+
+CH4(g)
+	CH4@ = CH4
+	-log_K	2.903973 
+
+H2(g)
+	H2O@ + CH4@ + 2OH- = CO3-2 + 4H2
+	-log_K	-10.148138 
+
+H2O(g)
+	H2O@ = H2O
+	-log_K	-1.511026 
+
+O2(g)
+	CO3-2 + 3H2O@ = CH4@ + 2OH- + 2O2
+	-log_K	-156.06157 
+
+H+
+	H2O@ = OH- + H+
+	-log_K	-13.995342 
+
+Portlandite
+	Ca+2 + 2OH- = Portlandite
+	-log_K	5.185316 
+
+Anthophyll-Mg
+	7Mg+2 + 8SiO2@ + 14OH- = 6H2O@ + Anthophyll-Mg
+	-log_K	122.569349 
+
+Cummingtonite
+	7Mg+2 + 8SiO2@ + 14OH- = 6H2O@ + Cummingtonite
+	-log_K	120.725109 
+
+Edenite-Mg
+	Al+3 + 2Ca+2 + 5Mg+2 + Na+ + 7SiO2@ + 18OH- = 8H2O@ + Edenite-Mg
+	-log_K	170.847375 
+
+Gedrite-Mg
+	4Al+3 + 5Mg+2 + 6SiO2@ + 22OH- = 10H2O@ + Gedrite-Mg
+	-log_K	221.5504 
+
+Glaucophane-Mg
+	2Al+3 + 3Mg+2 + 2Na+ + 8SiO2@ + 14OH- = 6H2O@ + Glaucophane-Mg
+	-log_K	162.866355 
+
+Pargasite-Mg
+	3Al+3 + 2Ca+2 + 4Mg+2 + Na+ + 6SiO2@ + 22OH- = 10H2O@ + Pargasite-Mg
+	-log_K	219.055499 
+
+Tremolite-Mg
+	2Ca+2 + 5Mg+2 + 8SiO2@ + 14OH- = 6H2O@ + Tremolite-Mg
+	-log_K	130.698757 
+
+Tschermakite-Mg
+	4Al+3 + 2Ca+2 + 3Mg+2 + 6SiO2@ + 22OH- = 10H2O@ + Tschermakite-Mg
+	-log_K	227.115006 
+
+Aragonite
+	Ca+2 + CO3-2 = Aragonite
+	-log_K	8.340163 
+
+Calcite
+	Ca+2 + CO3-2 = Calcite
+	-log_K	8.477688 
+
+Dolomite
+	Ca+2 + Mg+2 + 2CO3-2 = Dolomite
+	-log_K	17.011087 
+
+Dolomite-od
+	Ca+2 + Mg+2 + 2CO3-2 = 2Dolomite-od
+	-log_K	18.478841 
+
+Magnesite
+	Mg+2 + CO3-2 = Magnesite
+	-log_K	7.636068 
+
+Amesite-Mg
+	4Al+3 + 4Mg+2 + 2SiO2@ + 20OH- = 6H2O@ + Amesite-Mg
+	-log_K	211.127737 
+
+Chlorite-Mg
+	6Mg+2 + 4SiO2@ + 12OH- = 2H2O@ + Chlorite-Mg
+	-log_K	102.033937 
+
+Clinochlore
+	2Al+3 + 5Mg+2 + 3SiO2@ + 16OH- = 4H2O@ + Clinochlore
+	-log_K	162.700098 
+
+Sudoite-Mg
+	4Al+3 + 2Mg+2 + 3SiO2@ + 16OH- = 4H2O@ + Sudoite-Mg
+	-log_K	182.500583 
+
+Carpholite-Mg
+	2Al+3 + Mg+2 + 2SiO2@ + 8OH- = 2H2O@ + Carpholite-Mg
+	-log_K	94.778559 
+
+Sapphirine4-Mg
+	8Al+3 + 4Mg+2 + 2SiO2@ + 32OH- = 16H2O@ + Sapphirine4-Mg
+	-log_K	312.684978 
+
+Sapphirine5-Mg
+	10Al+3 + 3Mg+2 + SiO2@ + 36OH- = 18H2O@ + Sapphirine5-Mg
+	-log_K	362.902723 
+
+Diamond
+	CO3-2 + CH4@ = H2O@ + 2OH- + 2Diamond
+	-log_K	-2.895914 
+
+Graphite
+	CO3-2 + CH4@ = H2O@ + 2OH- + 2Graphite
+	-log_K	-1.811129 
+
+Albite
+	Al+3 + Na+ + 3SiO2@ + 4OH- = 2H2O@ + Albite
+	-log_K	54.714909 
+
+Albite high
+	Al+3 + Na+ + 3SiO2@ + 4OH- = 2H2O@ + Albite high
+	-log_K	53.69985 
+
+Analcite
+	1.Al+3 + 1.Na+ + 2.SiO2@ + 4.OH- = H2O@ + 1.Analcite
+	-log_K	50.502431 
+
+Anorthite
+	2Al+3 + Ca+2 + 2SiO2@ + 8OH- = 4H2O@ + Anorthite
+	-log_K	88.337822 
+
+Coesite
+	SiO2@ = Coesite
+	-log_K	2.947245 
+
+Cristobalite
+	SiO2@ = Cristobalite
+	-log_K	3.33617 
+
+Heulandite
+	2Al+3 + Ca+2 + 7SiO2@ + 2H2O@ + 8OH- = Heulandite
+	-log_K	116.557481 
+
+Kalsilite
+	Al+3 + K+ + SiO2@ + 4OH- = 2H2O@ + Kalsilite
+	-log_K	44.479525 
+
+Laumontite
+	2Al+3 + Ca+2 + 4SiO2@ + 8OH- = Laumontite
+	-log_K	102.893951 
+
+Leucite
+	Al+3 + K+ + 2SiO2@ + 4OH- = 2H2O@ + Leucite
+	-log_K	49.053248 
+
+Meionite-Ca
+	6Al+3 + 4Ca+2 + 6SiO2@ + CO3-2 + 24OH- = 12H2O@ + Meionite-Ca
+	-log_K	265.327058 
+
+Meionite-Na
+	3Al+3 + Ca+2 + 3Na+ + 9SiO2@ + 1.CO3-2 + 12OH- = 6H2O@ + Meionite-Na
+	-log_K	164.257916 
+
+Microcline
+	Al+3 + K+ + 3SiO2@ + 4OH- = 2H2O@ + Microcline
+	-log_K	57.796876 
+
+Mizzonite
+	5Al+3 + 3Ca+2 + Na+ + 7SiO2@ + CO3-2 + 20OH- = 10H2O@ + Mizzonite
+	-log_K	236.955689 
+
+Nepheline
+	Al+3 + Na+ + SiO2@ + 4OH- = 2H2O@ + Nepheline
+	-log_K	43.606196 
+
+Quartz
+	SiO2@ = Quartz
+	-log_K	3.922886 
+
+Sanidine
+	Al+3 + K+ + 3SiO2@ + 4OH- = 2H2O@ + Sanidine
+	-log_K	56.749932 
+
+Stilbite
+	2Al+3 + Ca+2 + 7SiO2@ + 3H2O@ + 8OH- = Stilbite
+	-log_K	117.466374 
+
+Stishovite
+	SiO2@ = Stishovite
+	-log_K	-3.131722 
+
+Tridymite
+	SiO2@ = Tridymite
+	-log_K	3.437956 
+
+Wairakite
+	2Al+3 + Ca+2 + 4SiO2@ + 8OH- = 2H2O@ + Wairakite
+	-log_K	100.608404 
+
+Grossular
+	2Al+3 + 3Ca+2 + 3SiO2@ + 12OH- = 6H2O@ + Grossular
+	-log_K	119.84267 
+
+Pyrope
+	2Al+3 + 3Mg+2 + 3SiO2@ + 12OH- = 6H2O@ + Pyrope
+	-log_K	109.745513 
+
+Halite
+	Na+ + Cl- = Halite
+	-log_K	-0.55816 
+
+Sylvite
+	K+ + Cl- = Sylvite
+	-log_K	0.074807 
+
+Cceladonite-Mg
+	2Al+3 + Ca+2 + Mg+2 + 3SiO2@ + 10OH- = 4H2O@ + Cceladonite-Mg
+	-log_K	106.574373 
+
+Celadonite-Mg
+	Al+3 + K+ + Mg+2 + 4SiO2@ + 6OH- = 2H2O@ + Celadonite-Mg
+	-log_K	76.734894 
+
+Eastonite
+	3Al+3 + K+ + 2Mg+2 + 2SiO2@ + 14OH- = 6H2O@ + Eastonite
+	-log_K	149.954922 
+
+Margarite
+	4Al+3 + Ca+2 + 2SiO2@ + 14OH- = 6H2O@ + Margarite
+	-log_K	159.633723 
+
+Muscovite
+	3Al+3 + K+ + 3SiO2@ + 10OH- = 4H2O@ + Muscovite
+	-log_K	129.794244 
+
+Nceladonite-Mg
+	Al+3 + Mg+2 + Na+ + 4SiO2@ + 6OH- = 2H2O@ + Nceladonite-Mg
+	-log_K	73.600019 
+
+Paragonite
+	3Al+3 + Na+ + 3SiO2@ + 10OH- = 4H2O@ + Paragonite
+	-log_K	126.659544 
+
+Phlogopite
+	Al+3 + K+ + 3Mg+2 + 3SiO2@ + 10OH- = 4H2O@ + Phlogopite
+	-log_K	101.507837 
+
+Phlogopite-Na
+	Al+3 + 3Mg+2 + Na+ + 3SiO2@ + 10OH- = 4H2O@ + Phlogopite-Na
+	-log_K	97.197427 
+
+Akermanite
+	2Ca+2 + Mg+2 + 2SiO2@ + 6OH- = 3H2O@ + Akermanite
+	-log_K	36.427727 
+
+Andalusite
+	2Al+3 + SiO2@ + 6OH- = 3H2O@ + Andalusite
+	-log_K	70.354773 
+
+Chloritoid-Mg
+	2Al+3 + Mg+2 + SiO2@ + 8OH- = 3H2O@ + Chloritoid-Mg
+	-log_K	87.218524 
+
+Clinohumite
+	9Mg+2 + 4SiO2@ + 18OH- = 8H2O@ + Clinohumite
+	-log_K	116.745636 
+
+Clinozoisite
+	3Al+3 + 2Ca+2 + 3SiO2@ + 13OH- = 6H2O@ + Clinozoisite
+	-log_K	142.713034 
+
+Cordierite-Mg
+	4Al+3 + 2Mg+2 + 5SiO2@ + 16OH- = 8H2O@ + Cordierite-Mg
+	-log_K	176.112403 
+
+Forsterite
+	2Mg+2 + SiO2@ + 4OH- = 2H2O@ + Forsterite
+	-log_K	26.676039 
+
+Gehlenite
+	2Al+3 + 2Ca+2 + SiO2@ + 10OH- = 5H2O@ + Gehlenite
+	-log_K	85.113248 
+
+Hcordierite-Mg
+	4Al+3 + 2Mg+2 + 5SiO2@ + 16OH- = 7H2O@ + Hcordierite-Mg
+	-log_K	176.231007 
+
+Kyanite
+	2Al+3 + SiO2@ + 6OH- = 3H2O@ + Kyanite
+	-log_K	70.629298 
+
+Larnite
+	2Ca+2 + SiO2@ + 4OH- = 2H2O@ + Larnite
+	-log_K	17.169986 
+
+Lawsonite
+	2Al+3 + Ca+2 + 2SiO2@ + 8OH- = 2H2O@ + Lawsonite
+	-log_K	93.795385 
+
+Merwinite
+	3Ca+2 + Mg+2 + 2SiO2@ + 8OH- = 4H2O@ + Merwinite
+	-log_K	39.747955 
+
+Monticellite
+	Ca+2 + Mg+2 + SiO2@ + 4OH- = 2H2O@ + Monticellite
+	-log_K	24.091974 
+
+Osumilite1-Mg
+	5Al+3 + K+ + 2Mg+2 + 10SiO2@ + 20OH- = 10H2O@ + Osumilite1-Mg
+	-log_K	242.878204 
+
+Osumilite2-Mg
+	3Al+3 + K+ + 3Mg+2 + 11SiO2@ + 16OH- = 8H2O@ + Osumilite2-Mg
+	-log_K	188.305726 
+
+Pumpellyite-Mg
+	5Al+3 + 4Ca+2 + Mg+2 + 6SiO2@ + 25OH- = 9H2O@ + Pumpellyite-Mg
+	-log_K	271.010793 
+
+Rankinite
+	3Ca+2 + 2SiO2@ + 6OH- = 3H2O@ + Rankinite
+	-log_K	32.547062 
+
+Sillimanite
+	2Al+3 + SiO2@ + 6OH- = 3H2O@ + Sillimanite
+	-log_K	69.95446 
+
+Spurrite
+	5Ca+2 + 2SiO2@ + CO3-2 + 8OH- = 4H2O@ + Spurrite
+	-log_K	46.737042 
+
+Staurolite-Mg
+	180Al+3 + 40Mg+2 + 75SiO2@ + 620OH- = 290H2O@ + 10Staurolite-Mg
+	-log_K	6800.875801 
+
+Tilleyite
+	5Ca+2 + 2SiO2@ + 2CO3-2 + 6OH- = 3H2O@ + Tilleyite
+	-log_K	50.781161 
+
+Topaz-OH
+	2Al+3 + SiO2@ + 6OH- = 2H2O@ + Topaz-OH
+	-log_K	72.418528 
+
+Vesuvianite
+	11Al+3 + 19Ca+2 + 2Mg+2 + 18SiO2@ + 75OH- = 33H2O@ + Vesuvianite
+	-log_K	728.020041 
+
+Zoisite
+	3Al+3 + 2Ca+2 + 3SiO2@ + 13OH- = 6H2O@ + Zoisite
+	-log_K	142.584794 
+
+Boehmite
+	1.Al+3 + 3.OH- = H2O@ + 1.Boehmite
+	-log_K	34.529879 
+
+Brucite
+	Mg+2 + 2OH- = Brucite
+	-log_K	11.157416 
+
+Corundum
+	2Al+3 + 6OH- = 3H2O@ + Corundum
+	-log_K	65.939774 
+
+Diaspore
+	1.Al+3 + 3.OH- = H2O@ + 1.Diaspore
+	-log_K	34.954718 
+
+Gibbsite
+	Al+3 + 3OH- = Gibbsite
+	-log_K	34.410223 
+
+Lime
+	1.Ca+2 + 2.OH- = H2O@ + 1.Lime
+	-log_K	-4.713175 
+
+Periclase
+	1.Mg+2 + 2.OH- = H2O@ + 1.Periclase
+	-log_K	6.286394 
+
+Spinel
+	2Al+3 + Mg+2 + 8OH- = 4H2O@ + Spinel
+	-log_K	76.601223 
+
+Diopside
+	Ca+2 + Mg+2 + 2SiO2@ + 4OH- = 2H2O@ + Diopside
+	-log_K	34.465934 
+
+Enstatite
+	2Mg+2 + 2SiO2@ + 4OH- = 2H2O@ + Enstatite
+	-log_K	31.688274 
+
+Jadeite
+	Al+3 + Na+ + 2SiO2@ + 4OH- = 2H2O@ + Jadeite
+	-log_K	49.680433 
+
+Omphacite-Mg
+	Al+3 + Ca+2 + Mg+2 + Na+ + 4SiO2@ + 8OH- = 4H2O@ + 2Omphacite-Mg
+	-log_K	85.372882 
+
+Pseudowoll
+	1.Ca+2 + 1.SiO2@ + 2.OH- = H2O@ + 1.Pseudowoll
+	-log_K	14.008832 
+
+Tschermak-Ca
+	2Al+3 + Ca+2 + SiO2@ + 8OH- = 4H2O@ + Tschermak-Ca
+	-log_K	80.607675 
+
+Tschermak-Mg
+	2Al+3 + Mg+2 + SiO2@ + 8OH- = 4H2O@ + Tschermak-Mg
+	-log_K	77.047435 
+
+Wollastonite
+	1.Ca+2 + 1.SiO2@ + 2.OH- = H2O@ + 1.Wollastonite
+	-log_K	14.826976 
+
+Antigorite
+	48Mg+2 + 34SiO2@ + 96OH- = 17H2O@ + Antigorite
+	-log_K	844.331027 
+
+Chrysotile
+	3.Mg+2 + 2.SiO2@ + 6.OH- = H2O@ + 1.Chrysotile
+	-log_K	50.581968 
+
+Kaolinite
+	2.Al+3 + 2.SiO2@ + 6.OH- = H2O@ + 1.Kaolinite
+	-log_K	79.501867 
+
+Prehnite
+	2Al+3 + 2Ca+2 + 3SiO2@ + 10OH- = 4H2O@ + Prehnite
+	-log_K	108.768295 
+
+Pyrophyllite
+	2Al+3 + 4SiO2@ + 6OH- = 2H2O@ + Pyrophyllite
+	-log_K	85.49464 
+
+Stilpnomelane-Mg
+	5Al+3 + 5K+ + 48Mg+2 + 67SiO2@ + 2.H2O@ + 116OH- = Stilpnomelane-Mg
+	-log_K	1277.649139 
+
+Talc-Mg
+	3Mg+2 + 4SiO2@ + 6OH- = 2H2O@ + Talc-Mg
+	-log_K	60.167041 
+
+Ttalc-Mg
+	2Al+3 + 2Mg+2 + 3SiO2@ + 10OH- = 4H2O@ + Ttalc-Mg
+	-log_K	104.157782 

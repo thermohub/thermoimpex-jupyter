@@ -1,0 +1,241 @@
+{
+     "arangodb" :   {
+          "UseArangoDBInstance" :   "ArangoDBLocal",
+          "UseVelocypackPut" :   true,
+          "UseVelocypackGet" :   true,
+          "ArangoDBLocal" :   {
+               "DBName" :   "SlopImport",
+               "DBCreate" :   true,
+               "DB_URL" :   "http://localhost:8529",
+               "DBUser" :   "root",
+               "DBUserPassword" :   "",
+               "DBAccess" :   "rw",
+               "DBRootName" :   "_system",
+               "DBRootUser" :   "root",
+               "DBRootPassword" :   ""
+          },
+          "ArangoDBRemote" :   {
+               "DBName" :   "hub_main",
+               "DBCreate" :   false,
+               "DB_URL" :   "https://db.thermohub.net",
+               "DBUser" :   "funrem",
+               "DBUserPassword" :   "",
+               "DBAccess" :   "rw",
+               "DBRootName" :   "_system",
+               "DBRootUser" :   "",
+               "DBRootPassword" :   ""
+          }
+     },
+     "jsonio" :   {
+
+     },
+     "common" :   {
+          "UserHomeDirectoryPath" :   "~",
+          "WorkDirectoryPath" :   ".",
+          "ResourcesDirectory" :   "Resources",
+          "SchemasDirectory" :   "Resources/data/schemas",
+          "LuaScriptsDirectory" :   "Resources/lua"
+     },
+     "ThermoMatch" :   {
+          "ReacDCImport33" :   {
+               "ReactionFormatStructData" :   "Resources/files/PSI-Nagra/Reaction2.PSI-Nagra-12-07.FormatStructDataFile.json",
+               "ReactionDependentSubstanceFormatStructData" :   "Resources/files/PSI-Nagra/ReacDCSubstance2.PSI-Nagra-12-07.FormatStructDataFile.json",
+               "ReactionEdgesFormatStructData" :   "Resources/files/PSI-Nagra/ReactionEdge.PSI-Nagra-12-07.FormatStructDataFile.json",
+               "InputFilePath" :   "Resources/files/PSI-Nagra/source/PSI-Nagra-12-07-ReacDC-rec.json",
+               "ImportFormatOverwrite" :   true,
+               "ImportFormatUseDB" :   false
+          },
+          "ReacDCImport" :   {
+               "ReactionFormatStructData" :   "/home/sveta/devThermo/gitThermoMatch/thermoMatch/Resources/files/PSI-Nagra/Reaction2.PSI-Nagra-12-07.FormatStructDataFile.json",
+               "ReactionDependentSubstanceFormatStructData" :   "/home/sveta/devThermo/gitThermoMatch/thermoMatch/Resources/files/PSI-Nagra/ReacDCSubstance2.PSI-Nagra-12-07.FormatStructDataFile.json",
+               "ReactionEdgesFormatStructData" :   "/home/sveta/devThermo/gitThermoMatch/thermoMatch/Resources/files/PSI-Nagra/ReactionEdge.PSI-Nagra-12-07.FormatStructDataFile.json",
+               "InputFilePath" :   "/home/sveta/devThermo/gitThermoMatch/thermoMatch/Resources/files/PSI-Nagra/source/PSI-Nagra-12-07-ReacDC-rec.json",
+               "ImportFormatOverwrite" :   true,
+               "ImportFormatUseDB" :   false
+          },
+          "TheredaImport" :   {
+               "ReactionFormatStructData" :   "/home/sveta/devThermo/gitThermoMatch/tmp/GEMS201/Reaction2new.Thereda_aq_Reac.FormatStructDataFile.json",
+               "MasterSubstanceFormatStructData" :   "/home/sveta/devThermo/gitThermoMatch/tmp/GEMS201/Substance2new.Thereda_aq_Master.FormatStructDataFile.json",
+               "ProductSubstanceFormatStructData" :   "/home/sveta/devThermo/gitThermoMatch/tmp/GEMS201/ReactionDependentSubstance2new.Thereda_aq_Reac.FormatStructDataFile.json",
+               "ElementFormatStructData" :   "/home/sveta/devThermo/gitThermoMatch/tmp/GEMS201/Element-Thereda.FormatStructDataFile.json",
+               "PhaseFormatStructData" :   "/home/sveta/devThermo/gitThermoMatch/tmp/GEMS201/Phase-Thereda.FormatStructDataFile.json",
+               "ReactionEdgesFormatStructData" :   "/home/sveta/devThermo/gitThermoMatch/tmp/GEMS201/ReactionEdges2.Thereda_aq_Reac.FormatStructDataFile.json",
+               "InputFilePath" :   "/home/sveta/devThermo/gitThermoMatch/tmp/GEMS201/THEREDA-db-export-01-2022.JSON",
+               "ImportFormatOverwrite" :   true,
+               "ImportFormatUseDB" :   false
+          },
+          "PhreeqcImport" :   {
+               "ImpexDirection" :   false,
+               "ImpexReactionSetName" :   "ImportedPhreeqc",
+               "InputOutputFilePath" :   "Resources/files/TestPhreeqc/concrete/concrete_3T_V07_02.dat",
+               "ImpexFormatOverwrite" :   false,
+               "ImpexFormatUseDB" :   false,
+               "InputFileBlockSplit" :   true,
+               "ImpexRowCount" :   6,
+               "ImpexRows" :   {
+                    "row0" :   {
+                         "ImpexBlockOrFileName" :   "SOLUTION_MASTER_SPECIES",
+                         "ImpexVertexName" :   "VertexElement",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "Resources/files/TestPhreeqc/concrete/concrete_Elem_I.FormatTableFile.json",
+                         "ImpexCondition" :   "element"
+                    },
+                    "row1" :   {
+                         "ImpexBlockOrFileName" :   "SOLUTION_SPECIES",
+                         "ImpexVertexName" :   "VertexSubstance",
+                         "ImpexFormatFile" :   "FormatKeyValueFile",
+                         "ImpexFormatScript" :   "Resources/files/TestPhreeqc/concrete/concrete_Subst_II.FormatKeyValueFile.json",
+                         "ImpexCondition" :   "master"
+                    },
+                    "row2" :   {
+                         "ImpexBlockOrFileName" :   "SECONDARY_MASTER_SPECIES",
+                         "ImpexVertexName" :   "VertexSubstance",
+                         "ImpexFormatFile" :   "FormatKeyValueFile",
+                         "ImpexFormatScript" :   "Resources/files/TestPhreeqc/concrete/concrete_Subst_III.FormatKeyValueFile.json",
+                         "ImpexCondition" :   "product"
+                    },
+                    "row3" :   {
+                         "ImpexBlockOrFileName" :   "PHASES",
+                         "ImpexVertexName" :   "VertexSubstance",
+                         "ImpexFormatFile" :   "FormatKeyValueFile",
+                         "ImpexFormatScript" :   "Resources/files/TestPhreeqc/concrete/concrete_Subst_IV.FormatKeyValueFile.json",
+                         "ImpexCondition" :   "phase"
+                    },
+                    "row4" :   {
+                         "ImpexBlockOrFileName" :   "SECONDARY_MASTER_SPECIES",
+                         "ImpexVertexName" :   "VertexReaction",
+                         "ImpexFormatFile" :   "FormatKeyValueFile",
+                         "ImpexFormatScript" :   "Resources/files/TestPhreeqc/concrete/concrete_React_III.FormatKeyValueFile.json",
+                         "ImpexCondition" :   "product"
+                    },
+                    "row5" :   {
+                         "ImpexBlockOrFileName" :   "PHASES",
+                         "ImpexVertexName" :   "VertexReaction",
+                         "ImpexFormatFile" :   "FormatKeyValueFile",
+                         "ImpexFormatScript" :   "Resources/files/TestPhreeqc/concrete/concrete_React_IV.FormatKeyValueFile.json",
+                         "ImpexCondition" :   "phase"
+                    }
+               }
+          },
+          "PhreeqcExport" :   {
+               "ImpexDirection" :   true,
+               "ImpexReactionSetName" :   "ImportedPhreeqc",
+               "InputOutputFilePath" :   "Resources/files/TestPhreeqc/concrOut/out_3T_V07_02.dat",
+               "ImpexFormatOverwrite" :   false,
+               "ImpexFormatUseDB" :   false,
+               "InputFileBlockSplit" :   true,
+               "ImpexRowCount" :   6,
+               "ImpexRows" :   {
+                    "row0" :   {
+                         "ImpexBlockOrFileName" :   "SOLUTION_MASTER_SPECIES",
+                         "ImpexVertexName" :   "VertexElement",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "Resources/files/TestPhreeqc/concrOut/export_I_Elem.FormatTableFile.json",
+                         "ImpexCondition" :   "element"
+                    },
+                    "row1" :   {
+                         "ImpexBlockOrFileName" :   "SOLUTION_SPECIES",
+                         "ImpexVertexName" :   "VertexSubstance",
+                         "ImpexFormatFile" :   "FormatKeyValueFile",
+                         "ImpexFormatScript" :   "Resources/files/TestPhreeqc/concrOut/export_II_Subst.FormatKeyValueFile.json",
+                         "ImpexCondition" :   "master"
+                    },
+                    "row2" :   {
+                         "ImpexBlockOrFileName" :   "SECONDARY_MASTER_SPECIES",
+                         "ImpexVertexName" :   "VertexSubstance",
+                         "ImpexFormatFile" :   "FormatKeyValueFile",
+                         "ImpexFormatScript" :   "Resources/files/TestPhreeqc/concrOut/export_III_Subst.FormatKeyValueFile.json",
+                         "ImpexCondition" :   "product"
+                    },
+                    "row3" :   {
+                         "ImpexBlockOrFileName" :   "PHASES",
+                         "ImpexVertexName" :   "VertexSubstance",
+                         "ImpexFormatFile" :   "FormatKeyValueFile",
+                         "ImpexFormatScript" :   "Resources/files/TestPhreeqc/concrOut/export_IV_Subst.FormatKeyValueFile.json",
+                         "ImpexCondition" :   "phase"
+                    },
+                    "row4" :   {
+                         "ImpexBlockOrFileName" :   "SECONDARY_MASTER_SPECIES",
+                         "ImpexVertexName" :   "VertexReaction",
+                         "ImpexFormatFile" :   "FormatKeyValueFile",
+                         "ImpexFormatScript" :   "Resources/files/TestPhreeqc/concrOut/export_III_React.FormatKeyValueFile.json",
+                         "ImpexCondition" :   "product"
+                    },
+                    "row5" :   {
+                         "ImpexBlockOrFileName" :   "PHASES",
+                         "ImpexVertexName" :   "VertexReaction",
+                         "ImpexFormatFile" :   "FormatKeyValueFile",
+                         "ImpexFormatScript" :   "Resources/files/TestPhreeqc/concrOut/export_IV_React.FormatKeyValueFile.json",
+                         "ImpexCondition" :   "phase"
+                    }
+               }
+          },
+          "SlopImport" :   {
+               "ImpexDirection" :   false,
+               "ImpexReactionSetName" :   "Slop16Imported",
+               "InputOutputFilePath" :   "Resources/files/slop16/slop16.dat",
+               "ImpexFormatOverwrite" :   false,
+               "ImpexFormatUseDB" :   false,
+               "InputFileBlockSplit" :   true,
+               "ImpexRowCount" :   6,
+               "ImpexRows" :   {
+                    "row0" :   {
+                         "ImpexBlockOrFileName" :   "Minerals",
+                         "ImpexVertexName" :   "VertexSubstance",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "Resources/files/slop16/minerals.FormatTableFile.json",
+                         "ImpexCondition" :   ""
+                    },
+                    "row1" :   {
+                         "ImpexBlockOrFileName" :   "MineralsOnePhaseTransition",
+                         "ImpexVertexName" :   "VertexSubstance",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "Resources/files/slop16/onephaseminerals.FormatTableFile.json",
+                         "ImpexCondition" :   ""
+                    },
+                    "row2" :   {
+                         "ImpexBlockOrFileName" :   "MineralsTwoPhaseTransition",
+                         "ImpexVertexName" :   "VertexSubstance",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "Resources/files/slop16/twophaseminerals.FormatTableFile.json",
+                         "ImpexCondition" :   ""
+                    },
+                    "row3" :   {
+                         "ImpexBlockOrFileName" :   "MineralsThreePhaseTransition",
+                         "ImpexVertexName" :   "VertexSubstance",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "Resources/files/slop16/threephaseminerals.FormatTableFile.json",
+                         "ImpexCondition" :   ""
+                    },
+                    "row4" :   {
+                         "ImpexBlockOrFileName" :   "Gases",
+                         "ImpexVertexName" :   "VertexSubstance",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "Resources/files/slop16/gases.FormatTableFile.json",
+                         "ImpexCondition" :   ""
+                    },
+                    "row5" :   {
+                         "ImpexBlockOrFileName" :   "AqueousSpecies",
+                         "ImpexVertexName" :   "VertexSubstance",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "Resources/files/slop16/aqueous_species.FormatTableFile.json",
+                         "ImpexCondition" :   ""
+                    }
+               }
+          }
+     },
+     "log" :   {
+          "modules" :   [
+               "chemicalfun",
+               "jsonarango",
+               "jsonimpex17",
+               "jsonio17",
+               "jsonui17",
+               "thermofun",
+               "thermofungui",
+               "thermohub",
+               "thermomatch"
+          ],
+          "level" :   "info"
+     }
+}

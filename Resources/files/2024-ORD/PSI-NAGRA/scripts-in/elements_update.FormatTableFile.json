@@ -1,0 +1,118 @@
+{
+     "block" :   {
+          "defaults" :   {
+            "properties.radioactivity.decay_type" :   "{\"0\" :   \"STABLE\"}",
+            "properties.radioactivity.half_life_lambda.values" :   "[ 0 ]",
+            "properties.class_" :   "{\"0\" :   \"ELEMENT\"}",
+            "properties.datasources" :   "[\"PSI:TDB:2020\"]",
+            "properties.sourcetdb" :     "{\"26\" :   \"PSI_NAGRA20\"}"
+          },
+          "pairs" :   {
+          },
+          "matches" :   {
+               "formula" :   {
+                    "field" :   "properties.symbol",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "name" :   {
+                    "field" :   "properties.name",
+                    "ignore" :   false,
+                    "script" :   ""
+               },   
+               "valence" :   {
+                    "field" :   "properties.valences.values",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+              "mol_mass" :   {
+                    "field" :   "properties.atomic_mass.values",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "type" :   {
+                    "field" :   "properties.class_",
+                    "convert" :   {
+                         "element" :   "{\"0\" :   \"ELEMENT\"}",
+                         "charge" :   "{\"4\" :   \"CHARGE\"}",
+                         "ligand" :   "{\"2\" :   \"LIGAND\"}",
+                         "auxiliary" :   "{\"5\" :   \"OTHER_EC\"}"
+                    }
+               },
+               "entropy" :   {
+                    "field" :   "properties.entropy.values",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "entropy_sigma" :   {
+                    "field" :   "properties.entropy.errors",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "heat_capacity" :   {
+                    "field" :   "properties.heat_capacity.values",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "heat_capacity_sigma" :   {
+                    "field" :   "properties.heat_capacity.errors",
+                    "ignore" :   false,
+                    "script" :   ""
+               },  
+               "number" :   {
+                    "field" :   "properties.number",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "source" :   {
+                    "field" :   "properties.datasources",
+                    "ignore" :   false,
+                    "script" :   ""
+               }           
+          },
+          "script" :   ""
+     },
+     "format" :   {
+          "Nhcols" :   11,
+          "Nhrows" :   1,
+          "headers" :   [
+               "formula",
+               "name",
+               "mol_mass",
+               "valence",
+               "number",
+               "type",
+               "entropy",
+               "entropy_sigma",
+               "heat_capacity",
+               "heat_capacity_sigma",
+               "source"
+          ],
+          "rowend" :   "\n",
+          "rows_one_block" :   1,
+          "colends" :   ",",
+          "usequotes" :   false,
+          "usemore" :   false,
+          "comment_regexp" :   ""
+     },
+     "renderer" :   "",
+     "label" :   "VertexElement",
+     "separators" :   {
+          "v_sep" :   "",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0
+}

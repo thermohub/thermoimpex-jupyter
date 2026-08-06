@@ -1,0 +1,129 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.sourcetdb" :   "{\"20\" :   \"CEMDATA18\"}",
+               "properties.datasources" :   "[\"Cemdata18\"]",
+               "properties.reactyp" :   "{\"1\" :   \"FE_FORMATION\"}",
+               "properties.TPMethods" :   "[{\"method\":{}}, {\"method\":{}}, {\"method\":{}}]",
+               "properties.level" :   "0"
+          },
+          "pairs" :   {
+
+          },
+          "matches" :   {
+               "dod.30.val" :   {
+                    "field" :   "properties.comment"
+               },
+               "key.2.fv" :   {
+                    "field" :   "properties.symbol"
+               },
+               "dod.16.val" :   {
+                    "field" :   "properties.name"
+               },
+               "dod.0.val.0" :   {
+                    "field" :   "properties.TPMethods.0.method",
+                    "convert" :   {
+                         "C" :   "{\"11\" :  \"dr_heat_capacity_ft\"}",
+                         "I" :   "{\"2\" :   \"iso_compounds_grichuk88\"}",
+                         "X" :   "{\"1\" :   \"adsor_ion_exchange\"}",
+                         "K" :   "{\"0\" :   \"logk_fpt_function\"}"
+                    }
+               },
+               "dod.0.val.1" :   {
+                    "field" :   "properties.TPMethods.1.method",
+                    "convert" :   {
+                         "L" :   "{\"3\" :   \"logk_nordstrom_munoz88\"}",
+                         "0" :   "{\"4\" :   \"logk_1_term_extrap0\"}",
+                         "1" :   "{\"5\" :   \"logk_1_term_extrap1\"}",
+                         "2" :   "{\"6\" :   \"logk_2_term_extrap\"}",
+                         "3" :   "{\"7\" :   \"logk_3_term_extrap\"}",
+                         "Z" :   "{\"8\" :   \"logk_lagrange_interp\"}",
+                         "R" :   "{\"9\" :   \"logk_marshall_frank78\"}",
+                         "Y" :   "{\"10\" :  \"solute_eos_ryzhenko_gems\"}"
+                    }
+               },
+               "dod.0.val.2" :   {
+                    "field" :   "properties.TPMethods.2.method",
+                    "convert" :   {
+                         "K" :   "{\"12\" :   \"dr_volume_fpt\"}",
+                         "C" :   "{\"13\" :   \"dr_volume_constant\"}"
+                    }
+               },
+               "dod.6.val.1" :   {
+                    "field" :   "properties.logKr.values"
+               },
+               "dod.6.val.2" :   {
+                    "field" :   "properties.logKr.errors"
+               },
+               "dod.7.val.0" :   {
+                    "field" :   "properties.drsm_gibbs_energy.values"
+               },
+               "dod.8.val.0" :   {
+                    "field" :   "properties.drsm_enthalpy.values"
+               },
+               "dod.9.val.0" :   {
+                    "field" :   "properties.drsm_entropy.values"
+               },
+               "dod.10.val.0" :   {
+                    "field" :   "properties.drsm_heat_capacity_p.values"
+               },
+               "dod.11.val.0" :   {
+                    "field" :   "properties.drsm_volume.values"
+               },
+               "dod.13.val.0" :   {
+                    "field" :   "properties.Pst",
+                    "script" :   "field = field * 1e05"
+               },
+               "dod.13.val.1" :   {
+                    "field" :   "properties.Tst",
+                    "script" :   "field = field + 273.15"
+               },
+               "dod.22.val.0" :   {
+                    "field" :   "properties.TPMethods.0.limitsTP.lowerT",
+                    "script" :   "field = field + 273.15"
+               },
+               "dod.22.val.1" :   {
+                    "field" :   "properties.TPMethods.0.limitsTP.upperT",
+                    "script" :   "field = field + 273.15"
+               },
+               "dod.23.val.0" :   {
+                    "field" :   "properties.TPMethods.0.limitsTP.lowerP",
+                    "script" :   "field = field * 1e05"
+               },
+               "dod.23.val.1" :   {
+                    "field" :   "properties.TPMethods.0.limitsTP.upperP",
+                    "script" :  "field = field * 1e05"
+               },
+               "dod.27.val" :   {
+                    "field" :   "properties.TPMethods.1.dr_marshall_franck_coeffs.values",
+                    "script" :  "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
+               },
+               "dod.28.val" :   {
+                    "field" :   "properties.TPMethods.0.logk_ft_coeffs.values",
+                    "script" :  "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
+               },
+               "dod.26.val" :   {
+                    "field" :   "properties.TPMethods.2.dr_volume_fpt_coeffs.values",
+                    "script" :  "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
+               },
+               "dod.24.val" :   {
+                    "field" :   "properties.TPMethods.0.dr_heat_capacity_ft_coeffs.values",
+                    "script" :  "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
+               }
+          },
+          "script": "
+          print(rintable.properties.symbol)
+          if rintable.properties.TPMethods[2].method == 'solute_eos_ryzhenko_gems' then rintable.properties.TPMethods[2].dr_ryzhenko_coeffs = rintable.properties.TPMethods[2].dr_marshall_franck_coeffs rintable.properties.TPMethods[2].dr_marshall_franck_coeffs = nil end; 
+          if next(rintable.properties.TPMethods[3].method) == nil then table.remove(rintable.properties.TPMethods, 3) end;
+          if next(rintable.properties.TPMethods[2].method) == nil then table.remove(rintable.properties.TPMethods, 2) end;
+          if next(rintable.properties.TPMethods[1].method) == nil then table.remove(rintable.properties.TPMethods, 1) end;
+          if rintable.properties.drsm_volume ~= nil then rintable.properties.drsm_volume.units = {'J/bar'} end 
+          if rintable.properties.drsm_gibbs_energy ~= nil then rintable.properties.drsm_gibbs_energy.units = {'J/mol'} end
+          if rintable.properties.drsm_enthalpy ~= nil then rintable.properties.drsm_enthalpy.units = {'J/mol'} end 
+          if rintable.properties.drsm_entropy ~= nil then rintable.properties.drsm_entropy.units = {'J/(mol*K)'} end
+          if rintable.properties.drsm_heat_capacity_p ~= nil then rintable.properties.drsm_heat_capacity_p.units = {'J/(mol*K)'} end"
+     },
+     "renderer" :   "JSON",
+     "label" :   "VertexReaction",
+     "comment" :   "test"
+}

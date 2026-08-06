@@ -1,0 +1,9 @@
+﻿Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
+AmO2OH(am),AmO2OH(am),Am|+5|O2OH,s,-5.3,0.5,,,,,,,1 AmO2+ 1 H2O(l) -1 H+ = AmO2OH(am)
+NaAmO2CO3(s),NaAmO2CO3(s),NaAm|+5|O2CO3,s,10.9,0.4,,,,,,,1 Na+ 1 AmO2+ 1 CO3-2 = NaAmO2CO3(s)
+Am(OH)3(cr),Am(OH)3(cr),Am(OH)3,s,-15.6,0.6,,,,,,,1 Am+3 3 H2O(l) -3 H+ = Am(OH)3(cr)
+Am(OH)3(am),Am(OH)3(am),Am(OH)3,s,-16.9,0.8,,,,,,,1 Am+3 3 H2O(l) -3 H+ = Am(OH)3(am)
+AmOHCO3w0.5(cr),AmOHCO3:0.5H2O(cr),AmOHCO3(H2O)0.5,s,22.4,0.5,,,,,,,1 Am+3 1 OH- 1 CO3-2 0.5 H2O(l) = AmOHCO3w0.5(cr)
+AmOHCO3(am_hyd),AmOHCO3(am_hyd),AmOHCO3,s,20.2,1,,,,,,,1 Am+3 1 OH- 1 CO3-2 = AmOHCO3(am_hyd)
+Am2(CO3)3(am_hyd),Am2(CO3)3(am_hyd),Am2(CO3)3,s,33.4,2.2,,,,,,,2 Am+3 3 CO3-2 = Am2(CO3)3(am_hyd)
+NaAm(CO3)2w5(cr),NaAm(CO3)2:5H2O(cr),NaAm(CO3)2(H2O)5,s,21,0.5,,,,,,,1 Na+ 1 Am+3 2 CO3-2 5 H2O(l) = NaAm(CO3)2w5(cr)

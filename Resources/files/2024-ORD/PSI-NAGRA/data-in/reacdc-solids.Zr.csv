@@ -1,0 +1,4 @@
+﻿Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
+ZrO2(cr),Baddeleyite,ZrO2,s,7,1.6,79.56,5.17,,,25,,1 Zr+4 2 H2O(l) -4 H+ = ZrO2(cr)
+Zr(OH)4(am_fr),Zr(OH)4(am_fr),Zr(OH)4,s,3.24,0.1,,,,,,,1 Zr+4 4 H2O(l) -4 H+ = Zr(OH)4(am_fr)
+Zr(HPO4)2w(cr),Zr(HPO4)2:H2O(cr),Zr(HPO4)2(H2O),s,22.8,3.1,16.47,6.17,,,25,,1 Zr+4 2 H3PO4(aq) 1 H2O(l) -4 H+ = Zr(HPO4)2w(cr)

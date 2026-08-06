@@ -1,0 +1,100 @@
+[
+     {
+          "_id" :   "substances/Si(OH4)(aq);_2_:_SC_AQSOLUTE_;_20_:_CEMDATA18_",
+          "_key" :   "Si(OH4)(aq);_2_:_SC_AQSOLUTE_;_20_:_CEMDATA18_",
+          "_rev" :   "_cbEX6Au---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Si(OH4)(aq)",
+               "sourcetdb" :   {
+                    "20" :   "CEMDATA18"
+               },
+               "formula" :   "Si(OH4)(aq)",
+               "name" :   "Si(OH4)(aq)",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "formula_charge" :   0,
+               "mass_per_mole" :   96.1149,
+               "sm_volume" :   {
+                    "values" :   [
+                         5.2200094461442
+                    ],
+                    "errors" :   [
+                         0
+                    ],
+                    "units" :   [
+                         "J/bar"
+                    ]
+               },
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -1307777
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -1459618.17
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         181.183994293213
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "values" :   [
+                         195.186454772949
+                    ],
+                    "errors" :   [
+                         0
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ]
+               },
+               "aq_edh_props" :   {
+                    "values" :   [
+                         -1,
+                         0
+                    ],
+                    "units" :   [
+                         "Å"
+                    ],
+                    "names" :   [
+                         "a0",
+                         "b"
+                    ]
+               },
+               "comment" :   "ref:3 (S0,Cp0 incons.)  ",
+               "datasources" :   [
+                    "Matschei_ea:2007:pap:",
+                    "Slop98_dat:1998:dat:",
+                    "Kulik_ea:2001:pap:"
+               ],
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   29,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   30
+               }
+          }
+     }
+]

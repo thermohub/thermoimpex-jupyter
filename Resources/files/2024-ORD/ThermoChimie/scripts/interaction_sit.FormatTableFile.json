@@ -1,0 +1,76 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.datasources" :   "[\"ThermoChimie12a\"]",
+               "properties.sourcetdb" :    "{\"25\" :   \"THERMOCHIMIE\"}",
+               "properties.name" :   "\"aq_sit_thermochimie\"",
+	       "properties.mixmod" :   "{\"30\" :   \"M_AQSIT\"}",
+	       "properties.intpart" :   "{\"1\" :   \"SIT\"}",
+	       "properties.Tst" : "298.5",
+	       "properties.Pst" : "1e5",
+	       "properties.intpar.values" : "[0]"
+          },
+          "matches" :   {
+               "-epsilon" :   {
+                    "field" :   "properties.name",
+                    "script" :  "field = field:gsub('%s+', '_')"
+               }
+          },
+          "script" :   "
+function split(str, delimiter)
+    local result = {}
+    for match in (str .. delimiter):gmatch('(.-)' .. delimiter) do
+        table.insert(result, match)
+    end
+    return result
+end
+
+local result = split(rintable.properties.name, '_')
+rintable.properties.symbol = 'binary_'.. result[1] .. '_' .. result[2]
+-- rintable.properties.name = result[1]
+-- Convert string to number
+local num = tonumber(result[3])
+
+rintable.properties.intpar.values = {}
+
+-- Check the result and print
+if num then
+    rintable.properties.intpar.values = {num}
+else
+    print('IP to number conversion failed.')
+end
+--  = 
+          "
+     },
+     "format" :   {
+          "Nhcols" :   2,
+          "Nhrows" :   1,
+          "headers" :   [
+               "-epsilon",
+	       ""
+          ],
+          "rowend" :   "\n",
+          "rows_one_block" :   1,
+          "colends" :   ",",
+          "usequotes" :   false,
+          "usemore" :   false,
+          "comment_regexp" :   ""
+     },
+     "renderer" :   "",
+     "label" :   "VertexInteraction",
+     "separators" :   {
+          "v_sep" :   ",",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0
+}

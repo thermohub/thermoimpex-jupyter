@@ -1,0 +1,2121 @@
+[
+     {
+          "_id" :   "elements/Al;0:ELEMENT;12:THEREDA",
+          "_key" :   "Al;0:ELEMENT;12:THEREDA",
+          "_rev" :   "_eCFKrTi---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Al",
+               "isotope_mass" :   0,
+               "name" :   "Aluminium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         26.9815386
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "WIE2006"
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         28.3
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "COX/WAG1989"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         24.2
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "COX/WAG1989"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         3
+                    ]
+               },
+               "number" :   13,
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "comment" :   "referencestate: crystalline, cubic, fcc",
+               "datasources" :   [
+                    "THEREDA"
+               ],
+               "radioactivity" :   {
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2022,
+                    "month" :   4,
+                    "day" :   19,
+                    "hour" :   14,
+                    "minute" :   29,
+                    "second" :   36
+               },
+               "temp_import" :   [
+
+               ]
+          }
+     },
+     {
+          "_id" :   "elements/Am;0:ELEMENT;12:THEREDA",
+          "_key" :   "Am;0:ELEMENT;12:THEREDA",
+          "_rev" :   "_eCFKrTu---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Am",
+               "isotope_mass" :   0,
+               "name" :   "Americium",
+               "valences" :   {
+                    "values" :   [
+                         3
+                    ]
+               },
+               "atomic_mass" :   {
+                    "values" :   [
+                         243.0614
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "WIE2006"
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         55.4
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "SIL/BID1995"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         25.5
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "SIL/BID1995"
+                    ]
+               },
+               "number" :   95,
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "comment" :   "for 243Am; referencestate: crystalline, hexagonal, alpha",
+               "datasources" :   [
+                    "THEREDA"
+               ],
+               "radioactivity" :   {
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2022,
+                    "month" :   4,
+                    "day" :   19,
+                    "hour" :   14,
+                    "minute" :   29,
+                    "second" :   36
+               },
+               "temp_import" :   [
+
+               ]
+          }
+     },
+     {
+          "_id" :   "elements/C;0:ELEMENT;12:THEREDA",
+          "_key" :   "C;0:ELEMENT;12:THEREDA",
+          "_rev" :   "_eCFKrT6---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "C",
+               "isotope_mass" :   0,
+               "name" :   "Carbon",
+               "valences" :   {
+                    "values" :   [
+                         4
+                    ]
+               },
+               "atomic_mass" :   {
+                    "values" :   [
+                         12.0107
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "WIE2006"
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         5.74
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "COX/WAG1989"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         8.517
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "COX/WAG1989"
+                    ]
+               },
+               "number" :   6,
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "comment" :   "referencestate: crystalline, hexagonal (graphite)",
+               "datasources" :   [
+                    "THEREDA"
+               ],
+               "radioactivity" :   {
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2022,
+                    "month" :   4,
+                    "day" :   19,
+                    "hour" :   14,
+                    "minute" :   29,
+                    "second" :   36
+               },
+               "temp_import" :   [
+
+               ]
+          }
+     },
+     {
+          "_id" :   "elements/Ca;0:ELEMENT;12:THEREDA",
+          "_key" :   "Ca;0:ELEMENT;12:THEREDA",
+          "_rev" :   "_eCFKrUC---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Ca",
+               "isotope_mass" :   0,
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "name" :   "Calcium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         40.078
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "WIE2006"
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         41.59
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "COX/WAG1989"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         25.929
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "COX/WAG1989"
+                    ]
+               },
+               "number" :   20,
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "comment" :   "referencestate: crystalline, cubic, fcc, alpha",
+               "datasources" :   [
+                    "THEREDA"
+               ],
+               "radioactivity" :   {
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2022,
+                    "month" :   4,
+                    "day" :   19,
+                    "hour" :   14,
+                    "minute" :   29,
+                    "second" :   36
+               },
+               "temp_import" :   [
+
+               ]
+          }
+     },
+     {
+          "_id" :   "elements/Cl;0:ELEMENT;12:THEREDA",
+          "_key" :   "Cl;0:ELEMENT;12:THEREDA",
+          "_rev" :   "_eCFKrUK---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Cl",
+               "isotope_mass" :   0,
+               "name" :   "Chlorine",
+               "valences" :   {
+                    "values" :   [
+                         -1
+                    ]
+               },
+               "atomic_mass" :   {
+                    "values" :   [
+                         35.453
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "WIE2006"
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         111.5405
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "COX/WAG1989"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         16.9745
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "COX/WAG1989"
+                    ]
+               },
+               "number" :   17,
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "comment" :   "referencestate: gaseous",
+               "datasources" :   [
+                    "THEREDA"
+               ],
+               "radioactivity" :   {
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2022,
+                    "month" :   4,
+                    "day" :   19,
+                    "hour" :   14,
+                    "minute" :   29,
+                    "second" :   36
+               },
+               "temp_import" :   [
+
+               ]
+          }
+     },
+     {
+          "_id" :   "elements/Cm;0:ELEMENT;12:THEREDA",
+          "_key" :   "Cm;0:ELEMENT;12:THEREDA",
+          "_rev" :   "_eCFKrUW---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Cm",
+               "isotope_mass" :   0,
+               "name" :   "Curium",
+               "valences" :   {
+                    "values" :   [
+                         3
+                    ]
+               },
+               "atomic_mass" :   {
+                    "values" :   [
+                         247.0704
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "WIE2006"
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         71.96
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "OET/RAN1976"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ]
+               },
+               "number" :   96,
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "comment" :   "for 247Cm, possibly to be updated; referencestate: crystalline, alpha",
+               "datasources" :   [
+                    "THEREDA"
+               ],
+               "radioactivity" :   {
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2022,
+                    "month" :   4,
+                    "day" :   19,
+                    "hour" :   14,
+                    "minute" :   29,
+                    "second" :   36
+               },
+               "temp_import" :   [
+
+               ]
+          }
+     },
+     {
+          "_id" :   "elements/Cs;0:ELEMENT;12:THEREDA",
+          "_key" :   "Cs;0:ELEMENT;12:THEREDA",
+          "_rev" :   "_eCFKrUe---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Cs",
+               "isotope_mass" :   0,
+               "valences" :   {
+                    "values" :   [
+                         1
+                    ]
+               },
+               "name" :   "Caesium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         132.9054519
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "WIE2006"
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         85.23
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "COX/WAG1989"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         32.21
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "COX/WAG1989"
+                    ]
+               },
+               "number" :   55,
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "comment" :   "referencestate: crystalline, cubic, bcc",
+               "datasources" :   [
+                    "THEREDA"
+               ],
+               "radioactivity" :   {
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2022,
+                    "month" :   4,
+                    "day" :   19,
+                    "hour" :   14,
+                    "minute" :   29,
+                    "second" :   36
+               },
+               "temp_import" :   [
+
+               ]
+          }
+     },
+     {
+          "_id" :   "elements/H;0:ELEMENT;12:THEREDA",
+          "_key" :   "H;0:ELEMENT;12:THEREDA",
+          "_rev" :   "_eCFKrTS---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "H",
+               "isotope_mass" :   0,
+               "name" :   "Hydrogen",
+               "valences" :   {
+                    "values" :   [
+                        1
+                    ]
+               },
+               "atomic_mass" :   {
+                    "values" :   [
+                         1.00794
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "WIE2006"
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         65.34
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "COX/WAG1989"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         14.418
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "COX/WAG1989"
+                    ]
+               },
+               "number" :   1,
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "comment" :   "referencestate: gaseous",
+               "datasources" :   [
+                    "THEREDA"
+               ],
+               "radioactivity" :   {
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2022,
+                    "month" :   4,
+                    "day" :   19,
+                    "hour" :   14,
+                    "minute" :   29,
+                    "second" :   36
+               },
+               "temp_import" :   [
+
+               ]
+          }
+     },
+     {
+          "_id" :   "elements/K;0:ELEMENT;12:THEREDA",
+          "_key" :   "K;0:ELEMENT;12:THEREDA",
+          "_rev" :   "_eCFKrUm---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "K",
+               "isotope_mass" :   0,
+               "name" :   "Potassium",
+               "valences" :   {
+                    "values" :   [
+                         1
+                    ]
+               },
+               "atomic_mass" :   {
+                    "values" :   [
+                         39.0983
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "WIE2006"
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         64.68
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "COX/WAG1989"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         29.6
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "COX/WAG1989"
+                    ]
+               },
+               "number" :   19,
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "comment" :   "referencestate: crystalline, cubic, bcc",
+               "datasources" :   [
+                    "THEREDA"
+               ],
+               "radioactivity" :   {
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2022,
+                    "month" :   4,
+                    "day" :   19,
+                    "hour" :   14,
+                    "minute" :   29,
+                    "second" :   36
+               },
+               "temp_import" :   [
+
+               ]
+          }
+     },
+     {
+          "_id" :   "elements/Mg;0:ELEMENT;12:THEREDA",
+          "_key" :   "Mg;0:ELEMENT;12:THEREDA",
+          "_rev" :   "_eCFKrUu---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Mg",
+               "isotope_mass" :   0,
+               "name" :   "Magnesium",
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "atomic_mass" :   {
+                    "values" :   [
+                         24.305
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "WIE2006"
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         32.67
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "COX/WAG1989"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         24.869
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "COX/WAG1989"
+                    ]
+               },
+               "number" :   12,
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "comment" :   "referencestate: crystalline, hexagonal",
+               "datasources" :   [
+                    "THEREDA"
+               ],
+               "radioactivity" :   {
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2022,
+                    "month" :   4,
+                    "day" :   19,
+                    "hour" :   14,
+                    "minute" :   29,
+                    "second" :   36
+               },
+               "temp_import" :   [
+
+               ]
+          }
+     },
+     {
+          "_id" :   "elements/Na;0:ELEMENT;12:THEREDA",
+          "_key" :   "Na;0:ELEMENT;12:THEREDA",
+          "_rev" :   "_eCFKrU2---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Na",
+               "isotope_mass" :   0,
+               "name" :   "Sodium",
+               "valences" :   {
+                    "values" :   [
+                         1
+                    ]
+               },
+               "atomic_mass" :   {
+                    "values" :   [
+                         22.98976928
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "WIE2006"
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         51.3
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "COX/WAG1989"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         28.23
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "COX/WAG1989"
+                    ]
+               },
+               "number" :   11,
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "comment" :   "referencestate: crystalline, cubic, bcc, beta",
+               "datasources" :   [
+                    "THEREDA"
+               ],
+               "radioactivity" :   {
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2022,
+                    "month" :   4,
+                    "day" :   19,
+                    "hour" :   14,
+                    "minute" :   29,
+                    "second" :   36
+               },
+               "temp_import" :   [
+
+               ]
+          }
+     },
+     {
+          "_id" :   "elements/Nd;0:ELEMENT;12:THEREDA",
+          "_key" :   "Nd;0:ELEMENT;12:THEREDA",
+          "_rev" :   "_eCFKrVC---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Nd",
+               "isotope_mass" :   0,
+               "name" :   "Neodymium",
+               "valences" :   {
+                    "values" :   [
+                         3
+                    ]
+               },
+               "atomic_mass" :   {
+                    "values" :   [
+                         144.242
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "WIE2006"
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         71.5
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "WAG/EVA1982"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         27.45
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "WAG/EVA1982"
+                    ]
+               },
+               "number" :   60,
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "comment" :   "referencestate: crystalline, hexagonal, alpha",
+               "datasources" :   [
+                    "THEREDA"
+               ],
+               "radioactivity" :   {
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2022,
+                    "month" :   4,
+                    "day" :   19,
+                    "hour" :   14,
+                    "minute" :   29,
+                    "second" :   36
+               },
+               "temp_import" :   [
+
+               ]
+          }
+     },
+     {
+          "_id" :   "elements/Np;0:ELEMENT;12:THEREDA",
+          "_key" :   "Np;0:ELEMENT;12:THEREDA",
+          "_rev" :   "_eCFKrVK---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Np",
+               "isotope_mass" :   0,
+               "name" :   "Neptunium",
+               "valences" :   {
+                    "values" :   [
+                         3
+                    ]
+               },
+               "atomic_mass" :   {
+                    "values" :   [
+                         237.0482
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "WIE2006"
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         50.46
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "LEM/FUG2001"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         29.62
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "GUI/FAN2003"
+                    ]
+               },
+               "number" :   93,
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "comment" :   "for 237Np; referencestate: crystalline, orthorhombic, alpha",
+               "datasources" :   [
+                    "THEREDA"
+               ],
+               "radioactivity" :   {
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2022,
+                    "month" :   4,
+                    "day" :   19,
+                    "hour" :   14,
+                    "minute" :   29,
+                    "second" :   36
+               },
+               "temp_import" :   [
+
+               ]
+          }
+     },
+     {
+          "_id" :   "elements/O;0:ELEMENT;12:THEREDA",
+          "_key" :   "O;0:ELEMENT;12:THEREDA",
+          "_rev" :   "_eCFKrTa---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "O",
+               "isotope_mass" :   0,
+               "name" :   "Oxygen",
+               "valences" :   {
+                    "values" :   [
+                         -2
+                    ]
+               },
+               "atomic_mass" :   {
+                    "values" :   [
+                         15.9994
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "WIE2006"
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         102.576
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "COX/WAG1989"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         14.689
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "COX/WAG1989"
+                    ]
+               },
+               "number" :   8,
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "comment" :   "referencestate: gaseous",
+               "datasources" :   [
+                    "THEREDA"
+               ],
+               "radioactivity" :   {
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2022,
+                    "month" :   4,
+                    "day" :   19,
+                    "hour" :   14,
+                    "minute" :   29,
+                    "second" :   36
+               },
+               "temp_import" :   [
+
+               ]
+          }
+     },
+     {
+          "_id" :   "elements/P;0:ELEMENT;12:THEREDA",
+          "_key" :   "P;0:ELEMENT;12:THEREDA",
+          "_rev" :   "_eCFKrVS---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "P",
+               "isotope_mass" :   0,
+               "name" :   "Phosphorus",
+               "valences" :   {
+                    "values" :   [
+                         5
+                    ]
+               },
+               "atomic_mass" :   {
+                    "values" :   [
+                         30.973762
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "WIE2006"
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         41.09
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "COX/WAG1989"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         23.824
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "COX/WAG1989"
+                    ]
+               },
+               "number" :   15,
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "comment" :   "referencestate: crystalline, cubic, bcc (white)",
+               "datasources" :   [
+                    "THEREDA"
+               ],
+               "radioactivity" :   {
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2022,
+                    "month" :   4,
+                    "day" :   19,
+                    "hour" :   14,
+                    "minute" :   29,
+                    "second" :   36
+               },
+               "temp_import" :   [
+
+               ]
+          }
+     },
+     {
+          "_id" :   "elements/Pb;0:ELEMENT;12:THEREDA",
+          "_key" :   "Pb;0:ELEMENT;12:THEREDA",
+          "_rev" :   "_eCFKrVa---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Pb",
+               "isotope_mass" :   0,
+               "name" :   "Lead",
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "atomic_mass" :   {
+                    "values" :   [
+                         207.2
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "WIE2006"
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         64.8
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "COX/WAG1989"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         26.65
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "COX/WAG1989"
+                    ]
+               },
+               "number" :   82,
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "comment" :   "referencestate: crystalline, cubic, fcc",
+               "datasources" :   [
+                    "THEREDA"
+               ],
+               "radioactivity" :   {
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2022,
+                    "month" :   4,
+                    "day" :   19,
+                    "hour" :   14,
+                    "minute" :   29,
+                    "second" :   36
+               },
+               "temp_import" :   [
+
+               ]
+          }
+     },
+     {
+          "_id" :   "elements/Pu;0:ELEMENT;12:THEREDA",
+          "_key" :   "Pu;0:ELEMENT;12:THEREDA",
+          "_rev" :   "_eCFKrVi---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Pu",
+               "isotope_mass" :   0,
+               "name" :   "Plutonium",
+               "valences" :   {
+                    "values" :   [
+                         4
+                    ]
+               },
+               "atomic_mass" :   {
+                    "values" :   [
+                         244.0628
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "WIE2006"
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         54.46
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "LEM/FUG2001"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         31.49
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "GUI/FAN2003"
+                    ]
+               },
+               "number" :   94,
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "comment" :   "for 239Pu; referencestate: crystalline, monoclinic, alpha",
+               "datasources" :   [
+                    "THEREDA"
+               ],
+               "radioactivity" :   {
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2022,
+                    "month" :   4,
+                    "day" :   19,
+                    "hour" :   14,
+                    "minute" :   29,
+                    "second" :   36
+               },
+               "temp_import" :   [
+
+               ]
+          }
+     },
+     {
+          "_id" :   "elements/S;0:ELEMENT;12:THEREDA",
+          "_key" :   "S;0:ELEMENT;12:THEREDA",
+          "_rev" :   "_eCFKrVu---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "S",
+               "isotope_mass" :   0,
+               "name" :   "Sulfur",
+               "valences" :   {
+                    "values" :   [
+                         6
+                    ]
+               },
+               "atomic_mass" :   {
+                    "values" :   [
+                         32.065
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "WIE2006"
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         32.054
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "COX/WAG1989"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         22.75
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "COX/WAG1989"
+                    ]
+               },
+               "number" :   16,
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "comment" :   "referencestate: crystalline, orthorhombic, alpha",
+               "datasources" :   [
+                    "THEREDA"
+               ],
+               "radioactivity" :   {
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2022,
+                    "month" :   4,
+                    "day" :   19,
+                    "hour" :   14,
+                    "minute" :   29,
+                    "second" :   36
+               },
+               "temp_import" :   [
+
+               ]
+          }
+     },
+     {
+          "_id" :   "elements/Se;0:ELEMENT;12:THEREDA",
+          "_key" :   "Se;0:ELEMENT;12:THEREDA",
+          "_rev" :   "_eCFKrV2---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Se",
+               "isotope_mass" :   0,
+               "name" :   "Selenium",
+               "valences" :   {
+                    "values" :   [
+                         6
+                    ]
+               },
+               "atomic_mass" :   {
+                    "values" :   [
+                         78.96
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "WIE2006"
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         42.09
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "OLI/NOL2005"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         25.09
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "OLI/NOL2005"
+                    ]
+               },
+               "number" :   34,
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "comment" :   "referencestate: crystalline, trigonal",
+               "datasources" :   [
+                    "THEREDA"
+               ],
+               "radioactivity" :   {
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2022,
+                    "month" :   4,
+                    "day" :   19,
+                    "hour" :   14,
+                    "minute" :   29,
+                    "second" :   36
+               },
+               "temp_import" :   [
+
+               ]
+          }
+     },
+     {
+          "_id" :   "elements/Si;0:ELEMENT;12:THEREDA",
+          "_key" :   "Si;0:ELEMENT;12:THEREDA",
+          "_rev" :   "_eCFKrW----",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Si",
+               "isotope_mass" :   0,
+               "name" :   "Silicon",
+               "valences" :   {
+                    "values" :   [
+                        4
+                    ]
+               },
+               "atomic_mass" :   {
+                    "values" :   [
+                         28.0855
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "WIE2006"
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         18.81
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "COX/WAG1989"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         19.789
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "COX/WAG1989"
+                    ]
+               },
+               "number" :   14,
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "comment" :   "referencestate: crystalline, cubic, fcc",
+               "datasources" :   [
+                    "THEREDA"
+               ],
+               "radioactivity" :   {
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2022,
+                    "month" :   4,
+                    "day" :   19,
+                    "hour" :   14,
+                    "minute" :   29,
+                    "second" :   36
+               },
+               "temp_import" :   [
+
+               ]
+          }
+     },
+     {
+          "_id" :   "elements/Sr;0:ELEMENT;12:THEREDA",
+          "_key" :   "Sr;0:ELEMENT;12:THEREDA",
+          "_rev" :   "_eCFKrWG---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Sr",
+               "isotope_mass" :   0,
+               "name" :   "Strontium",
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "atomic_mass" :   {
+                    "values" :   [
+                         87.62
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "WIE2006"
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         55.7
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "GRE/FUG1992"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         26.4
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "WAG/EVA1982"
+                    ]
+               },
+               "number" :   38,
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "comment" :   "referencestate: crystalline, cubic, fcc, alpha",
+               "datasources" :   [
+                    "THEREDA"
+               ],
+               "radioactivity" :   {
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2022,
+                    "month" :   4,
+                    "day" :   19,
+                    "hour" :   14,
+                    "minute" :   29,
+                    "second" :   36
+               },
+               "temp_import" :   [
+
+               ]
+          }
+     },
+     {
+          "_id" :   "elements/Tc;0:ELEMENT;12:THEREDA",
+          "_key" :   "Tc;0:ELEMENT;12:THEREDA",
+          "_rev" :   "_eCFKrWS---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Tc",
+               "isotope_mass" :   0,
+               "name" :   "Technetium",
+               "valences" :   {
+                    "values" :   [
+                         4
+                    ]
+               },
+               "atomic_mass" :   {
+                    "values" :   [
+                         98.9063
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "WIE2006"
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         32.506
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "GUI/FAN2003"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         24.879
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "GUI/FAN2003"
+                    ]
+               },
+               "number" :   43,
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "comment" :   "for 99Tc; referencestate: crystalline",
+               "datasources" :   [
+                    "THEREDA"
+               ],
+               "radioactivity" :   {
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2022,
+                    "month" :   4,
+                    "day" :   19,
+                    "hour" :   14,
+                    "minute" :   29,
+                    "second" :   36
+               },
+               "temp_import" :   [
+
+               ]
+          }
+     },
+     {
+          "_id" :   "elements/Th;0:ELEMENT;12:THEREDA",
+          "_key" :   "Th;0:ELEMENT;12:THEREDA",
+          "_rev" :   "_eCFKrWe---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Th",
+               "isotope_mass" :   0,
+               "name" :   "Thorium",
+               "valences" :   {
+                    "values" :   [
+                         4
+                    ]
+               },
+               "atomic_mass" :   {
+                    "values" :   [
+                         232.03806
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "WIE2006"
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         52.64
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "RAN/FUG2008"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         26.23
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "RAN/FUG2008"
+                    ]
+               },
+               "number" :   90,
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "comment" :   "referencestate: crystalline, cubic, fcc",
+               "datasources" :   [
+                    "THEREDA"
+               ],
+               "radioactivity" :   {
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2022,
+                    "month" :   4,
+                    "day" :   19,
+                    "hour" :   14,
+                    "minute" :   29,
+                    "second" :   36
+               },
+               "temp_import" :   [
+
+               ]
+          }
+     },
+     {
+          "_id" :   "elements/U;0:ELEMENT;12:THEREDA",
+          "_key" :   "U;0:ELEMENT;12:THEREDA",
+          "_rev" :   "_eCFKrWq---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "U",
+               "isotope_mass" :   0,
+               "name" :   "Uranium",
+               "valences" :   {
+                    "values" :   [
+                         6
+                    ]
+               },
+               "atomic_mass" :   {
+                    "values" :   [
+                         238.02891
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "WIE2006"
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         50.2
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "GRE/FUG1992"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         27.66
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "GRE/FUG1992"
+                    ]
+               },
+               "number" :   92,
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "comment" :   "referencestate: crystalline, orthorhombic, alpha",
+               "datasources" :   [
+                    "THEREDA"
+               ],
+               "radioactivity" :   {
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2022,
+                    "month" :   4,
+                    "day" :   19,
+                    "hour" :   14,
+                    "minute" :   29,
+                    "second" :   36
+               },
+               "temp_import" :   [
+
+               ]
+          }
+     },
+     {
+          "_id" :   "elements/Zz;4:CHARGE;12:THEREDA",
+          "_key" :   "Zz;4:CHARGE;12:THEREDA",
+          "_rev" :   "_eCFKrTG---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Zz",
+               "isotope_mass" :   0,
+               "name" :   "Electron",
+               "valences" :   {
+                    "values" :   [
+                         1
+                    ]
+               },
+               "atomic_mass" :   {
+                    "values" :   [
+                         0.00054858
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "Definition/Convention"
+                    ]
+               },
+               "class_" :   {
+                    "4" :   "CHARGE"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         65.34
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "Definition/Convention"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         14.418
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "datasources" :   [
+                         "Definition/Convention"
+                    ]
+               },
+               "number" :   0,
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "comment" :   "equal to value for 0.5H2(g), since reaction value for H2(g) = H<+> + e<-> is equal to zero (convention). Exact value for molar mass is 0.00054857990943. It was rounded to eight digits. ; referencestate: aqueous",
+               "datasources" :   [
+                    "THEREDA"
+               ],
+               "radioactivity" :   {
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2022,
+                    "month" :   4,
+                    "day" :   19,
+                    "hour" :   14,
+                    "minute" :   29,
+                    "second" :   36
+               },
+               "temp_import" :   [
+
+               ]
+          }
+     }
+]

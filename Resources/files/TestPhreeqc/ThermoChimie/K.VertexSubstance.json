@@ -1,0 +1,69 @@
+[
+     {
+          "_id" :   "substances/K+;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "K+;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_bwN0BHC--_",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "K+",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "K+",
+               "name" :   "K+",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -282.51
+                    ],
+                    "errors" :   [
+                         0.116
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -252.14
+                    ],
+                    "errors" :   [
+                         0.08
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         101.2
+                    ],
+                    "errors" :   [
+                         0.2
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "datasources" :   [
+                    "PSI2020"
+               ],
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   11,
+                    "day" :   16,
+                    "hour" :   15,
+                    "minute" :   9,
+                    "second" :   55
+               }
+          }
+     }
+]

@@ -1,0 +1,133 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.TPMethods" :   "[{\"method\":{}}, {\"method\":{}}, {\"method\":{}}]"
+          },
+          "matches" :   {
+               "properties.sourcetdb" :   {
+                    "field" :   "properties.sourcetdb",
+                    "convert" :   {
+                         "0" :   "{\"0\" : \"CODATA\"}",
+                         "1" :   "{\"1\" : \"NIST\"}",
+                         "2" :   "{\"2\" : \"SUPCRT\"}",
+                         "3" :   "{\"3\" : \"HOLLAND_POWELL\"}",
+                         "4" :   "{\"4\" : \"BERMAN_BROWN\"}",
+                         "5" :   "{\"5\" : \"ROBIE_HEMINGWAY\"}",
+                         "6" :   "{\"6\" : \"GOTTSCHALK\"}",
+                         "7" :   "{\"7\" : \"BABUSHKIN\"}",
+                         "8" :   "{\"8\" : \"KUBASCHEWSKI\"}",
+                         "9" :   "{\"9\" : \"KONINGS\"}",
+                         "10" :   "{\"10\" : \"REID_GL\"}",
+                         "11" :   "{\"11\" : \"NEA\"}",
+                         "12" :   "{\"12\" : \"THEREDA\"}",
+                         "13" :   "{\"13\" : \"THERMODDEM\"}",
+                         "14" :   "{\"14\" : \"SMITH_MARTELL\"}",
+                         "15" :   "{\"15\" : \"PSI_NAGRA\"}",
+                         "16" :   "{\"1111\" : \"OTHER\"}",
+                         "17" :   "{\"16\" : \"MOIETY\"}",
+                         "18" :   "{\"17\" : \"HKF_DEW\"}",
+                         "19" :   "{\"18\" : \"MINES\"}",
+                         "20" :   "{\"19\" : \"AQ17\"}",
+                         "21" :   "{\"20\" : \"CEMDATA18\"}",
+                         "22" :   "{\"21\" : \"SUPCRT07\"}",
+                         "1001" :   "{\"1001\" : \"WORK1\"}",
+                         "1002" :   "{\"1002\" : \"WORK2\"}",
+                         "1003" :   "{\"1003\" : \"WORK3\"}",
+                         "1004" :   "{\"1004\" : \"WORK4\"}"
+                    }
+               },
+               "properties.Tst" :   {
+                    "field" :   "properties.Tst"
+               },
+               "properties.Pst" :   {
+                    "field" :   "properties.Pst"
+               },
+               "properties.comment" :   {
+                    "field" :   "properties.comment"
+               },
+               "properties.symbol" :   {
+                    "field" :   "properties.symbol"
+               },
+               "properties.name" :   {
+                "field" :   "properties.name"
+               },
+               "properties.method_genEoS" :   {
+                    "field" :   "properties.TPMethods.0.method",
+                    "convert" :   {
+                         "100" :   "{\"11\" :  \"dr_heat_capacity_ft\"}",
+                         "104" :   "{\"2\" :   \"iso_compounds_grichuk88\"}",
+                         "105" :   "{\"1\" :   \"adsor_ion_exchange\"}",
+                         "102" :   "{\"0\" :   \"logk_fpt_function\"}"
+                    }
+               },
+               "properties.method_corrT" :   {
+                    "field" :   "properties.TPMethods.1.method",
+                    "convert" :   {
+                         "208" :   "{\"3\" :   \"logk_nordstrom_munoz88\"}",
+                         "209" :   "{\"4\" :   \"logk_1_term_extrap0\"}",
+                         "210" :   "{\"5\" :   \"logk_1_term_extrap1\"}",
+                         "211" :   "{\"6\" :   \"logk_2_term_extrap\"}",
+                         "212" :   "{\"7\" :   \"logk_3_term_extrap\"}",
+                         "213" :   "{\"8\" :   \"logk_lagrange_interp\"}",
+                         "214" :   "{\"9\" :   \"logk_marshall_frank78\"}",
+                         "216" :   "{\"10\" :  \"solute_eos_ryzhenko_gems\"}"
+                    }
+               },
+               "properties.method_corrP" :   {
+                    "field" :   "properties.TPMethods.2.method",
+                    "convert" :   {
+                         "306" :   "{\"12\" :   \"dr_volume_fpt\"}",
+                         "305" :   "{\"12\" :   \"dr_volume_constant\"}"
+                    }
+               },
+               "properties.logKr.values" :   {
+                    "field" :   "properties.logKr.values"
+               },
+               "properties.logKr.errors" :   {
+                    "field" :   "properties.logKr.errors"
+               },
+               "properties.drsm_gibbs_energy.values" :   {
+                    "field" :   "properties.drsm_gibbs_energy.values"
+               },
+               "properties.drsm_enthalpy.values" :   {
+                    "field" :   "properties.drsm_enthalpy.values"
+               },
+               "properties.drsm_entropy.values" :   {
+                    "field" :   "properties.drsm_entropy.values"
+               },
+               "properties.drsm_heat_capacity_p.values" :   {
+                    "field" :   "properties.drsm_heat_capacity_p.values"
+               },
+               "properties.drsm_volume.values" :   {
+                    "field" :   "properties.drsm_volume.values"
+               },
+               "properties.dr_sm_rb_coeffs" :   {
+                    "field" :   "properties.TPMethods.1.dr_ryzhenko_coeffs.values",
+                    "script" :  "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
+               },
+               "properties.dr_sm_mf_coeffs" :   {
+                    "field" :   "properties.TPMethods.1.dr_marshall_franck_coeffs.values",
+                    "script" :  "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
+               },
+               "properties.logk_ft_coeffs.values" :   {
+                    "field" :   "properties.TPMethods.0.logk_ft_coeffs.values",
+                    "script" :  "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
+               },
+               "properties.dr_heat_aapacity_p_t_coeffs.values" :   {
+                    "field" :   "properties.TPMethods.2.dr_volume_pt_coeffs.values",
+                    "script" :  "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
+               },
+               "properties.dr_heat_capacity_p_t_coeffs.values" :   {
+                    "field" :   "properties.TPMethods.0.dr_heat_capacity_p_t_coeffs.values",
+                    "script" :  "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
+               }
+          },
+          "script": "if rintable.properties.TPMethods[2].method == 'solute_eos_ryzhenko_gems' then rintable.properties.TPMethods[2].dr_ryzhenko_coeffs = rintable.properties.TPMethods[2].dr_marshall_franck_coeffs rintable.properties.TPMethods[2].dr_marshall_franck_coeffs = nil end; 
+          if next(rintable.properties.TPMethods[3].method) == nil then table.remove(rintable.properties.TPMethods, 3) end;
+          if next(rintable.properties.TPMethods[2].method) == nil then table.remove(rintable.properties.TPMethods, 2) end;
+          if next(rintable.properties.TPMethods[1].method) == nil then table.remove(rintable.properties.TPMethods, 1) end;"
+     },
+     "renderer" :   "JSON",
+     "label" :   "VertexReaction",
+     "comment" :   "test"
+}

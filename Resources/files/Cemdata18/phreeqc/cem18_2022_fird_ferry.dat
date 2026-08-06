@@ -1,0 +1,62 @@
+SOLUTION_MASTER_SPECIES 
+
+
+#        ATOMIC WEIGHTS 
+#        Naturally occuring elements: IUPAC 1993 Table 1 rounded to 0.001
+#        Radioelements: Mass number of longest-lived isotope
+#
+#
+#
+#  elemen     species        alk   gfw_formula element_gfw atomic
+#                                                          number
+#
+Ca	Ca	0.0	Calcium	40.07799911499	 	
+Ca	Ca	0.0	Calcium_	40.07799911499	 	
+Cl	Cl	0.0	Chlorine	35.45299911499	 	
+Fe	Fe	0.0	Iron	55.845001220703	 	
+H	H	0.0	Hydrogen_	1.0079499483109	 	
+H	H	0.0	Hydrogen	1.0079499483109	 	
+O	O	0.0	Oxygen	15.999400138855	 	
+O	O	0.0	Oxygen_	15.999400138855	 	
+E	e-	0.0	Electric_charge	0	 	
+E	e-	0.0	Electric_charge_	0	 	
+
+
+SOLUTION_SPECIES 
+
+# PMATCH MASTER SPECIES 
+
+
+H+	=	H+
+	-gamma 	9  0  
+	-log_k 	0.0  
+
+Ca+2	=	Ca+2
+	-gamma 	4.8600001335144  0.15000000596046  
+	-log_k 	0.0  
+
+Cl-	=	Cl-
+	-gamma 	3.710000038147  0.0099999997764826  
+	-log_k 	0.0  
+
+FeO2-	=	FeO2-
+	-gamma 	4  0.064  
+	-log_k 	0.0  
+
+H2O	=	H2O
+	-gamma 	0  0  
+	-log_k 	0.0  
+
+# PMATCH SECONDARY MASTER SPECIES 
+
+
+
+PHASES 
+
+
+
+C4FeCl2H10 Fe Friedel's salt-ideal theoretical composition
+	Ca4Fe2Cl2(OH)12(H2O)4 + 4H+ = 12H2O + 2FeO2- + 2Cl- + 4Ca+2
+	-Vm	278.04000854492 
+	-analytical_expression	251.42095310846 0 3211.1112086654 -94.8876323436921 0 0 0 
+	-log_K	27.391529 

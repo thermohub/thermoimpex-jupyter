@@ -1,0 +1,108 @@
+[
+     {
+          "_id" :   "substances/O2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "O2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZx0i---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "O2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "O2",
+               "name" :   "_rdc_O2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   0,
+               "comment" :   "- 4.000H+     - 4.000e-     + 2.000H2O     = O2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   50
+               }
+          }
+     },
+     {
+          "_id" :   "substances/e-;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "e-;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZv6u---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "e-",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "-",
+               "name" :   "e-",
+      "class_": {
+        "2": "SC_AQSOLUTE"
+      },
+      "aggregate_state": {
+        "4": "AS_AQUEOUS"
+      },
+      "Tst": 298.15,
+      "Pst": 100000,
+      "sm_gibbs_energy": {
+        "values": [
+          0
+        ],
+        "units": [
+          "kJ/mol"
+        ]
+      },
+      "sm_enthalpy": {
+        "values": [
+          0
+        ],
+        "units": [
+          "kJ/mol"
+        ]
+      },
+      "sm_entropy_abs": {
+        "values": [
+          65.34
+        ],
+        "errors": [
+          0.0015
+        ],
+        "units": [
+          "J/(K*mol)"
+        ]
+      },
+      "sm_heat_capacity_p": {
+        "values": [
+          14.418
+        ],
+        "errors": [
+          0.001
+        ],
+        "units": [
+          "J/(K*mol)"
+        ]
+      },
+      "datasources": [
+        "PSI2020"
+      ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     }
+]

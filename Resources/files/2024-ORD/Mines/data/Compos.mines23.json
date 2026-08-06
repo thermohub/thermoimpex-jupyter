@@ -1,0 +1,5281 @@
+[
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    2,
+                    0,
+                    0,
+                    0,
+                    2,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Hydrogen sulfide 1 mol",
+            "BCnote": "GEMS PCO database",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    2
+                ],
+                [
+                    1
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.03408290073275566,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    2
+                ],
+                [
+                    1
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "H     h   "
+                ],
+                [
+                    "S     e   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "Acid_H2S",
+            "AQ",
+            "Hydogen_sulfide_1M"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    3,
+                    0,
+                    0,
+                    0,
+                    3,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Sulfuric_acid 1 mol",
+            "BCnote": "GEMS PCO database",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    2
+                ],
+                [
+                    4
+                ],
+                [
+                    1
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.09808050096035004,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    7,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    2
+                ],
+                [
+                    4
+                ],
+                [
+                    1
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "H     h   "
+                ],
+                [
+                    "O     o   "
+                ],
+                [
+                    "S     e   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "Acid_H2SO4",
+            "AQ",
+            "Sulfuric_acid_1M"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    3,
+                    0,
+                    0,
+                    0,
+                    3,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Phosphoric acid 1 mol",
+            "BCnote": "GEMS PCO database",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    3
+                ],
+                [
+                    4
+                ],
+                [
+                    1
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.09799521416425705,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    8,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    3
+                ],
+                [
+                    4
+                ],
+                [
+                    1
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "H     h   "
+                ],
+                [
+                    "O     o   "
+                ],
+                [
+                    "P     e   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "Acid_H3PO4",
+            "AQ",
+            "Phosphoric_acid_1M"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    2,
+                    0,
+                    0,
+                    0,
+                    2,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Hydrochloric acid 1 mol",
+            "BCnote": "GEMS PCO database",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.03646094724535942,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "Cl    e   "
+                ],
+                [
+                    "H     h   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "Acid_HCl",
+            "AQ",
+            "Hydrochloric_acid_1M"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Perchloric acid 1 mol",
+            "BCnote": "GEMS PCO database",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    4
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.1004585474729538,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    6,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    4
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "Cl    e   "
+                ],
+                [
+                    "H     h   "
+                ],
+                [
+                    "O     o   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "Acid_HClO4",
+            "AQ",
+            "Perchloric_acid_1M"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    2,
+                    0,
+                    0,
+                    0,
+                    2,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Hydrofluoric acid 1 mol",
+            "BCnote": "GEMS PCO database",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.020006349310278893,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "F     e   "
+                ],
+                [
+                    "H     h   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "Acid_HF",
+            "AQ",
+            "Hydrofluoric_acid_1M"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Aluminum oxide 1 mol",
+            "BCnote": "GEMS PCO database",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    2
+                ],
+                [
+                    3
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.10196128487586975,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    5,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    2
+                ],
+                [
+                    3
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "Al    e   "
+                ],
+                [
+                    "O     o   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "Al2O3",
+            "MIN",
+            "Aluminum_oxide_1M"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "BCname": "Water 1 Mole",
+            "BCnote": "GEMS PCO database",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    2
+                ],
+                [
+                    1
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.01801530085504055,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    2
+                ],
+                [
+                    1
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "H     h   "
+                ],
+                [
+                    "O     o   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "Aqua",
+            "AQ",
+            "1_mole_H2O"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "BCname": "CaCl2 electrolyte 1 mol",
+            "BCnote": "GEMS PCO database",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    1
+                ],
+                [
+                    2
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.11098399758338928,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    1
+                ],
+                [
+                    2
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "Ca    e   "
+                ],
+                [
+                    "Cl    e   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "CaCl2",
+            "AQ",
+            "Calcium-chloride_1M"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Calcium oxide 1 mol",
+            "BCnote": "GEMS PCO database",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.05607739835977554,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "Ca    e   "
+                ],
+                [
+                    "O     o   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "CaO",
+            "MIN",
+            "Calcium_oxide_1M"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    9,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Seawater_1kg_               ",
+            "BCnote": "Seawater from Millero et al.",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    0.0019663614
+                ],
+                [
+                    0.010373385
+                ],
+                [
+                    0.54674992
+                ],
+                [
+                    107.12202
+                ],
+                [
+                    0.010208308
+                ],
+                [
+                    0.052820884
+                ],
+                [
+                    0.4689999
+                ],
+                [
+                    53.679041
+                ],
+                [
+                    0.028236554
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    161.92041015625,
+                    1
+                ]
+            ],
+            "PCO": [
+                [
+                    0.0019663614
+                ],
+                [
+                    0.010373385
+                ],
+                [
+                    0.54674992
+                ],
+                [
+                    107.12202
+                ],
+                [
+                    0.010208308
+                ],
+                [
+                    0.052820884
+                ],
+                [
+                    0.4689999
+                ],
+                [
+                    53.679041
+                ],
+                [
+                    0.028236554
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "C     e   "
+                ],
+                [
+                    "Ca    e   "
+                ],
+                [
+                    "Cl    e   "
+                ],
+                [
+                    "H     h   "
+                ],
+                [
+                    "K     e   "
+                ],
+                [
+                    "Mg    e   "
+                ],
+                [
+                    "Na    e   "
+                ],
+                [
+                    "O     o   "
+                ],
+                [
+                    "S     e   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "F_Seawater",
+            "FL",
+            "Seawater_1kg"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Sodium oxide 1 mol",
+            "BCnote": "GEMS PCO database",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    2
+                ],
+                [
+                    3
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.15968820452690125,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    5,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    2
+                ],
+                [
+                    3
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "Fe    e   "
+                ],
+                [
+                    "O     o   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "Fe2O3",
+            "MIN",
+            "Ferric_iron_1M"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    2,
+                    0,
+                    0,
+                    0,
+                    2,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Sodium oxide 1 mol",
+            "BCnote": "GEMS PCO database",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.07184439897537231,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "Fe    e   "
+                ],
+                [
+                    "O     o   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "FeO",
+            "MIN",
+            "Ferrous_iron_1M"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": [
+                [
+                    "g"
+                ],
+                [
+                    "g"
+                ]
+            ],
+            "BC_dim": [
+                [
+                    4,
+                    0,
+                    2,
+                    0,
+                    4,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "+",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Fluid1 1kg",
+            "BCnote": "Saline fluid",
+            "CA": [
+                [
+                    1000
+                ],
+                [
+                    200
+                ]
+            ],
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.9999999403953552,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    2.8517911647578535
+                ],
+                [
+                    92.51395003377705
+                ],
+                [
+                    2.8517911647578535
+                ],
+                [
+                    46.256975016888525
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": [
+                [
+                    "H2O"
+                ],
+                [
+                    "NaCl"
+                ]
+            ],
+            "symDC": null,
+            "symIC": [
+                [
+                    "Cl    e   "
+                ],
+                [
+                    "H     h   "
+                ],
+                [
+                    "Na    e   "
+                ],
+                [
+                    "O     o   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "Fluid_NaCl_20wt%",
+            "FL",
+            "20_wt%_NaCl"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": [
+                [
+                    "g"
+                ],
+                [
+                    "g"
+                ]
+            ],
+            "BC_dim": [
+                [
+                    4,
+                    0,
+                    2,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "+",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Fluid1 1kg",
+            "BCnote": "Saline fluid",
+            "CA": [
+                [
+                    1000
+                ],
+                [
+                    50
+                ]
+            ],
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.9999999403953552,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    0.8147974756451011
+                ],
+                [
+                    105.73022861003093
+                ],
+                [
+                    0.8147974756451011
+                ],
+                [
+                    52.86511430501547
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": [
+                [
+                    "H2O"
+                ],
+                [
+                    "NaCl"
+                ]
+            ],
+            "symDC": null,
+            "symIC": [
+                [
+                    "Cl    e   "
+                ],
+                [
+                    "H     h   "
+                ],
+                [
+                    "Na    e   "
+                ],
+                [
+                    "O     o   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "Fluid_NaCl_5wt%",
+            "FL",
+            "5_wt%_NaCl"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    11,
+                    0,
+                    0,
+                    0,
+                    11,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Fluid2 1kg",
+            "BCnote": "Composition greisenizing fluid Halter et al. (1998)",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    5.17e-05
+                ],
+                [
+                    4.8511
+                ],
+                [
+                    0.0062
+                ],
+                [
+                    0.53
+                ],
+                [
+                    115.871
+                ],
+                [
+                    0.0809
+                ],
+                [
+                    3.7
+                ],
+                [
+                    58.0786
+                ],
+                [
+                    0.0017
+                ],
+                [
+                    0.0851
+                ],
+                [
+                    0.0014
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.9999999403953552,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    3.8623763297730726e-05
+                ],
+                [
+                    3.6241341998766248
+                ],
+                [
+                    0.004631863296826509
+                ],
+                [
+                    0.395949604406137
+                ],
+                [
+                    86.56429549461038
+                ],
+                [
+                    0.060438345276332996
+                ],
+                [
+                    2.7641764835900133
+                ],
+                [
+                    43.38905414049485
+                ],
+                [
+                    0.0012700270330008167
+                ],
+                [
+                    0.06357605912257029
+                ],
+                [
+                    0.0010459046154124372
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "Al    e   "
+                ],
+                [
+                    "Cl    e   "
+                ],
+                [
+                    "F     e   "
+                ],
+                [
+                    "Fe    e   "
+                ],
+                [
+                    "H     h   "
+                ],
+                [
+                    "K     e   "
+                ],
+                [
+                    "Na    e   "
+                ],
+                [
+                    "O     o   "
+                ],
+                [
+                    "S     e   "
+                ],
+                [
+                    "Si    e   "
+                ],
+                [
+                    "Sn    e   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "Fluid_greisen",
+            "FL",
+            "Greisen_Alteration_1kg"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    14,
+                    0,
+                    0,
+                    0,
+                    14,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Porphyry_fluid_5 M NaCl     ",
+            "BCnote": "`",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    0.05404
+                ],
+                [
+                    1.681e-06
+                ],
+                [
+                    1.683977
+                ],
+                [
+                    0.000972
+                ],
+                [
+                    5.070347
+                ],
+                [
+                    0.4443975
+                ],
+                [
+                    0.000840927
+                ],
+                [
+                    112.3810281
+                ],
+                [
+                    0.5056479
+                ],
+                [
+                    5.056479
+                ],
+                [
+                    62.69644456
+                ],
+                [
+                    0.9304315
+                ],
+                [
+                    2.25e-06
+                ],
+                [
+                    1.406346e-15
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    1.5975942611694336,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            ],
+            "PCO": [
+                [
+                    0.05587542870393134
+                ],
+                [
+                    1.7380939239694409e-06
+                ],
+                [
+                    1.7411720355766134
+                ],
+                [
+                    0.0010050132624023179
+                ],
+                [
+                    5.242557592573874
+                ],
+                [
+                    0.4594911330025042
+                ],
+                [
+                    0.0008694884647244795
+                ],
+                [
+                    116.19796675196251
+                ],
+                [
+                    0.5228218576192192
+                ],
+                [
+                    5.228218576192193
+                ],
+                [
+                    64.82588301262517
+                ],
+                [
+                    0.962032918988562
+                ],
+                [
+                    2.326419588894255e-06
+                ],
+                [
+                    1.4541115036280352e-15
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "Ag    e   "
+                ],
+                [
+                    "Au    e   "
+                ],
+                [
+                    "C     e   "
+                ],
+                [
+                    "Ca    e   "
+                ],
+                [
+                    "Cl    e   "
+                ],
+                [
+                    "Cu    e   "
+                ],
+                [
+                    "Fe    e   "
+                ],
+                [
+                    "H     h   "
+                ],
+                [
+                    "Mo    e   "
+                ],
+                [
+                    "Na    e   "
+                ],
+                [
+                    "O     o   "
+                ],
+                [
+                    "S     e   "
+                ],
+                [
+                    "Ti    e   "
+                ],
+                [
+                    "Zz    z   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "Fluid_porphyry",
+            "FL",
+            "Porphyry_fluid_5M_NaCl"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    2,
+                    0,
+                    0,
+                    0,
+                    2,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Methane 1 mol",
+            "BCnote": "GEMS PCO database",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    1
+                ],
+                [
+                    4
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.016042599454522133,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    5,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    1
+                ],
+                [
+                    4
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "C     e   "
+                ],
+                [
+                    "H     h   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "Gas_CH4",
+            "GA",
+            "Methane_1M"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    2,
+                    0,
+                    0,
+                    0,
+                    2,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Carbon dioxide 1 mol",
+            "BCnote": "GEMS PCO database",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    1
+                ],
+                [
+                    2
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.04400959983468056,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    1
+                ],
+                [
+                    2
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "C     e   "
+                ],
+                [
+                    "O     o   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "Gas_CO2",
+            "GA",
+            "Carbon-dioxide_1M"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    1,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "H2 1 mol",
+            "BCnote": "GEMS PCO database",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    2
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.0020158998668193817,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    2
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "H     h   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "Gas_H2",
+            "GA",
+            "Hydrogen_1M"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    1,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "O2 1 mol",
+            "BCnote": "GEMS PCO database",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    2
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.03199880197644234,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    2
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "O     o   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "Gas_O2",
+            "GA",
+            "Oxygen_1M"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    2,
+                    0,
+                    0,
+                    0,
+                    2,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "SO2 1 mol",
+            "BCnote": "GEMS PCO database",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    2
+                ],
+                [
+                    1
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.04271053522825241,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    1.3333333333333333
+                ],
+                [
+                    0.6666666666666666
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "O     o   "
+                ],
+                [
+                    "S     e   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "Gas_SO2",
+            "GA",
+            "Sulfur_dioxide_1M"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Potassium oxide 1 mol",
+            "BCnote": "GEMS PCO database",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    2
+                ],
+                [
+                    1
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.09419599920511246,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    2
+                ],
+                [
+                    1
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "K     e   "
+                ],
+                [
+                    "O     o   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "K2O",
+            "MIN",
+            "Potassium_oxide_1M"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "BCname": "KCl electrolyte 1 mol",
+            "BCnote": "GEMS PCO database",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.0745512992143631,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "Cl    e   "
+                ],
+                [
+                    "K     e   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "KCl",
+            "AQ",
+            "Potassium-chloride_1M"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "BCname": "KOH electrolyte 1 mol",
+            "BCnote": "GEMS PCO database ",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.05610565096139908,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "H     h   "
+                ],
+                [
+                    "K     e   "
+                ],
+                [
+                    "O     o   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "KOH",
+            "AQ",
+            "Potassium-hydroxide_1M"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Sodium oxide 1 mol",
+            "BCnote": "GEMS PCO database",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.04030440002679825,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "Mg    e   "
+                ],
+                [
+                    "O     o   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "MgO",
+            "MIN",
+            "Magnesium_oxide_1M"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    4,
+                    0,
+                    0,
+                    0,
+                    4,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Albite 1 mol",
+            "BCnote": "GEMS PCO database",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    8
+                ],
+                [
+                    3
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.12846072018146515,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    0.46153846153846156
+                ],
+                [
+                    0.46153846153846156
+                ],
+                [
+                    3.6923076923076925
+                ],
+                [
+                    1.3846153846153846
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "Al    e   "
+                ],
+                [
+                    "Na    e   "
+                ],
+                [
+                    "O     o   "
+                ],
+                [
+                    "Si    e   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "Min_Albite",
+            "MIN",
+            "NaAlSi3O8"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    3,
+                    0,
+                    0,
+                    0,
+                    3,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Calcite 1 mol",
+            "BCnote": "GEMS PCO database  ",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    3
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.1000870019197464,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    5,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    3
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "C     e   "
+                ],
+                [
+                    "Ca    e   "
+                ],
+                [
+                    "O     o   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "Min_Calcite",
+            "MIN",
+            "CaCO3"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    2,
+                    0,
+                    0,
+                    0,
+                    2,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Fluorite 1 mol",
+            "BCnote": "GEMS PCO database  ",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    1
+                ],
+                [
+                    2
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.07807479798793793,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    1
+                ],
+                [
+                    2
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "Ca    e   "
+                ],
+                [
+                    "F     e   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "Min_Fluorite",
+            "MIN",
+            "CaF2"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "BC_dim": [
+                [
+                    2,
+                    0,
+                    2,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "+",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Hematite 1 mol",
+            "BCnote": "GEMS PCO database",
+            "CA": [
+                [
+                    2
+                ],
+                [
+                    3
+                ]
+            ],
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.15968820452690125,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    5,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    2
+                ],
+                [
+                    3
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": [
+                [
+                    "Fe|3|"
+                ],
+                [
+                    "O"
+                ]
+            ],
+            "symDC": null,
+            "symIC": [
+                [
+                    "Fe    e   "
+                ],
+                [
+                    "O     o   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "Min_Hematite",
+            "MIN",
+            "Fe2O3"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    4,
+                    0,
+                    0,
+                    0,
+                    4,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "K-feldspar 1 mol",
+            "BCnote": "GEMS PCO database",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    8
+                ],
+                [
+                    3
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.12846072018146515,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    0.46153846153846156
+                ],
+                [
+                    0.46153846153846156
+                ],
+                [
+                    3.6923076923076925
+                ],
+                [
+                    1.3846153846153846
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "Al    e   "
+                ],
+                [
+                    "K     e   "
+                ],
+                [
+                    "O     o   "
+                ],
+                [
+                    "Si    e   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "Min_K-feldspar",
+            "MIN",
+            "KAlSi3O8"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "BC_dim": [
+                [
+                    2,
+                    0,
+                    3,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "+",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Magnetite 1 mol",
+            "BCnote": "GEMS PCO database",
+            "CA": [
+                [
+                    1
+                ],
+                [
+                    2
+                ],
+                [
+                    4
+                ]
+            ],
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.23153260350227356,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    7,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    3
+                ],
+                [
+                    4
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": [
+                [
+                    "Fe"
+                ],
+                [
+                    "Fe|3|"
+                ],
+                [
+                    "O"
+                ]
+            ],
+            "symDC": null,
+            "symIC": [
+                [
+                    "Fe    e   "
+                ],
+                [
+                    "O     o   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "Min_Magnetite",
+            "MIN",
+            "Fe3O4"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    2,
+                    0,
+                    0,
+                    0,
+                    2,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Quartz 1 mol",
+            "BCnote": "GEMS PCO database",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    2
+                ],
+                [
+                    1
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.060084301978349686,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    2
+                ],
+                [
+                    1
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "O     o   "
+                ],
+                [
+                    "Si    e   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "Min_Quartz",
+            "MIN",
+            "SiO2"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Na2CO3 electrolyte 1 mol",
+            "BCnote": "GEMS PCO database ",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    1
+                ],
+                [
+                    2
+                ],
+                [
+                    3
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.10598859935998917,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    6,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    1
+                ],
+                [
+                    2
+                ],
+                [
+                    3
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "C     e   "
+                ],
+                [
+                    "Na    e   "
+                ],
+                [
+                    "O     o   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "Na2CO3",
+            "AQ",
+            "Sodium-carbonate_1M"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Sodium oxide 1 mol",
+            "BCnote": "GEMS PCO database",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    2
+                ],
+                [
+                    1
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.06197899952530861,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    2
+                ],
+                [
+                    1
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "Na    e   "
+                ],
+                [
+                    "O     o   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "Na2O",
+            "MIN",
+            "Sodium_oxide_1M"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "BCname": "NaCl electrolyte 1 mol",
+            "BCnote": "GEMS PCO database",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.058442797511816025,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    2,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "Cl    e   "
+                ],
+                [
+                    "Na    e   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "NaCl",
+            "AQ",
+            "Sodium-chloride_1M"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    4,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "NaHCO3 electrolyte 1 mol",
+            "BCnote": "GEMS PCO database ",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    3
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.08400674909353256,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    6,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    3
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "C     e   "
+                ],
+                [
+                    "H     h   "
+                ],
+                [
+                    "Na    e   "
+                ],
+                [
+                    "O     o   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "NaHCO3",
+            "AQ",
+            "Sodium-bicarbonate_1M"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    3,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "BCname": "NaOH electrolyte 1 mol",
+            "BCnote": "GEMS PCO database ",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.039997149258852005,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    1
+                ],
+                [
+                    1
+                ],
+                [
+                    1
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "H     h   "
+                ],
+                [
+                    "Na    e   "
+                ],
+                [
+                    "O     o   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "NaOH",
+            "AQ",
+            "Sodium-hydroxide_1M"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "BC_dim": [
+                [
+                    9,
+                    0,
+                    10,
+                    0,
+                    9,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "+",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Rock1 1kg",
+            "BCnote": "Basaltic glass, Iceland, Gysi and Stefansson (2011)",
+            "CA": [
+                [
+                    0.008
+                ],
+                [
+                    0.08
+                ],
+                [
+                    0.27
+                ],
+                [
+                    0.26
+                ],
+                [
+                    0.02
+                ],
+                [
+                    0.012
+                ],
+                [
+                    0.169
+                ],
+                [
+                    0.35
+                ],
+                [
+                    1
+                ],
+                [
+                    3.326
+                ]
+            ],
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.12110091745853424,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    5.494999885559082,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    0.35
+                ],
+                [
+                    0.27
+                ],
+                [
+                    0.18100000000000002
+                ],
+                [
+                    0.008
+                ],
+                [
+                    0.26
+                ],
+                [
+                    0.08
+                ],
+                [
+                    3.326
+                ],
+                [
+                    1
+                ],
+                [
+                    0.02
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": [
+                [
+                    "K"
+                ],
+                [
+                    "Na"
+                ],
+                [
+                    "Ca"
+                ],
+                [
+                    "Mg"
+                ],
+                [
+                    "Ti"
+                ],
+                [
+                    "Fe|3|"
+                ],
+                [
+                    "Fe"
+                ],
+                [
+                    "Al"
+                ],
+                [
+                    "Si"
+                ],
+                [
+                    "O"
+                ]
+            ],
+            "symDC": null,
+            "symIC": [
+                [
+                    "Al    e   "
+                ],
+                [
+                    "Ca    e   "
+                ],
+                [
+                    "Fe    e   "
+                ],
+                [
+                    "K     e   "
+                ],
+                [
+                    "Mg    e   "
+                ],
+                [
+                    "Na    e   "
+                ],
+                [
+                    "O     o   "
+                ],
+                [
+                    "Si    e   "
+                ],
+                [
+                    "Ti    e   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "R_Basalt",
+            "RO",
+            "Basaltic_glass_1kg"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": [
+                [
+                    "%"
+                ],
+                [
+                    "%"
+                ],
+                [
+                    "%"
+                ],
+                [
+                    "%"
+                ],
+                [
+                    "%"
+                ],
+                [
+                    "%"
+                ],
+                [
+                    "%"
+                ],
+                [
+                    "%"
+                ],
+                [
+                    "%"
+                ],
+                [
+                    "%"
+                ]
+            ],
+            "BC_dim": [
+                [
+                    10,
+                    0,
+                    10,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "+",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Rock1 1kg",
+            "BCnote": "Quartz-diorite (Mathieu and Racicot 2019)",
+            "CA": [
+                [
+                    57.14
+                ],
+                [
+                    0.58
+                ],
+                [
+                    17.72
+                ],
+                [
+                    1.64
+                ],
+                [
+                    3.73
+                ],
+                [
+                    7.11
+                ],
+                [
+                    3.83
+                ],
+                [
+                    0.85
+                ],
+                [
+                    4.05
+                ],
+                [
+                    0.76
+                ]
+            ],
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.9999999403953552,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    4.232375879879251
+                ],
+                [
+                    1.3016018814392132
+                ],
+                [
+                    0.7895682901008648
+                ],
+                [
+                    0.8661607887363175
+                ],
+                [
+                    0.18527331913059475
+                ],
+                [
+                    0.9500638587585739
+                ],
+                [
+                    1.268763398649895
+                ],
+                [
+                    28.213877355950796
+                ],
+                [
+                    9.762828352959632
+                ],
+                [
+                    0.07454060014890189
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": [
+                [
+                    "SiO2"
+                ],
+                [
+                    "TiO2"
+                ],
+                [
+                    "Al2O2"
+                ],
+                [
+                    "Fe|3|2O3"
+                ],
+                [
+                    "MgO"
+                ],
+                [
+                    "CaO"
+                ],
+                [
+                    "Na2O"
+                ],
+                [
+                    "K2O"
+                ],
+                [
+                    "Fe|2|O"
+                ],
+                [
+                    "H2O"
+                ]
+            ],
+            "symDC": null,
+            "symIC": [
+                [
+                    "Al    e   "
+                ],
+                [
+                    "Ca    e   "
+                ],
+                [
+                    "Fe    e   "
+                ],
+                [
+                    "H     h   "
+                ],
+                [
+                    "K     e   "
+                ],
+                [
+                    "Mg    e   "
+                ],
+                [
+                    "Na    e   "
+                ],
+                [
+                    "O     o   "
+                ],
+                [
+                    "Si    e   "
+                ],
+                [
+                    "Ti    e   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "R_Dacite",
+            "RO",
+            "Porphyry_Alteration_1kg"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    6,
+                    4,
+                    0,
+                    0,
+                    6,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Rock1 1kg",
+            "BCnote": "Leucogranite, East Kemptville, Halter et al. (1998)",
+            "CA": null,
+            "CD": [
+                [
+                    17
+                ],
+                [
+                    19
+                ],
+                [
+                    29
+                ],
+                [
+                    35
+                ]
+            ],
+            "CDcl": [
+                [
+                    "%"
+                ],
+                [
+                    "%"
+                ],
+                [
+                    "%"
+                ],
+                [
+                    "%"
+                ]
+            ],
+            "CI": [
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": [
+                [
+                    "d"
+                ],
+                [
+                    "d"
+                ],
+                [
+                    "d"
+                ],
+                [
+                    "d"
+                ]
+            ],
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.9999999403953552,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    49.81005859375,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    3.1477638205345606
+                ],
+                [
+                    0.9540352101524923
+                ],
+                [
+                    1.0877999364245925
+                ],
+                [
+                    1.1059286739574758
+                ],
+                [
+                    31.108196414024082
+                ],
+                [
+                    12.406334386477482
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": [
+                [
+                    "s   KAlSiO  Microcline      hp98"
+                ],
+                [
+                    "s   KAlSiO  Muscovite       hp98"
+                ],
+                [
+                    "s   NaAlSiO Albite          hp98"
+                ],
+                [
+                    "s   SiO2    Quartz          hp98"
+                ]
+            ],
+            "symIC": [
+                [
+                    "Al    e   "
+                ],
+                [
+                    "H     h   "
+                ],
+                [
+                    "K     e   "
+                ],
+                [
+                    "Na    e   "
+                ],
+                [
+                    "O     o   "
+                ],
+                [
+                    "Si    e   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "R_Leucogranite",
+            "RO",
+            "Greisen_Alteration_1kg"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": [
+                [
+                    "%"
+                ],
+                [
+                    "%"
+                ],
+                [
+                    "%"
+                ],
+                [
+                    "%"
+                ],
+                [
+                    "%"
+                ],
+                [
+                    "%"
+                ],
+                [
+                    "%"
+                ],
+                [
+                    "%"
+                ],
+                [
+                    "%"
+                ],
+                [
+                    "y"
+                ],
+                [
+                    "y"
+                ],
+                [
+                    "y"
+                ],
+                [
+                    "y"
+                ],
+                [
+                    "y"
+                ],
+                [
+                    "y"
+                ],
+                [
+                    "Y"
+                ],
+                [
+                    "y"
+                ],
+                [
+                    "y"
+                ],
+                [
+                    "y"
+                ],
+                [
+                    "y"
+                ],
+                [
+                    "y"
+                ],
+                [
+                    "y"
+                ],
+                [
+                    "y"
+                ]
+            ],
+            "BC_dim": [
+                [
+                    23,
+                    0,
+                    23,
+                    0,
+                    23,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "+",
+                    "-",
+                    "-",
+                    "M"
+                ]
+            ],
+            "BCname": "Pegmatite 1kg",
+            "BCnote": "REE pegmatite, Strange Lake, Gysi and Williams-Jones (2013)",
+            "CA": [
+                [
+                    68.76000213623047
+                ],
+                [
+                    6
+                ],
+                [
+                    2.62
+                ],
+                [
+                    1.19
+                ],
+                [
+                    0.96
+                ],
+                [
+                    3.44
+                ],
+                [
+                    4.63
+                ],
+                [
+                    6.480000019073486
+                ],
+                [
+                    2.5399999618530273
+                ],
+                [
+                    1287
+                ],
+                [
+                    2910
+                ],
+                [
+                    332
+                ],
+                [
+                    1201
+                ],
+                [
+                    335
+                ],
+                [
+                    21
+                ],
+                [
+                    383
+                ],
+                [
+                    93
+                ],
+                [
+                    725
+                ],
+                [
+                    174
+                ],
+                [
+                    575
+                ],
+                [
+                    92
+                ],
+                [
+                    577
+                ],
+                [
+                    78
+                ]
+            ],
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ],
+                [
+                    0
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    46.546024322509766,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    1.2075154776229897
+                ],
+                [
+                    1.1855882592009732
+                ],
+                [
+                    0.021307849566283513
+                ],
+                [
+                    0.004577531987225851
+                ],
+                [
+                    0.003527138496772726
+                ],
+                [
+                    0.00014178337557382853
+                ],
+                [
+                    2.500407059338057
+                ],
+                [
+                    0.6146211888279872
+                ],
+                [
+                    0.0003929574442137501
+                ],
+                [
+                    0.0010824213631825564
+                ],
+                [
+                    0.5707495309258158
+                ],
+                [
+                    0.009505867810615043
+                ],
+                [
+                    0.00045738061526449925
+                ],
+                [
+                    0.393984507697019
+                ],
+                [
+                    0.008542874447134011
+                ],
+                [
+                    28.061402970859174
+                ],
+                [
+                    0.0024174208792228343
+                ],
+                [
+                    11.74144680778914
+                ],
+                [
+                    0.002286062520222184
+                ],
+                [
+                    0.0006003993573196673
+                ],
+                [
+                    0.0005587499454786498
+                ],
+                [
+                    0.003421181146914779
+                ],
+                [
+                    0.211489780279959
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": [
+                [
+                    "SiO2"
+                ],
+                [
+                    "Al2O3"
+                ],
+                [
+                    "K2O"
+                ],
+                [
+                    "Na2O"
+                ],
+                [
+                    "Fe|3|2O3"
+                ],
+                [
+                    "FeO"
+                ],
+                [
+                    "F"
+                ],
+                [
+                    "CaO"
+                ],
+                [
+                    "ZrO2"
+                ],
+                [
+                    "La"
+                ],
+                [
+                    "Ce"
+                ],
+                [
+                    "Pr"
+                ],
+                [
+                    "Nd"
+                ],
+                [
+                    "Sm"
+                ],
+                [
+                    "Eu"
+                ],
+                [
+                    "Gd"
+                ],
+                [
+                    "Tb"
+                ],
+                [
+                    "Dy"
+                ],
+                [
+                    "Ho"
+                ],
+                [
+                    "Er"
+                ],
+                [
+                    "Tm"
+                ],
+                [
+                    "Yb"
+                ],
+                [
+                    "Lu"
+                ]
+            ],
+            "symDC": null,
+            "symIC": [
+                [
+                    "Al    e   "
+                ],
+                [
+                    "Ca    e   "
+                ],
+                [
+                    "Ce    e   "
+                ],
+                [
+                    "Dy    e   "
+                ],
+                [
+                    "Er    e   "
+                ],
+                [
+                    "Eu    e   "
+                ],
+                [
+                    "F     e   "
+                ],
+                [
+                    "Fe    e   "
+                ],
+                [
+                    "Gd    e   "
+                ],
+                [
+                    "Ho    e   "
+                ],
+                [
+                    "K     e   "
+                ],
+                [
+                    "La    e   "
+                ],
+                [
+                    "Lu    e   "
+                ],
+                [
+                    "Na    e   "
+                ],
+                [
+                    "Nd    e   "
+                ],
+                [
+                    "O     o   "
+                ],
+                [
+                    "Pr    e   "
+                ],
+                [
+                    "Si    e   "
+                ],
+                [
+                    "Sm    e   "
+                ],
+                [
+                    "Tb    e   "
+                ],
+                [
+                    "Tm    e   "
+                ],
+                [
+                    "Yb    e   "
+                ],
+                [
+                    "Zr    e   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "R_Pegmatite",
+            "RO",
+            "Peg_REE_1kg"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "AUcl": null,
+            "BC_dim": [
+                [
+                    2,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "BC_set": [
+                [
+                    "+",
+                    "-",
+                    "-",
+                    "-",
+                    "-",
+                    "-"
+                ]
+            ],
+            "BCname": "Ti oxide 1 mol",
+            "BCnote": "GEMS PCO complem database ",
+            "CA": null,
+            "CD": null,
+            "CDcl": null,
+            "CI": [
+                [
+                    2
+                ],
+                [
+                    1
+                ]
+            ],
+            "CIcl": [
+                [
+                    "M"
+                ],
+                [
+                    "M"
+                ]
+            ],
+            "CmDCS": null,
+            "Ctext": null,
+            "MasVol": [
+                [
+                    0.0798787996172905,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    3,
+                    0
+                ]
+            ],
+            "PCO": [
+                [
+                    1.9999999567210656
+                ],
+                [
+                    1
+                ]
+            ],
+            "bSDref": null,
+            "bSDval": null,
+            "formU": null,
+            "symDC": null,
+            "symIC": [
+                [
+                    "O     o   "
+                ],
+                [
+                    "Ti    e   "
+                ]
+            ],
+            "unPCO": null
+        },
+        "key": [
+            "TiO2",
+            "MIN",
+            "Titanium-oxide_1M"
+        ],
+        "project": "mines23"
+    }
+]
+

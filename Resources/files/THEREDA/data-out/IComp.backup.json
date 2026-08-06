@@ -1,0 +1,838 @@
+[
+    {
+        "dod": {
+            "Cp0i": 24.2,
+            "IC_DC": null,
+            "ICform": "Al",
+            "ICname": "Aluminium",
+            "IXi": 1,
+            "M0i": 26.9815386,
+            "Ri": null,
+            "S0i": 28.3,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 13
+        },
+        "key": [
+            "Al",
+            "e",
+            "Aluminium"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 25.5,
+            "IC_DC": null,
+            "ICform": "Am",
+            "ICname": "Americium",
+            "IXi": 1,
+            "M0i": 243.0614,
+            "Ri": null,
+            "S0i": 55.4,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 95
+        },
+        "key": [
+            "Am",
+            "e",
+            "Americium"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 24.64,
+            "IC_DC": null,
+            "ICform": "As",
+            "ICname": "Arsenic",
+            "IXi": 1,
+            "M0i": 74.9216,
+            "Ri": null,
+            "S0i": 35.1,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 5,
+            "Zi": null,
+            "indMT": 33
+        },
+        "key": [
+            "As",
+            "e",
+            "Arsenic"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 8.517,
+            "IC_DC": null,
+            "ICform": "C",
+            "ICname": "Carbon",
+            "IXi": 1,
+            "M0i": 12.0107,
+            "Ri": null,
+            "S0i": 5.74,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 4,
+            "Zi": null,
+            "indMT": 6
+        },
+        "key": [
+            "C",
+            "e",
+            "Carbon"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 25.929,
+            "IC_DC": null,
+            "ICform": "Ca",
+            "ICname": "Calcium",
+            "IXi": 1,
+            "M0i": 40.078,
+            "Ri": null,
+            "S0i": 41.59,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 20
+        },
+        "key": [
+            "Ca",
+            "e",
+            "Calcium"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 26.02,
+            "IC_DC": null,
+            "ICform": "Cd",
+            "ICname": "Cadmium",
+            "IXi": 1,
+            "M0i": 112.411,
+            "Ri": null,
+            "S0i": 51.8,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 48
+        },
+        "key": [
+            "Cd",
+            "e",
+            "Cadmium"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 16.9745,
+            "IC_DC": null,
+            "ICform": "Cl",
+            "ICname": "Chlorine",
+            "IXi": 1,
+            "M0i": 35.453,
+            "Ri": null,
+            "S0i": 111.5405,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": -1,
+            "Zi": null,
+            "indMT": 17
+        },
+        "key": [
+            "Cl",
+            "e",
+            "Chlorine"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": null,
+            "IC_DC": null,
+            "ICform": "Cm",
+            "ICname": "Curium",
+            "IXi": 1,
+            "M0i": 247.0704,
+            "Ri": null,
+            "S0i": 71.96,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 96
+        },
+        "key": [
+            "Cm",
+            "e",
+            "Curium"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 32.21,
+            "IC_DC": null,
+            "ICform": "Cs",
+            "ICname": "Caesium",
+            "IXi": 1,
+            "M0i": 132.9054519,
+            "Ri": null,
+            "S0i": 85.23,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 55
+        },
+        "key": [
+            "Cs",
+            "e",
+            "Caesium"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 25.084,
+            "IC_DC": null,
+            "ICform": "Fe",
+            "ICname": "Iron",
+            "IXi": 1,
+            "M0i": 55.845,
+            "Ri": null,
+            "S0i": 27.085,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 26
+        },
+        "key": [
+            "Fe",
+            "e",
+            "Iron"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 14.418,
+            "IC_DC": null,
+            "ICform": "H",
+            "ICname": "Hydrogen",
+            "IXi": 1,
+            "M0i": 1.00794,
+            "Ri": null,
+            "S0i": 65.34,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 1
+        },
+        "key": [
+            "H",
+            "h",
+            "Hydrogen"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 27.219,
+            "IC_DC": null,
+            "ICform": "I",
+            "ICname": "Iodine",
+            "IXi": 1,
+            "M0i": 126.90447,
+            "Ri": null,
+            "S0i": 58.07,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": -1,
+            "Zi": null,
+            "indMT": 53
+        },
+        "key": [
+            "I",
+            "e",
+            "Iodine"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 29.6,
+            "IC_DC": null,
+            "ICform": "K",
+            "ICname": "Potassium",
+            "IXi": 1,
+            "M0i": 39.0983,
+            "Ri": null,
+            "S0i": 64.68,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 19
+        },
+        "key": [
+            "K",
+            "e",
+            "Potassium"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 24.869,
+            "IC_DC": null,
+            "ICform": "Mg",
+            "ICname": "Magnesium",
+            "IXi": 1,
+            "M0i": 24.305,
+            "Ri": null,
+            "S0i": 32.67,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 12
+        },
+        "key": [
+            "Mg",
+            "e",
+            "Magnesium"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 14.562,
+            "IC_DC": null,
+            "ICform": "N",
+            "ICname": "Nitrogen",
+            "IXi": 1,
+            "M0i": 14.0067,
+            "Ri": null,
+            "S0i": 95.8045,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 5,
+            "Zi": null,
+            "indMT": 7
+        },
+        "key": [
+            "N",
+            "e",
+            "Nitrogen"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 28.23,
+            "IC_DC": null,
+            "ICform": "Na",
+            "ICname": "Sodium",
+            "IXi": 1,
+            "M0i": 22.98976928,
+            "Ri": null,
+            "S0i": 51.3,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 11
+        },
+        "key": [
+            "Na",
+            "e",
+            "Sodium"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 24.6,
+            "IC_DC": null,
+            "ICform": "Nb",
+            "ICname": "Niobium",
+            "IXi": 1,
+            "M0i": 92.90638,
+            "Ri": null,
+            "S0i": 36.4,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 5,
+            "Zi": null,
+            "indMT": 41
+        },
+        "key": [
+            "Nb",
+            "e",
+            "Niobium"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 27.45,
+            "IC_DC": null,
+            "ICform": "Nd",
+            "ICname": "Neodymium",
+            "IXi": 1,
+            "M0i": 144.242,
+            "Ri": null,
+            "S0i": 71.5,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 60
+        },
+        "key": [
+            "Nd",
+            "e",
+            "Neodymium"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 26.07,
+            "IC_DC": null,
+            "ICform": "Ni",
+            "ICname": "Nickel",
+            "IXi": 1,
+            "M0i": 58.6934,
+            "Ri": null,
+            "S0i": 29.87,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 28
+        },
+        "key": [
+            "Ni",
+            "e",
+            "Nickel"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 29.62,
+            "IC_DC": null,
+            "ICform": "Np",
+            "ICname": "Neptunium",
+            "IXi": 1,
+            "M0i": 237.0482,
+            "Ri": null,
+            "S0i": 50.46,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 6,
+            "Zi": null,
+            "indMT": 93
+        },
+        "key": [
+            "Np",
+            "e",
+            "Neptunium"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 14.689,
+            "IC_DC": null,
+            "ICform": "O",
+            "ICname": "Oxygen",
+            "IXi": 1,
+            "M0i": 15.9994,
+            "Ri": null,
+            "S0i": 102.576,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": -2,
+            "Zi": null,
+            "indMT": 8
+        },
+        "key": [
+            "O",
+            "o",
+            "Oxygen"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 23.824,
+            "IC_DC": null,
+            "ICform": "P",
+            "ICname": "Phosphorus",
+            "IXi": 1,
+            "M0i": 30.973762,
+            "Ri": null,
+            "S0i": 41.09,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 5,
+            "Zi": null,
+            "indMT": 15
+        },
+        "key": [
+            "P",
+            "e",
+            "Phosphorus"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": null,
+            "IC_DC": null,
+            "ICform": "Pa",
+            "ICname": "Protactinium",
+            "IXi": 1,
+            "M0i": 231.0359,
+            "Ri": null,
+            "S0i": 51.9,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 5,
+            "Zi": null,
+            "indMT": 91
+        },
+        "key": [
+            "Pa",
+            "e",
+            "Protactinium"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 26.65,
+            "IC_DC": null,
+            "ICform": "Pb",
+            "ICname": "Lead",
+            "IXi": 1,
+            "M0i": 207.2,
+            "Ri": null,
+            "S0i": 64.8,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 82
+        },
+        "key": [
+            "Pb",
+            "e",
+            "Lead"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 31.49,
+            "IC_DC": null,
+            "ICform": "Pu",
+            "ICname": "Plutonium",
+            "IXi": 1,
+            "M0i": 244.0628,
+            "Ri": null,
+            "S0i": 54.46,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 6,
+            "Zi": null,
+            "indMT": 94
+        },
+        "key": [
+            "Pu",
+            "e",
+            "Plutonium"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 30,
+            "IC_DC": null,
+            "ICform": "Ra",
+            "ICname": "Radium",
+            "IXi": 1,
+            "M0i": 226.0254,
+            "Ri": null,
+            "S0i": 71,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 88
+        },
+        "key": [
+            "Ra",
+            "e",
+            "Radium"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 31.06,
+            "IC_DC": null,
+            "ICform": "Rb",
+            "ICname": "Rubidium",
+            "IXi": 1,
+            "M0i": 85.4678,
+            "Ri": null,
+            "S0i": 76.78,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 37
+        },
+        "key": [
+            "Rb",
+            "e",
+            "Rubidium"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 22.75,
+            "IC_DC": null,
+            "ICform": "S",
+            "ICname": "Sulfur",
+            "IXi": 1,
+            "M0i": 32.065,
+            "Ri": null,
+            "S0i": 32.054,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 6,
+            "Zi": null,
+            "indMT": 16
+        },
+        "key": [
+            "S",
+            "e",
+            "Sulfur"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 25.26,
+            "IC_DC": null,
+            "ICform": "Sb",
+            "ICname": "Antimony",
+            "IXi": 1,
+            "M0i": 121.76,
+            "Ri": null,
+            "S0i": 45.52,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 51
+        },
+        "key": [
+            "Sb",
+            "e",
+            "Antimony"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 25.09,
+            "IC_DC": null,
+            "ICform": "Se",
+            "ICname": "Selenium",
+            "IXi": 1,
+            "M0i": 78.96,
+            "Ri": null,
+            "S0i": 42.09,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 4,
+            "Zi": null,
+            "indMT": 34
+        },
+        "key": [
+            "Se",
+            "e",
+            "Selenium"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 19.789,
+            "IC_DC": null,
+            "ICform": "Si",
+            "ICname": "Silicon",
+            "IXi": 1,
+            "M0i": 28.0855,
+            "Ri": null,
+            "S0i": 18.81,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 4,
+            "Zi": null,
+            "indMT": 14
+        },
+        "key": [
+            "Si",
+            "e",
+            "Silicon"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 29.54,
+            "IC_DC": null,
+            "ICform": "Sm",
+            "ICname": "Samarium",
+            "IXi": 1,
+            "M0i": 150.36,
+            "Ri": null,
+            "S0i": 69.58,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 62
+        },
+        "key": [
+            "Sm",
+            "e",
+            "Samarium"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 26.4,
+            "IC_DC": null,
+            "ICform": "Sr",
+            "ICname": "Strontium",
+            "IXi": 1,
+            "M0i": 87.62,
+            "Ri": null,
+            "S0i": 55.7,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 38
+        },
+        "key": [
+            "Sr",
+            "e",
+            "Strontium"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 24.879,
+            "IC_DC": null,
+            "ICform": "Tc",
+            "ICname": "Technetium",
+            "IXi": 1,
+            "M0i": 98.9063,
+            "Ri": null,
+            "S0i": 32.506,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 7,
+            "Zi": null,
+            "indMT": 43
+        },
+        "key": [
+            "Tc",
+            "e",
+            "Technetium"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 26.23,
+            "IC_DC": null,
+            "ICform": "Th",
+            "ICname": "Thorium",
+            "IXi": 1,
+            "M0i": 232.03806,
+            "Ri": null,
+            "S0i": 52.64,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 4,
+            "Zi": null,
+            "indMT": 90
+        },
+        "key": [
+            "Th",
+            "e",
+            "Thorium"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 27.66,
+            "IC_DC": null,
+            "ICform": "U",
+            "ICname": "Uranium",
+            "IXi": 1,
+            "M0i": 238.02891,
+            "Ri": null,
+            "S0i": 50.2,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 6,
+            "Zi": null,
+            "indMT": 92
+        },
+        "key": [
+            "U",
+            "e",
+            "Uranium"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 25.39,
+            "IC_DC": null,
+            "ICform": "Zn",
+            "ICname": "Zinc",
+            "IXi": 1,
+            "M0i": 65.409,
+            "Ri": null,
+            "S0i": 41.63,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 30
+        },
+        "key": [
+            "Zn",
+            "e",
+            "Zinc"
+        ]
+    },
+    {
+        "dod": {
+            "Cp0i": 14.418,
+            "IC_DC": null,
+            "ICform": "Zz",
+            "ICname": "Electron",
+            "IXi": 1,
+            "M0i": 0,
+            "Ri": null,
+            "S0i": 65.34,
+            "StdSt": "s   ",
+            "V0i": null,
+            "Valen": 0,
+            "Zi": null,
+            "indMT": 0
+        },
+        "key": [
+            "Zz",
+            "z",
+            "Electron"
+        ]
+    }
+]

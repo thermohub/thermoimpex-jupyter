@@ -1,0 +1,57 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.sourcetdb" :   "{\"20\" : \"CEMDATA18\"}",
+	       "properties.mixmod" :   "{\"0\" :   \"M_PURE\"}",
+	       "properties.aggregate_state" : "{\"3\" : \"AS_CRYSTAL\"}"
+          },
+          "matches" :   {
+               "symbol" :   {
+                    "field" :   "properties.symbol",
+                    "ignore" :   false
+               },
+               "formula" :   {
+                    "field" :   "properties.name",
+                    "ignore" :   false
+               }
+          },
+          "script" :   "rintable.properties.name = rintable.properties.symbol"
+     },
+     "format" :   {
+          "Nhcols" :   14,
+          "Nhrows" :   1,
+          "headers" :   [
+               "symbol",
+               "formula",
+               "MolMassCSH",
+               "MolVolCSH",
+               "G0(CSH)ic",
+               "G0(CSH)dc",
+               "H0(CSH)",
+               "Cp0(CSH)"
+          ],
+          "rowend" :   "\n",
+          "rows_one_block" :   1,
+          "colends" :   ",",
+          "usequotes" :   false,
+          "usemore" :   false,
+          "comment_regexp" :   ""
+     },
+     "renderer" :   "",
+     "label" :   "VertexPhase",
+     "separators" :   {
+          "v_sep" :   ",",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0
+}

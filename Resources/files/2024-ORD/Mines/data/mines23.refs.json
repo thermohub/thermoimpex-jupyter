@@ -1,0 +1,1395 @@
+[
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Based on PMATCHC data file: AUG20_GEMS.BAC\nG0d calculated from logK",
+            "SDauth": "Hummel, W., Berner, U., Curti, E., Pearson, F.J., Thoenen, T.",
+            "SDedit": "Universal Publishers/uPublish.com, Parkland, Florida",
+            "SDnote": "GEMS-version of Nagra/PSI TDB 01/01",
+            "SDpage": "also as Nagra Technical Report NTB 02-16, Nagra, Wettingen, Switzerland",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "Nagra/PSI Chemical Thermodynamic Data Base 01/01",
+            "SDvoly": "2002, 565 pp."
+        },
+        "key": [
+            "AUG20_GEMS",
+            "2001",
+            "dat"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Literature data on the thermodynamics of complexation of Zr with inorganic species, at 25°C. have been critically reviewed. The preponderance of published complexation constants deal with F- and OH- ions. Stability constants for the complexation reactions are relatively independent of ionic strength and thus recomended values for each ligand type are averages of the most reliable data. Complexation constants under elevated conditions (T ( 250Â°C and Pv = PH2O) have been predicted for various Zr complexes (F-, Cl-, SO42- and OH-) using Helgeson's electrostatic approach. Predominance diagrams (calculated for simple systems with these constants) suggest that, over a wide range of pH conditions, Zr(OH)4(aq) will dominate the aqueous geochemistry of Zr except under very high activities of competing ligands (e.g., F-. SO42-).",
+            "SDauth": "Aja, U.S., Wood, S.A., Williams-Jones, A.E.",
+            "SDedit": "Applied Geochemistry",
+            "SDnote": "mines23",
+            "SDpage": "603-620",
+            "SDrefs": null,
+            "SDtitl": "The aqueous geochemistry of Zr and the solubility of some Zr-bearing minerals",
+            "SDvoly": "1995, v.10"
+        },
+        "key": [
+            "Aja_al",
+            "1995",
+            "compil"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "A new, virial-like equation of state (EoS) for describing the thermodynamic properties of aqueous nonelectrolytes at infinite dilution is proposed. It is based on the accurate EoS for a solvent (H2O) given by Hill (1990) and requires only three empirical parameters to be fitted to experimental data, and these are independent of temperature and pressure. Knowledge of the thermodynamic properties of a pure gas, together with these three parameters, enables prediction of the whole set thermodynamic properties of the solute at infinite dilution (chemical potential, entropy, molar volume, and apparent molar heat capacity) over a wide range of temperatures (0 to 500°C) and pressures (1 to 2000 bars), including the near-critical region. In the cases in which experimental thermodynamic data are lacking, the empirical parameters can be estimated solely from the known standard-state properties of the solute. The new EoS is compatible with the Helgeson-Kirkham-Flowers model for aqueous electrolytes, and thus it can be applied to reactions involving minerals, gases, and aqueous ions, in addition to uncharged species.",
+            "SDauth": "Akinfiev, N.N., Diamond, L.W.",
+            "SDedit": "Geochimica et Cosmochimica Acta",
+            "SDnote": "model",
+            "SDpage": "613-629",
+            "SDrefs": null,
+            "SDtitl": "Thermodynamic description of aqueous nonelectrolytes at infinite dilution over a wide range of state parameters",
+            "SDvoly": "2003, v.67"
+        },
+        "key": [
+            "Akinfiev_Diamond",
+            "2003",
+            "calc"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "The paper presents critical analysis of literature data on the stability constants of aqueous species in the system Zn–O–H–S–II–Cl. In order to more accurately determine the composition and stability of chloride Zn complexes, additional experiments were carried out to determine the solubility of sphalerite ZnSc in chloride–sulfide solutions at 175°C and the saturated vapor pressure of the solution. Having processed the data, we obtained the thermodynamic properties at 25°C and parameters of the HKF (Helgeson–Kirkham–Flowers) equation of state (EoS) for hydroxide, chloride and hydrosulfide Zn complexes. ",
+            "SDauth": "Akinfiev, N.N., Tagirov, B.R.",
+            "SDedit": "Geochemistry International",
+            "SDnote": "mines23",
+            "SDpage": "197-214",
+            "SDrefs": null,
+            "SDtitl": "Zn in hydrothermal systems: Thermodynamic description of hydroxide, chloride, and hydrosulfide complexes",
+            "SDvoly": "2014, v.52"
+        },
+        "key": [
+            "Akinfiev_Tagirov",
+            "2014",
+            "compil"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "The available experimental data on the stability constants of chloride, hydrosulphide, and hydroxo complexes of Ag(I), Cu(I), and Au(I) under hydrothermal conditions were processed. The procedure employed the Helgeson-Kirkham-Flowers (HKF) equation of state and approximate estimates of the model parameters based on the isocoulomb principle and the model of ion associations. The resulting set of the thermodynamic properties of aqueous species allows the evaluation of equilibria in the system Ag(I)-Cu(I)-Au(I)-S(II)-Cl-O-H in a wide range of temperatures (25-500°C) and pressures (1-2000 bar).",
+            "SDauth": "Akinfiev, N.N., Zotov, A.V.",
+            "SDedit": "Geochemistry International",
+            "SDnote": "mines23",
+            "SDpage": "990-1006",
+            "SDrefs": null,
+            "SDtitl": "Thermodynamic Description of Chloride, Hydrosulfide, and Hydroxo Complexes of Ag(I), Cu(I), and Au(I) at Temperatures of 25–500°C and Pressures of 1–2000 bar",
+            "SDvoly": "2001, v.39"
+        },
+        "key": [
+            "Akinfiev_Zotov",
+            "2001",
+            "compil"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "parameter fit based on EOS of H2S(aq) and new HKF paremeters",
+            "SDauth": "Akinfiev, N.N., Zotov, A.V.",
+            "SDedit": "Geochemistry International",
+            "SDnote": "mines23",
+            "SDpage": "714-720",
+            "SDrefs": null,
+            "SDtitl": "Thermodynamic description of aqueous species in the system Cu-Ag-Au-S-O-H at temperatures of 0–600°C and pressures of 1–3000 bar",
+            "SDvoly": "2010, v.48"
+        },
+        "key": [
+            "Akinfiev_Zotov",
+            "2010",
+            "compil"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Experimental study (calorimetry: DSC, adiabatic)",
+            "SDauth": "Barton, M.D., Haselton, H.T., Hemingway, B.S., Kleppa, O.J., Robie, R.A.",
+            "SDedit": "American Mineralogist",
+            "SDnote": "mines2015",
+            "SDpage": "350-355",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "The thermodynamic properties of fluor-topaz",
+            "SDvoly": "1981, v.67"
+        },
+        "key": [
+            "Barton_al",
+            "1982",
+            "exp"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Estimated heat capacity",
+            "SDauth": "Berman, R.G., Brown, T.H.",
+            "SDedit": "Contrib. Mineral. Petrol.",
+            "SDnote": "mines2015",
+            "SDpage": "168-183",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "Heat capacity of minerals in the system Na2O-K2O-CaO-MgO-FeO-Fe2O3-Al2O3-SiO2 ?\nTiO2-H2O-CO2:representation, estimation, and high temperature extrapolation",
+            "SDvoly": "1985, v.89"
+        },
+        "key": [
+            "Berman_Brown",
+            "1985",
+            "calc"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Estimated G and H, polyhedral contributions",
+            "SDauth": "Chermak, J.A., Rimstidt, J.D.",
+            "SDedit": "American Mineralogist",
+            "SDnote": "mines2015",
+            "SDpage": "1023-1031",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "Estimating the thermodynamic properties (DGf� and DHf�) of silicate minerals at\n298K from the sum of polyhedral contributions",
+            "SDvoly": "1989, v.74"
+        },
+        "key": [
+            "Chermak_Rimstidt",
+            "1989",
+            "calc"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Standard thermodynamic properties at 298.15 K, 1 bar for the solid hydroxides of Y, Ce III , Pr, Sm, Eu III , Gd, Tb, Dy, Ho, Er, Tm and Yb were calculated from thermochemical data available in the literature. ‘3 Rn’ heat capacity equations wx Fei, Y., Saxena, S.K., 1987. An equation for the heat capacity of solids. Geochim. Cosmochim. Acta 51, 251–254. were \u000e. generated for Y-, Pr-, Eu III -, Gd-, Tb-, and Ho-hydroxides from low-temperature heat capacity measurements. Standard entropy and enthalpy of formation were calculated using literature data and correlations developed by Bratsch and Lagowski wBratsch, S.G., Lagowski, J.J., 1985. Lanthanide thermodynamic predictions: 6. Thermodynamics of gas-phase ions and x revised enthalpy for solids at 298.15 K. J. Phys. Chem. 89, 3310–3316 .",
+            "SDauth": "Diakonov, I.I., Ragnarsdottir, K.V., Tagirov, B.R.",
+            "SDedit": "Chemical Geology",
+            "SDnote": "calculated/compilation",
+            "SDpage": "327-347",
+            "SDrefs": null,
+            "SDtitl": "Standard thermodynamic properties and heat capacity equations of rare earth hydroxides: Ce III -, Pr-, Sm-, Eu III -, Gd-, Tb-, Dy-, Ho-, Er-, Tm-, Yb-, and Y-hydroxides. Comparison of thermochemical and solubility",
+            "SDvoly": "1988, v.151"
+        },
+        "key": [
+            "Diakonov_al",
+            "1998",
+            "calc"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Calc phase equilibria",
+            "SDauth": "Holland, T., Powell, R.",
+            "SDedit": "Journal of Metamorphic Petrology",
+            "SDnote": "mines2015",
+            "SDpage": "667-687",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "Internally consistent data for sulphur-bearing phases and\napplication to the construction pseudosections for mafic greenschist facies\nrocks in Na2O-CaO-K2O-FeO-MgO-Al2O3-SiO2-CO2-O-S-H2O",
+            "SDvoly": "2010, Vol. 28"
+        },
+        "key": [
+            "Evans_al",
+            "2010",
+            "phaseq"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "EOS parameters for gases",
+            "SDauth": "Frenkel, M., Kabo, G.J., Marsh, K.N., Roganov, G.N., Wilhoit, R.C.",
+            "SDedit": "Thermodynamic Research Center (TRC)",
+            "SDnote": "mines2015",
+            "SDpage": "757 p",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "Thermodynamics of organic compounds in the gas state",
+            "SDvoly": "1994, Volume I"
+        },
+        "key": [
+            "Frenkel_al",
+            "1994",
+            "compil"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "The heat capacity of LuPO4 was measured in the temperature range 6.51–318.03 K. Smoothed experimental values of the heat capacity were used to calculate the entropy, enthalpy and Gibbs free energy from 0 to 320 K. Under standard conditions these thermodynamic values are: Cp0 (298.15 K) = 100.0 ± 0.1 J K−1 mol−1, S0(298.15 K) = 99.74 ± 0.32 J K−1 mol−1, H0(298.15 K) − H0(0) = 16.43 ± 0.02 kJ mol−1, −[G0(298.15 K) − H0(0)]/T = 44.62 ± 0.33 J K−1 mol−1. The standard Gibbs free energy of formation of LuPO4 from elements fG0(298.15 K) = −1835.4 ± 4.2 kJ mol−1 was calculated based on obtained and literature data.",
+            "SDauth": "Gavrichev, K.S. et al. ",
+            "SDedit": "Thermochimica Acta",
+            "SDnote": "adiabatic calorimetry",
+            "SDpage": "63-65",
+            "SDrefs": null,
+            "SDtitl": "Heat capacity and thermodynamic functions of LuPO4 in the range 0–320K",
+            "SDvoly": "2006, v.448"
+        },
+        "key": [
+            "Gavrichev_al",
+            "2006",
+            "exp"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Experimental study (Cp and S, adiabatic calorimetry) \nhigh T Cp data used in their fit from Tsagareishvili et al. (drop calorimetry)",
+            "SDauth": "Gavrichev, K.S., Ryumin, M.A., Tyurin, A.V., Gurevich, V.M.",
+            "SDedit": "Geochemistry International",
+            "SDnote": "mines2015",
+            "SDpage": "932-939",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "Heat Capacity and Thermodynamic Functions\nof Xenotime YPO4(c) at 0-1600 K",
+            "SDvoly": "2010, v.48"
+        },
+        "key": [
+            "Gavrichev_al",
+            "2010",
+            "exp"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Experimental study (Cp and S, adiabatic and drop calorimetry) ",
+            "SDauth": "Gavrichev, K.S., Ryumin, M.A., Tyurin, A.V., Gurevich, V.M.",
+            "SDedit": "Inorganic Materials",
+            "SDnote": "mines2015",
+            "SDpage": "701-708",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "Heat Capacity and Thermodynamic Functions of YbPO4\nfrom 0 to 1800 K",
+            "SDvoly": "2013, v.49"
+        },
+        "key": [
+            "Gavrichev_al",
+            "2013",
+            "exp"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Experimental study (adiabatic calorimetry) ",
+            "SDauth": "Gronvold, F., Stolen, S., Labban, A.K., Westrum, E.F.",
+            "SDedit": "J. Chem. Thermodynamics",
+            "SDnote": "mines2015",
+            "SDpage": "261-272",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "Thermodynamics of iron sulfides I. Heat capacity and thermodynamic \nproperties of Fe9S10 at temperatures from 5K to 740 K",
+            "SDvoly": "1991, v.23"
+        },
+        "key": [
+            "Gronvold_al",
+            "1991",
+            "exp"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Accurate knowledge of rare earth elements (REE) speciation in high pressure – high temperature ﬂuids is required to model REE transport and precipitation in subduction zones and magmatic-hydrothermal environments, and the formation of rare metal deposits. Recent experiments (lanthanum, ytterbium, erbium) have demonstrated that REE chloride complexes are the main REE form in many hydrothermal ﬂuids (Migdisov et al., 2016). However, the speciation of yttrium (Y(III)), a cation with an ionic radius similar to that of Ho(III), remains poorly constrained in chloride-rich hydrothermal solutions.",
+            "SDauth": "GUan, Q., Mei, Y., Etschmann, B., Testemale, D., Louvel, M., Brugger, J.",
+            "SDedit": "Geochimica et Cosmochimica Acta",
+            "SDnote": "MD simulations combined with EXAFS",
+            "SDpage": "168-189",
+            "SDrefs": null,
+            "SDtitl": "Yttrium complexation and hydration in chloride-rich hydrothermal fluids: A combined ab initio molecular dynamics and in situ X-ray absorption spectroscopy study",
+            "SDvoly": "2020, v.281"
+        },
+        "key": [
+            "Guan_al",
+            "2020",
+            "exp-cal"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "In this study, the solubility of synthetic TbPO4, HoPO4, TmPO4, and LuPO4 endmembers has been measured in aqueous solutions between 100 and 250 ∘C at saturated water vapor pressure. The solubility products (Ks0) determined in the experiments were compared to values retrieved from a combination of calorimetric data for the REE phosphates and thermodynamic properties of the aqueous REE species at elevated temperatures.",
+            "SDauth": "Gysi, A.P., Harlov, D.",
+            "SDedit": "Chemical Geology",
+            "SDnote": "solubility experiments",
+            "SDpage": "120072",
+            "SDrefs": null,
+            "SDtitl": "Hydrothermal solubility of TbPO4, HoPO4, TmPO4, and LuPO4 xenotime endmembers at pH of 2 and temperatures between 100 and 250 °C",
+            "SDvoly": "2021, v.567"
+        },
+        "key": [
+            "Gysi_Harlov",
+            "2021",
+            "exp"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Experimental study (DSC experiments, Cp and H) and \ntheoretical calculations (S).",
+            "SDauth": "Gysi, A., Williams-Jones, A.E.",
+            "SDedit": "Chemical Geology",
+            "SDnote": "mines2015",
+            "SDpage": "87-101",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "The thermodynamic properties of bastnaesite-(Ce) and \nparisite-(Ce)",
+            "SDvoly": "2015, v.392"
+        },
+        "key": [
+            "Gysi_W-J",
+            "2015a",
+            "exp"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Experimental study (Solubility experiments).",
+            "SDauth": "Gysi, A., Williams-Jones, A.E., Harlov, D.",
+            "SDedit": "Chemical Geology",
+            "SDnote": "mines2015",
+            "SDpage": "83-95",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "The solubility of xenotime-(Y) and other HREE phosphates\n(DyPO4, ErPO4 and YbPO4) in aqueous solutions from 100 to 250C and psat",
+            "SDvoly": "2015, v.401"
+        },
+        "key": [
+            "Gysi_al",
+            "2015",
+            "exp"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Experimental study DSC experiments.",
+            "SDauth": "Gysi, A., Williams-Jones, A.E., Harlov, D.",
+            "SDedit": "Thermochimica Acta",
+            "SDnote": "mines2016",
+            "SDpage": "61-67",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "Experimental determination of the high temperature heat capacity of\na natural xenotime-(Y) solid solution and synthetic DyPO4 and ErPO4\nendmembers",
+            "SDvoly": "2016, v.627-629"
+        },
+        "key": [
+            "Gysi_al",
+            "2016",
+            "exp"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "In this study, we have measured the solubility of the monoclinic REE phosphate end-members CePO4, SmPO4, and GdPO4 in aqueous perchloric acid solutions at temperatures from 100 to 250 °C at saturated water vapor pressure (swvp). ",
+            "SDauth": "Gysi, A.P., Harlov, D., Miron, G.D.",
+            "SDedit": "Geochimica et Cosmochimica Acta",
+            "SDnote": "Solubility experiments",
+            "SDpage": "143-164",
+            "SDrefs": null,
+            "SDtitl": "The solubility of monazite (CePO4), SmPO4, and GdPO4 in aqueous solutions from 100 to 250 °C",
+            "SDvoly": "2018, v.242"
+        },
+        "key": [
+            "Gysi_al",
+            "2018",
+            "exp"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Calc phase equilibria",
+            "SDauth": "Holland, T., Powell, R.",
+            "SDedit": "Journal of Metamorphic Petrology",
+            "SDnote": "mines2015",
+            "SDpage": "309-343",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "An internally consistent thermodynamic data set for phases \nof petrological interest",
+            "SDvoly": "1998, Vol. 16"
+        },
+        "key": [
+            "H&P",
+            "1998",
+            "phaseq"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Abstract\n",
+            "SDauth": "Haas, J.R., Shock, E.L., Sassani, D.C.",
+            "SDedit": "Geochimica et Cosmochimica Acta",
+            "SDnote": "Comment",
+            "SDpage": "899-947",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "Rare earth elements in hydrothermal systems: Estimates of standard partial molal thermodynamic properties of aqueous complexes of the rare earth elements at high pressures and temperatures\n",
+            "SDvoly": "1995, 59"
+        },
+        "key": [
+            "Haas_al",
+            "1995",
+            "data"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Experimental study (XRD, V)",
+            "SDauth": "Hawthorne, F.C.",
+            "SDedit": "Canadian Mineralogist",
+            "SDnote": "mines2015",
+            "SDpage": "346-356",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "The crystal chemistry of the amphiboles. V. The structure and chemistry\nof arfvedsonite",
+            "SDvoly": "1976, v.14"
+        },
+        "key": [
+            "Hawthorne",
+            "1976",
+            "exp"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Estimated entropy",
+            "SDauth": "Holland, T.J.B.",
+            "SDedit": "American Mineralogist",
+            "SDnote": "mines2015",
+            "SDpage": "5-13",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "The dependence of entropy on volume for silicate and oxide minerals:\na review and a predictive model",
+            "SDvoly": "1989, v.74"
+        },
+        "key": [
+            "Holland",
+            "1989",
+            "calc"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Estimated entropy",
+            "SDauth": "Holland, T.J.B., Powell, R.",
+            "SDedit": "American Mineralogist",
+            "SDnote": "mines2015",
+            "SDpage": "5-13",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "The dependence of entropy on volume for silicate and oxide minerals:\na review and a predictive model",
+            "SDvoly": "1989, v.74"
+        },
+        "key": [
+            "Holland_Powell",
+            "2003",
+            "model"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "solid solution model",
+            "SDauth": "Holland, T.J.B., Powell, R.",
+            "SDedit": "Eur. J. Mineral. ",
+            "SDnote": "mines2016",
+            "SDpage": "395-406",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "Mixing properties and activity-composition relationships\nof chlorites in the system MgO-FeO-Al2O3-SiO2-H2O",
+            "SDvoly": "1998, v.10"
+        },
+        "key": [
+            "Holland_al",
+            "1998",
+            "model"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Because of ability to incorporate actinides into their structure, the lanthanide phosphate ceramics (LnPO4) are considered as potential matrices for the disposal of nuclear waste. Here we present highly reliable ab initio prediction of the variation of heat capacities and the standard entropies of these compounds in zircon structure along lanthanide series (Ln ¼ Dy, …,Lu) and validate them against the existing experimental data. These data are helpful for assessment of thermodynamic parameters of these materials in the context of using them as matrices for immobilization of radionuclides for the purpose of nuclear waste management.",
+            "SDauth": "Ji, Y., Beridze, G., Bosbach, D., Kowalski, P.M.",
+            "SDedit": "Journal of Nuclear Materials",
+            "SDnote": "Ab initio calculations",
+            "SDpage": "172-181",
+            "SDrefs": null,
+            "SDtitl": "Heat capacities of xenotime-type ceramics: An accurate ab initio prediction",
+            "SDvoly": "2017, v.494"
+        },
+        "key": [
+            "Ji_al",
+            "2017",
+            "calc"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Experimental study (Solubility experiments).",
+            "SDauth": "Knauss, K.G., Dibley, M.J., Bourcier, W.L, Shaw, H.F.",
+            "SDedit": "Applied Geochemistry",
+            "SDnote": "mines2015",
+            "SDpage": "1115-1128",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "Ti(IV) hydrolysis constants derived from rutile solubility \nmeasurements made from 100 to 300 C ",
+            "SDvoly": "2001, v.16"
+        },
+        "key": [
+            "Knauss_al",
+            "2001",
+            "exp"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "A comprehensive review of the thermodynamic properties of the oxide compounds of the lanthanide and actinide elements is presented. The available literature data for the solid, liquid, and gaseous state have been analysed and recommended values are presented. In case experimental data are missing, estimates have been made based on the trends in the two series, which are extensively discussed.",
+            "SDauth": "Konings, R., Benes, O., Kovacs, A., Manara, D., Sedmidubsky, D., Gorokhov, L., Iorish, V., Yungman, V., Shenyavskaya, E., Osina, E.",
+            "SDedit": "J. Phys. Chem. Ref. Data",
+            "SDnote": "Review thermodynamic tables",
+            "SDpage": "1-25",
+            "SDrefs": null,
+            "SDtitl": "The Thermodynamic Properties of the f-Elements and their Compounds. Part 2. The Lanthanide and Actinide Oxides",
+            "SDvoly": "2014, v.43"
+        },
+        "key": [
+            "Konings_al",
+            "2014",
+            "compil"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Experimental study (solubility experiments)",
+            "SDauth": "Loges, A., Migdisov, A.A., Wagner, T., Williams-Jones, A.E., Markl, G.",
+            "SDedit": "Geochim. Cosmochim. Acta",
+            "SDnote": "mines2015",
+            "SDpage": "403-415",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "An experimental study of the aqueous solubility and speciation\nof Y(III) fluoride at temperatures up to 250 �C",
+            "SDvoly": "2013, v.123"
+        },
+        "key": [
+            "Loges_al",
+            "2013",
+            "exp"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "The solubility of zinc minerals in hydrothermal ﬂuids is enhanced by chloride complexation of Zn2+. Thermodynamic models of these complexation reactions are central to models of Zn transport and ore formation. However, existing thermodynamic models, derived from solubility measurements, are inconsistent with spectroscopic measurements of Zn speciation. Here, we used ab initio molecular dynamics simulations (with the PBE exchange–correlation functional) to predict the speciation of Zn–Cl complexes from 25 to 600 °C. We also obtained in situ XAS measurements of Zn–Cl solutions at 30–600 °C. ",
+            "SDauth": "Mei, Y., Sherman, D.M., Liu, W. Etschmann, B., Testemale, D., Brugger, J.",
+            "SDedit": "Geochimica et Cosmochimica Acta",
+            "SDnote": "Ab initio MD simulations plus EXAFS experiments",
+            "SDpage": "265-284",
+            "SDrefs": null,
+            "SDtitl": "Zinc complexation in chloride-rich hydrothermal fluids (25-600Â°C): A thermodynamic model derived from ab initio molecular dynamics",
+            "SDvoly": "2015, v.150"
+        },
+        "key": [
+            "Mei_al",
+            "2015",
+            "exp"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Experimental study (solubility experiments)",
+            "SDauth": "Migdisov, A.A., Williams-Jones, A.E., Wagner, T.",
+            "SDedit": "Geochim. Cosmochim. Acta",
+            "SDnote": "mines2015",
+            "SDpage": "7087-7109",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "An experimental study of the solubility and speciation\nof the Rare Earth Elements (III) in fluoride- and\nchloride-bearing aqueous solutions at temperatures up to 300C",
+            "SDvoly": "2009, v.73"
+        },
+        "key": [
+            "Migdisov_al",
+            "2009",
+            "exp"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "The solubility of baddeleyite (ZrO2) and the speciation of zirconium have been investigated in HF-bearing aqueous solutions at temperatures up to 400 °C and pressures up to 700 bar. The data obtained suggest that in HF-bearing solutions zirconium is transported mainly in the form of the hydroxyﬂuoride species ZrF(OH)3° and ZrF2(OH)2°. Formation constants determined for these species (Zr4+ + nFÀ + mOHÀ = ZrFn(OH)m°) range from 43.7 at 100 °C to 46.41 at 400 °C for ZrF(OH)3°, and from 37.25 at 100 °C to 43.88 at 400 °C for ZrF2(OH)2°.",
+            "SDauth": "Migdisov, A.A., Williams-Jones, A.E., Van Hinsberg, V., Salvi, S.",
+            "SDedit": "Geochimica et Cosmochimica Acta",
+            "SDnote": "solubility experiments",
+            "SDpage": "7426-7434",
+            "SDrefs": null,
+            "SDtitl": "An experimental study of the solubility of baddeleyite (ZrO2) in fluoride-bearing solutions at elevated temperature",
+            "SDvoly": "2011, v.75"
+        },
+        "key": [
+            "Migdisov_al",
+            "2011",
+            "exp"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "For many years, our understanding of the behavior of the REE in hydrothermal systems was based on semiempirical estimates involving extrapolation of thermodynamic data obtained at 25 °C (Haas et al., 1995; Wood, 1990a). Since then, a substantial body of experimental data has accumulated on the stability of aqueous complexes of the REE. These data have shown that some of the predictions of Haas et al. (1995) are accurate, but others may be in error by several orders of magnitude. However, application of the data in modeling hydrothermal transport and deposition of the REE has been severely hampered by the lack of data on the thermodynamic properties of even the most common REE minerals. The discrepancies between the predictions of Haas et al. (1995) and experimental determinations of the thermodynamic properties of aqueous REE species, together with the paucity of data on the stability of REE minerals, raise serious questions about the reliability of some models that have been proposed for the hydrothermal mobility of these critical metals.",
+            "SDauth": "Migdisov, A., Williams-Jones, A.E., Brugger, J., Caporuscio, F.A.",
+            "SDedit": "Chemical Geology",
+            "SDnote": "Compilation of experimental data on REE aqueous complexes, including all��\u0002�G[",
+            "SDpage": "13-42",
+            "SDrefs": null,
+            "SDtitl": "Hydrothermal transport, deposition, and fractionation of the REE: Experimental data and thermodynamic calculations",
+            "SDvoly": "2016, v.439"
+        },
+        "key": [
+            "Migdisov_al",
+            "2016",
+            "exp-cal"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Optimization of dG at 298K for aqueous species using GEMSFITS, \ninternally consistent SUPCRT92 (slop98.dat), with H&P1998 mineral database",
+            "SDauth": "Miron, D.G., Wagner, T., Kulik, D.A., Heinrich, C.A.",
+            "SDedit": "Geochim. Cosmochim. Acta",
+            "SDnote": "optimizations GEMSFITS",
+            "SDpage": "41-78",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "Internally consistent thermodynamic data for aqueous species in the system \nNa-K-Al-Si-O-H-Cl",
+            "SDvoly": "2016, v. 187"
+        },
+        "key": [
+            "Miron_al",
+            "2016",
+            "opt"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "This study presents an internally consistent thermodynamic dataset for aqueous species in the system Ca-Mg-Na-K-Al-Si-O-H-C-Cl, obtained by adding species of calcium, magnesium and carbon to the core system Na-K-Al-Si-O-H-Cl (Miron and others, 2016). Critically evaluated experimental data on mineral solubility (Ca and Mg hydroxides, Ca and Mg silicates, anorthite, Ca and Mg carbonates) in water and aqueous electrolyte solutions over wide ranges in temperature and pressure were added to the database of experimental data.",
+            "SDauth": "Miron, G.D., Wagner, T., Kulik, D.A., Lothenback, B.",
+            "SDedit": "American Journal of Science",
+            "SDnote": "optimizations GEMSFITS",
+            "SDpage": "755-806",
+            "SDrefs": null,
+            "SDtitl": "An internally consistent thermodynamic dataset for aqueous species in the system Ca-Mg-Na-K-Al-Si-O-H-C-Cl to 800 °C and 5 kbar",
+            "SDvoly": "2017, v.317"
+        },
+        "key": [
+            "Miron_al",
+            "2017",
+            "opt"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Experimental study (Solubility experiments).",
+            "SDauth": "Muller, B., Seward, T.M.",
+            "SDedit": "Geochim. Cosmochim. Acta",
+            "SDnote": "mines2015",
+            "SDpage": "4187-4199",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "Spectrophotometric determination of the stability of tin(II) chloride \ncomplexes in aqueous solution up to 300�C ",
+            "SDvoly": "2001, v.65"
+        },
+        "key": [
+            "Muller_Seward",
+            "2001",
+            "exp"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Rare earth elements (RE) are incorporated into a large variety of complex oxide phases to provide tailored mechanical, electrical, optical, and magnetic properties. Thermodynamics control phase stability, materials compatibility in use, corrosion, and transformation. This review presents, in one compilation, the thermodynamic properties of a large number of such materials and discusses systematic trends in energetics and the factors controlling stability.",
+            "SDauth": "Navrotsky, A., Lee, W., Mielewczyk-Gryn, A., Ushakov, S.V., Anderko, A., Wu, H., Riman, R.E.",
+            "SDedit": "J. Chem. Thermodynamics",
+            "SDnote": "compilation",
+            "SDpage": "126-141",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "Thermodynamics of solid phases containing rare earth oxides",
+            "SDvoly": "2015, v.88"
+        },
+        "key": [
+            "Navrotsky_al.",
+            "2015",
+            "compil"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "",
+            "SDauth": "Neuhoff, P.S.",
+            "SDedit": "Stanford University",
+            "SDnote": "mines2016",
+            "SDpage": "",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "Thermodynamic properties and parageneses of rock-forming zeolites. PhD thesis",
+            "SDvoly": "2000, "
+        },
+        "key": [
+            "Neuhoff",
+            "2000",
+            "phaseq"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Experimental study (XRD, V)",
+            "SDauth": "Ni, Y., Huges, J.M., Mariano, A.N.",
+            "SDedit": "American Mineralogist",
+            "SDnote": "mines2015",
+            "SDpage": "21-26",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "Crystal chemistry of the monazite and xenotime structures",
+            "SDvoly": "1995, v.80"
+        },
+        "key": [
+            "Ni_al",
+            "1995",
+            "exp"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "PRONSPREP algorithm based on correlations between partial molal properties \nof aqueous complexes and ions\n",
+            "SDauth": "Sverjensky, D.A., Shock, E.L., Helgeson, H.C.",
+            "SDedit": "Geochimica et Cosmochimica Acta",
+            "SDnote": "Reference thermodynamic dataset for aqueous species, HKF EOS",
+            "SDpage": "1359-1412",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "Prediction of the thermodynamic properties of aqueous metal complexes\nto 1000 C and 5 kb\n",
+            "SDvoly": "1997, Vol. 61"
+        },
+        "key": [
+            "PRONSPREP",
+            "1997",
+            "prog"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "This study aims at determining the controls on REE incorporation into calcite mineralized from hydrothermal aqueous fluids above 100 °C. Here, we present a series of hydrothermal batch-type REE partitioning experiments at 200 °C and saturated water vapor pressure (15.5 bar). The experiments were designed to synthesize REE-doped calcite from fluid mixing with varying initial REE concentrations (250 ppb to 1000 ppb) and permit in situ sampling of the aqueous fluids.Hydrothermal calcite-fluid REE partitioning experiments at 200 Â°C and saturated water vapor pressure",
+            "SDauth": "Perry, E., Gysi, A.P.",
+            "SDedit": "Geochim Cosmochim Acta",
+            "SDnote": "calcite-REE precipitation experiments",
+            "SDpage": "177-197",
+            "SDrefs": null,
+            "SDtitl": "Hydrothermal calcite-fluid REE partitioning experiments at 200 °C and saturated water vapor pressure",
+            "SDvoly": "2020, v.286"
+        },
+        "key": [
+            "Perry_Gysi",
+            "2020",
+            "exp"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Experimental study (Cp from drop calorimetry) ",
+            "SDauth": "Popa, K., Konings, R.J.M.",
+            "SDedit": "Thermochimica Acta",
+            "SDnote": "mines2015",
+            "SDpage": "49-52",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "High-temperature heat capacities of EuPO4 and\nSmPO4 synthetic monazites",
+            "SDvoly": "2006, v.445"
+        },
+        "key": [
+            "Popa_Konings",
+            "2006",
+            "exp"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Experimental study (Cp from DSC and adiabatic relaxation calorimetry) ",
+            "SDauth": "Popa,K., Sedmidubsky, D., Benes, O., Thiriet, C., Konings, R.J.M.",
+            "SDedit": "J. Chem. Thermodynamics",
+            "SDnote": "mines2015",
+            "SDpage": "825-829",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "The high-temperature heat capacity of LnPO4 (Ln = La, Ce, Gd)\nby drop calorimetry",
+            "SDvoly": "2006, v.38"
+        },
+        "key": [
+            "Popa_al",
+            "2006",
+            "exp"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Experimental study (Cp and S from drop calorimetry and adiabatic relaxation calorimetry) ",
+            "SDauth": "Popa, K., Jutier, F., Wastin, F., Konings, R.J.M.",
+            "SDedit": "J. Chem. Thermodynamics",
+            "SDnote": "mines2015",
+            "SDpage": "1306-1311",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "The heat capacity of NdPO4",
+            "SDvoly": "2006, v.38"
+        },
+        "key": [
+            "Popa_al",
+            "2006b",
+            "exp"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "EOS parameters for gases",
+            "SDauth": "Proust, P., Vera, J.H.",
+            "SDedit": "Can. J. Chem. Eng.",
+            "SDnote": "mines2015",
+            "SDpage": "170-173",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "PRSV: The Stryjek-Vera Modification of the Peng-Robinson\nEquation of State. Parameters for Other Pure Compounds of\nIndustrial Interest",
+            "SDvoly": "1989, v.67"
+        },
+        "key": [
+            "Proust_Vera",
+            "1989",
+            "model"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Abstract",
+            "SDauth": "Robie, R.A., Hemingway, B.S.",
+            "SDedit": "United States Geological Survey Bulletin",
+            "SDnote": "mines2015",
+            "SDpage": "453 pp.",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "Thermodynamic properties of minerals and related substances at 298.15 K and 1 bar (10^5 Pascals) pressure and at higher temperatures\n",
+            "SDvoly": "1995, Vol. 2131"
+        },
+        "key": [
+            "R&H",
+            "1995",
+            "compil"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "EOS parameters for gases",
+            "SDauth": "Reid, R.C., Prausnitz, J.M., Poling, B.E.",
+            "SDedit": "McGraw-Hill",
+            "SDnote": "mines2015",
+            "SDpage": "741 p.",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "The Properties of Gases and Liquids",
+            "SDvoly": "1987, "
+        },
+        "key": [
+            "Reid_al",
+            "1987",
+            "compil"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Description of HKF EOS, related software and thermodynamic database\n",
+            "SDauth": "Johnson, J.W., Oelkers, E.H., Helgeson, H.C.",
+            "SDedit": "Computers & Geosciences",
+            "SDnote": "see also under key below",
+            "SDpage": "899-947",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "SUPCRT92: A software package for calculating the standard molal\nthermodynamic properties of minerals, gases, aqueous species, and\nreactions from 1 to 5000 bars and 0 to 1000 C",
+            "SDvoly": "1992, Vol. 18"
+        },
+        "key": [
+            "SUPCRT",
+            "1992",
+            "prog"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "",
+            "SDauth": "Shock, E.L., Sassani, D.C., Willis, M., Sverjensky, D.A.",
+            "SDedit": "Geochimica et Cosmochimica Acta",
+            "SDnote": "Reference thermodynamic dataset for aqueous species, HKF EOS",
+            "SDpage": "907-950",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "Inorganic species in geologic fluids: Correlations among standard molal\nthermodynamic properties of aqueous ions and hydroxide complexes\n",
+            "SDvoly": "1997, Vol. 61"
+        },
+        "key": [
+            "Shock_ea",
+            "1997",
+            "pap"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "*** last updated: 30.Oct.98      GEOPIG (GWC, ES)\n************************************************************************        \n***\t\tREFERENCES: cited as \"ref:#,#,..\"                \n*                                                                               \n*  1 ... Helgeson, H.C., Delany, J.M, Nesbitt, H.W., and Bird, D.K.,     \n*\t\t1978, Summary and Critique of the Thermodynamic             \n*\t\tProperties of Rock-Forming Minerals: Amer. Jour. Sci.,   \n*\t\tv. 278A, 229 p.                                             \n*                                                                               \n*  2 ... Shock, E.L., and Helgeson, H.C., 1988, Calculation of the              \n*\t\tthermodynamic and transport properties of aqueous                            \n*\t\tspecies at high pressures and temperatures: Correlation                      \n*\t\talgorithms for ionic species and equation of state                           \n*\t\tpredictions to 5 kb and 1000 C: Geochim. Cosmo. Acta,                        \n*\t\tv. 52, pp. 2009-2036.                                                           \n*                                                                               \n*  3 ... Shock, E.L., Helgeson, H.C., and Sverjensky, D.A., 1989,               \n*\t\tCalculation of the thermodynamic and transport                               \n*               properties of aqueous species at high pressures and             \n*\t\ttemperatures: Standard partial molal properties of                           \n*\t\tinorganic neutral species: Geochim. Cosmo. Acta, v. 53,                      \n*\t\tpp. 2157-find2183.                                                               \n*                                                                               \n*  4 ... Shock, E.L., and Helgeson, H.C., 1990, Calculation of the              \n*\t\tthermodynamic and transport properties of aqueous                            \n*\t\tspecies at high pressures and temperatures: Standard                         \n*\t\tpartial molal properties of organic species:                                 \n*\t\tGeochim. Cosmo. Acta, v. 54, pp. 915-945.                                      \n*\n* 4A ... Corrected values based on data from 4\n*                                                                                 \n*  5 ... Sverjensky, D.A., Shock, E.L., and Helgeson, H.C., 1997, \n*               Prediction of the thermodynamic properties of aqueous \n*               metal complexes to 1000 C and 5 kb:  Geochim. Cosmo. \n*               Acta, v. 61, No. 7, pp. 1359-1412.  \n*\n* 5A ... Corrected values based on data from 5\n* \n*  6 ... Wagman, D.D., Evans, W.H., Parker, V.B., Schumm, R.H.,                 \n*\t\tHalow, I., Bailey, S.M., Churney, K.L., Nuttall, R.L.,                       \n*\t\t1982, The NBS Tables of Chemical and Thermodynamic                           \n*               Properties: Jour. Phys. Chem. Ref. Data, v. 11,                 \n*\t\tsupplement no. 2, 392 p.                                                     \n*                                                                               \n*  7 ... Robie, R.A., Hemingway, B.S., and Fisher, J.S., 1979,                  \n*\t\tThermodynamic Properties of Minerals and Related                             \n*               Substances at 298.15 K and 1 Bar (10**5 Pascals)                \n*               Pressure and at Higher Temperatures: U.S. Geol. Surv.           \n*               Bull. 1452, 456 p.                                              \n*                                                                               \n*  8 ... Kelley, K.K., 1960, Contributions to the Data in Theoretical           \n*\t\tMetallurgy XIII: High Temperature Heat Content, Heat                         \n*\t\tCapacities and Entropy Data for the Elements and                             \n*\t\tInorganic Compounds.  U.S. Bureau of Mines Bulletin                          \n*\t\t584, 232 p.                                                                  \n*                                                                               \n*  9 ... Bowers, T.S., and Helgeson, H.C., 1983, Calculation of the             \n*\t\tthermodynamic and geochemical consequences of nonideal                       \n*               mixing in the system H2O-CO2-NaCl on phase relations            \n*\t\tin geologic systems: Equation of state for H2O-CO2-NaCl                      \n*\t\tfluids at high pressures and temperatures: Geochim.                          \n*\t\tCosmo. Acta, v. 47, pp. 1247-1275.                                           \n*                                                                               \n* 10 ... Sverjensky, D.A., 1987, Calculations of the thermodynamic              \n*\t\tproperties of aqueous species and the solubilities of                        \n*\t\tminerals in supercritical electrolyte solutions, in                          \n*\t\tCarmichael, I.S.E. and H.P. Eugster, eds., Thermodynamic                     \n*\t\tModeling of Geologic Materials: Minerals, Fluids and                         \n*\t\tMelts: Mineral. Soc. Amer., Reviews in Mineralogy,                           \n*\t\tv. 17, pp. 177-209.                               \n* 12 ... Jackson, K.J., and Helgeson, H.C., 1985, Chemical and                  \n*\t\tthermodynamic constraints on the hydrothermal transport                      \n*\t\tand deposition of tin: II. Interpretation of phase                           \n*               relations in the Southeast Asian tin belt: Econ. Geol.,         \n*\t\tv. 80, no. 5, pp. 1365-1378.                                                 \n*                                                                               \n* 13 ... Helgeson, H.C., 1985, Errata II. Thermodynamics of minerals,           \n*\t\treactions, and aqueous solutions at high pressures and                       \n*\t\ttemperatures: Amer. Jour. Sci., v. 285, pp. 845-855.                         \n*                                                                               \n* 14 ... Shock, E.L., and Helgeson, H.C., 1989, Corrections to Shock            \n*\t\tand Helgeson (1988) [ref:2 above]: Geochim. Cosmo.                           \n*\t\tActa, v. 53, p. 215.                                                         \n*                                                                               \n* 15 ... Pankratz, L.B., 1970, Thermodynamic Data for Silver Chloride           \n*\t\tand Silver Bromide: U.S. Bureau of Mines Report of                           \n*\t\tInvestigations #7430, 12 p.                                                  \n*                                                                               \n* 16 ... Pankratz, L.B., and King, E.G., 1970, High-Temperature                 \n*\t\tEnthalpies and entropies of chalcopyrite and bornite:                        \n*\t\tU.S. Bureau of Mines Report of Investigations #7435,                         \n*\t\t10 p.                                                                        \n*                                                                               \n* 17 ... Johnson, J.W., Personal calculation, Earth Sciences Dept.,             \n*\t\tLawrence Livermore National Lab., Livermore, CA.                             \n*\t\tParameters given provide smooth metastable                                   \n*\t\textrapolation of one-bar steam properties predicted                          \n*               by the Haar et al. (1984) equation of state to                  \n*\t\ttemperatures < the saturation temperature (99.632 C).                        \n*                                                                               \n* 18 ... Gibbs free energies calculated from solubility data reported by        \n*               Plummer, L.N. and Busenberg, E., 1982. The Solubilities         \n*               of Calcite, Aragonite, and Vaterite in CO2-H2O Solutions        \n*               Between 0 and 90 C and an Evaluation of the Aqueous             \n*               Model of the System CaCO3-CO2-H2O. Geochimica et                \n*               Cosmochimica Acta, Vol. 46, p. 1011-1040. Enthalpies            \n*               adjusted for the correction in the Gibbs free energy.           \n*                                                                               \n* 19 ... Gibbs free energies and enthalpies were corrected to be                \n*               consistant with updated values of Gibbs free                    \n*               energies of Ca++ and CO3-- (Shock and Helgeson [ref:2           \n*               above]) together with the solubilities of calcite and           \n*               aragonite reported by Busenberg and Plummer [ref:18             \n*               above]\n*\n* 20 ... Sverjensky, D.A., Hemley, J.J., and D'Angelo, W.M., 1991, \n*               Thermodynamic assessment of hydrothermal alkali feldspar-\n*               mica-aluminosilicate equilibria:  Geochim. Cosmo. Acta, \n*               v. 55, pp. 989-1004.\n*                                                          \n* G1 ... Shock, E.L., 1992, Stability of peptides in high-temperature \n*               aqueous solutions:  Geochim. Cosmo. Acta, v. 56, pp. \n*               3481-3491.\n*\n* G2 ... Shock, E.L., 1993, Hydrothermal dehydration of aqueous organic \n*               compounds:  Geochim. Cosmo. Acta, v. 57, pp. 3341-2249.\n*\n* G3 ... Schulte, M.D., and Shock, E.L., 1993, Aldehydes in hydrothermal \n*               solution:  Standard partial molal thermodynamic properties \n*               and relative stabilities at high temperatures and pressures:  \n*               Geochim. Cosmo. Acta, v. 57, pp. 3835-3846.\n*\n*G3A ... Corrected values based on data from G3\n*\n* G4 ... Shock, E.L., and Koretsky, C.M., 1993, Metal-organic complexes \n*               in geochemical processes:  Calculation of standard partial \n*               molal thermodynamic properties of aqueous acetate complexes \n*               at high pressures and temperatures:  Geochim. Cosmo. Acta, \n*               v.57, pp. 4899-4922.\n*\n*G4A ... Corrected values based on data from G4\n*\n* G5 ... Shock, E.L., and McKinnon, W.B., 1993, Hydrothermal Processing \n*               of Cometary Volatiles--Applications to Triton:  Icarus, \n*               v. 106, pp. 464-477.\n*\n* G6 ... Shock, E.L., 1995, Organic acids in hydrothermal solution:  \n*               Standard molal thermodynamic properties of carboxylic acids \n*               and estimates of dissociation constants at high temperatures \n*               and pressures:  Amer. Jour. Science, v. 295, pp. 496-580.\n*\n*G6A ... Corrected values based on data from G6\n*\n* G7 ... Shock, E.L., and Koretsky, C.M., 1995, Metal-organic complexes in \n*               geochemical processes:  Estimation of standard partial molal \n*               thermodynamic properties of aqueous complexes between metal \n*               cations and monovalent organic acid ligands at high pressures \n*               and temperatures:  Geochim. Cosmo. Acta, v. 59, no. 8, \n*               pp. 1497-1532.\n*\n*G7A ... These data were used in G7, but were not tabulated in the paper.\n*\n*G7B ... Corrected values based on data from G7\n*\n* G8 ... Haas, J.R., Shock, E.L., and Sassani, D.C., 1995, Rare earth elements \n*               in hydrothermal systems:  Estimates of standard partial molal \n*               thermodynamic properties of aqueous complexes of the rare earth \n*               elements at high pressures and temperatures:  Geochim. Cosmo. \n*               Acta, v. 59, no. 21, pp. 4329-4350.\n*\n*G8A ... Corrected values based on data from G8\n*\n* G9 ... Shock, E.L., Sassani, D.C., Willis, M., and Sverjensky, D.A., 1997, \n*               Inorganic species in geologic fluids:  Correlations among \n*               standard molal thermodynamic properties of aqueous ions and \n*               hydroxide complexes:  Geochim. Cosmo. Acta, v. 61, no. 5, \n*               pp. 907-950.\n*\n*G9A ... These data were used in G9, but were not tabulated in the paper.\n*\n*G10 ... Dale, J.D., Shock, E.L., MacLeod, G., Aplin, A.C., and Larter, \n*               S.R., 1997, Standard partial molal properties of aqueous \n*               alkylphenols at high pressures and temperatures:  Geochim. Cosmo. \n*               Acta, v. 61, no. 19, pp. 4017-4024.\n*\n*G11 ... Shock, E.L., Sassani, D.C., and Betz, H., 1997, Uranium in geologic \n*               fluids:  Estimates of standard partial molal properties, oxidation\n*               potentials, and hydrolysis constants at high temperatures and \n*               pressures:  Geohim. Cosmo. Acta, v. 61, no. 20, pp. 4245-4266.\n*\n*G12 ... Sassani, D.C., and Shock, E.L., Solubility and Transport of \n*               Platinum-Group Elements in Supercritical Fluids:  Summary and \n*               Estimates of Thermodynamic Properties for Ru, Rh, Pd, and Pt \n*               Solids, Aqueous Ions, and Complexes to 1000 C and 5 kbar:  \n*               Geochim. Cosmo. Acta (in review).\n*\n*G13 ... McCollom, T.M., and Shock, E.L., 1997, Geochemical constraints on\n*               chemolithoautotrophic metabolism by microorganisms in seafloor \n*               hydrothermal systems:  Geochim. Cosmo. Acta, v. 61, no. 20, \n*               pp. 4375-4391. \n*\n*G13A ... Data and parameters as used by G13.                              \n*                                                                               \n*    MINERAL ABBREVIATIONS ARE CONSISTENT WITH THOSE RECOMMENDED BY             \n*    THE AMERICAN MINERALOGIST AND PUBLISHED BY                                 \n*                                                                               \n*         Kretz, R., 1983, Symbols for Rock-Forming Minerals:                   \n*\t\tAmer. Mineral., v. 68, pp. 277-279.                                          \n*                                                                               \n\n      142  minerals that do not undergo phase transition  (nmin1)\n       32  minerals that undergo one phase transition     (nmin2)\n       18  minerals that undergo two phase transitions    (nmin3)\n        1  minerals that undergo three phase transitions  (nmin4)\n       22  gases                                          (ngas)\n     1343  aqueous species                                (naqs)\n     ----  ----------------------------\n     1558  total\n",
+            "SDauth": "Shock, E.L., Sverjensky, D.",
+            "SDedit": "E.L.Shock & coworkers",
+            "SDnote": "slop98.dat - Sequential-access thermodynamic datafile for supcrt92; Database file SLOP98.DAT (SUPCRT92 TDB with updates) of 30 Oct. 1998",
+            "SDpage": "1998",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "Database from E.L.Shock's GEOPIG web site http://epsc.wustl.edu/geopig\n(see references on Page 2)\nImported into GEMS-PSI database on 10 Jan 2003 (KD44, BU44, TT44) ",
+            "SDvoly": "1998, Washington Univ. St Louis MO"
+        },
+        "key": [
+            "Slop98_dat",
+            "1998",
+            "data"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "The solubility of gold has been measured in the system H2O\u0001H2\u0001HCl\u0001NaCl\u0001NaOH at temperatures from 300 to 600°C and pressures from 500 to 1800 bar in order to determine the stability and stoichiometry of chloride complexes of gold(I) in hydrothermal solutions. The experiments were carried out in a flow-through autoclave system. This approach permitted the independent determination of the concentrations of all critical aqueous components in solution for the determination of the stability and stoichiometry of gold(I) complexes.",
+            "SDauth": "Stefansson, A., Seward, T.M.",
+            "SDedit": "Geochimica et Cosmochimica Acta",
+            "SDnote": "mines23",
+            "SDpage": "4559-4576",
+            "SDrefs": null,
+            "SDtitl": "Stability of chloridogold(I) complexes in aqueous solutions from 300 to 600°C and from 500 to 1800 bar",
+            "SDvoly": "2003, v.67"
+        },
+        "key": [
+            "Stefansson_Seward",
+            "2003",
+            "exp"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "EOS parameters for gases",
+            "SDauth": "Stryjek, R.,Vera,J.H.",
+            "SDedit": "Can. J. Chem. Eng.",
+            "SDnote": "mines2015",
+            "SDpage": "323-333",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "PRSV:An improved Peng-Robinson \nequation of state for pure compounds and mixtures",
+            "SDvoly": "1986, v.64"
+        },
+        "key": [
+            "Stryjek_Vera",
+            "1986",
+            "model"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "PRONSPREP algorithm based on correlations between partial molal properties \nof aqueous complexes and ions\n",
+            "SDauth": "Sverjensky DA, Shock EL, Helgeson HC",
+            "SDedit": "Geochimica et Cosmochimica Acta",
+            "SDnote": "Reference thermodynamic dataset for aqueous species, HKF EOS",
+            "SDpage": "1359-1412",
+            "SDrefs": [
+                [
+                    null
+                ]
+            ],
+            "SDtitl": "Prediction of the thermodynamic properties of aqueous metal complexes\nto 1000 C and 5 kb\n",
+            "SDvoly": "1997, Vol. 61"
+        },
+        "key": [
+            "Sverjensky_ea",
+            "1997",
+            "pap"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Source of experimental data (Table 2):\nAl+3: Palmer and Wesolowski (1992)\nAl(OH)4-: Benezeth et al. (2001); Wesolowski (1992)\nAlOH+2: Castet et al. (1993); Schofield and Taylor (1954); Frink and Peech (1963); Palmer and Wesolowski (1993); Benezeth et al. (2001);\nAlOH2+: Wesolowski and Palmer (1994); Benezeth et al. (2001)\nAl(OH)3@:Benezeth et al. (2001); Verdes et al. (1992)\nAl(OH)2F@: Zaraisky (1994)\nAl(OH)2F2-: Tagirov et al. (2001a)\nNaAl(OH)3F@ and NaAl(OH)2F2@: Tagirov et al. (2001b)      ",
+            "SDauth": "Tagirov, B., Schott, J.",
+            "SDedit": "Geochim. Cosmochim. Acta",
+            "SDnote": "mines2015",
+            "SDpage": "3965-3992",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "Aluminium speciation in crustal fluids revisited",
+            "SDvoly": "2001, v.65"
+        },
+        "key": [
+            "Tagirov_Schott",
+            "2001",
+            "compil"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Experimental study (solubility experiments)",
+            "SDauth": "Tagirov, B.R., Zotov, A.V., Akinfiev, N.N.",
+            "SDedit": "Geochim. Cosmochim. Acta",
+            "SDnote": "mines2015",
+            "SDpage": "4267-4280",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "Experimental study of dissociation of HCl from 350 to 500 C \nand from 500 to 2500 bars: thermodynamic properties of HCl(aq)",
+            "SDvoly": "1997, v.61"
+        },
+        "key": [
+            "Tagirov_al",
+            "1997",
+            "exp"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Experimental study (Cp from DSC and adiabatic relaxation calorimetry) ",
+            "SDauth": "Thiriet, C., Konings, R.J.M., Javorsky, P., Wastin, F.",
+            "SDedit": "Phys. Chem. Minerals",
+            "SDnote": "mines2015",
+            "SDpage": "347-352",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "The heat capacity of cerium orthophosphate CePO4 , the synthetic\nanalogue of monazite",
+            "SDvoly": "2004, v.31"
+        },
+        "key": [
+            "Thiriet_al",
+            "2004",
+            "exp"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Experimental study (Cp from DSC and adiabatic relaxation calorimetry) ",
+            "SDauth": "Thiriet, C., Konings, R.J.M., Javorsky, P., Magnani, N., Wastin, F.",
+            "SDedit": "J. Chem. Thermodynamics",
+            "SDnote": "mines2015",
+            "SDpage": "131-139",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "The low temperature heat capacity of LaPO4 and GdPO4,\nthe thermodynamic functions of the monazite-type LnPO4 series",
+            "SDvoly": "2005, v.37"
+        },
+        "key": [
+            "Thiriet_al",
+            "2005",
+            "exp"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "The heat capacity of holmium orthophosphate HoPO4 was studied using an adiabatic and a differential scanning calorimetry in the temperatures intervals 9â338 and 310â1374 K, relatively. Heat capacity anomaly connected with the splitting of ground state electronic levels of f-shell was determined. Values of smoothed thermodynamic functions (heat capacity, entropy, enthalpy change and derived Gibbs energy) in the wide temperature range 9-1374 K were calculated.",
+            "SDauth": "Tyurin, A.V., Ryumin, M.A., Khoroshilov, A.V., Gurevich, V.M., GavrichevThermochimica Acta",
+            "SDedit": "Thermochimica Acta",
+            "SDnote": "adiabatic and differential scanning calorimetry",
+            "SDpage": "178459",
+            "SDrefs": null,
+            "SDtitl": "Thermodynamic functions of holmium orthophosphate HoPO4 in the range \n9-1374 K",
+            "SDvoly": "2020, v.683"
+        },
+        "key": [
+            "Tyurin_al",
+            "2020",
+            "exp"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Experimental study (H by oxide-melt solution calorimetry)",
+            "SDauth": "Ushakov, S.V., Helean, K.B., Navrotsky, A., Boatner, L.A.",
+            "SDedit": "J. Mater. Res.",
+            "SDnote": "mines2015",
+            "SDpage": "2623-2633",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "Thermochemistry of rare-earth orthophosphates",
+            "SDvoly": "2001, v.16"
+        },
+        "key": [
+            "Ushakov_al",
+            "2001",
+            "exp"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "In this study, the solubility products (logKs0) of LaPO4, PrPO4, NdPO4, and EuPO4 monazite endmembers have been measured at temperatures between 100 and 250 °C and saturated water vapor pressure. ",
+            "SDauth": "Van Hoozen, C.J., Gysi, A.P., Harlov, D.E.",
+            "SDedit": "Geochimica et Cosmochimica Acta",
+            "SDnote": "solubility experiments",
+            "SDpage": "302-316",
+            "SDrefs": null,
+            "SDtitl": "The solubility of monazite (LaPO4, PrPO4, NdPO4, and EuPO4) endmembers in aqueous solutions from 100 to 250 °C",
+            "SDvoly": "2020, v.280"
+        },
+        "key": [
+            "VanHoozen_al",
+            "2020",
+            "exp"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "SD_kwd": null,
+            "SDabst": "Experimental study (solubility experiments, G); \nCp, S data from the compilation of Haas et al. (1981) (note Cp was estimated at higher T from the properties of kaolinite).\nV from Ehrenberg et al. (1993) based on Bish and Von Dreele (1989) and Joswig and Drits (1986)",
+            "SDauth": "Zotov, A., Mukhamet-Galeev, A., Schott, J.",
+            "SDedit": "American Mineralogist",
+            "SDnote": "mines2015",
+            "SDpage": "516-524",
+            "SDrefs": [
+                [
+                    "                                "
+                ]
+            ],
+            "SDtitl": "An experimental study of kaolinite and dickite relative \nstability at 150?300 8 C and the thermodynamic properties of dickite",
+            "SDvoly": "1998, v.83"
+        },
+        "key": [
+            "Zotov_al",
+            "1998",
+            "exp"
+        ],
+        "project": "mines23"
+    }
+]
+

@@ -1,0 +1,128 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.sourcetdb" :   "{\"24\" : \"NASA-TDB\"}",
+               "properties.temp_import" :   "[{}, {}, {}, {}]",
+               "properties.Tst" :   "298.15",
+               "properties.Pst" :   "1e05"
+          },
+          "matches" :   {
+               "name" :   {
+                    "field" :   "properties.symbol",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "comment" :   {
+                    "field" :   "properties.datasources",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "formula" :   {
+                    "field" :   "properties.formula",
+                    "ignore" :   false,
+                    "script" :   "f = '' \nfor c1, c2, val in string.gmatch(field, '(%a)([%a%s])%s*(-*%d*.%d*)') do \n  v = tonumber(val) \n  if c2 ~= ' ' then c1= c1..c2:lower() end \n  if c1 == 'E' and val:sub(0,1) == '-' then c1 = '+' v= v*(-1) end \n  if c1 == 'E' and val:sub(0,1) ~= '-' then c1 = '-'  end \n  f = f..c1 \n  if v == math.floor(v) then v = math.floor(v) end\n  if v~=1 then f = f..tostring(v) end \nend \nfield = f"
+               },
+               "isgas" :   {
+                    "field" :   "properties.class_",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+                         "0" :   "{\"1\" : \"SC_GASFLUID\"}",
+                         "1" :   "{\"0\" : \"SC_COMPONENT\"}",
+                         "2" :   "{\"0\" : \"SC_COMPONENT\"}",
+                         "3" :   "{\"0\" : \"SC_COMPONENT\"}",
+                         "4" :   "{\"0\" : \"SC_COMPONENT\"}",
+                         "5" :   "{\"0\" : \"SC_COMPONENT\"}"
+                    }
+               },
+               "molecular_weight" :   {
+                    "field" :   "properties.mass_per_mole",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "heat" :   {
+                    "field" :   "properties.sm_enthalpy.values",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "repeat0" :   {
+                    "field" :   "properties.temp_import.0.comment",
+                    "ignore" :   false,
+                    "script" :   "field = string.gsub(field, '^([%d%.]*)(..........%d)', '%1%2 '); \nfield = string.gsub(field, '(%d)([%-%+])', '%1 %2'); \nfield = string.gsub(field, 'D', 'e');"
+               },
+               "repeat1" :   {
+                    "field" :   "properties.temp_import.1.comment",
+                    "ignore" :   false,
+                    "script" :   "field = string.gsub(field, '^([%d%.]*)(..........%d)', '%1%2 '); \nfield = string.gsub(field, '(%d)([%-%+])', '%1 %2'); \nfield = string.gsub(field, 'D', 'e');"
+               },
+               "repeat2" :   {
+                    "field" :   "properties.temp_import.2.comment",
+                    "ignore" :   false,
+                    "script" :   "field = string.gsub(field, '^([%d%.]*)(..........%d)', '%1%2 '); \nfield = string.gsub(field, '(%d)([%-%+])', '%1 %2'); \nfield = string.gsub(field, 'D', 'e');"
+               },
+               "repeat3" :   {
+                    "field" :   "properties.temp_import.3.comment",
+                    "ignore" :   false,
+                    "script" :   "field = string.gsub(field, '^([%d%.]*)(..........%d)', '%1%2 '); \nfield = string.gsub(field, '(%d)([%-%+])', '%1 %2'); \nfield = string.gsub(field, 'D', 'e');"
+               }
+          },
+          "script" :   "rintable.properties.name = rintable.properties.symbol; \nfor k, v in pairs(rintable.properties.temp_import) do\nif v.comment then v.values = {}; for match in (v.comment):gmatch('([^%s]+)'..'%s*') do  table.insert( v.values, match) end end  \nend"
+     },
+     "format" :   {
+          "Nhcols" :   12,
+          "Nhrows" :   0,
+          "headers" :   [
+               "name",
+               "comment",
+               "Tintervals",
+               "reference",
+               "formula",
+               "isgas",
+               "molecular_weight",
+               "heat",
+               "repeat0",
+               "repeat1",
+               "repeat2",
+               "repeat3"
+          ],
+          "rowend" :   "\n",
+          "rows_one_block" :   6,
+          "row_header_regexp" :   "^[a-zA-Z].*",
+          "colends" :   " \t\n",
+          "usequotes" :   false,
+          "usemore" :   false,
+          "comment_regexp" :   "!([^\\n]*)\\n*",
+          "row_size" :   80,
+          "colsizes" :   [
+               18,
+               63,
+               3,
+               7,
+               41,
+               2,
+               13,
+               16,
+               243,
+               243,
+               243,
+               243
+          ]
+     },
+     "renderer" :   "",
+     "label" :   "VertexSubstance",
+     "separators" :   {
+          "v_sep" :   "",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0
+}

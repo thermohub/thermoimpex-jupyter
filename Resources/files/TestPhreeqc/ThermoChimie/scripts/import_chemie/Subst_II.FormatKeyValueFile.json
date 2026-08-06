@@ -1,0 +1,75 @@
+{
+     "block" :   {
+          "defaults" :   {
+            "properties.datasources" :   "[\"THERMOCHIMIE10a:2018:data\"]",
+            "properties.sourcetdb" :    "{\"25\" :   \"THERMOCHIMIE\"}",
+               "properties.class_" :   "{\"2\" :   \"SC_AQSOLUTE\"}",
+               "properties.aggregate_state" : "{\"4\" :   \"AS_AQUEOUS\"}",
+               "properties.standard_cscale" : "{\"3\" :   \"CS_MOLALITY\"}"
+          },
+          "pairs" :   {
+          },
+          "matches" :   {
+               "head2" :   {
+                    "field" :   "properties.formula",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "head0" :   {
+                    "field" :   "properties.comment",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               }
+          },
+          "script" :   "rintable.properties.symbol = string.match(rintable.properties.formula, \'%s*([^%s]*)\');\n
+                        rintable.properties.name = rintable.properties.symbol; \n
+                        rintable.properties.formula = rintable.properties.symbol;\n
+                        if rintable.properties.formula == 'H2O' then rintable.properties.class_ = {} rintable.properties.class_['3'] = 'SC_AQSOLVENT' end
+if rintable.properties.name == \'e-\' then rintable.properties.formula = \'-\' end
+rintable.properties.formula = string.gsub(rintable.properties.formula, \'Acetate\', \'Ace\')
+rintable.properties.formula = string.gsub(rintable.properties.formula, \'Adipate\', \'Adi\')
+rintable.properties.formula = string.gsub(rintable.properties.formula, \'Malonate\', \'Mal\')
+rintable.properties.formula = string.gsub(rintable.properties.formula, \'Nta\', \'Nta\')
+rintable.properties.formula = string.gsub(rintable.properties.formula, \'Ox\', \'Oxa\')
+rintable.properties.formula = string.gsub(rintable.properties.formula, \'Phthalat\', \'Pht\')
+rintable.properties.formula = string.gsub(rintable.properties.formula, \'Pyrophos\', \'Pyr\')
+-- rintable.properties.formula = string.gsub(rintable.properties.formula, \'Scn\', \'Scn\')
+rintable.properties.formula = string.gsub(rintable.properties.formula, \'Suberate\', \'Sub\')
+rintable.properties.formula = string.gsub(rintable.properties.formula, \'Succinat\', \'Suc\')
+rintable.properties.formula = string.gsub(rintable.properties.formula, \'Edta\', \'Edt\')
+"
+     },
+     "format" :   {
+          "head_regexp" :   "(([\\.\\w\\t \\+\\-\\(\\):]*)\\s*=\\s*([^\\n]*))\\n",
+          "end_regexp" :   "",
+          "key_regexp" :   "\\s*\\-*([a-z_A-Z]\\w*)\\s*",
+          "value_regexp" :   "\\s*([^#\\n]*)",
+          "value_next" :   "",
+          "value_token_regexp" :   "\\s+",
+          "comment_regexp" :   "#([^\\n]*)\\n*",
+          "Ndata" :   0
+     },
+     "renderer" :   " ",
+     "label" :   "VertexSubstance",
+     "separators" :   {
+          "v_sep" :   "",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0
+}

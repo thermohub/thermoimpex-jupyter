@@ -1,0 +1,48 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.sourcetdb" :   "{\"24\" :   \"IVTAN2000\"}"
+          },
+          "matches" :   {
+               "COND" :   {
+                    "field" :   "properties.aggregate_state",
+                    "convert" :   {
+                         "(G)" :   "{\"0\" :   \"AS_GAS\"}",
+                         "(C)" :   "{\"3\" :   \"AS_CRYSTAL\"}",
+                         "(L)" :   "{\"1\" :   \"AS_LIQUID\"}"
+                    }
+               },
+               "XNAME" :   {
+                    "field" :   "properties.symbol"
+               },
+               "FIRST" :   {
+                    "field" :   "properties.limitsTP.lowerT"
+               },
+               "LAST" :   {
+                    "field" :   "properties.limitsTP.upperT"
+               },
+               "Table2_Mineral_Name": {
+                    "field": "properties.name"
+               },
+               "molar_volume(J/bar)": {
+                    "field": "properties.temp_import"
+               }
+          },
+          "script" :   "
+	  rintable.properties.symbol = string.gsub(rintable.properties.symbol, '*',  'star' ); 
+          if rintable.properties.name == nil then rintable.properties.name = rintable.properties.symbol end;
+          if rintable.properties.aggregate_state['3'] == 'AS_CRYSTAL' then rintable.properties.symbol = rintable.properties.symbol .. '(cr)' end;
+          rintable.properties.limitsTP.range = false;
+          local str = [[IVTAN:  Thermodynamic Properties Individual Substances 
+1-4 volumes: V.P. Glushko, L.V. Gurvich, I.V. Weitz, V.A. Medvedev, G.A. Hachkuruzov, V.S. Jungmann, G.A. Bergman, V.F. Baibuz, V.S. Iorish etc.
+5-6 volumes: V.S. Iorish , N.M. Aristova, G.A. Bergman, L.N. Gorohov, A.V. Gusarov, Y.S. Yezhov, A.N. Kulikov, E.L. Osina, E.A. Shenyavskaya, N.E. Handamirova, V.S. Jungmann]]
+	  if rintable.properties.datasources == nil then rintable.properties.datasources = {str} end;
+          if rintable.properties.aggregate_state['0'] == 'AS_GAS' or rintable.properties.temp_import == nil then rintable = nil  
+          elseif rintable.properties.aggregate_state['1'] == 'AS_LIQUID' then rintable = nil
+          else rintable.properties.temp_import = nil end;
+          "
+     },
+     "renderer" :   "JSON",
+     "label" :   "VertexPhase",
+     "comment" :   "Import"
+}
