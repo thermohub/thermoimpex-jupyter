@@ -2,8 +2,10 @@
 #
 # repo2docker only understands a plain conda `environment.yml`, not the
 # conda-devenv `environment.devenv.yml` at the repo root -- this is a
-# hand-kept equivalent (same package set, minus the Qt6 GUI packages, which
-# were already excluded from the root file too; see ../TECHINFO.md).
+# hand-kept equivalent (same package set, minus qt6-charts/qt6-webengine,
+# which are GUI-only and already excluded from the root file too; qt6-main
+# IS kept here, same as in the root file, since it's needed for GEMSGUI's
+# json2db CLI tool -- see ../environment.devenv.yml and ../TECHINFO.md).
 #
 # No `name:` key on purpose: repo2docker's conda buildpack installs straight
 # into the default notebook/kernel environment when none is given, so
@@ -22,3 +24,5 @@ dependencies:
   - pandas
   - fuzzywuzzy
   - ipykernel
+  - gems3k
+  - qt6-main
