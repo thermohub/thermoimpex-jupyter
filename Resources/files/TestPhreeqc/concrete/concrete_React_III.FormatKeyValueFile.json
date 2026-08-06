@@ -1,0 +1,80 @@
+{
+     "block" :   {
+          "defaults" :   {
+            "properties.sourcetdb" :    "{\"1001\" :   \"WORK1\"}",
+            "properties.datasources" :   "[\"concrete_3T_V07_02\"]",
+            "properties.reactyp" :   "{\"1\" :   \"FE_FORMATION\"}",
+            "properties.TPMethods" :   "[{\"method\":{\"0\" :   \"logk_fpt_function\"}, \"logk_ft_coeffs\": { \"names\" : [\"A1\",\"A2\",\"A3\",\"A4\",\"A5\"] } }]",
+            "properties.level" :   "0"
+          },
+          "pairs" :   {
+               "analytical_expression" :   {
+                    "datatype" :   "string",
+                    "organization" :   "list"
+               }
+          },
+          "matches" :   {
+               "head2" :   {
+                    "field" :   "properties.name",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "head0" :   {
+                    "field" :   "properties.equation",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "analytical_expression" :   {
+                    "field" :   "properties.TPMethods.0.logk_ft_coeffs.values",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "log_K" :   {
+                    "field" :   "properties.logKr.values",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               }
+          },
+          "script" :   "rintable.properties.symbol = string.match(rintable.properties.name, \'%s*([^%s]*)\');\n
+                        rintable.properties.name = rintable.properties.symbol ;\n  rintable.properties.equation = string.gsub( rintable.properties.equation, '([^[%s=]]*)%s+([^[%s=]]*)', '%1  +  %2' );"
+     },
+     "format" :   {
+          "head_regexp" :   "(([\\w\\t \\+\\-\\(\\):\\.]*)\\s*=\\s*([^;]*))",
+          "end_regexp" :   "",
+          "key_regexp" :   "\\s*;\\s*\\-{0,1}([a-zA-Z]\\w*)\\s*",
+          "value_regexp" :   "\\s*([^;\\n]*)",
+          "value_next" :   "",
+          "value_token_regexp" :   "\\s+",
+          "comment_regexp" :   "#([^\\n]*)\\n*",
+          "Ndata" :   0
+     },
+     "renderer" :   " ",
+     "label" :   "VertexReaction",
+     "separators" :   {
+          "v_sep" :   "",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0
+}

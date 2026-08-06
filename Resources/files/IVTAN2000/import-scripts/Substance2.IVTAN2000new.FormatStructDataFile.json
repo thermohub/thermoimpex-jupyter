@@ -1,0 +1,235 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.sourcetdb" :   "{\"24\" :   \"IVTAN2000\"}",
+               "properties.TPMethods" :   "[{\"method\":{\"0\" : \"cp_ft_equation\"},  \"limitsTP\": {\"upperT\": 0, \"lowerT\": 0}, \"m_heat_capacity_ft_coeffs\": { \"values\" : [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0], \"names\" : [\"a0\",\"a1\",\"a2\",\"a3\",\"a4\",\"a5\",\"a6\",\"a7\",\"a8\",\"a9\",\"a10\"], \"units\" : [\"J/(mol*K)\",\"J/(mol*K^2)\",\"(J*K)/mol\",\"J/(mol*K^0.5)\",\"J/(mol*K^3)\",\"J/(mol*K^4)\",\"J/(mol*K^5)\",\"(J*K^2)/mol\",\"J/mol\",\"J/(mol*K^1.5)\",\"J/(mol*K)\"]}}, {\"method\":{\"0\" : \"cp_ft_equation\"},  \"limitsTP\": {\"upperT\": 0, \"lowerT\": 0}, \"m_heat_capacity_ft_coeffs\": { \"values\" : [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0], \"names\" : [\"a0\",\"a1\",\"a2\",\"a3\",\"a4\",\"a5\",\"a6\",\"a7\",\"a8\",\"a9\",\"a10\"], \"units\" : [\"J/(mol*K)\",\"J/(mol*K^2)\",\"(J*K)/mol\",\"J/(mol*K^0.5)\",\"J/(mol*K^3)\",\"J/(mol*K^4)\",\"J/(mol*K^5)\",\"(J*K^2)/mol\",\"J/mol\",\"J/(mol*K^1.5)\",\"J/(mol*K)\"]}}, {\"method\":{\"0\" : \"cp_ft_equation\"},  \"limitsTP\": {\"upperT\": 0, \"lowerT\": 0}, \"m_heat_capacity_ft_coeffs\": { \"values\" : [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0], \"names\" : [\"a0\",\"a1\",\"a2\",\"a3\",\"a4\",\"a5\",\"a6\",\"a7\",\"a8\",\"a9\",\"a10\"], \"units\" : [\"J/(mol*K)\",\"J/(mol*K^2)\",\"(J*K)/mol\",\"J/(mol*K^0.5)\",\"J/(mol*K^3)\",\"J/(mol*K^4)\",\"J/(mol*K^5)\",\"(J*K^2)/mol\",\"J/mol\",\"J/(mol*K^1.5)\",\"J/(mol*K)\"]}}, {\"method\":{\"0\" : \"cp_ft_equation\"},  \"limitsTP\": {\"upperT\": 0, \"lowerT\": 0}, \"m_heat_capacity_ft_coeffs\": { \"values\" : [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0], \"names\" : [\"a0\",\"a1\",\"a2\",\"a3\",\"a4\",\"a5\",\"a6\",\"a7\",\"a8\",\"a9\",\"a10\"], \"units\" : [\"J/(mol*K)\",\"J/(mol*K^2)\",\"(J*K)/mol\",\"J/(mol*K^0.5)\",\"J/(mol*K^3)\",\"J/(mol*K^4)\",\"J/(mol*K^5)\",\"(J*K^2)/mol\",\"J/mol\",\"J/(mol*K^1.5)\",\"J/(mol*K)\"]}}, {\"method\":{\"0\" : \"cp_ft_equation\"},  \"limitsTP\": {\"upperT\": 0, \"lowerT\": 0}, \"m_heat_capacity_ft_coeffs\": { \"values\" : [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0], \"names\" : [\"a0\",\"a1\",\"a2\",\"a3\",\"a4\",\"a5\",\"a6\",\"a7\",\"a8\",\"a9\",\"a10\"], \"units\" : [\"J/(mol*K)\",\"J/(mol*K^2)\",\"(J*K)/mol\",\"J/(mol*K^0.5)\",\"J/(mol*K^3)\",\"J/(mol*K^4)\",\"J/(mol*K^5)\",\"(J*K^2)/mol\",\"J/mol\",\"J/(mol*K^1.5)\",\"J/(mol*K)\"]}}, {\"method\":{\"0\" : \"cp_ft_equation\"},  \"limitsTP\": {\"upperT\": 0, \"lowerT\": 0}, \"m_heat_capacity_ft_coeffs\": { \"values\" : [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0], \"names\" : [\"a0\",\"a1\",\"a2\",\"a3\",\"a4\",\"a5\",\"a6\",\"a7\",\"a8\",\"a9\",\"a10\"], \"units\" : [\"J/(mol*K)\",\"J/(mol*K^2)\",\"(J*K)/mol\",\"J/(mol*K^0.5)\",\"J/(mol*K^3)\",\"J/(mol*K^4)\",\"J/(mol*K^5)\",\"(J*K^2)/mol\",\"J/mol\",\"J/(mol*K^1.5)\",\"J/(mol*K)\"]}}, {\"method\":{\"34\": \"mv_constant\"}}]",
+               "properties.class_": "{\"101\" :   \"AS_OTHER\"}",
+               "properties.Tst": 298.15,
+               "properties.Pst": 1e5
+          },
+          "matches" :   {
+               "COND" :   {
+                    "field" :   "properties.aggregate_state",
+                    "convert" :   {
+                         "(G)" :   "{\"0\" :   \"AS_GAS\"}",
+                         "(C)" :   "{\"3\" :   \"AS_CRYSTAL\"}",
+                         "(L)" :   "{\"1\" :   \"AS_LIQUID\"}"
+                    }
+               },
+               "XNAME" :   {
+                    "field" :   "properties.symbol"
+               },
+               "FULLNAME" :   {
+                    "field" :   "properties.formula"
+               },
+               "H" :   {
+                    "field" :   "properties.sm_enthalpy.values"
+               },
+               "S" :   {
+                    "field" :   "properties.sm_entropy_abs.values"
+               },
+               "Cp" :   {
+                    "field" :   "properties.sm_heat_capacity_p.values"
+               },
+               "Table4_LT1" :   {
+                    "field" :   "properties.TPMethods.0.limitsTP.lowerT"
+               },
+               "Table4_UT1" :   {
+                    "field" :   "properties.TPMethods.0.limitsTP.upperT"
+               },
+               "Table4_A1": {
+                    "field": "properties.TPMethods.0.m_heat_capacity_ft_coeffs.values.0"
+               },
+               "Table4_B1": {
+                    "field": "properties.TPMethods.0.m_heat_capacity_ft_coeffs.values.1"
+               },
+               "Table4_C1": {
+                    "field": "properties.TPMethods.0.m_heat_capacity_ft_coeffs.values.2"
+               },
+               "Table4_D1": {
+                    "field": "properties.TPMethods.0.m_heat_capacity_ft_coeffs.values.3"
+               },
+               "Table4_E1": {
+                    "field": "properties.TPMethods.0.m_heat_capacity_ft_coeffs.values.4"
+               },
+               "Table4_F1": {
+                    "field": "properties.TPMethods.0.m_heat_capacity_ft_coeffs.values.5"
+               },
+               "Table4_LT2" :   {
+                    "field" :   "properties.TPMethods.1.limitsTP.lowerT"
+               },
+               "Table4_UT2" :   {
+                    "field" :   "properties.TPMethods.1.limitsTP.upperT"
+               },
+               "Table4_A2": {
+                    "field": "properties.TPMethods.1.m_heat_capacity_ft_coeffs.values.0"
+               },
+               "Table4_B2": {
+                    "field": "properties.TPMethods.1.m_heat_capacity_ft_coeffs.values.1"
+               },
+               "Table4_C2": {
+                    "field": "properties.TPMethods.1.m_heat_capacity_ft_coeffs.values.2"
+               },
+               "Table4_D2": {
+                    "field": "properties.TPMethods.1.m_heat_capacity_ft_coeffs.values.3"
+               },
+               "Table4_E2": {
+                    "field": "properties.TPMethods.1.m_heat_capacity_ft_coeffs.values.4"
+               },
+               "Table4_F2": {
+                    "field": "properties.TPMethods.1.m_heat_capacity_ft_coeffs.values.5"
+               },
+               "Table4_LT3" :   {
+                    "field" :   "properties.TPMethods.2.limitsTP.lowerT"
+               },
+               "Table4_UT3" :   {
+                    "field" :   "properties.TPMethods.2.limitsTP.upperT"
+               },
+               "Table4_A3": {
+                    "field": "properties.TPMethods.2.m_heat_capacity_ft_coeffs.values.0"
+               },
+               "Table4_B3": {
+                    "field": "properties.TPMethods.2.m_heat_capacity_ft_coeffs.values.1"
+               },
+               "Table4_C3": {
+                    "field": "properties.TPMethods.2.m_heat_capacity_ft_coeffs.values.2"
+               },
+               "Table4_D3": {
+                    "field": "properties.TPMethods.2.m_heat_capacity_ft_coeffs.values.3"
+               },
+               "Table4_E3": {
+                    "field": "properties.TPMethods.2.m_heat_capacity_ft_coeffs.values.4"
+               },
+               "Table4_F3": {
+                    "field": "properties.TPMethods.2.m_heat_capacity_ft_coeffs.values.5"
+               },
+               "Table4_LT4" :   {
+                    "field" :   "properties.TPMethods.3.limitsTP.lowerT"
+               },
+               "Table4_UT4" :   {
+                    "field" :   "properties.TPMethods.3.limitsTP.upperT"
+               },
+               "Table4_A4": {
+                    "field": "properties.TPMethods.3.m_heat_capacity_ft_coeffs.values.0"
+               },
+               "Table4_B4": {
+                    "field": "properties.TPMethods.3.m_heat_capacity_ft_coeffs.values.1"
+               },
+               "Table4_C4": {
+                    "field": "properties.TPMethods.3.m_heat_capacity_ft_coeffs.values.2"
+               },
+               "Table4_D4": {
+                    "field": "properties.TPMethods.3.m_heat_capacity_ft_coeffs.values.3"
+               },
+               "Table4_E4": {
+                    "field": "properties.TPMethods.3.m_heat_capacity_ft_coeffs.values.4"
+               },
+               "Table4_F4": {
+                    "field": "properties.TPMethods.3.m_heat_capacity_ft_coeffs.values.5"
+               },
+               "Table4_LT5" :   {
+                    "field" :   "properties.TPMethods.4.limitsTP.lowerT"
+               },
+               "Table4_UT5" :   {
+                    "field" :   "properties.TPMethods.4.limitsTP.upperT"
+               },
+               "Table4_A5": {
+                    "field": "properties.TPMethods.4.m_heat_capacity_ft_coeffs.values.0"
+               },
+               "Table4_B5": {
+                    "field": "properties.TPMethods.4.m_heat_capacity_ft_coeffs.values.1"
+               },
+               "Table4_C5": {
+                    "field": "properties.TPMethods.4.m_heat_capacity_ft_coeffs.values.2"
+               },
+               "Table4_D5": {
+                    "field": "properties.TPMethods.4.m_heat_capacity_ft_coeffs.values.3"
+               },
+               "Table4_E5": {
+                    "field": "properties.TPMethods.4.m_heat_capacity_ft_coeffs.values.4"
+               },
+               "Table4_F5": {
+                    "field": "properties.TPMethods.4.m_heat_capacity_ft_coeffs.values.5"
+               },
+               "Table4_LT6" :   {
+                    "field" :   "properties.TPMethods.5.limitsTP.lowerT"
+               },
+               "Table4_UT6" :   {
+                    "field" :   "properties.TPMethods.5.limitsTP.upperT"
+               },
+               "Table4_A6": {
+                    "field": "properties.TPMethods.5.m_heat_capacity_ft_coeffs.values.0"
+               },
+               "Table4_B6": {
+                    "field": "properties.TPMethods.5.m_heat_capacity_ft_coeffs.values.1"
+               },
+               "Table4_C6": {
+                    "field": "properties.TPMethods.5.m_heat_capacity_ft_coeffs.values.2"
+               },
+               "Table4_D6": {
+                    "field": "properties.TPMethods.5.m_heat_capacity_ft_coeffs.values.3"
+               },
+               "Table4_E6": {
+                    "field": "properties.TPMethods.5.m_heat_capacity_ft_coeffs.values.4"
+               },
+               "Table4_F6": {
+                    "field": "properties.TPMethods.5.m_heat_capacity_ft_coeffs.values.5"
+               },
+               "molar_volume(J/bar)": {
+                    "field": "properties.sm_volume.values"
+               },
+               "Table2_Quelle": {
+                    "field": "properties.datasources",
+		    "script" : "field[1] = 'V0: ' .. field[1]"
+               },
+               "Table2_Bemerkungen": {
+                    "field": "properties.comment",
+		    "script" : "field = 'V0: ' .. field"
+               },
+               "Table2_Mineral_Name": {
+                    "field": "properties.name"
+               }
+          },
+          "script" :   "
+	  rintable.properties.symbol = string.gsub(rintable.properties.symbol, '*',  'star' ); 
+          if rintable.properties.name == nil then rintable.properties.name = rintable.properties.symbol end;
+          -- rintable.properties.sm_gibbs_energy.units = {'J/mol'};
+          rintable.properties.sm_enthalpy.units = {'J/mol'};
+          rintable.properties.sm_entropy_abs.units = {'J/(mol*K)'};
+          rintable.properties.sm_heat_capacity_p.units = {'J/(mol*K)'};
+	  if rintable.properties.sm_volume == nil then rintable.properties.sm_volume = {} end;
+	  rintable.properties.sm_volume.units = {'J/bar'}
+          if rintable.properties.formula == '' then rintable.properties.formula = rintable.properties.symbol end;
+          if string.find(rintable.properties.formula, '%[') then rintable.properties.formula = rintable.properties.symbol end;
+          if string.find(rintable.properties.formula, '_') then
+               rintable.properties.formula = string.sub (rintable.properties.formula, 0, string.find(rintable.properties.formula, '_')-1) end;
+          if rintable.properties.aggregate_state['0'] == 'AS_GAS' then rintable.properties.class_= {} rintable.properties.class_['1'] = 'SC_GASFLUID' rintable.properties.symbol = rintable.properties.symbol .. '(g)' rintable.properties.sm_volume.values = {'2478.97'} end; 
+          if rintable.properties.aggregate_state['3'] == 'AS_CRYSTAL' then rintable.properties.class_= {} rintable.properties.class_['0'] = 'SC_COMPONENT' rintable.properties.symbol = rintable.properties.symbol .. '(cr)' end;
+          if rintable.properties.aggregate_state['1'] == 'AS_LIQUID' then rintable.properties.class_= {} rintable.properties.class_['0'] = 'SC_COMPONENT' rintable.properties.symbol = rintable.properties.symbol .. '(l)' end;
+          --rintable.properties.TPMethods[1].limitsTP.range = false;
+          local str = [[IVTAN:  Thermodynamic Properties Individual Substances 
+1-4 volumes: V.P. Glushko, L.V. Gurvich, I.V. Weitz, V.A. Medvedev, G.A. Hachkuruzov, V.S. Jungmann, G.A. Bergman, V.F. Baibuz, V.S. Iorish etc.
+5-6 volumes: V.S. Iorish , N.M. Aristova, G.A. Bergman, L.N. Gorohov, A.V. Gusarov, Y.S. Yezhov, A.N. Kulikov, E.L. Osina, E.A. Shenyavskaya, N.E. Handamirova, V.S. Jungmann]]
+	  if rintable.properties.datasources == nil then rintable.properties.datasources = {str}
+	  else a = rintable.properties.datasources[1] rintable.properties.datasources = {str, a} end;
+if rintable.properties.TPMethods ~= nil then 
+     if rintable.properties.aggregate_state['0'] == 'AS_GAS' then rintable.properties.TPMethods[7].method={} rintable.properties.TPMethods[7].method['40'] ='mv_pvnrt' end;
+     x = rintable.properties.TPMethods[6].m_heat_capacity_ft_coeffs.values
+     if x[1] == 0 and x[2] == 0 and x[3] == 0 and x[4] == 0 and x[5] == 0 and x[6] == 0 then   rintable.properties.TPMethods[6] = rintable.properties.TPMethods[7] rintable.properties.TPMethods[7] = nil end;
+     x = rintable.properties.TPMethods[5].m_heat_capacity_ft_coeffs.values
+     if x[1] == 0 and x[2] == 0 and x[3] == 0 and x[4] == 0 and x[5] == 0 and x[6] == 0 then  rintable.properties.TPMethods[5] = rintable.properties.TPMethods[6] rintable.properties.TPMethods[6] = nil end;
+     x = rintable.properties.TPMethods[4].m_heat_capacity_ft_coeffs.values
+     if x[1] == 0 and x[2] == 0 and x[3] == 0 and x[4] == 0 and x[5] == 0 and x[6] == 0 then   rintable.properties.TPMethods[4] = rintable.properties.TPMethods[5] rintable.properties.TPMethods[5] = nil end;
+     x = rintable.properties.TPMethods[3].m_heat_capacity_ft_coeffs.values
+     if x[1] == 0 and x[2] == 0 and x[3] == 0 and x[4] == 0 and x[5] == 0 and x[6] == 0 then  rintable.properties.TPMethods[3] = rintable.properties.TPMethods[4] rintable.properties.TPMethods[4] = nil end;
+     x = rintable.properties.TPMethods[2].m_heat_capacity_ft_coeffs.values
+     if x[1] == 0 and x[2] == 0 and x[3] == 0 and x[4] == 0 and x[5] == 0 and x[6] == 0 then   rintable.properties.TPMethods[2] = rintable.properties.TPMethods[3] rintable.properties.TPMethods[3] = nil end;
+     x = rintable.properties.TPMethods[1].m_heat_capacity_ft_coeffs.values 
+     if x[1] == 0 and x[2] == 0 and x[3] == 0 and x[4] == 0 and x[5] == 0 and x[6] == 0 then   rintable.properties.TPMethods[1] = rintable.properties.TPMethods[2] rintable.properties.TPMethods[2] = nil end;
+end;
+          "
+     },
+     "renderer" :   "JSON",
+     "label" :   "VertexSubstance",
+     "comment" :   "Import"
+}

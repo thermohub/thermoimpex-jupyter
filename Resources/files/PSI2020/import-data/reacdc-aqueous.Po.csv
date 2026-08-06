@@ -1,0 +1,17 @@
+﻿Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
+Po(aq),Po(aq),Po|0|(aq),aq,-7,,,,,,,,1 Po(cr) = Po(aq)
+PoCl3-,PoCl3-,Po|2|Cl3-,aq,7.02,,,,,,,,1 Po+2 3 Cl- = PoCl3-
+PoCl2(aq),PoCl2(aq),Po|2|Cl2(aq),aq,6.13,,,,,,,,1 Po+2 2 Cl- = PoCl2(aq)
+PoCl+,PoCl+,Po|2|Cl+,aq,3.75,,,,,,,,1 Po+2 1 Cl- = PoCl+
+Po(OH)6-2,Po(OH)6-2,Po(OH)6-2,aq,-32.43,0.05,,,,,,,1 PoO2(s) 4 H2O(l) -2 H+ = Po(OH)6-2
+Po(OH)4(aq),Po(OH)4(aq),Po(OH)4(aq),aq,-7.5,,,,,,,,1 PoO2(s) 2 H2O(l) = Po(OH)4(aq)
+Po(OH)3+,Po(OH)3+,Po(OH)3+,aq,-3,,,,,,,,1 PoO2(s) 1 H2O(l) 1 H+ = Po(OH)3+
+Po(OH)2+2,Po(OH)2+2,Po(OH)2+2,aq,-0.5,,,,,,,,1 PoO2(s) 2 H+ = Po(OH)2+2
+PoOH+3,PoOH+3,PoOH+3,aq,0.5,,,,,,,,1 PoO2(s) 3 H+ = PoOH+3 + H2O(l)
+Po(OH)Cl4-,Po(OH)Cl4-,Po(OH)Cl4-,aq,-2.16,,,,,,,,1 PoCl6-2 1 H2O(l) -1 H+ -2 Cl- = Po(OH)Cl4-
+PoSO4+2,PoSO4+2,PoSO4+2,aq,5.2,0.6,,,,,,,1 Po+4 1 SO4-2 = PoSO4+2
+Po(SO4)2(aq),Po(SO4)2(aq),Po(SO4)2(aq),aq,9.1,0.7,,,,,,,1 Po+4 2 SO4-2 = Po(SO4)2(aq)
+Po(SO4)3-2,Po(SO4)3-2,Po(SO4)3-2,aq,2.2,,,,,,,,1 Po(SO4)2(aq) 1 SO4-2 = Po(SO4)3-2
+PoNO3+3,PoNO3+3,PoNO3+3,aq,2,0.9,,,,,,,1 Po+4 1 NO3- = PoNO3+3
+Po(NO3)2+2,Po(NO3)2+2,Po(NO3)2+2,aq,3.7,0.4,,,,,,,1 Po+4 2 NO3- = Po(NO3)2+2
+Po(NO3)3+,Po(NO3)3+,Po(NO3)3+,aq,4.4,0.5,,,,,,,1 Po+4 3 NO3- = Po(NO3)3+

@@ -1,0 +1,4 @@
+﻿Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
+Ac(OH)3(fr) ,Ac(OH)3(fresh) ,Ac(OH)3 ,s,-23.3,0.2,,,,,,,1 Ac+3 3 H2O(l) -3 H+ = Ac(OH)3(fr)
+Ac(OH)3(ag) ,Ac(OH)3(aged) ,Ac(OH)3,s,-21.1,0.2,,,,,,,1 Ac+3 3 H2O(l) -3 H+ = Ac(OH)3(ag)
+Ac2(Ox)3(s),Ac2(Ox)3(s),Ac2(Ox)3,s,25.7,0.6,,,,,,,2 Ac+3 3 Ox-2 = Ac2(Ox)3(s)

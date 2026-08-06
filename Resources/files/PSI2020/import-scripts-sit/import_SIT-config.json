@@ -1,0 +1,73 @@
+   {            "ImpexRows" :   {
+                    "row0" :   {
+                         "ImpexBlockOrFileName" :   "phase_sit",
+                         "ImpexVertexName" :   "VertexPhase",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "/home/dmiron/gitTHERMOMATCH/thermomatch/Resources/files/PSI2020/SIT/phase_sit.FormatTableFile.json",
+                         "ImpexCondition" :   "records"
+                    },
+                    "row1" :   {
+                         "ImpexBlockOrFileName" :   "phase_sit",
+                         "ImpexVertexName" :   "VertexMixingModel",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "/home/dmiron/gitTHERMOMATCH/thermomatch/Resources/files/PSI2020/SIT/mixmod_sit.FormatTableFile.json",
+                         "ImpexCondition" :   "records"
+                    },
+                    "row2" :   {
+                         "ImpexBlockOrFileName" :   "phase_sit",
+                         "ImpexVertexName" :   "VertexInteraction",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "/home/dmiron/gitTHERMOMATCH/thermomatch/Resources/files/PSI2020/SIT/int_Cl.FormatTableFile.json",
+                         "ImpexCondition" :   "records_and_links"
+                    },
+                    "row3" :   {
+                         "ImpexBlockOrFileName" :   "phase_sit",
+                         "ImpexVertexName" :   "VertexInteraction",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "/home/dmiron/gitTHERMOMATCH/thermomatch/Resources/files/PSI2020/SIT/int_NO3.FormatTableFile.json",
+                         "ImpexCondition" :   "records_and_links"
+                    },
+                    "row4" :   {
+                         "ImpexBlockOrFileName" :   "phase_sit",
+                         "ImpexVertexName" :   "VertexInteraction",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "/home/dmiron/gitTHERMOMATCH/thermomatch/Resources/files/PSI2020/SIT/int_NaClO4.FormatTableFile.json",
+                         "ImpexCondition" :   "records_and_links"
+                    },
+                    "row5" :   {
+                         "ImpexBlockOrFileName" :   "phase_sit",
+                         "ImpexVertexName" :   "VertexInteraction",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "/home/dmiron/gitTHERMOMATCH/thermomatch/Resources/files/PSI2020/SIT/int_NaCl.FormatTableFile.json",
+                         "ImpexCondition" :   "records_and_links"
+                    },
+                    "row6" :   {
+                         "ImpexBlockOrFileName" :   "phase_sit",
+                         "ImpexVertexName" :   "VertexInteraction",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "/home/dmiron/gitTHERMOMATCH/thermomatch/Resources/files/PSI2020/SIT/int_Na.FormatTableFile.json",
+                         "ImpexCondition" :   "records_and_links"
+                    },
+                    "row7" :   {
+                         "ImpexBlockOrFileName" :   "phase_sit",
+                         "ImpexVertexName" :   "VertexInteraction",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "/home/dmiron/gitTHERMOMATCH/thermomatch/Resources/files/PSI2020/SIT/int_Li.FormatTableFile.json",
+                         "ImpexCondition" :   "records_and_links"
+                    },
+                    "row8" :   {
+                         "ImpexBlockOrFileName" :   "phase_sit",
+                         "ImpexVertexName" :   "VertexInteraction",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "/home/dmiron/gitTHERMOMATCH/thermomatch/Resources/files/PSI2020/SIT/int_K.FormatTableFile.json",
+                         "ImpexCondition" :   "records_and_links"
+                    },
+                    "row9" :   {
+                         "ImpexBlockOrFileName" :   "phase_sit",
+                         "ImpexVertexName" :   "VertexInteraction",
+                         "ImpexFormatFile" :   "FormatTableFile",
+                         "ImpexFormatScript" :   "/home/dmiron/gitTHERMOMATCH/thermomatch/Resources/files/PSI2020/SIT/int_ClO4.FormatTableFile.json",
+                         "ImpexCondition" :   "records_and_links"
+                    }
+               }
+}

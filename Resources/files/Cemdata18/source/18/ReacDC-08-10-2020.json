@@ -1,0 +1,8614 @@
+[
+{
+	"key": [
+		{
+			"fx": 0,
+			"fl": 4,
+			"fv": "a"
+		},
+		{
+			"fx": 1,
+			"fl": 8,
+			"fv": "AlSi"
+		},
+		{
+			"fx": 2,
+			"fl": 16,
+			"fv": "AlSiO5-3"
+		},
+		{
+			"fx": 3,
+			"fl": 4,
+			"fv": "acem"
+		}
+	],
+	"dod": [
+		{
+			"id": 600,
+			"label": "REcMod",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"K",
+				"3",
+				"C",
+				"N",
+				" ",
+				" "
+			]
+		},
+		{
+			"id": 601,
+			"label": "RE_set",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"S",
+				"j",
+				"j",
+				"b",
+				"C",
+				" "
+			]
+		},
+		{
+			"id": 602,
+			"label": "RE_arr",
+			"dot": -9,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				"+",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-"
+			]
+		},
+		{
+			"id": 603,
+			"label": "rCdat",
+			"dot": 9,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				"26/04/10"
+			]
+		},
+		{
+			"id": 604,
+			"label": "Zz_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				-3
+			]
+		},
+		{
+			"id": 605,
+			"label": "M0_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				135.064041137695
+			]
+		},
+		{
+			"id": 606,
+			"label": "logKr",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				3.38844156139203,
+				0.53,
+				null
+			]
+		},
+		{
+			"id": 607,
+			"label": "G0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-3025.26227639495,
+				-1769014.16968059,
+				null
+			]
+		},
+		{
+			"id": 608,
+			"label": "H0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-3025.26227639495,
+				-2027333.43227639,
+				null
+			]
+		},
+		{
+			"id": 609,
+			"label": "S0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				0,
+				-110.408996582031,
+				null
+			]
+		},
+		{
+			"id": 610,
+			"label": "Cp0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				0,
+				70.7840042114258,
+				null
+			]
+		},
+		{
+			"id": 611,
+			"label": "V0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-4.3599100112915,
+				-3.41317462921143,
+				null
+			]
+		},
+		{
+			"id": 612,
+			"label": "NisoX",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				null,
+				null,
+				null
+			]
+		},
+		{
+			"id": 613,
+			"label": "PrTr_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				1,
+				25
+			]
+		},
+		{
+			"id": 614,
+			"label": "BetAl_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 615,
+			"label": "ab_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				4,
+				null
+			]
+		},
+		{
+			"id": 617,
+			"label": "RDname",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "AlSiO5-3 (+2 H2O = AlSiO3(OH)4-3)       "
+		},
+		{
+			"id": 618,
+			"label": "RDform",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "AlSiO5-3 "
+		},
+		{
+			"id": 619,
+			"label": "REsDC",
+			"dot": 32,
+			"dN": 3,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"a   Si      SiO3-2          ace_",
+				"a   Al      AlO2-           bnp ",
+				"a   AlSi    AlSiO5-3        acem"
+			]
+		},
+		{
+			"id": 620,
+			"label": "REmDC",
+			"dot": -9,
+			"dN": 3,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"r",
+				"d",
+				"n"
+			]
+		},
+		{
+			"id": 621,
+			"label": "RE_dim",
+			"dot": -1,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				3,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				1
+			]
+		},
+		{
+			"id": 625,
+			"label": "SC_DC",
+			"dot": -6,
+			"dN": 3,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				-1,
+				-1,
+				1
+			]
+		},
+		{
+			"id": 626,
+			"label": "TCint_",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				50
+			]
+		},
+		{
+			"id": 627,
+			"label": "P_int",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				100
+			]
+		},
+		{
+			"id": 628,
+			"label": "adCpT",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 629,
+			"label": "adHKF",
+			"dot": -5,
+			"dN": 8,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 630,
+			"label": "adVTP",
+			"dot": -5,
+			"dN": 5,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 631,
+			"label": "a_dST",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 632,
+			"label": "aiLgKr",
+			"dot": -5,
+			"dN": 12,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				0,
+				158.019500732422,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"id": 633,
+			"label": "logKTP",
+			"dot": -5,
+			"dN": 0,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 634,
+			"label": "rSDref",
+			"dot": 32,
+			"dN": 1,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"JULY_GEMS:2009:dat:"
+			]
+		},
+		{
+			"id": 635,
+			"label": "rSDval",
+			"dot": 24,
+			"dN": 1,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"logKr"
+			]
+		}
+	],
+	"mtime": "Thu, 08 Oct 2020 10:11:54 +0100"
+},
+{
+	"key": [
+		{
+			"fx": 0,
+			"fl": 4,
+			"fv": "a"
+		},
+		{
+			"fx": 1,
+			"fl": 8,
+			"fv": "CaSi"
+		},
+		{
+			"fx": 2,
+			"fl": 16,
+			"fv": "CaSiO3@"
+		},
+		{
+			"fx": 3,
+			"fl": 4,
+			"fv": "acem"
+		}
+	],
+	"dod": [
+		{
+			"id": 600,
+			"label": "REcMod",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"K",
+				"3",
+				"C",
+				" ",
+				" ",
+				" "
+			]
+		},
+		{
+			"id": 601,
+			"label": "RE_set",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"S",
+				"j",
+				"j",
+				"b",
+				"C",
+				" "
+			]
+		},
+		{
+			"id": 602,
+			"label": "RE_arr",
+			"dot": -9,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				"+",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-"
+			]
+		},
+		{
+			"id": 603,
+			"label": "rCdat",
+			"dot": 9,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				"19 Dec 01"
+			]
+		},
+		{
+			"id": 604,
+			"label": "Zz_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				0
+			]
+		},
+		{
+			"id": 605,
+			"label": "M0_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				116.161697387695
+			]
+		},
+		{
+			"id": 606,
+			"label": "logKr",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				39810.7170553497,
+				4.6,
+				null
+			]
+		},
+		{
+			"id": 607,
+			"label": "G0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-26256.9933422958,
+				-1517556.90074649,
+				null
+			]
+		},
+		{
+			"id": 608,
+			"label": "H0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-26256.9933422958,
+				-1668063.1633423,
+				null
+			]
+		},
+		{
+			"id": 609,
+			"label": "S0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				0,
+				-136.683990478516,
+				null
+			]
+		},
+		{
+			"id": 610,
+			"label": "Cp0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				0,
+				88.9034118652344,
+				null
+			]
+		},
+		{
+			"id": 611,
+			"label": "V0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				1.84387004375458,
+				0,
+				null
+			]
+		},
+		{
+			"id": 612,
+			"label": "NisoX",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				null,
+				null,
+				null
+			]
+		},
+		{
+			"id": 613,
+			"label": "PrTr_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				1,
+				25
+			]
+		},
+		{
+			"id": 614,
+			"label": "BetAl_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 615,
+			"label": "ab_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				-1,
+				null
+			]
+		},
+		{
+			"id": 617,
+			"label": "RDname",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "CaSiO3@ complex CaSiO2(OH)2@"
+		},
+		{
+			"id": 618,
+			"label": "RDform",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "CaSiO3@"
+		},
+		{
+			"id": 619,
+			"label": "REsDC",
+			"dot": 32,
+			"dN": 3,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"a   Si      SiO3-2          np_ ",
+				"a   Ca      Ca+2            np_ ",
+				"a   CaSi    CaSiO3@         np_ "
+			]
+		},
+		{
+			"id": 620,
+			"label": "REmDC",
+			"dot": -9,
+			"dN": 3,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"r",
+				"d",
+				"n"
+			]
+		},
+		{
+			"id": 621,
+			"label": "RE_dim",
+			"dot": -1,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				3,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				1
+			]
+		},
+		{
+			"id": 625,
+			"label": "SC_DC",
+			"dot": -6,
+			"dN": 3,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				-1,
+				-1,
+				1
+			]
+		},
+		{
+			"id": 626,
+			"label": "TCint_",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				250
+			]
+		},
+		{
+			"id": 627,
+			"label": "P_int",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				1000
+			]
+		},
+		{
+			"id": 628,
+			"label": "adCpT",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 629,
+			"label": "adHKF",
+			"dot": -5,
+			"dN": 8,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 630,
+			"label": "adVTP",
+			"dot": -5,
+			"dN": 5,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 631,
+			"label": "a_dST",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 632,
+			"label": "aiLgKr",
+			"dot": -5,
+			"dN": 12,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				0,
+				1371.48999023438,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"id": 633,
+			"label": "logKTP",
+			"dot": -5,
+			"dN": 0,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 634,
+			"label": "rSDref",
+			"dot": 32,
+			"dN": 1,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"AUG20_GEMS:2001:dat:         "
+			]
+		},
+		{
+			"id": 635,
+			"label": "rSDval",
+			"dot": 24,
+			"dN": 1,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"logK      "
+			]
+		}
+	],
+	"mtime": "Thu, 08 Oct 2020 10:11:54 +0100"
+},
+{
+	"key": [
+		{
+			"fx": 0,
+			"fl": 4,
+			"fv": "a"
+		},
+		{
+			"fx": 1,
+			"fl": 8,
+			"fv": "Si"
+		},
+		{
+			"fx": 2,
+			"fl": 16,
+			"fv": "Si4O10-4"
+		},
+		{
+			"fx": 3,
+			"fl": 4,
+			"fv": "acem"
+		}
+	],
+	"dod": [
+		{
+			"id": 600,
+			"label": "REcMod",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"K",
+				"3",
+				"C",
+				"N",
+				" ",
+				" "
+			]
+		},
+		{
+			"id": 601,
+			"label": "RE_set",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"S",
+				"j",
+				"j",
+				"b",
+				"C",
+				" "
+			]
+		},
+		{
+			"id": 602,
+			"label": "RE_arr",
+			"dot": -9,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				"+",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-"
+			]
+		},
+		{
+			"id": 603,
+			"label": "rCdat",
+			"dot": 9,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				"26/04/10"
+			]
+		},
+		{
+			"id": 604,
+			"label": "Zz_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				-4
+			]
+		},
+		{
+			"id": 605,
+			"label": "M0_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				272.335998535156
+			]
+		},
+		{
+			"id": 606,
+			"label": "logKr",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				5.01187233627276e-37,
+				-36.3,
+				0.2
+			]
+		},
+		{
+			"id": 607,
+			"label": "G0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				207201.925722899,
+				-3600808.0742771,
+				null
+			]
+		},
+		{
+			"id": 608,
+			"label": "H0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				207201.925722899,
+				-3915984.7542771,
+				null
+			]
+		},
+		{
+			"id": 609,
+			"label": "S0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				0,
+				305.197998046875,
+				null
+			]
+		},
+		{
+			"id": 610,
+			"label": "Cp0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				0,
+				328.582641601562,
+				null
+			]
+		},
+		{
+			"id": 611,
+			"label": "V0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-10.0389995574951,
+				0,
+				null
+			]
+		},
+		{
+			"id": 612,
+			"label": "NisoX",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				null,
+				null,
+				null
+			]
+		},
+		{
+			"id": 613,
+			"label": "PrTr_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				1,
+				25
+			]
+		},
+		{
+			"id": 614,
+			"label": "BetAl_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 615,
+			"label": "ab_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				4,
+				null
+			]
+		},
+		{
+			"id": 617,
+			"label": "RDname",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "Si4O10-4  (+2 H2O = Si4O8(OH)4-4)      "
+		},
+		{
+			"id": 618,
+			"label": "RDform",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "Si4O10-4 "
+		},
+		{
+			"id": 619,
+			"label": "REsDC",
+			"dot": 32,
+			"dN": 4,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"a   Si      SiO2@           acem",
+				"a   w_      H+              anp ",
+				"a   w_      H2O@            anp ",
+				"a   Si      Si4O10-4        acem"
+			]
+		},
+		{
+			"id": 620,
+			"label": "REmDC",
+			"dot": -9,
+			"dN": 4,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"d",
+				"d",
+				"d",
+				"n"
+			]
+		},
+		{
+			"id": 621,
+			"label": "RE_dim",
+			"dot": -1,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				4,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				2
+			]
+		},
+		{
+			"id": 625,
+			"label": "SC_DC",
+			"dot": -6,
+			"dN": 4,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				-4,
+				4,
+				-2,
+				1
+			]
+		},
+		{
+			"id": 626,
+			"label": "TCint_",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				50
+			]
+		},
+		{
+			"id": 627,
+			"label": "P_int",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				100
+			]
+		},
+		{
+			"id": 628,
+			"label": "adCpT",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 629,
+			"label": "adHKF",
+			"dot": -5,
+			"dN": 8,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 630,
+			"label": "adVTP",
+			"dot": -5,
+			"dN": 5,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 631,
+			"label": "a_dST",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 632,
+			"label": "aiLgKr",
+			"dot": -5,
+			"dN": 12,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				0,
+				-10822.8447265625,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"id": 633,
+			"label": "logKTP",
+			"dot": -5,
+			"dN": 0,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 634,
+			"label": "rSDref",
+			"dot": 32,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"JULY_GEMS:2009:dat:",
+				"Lothenbach_ea:2018:pap:"
+			]
+		},
+		{
+			"id": 635,
+			"label": "rSDval",
+			"dot": 24,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"logK",
+				"corrected Cp,S0 (SiO2)"
+			]
+		}
+	],
+	"mtime": "Thu, 08 Oct 2020 10:11:54 +0100"
+},
+{
+	"key": [
+		{
+			"fx": 0,
+			"fl": 4,
+			"fv": "a"
+		},
+		{
+			"fx": 1,
+			"fl": 8,
+			"fv": "Si"
+		},
+		{
+			"fx": 2,
+			"fl": 16,
+			"fv": "SiO3-2"
+		},
+		{
+			"fx": 3,
+			"fl": 4,
+			"fv": "acem"
+		}
+	],
+	"dod": [
+		{
+			"id": 600,
+			"label": "REcMod",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"K",
+				"3",
+				"C",
+				"N",
+				" ",
+				" "
+			]
+		},
+		{
+			"id": 601,
+			"label": "RE_set",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"S",
+				"j",
+				"j",
+				"b",
+				"C",
+				" "
+			]
+		},
+		{
+			"id": 602,
+			"label": "RE_arr",
+			"dot": -9,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				"+",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-"
+			]
+		},
+		{
+			"id": 603,
+			"label": "rCdat",
+			"dot": 9,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				"19 Dec 01"
+			]
+		},
+		{
+			"id": 604,
+			"label": "Zz_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				-2
+			]
+		},
+		{
+			"id": 605,
+			"label": "M0_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				76.0837020874023
+			]
+		},
+		{
+			"id": 606,
+			"label": "logKr",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				7.24435960074995e-24,
+				-23.14,
+				null
+			]
+		},
+		{
+			"id": 607,
+			"label": "G0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				132084.09259581,
+				-938509.90740419,
+				null
+			]
+		},
+		{
+			"id": 608,
+			"label": "H0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				75000,
+				-1098737.17,
+				null
+			]
+		},
+		{
+			"id": 609,
+			"label": "S0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-191.460998535156,
+				-80.1999969482422,
+				null
+			]
+		},
+		{
+			"id": 610,
+			"label": "Cp0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				0,
+				119.825927734375,
+				null
+			]
+		},
+		{
+			"id": 611,
+			"label": "V0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-3.41317009925842,
+				0,
+				null
+			]
+		},
+		{
+			"id": 612,
+			"label": "NisoX",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				null,
+				null,
+				null
+			]
+		},
+		{
+			"id": 613,
+			"label": "PrTr_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				1,
+				25
+			]
+		},
+		{
+			"id": 614,
+			"label": "BetAl_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 615,
+			"label": "ab_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				4,
+				null
+			]
+		},
+		{
+			"id": 617,
+			"label": "RDname",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "SiO3-2 ( + H2O = SiO2(OH)2-2;recalculated using adapted SiO2"
+		},
+		{
+			"id": 618,
+			"label": "RDform",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "SiO3-2"
+		},
+		{
+			"id": 619,
+			"label": "REsDC",
+			"dot": 32,
+			"dN": 4,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"a   Si      SiO2@           acem",
+				"a   w_      H+              anp ",
+				"a   w_      H2O@            anp ",
+				"a   Si      SiO3-2          acem"
+			]
+		},
+		{
+			"id": 620,
+			"label": "REmDC",
+			"dot": -9,
+			"dN": 4,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"d",
+				"d",
+				"d",
+				"n"
+			]
+		},
+		{
+			"id": 621,
+			"label": "RE_dim",
+			"dot": -1,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				4,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				2
+			]
+		},
+		{
+			"id": 625,
+			"label": "SC_DC",
+			"dot": -6,
+			"dN": 4,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				-1,
+				2,
+				-1,
+				1
+			]
+		},
+		{
+			"id": 626,
+			"label": "TCint_",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				150
+			]
+		},
+		{
+			"id": 627,
+			"label": "P_int",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				1000
+			]
+		},
+		{
+			"id": 628,
+			"label": "adCpT",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 629,
+			"label": "adHKF",
+			"dot": -5,
+			"dN": 8,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 630,
+			"label": "adVTP",
+			"dot": -5,
+			"dN": 5,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 631,
+			"label": "a_dST",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 632,
+			"label": "aiLgKr",
+			"dot": -5,
+			"dN": 12,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				-10.0006437301636,
+				0,
+				-3917.49926757812,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"id": 633,
+			"label": "logKTP",
+			"dot": -5,
+			"dN": 0,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 634,
+			"label": "rSDref",
+			"dot": 32,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"AUG20_GEMS:2001:dat:         ",
+				"Matschei_ea:2007:pap:"
+			]
+		},
+		{
+			"id": 635,
+			"label": "rSDval",
+			"dot": 24,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"logK, H0r      ",
+				"corrected Cp,S0 (SiO2)"
+			]
+		}
+	],
+	"mtime": "Thu, 08 Oct 2020 10:11:54 +0100"
+},
+{
+	"key": [
+		{
+			"fx": 0,
+			"fl": 4,
+			"fv": "a"
+		},
+		{
+			"fx": 1,
+			"fl": 8,
+			"fv": "SrSi"
+		},
+		{
+			"fx": 2,
+			"fl": 16,
+			"fv": "SrSiO3@"
+		},
+		{
+			"fx": 3,
+			"fl": 4,
+			"fv": "ypd"
+		}
+	],
+	"dod": [
+		{
+			"id": 600,
+			"label": "REcMod",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"K",
+				"3",
+				"C",
+				" ",
+				" ",
+				" "
+			]
+		},
+		{
+			"id": 601,
+			"label": "RE_set",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"S",
+				"j",
+				"j",
+				"b",
+				"C",
+				" "
+			]
+		},
+		{
+			"id": 602,
+			"label": "RE_arr",
+			"dot": -9,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				"+",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-"
+			]
+		},
+		{
+			"id": 603,
+			"label": "rCdat",
+			"dot": 9,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				"19 Dec 01"
+			]
+		},
+		{
+			"id": 604,
+			"label": "Zz_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				0
+			]
+		},
+		{
+			"id": 605,
+			"label": "M0_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				163.703704833984
+			]
+		},
+		{
+			"id": 606,
+			"label": "logKr",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				23442.2881531992,
+				4.37,
+				null
+			]
+		},
+		{
+			"id": 607,
+			"label": "G0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-24944.143675181,
+				-1527290,
+				null
+			]
+		},
+		{
+			"id": 608,
+			"label": "H0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-24944.143675181,
+				-1617426.87523234,
+				null
+			]
+		},
+		{
+			"id": 609,
+			"label": "S0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				0,
+				79.91748046875,
+				null
+			]
+		},
+		{
+			"id": 610,
+			"label": "Cp0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				0,
+				78.3856506347656,
+				null
+			]
+		},
+		{
+			"id": 611,
+			"label": "V0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				0,
+				1.63737428188324,
+				null
+			]
+		},
+		{
+			"id": 612,
+			"label": "NisoX",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				null,
+				null,
+				null
+			]
+		},
+		{
+			"id": 613,
+			"label": "PrTr_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				1,
+				25
+			]
+		},
+		{
+			"id": 614,
+			"label": "BetAl_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 615,
+			"label": "ab_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				-1,
+				null
+			]
+		},
+		{
+			"id": 617,
+			"label": "RDname",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "SrSiO3@ complex SrSiO2(OH)2@"
+		},
+		{
+			"id": 618,
+			"label": "RDform",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "SrSiO3@"
+		},
+		{
+			"id": 619,
+			"label": "REsDC",
+			"dot": 32,
+			"dN": 3,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"a   Si      SiO3-2          np_ ",
+				"a   Sr      Sr+2            np_ ",
+				"a   SrSi    SrSiO3@         np_ "
+			]
+		},
+		{
+			"id": 620,
+			"label": "REmDC",
+			"dot": -9,
+			"dN": 3,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"r",
+				"d",
+				"n"
+			]
+		},
+		{
+			"id": 621,
+			"label": "RE_dim",
+			"dot": -1,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				3,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				1
+			]
+		},
+		{
+			"id": 625,
+			"label": "SC_DC",
+			"dot": -6,
+			"dN": 3,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				-1,
+				-1,
+				1
+			]
+		},
+		{
+			"id": 626,
+			"label": "TCint_",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				250
+			]
+		},
+		{
+			"id": 627,
+			"label": "P_int",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				1000
+			]
+		},
+		{
+			"id": 628,
+			"label": "adCpT",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 629,
+			"label": "adHKF",
+			"dot": -5,
+			"dN": 8,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 630,
+			"label": "adVTP",
+			"dot": -5,
+			"dN": 5,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 631,
+			"label": "a_dST",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 632,
+			"label": "aiLgKr",
+			"dot": -5,
+			"dN": 12,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				0,
+				1302.91552734375,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"id": 633,
+			"label": "logKTP",
+			"dot": -5,
+			"dN": 0,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 634,
+			"label": "rSDref",
+			"dot": 32,
+			"dN": 1,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"Felmy_ea:2003:pap:         "
+			]
+		},
+		{
+			"id": 635,
+			"label": "rSDval",
+			"dot": 24,
+			"dN": 1,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"logKa=-0.23+logKaCa     "
+			]
+		}
+	],
+	"mtime": "Thu, 08 Oct 2020 10:11:54 +0100"
+},
+{
+	"key": [
+		{
+			"fx": 0,
+			"fl": 4,
+			"fv": "s"
+		},
+		{
+			"fx": 1,
+			"fl": 8,
+			"fv": "CAS2H4"
+		},
+		{
+			"fx": 2,
+			"fl": 16,
+			"fv": "zeoliteP_Ca"
+		},
+		{
+			"fx": 3,
+			"fl": 4,
+			"fv": "cem"
+		}
+	],
+	"dod": [
+		{
+			"id": 600,
+			"label": "REcMod",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"K",
+				"3",
+				"C",
+				"N",
+				" ",
+				" "
+			]
+		},
+		{
+			"id": 601,
+			"label": "RE_set",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"O",
+				"j",
+				"j",
+				"b",
+				"C",
+				" "
+			]
+		},
+		{
+			"id": 602,
+			"label": "RE_arr",
+			"dot": -9,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				"+",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-"
+			]
+		},
+		{
+			"id": 603,
+			"label": "rCdat",
+			"dot": 9,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				"15/04/16"
+			]
+		},
+		{
+			"id": 604,
+			"label": "Zz_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				0
+			]
+		},
+		{
+			"id": 605,
+			"label": "M0_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				359.276000976562
+			]
+		},
+		{
+			"id": 606,
+			"label": "logKr",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				5.0118723e-21,
+				-20.3,
+				2
+			]
+		},
+		{
+			"id": 607,
+			"label": "G0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				115873.25,
+				-5057766.8,
+				11416
+			]
+		},
+		{
+			"id": 608,
+			"label": "H0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-32865.728,
+				-5423522.1,
+				16000
+			]
+		},
+		{
+			"id": 609,
+			"label": "S0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-498.872985839844,
+				779.299987792969,
+				40
+			]
+		},
+		{
+			"id": 610,
+			"label": "Cp0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-454.263000488281,
+				753.309997558594,
+				40
+			]
+		},
+		{
+			"id": 611,
+			"label": "V0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-3.89199995994568,
+				15.2849998474121,
+				null
+			]
+		},
+		{
+			"id": 612,
+			"label": "NisoX",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				null,
+				null,
+				-419.572998046875
+			]
+		},
+		{
+			"id": 613,
+			"label": "PrTr_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				1,
+				25
+			]
+		},
+		{
+			"id": 614,
+			"label": "BetAl_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 615,
+			"label": "ab_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 617,
+			"label": "RDname",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "zeolite P(Ca)"
+		},
+		{
+			"id": 618,
+			"label": "RDform",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "Ca(Al2Si2)O8(H2O)4.5"
+		},
+		{
+			"id": 619,
+			"label": "REsDC",
+			"dot": 32,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"a   Al      AlO2-           bn_ ",
+				"a   Ca      Ca+2            an_ ",
+				"a   Si      SiO2@           ace_",
+				"a   w_      H2O@            an_ ",
+				"s   CAS2H4  zeoliteP_Ca     cem "
+			]
+		},
+		{
+			"id": 620,
+			"label": "REmDC",
+			"dot": -9,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"d",
+				"d",
+				"d",
+				"d",
+				"n"
+			]
+		},
+		{
+			"id": 621,
+			"label": "RE_dim",
+			"dot": -1,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				5,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				2
+			]
+		},
+		{
+			"id": 625,
+			"label": "SC_DC",
+			"dot": -6,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				2,
+				1,
+				2,
+				4.5,
+				-1
+			]
+		},
+		{
+			"id": 626,
+			"label": "TCint_",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				0
+			]
+		},
+		{
+			"id": 627,
+			"label": "P_int",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				0
+			]
+		},
+		{
+			"id": 628,
+			"label": "adCpT",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 629,
+			"label": "adHKF",
+			"dot": -5,
+			"dN": 8,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 630,
+			"label": "adVTP",
+			"dot": -5,
+			"dN": 5,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 631,
+			"label": "a_dST",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 632,
+			"label": "aiLgKr",
+			"dot": -5,
+			"dN": 12,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				132.860992431641,
+				0,
+				-5357.72021484375,
+				-23.7276992797852,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"id": 633,
+			"label": "logKTP",
+			"dot": -5,
+			"dN": 0,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 634,
+			"label": "rSDref",
+			"dot": 32,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"Lothenbach_ea:2017:pap",
+				"Blanc_ea:2015:pap"
+			]
+		},
+		{
+			"id": 635,
+			"label": "rSDval",
+			"dot": 24,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"all",
+				"volume"
+			]
+		}
+	],
+	"mtime": "Thu, 08 Oct 2020 10:11:54 +0100"
+},
+{
+	"key": [
+		{
+			"fx": 0,
+			"fl": 4,
+			"fv": "s"
+		},
+		{
+			"fx": 1,
+			"fl": 8,
+			"fv": "CAS4H6"
+		},
+		{
+			"fx": 2,
+			"fl": 16,
+			"fv": "chabazite"
+		},
+		{
+			"fx": 3,
+			"fl": 4,
+			"fv": "cem"
+		}
+	],
+	"dod": [
+		{
+			"id": 600,
+			"label": "REcMod",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"K",
+				"3",
+				"C",
+				"N",
+				" ",
+				" "
+			]
+		},
+		{
+			"id": 601,
+			"label": "RE_set",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"O",
+				"j",
+				"j",
+				"b",
+				"C",
+				" "
+			]
+		},
+		{
+			"id": 602,
+			"label": "RE_arr",
+			"dot": -9,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				"+",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-"
+			]
+		},
+		{
+			"id": 603,
+			"label": "rCdat",
+			"dot": 9,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				"15/04/16"
+			]
+		},
+		{
+			"id": 604,
+			"label": "Zz_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				0
+			]
+		},
+		{
+			"id": 605,
+			"label": "M0_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				506.467987060547
+			]
+		},
+		{
+			"id": 606,
+			"label": "logKr",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				1.5848932e-26,
+				-25.8,
+				2
+			]
+		},
+		{
+			"id": 607,
+			"label": "G0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				147267.48,
+				-7111757.5,
+				11416
+			]
+		},
+		{
+			"id": 608,
+			"label": "H0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				113509.45,
+				-7774431.1,
+				12000
+			]
+		},
+		{
+			"id": 609,
+			"label": "S0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-113.224998474121,
+				581.213012695312,
+				10
+			]
+		},
+		{
+			"id": 610,
+			"label": "Cp0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-116.140998840332,
+				617.158996582031,
+				10
+			]
+		},
+		{
+			"id": 611,
+			"label": "V0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-7.80000019073486,
+				25.1159992218018,
+				null
+			]
+		},
+		{
+			"id": 612,
+			"label": "NisoX",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				null,
+				null,
+				null
+			]
+		},
+		{
+			"id": 613,
+			"label": "PrTr_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				1,
+				25
+			]
+		},
+		{
+			"id": 614,
+			"label": "BetAl_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 615,
+			"label": "ab_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 617,
+			"label": "RDname",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "chabazite"
+		},
+		{
+			"id": 618,
+			"label": "RDform",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "Ca(Al2Si4)O12(H2O)6"
+		},
+		{
+			"id": 619,
+			"label": "REsDC",
+			"dot": 32,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"a   Al      AlO2-           bn_ ",
+				"a   Ca      Ca+2            an_ ",
+				"a   Si      SiO2@           an_ ",
+				"a   w_      H2O@            an_ ",
+				"s   CAS4H6  chabazite       cem "
+			]
+		},
+		{
+			"id": 620,
+			"label": "REmDC",
+			"dot": -9,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"d",
+				"d",
+				"d",
+				"d",
+				"n"
+			]
+		},
+		{
+			"id": 621,
+			"label": "RE_dim",
+			"dot": -1,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				5,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				2
+			]
+		},
+		{
+			"id": 625,
+			"label": "SC_DC",
+			"dot": -6,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				2,
+				1,
+				4,
+				6,
+				-1
+			]
+		},
+		{
+			"id": 626,
+			"label": "TCint_",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				0
+			]
+		},
+		{
+			"id": 627,
+			"label": "P_int",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				0
+			]
+		},
+		{
+			"id": 628,
+			"label": "adCpT",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 629,
+			"label": "adHKF",
+			"dot": -5,
+			"dN": 8,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 630,
+			"label": "adVTP",
+			"dot": -5,
+			"dN": 5,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 631,
+			"label": "a_dST",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 632,
+			"label": "aiLgKr",
+			"dot": -5,
+			"dN": 12,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				34.7164001464844,
+				0,
+				-7737.68017578125,
+				-6.06643009185791,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"id": 633,
+			"label": "logKTP",
+			"dot": -5,
+			"dN": 0,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 634,
+			"label": "rSDref",
+			"dot": 32,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"Lothenbach_ea:2017:pap",
+				"Blanc_ea:2015:pap"
+			]
+		},
+		{
+			"id": 635,
+			"label": "rSDval",
+			"dot": 24,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"all",
+				"volume"
+			]
+		}
+	],
+	"mtime": "Thu, 08 Oct 2020 10:11:54 +0100"
+},
+{
+	"key": [
+		{
+			"fx": 0,
+			"fl": 4,
+			"fv": "s"
+		},
+		{
+			"fx": 1,
+			"fl": 8,
+			"fv": "MgAlOH"
+		},
+		{
+			"fx": 2,
+			"fl": 16,
+			"fv": "M4A-OH-LDH"
+		},
+		{
+			"fx": 3,
+			"fl": 4,
+			"fv": "CAA"
+		}
+	],
+	"dod": [
+		{
+			"id": 600,
+			"label": "REcMod",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"K",
+				"3",
+				"C",
+				"N",
+				" ",
+				" "
+			]
+		},
+		{
+			"id": 601,
+			"label": "RE_set",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"O",
+				"j",
+				"j",
+				"b",
+				"C",
+				" "
+			]
+		},
+		{
+			"id": 602,
+			"label": "RE_arr",
+			"dot": -9,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				"+",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-"
+			]
+		},
+		{
+			"id": 603,
+			"label": "rCdat",
+			"dot": 9,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				"26/09/13"
+			]
+		},
+		{
+			"id": 604,
+			"label": "Zz_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				0
+			]
+		},
+		{
+			"id": 605,
+			"label": "M0_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				443.332000732422
+			]
+		},
+		{
+			"id": 606,
+			"label": "logKr",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				1.9952623e-50,
+				-49.7,
+				-49.7
+			]
+		},
+		{
+			"id": 607,
+			"label": "G0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				283689.69,
+				-6358488.7,
+				null
+			]
+		},
+		{
+			"id": 608,
+			"label": "H0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				64132.022,
+				-7160211,
+				null
+			]
+		},
+		{
+			"id": 609,
+			"label": "S0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-736.400024414062,
+				548.888977050781,
+				null
+			]
+		},
+		{
+			"id": 610,
+			"label": "Cp0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-1122.80004882812,
+				647.56298828125,
+				null
+			]
+		},
+		{
+			"id": 611,
+			"label": "V0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-19.0016002655029,
+				21.9127006530762,
+				21.9127998352051
+			]
+		},
+		{
+			"id": 612,
+			"label": "NisoX",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				null,
+				null,
+				null
+			]
+		},
+		{
+			"id": 613,
+			"label": "PrTr_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				1,
+				25
+			]
+		},
+		{
+			"id": 614,
+			"label": "BetAl_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 615,
+			"label": "ab_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 617,
+			"label": "RDname",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "MgAl-OH-LDH, Mg/Al=2"
+		},
+		{
+			"id": 618,
+			"label": "RDform",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "Mg4Al2(OH)14(H2O)3"
+		},
+		{
+			"id": 619,
+			"label": "REsDC",
+			"dot": 32,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"a   Al      AlO2-           bnp ",
+				"a   Mg      Mg+2            anp ",
+				"a   wX      OH-             bnp ",
+				"a   w_      H2O@            anp ",
+				"s   MgAlOH  M4A-OH-LDH      CAA "
+			]
+		},
+		{
+			"id": 620,
+			"label": "REmDC",
+			"dot": -9,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"d",
+				"d",
+				"d",
+				"d",
+				"n"
+			]
+		},
+		{
+			"id": 621,
+			"label": "RE_dim",
+			"dot": -1,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				5,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				1
+			]
+		},
+		{
+			"id": 625,
+			"label": "SC_DC",
+			"dot": -6,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				2,
+				4,
+				6,
+				7,
+				-1
+			]
+		},
+		{
+			"id": 626,
+			"label": "TCint_",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				0
+			]
+		},
+		{
+			"id": 627,
+			"label": "P_int",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				0
+			]
+		},
+		{
+			"id": 628,
+			"label": "adCpT",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 629,
+			"label": "adHKF",
+			"dot": -5,
+			"dN": 8,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 630,
+			"label": "adVTP",
+			"dot": -5,
+			"dN": 5,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 631,
+			"label": "a_dST",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 632,
+			"label": "aiLgKr",
+			"dot": -5,
+			"dN": 12,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				354.3330078125,
+				0,
+				-20835.599609375,
+				-58.6475982666016,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"id": 633,
+			"label": "logKTP",
+			"dot": -5,
+			"dN": 0,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 634,
+			"label": "rSDref",
+			"dot": 32,
+			"dN": 1,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"Myers_ea:2015:pap:"
+			]
+		},
+		{
+			"id": 635,
+			"label": "rSDval",
+			"dot": 24,
+			"dN": 1,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"all"
+			]
+		}
+	],
+	"mtime": "Thu, 08 Oct 2020 10:11:54 +0100"
+},
+{
+	"key": [
+		{
+			"fx": 0,
+			"fl": 4,
+			"fv": "s"
+		},
+		{
+			"fx": 1,
+			"fl": 8,
+			"fv": "MgAlOH"
+		},
+		{
+			"fx": 2,
+			"fl": 16,
+			"fv": "M6A-OH-LDH"
+		},
+		{
+			"fx": 3,
+			"fl": 4,
+			"fv": "CAA"
+		}
+	],
+	"dod": [
+		{
+			"id": 600,
+			"label": "REcMod",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"K",
+				"3",
+				"C",
+				"N",
+				" ",
+				" "
+			]
+		},
+		{
+			"id": 601,
+			"label": "RE_set",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"O",
+				"j",
+				"j",
+				"b",
+				"C",
+				" "
+			]
+		},
+		{
+			"id": 602,
+			"label": "RE_arr",
+			"dot": -9,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				"+",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-"
+			]
+		},
+		{
+			"id": 603,
+			"label": "rCdat",
+			"dot": 9,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				"26/09/13"
+			]
+		},
+		{
+			"id": 604,
+			"label": "Zz_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				0
+			]
+		},
+		{
+			"id": 605,
+			"label": "M0_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				559.971008300781
+			]
+		},
+		{
+			"id": 606,
+			"label": "logKr",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				9.5499259e-73,
+				-72.02,
+				null
+			]
+		},
+		{
+			"id": 607,
+			"label": "G0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				411093.19,
+				-8022942.2,
+				null
+			]
+		},
+		{
+			"id": 608,
+			"label": "H0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				58774.697,
+				-9006747.7,
+				null
+			]
+		},
+		{
+			"id": 609,
+			"label": "S0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-1181.68005371094,
+				675.181030273438,
+				null
+			]
+		},
+		{
+			"id": 610,
+			"label": "Cp0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-1867.03002929688,
+				803.116027832031,
+				null
+			]
+		},
+		{
+			"id": 611,
+			"label": "V0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-33.918701171875,
+				30.5440006256104,
+				null
+			]
+		},
+		{
+			"id": 612,
+			"label": "NisoX",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				null,
+				null,
+				null
+			]
+		},
+		{
+			"id": 613,
+			"label": "PrTr_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				1,
+				25
+			]
+		},
+		{
+			"id": 614,
+			"label": "BetAl_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 615,
+			"label": "ab_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 617,
+			"label": "RDname",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "MgAl-OH-LDH, Mg/Al=3"
+		},
+		{
+			"id": 618,
+			"label": "RDform",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "Mg6Al2(OH)18(H2O)3"
+		},
+		{
+			"id": 619,
+			"label": "REsDC",
+			"dot": 32,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"a   Al      AlO2-           bnp ",
+				"a   Mg      Mg+2            anp ",
+				"a   wX      OH-             bnp ",
+				"a   w_      H2O@            anp ",
+				"s   MgAlOH  M6A-OH-LDH      CAA "
+			]
+		},
+		{
+			"id": 620,
+			"label": "REmDC",
+			"dot": -9,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"d",
+				"d",
+				"d",
+				"d",
+				"n"
+			]
+		},
+		{
+			"id": 621,
+			"label": "RE_dim",
+			"dot": -1,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				5,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				1
+			]
+		},
+		{
+			"id": 625,
+			"label": "SC_DC",
+			"dot": -6,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				2,
+				6,
+				10,
+				7,
+				-1
+			]
+		},
+		{
+			"id": 626,
+			"label": "TCint_",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				0
+			]
+		},
+		{
+			"id": 627,
+			"label": "P_int",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				0
+			]
+		},
+		{
+			"id": 628,
+			"label": "adCpT",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 629,
+			"label": "adHKF",
+			"dot": -5,
+			"dN": 8,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 630,
+			"label": "adVTP",
+			"dot": -5,
+			"dN": 5,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 631,
+			"label": "a_dST",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 632,
+			"label": "aiLgKr",
+			"dot": -5,
+			"dN": 12,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				591.434020996094,
+				0,
+				-32145.900390625,
+				-97.5212020874023,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"id": 633,
+			"label": "logKTP",
+			"dot": -5,
+			"dN": 0,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 634,
+			"label": "rSDref",
+			"dot": 32,
+			"dN": 1,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"Myers_ea:2015:pap:"
+			]
+		},
+		{
+			"id": 635,
+			"label": "rSDval",
+			"dot": 24,
+			"dN": 1,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"all"
+			]
+		}
+	],
+	"mtime": "Thu, 08 Oct 2020 10:11:54 +0100"
+},
+{
+	"key": [
+		{
+			"fx": 0,
+			"fl": 4,
+			"fv": "s"
+		},
+		{
+			"fx": 1,
+			"fl": 8,
+			"fv": "MgAlOH"
+		},
+		{
+			"fx": 2,
+			"fl": 16,
+			"fv": "M8A-OH-LDH"
+		},
+		{
+			"fx": 3,
+			"fl": 4,
+			"fv": "CAA"
+		}
+	],
+	"dod": [
+		{
+			"id": 600,
+			"label": "REcMod",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"K",
+				"3",
+				"C",
+				"N",
+				" ",
+				" "
+			]
+		},
+		{
+			"id": 601,
+			"label": "RE_set",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"O",
+				"j",
+				"j",
+				"b",
+				"C",
+				" "
+			]
+		},
+		{
+			"id": 602,
+			"label": "RE_arr",
+			"dot": -9,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				"+",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-"
+			]
+		},
+		{
+			"id": 603,
+			"label": "rCdat",
+			"dot": 9,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				"26/09/13"
+			]
+		},
+		{
+			"id": 604,
+			"label": "Zz_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				0
+			]
+		},
+		{
+			"id": 605,
+			"label": "M0_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				676.611022949219
+			]
+		},
+		{
+			"id": 606,
+			"label": "logKr",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				4.5708819e-95,
+				-94.34,
+				null
+			]
+		},
+		{
+			"id": 607,
+			"label": "G0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				538496.69,
+				-9687395.7,
+				null
+			]
+		},
+		{
+			"id": 608,
+			"label": "H0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				53423.341,
+				-10853290,
+				null
+			]
+		},
+		{
+			"id": 609,
+			"label": "S0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-1626.93994140625,
+				801.455993652344,
+				null
+			]
+		},
+		{
+			"id": 610,
+			"label": "Cp0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-2610.26000976562,
+				957.669982910156,
+				null
+			]
+		},
+		{
+			"id": 611,
+			"label": "V0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-48.896598815918,
+				39.2360000610352,
+				null
+			]
+		},
+		{
+			"id": 612,
+			"label": "NisoX",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				null,
+				null,
+				null
+			]
+		},
+		{
+			"id": 613,
+			"label": "PrTr_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				1,
+				25
+			]
+		},
+		{
+			"id": 614,
+			"label": "BetAl_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 615,
+			"label": "ab_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 617,
+			"label": "RDname",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "MgAl-OH-LDH, Mg/Al=4"
+		},
+		{
+			"id": 618,
+			"label": "RDform",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "Mg8Al2(OH)22(H2O)3"
+		},
+		{
+			"id": 619,
+			"label": "REsDC",
+			"dot": 32,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"a   Al      AlO2-           bnp ",
+				"a   Mg      Mg+2            anp ",
+				"a   wX      OH-             bnp ",
+				"a   w_      H2O@            anp ",
+				"s   MgAlOH  M8A-OH-LDH      CAA "
+			]
+		},
+		{
+			"id": 620,
+			"label": "REmDC",
+			"dot": -9,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"d",
+				"d",
+				"d",
+				"d",
+				"n"
+			]
+		},
+		{
+			"id": 621,
+			"label": "RE_dim",
+			"dot": -1,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				5,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				1
+			]
+		},
+		{
+			"id": 625,
+			"label": "SC_DC",
+			"dot": -6,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				2,
+				8,
+				14,
+				7,
+				-1
+			]
+		},
+		{
+			"id": 626,
+			"label": "TCint_",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				0
+			]
+		},
+		{
+			"id": 627,
+			"label": "P_int",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				0
+			]
+		},
+		{
+			"id": 628,
+			"label": "adCpT",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 629,
+			"label": "adHKF",
+			"dot": -5,
+			"dN": 8,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 630,
+			"label": "adVTP",
+			"dot": -5,
+			"dN": 5,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 631,
+			"label": "a_dST",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 632,
+			"label": "aiLgKr",
+			"dot": -5,
+			"dN": 12,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				828.18701171875,
+				0,
+				-43441,
+				-136.343002319336,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"id": 633,
+			"label": "logKTP",
+			"dot": -5,
+			"dN": 0,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 634,
+			"label": "rSDref",
+			"dot": 32,
+			"dN": 1,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"Myers_ea:2015:pap:"
+			]
+		},
+		{
+			"id": 635,
+			"label": "rSDval",
+			"dot": 24,
+			"dN": 1,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"all"
+			]
+		}
+	],
+	"mtime": "Thu, 08 Oct 2020 10:11:54 +0100"
+},
+{
+	"key": [
+		{
+			"fx": 0,
+			"fl": 4,
+			"fv": "s"
+		},
+		{
+			"fx": 1,
+			"fl": 8,
+			"fv": "MgSiOH"
+		},
+		{
+			"fx": 2,
+			"fl": 16,
+			"fv": "M075SH"
+		},
+		{
+			"fx": 3,
+			"fl": 4,
+			"fv": "cem"
+		}
+	],
+	"dod": [
+		{
+			"id": 600,
+			"label": "REcMod",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"K",
+				"3",
+				"C",
+				"N",
+				" ",
+				" "
+			]
+		},
+		{
+			"id": 601,
+			"label": "RE_set",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"O",
+				"j",
+				"j",
+				"b",
+				"C",
+				" "
+			]
+		},
+		{
+			"id": 602,
+			"label": "RE_arr",
+			"dot": -9,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				"+",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-"
+			]
+		},
+		{
+			"id": 603,
+			"label": "rCdat",
+			"dot": 9,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				"11 Jan 96"
+			]
+		},
+		{
+			"id": 604,
+			"label": "Zz_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				0
+			]
+		},
+		{
+			"id": 605,
+			"label": "M0_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				225.662994384766
+			]
+		},
+		{
+			"id": 606,
+			"label": "logKr",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				1.5848932e-29,
+				-28.8,
+				null
+			]
+		},
+		{
+			"id": 607,
+			"label": "G0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				161634.75,
+				-3218427.2,
+				null
+			]
+		},
+		{
+			"id": 608,
+			"label": "H0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				57008.631,
+				-3507522.5,
+				null
+			]
+		},
+		{
+			"id": 609,
+			"label": "S0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-356.903015136719,
+				270.260986328125,
+				null
+			]
+		},
+		{
+			"id": 610,
+			"label": "Cp0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-595.046997070312,
+				317.830993652344,
+				null
+			]
+		},
+		{
+			"id": 611,
+			"label": "V0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-9.18340969085693,
+				9.48849964141846,
+				null
+			]
+		},
+		{
+			"id": 612,
+			"label": "NisoX",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				null,
+				null,
+				null
+			]
+		},
+		{
+			"id": 613,
+			"label": "PrTr_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				1,
+				20
+			]
+		},
+		{
+			"id": 614,
+			"label": "BetAl_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 615,
+			"label": "ab_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 617,
+			"label": "RDname",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "M-S-H"
+		},
+		{
+			"id": 618,
+			"label": "RDform",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "Mg1.5Si2O5.5(H2O)2.5"
+		},
+		{
+			"id": 619,
+			"label": "REsDC",
+			"dot": 32,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"a   Mg      Mg+2            an_ ",
+				"a   Si      SiO2@           ace_",
+				"a   wX      OH-             bn_ ",
+				"a   w_      H2O@            an_ ",
+				"s   MgSiOH  M075SH          cem "
+			]
+		},
+		{
+			"id": 620,
+			"label": "REmDC",
+			"dot": -9,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"d",
+				"d",
+				"d",
+				"d",
+				"n"
+			]
+		},
+		{
+			"id": 621,
+			"label": "RE_dim",
+			"dot": -1,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				5,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				1
+			]
+		},
+		{
+			"id": 625,
+			"label": "SC_DC",
+			"dot": -6,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				1.5,
+				2,
+				3,
+				1,
+				-1
+			]
+		},
+		{
+			"id": 626,
+			"label": "TCint_",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				150
+			]
+		},
+		{
+			"id": 627,
+			"label": "P_int",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				1000
+			]
+		},
+		{
+			"id": 628,
+			"label": "adCpT",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 629,
+			"label": "adHKF",
+			"dot": -5,
+			"dN": 8,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 630,
+			"label": "adVTP",
+			"dot": -5,
+			"dN": 5,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 631,
+			"label": "a_dST",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 632,
+			"label": "aiLgKr",
+			"dot": -5,
+			"dN": 12,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				189.001998901367,
+				0,
+				-12089.2001953125,
+				-31.0813007354736,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"id": 633,
+			"label": "logKTP",
+			"dot": -5,
+			"dN": 0,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 634,
+			"label": "rSDref",
+			"dot": 32,
+			"dN": 1,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"Nied_ea:2016:pap:"
+			]
+		},
+		{
+			"id": 635,
+			"label": "rSDval",
+			"dot": 24,
+			"dN": 1,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"log K; S,Cp: talc+2H2O"
+			]
+		}
+	],
+	"mtime": "Thu, 08 Oct 2020 10:11:54 +0100"
+},
+{
+	"key": [
+		{
+			"fx": 0,
+			"fl": 4,
+			"fv": "s"
+		},
+		{
+			"fx": 1,
+			"fl": 8,
+			"fv": "MgSiOH"
+		},
+		{
+			"fx": 2,
+			"fl": 16,
+			"fv": "M15SH"
+		},
+		{
+			"fx": 3,
+			"fl": 4,
+			"fv": "cem"
+		}
+	],
+	"dod": [
+		{
+			"id": 600,
+			"label": "REcMod",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"K",
+				"3",
+				"C",
+				"N",
+				" ",
+				" "
+			]
+		},
+		{
+			"id": 601,
+			"label": "RE_set",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"O",
+				"j",
+				"j",
+				"b",
+				"C",
+				" "
+			]
+		},
+		{
+			"id": 602,
+			"label": "RE_arr",
+			"dot": -9,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				"+",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-"
+			]
+		},
+		{
+			"id": 603,
+			"label": "rCdat",
+			"dot": 9,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				"11 Jan 96"
+			]
+		},
+		{
+			"id": 604,
+			"label": "Zz_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				0
+			]
+		},
+		{
+			"id": 605,
+			"label": "M0_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				165.578994750977
+			]
+		},
+		{
+			"id": 606,
+			"label": "logKr",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				2.6915348e-24,
+				-23.57,
+				null
+			]
+		},
+		{
+			"id": 607,
+			"label": "G0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				132282.33,
+				-2355663.8,
+				-4711330
+			]
+		},
+		{
+			"id": 608,
+			"label": "H0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				31561.855,
+				-2594219.5,
+				null
+			]
+		},
+		{
+			"id": 609,
+			"label": "S0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-343.579986572266,
+				215.600006103516,
+				null
+			]
+		},
+		{
+			"id": 610,
+			"label": "Cp0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-571.681030273438,
+				250,
+				null
+			]
+		},
+		{
+			"id": 611,
+			"label": "V0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-8.73324012756348,
+				7.43200016021729,
+				null
+			]
+		},
+		{
+			"id": 612,
+			"label": "NisoX",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				null,
+				null,
+				null
+			]
+		},
+		{
+			"id": 613,
+			"label": "PrTr_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				1,
+				20
+			]
+		},
+		{
+			"id": 614,
+			"label": "BetAl_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 615,
+			"label": "ab_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 617,
+			"label": "RDname",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "M-S-H"
+		},
+		{
+			"id": 618,
+			"label": "RDform",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "Mg1.5SiO3.5(H2O)2.5"
+		},
+		{
+			"id": 619,
+			"label": "REsDC",
+			"dot": 32,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"a   Mg      Mg+2            an_ ",
+				"a   Si      SiO2@           ace_",
+				"a   wX      OH-             bn_ ",
+				"a   w_      H2O@            an_ ",
+				"s   MgSiOH  M15SH           cem "
+			]
+		},
+		{
+			"id": 620,
+			"label": "REmDC",
+			"dot": -9,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"d",
+				"d",
+				"d",
+				"d",
+				"n"
+			]
+		},
+		{
+			"id": 621,
+			"label": "RE_dim",
+			"dot": -1,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				5,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				1
+			]
+		},
+		{
+			"id": 625,
+			"label": "SC_DC",
+			"dot": -6,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				1.5,
+				1,
+				3,
+				1,
+				-1
+			]
+		},
+		{
+			"id": 626,
+			"label": "TCint_",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				150
+			]
+		},
+		{
+			"id": 627,
+			"label": "P_int",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				1000
+			]
+		},
+		{
+			"id": 628,
+			"label": "adCpT",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 629,
+			"label": "adHKF",
+			"dot": -5,
+			"dN": 8,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 630,
+			"label": "adVTP",
+			"dot": -5,
+			"dN": 5,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 631,
+			"label": "a_dST",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 632,
+			"label": "aiLgKr",
+			"dot": -5,
+			"dN": 12,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				181.544006347656,
+				0,
+				-10396.400390625,
+				-29.8607997894287,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"id": 633,
+			"label": "logKTP",
+			"dot": -5,
+			"dN": 0,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 634,
+			"label": "rSDref",
+			"dot": 32,
+			"dN": 1,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"Nied_ea:2016:pap:"
+			]
+		},
+		{
+			"id": 635,
+			"label": "rSDval",
+			"dot": 24,
+			"dN": 1,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"K,Vol, S,Cp = 1.5H2O+chr"
+			]
+		}
+	],
+	"mtime": "Thu, 08 Oct 2020 10:11:54 +0100"
+},
+{
+	"key": [
+		{
+			"fx": 0,
+			"fl": 4,
+			"fv": "s"
+		},
+		{
+			"fx": 1,
+			"fl": 8,
+			"fv": "NAS2.5H2"
+		},
+		{
+			"fx": 2,
+			"fl": 16,
+			"fv": "zeoliteX"
+		},
+		{
+			"fx": 3,
+			"fl": 4,
+			"fv": "cem"
+		}
+	],
+	"dod": [
+		{
+			"id": 600,
+			"label": "REcMod",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"K",
+				"3",
+				"C",
+				"N",
+				" ",
+				" "
+			]
+		},
+		{
+			"id": 601,
+			"label": "RE_set",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"O",
+				"j",
+				"j",
+				"b",
+				"C",
+				" "
+			]
+		},
+		{
+			"id": 602,
+			"label": "RE_arr",
+			"dot": -9,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				"+",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-"
+			]
+		},
+		{
+			"id": 603,
+			"label": "rCdat",
+			"dot": 9,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				"15/04/16"
+			]
+		},
+		{
+			"id": 604,
+			"label": "Zz_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				0
+			]
+		},
+		{
+			"id": 605,
+			"label": "M0_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				425.846008300781
+			]
+		},
+		{
+			"id": 606,
+			"label": "logKr",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				7.9432823e-21,
+				-20.1,
+				1
+			]
+		},
+		{
+			"id": 607,
+			"label": "G0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				114731.64,
+				-5847513.7,
+				5708
+			]
+		},
+		{
+			"id": 608,
+			"label": "H0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				122773.05,
+				-6446577.7,
+				8000
+			]
+		},
+		{
+			"id": 609,
+			"label": "S0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				26.9710006713867,
+				566.296997070312,
+				20
+			]
+		},
+		{
+			"id": 610,
+			"label": "Cp0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-29.4729995727539,
+				586.023986816406,
+				20
+			]
+		},
+		{
+			"id": 611,
+			"label": "V0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-4.4899001121521,
+				21.3600006103516,
+				null
+			]
+		},
+		{
+			"id": 612,
+			"label": "NisoX",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				null,
+				null,
+				null
+			]
+		},
+		{
+			"id": 613,
+			"label": "PrTr_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				1,
+				25
+			]
+		},
+		{
+			"id": 614,
+			"label": "BetAl_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 615,
+			"label": "ab_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 617,
+			"label": "RDname",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "zeolite X(Na)"
+		},
+		{
+			"id": 618,
+			"label": "RDform",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "Na2(Al2Si2.5)O9(H2O)6.2"
+		},
+		{
+			"id": 619,
+			"label": "REsDC",
+			"dot": 32,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"a   Al      AlO2-           bn_ ",
+				"a   Na      Na+             an_ ",
+				"a   Si      SiO2@           an_ ",
+				"a   w_      H2O@            an_ ",
+				"s   NAS2.5H2zeoliteX        cem "
+			]
+		},
+		{
+			"id": 620,
+			"label": "REmDC",
+			"dot": -9,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"d",
+				"d",
+				"d",
+				"d",
+				"n"
+			]
+		},
+		{
+			"id": 621,
+			"label": "RE_dim",
+			"dot": -1,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				5,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				2
+			]
+		},
+		{
+			"id": 625,
+			"label": "SC_DC",
+			"dot": -6,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				2,
+				2,
+				2.5,
+				6.2,
+				-1
+			]
+		},
+		{
+			"id": 626,
+			"label": "TCint_",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				0
+			]
+		},
+		{
+			"id": 627,
+			"label": "P_int",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				0
+			]
+		},
+		{
+			"id": 628,
+			"label": "adCpT",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 629,
+			"label": "adHKF",
+			"dot": -5,
+			"dN": 8,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 630,
+			"label": "adVTP",
+			"dot": -5,
+			"dN": 5,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 631,
+			"label": "a_dST",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 632,
+			"label": "aiLgKr",
+			"dot": -5,
+			"dN": 12,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				11.7195997238159,
+				0,
+				-6871.83984375,
+				-1.53946995735168,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"id": 633,
+			"label": "logKTP",
+			"dot": -5,
+			"dN": 0,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 634,
+			"label": "rSDref",
+			"dot": 32,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"Lothenbach_ea:2017:pap",
+				"Lothenbach_ea:2017:pap"
+			]
+		},
+		{
+			"id": 635,
+			"label": "rSDval",
+			"dot": 24,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"all",
+				"vol pdf 00-038-0237"
+			]
+		}
+	],
+	"mtime": "Thu, 08 Oct 2020 10:11:54 +0100"
+},
+{
+	"key": [
+		{
+			"fx": 0,
+			"fl": 4,
+			"fv": "s"
+		},
+		{
+			"fx": 1,
+			"fl": 8,
+			"fv": "NAS3H2"
+		},
+		{
+			"fx": 2,
+			"fl": 16,
+			"fv": "natrolite"
+		},
+		{
+			"fx": 3,
+			"fl": 4,
+			"fv": "cem"
+		}
+	],
+	"dod": [
+		{
+			"id": 600,
+			"label": "REcMod",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"K",
+				"3",
+				"C",
+				"N",
+				" ",
+				" "
+			]
+		},
+		{
+			"id": 601,
+			"label": "RE_set",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"O",
+				"j",
+				"j",
+				"b",
+				"C",
+				" "
+			]
+		},
+		{
+			"id": 602,
+			"label": "RE_arr",
+			"dot": -9,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				"+",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-"
+			]
+		},
+		{
+			"id": 603,
+			"label": "rCdat",
+			"dot": 9,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				"15/04/16"
+			]
+		},
+		{
+			"id": 604,
+			"label": "Zz_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				0
+			]
+		},
+		{
+			"id": 605,
+			"label": "M0_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				380.223999023438
+			]
+		},
+		{
+			"id": 606,
+			"label": "logKr",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				6.3095734e-31,
+				-30.2,
+				1
+			]
+		},
+		{
+			"id": 607,
+			"label": "G0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				172382.87,
+				-5325701.9,
+				5708
+			]
+		},
+		{
+			"id": 608,
+			"label": "H0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				160614.89,
+				-5727647.4,
+				10000
+			]
+		},
+		{
+			"id": 609,
+			"label": "S0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-39.4700012207031,
+				359.730010986328,
+				10
+			]
+		},
+		{
+			"id": 610,
+			"label": "Cp0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-96.9599990844727,
+				359.230010986328,
+				10
+			]
+		},
+		{
+			"id": 611,
+			"label": "V0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-6.83549976348877,
+				16.9200000762939,
+				null
+			]
+		},
+		{
+			"id": 612,
+			"label": "NisoX",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				null,
+				null,
+				null
+			]
+		},
+		{
+			"id": 613,
+			"label": "PrTr_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				1,
+				25
+			]
+		},
+		{
+			"id": 614,
+			"label": "BetAl_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 615,
+			"label": "ab_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 617,
+			"label": "RDname",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "natrolite       "
+		},
+		{
+			"id": 618,
+			"label": "RDform",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "Na2(Al2Si3)O10(H2O)2"
+		},
+		{
+			"id": 619,
+			"label": "REsDC",
+			"dot": 32,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"a   Al      AlO2-           bn_ ",
+				"a   Na      Na+             an_ ",
+				"a   Si      SiO2@           an_ ",
+				"a   w_      H2O@            an_ ",
+				"s   NAS3H2  natrolite       cem "
+			]
+		},
+		{
+			"id": 620,
+			"label": "REmDC",
+			"dot": -9,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"d",
+				"d",
+				"d",
+				"d",
+				"n"
+			]
+		},
+		{
+			"id": 621,
+			"label": "RE_dim",
+			"dot": -1,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				5,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				2
+			]
+		},
+		{
+			"id": 625,
+			"label": "SC_DC",
+			"dot": -6,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				2,
+				2,
+				3,
+				2,
+				-1
+			]
+		},
+		{
+			"id": 626,
+			"label": "TCint_",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				0
+			]
+		},
+		{
+			"id": 627,
+			"label": "P_int",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				0
+			]
+		},
+		{
+			"id": 628,
+			"label": "adCpT",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 629,
+			"label": "adHKF",
+			"dot": -5,
+			"dN": 8,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 630,
+			"label": "adVTP",
+			"dot": -5,
+			"dN": 5,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 631,
+			"label": "a_dST",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 632,
+			"label": "aiLgKr",
+			"dot": -5,
+			"dN": 12,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				31.8586006164551,
+				0,
+				-9899.4404296875,
+				-5.06453990936279,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"id": 633,
+			"label": "logKTP",
+			"dot": -5,
+			"dN": 0,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 634,
+			"label": "rSDref",
+			"dot": 32,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"Lothenbach_ea:2017:pap",
+				"Blanc_ea:2015:pap"
+			]
+		},
+		{
+			"id": 635,
+			"label": "rSDval",
+			"dot": 24,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"all",
+				"volume"
+			]
+		}
+	],
+	"mtime": "Thu, 08 Oct 2020 10:11:54 +0100"
+},
+{
+	"key": [
+		{
+			"fx": 0,
+			"fl": 4,
+			"fv": "s"
+		},
+		{
+			"fx": 1,
+			"fl": 8,
+			"fv": "NAS4H8"
+		},
+		{
+			"fx": 2,
+			"fl": 16,
+			"fv": "zeoliteY"
+		},
+		{
+			"fx": 3,
+			"fl": 4,
+			"fv": "cem"
+		}
+	],
+	"dod": [
+		{
+			"id": 600,
+			"label": "REcMod",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"K",
+				"3",
+				"C",
+				"N",
+				" ",
+				" "
+			]
+		},
+		{
+			"id": 601,
+			"label": "RE_set",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"O",
+				"j",
+				"j",
+				"b",
+				"C",
+				" "
+			]
+		},
+		{
+			"id": 602,
+			"label": "RE_arr",
+			"dot": -9,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				"+",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-"
+			]
+		},
+		{
+			"id": 603,
+			"label": "rCdat",
+			"dot": 9,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				"15/04/16"
+			]
+		},
+		{
+			"id": 604,
+			"label": "Zz_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				0
+			]
+		},
+		{
+			"id": 605,
+			"label": "M0_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				548.400024414062
+			]
+		},
+		{
+			"id": 606,
+			"label": "logKr",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				1e-25,
+				-25,
+				2
+			]
+		},
+		{
+			"id": 607,
+			"label": "G0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				142701.05,
+				-7552529.1,
+				11416
+			]
+		},
+		{
+			"id": 608,
+			"label": "H0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				156607.66,
+				-8326782.3,
+				31000
+			]
+		},
+		{
+			"id": 609,
+			"label": "S0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				46.6430015563965,
+				734.492980957031,
+				100
+			]
+		},
+		{
+			"id": 610,
+			"label": "Cp0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				20.3209991455078,
+				738.577026367188,
+				100
+			]
+		},
+		{
+			"id": 611,
+			"label": "V0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-5.76109981536865,
+				28.2929992675781,
+				28.2929992675781
+			]
+		},
+		{
+			"id": 612,
+			"label": "NisoX",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				null,
+				null,
+				null
+			]
+		},
+		{
+			"id": 613,
+			"label": "PrTr_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				1,
+				25
+			]
+		},
+		{
+			"id": 614,
+			"label": "BetAl_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 615,
+			"label": "ab_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 617,
+			"label": "RDname",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "zeolite Y"
+		},
+		{
+			"id": 618,
+			"label": "RDform",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "Na2(Al2Si4)O12(H2O)8"
+		},
+		{
+			"id": 619,
+			"label": "REsDC",
+			"dot": 32,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"a   Al      AlO2-           bn_ ",
+				"a   Na      Na+             an_ ",
+				"a   Si      SiO2@           ace_",
+				"a   w_      H2O@            an_ ",
+				"s   NAS4H8  zeoliteY        cem "
+			]
+		},
+		{
+			"id": 620,
+			"label": "REmDC",
+			"dot": -9,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"d",
+				"d",
+				"d",
+				"d",
+				"n"
+			]
+		},
+		{
+			"id": 621,
+			"label": "RE_dim",
+			"dot": -1,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				5,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				2
+			]
+		},
+		{
+			"id": 625,
+			"label": "SC_DC",
+			"dot": -6,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				2,
+				2,
+				4,
+				8,
+				-1
+			]
+		},
+		{
+			"id": 626,
+			"label": "TCint_",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				0
+			]
+		},
+		{
+			"id": 627,
+			"label": "P_int",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				0
+			]
+		},
+		{
+			"id": 628,
+			"label": "adCpT",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 629,
+			"label": "adHKF",
+			"dot": -5,
+			"dN": 8,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 630,
+			"label": "adVTP",
+			"dot": -5,
+			"dN": 5,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 631,
+			"label": "a_dST",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 632,
+			"label": "aiLgKr",
+			"dot": -5,
+			"dN": 12,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				-4.67272996902466,
+				0,
+				-7863.669921875,
+				1.06142997741699,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"id": 633,
+			"label": "logKTP",
+			"dot": -5,
+			"dN": 0,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 634,
+			"label": "rSDref",
+			"dot": 32,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"Lothenbach_ea:2017:pap",
+				"Lothenbach_ea:2017:pap"
+			]
+		},
+		{
+			"id": 635,
+			"label": "rSDval",
+			"dot": 24,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"all",
+				"vol pdf 00-039-1380"
+			]
+		}
+	],
+	"mtime": "Thu, 08 Oct 2020 10:11:54 +0100"
+},
+{
+	"key": [
+		{
+			"fx": 0,
+			"fl": 4,
+			"fv": "s"
+		},
+		{
+			"fx": 1,
+			"fl": 8,
+			"fv": "NaSiOH"
+		},
+		{
+			"fx": 2,
+			"fl": 16,
+			"fv": "ECSH1-NaSH"
+		},
+		{
+			"fx": 3,
+			"fl": 4,
+			"fv": "ynd"
+		}
+	],
+	"dod": [
+		{
+			"id": 600,
+			"label": "REcMod",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"K",
+				"3",
+				"C",
+				" ",
+				" ",
+				" "
+			]
+		},
+		{
+			"id": 601,
+			"label": "RE_set",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"I",
+				"j",
+				"j",
+				"b",
+				"C",
+				" "
+			]
+		},
+		{
+			"id": 602,
+			"label": "RE_arr",
+			"dot": -9,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				"+",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-"
+			]
+		},
+		{
+			"id": 603,
+			"label": "rCdat",
+			"dot": 9,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				"02 Sep 96"
+			]
+		},
+		{
+			"id": 604,
+			"label": "Zz_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				0
+			]
+		},
+		{
+			"id": 605,
+			"label": "M0_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				35.6184959411621
+			]
+		},
+		{
+			"id": 606,
+			"label": "logKr",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				186208.713666287,
+				5.27,
+				0.6
+			]
+		},
+		{
+			"id": 607,
+			"label": "G0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-30081.3815030215,
+				-433569.418496979,
+				3400
+			]
+		},
+		{
+			"id": 608,
+			"label": "H0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-16596.5939696429,
+				-481232.041030357,
+				4000
+			]
+		},
+		{
+			"id": 609,
+			"label": "S0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				45.228199005127,
+				41.189998626709,
+				5
+			]
+		},
+		{
+			"id": 610,
+			"label": "Cp0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				42.7946014404297,
+				37.9099655151367,
+				null
+			]
+		},
+		{
+			"id": 611,
+			"label": "V0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				0.475620001554489,
+				1.04999566078186,
+				null
+			]
+		},
+		{
+			"id": 612,
+			"label": "NisoX",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				null,
+				null,
+				null
+			]
+		},
+		{
+			"id": 613,
+			"label": "PrTr_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				1,
+				25
+			]
+		},
+		{
+			"id": 614,
+			"label": "BetAl_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 615,
+			"label": "ab_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 617,
+			"label": "RDname",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "NaSH 2.5:1 end-member of id ECSH-1 SS "
+		},
+		{
+			"id": 618,
+			"label": "RDform",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "((NaOH)2.5SiO2H2O)0.2"
+		},
+		{
+			"id": 619,
+			"label": "REsDC",
+			"dot": 32,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"a   Si      SiO2@           np_ ",
+				"a   Na      Na+             np_ ",
+				"a   w_      H+              np_ ",
+				"a   w_      H2O@            np_ ",
+				"s   NaSiOH  ECSH1-NaSH      yn_ "
+			]
+		},
+		{
+			"id": 620,
+			"label": "REmDC",
+			"dot": -9,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"r",
+				"d",
+				"d",
+				"d",
+				"n"
+			]
+		},
+		{
+			"id": 621,
+			"label": "RE_dim",
+			"dot": -1,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				5,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				2
+			]
+		},
+		{
+			"id": 625,
+			"label": "SC_DC",
+			"dot": -6,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0.2,
+				0.5,
+				-0.5,
+				0.7,
+				-1
+			]
+		},
+		{
+			"id": 626,
+			"label": "TCint_",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				90
+			]
+		},
+		{
+			"id": 627,
+			"label": "P_int",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				1000
+			]
+		},
+		{
+			"id": 628,
+			"label": "adCpT",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 629,
+			"label": "adHKF",
+			"dot": -5,
+			"dN": 8,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 630,
+			"label": "adVTP",
+			"dot": -5,
+			"dN": 5,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 631,
+			"label": "a_dST",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 632,
+			"label": "aiLgKr",
+			"dot": -5,
+			"dN": 12,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				-12.6087474822998,
+				0,
+				1533.35119628906,
+				2.23530411720276,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"id": 633,
+			"label": "logKTP",
+			"dot": -5,
+			"dN": 0,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 634,
+			"label": "rSDref",
+			"dot": 32,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"Kulik&Kersten:2000:rep:        ",
+				"Sinitsyn_ea:1998:pap:          "
+			]
+		},
+		{
+			"id": 635,
+			"label": "rSDval",
+			"dot": 24,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"Stoich. model, logKr fit",
+				"Data for additive est.  "
+			]
+		}
+	],
+	"mtime": "Thu, 08 Oct 2020 10:11:54 +0100"
+},
+{
+	"key": [
+		{
+			"fx": 0,
+			"fl": 4,
+			"fv": "s"
+		},
+		{
+			"fx": 1,
+			"fl": 8,
+			"fv": "NaSiOH"
+		},
+		{
+			"fx": 2,
+			"fl": 16,
+			"fv": "ECSH2-NaSH"
+		},
+		{
+			"fx": 3,
+			"fl": 4,
+			"fv": "ynd"
+		}
+	],
+	"dod": [
+		{
+			"id": 600,
+			"label": "REcMod",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"K",
+				"3",
+				"C",
+				" ",
+				" ",
+				" "
+			]
+		},
+		{
+			"id": 601,
+			"label": "RE_set",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"I",
+				"j",
+				"j",
+				"b",
+				"C",
+				" "
+			]
+		},
+		{
+			"id": 602,
+			"label": "RE_arr",
+			"dot": -9,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				"+",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-"
+			]
+		},
+		{
+			"id": 603,
+			"label": "rCdat",
+			"dot": 9,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				"02 Sep 96"
+			]
+		},
+		{
+			"id": 604,
+			"label": "Zz_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				0
+			]
+		},
+		{
+			"id": 605,
+			"label": "M0_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				35.6184959411621
+			]
+		},
+		{
+			"id": 606,
+			"label": "logKr",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				588843.655355588,
+				5.77,
+				0.35
+			]
+		},
+		{
+			"id": 607,
+			"label": "G0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-32935.4025184884,
+				-430715.397481512,
+				2000
+			]
+		},
+		{
+			"id": 608,
+			"label": "H0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-19450.6149851098,
+				-478378.02001489,
+				2000
+			]
+		},
+		{
+			"id": 609,
+			"label": "S0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				45.228199005127,
+				41.189998626709,
+				5
+			]
+		},
+		{
+			"id": 610,
+			"label": "Cp0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				42.7946014404297,
+				37.9099655151367,
+				null
+			]
+		},
+		{
+			"id": 611,
+			"label": "V0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				0.475620001554489,
+				1.04999566078186,
+				null
+			]
+		},
+		{
+			"id": 612,
+			"label": "NisoX",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				null,
+				null,
+				null
+			]
+		},
+		{
+			"id": 613,
+			"label": "PrTr_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				1,
+				25
+			]
+		},
+		{
+			"id": 614,
+			"label": "BetAl_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 615,
+			"label": "ab_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 617,
+			"label": "RDname",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "NaSH 2.5:1 end-member of id ECSH-2 SS (norm by 0.2)"
+		},
+		{
+			"id": 618,
+			"label": "RDform",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "((NaOH)2.5SiO2H2O)0.2"
+		},
+		{
+			"id": 619,
+			"label": "REsDC",
+			"dot": 32,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"a   Si      SiO2@           np_ ",
+				"a   Na      Na+             np_ ",
+				"a   w_      H+              np_ ",
+				"a   w_      H2O@            np_ ",
+				"s   NaSiOH  ECSH2-NaSH      yn_ "
+			]
+		},
+		{
+			"id": 620,
+			"label": "REmDC",
+			"dot": -9,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"r",
+				"d",
+				"d",
+				"d",
+				"n"
+			]
+		},
+		{
+			"id": 621,
+			"label": "RE_dim",
+			"dot": -1,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				5,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				2
+			]
+		},
+		{
+			"id": 625,
+			"label": "SC_DC",
+			"dot": -6,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0.2,
+				0.5,
+				-0.5,
+				0.7,
+				-1
+			]
+		},
+		{
+			"id": 626,
+			"label": "TCint_",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				90
+			]
+		},
+		{
+			"id": 627,
+			"label": "P_int",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				1000
+			]
+		},
+		{
+			"id": 628,
+			"label": "adCpT",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 629,
+			"label": "adHKF",
+			"dot": -5,
+			"dN": 8,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 630,
+			"label": "adVTP",
+			"dot": -5,
+			"dN": 5,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 631,
+			"label": "a_dST",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 632,
+			"label": "aiLgKr",
+			"dot": -5,
+			"dN": 12,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				-12.6087474822998,
+				0,
+				1682.42614746094,
+				2.23530411720276,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"id": 633,
+			"label": "logKTP",
+			"dot": -5,
+			"dN": 0,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 634,
+			"label": "rSDref",
+			"dot": 32,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"Kulik&Kersten:2000:rep:        ",
+				"Sinitsyn_ea:1998:pap:          "
+			]
+		},
+		{
+			"id": 635,
+			"label": "rSDval",
+			"dot": 24,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"Stoich. model, logKr fit",
+				"Data for additive est.  "
+			]
+		}
+	],
+	"mtime": "Thu, 08 Oct 2020 10:11:54 +0100"
+},
+{
+	"key": [
+		{
+			"fx": 0,
+			"fl": 4,
+			"fv": "s"
+		},
+		{
+			"fx": 1,
+			"fl": 8,
+			"fv": "SiOH"
+		},
+		{
+			"fx": 2,
+			"fl": 16,
+			"fv": "ECSH1-SH"
+		},
+		{
+			"fx": 3,
+			"fl": 4,
+			"fv": "yrd"
+		}
+	],
+	"dod": [
+		{
+			"id": 600,
+			"label": "REcMod",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"K",
+				"3",
+				"N",
+				" ",
+				" ",
+				" "
+			]
+		},
+		{
+			"id": 601,
+			"label": "RE_set",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"I",
+				"j",
+				"j",
+				"b",
+				"C",
+				" "
+			]
+		},
+		{
+			"id": 602,
+			"label": "RE_arr",
+			"dot": -9,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				"+",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-"
+			]
+		},
+		{
+			"id": 603,
+			"label": "rCdat",
+			"dot": 9,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				"05/04/99 "
+			]
+		},
+		{
+			"id": 604,
+			"label": "Zz_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				0
+			]
+		},
+		{
+			"id": 605,
+			"label": "M0_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				78.0996017456055
+			]
+		},
+		{
+			"id": 606,
+			"label": "logKr",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				0.00251188643150958,
+				-2.6,
+				0.1
+			]
+		},
+		{
+			"id": 607,
+			"label": "G0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				14840.9092804281,
+				-1085434.90928043,
+				600
+			]
+		},
+		{
+			"id": 608,
+			"label": "H0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				14840.9092804281,
+				-1188581.58428043,
+				600
+			]
+		},
+		{
+			"id": 609,
+			"label": "S0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				0,
+				111.261001586914,
+				1
+			]
+		},
+		{
+			"id": 610,
+			"label": "Cp0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				0,
+				119.825942993164,
+				null
+			]
+		},
+		{
+			"id": 611,
+			"label": "V0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				0.0329999998211861,
+				3.37996959686279,
+				null
+			]
+		},
+		{
+			"id": 612,
+			"label": "NisoX",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				null,
+				null,
+				null
+			]
+		},
+		{
+			"id": 613,
+			"label": "PrTr_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				1,
+				25
+			]
+		},
+		{
+			"id": 614,
+			"label": "BetAl_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 615,
+			"label": "ab_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 617,
+			"label": "RDname",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "SiO2 (1 norm.) end-member of ECSH-I ideal SS "
+		},
+		{
+			"id": 618,
+			"label": "RDform",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "(SiO2H2O)1"
+		},
+		{
+			"id": 619,
+			"label": "REsDC",
+			"dot": 32,
+			"dN": 3,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"a   Si      SiO2@           np_ ",
+				"a   w_      H2O@            np_ ",
+				"s   SiOH    ECSH1-SH        yr_ "
+			]
+		},
+		{
+			"id": 620,
+			"label": "REmDC",
+			"dot": -9,
+			"dN": 3,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"r",
+				"d",
+				"n"
+			]
+		},
+		{
+			"id": 621,
+			"label": "RE_dim",
+			"dot": -1,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				3,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				1
+			]
+		},
+		{
+			"id": 625,
+			"label": "SC_DC",
+			"dot": -6,
+			"dN": 3,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				1,
+				1,
+				-1
+			]
+		},
+		{
+			"id": 626,
+			"label": "TCint_",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				90
+			]
+		},
+		{
+			"id": 627,
+			"label": "P_int",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				1,
+				1000
+			]
+		},
+		{
+			"id": 628,
+			"label": "adCpT",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 629,
+			"label": "adHKF",
+			"dot": -5,
+			"dN": 8,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 630,
+			"label": "adVTP",
+			"dot": -5,
+			"dN": 5,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 631,
+			"label": "a_dST",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 632,
+			"label": "aiLgKr",
+			"dot": -5,
+			"dN": 12,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				0,
+				-775.190002441406,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"id": 633,
+			"label": "logKTP",
+			"dot": -5,
+			"dN": 0,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 634,
+			"label": "rSDref",
+			"dot": 32,
+			"dN": 1,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"Nordstrom_ea:1990:pap:          "
+			]
+		},
+		{
+			"id": 635,
+			"label": "rSDval",
+			"dot": 24,
+			"dN": 1,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				" logKsp for SiO2_am corr"
+			]
+		}
+	],
+	"mtime": "Thu, 08 Oct 2020 10:11:54 +0100"
+},
+{
+	"key": [
+		{
+			"fx": 0,
+			"fl": 4,
+			"fv": "s"
+		},
+		{
+			"fx": 1,
+			"fl": 8,
+			"fv": "SrSiOH"
+		},
+		{
+			"fx": 2,
+			"fl": 16,
+			"fv": "ECSH1-SrSH"
+		},
+		{
+			"fx": 3,
+			"fl": 4,
+			"fv": "ynd"
+		}
+	],
+	"dod": [
+		{
+			"id": 600,
+			"label": "REcMod",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"K",
+				"3",
+				"C",
+				" ",
+				" ",
+				" "
+			]
+		},
+		{
+			"id": 601,
+			"label": "RE_set",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"I",
+				"j",
+				"j",
+				"b",
+				"C",
+				" "
+			]
+		},
+		{
+			"id": 602,
+			"label": "RE_arr",
+			"dot": -9,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				"+",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-"
+			]
+		},
+		{
+			"id": 603,
+			"label": "rCdat",
+			"dot": 9,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				"02 Sep 96"
+			]
+		},
+		{
+			"id": 604,
+			"label": "Zz_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				0
+			]
+		},
+		{
+			"id": 605,
+			"label": "M0_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				199.734298706055
+			]
+		},
+		{
+			"id": 606,
+			"label": "logKr",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				2.51188643150958e+15,
+				15.4,
+				0.7
+			]
+		},
+		{
+			"id": 607,
+			"label": "G0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-87903.8472763816,
+				-2020892.15272362,
+				4000
+			]
+		},
+		{
+			"id": 608,
+			"label": "H0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-64686.0119988242,
+				-2231687.15800118,
+				5000
+			]
+		},
+		{
+			"id": 609,
+			"label": "S0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				77.8730010986328,
+				141.727996826172,
+				5
+			]
+		},
+		{
+			"id": 610,
+			"label": "Cp0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				54.306999206543,
+				174.678359985352,
+				null
+			]
+		},
+		{
+			"id": 611,
+			"label": "V0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-1.14894998073578,
+				6.40000343322754,
+				null
+			]
+		},
+		{
+			"id": 612,
+			"label": "NisoX",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				null,
+				null,
+				null
+			]
+		},
+		{
+			"id": 613,
+			"label": "PrTr_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				1,
+				25
+			]
+		},
+		{
+			"id": 614,
+			"label": "BetAl_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 615,
+			"label": "ab_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 617,
+			"label": "RDname",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "SrSH 1:1 end-member of id ECSH-1 SS (tuned in )"
+		},
+		{
+			"id": 618,
+			"label": "RDform",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "((Sr(OH)2)1SiO2H2O)1"
+		},
+		{
+			"id": 619,
+			"label": "REsDC",
+			"dot": 32,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"a   Si      SiO2@           ace ",
+				"a   Sr      Sr+2            np_ ",
+				"a   w_      H+              np_ ",
+				"a   w_      H2O@            np_ ",
+				"s   SrSiOH  ECSH1-SrSH      yn_ "
+			]
+		},
+		{
+			"id": 620,
+			"label": "REmDC",
+			"dot": -9,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"d",
+				"d",
+				"d",
+				"d",
+				"n"
+			]
+		},
+		{
+			"id": 621,
+			"label": "RE_dim",
+			"dot": -1,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				5,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				2
+			]
+		},
+		{
+			"id": 625,
+			"label": "SC_DC",
+			"dot": -6,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				1,
+				1,
+				-2,
+				3,
+				-1
+			]
+		},
+		{
+			"id": 626,
+			"label": "TCint_",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				90
+			]
+		},
+		{
+			"id": 627,
+			"label": "P_int",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				1000
+			]
+		},
+		{
+			"id": 628,
+			"label": "adCpT",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 629,
+			"label": "adHKF",
+			"dot": -5,
+			"dN": 8,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 630,
+			"label": "adVTP",
+			"dot": -5,
+			"dN": 5,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 631,
+			"label": "a_dST",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 632,
+			"label": "aiLgKr",
+			"dot": -5,
+			"dN": 12,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				-14.9310712814331,
+				0,
+				4224.5078125,
+				2.83663511276245,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"id": 633,
+			"label": "logKTP",
+			"dot": -5,
+			"dN": 0,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 634,
+			"label": "rSDref",
+			"dot": 32,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"Kulik&Kersten:2000:rep:        ",
+				"Sinitsyn_ea:1998:pap:          "
+			]
+		},
+		{
+			"id": 635,
+			"label": "rSDval",
+			"dot": 24,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"Stoich. model, logKr fit",
+				"Data for additive est.  "
+			]
+		}
+	],
+	"mtime": "Thu, 08 Oct 2020 10:11:54 +0100"
+},
+{
+	"key": [
+		{
+			"fx": 0,
+			"fl": 4,
+			"fv": "s"
+		},
+		{
+			"fx": 1,
+			"fl": 8,
+			"fv": "SrSiOH"
+		},
+		{
+			"fx": 2,
+			"fl": 16,
+			"fv": "ECSH2-SrSH"
+		},
+		{
+			"fx": 3,
+			"fl": 4,
+			"fv": "ynd"
+		}
+	],
+	"dod": [
+		{
+			"id": 600,
+			"label": "REcMod",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"K",
+				"3",
+				"C",
+				" ",
+				" ",
+				" "
+			]
+		},
+		{
+			"id": 601,
+			"label": "RE_set",
+			"dot": -9,
+			"dN": 1,
+			"dM": 6,
+			"dyn": false,
+			"val": [
+				"I",
+				"j",
+				"j",
+				"b",
+				"C",
+				" "
+			]
+		},
+		{
+			"id": 602,
+			"label": "RE_arr",
+			"dot": -9,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				"+",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-",
+				"-"
+			]
+		},
+		{
+			"id": 603,
+			"label": "rCdat",
+			"dot": 9,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				"02 Sep 96"
+			]
+		},
+		{
+			"id": 604,
+			"label": "Zz_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				0
+			]
+		},
+		{
+			"id": 605,
+			"label": "M0_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 1,
+			"dyn": false,
+			"val": [
+				199.734298706055
+			]
+		},
+		{
+			"id": 606,
+			"label": "logKr",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				3.98107170553497e+15,
+				15.6,
+				0.53
+			]
+		},
+		{
+			"id": 607,
+			"label": "G0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-89045.4556825684,
+				-2019750.54431743,
+				3000
+			]
+		},
+		{
+			"id": 608,
+			"label": "H0r",
+			"dot": -6,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-65878.9036062286,
+				-2230497.77139377,
+				4000
+			]
+		},
+		{
+			"id": 609,
+			"label": "S0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				77.7009963989258,
+				141.899993896484,
+				5
+			]
+		},
+		{
+			"id": 610,
+			"label": "Cp0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				54.185001373291,
+				174.800369262695,
+				null
+			]
+		},
+		{
+			"id": 611,
+			"label": "V0r",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				-1.14894998073578,
+				6.39980363845825,
+				null
+			]
+		},
+		{
+			"id": 612,
+			"label": "NisoX",
+			"dot": -5,
+			"dN": 1,
+			"dM": 3,
+			"dyn": false,
+			"val": [
+				null,
+				null,
+				null
+			]
+		},
+		{
+			"id": 613,
+			"label": "PrTr_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				1,
+				25
+			]
+		},
+		{
+			"id": 614,
+			"label": "BetAl_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 615,
+			"label": "ab_",
+			"dot": -5,
+			"dN": 1,
+			"dM": 2,
+			"dyn": false,
+			"val": [
+				null,
+				null
+			]
+		},
+		{
+			"id": 617,
+			"label": "RDname",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "SrSH 1:1 end-member of id ECSH-2 SS, no alkali system"
+		},
+		{
+			"id": 618,
+			"label": "RDform",
+			"dot": 0,
+			"dN": 1,
+			"dM": 72,
+			"dyn": false,
+			"val": "((Sr(OH)2)1SiO2H2O)1"
+		},
+		{
+			"id": 619,
+			"label": "REsDC",
+			"dot": 32,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"a   Si      SiO2@           np_ ",
+				"a   Sr      Sr+2            np_ ",
+				"a   w_      H+              np_ ",
+				"a   w_      H2O@            np_ ",
+				"s   SrSiOH  ECSH2-SrSH      yn_ "
+			]
+		},
+		{
+			"id": 620,
+			"label": "REmDC",
+			"dot": -9,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"r",
+				"d",
+				"d",
+				"d",
+				"n"
+			]
+		},
+		{
+			"id": 621,
+			"label": "RE_dim",
+			"dot": -1,
+			"dN": 1,
+			"dM": 8,
+			"dyn": false,
+			"val": [
+				5,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				2
+			]
+		},
+		{
+			"id": 625,
+			"label": "SC_DC",
+			"dot": -6,
+			"dN": 5,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				1,
+				1,
+				-2,
+				3,
+				-1
+			]
+		},
+		{
+			"id": 626,
+			"label": "TCint_",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				90
+			]
+		},
+		{
+			"id": 627,
+			"label": "P_int",
+			"dot": -5,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				0,
+				1000
+			]
+		},
+		{
+			"id": 628,
+			"label": "adCpT",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 629,
+			"label": "adHKF",
+			"dot": -5,
+			"dN": 8,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 630,
+			"label": "adVTP",
+			"dot": -5,
+			"dN": 5,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 631,
+			"label": "a_dST",
+			"dot": -5,
+			"dN": 12,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 632,
+			"label": "aiLgKr",
+			"dot": -5,
+			"dN": 12,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				-14.8973770141602,
+				0,
+				4284.9169921875,
+				2.83026266098022,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"id": 633,
+			"label": "logKTP",
+			"dot": -5,
+			"dN": 0,
+			"dM": 0,
+			"dyn": true,
+			"val": null
+		},
+		{
+			"id": 634,
+			"label": "rSDref",
+			"dot": 32,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"Kulik&Kersten:2000:rep:        ",
+				"Sinitsyn_ea:1998:pap:          "
+			]
+		},
+		{
+			"id": 635,
+			"label": "rSDval",
+			"dot": 24,
+			"dN": 2,
+			"dM": 1,
+			"dyn": true,
+			"val": [
+				"Stoich. model, logKr fit",
+				"Data for additive est.  "
+			]
+		}
+	],
+	"mtime": "Thu, 08 Oct 2020 10:11:54 +0100"
+}
+]

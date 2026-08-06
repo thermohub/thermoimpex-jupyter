@@ -1,0 +1,2193 @@
+[
+     {
+          "_id" :   "substances/Ag+;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Ag+;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZw_C---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Ag+",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Ag+",
+               "name" :   "Ag+",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000Ag+     = Ag+",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Al+3;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Al+3;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwAe---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Al+3",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Al+3",
+               "name" :   "Al+3",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000Al+3     = Al+3",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Am+3;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Am+3;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwB6---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Am+3",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Am+3",
+               "name" :   "Am+3",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000Am+3     = Am+3",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/AsO4-3;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "AsO4-3;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwDm---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+      "symbol": "AsO4-3",
+      "sourcetdb": {
+        "1001": "WORK1"
+      },
+      "formula": "As|+5|O4-3",
+      "name": "_rdc_AsO4-3",
+      "class_": {
+        "2": "SC_AQSOLUTE"
+      },
+      "aggregate_state": {
+        "4": "AS_AQUEOUS"
+      },
+      "Tst": 298.15,
+      "Pst": 100000,
+      "sm_gibbs_energy": {
+        "values": [
+          -648361.588315
+        ],
+        "status": [
+          {
+            "3": "CALCULATED"
+          }
+        ],
+        "units": [
+          "J/mol"
+        ]
+      },
+      "sm_enthalpy": {
+        "values": [
+          -888140
+        ],
+        "status": [
+          {
+            "3": "CALCULATED"
+          }
+        ],
+        "units": [
+          "J/mol"
+        ]
+      },
+      "sm_entropy_abs": {
+        "values": [
+          -162.79479
+        ],
+        "status": [
+          {
+            "3": "CALCULATED"
+          }
+        ],
+        "units": [
+          "J/(K*mol)"
+        ]
+      },
+      "datasources": [
+        "PSI2020"
+      ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/B(OH)4-;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "B(OH)4-;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwFa---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "B(OH)4-",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "B(OH)4-",
+               "name" :   "B(OH)4-",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000B(OH)4-     = B(OH)4-",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Ba+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Ba+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwGy---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Ba+2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Ba+2",
+               "name" :   "Ba+2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000Ba+2     = Ba+2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Br-;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Br-;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwIK---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Br-",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Br-",
+               "name" :   "Br-",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000Br-     = Br-",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/CO3-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "CO3-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwJm---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "CO3-2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "CO3-2",
+               "name" :   "CO3-2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000CO3-2     = CO3-2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Ca+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Ca+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwLG---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Ca+2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Ca+2",
+               "name" :   "Ca+2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000Ca+2     = Ca+2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cd+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cd+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwMi---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cd+2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cd+2",
+               "name" :   "Cd+2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000Cd+2     = Cd+2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cit-3;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cit-3;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwN6---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cit-3",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cit-3",
+               "name" :   "Cit-3",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000Cit-3     = Cit-3",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cl-;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cl-;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwPG---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cl-",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cl-",
+               "name" :   "Cl-",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000Cl-     = Cl-",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cm+3;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cm+3;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwQi---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cm+3",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cm+3",
+               "name" :   "Cm+3",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000Cm+3     = Cm+3",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/CrO4-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "CrO4-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwU2---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "CrO4-2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "CrO4-2",
+               "name" :   "CrO4-2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000CrO4-2     = CrO4-2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cs+;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cs+;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwWK---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cs+",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cs+",
+               "name" :   "Cs+",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000Cs+     = Cs+",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cu+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cu+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwXe---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+      "symbol": "Cu+2",
+      "sourcetdb": {
+        "1001": "WORK1"
+      },
+      "formula": "Cu|+2|+2",
+      "name": "Cu+2",
+      "class_": {
+        "2": "SC_AQSOLUTE"
+      },
+      "aggregate_state": {
+        "4": "AS_AQUEOUS"
+      },
+      "Tst": 298.15,
+      "Pst": 100000,
+      "sm_gibbs_energy": {
+        "values": [
+          65.04
+        ],
+        "errors": [
+          1.56
+        ],
+        "units": [
+          "kJ/mol"
+        ]
+      },
+      "sm_enthalpy": {
+        "values": [
+          64.9
+        ],
+        "errors": [
+          1
+        ],
+        "units": [
+          "kJ/mol"
+        ]
+      },
+      "sm_entropy_abs": {
+        "values": [
+          -98
+        ],
+        "errors": [
+          4
+        ],
+        "units": [
+          "J/(K*mol)"
+        ]
+      },
+      "datasources": [
+        "PSI2020"
+      ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Edta-4;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Edta-4;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwY2---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+      "symbol": "Edta-4",
+      "sourcetdb": {
+        "1001": "WORK1"
+      },
+      "formula": "Edt-4",
+      "name": "Edta-4",
+      "class_": {
+        "2": "SC_AQSOLUTE"
+      },
+      "aggregate_state": {
+        "4": "AS_AQUEOUS"
+      },
+      "Tst": 298.15,
+      "Pst": 100000,
+      "sm_gibbs_energy": {
+        "values": [
+          0
+        ],
+        "units": [
+          "kJ/mol"
+        ]
+      },
+      "sm_enthalpy": {
+        "values": [
+          -1704.8
+        ],
+        "errors": [
+          3.751
+        ],
+        "units": [
+          "kJ/mol"
+        ]
+      },
+      "sm_entropy_abs": {
+        "values": [
+          -5456.567218
+        ],
+        "status": [
+          {
+            "3": "CALCULATED"
+          }
+        ],
+        "units": [
+          "J/(K*mol)"
+        ]
+      },
+      "datasources": [
+        "PSI2020"
+      ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Eu+3;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Eu+3;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwaO---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Eu+3",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Eu+3",
+               "name" :   "Eu+3",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000Eu+3     = Eu+3",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/F-;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "F-;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwbe---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "F-",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "F-",
+               "name" :   "F-",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000F-     = F-",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Fe+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Fe+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwdG---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Fe+2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Fe+2",
+               "name" :   "Fe+2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000Fe+2     = Fe+2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/H+;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "H+;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZv5S---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "H+",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "H+",
+               "name" :   "H+",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000H+     = H+",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/H2(PO4)-;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "H2(PO4)-;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwea---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+      "symbol": "H2(PO4)-",
+      "sourcetdb": {
+        "1001": "WORK1"
+      },
+      "formula": "H2(PO4)-",
+      "name": "H2(PO4)-",
+      "class_": {
+        "2": "SC_AQSOLUTE"
+      },
+      "aggregate_state": {
+        "4": "AS_AQUEOUS"
+      },
+      "Tst": 298.15,
+      "Pst": 100000,
+      "sm_gibbs_energy": {
+        "values": [
+          -1137151.399127
+        ],
+        "status": [
+          {
+            "3": "CALCULATED"
+          }
+        ],
+        "units": [
+          "J/mol"
+        ]
+      },
+      "sm_enthalpy": {
+        "values": [
+          -1302600
+        ],
+        "status": [
+          {
+            "3": "CALCULATED"
+          }
+        ],
+        "units": [
+          "J/mol"
+        ]
+      },
+      "sm_entropy_abs": {
+        "values": [
+          92.49832
+        ],
+        "status": [
+          {
+            "3": "CALCULATED"
+          }
+        ],
+        "units": [
+          "J/(K*mol)"
+        ]
+      },
+      "datasources": [
+        "PSI2020"
+      ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/H2O;3:SC_AQSOLVENT;1001:WORK1",
+          "_key" :   "H2O;3:SC_AQSOLVENT;1001:WORK1",
+          "_rev" :   "_c_HZv36---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+    "symbol": "H2O(l)",
+      "sourcetdb": {
+        "1001": "WORK1"
+      },
+      "formula": "H2O@",
+      "name": "H2O",
+      "class_": {
+        "3": "SC_AQSOLVENT"
+      },
+      "aggregate_state": {
+        "4": "AS_AQUEOUS"
+      },
+      "Tst": 298.15,
+      "Pst": 100000,
+      "sm_gibbs_energy": {
+        "values": [
+          -237.14
+        ],
+        "errors": [
+          0.041
+        ],
+        "units": [
+          "kJ/mol"
+        ]
+      },
+      "sm_enthalpy": {
+        "values": [
+          -285.83
+        ],
+        "errors": [
+          0.04
+        ],
+        "units": [
+          "kJ/mol"
+        ]
+      },
+      "sm_entropy_abs": {
+        "values": [
+          69.95
+        ],
+        "errors": [
+          0.03
+        ],
+        "units": [
+          "J/(K*mol)"
+        ]
+      },
+      "sm_heat_capacity_p": {
+        "values": [
+          75.351
+        ],
+        "errors": [
+          0.08
+        ],
+        "units": [
+          "J/(K*mol)"
+        ]
+      },
+      "datasources": [
+        "PSI2020"
+      ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/H4(SiO4);2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "H4(SiO4);2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwf2---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "H4(SiO4)",
+      "sourcetdb": {
+        "1001": "WORK1"
+      },
+      "formula": "Si(OH)4@",
+      "name": "Si(OH)4(aq)",
+      "class_": {
+        "2": "SC_AQSOLUTE"
+      },
+      "aggregate_state": {
+        "4": "AS_AQUEOUS"
+      },
+      "Tst": 298.15,
+      "Pst": 100000,
+      "sm_gibbs_energy": {
+        "values": [
+          -1309.183
+        ],
+        "errors": [
+          1.12
+        ],
+        "units": [
+          "kJ/mol"
+        ]
+      },
+      "sm_enthalpy": {
+        "values": [
+          -1461.723
+        ],
+        "errors": [
+          1.082
+        ],
+        "units": [
+          "kJ/mol"
+        ]
+      },
+      "sm_entropy_abs": {
+        "values": [
+          178.851
+        ],
+        "errors": [
+          2.178
+        ],
+        "units": [
+          "J/(K*mol)"
+        ]
+      },
+      "sm_heat_capacity_p": {
+        "values": [
+          237.37
+        ],
+        "errors": [
+          2.024
+        ],
+        "units": [
+          "J/(K*mol)"
+        ]
+      },
+      "datasources": [
+        "PSI2020"
+      ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Ho+3;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Ho+3;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwk6---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Ho+3",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Ho+3",
+               "name" :   "Ho+3",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000Ho+3     = Ho+3",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/I-;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "I-;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwmS---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "I-",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "I-",
+               "name" :   "I-",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000I-     = I-",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/K+;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "K+;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwni---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "K+",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "K+",
+               "name" :   "K+",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000K+     = K+",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Li+;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Li+;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwo2---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Li+",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Li+",
+               "name" :   "Li+",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000Li+     = Li+",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Mg+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Mg+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwra---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Mg+2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Mg+2",
+               "name" :   "Mg+2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000Mg+2     = Mg+2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Mn+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Mn+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwsy---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Mn+2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Mn+2",
+               "name" :   "Mn+2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000Mn+2     = Mn+2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/MoO4-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "MoO4-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwuK---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "MoO4-2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "MoO4-2",
+               "name" :   "MoO4-2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000MoO4-2     = MoO4-2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/NO3-;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "NO3-;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwvq---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "NO3-",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "NO3-",
+               "name" :   "NO3-",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000NO3-     = NO3-",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Na+;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Na+;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwxC---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Na+",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Na+",
+               "name" :   "Na+",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000Na+     = Na+",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Nb(OH)6-;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Nb(OH)6-;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwyS---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Nb(OH)6-",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Nb(OH)6-",
+               "name" :   "Nb(OH)6-",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000Nb(OH)6-     = Nb(OH)6-",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   48
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Ni+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Ni+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZwzi---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Ni+2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Ni+2",
+               "name" :   "Ni+2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000Ni+2     = Ni+2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   49
+               }
+          }
+     },
+     {
+          "_id" :   "substances/NpO2+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "NpO2+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZw0y---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+      "symbol": "NpO2+2",
+      "sourcetdb": {
+        "1001": "WORK1"
+      },
+      "formula": "Np|+6|O2+2",
+      "name": "NpO2+2",
+      "class_": {
+        "2": "SC_AQSOLUTE"
+      },
+      "aggregate_state": {
+        "4": "AS_AQUEOUS"
+      },
+      "Tst": 298.15,
+      "Pst": 100000,
+      "sm_gibbs_energy": {
+        "values": [
+          -795.9
+        ],
+        "errors": [
+          5.6
+        ],
+        "units": [
+          "kJ/mol"
+        ]
+      },
+      "sm_enthalpy": {
+        "values": [
+          -860.7
+        ],
+        "errors": [
+          4.7
+        ],
+        "units": [
+          "kJ/mol"
+        ]
+      },
+      "sm_entropy_abs": {
+        "values": [
+          -92.4
+        ],
+        "errors": [
+          10.5
+        ],
+        "units": [
+          "J/(K*mol)"
+        ]
+      },
+      "datasources": [
+        "PSI2020"
+      ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   49
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Ox-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Ox-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZw3O---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Ox-2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Oxa-2",
+               "name" :   "Ox-2",
+      "class_": {
+        "2": "SC_AQSOLUTE"
+      },
+      "aggregate_state": {
+        "4": "AS_AQUEOUS"
+      },
+      "Tst": 298.15,
+      "Pst": 100000,
+      "sm_gibbs_energy": {
+        "values": [
+          -680.134
+        ],
+        "errors": [
+          1.83
+        ],
+        "units": [
+          "kJ/mol"
+        ]
+      },
+      "sm_enthalpy": {
+        "values": [
+          -704.905196
+        ],
+        "status": [
+          {
+            "3": "CALCULATED"
+          }
+        ],
+        "errors": [
+          2.03952
+        ],
+        "units": [
+          "kJ/mol"
+        ]
+      },
+      "sm_entropy_abs": {
+        "values": [
+          47.597
+        ],
+        "errors": [
+          3.02
+        ],
+        "units": [
+          "J/(K*mol)"
+        ]
+      },
+      "datasources": [
+        "PSI2020"
+      ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   49
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Pa+4;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Pa+4;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZw4W---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+      "symbol": "Pa+4",
+      "sourcetdb": {
+        "1001": "WORK1"
+      },
+      "formula": "Pa|+4|+4",
+      "name": "Pa+4",
+      "class_": {
+        "2": "SC_AQSOLUTE"
+      },
+      "aggregate_state": {
+        "4": "AS_AQUEOUS"
+      },
+      "Tst": 298.15,
+      "Pst": 100000,
+      "sm_gibbs_energy": {
+        "values": [
+          -565.6
+        ],
+        "errors": [
+          18.6
+        ],
+        "units": [
+          "kJ/mol"
+        ]
+      },
+      "sm_enthalpy": {
+        "values": [
+          -621.4
+        ],
+        "errors": [
+          14.3
+        ],
+        "units": [
+          "kJ/mol"
+        ]
+      },
+      "sm_entropy_abs": {
+        "values": [
+          -397
+        ],
+        "errors": [
+          40
+        ],
+        "units": [
+          "J/(K*mol)"
+        ]
+      },
+      "datasources": [
+        "PSI2020"
+      ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   49
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Pb+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Pb+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZw5q---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Pb+2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Pb+2",
+               "name" :   "Pb+2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000Pb+2     = Pb+2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   49
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Pd+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Pd+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZw7----",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Pd+2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Pd+2",
+               "name" :   "Pd+2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000Pd+2     = Pd+2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   49
+               }
+          }
+     },
+     {
+          "_id" :   "substances/PuO2+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "PuO2+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZw96---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+      "symbol": "PuO2+2",
+      "sourcetdb": {
+        "1001": "WORK1"
+      },
+      "formula": "Pu|+6|O2+2",
+      "name": "PuO2+2",
+      "class_": {
+        "2": "SC_AQSOLUTE"
+      },
+      "aggregate_state": {
+        "4": "AS_AQUEOUS"
+      },
+      "Tst": 298.15,
+      "Pst": 100000,
+      "sm_gibbs_energy": {
+        "values": [
+          -762.4
+        ],
+        "errors": [
+          2.8
+        ],
+        "units": [
+          "kJ/mol"
+        ]
+      },
+      "sm_enthalpy": {
+        "values": [
+          -822
+        ],
+        "errors": [
+          6.6
+        ],
+        "units": [
+          "kJ/mol"
+        ]
+      },
+      "sm_entropy_abs": {
+        "values": [
+          -71.2
+        ],
+        "errors": [
+          22.1
+        ],
+        "units": [
+          "J/(K*mol)"
+        ]
+      },
+      "datasources": [
+        "PSI2020"
+      ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   49
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Ra+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Ra+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZxBG---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Ra+2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Ra+2",
+               "name" :   "Ra+2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000Ra+2     = Ra+2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   49
+               }
+          }
+     },
+     {
+          "_id" :   "substances/SO4-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "SO4-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZxDq---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "SO4-2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "SO4-2",
+               "name" :   "SO4-2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000SO4-2     = SO4-2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   49
+               }
+          }
+     },
+     {
+          "_id" :   "substances/SeO4-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "SeO4-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZxIK---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+      "symbol": "SeO4-2",
+      "sourcetdb": {
+        "1001": "WORK1"
+      },
+      "formula": "Se|+6|O4-2",
+      "name": "_rdc_SeO4-2",
+      "class_": {
+        "2": "SC_AQSOLUTE"
+      },
+      "aggregate_state": {
+        "4": "AS_AQUEOUS"
+      },
+      "Tst": 298.15,
+      "Pst": 100000,
+      "sm_gibbs_energy": {
+        "values": [
+          -439510.926446
+        ],
+        "status": [
+          {
+            "3": "CALCULATED"
+          }
+        ],
+        "units": [
+          "J/mol"
+        ]
+      },
+      "sm_enthalpy": {
+        "values": [
+          -603500
+        ],
+        "status": [
+          {
+            "3": "CALCULATED"
+          }
+        ],
+        "units": [
+          "J/mol"
+        ]
+      },
+      "sm_entropy_abs": {
+        "values": [
+          32.932941
+        ],
+        "status": [
+          {
+            "3": "CALCULATED"
+          }
+        ],
+        "units": [
+          "J/(K*mol)"
+        ]
+      },
+      "datasources": [
+        "PSI2020"
+      ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   49
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Sm+3;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Sm+3;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZxJu---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Sm+3",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Sm+3",
+               "name" :   "Sm+3",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000Sm+3     = Sm+3",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   49
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Sn+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Sn+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZxLK---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Sn+2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Sn+2",
+               "name" :   "Sn+2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000Sn+2     = Sn+2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   49
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Sr+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Sr+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZxMq---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Sr+2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Sr+2",
+               "name" :   "Sr+2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000Sr+2     = Sr+2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   49
+               }
+          }
+     },
+     {
+          "_id" :   "substances/TcO(OH)2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "TcO(OH)2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZxRm---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "TcO(OH)2",
+      "sourcetdb": {
+        "1001": "WORK1"
+      },
+      "formula": "Tc|+4|O(OH)2@",
+      "name": "TcO(OH)2(aq)",
+      "class_": {
+        "2": "SC_AQSOLUTE"
+      },
+      "aggregate_state": {
+        "4": "AS_AQUEOUS"
+      },
+      "Tst": 298.15,
+      "Pst": 100000,
+      "sm_gibbs_energy": {
+        "values": [
+          -572.47
+        ],
+        "errors": [
+          10.89
+        ],
+        "units": [
+          "kJ/mol"
+        ]
+      },
+      "datasources": [
+        "PSI2020"
+      ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   49
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Th+4;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Th+4;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZxTG---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Th+4",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Th+4",
+               "name" :   "Th+4",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000Th+4     = Th+4",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   49
+               }
+          }
+     },
+     {
+          "_id" :   "substances/UO2+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "UO2+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZxUa---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+      "symbol": "UO2+2",
+      "sourcetdb": {
+        "1001": "WORK1"
+      },
+      "formula": "U|+6|O2+2",
+      "name": "UO2+2",
+      "class_": {
+        "2": "SC_AQSOLUTE"
+      },
+      "aggregate_state": {
+        "4": "AS_AQUEOUS"
+      },
+      "Tst": 298.15,
+      "Pst": 100000,
+      "sm_gibbs_energy": {
+        "values": [
+          -952.55
+        ],
+        "errors": [
+          1.75
+        ],
+        "units": [
+          "kJ/mol"
+        ]
+      },
+      "sm_enthalpy": {
+        "values": [
+          -1019
+        ],
+        "errors": [
+          1.5
+        ],
+        "units": [
+          "kJ/mol"
+        ]
+      },
+      "sm_entropy_abs": {
+        "values": [
+          -98.2
+        ],
+        "errors": [
+          3
+        ],
+        "units": [
+          "J/(K*mol)"
+        ]
+      },
+      "sm_heat_capacity_p": {
+        "values": [
+          42.4
+        ],
+        "errors": [
+          3
+        ],
+        "units": [
+          "J/(K*mol)"
+        ]
+      },
+      "datasources": [
+        "PSI2020"
+      ],
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   49
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Zn+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Zn+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZxVe---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Zn+2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Zn+2",
+               "name" :   "Zn+2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000Zn+2     = Zn+2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   49
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Zr+4;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Zr+4;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_HZxW2---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Zr+4",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Zr+4",
+               "name" :   "Zr+4",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000Zr+4     = Zr+4",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   49
+               }
+          }
+     }
+]

@@ -1,0 +1,1001 @@
+{
+    "block": {
+        "defaults": {
+            "properties.sourcetdb": "{\"12\" :   \"THEREDA\"}",
+            "properties.TPMethods": "[{\"method\" :{\"0\" :   \"logk_fpt_function\"}, \"limitsTP\": {}, \"logk_ft_coeffs\" :{\"values\" : [0,0,0,0,0,0]}}]",
+            "properties.reactyp": "{\"12\" :   \"FE_FORMATION\"}",
+            "properties.Tst": "298.15",
+            "properties.Pst": "1.0e5",
+            "properties.temp_import": "[{\"datasources\" : [\"\",\"\"], \"values\" : [null,0,0,0,0,0,0,0,0,0], \"names\" : [\"\",\"\",\"\",\"\"]},
+            {\"datasources\" : [\"\",\"\"], \"values\" : [null,0,0,0,0,0,0,0,0,0], \"names\" : [\"\",\"\",\"\",\"\"]},
+            {\"datasources\" : [\"\",\"\"], \"values\" : [null,0,0,0,0,0,0,0,0,0], \"names\" : [\"\",\"\",\"\",\"\"]},
+            {\"datasources\" : [\"\",\"\"], \"values\" : [null,0,0,0,0,0,0,0,0,0], \"names\" : [\"\",\"\",\"\",\"\"]},
+            {\"datasources\" : [\"\",\"\"], \"values\" : [null,0,0,0,0,0,0,0,0,0], \"names\" : [\"\",\"\",\"\",\"\"]},
+            {\"datasources\" : [\"\",\"\"], \"values\" : [null,0,0,0,0,0,0,0,0,0], \"names\" : [\"\",\"\",\"\",\"\"]},
+            {\"datasources\" : [\"\",\"\"], \"values\" : [null,0,0,0,0,0,0,0,0,0], \"names\" : [\"\",\"\",\"\",\"\"]},
+            {\"datasources\" : [\"\",\"\"], \"values\" : [null,0,0,0,0,0,0,0,0,0], \"names\" : [\"\",\"\",\"\",\"\"]},
+            {\"datasources\" : [\"\",\"\"], \"values\" : [null,0,0,0,0,0,0,0,0,0], \"names\" : [\"\",\"\",\"\",\"\"]},
+            {\"datasources\" : [\"\",\"\"], \"values\" : [null,0,0,0,0,0,0,0,0,0], \"names\" : [\"\",\"\",\"\",\"\"]},
+            {\"datasources\" : [\"\",\"\"], \"values\" : [null,0,0,0,0,0,0,0,0,0], \"names\" : [\"\",\"\",\"\",\"\"]},
+            {\"datasources\" : [\"\",\"\"], \"values\" : [null,0,0,0,0,0,0,0,0,0], \"names\" : [\"\",\"\",\"\",\"\"]},
+            {\"datasources\" : [\"\",\"\"], \"values\" : [null,0,0,0,0,0,0,0,0,0], \"names\" : [\"\",\"\",\"\",\"\"]},
+            {\"datasources\" : [\"\",\"\"], \"values\" : [null,0,0,0,0,0,0,0,0,0], \"names\" : [\"\",\"\",\"\",\"\"]},
+            {\"datasources\" : [\"\",\"\"], \"values\" : [null,0,0,0,0,0,0,0,0,0], \"names\" : [\"\",\"\",\"\",\"\"]}]"
+        },
+        "pairs": {},
+        "matches": {
+            "symbol": {
+                "field": "properties.symbol"
+            },
+            "Declaration.description": {
+                "field": "properties.comment"
+            },
+            "DataValue.0.datatype": {
+                "field": "properties.temp_import.0.name"
+            },
+            "DataValue.0.reference_1": {
+                "field": "properties.temp_import.0.datasources.0"
+            },
+            "DataValue.0.reference_2": {
+                "field": "properties.temp_import.0.datasources.1"
+            },
+            "DataValue.0.unc_a": {
+                "field": "properties.temp_import.0.errors"
+            },
+            "DataValue.0.a": {
+                "field": "properties.temp_import.0.values.0"
+            },
+            "DataValue.0.b": {
+                "field": "properties.temp_import.0.values.1"
+            },
+            "DataValue.0.c": {
+                "field": "properties.temp_import.0.values.5"
+            },
+            "DataValue.0.d": {
+                "field": "properties.temp_import.0.values.2"
+            },
+            "DataValue.0.e": {
+                "field": "properties.temp_import.0.values.4"
+            },
+            "DataValue.0.f": {
+                "field": "properties.temp_import.0.values.3"
+            },
+            "DataValue.0.maxpbar": {
+                "field": "properties.temp_import.0.values.6",
+                "script": "field = field*1e5"
+            },
+            "DataValue.0.maxtk": {
+                "field": "properties.temp_import.0.values.7"
+            },
+            "DataValue.0.minpbar": {
+                "field": "properties.temp_import.0.values.8",
+                "script": "field = field*1e5"
+            },
+            "DataValue.0.mintk": {
+                "field": "properties.temp_import.0.values.9"
+            },
+            "DataValue.0.tpfunc": {
+                "field": "properties.temp_import.0.comment"
+            },
+            "DataValue.0.dataclass": {
+                "field": "properties.temp_import.0.names.0",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.0.dataquality": {
+                "field": "properties.temp_import.0.names.1",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.0.editor": {
+                "field": "properties.temp_import.0.names.2"
+            },
+            "DataValue.0.calcmode": {
+                "field": "properties.temp_import.0.names.3"
+            },
+            "DataValue.1.datatype": {
+                "field": "properties.temp_import.1.name"
+            },
+            "DataValue.1.reference_1": {
+                "field": "properties.temp_import.1.datasources.0"
+            },
+            "DataValue.1.reference_2": {
+                "field": "properties.temp_import.1.datasources.1"
+            },
+            "DataValue.1.unc_a": {
+                "field": "properties.temp_import.1.errors"
+            },
+            "DataValue.1.a": {
+                "field": "properties.temp_import.1.values.0"
+            },
+            "DataValue.1.b": {
+                "field": "properties.temp_import.1.values.1"
+            },
+            "DataValue.1.c": {
+                "field": "properties.temp_import.1.values.5"
+            },
+            "DataValue.1.d": {
+                "field": "properties.temp_import.1.values.2"
+            },
+            "DataValue.1.e": {
+                "field": "properties.temp_import.1.values.4"
+            },
+            "DataValue.1.f": {
+                "field": "properties.temp_import.1.values.3"
+            },
+            "DataValue.1.maxpbar": {
+                "field": "properties.temp_import.1.values.6",
+                "script": "field = field*1e5"
+            },
+            "DataValue.1.maxtk": {
+                "field": "properties.temp_import.1.values.7"
+            },
+            "DataValue.1.minpbar": {
+                "field": "properties.temp_import.1.values.8",
+                "script": "field = field*1e5"
+            },
+            "DataValue.1.mintk": {
+                "field": "properties.temp_import.1.values.9"
+            },
+            "DataValue.1.tpfunc": {
+                "field": "properties.temp_import.1.comment"
+            },
+            "DataValue.1.dataclass": {
+                "field": "properties.temp_import.1.names.0",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.1.dataquality": {
+                "field": "properties.temp_import.1.names.1",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.1.editor": {
+                "field": "properties.temp_import.1.names.2"
+            },
+            "DataValue.1.calcmode": {
+                "field": "properties.temp_import.1.names.3"
+            },
+            "DataValue.2.datatype": {
+                "field": "properties.temp_import.2.name"
+            },
+            "DataValue.2.reference_1": {
+                "field": "properties.temp_import.2.datasources.0"
+            },
+            "DataValue.2.reference_2": {
+                "field": "properties.temp_import.2.datasources.1"
+            },
+            "DataValue.2.unc_a": {
+                "field": "properties.temp_import.2.errors"
+            },
+            "DataValue.2.a": {
+                "field": "properties.temp_import.2.values.0"
+            },
+            "DataValue.2.b": {
+                "field": "properties.temp_import.2.values.1"
+            },
+            "DataValue.2.c": {
+                "field": "properties.temp_import.2.values.5"
+            },
+            "DataValue.2.d": {
+                "field": "properties.temp_import.2.values.2"
+            },
+            "DataValue.2.e": {
+                "field": "properties.temp_import.2.values.4"
+            },
+            "DataValue.2.f": {
+                "field": "properties.temp_import.2.values.3"
+            },
+            "DataValue.2.maxpbar": {
+                "field": "properties.temp_import.2.values.6",
+                "script": "field = field*1e5"
+            },
+            "DataValue.2.maxtk": {
+                "field": "properties.temp_import.2.values.7"
+            },
+            "DataValue.2.minpbar": {
+                "field": "properties.temp_import.2.values.8",
+                "script": "field = field*1e5"
+            },
+            "DataValue.2.mintk": {
+                "field": "properties.temp_import.2.values.9"
+            },
+            "DataValue.2.tpfunc": {
+                "field": "properties.temp_import.2.comment"
+            },
+            "DataValue.2.dataclass": {
+                "field": "properties.temp_import.2.names.0",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.2.dataquality": {
+                "field": "properties.temp_import.2.names.1",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.2.editor": {
+                "field": "properties.temp_import.2.names.2"
+            },
+            "DataValue.2.calcmode": {
+                "field": "properties.temp_import.2.names.3"
+            },
+            "DataValue.3.datatype": {
+                "field": "properties.temp_import.3.name"
+            },
+            "DataValue.3.reference_1": {
+                "field": "properties.temp_import.3.datasources.0"
+            },
+            "DataValue.3.reference_2": {
+                "field": "properties.temp_import.3.datasources.1"
+            },
+            "DataValue.3.unc_a": {
+                "field": "properties.temp_import.3.errors"
+            },
+            "DataValue.3.a": {
+                "field": "properties.temp_import.3.values.0"
+            },
+            "DataValue.3.b": {
+                "field": "properties.temp_import.3.values.1"
+            },
+            "DataValue.3.c": {
+                "field": "properties.temp_import.3.values.5"
+            },
+            "DataValue.3.d": {
+                "field": "properties.temp_import.3.values.2"
+            },
+            "DataValue.3.e": {
+                "field": "properties.temp_import.3.values.4"
+            },
+            "DataValue.3.f": {
+                "field": "properties.temp_import.3.values.3"
+            },
+            "DataValue.3.maxpbar": {
+                "field": "properties.temp_import.3.values.6",
+                "script": "field = field*1e5"
+            },
+            "DataValue.3.maxtk": {
+                "field": "properties.temp_import.3.values.7"
+            },
+            "DataValue.3.minpbar": {
+                "field": "properties.temp_import.3.values.8",
+                "script": "field = field*1e5"
+            },
+            "DataValue.3.mintk": {
+                "field": "properties.temp_import.3.values.9"
+            },
+            "DataValue.3.tpfunc": {
+                "field": "properties.temp_import.3.comment"
+            },
+            "DataValue.3.dataclass": {
+                "field": "properties.temp_import.3.names.0",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.3.dataquality": {
+                "field": "properties.temp_import.3.names.1",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.3.editor": {
+                "field": "properties.temp_import.3.names.2"
+            },
+            "DataValue.3.calcmode": {
+                "field": "properties.temp_import.3.names.3"
+            },
+            "DataValue.4.datatype": {
+                "field": "properties.temp_import.4.name"
+            },
+            "DataValue.4.reference_1": {
+                "field": "properties.temp_import.4.datasources.0"
+            },
+            "DataValue.4.reference_2": {
+                "field": "properties.temp_import.4.datasources.1"
+            },
+            "DataValue.4.unc_a": {
+                "field": "properties.temp_import.4.errors"
+            },
+            "DataValue.4.a": {
+                "field": "properties.temp_import.4.values.0"
+            },
+            "DataValue.4.b": {
+                "field": "properties.temp_import.4.values.1"
+            },
+            "DataValue.4.c": {
+                "field": "properties.temp_import.4.values.5"
+            },
+            "DataValue.4.d": {
+                "field": "properties.temp_import.4.values.2"
+            },
+            "DataValue.4.e": {
+                "field": "properties.temp_import.4.values.4"
+            },
+            "DataValue.4.f": {
+                "field": "properties.temp_import.4.values.3"
+            },
+            "DataValue.4.maxpbar": {
+                "field": "properties.temp_import.4.values.6",
+                "script": "field = field*1e5"
+            },
+            "DataValue.4.maxtk": {
+                "field": "properties.temp_import.4.values.7"
+            },
+            "DataValue.4.minpbar": {
+                "field": "properties.temp_import.4.values.8",
+                "script": "field = field*1e5"
+            },
+            "DataValue.4.mintk": {
+                "field": "properties.temp_import.4.values.9"
+            },
+            "DataValue.4.tpfunc": {
+                "field": "properties.temp_import.4.comment"
+            },
+            "DataValue.4.dataclass": {
+                "field": "properties.temp_import.4.names.0",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.4.dataquality": {
+                "field": "properties.temp_import.4.names.1",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.4.editor": {
+                "field": "properties.temp_import.4.names.2"
+            },
+            "DataValue.4.calcmode": {
+                "field": "properties.temp_import.4.names.3"
+            },
+            "DataValue.5.datatype": {
+                "field": "properties.temp_import.5.name"
+            },
+            "DataValue.5.reference_1": {
+                "field": "properties.temp_import.5.datasources.0"
+            },
+            "DataValue.5.reference_2": {
+                "field": "properties.temp_import.5.datasources.1"
+            },
+            "DataValue.5.unc_a": {
+                "field": "properties.temp_import.5.errors"
+            },
+            "DataValue.5.a": {
+                "field": "properties.temp_import.5.values.0"
+            },
+            "DataValue.5.b": {
+                "field": "properties.temp_import.5.values.1"
+            },
+            "DataValue.5.c": {
+                "field": "properties.temp_import.5.values.5"
+            },
+            "DataValue.5.d": {
+                "field": "properties.temp_import.5.values.2"
+            },
+            "DataValue.5.e": {
+                "field": "properties.temp_import.5.values.4"
+            },
+            "DataValue.5.f": {
+                "field": "properties.temp_import.5.values.3"
+            },
+            "DataValue.5.maxpbar": {
+                "field": "properties.temp_import.5.values.6",
+                "script": "field = field*1e5"
+            },
+            "DataValue.5.maxtk": {
+                "field": "properties.temp_import.5.values.7"
+            },
+            "DataValue.5.minpbar": {
+                "field": "properties.temp_import.5.values.8",
+                "script": "field = field*1e5"
+            },
+            "DataValue.5.mintk": {
+                "field": "properties.temp_import.5.values.9"
+            },
+            "DataValue.5.tpfunc": {
+                "field": "properties.temp_import.5.comment"
+            },
+            "DataValue.5.dataclass": {
+                "field": "properties.temp_import.5.names.0",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.5.dataquality": {
+                "field": "properties.temp_import.5.names.1",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.5.editor": {
+                "field": "properties.temp_import.5.names.2"
+            },
+            "DataValue.5.calcmode": {
+                "field": "properties.temp_import.5.names.3"
+            },
+            "DataValue.6.datatype": {
+                "field": "properties.temp_import.6.name"
+            },
+            "DataValue.6.reference_1": {
+                "field": "properties.temp_import.6.datasources.0"
+            },
+            "DataValue.6.reference_2": {
+                "field": "properties.temp_import.6.datasources.1"
+            },
+            "DataValue.6.unc_a": {
+                "field": "properties.temp_import.6.errors"
+            },
+            "DataValue.6.a": {
+                "field": "properties.temp_import.6.values.0"
+            },
+            "DataValue.6.b": {
+                "field": "properties.temp_import.6.values.1"
+            },
+            "DataValue.6.c": {
+                "field": "properties.temp_import.6.values.5"
+            },
+            "DataValue.6.d": {
+                "field": "properties.temp_import.6.values.2"
+            },
+            "DataValue.6.e": {
+                "field": "properties.temp_import.6.values.4"
+            },
+            "DataValue.6.f": {
+                "field": "properties.temp_import.6.values.3"
+            },
+            "DataValue.6.maxpbar": {
+                "field": "properties.temp_import.6.values.6",
+                "script": "field = field*1e5"
+            },
+            "DataValue.6.maxtk": {
+                "field": "properties.temp_import.6.values.7"
+            },
+            "DataValue.6.minpbar": {
+                "field": "properties.temp_import.6.values.8",
+                "script": "field = field*1e5"
+            },
+            "DataValue.6.mintk": {
+                "field": "properties.temp_import.6.values.9"
+            },
+            "DataValue.6.tpfunc": {
+                "field": "properties.temp_import.6.comment"
+            },
+            "DataValue.6.dataclass": {
+                "field": "properties.temp_import.6.names.0",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.6.dataquality": {
+                "field": "properties.temp_import.6.names.1",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.6.editor": {
+                "field": "properties.temp_import.6.names.2"
+            },
+            "DataValue.6.calcmode": {
+                "field": "properties.temp_import.6.names.3"
+            },
+            "DataValue.7.datatype": {
+                "field": "properties.temp_import.7.name"
+            },
+            "DataValue.7.reference_1": {
+                "field": "properties.temp_import.7.datasources.0"
+            },
+            "DataValue.7.reference_2": {
+                "field": "properties.temp_import.7.datasources.1"
+            },
+            "DataValue.7.unc_a": {
+                "field": "properties.temp_import.7.errors"
+            },
+            "DataValue.7.a": {
+                "field": "properties.temp_import.7.values.0"
+            },
+            "DataValue.7.b": {
+                "field": "properties.temp_import.7.values.1"
+            },
+            "DataValue.7.c": {
+                "field": "properties.temp_import.7.values.5"
+            },
+            "DataValue.7.d": {
+                "field": "properties.temp_import.7.values.2"
+            },
+            "DataValue.7.e": {
+                "field": "properties.temp_import.7.values.4"
+            },
+            "DataValue.7.f": {
+                "field": "properties.temp_import.7.values.3"
+            },
+            "DataValue.7.maxpbar": {
+                "field": "properties.temp_import.7.values.6",
+                "script": "field = field*1e5"
+            },
+            "DataValue.7.maxtk": {
+                "field": "properties.temp_import.7.values.7"
+            },
+            "DataValue.7.minpbar": {
+                "field": "properties.temp_import.7.values.8",
+                "script": "field = field*1e5"
+            },
+            "DataValue.7.mintk": {
+                "field": "properties.temp_import.7.values.9"
+            },
+            "DataValue.7.tpfunc": {
+                "field": "properties.temp_import.7.comment"
+            },
+            "DataValue.7.dataclass": {
+                "field": "properties.temp_import.7.names.0",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.7.dataquality": {
+                "field": "properties.temp_import.7.names.1",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.7.editor": {
+                "field": "properties.temp_import.7.names.2"
+            },
+            "DataValue.7.calcmode": {
+                "field": "properties.temp_import.7.names.3"
+            },
+            "DataValue.8.datatype": {
+                "field": "properties.temp_import.8.name"
+            },
+            "DataValue.8.reference_1": {
+                "field": "properties.temp_import.8.datasources.0"
+            },
+            "DataValue.8.reference_2": {
+                "field": "properties.temp_import.8.datasources.1"
+            },
+            "DataValue.8.unc_a": {
+                "field": "properties.temp_import.8.errors"
+            },
+            "DataValue.8.a": {
+                "field": "properties.temp_import.8.values.0"
+            },
+            "DataValue.8.b": {
+                "field": "properties.temp_import.8.values.1"
+            },
+            "DataValue.8.c": {
+                "field": "properties.temp_import.8.values.5"
+            },
+            "DataValue.8.d": {
+                "field": "properties.temp_import.8.values.2"
+            },
+            "DataValue.8.e": {
+                "field": "properties.temp_import.8.values.4"
+            },
+            "DataValue.8.f": {
+                "field": "properties.temp_import.8.values.3"
+            },
+            "DataValue.8.maxpbar": {
+                "field": "properties.temp_import.8.values.6",
+                "script": "field = field*1e5"
+            },
+            "DataValue.8.maxtk": {
+                "field": "properties.temp_import.8.values.7"
+            },
+            "DataValue.8.minpbar": {
+                "field": "properties.temp_import.8.values.8",
+                "script": "field = field*1e5"
+            },
+            "DataValue.8.mintk": {
+                "field": "properties.temp_import.8.values.9"
+            },
+            "DataValue.8.tpfunc": {
+                "field": "properties.temp_import.8.comment"
+            },
+            "DataValue.8.dataclass": {
+                "field": "properties.temp_import.8.names.0",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.8.dataquality": {
+                "field": "properties.temp_import.8.names.1",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.8.editor": {
+                "field": "properties.temp_import.8.names.2"
+            },
+            "DataValue.8.calcmode": {
+                "field": "properties.temp_import.8.names.3"
+            },
+            "DataValue.9.datatype": {
+                "field": "properties.temp_import.9.name"
+            },
+            "DataValue.9.reference_1": {
+                "field": "properties.temp_import.9.datasources.0"
+            },
+            "DataValue.9.reference_2": {
+                "field": "properties.temp_import.9.datasources.1"
+            },
+            "DataValue.9.unc_a": {
+                "field": "properties.temp_import.9.errors"
+            },
+            "DataValue.9.a": {
+                "field": "properties.temp_import.9.values.0"
+            },
+            "DataValue.9.b": {
+                "field": "properties.temp_import.9.values.1"
+            },
+            "DataValue.9.c": {
+                "field": "properties.temp_import.9.values.5"
+            },
+            "DataValue.9.d": {
+                "field": "properties.temp_import.9.values.2"
+            },
+            "DataValue.9.e": {
+                "field": "properties.temp_import.9.values.4"
+            },
+            "DataValue.9.f": {
+                "field": "properties.temp_import.9.values.3"
+            },
+            "DataValue.9.maxpbar": {
+                "field": "properties.temp_import.9.values.6",
+                "script": "field = field*1e5"
+            },
+            "DataValue.9.maxtk": {
+                "field": "properties.temp_import.9.values.7"
+            },
+            "DataValue.9.minpbar": {
+                "field": "properties.temp_import.9.values.8",
+                "script": "field = field*1e5"
+            },
+            "DataValue.9.mintk": {
+                "field": "properties.temp_import.9.values.9"
+            },
+            "DataValue.9.tpfunc": {
+                "field": "properties.temp_import.9.comment"
+            },
+            "DataValue.9.dataclass": {
+                "field": "properties.temp_import.9.names.0",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.9.dataquality": {
+                "field": "properties.temp_import.9.names.1",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.9.editor": {
+                "field": "properties.temp_import.9.names.2"
+            },
+            "DataValue.9.calcmode": {
+                "field": "properties.temp_import.9.names.3"
+            },
+            "DataValue.10.datatype": {
+                "field": "properties.temp_import.10.name"
+            },
+            "DataValue.10.reference_1": {
+                "field": "properties.temp_import.10.datasources.0"
+            },
+            "DataValue.10.reference_2": {
+                "field": "properties.temp_import.10.datasources.1"
+            },
+            "DataValue.10.unc_a": {
+                "field": "properties.temp_import.10.errors"
+            },
+            "DataValue.10.a": {
+                "field": "properties.temp_import.10.values.0"
+            },
+            "DataValue.10.b": {
+                "field": "properties.temp_import.10.values.1"
+            },
+            "DataValue.10.c": {
+                "field": "properties.temp_import.10.values.5"
+            },
+            "DataValue.10.d": {
+                "field": "properties.temp_import.10.values.2"
+            },
+            "DataValue.10.e": {
+                "field": "properties.temp_import.10.values.4"
+            },
+            "DataValue.10.f": {
+                "field": "properties.temp_import.10.values.3"
+            },
+            "DataValue.10.maxpbar": {
+                "field": "properties.temp_import.10.values.6",
+                "script": "field = field*1e5"
+            },
+            "DataValue.10.maxtk": {
+                "field": "properties.temp_import.10.values.7"
+            },
+            "DataValue.10.minpbar": {
+                "field": "properties.temp_import.10.values.8",
+                "script": "field = field*1e5"
+            },
+            "DataValue.10.mintk": {
+                "field": "properties.temp_import.10.values.9"
+            },
+            "DataValue.10.tpfunc": {
+                "field": "properties.temp_import.10.comment"
+            },
+            "DataValue.10.dataclass": {
+                "field": "properties.temp_import.10.names.0",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.10.dataquality": {
+                "field": "properties.temp_import.10.names.1",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.10.editor": {
+                "field": "properties.temp_import.10.names.2"
+            },
+            "DataValue.10.calcmode": {
+                "field": "properties.temp_import.10.names.3"
+            },
+            "DataValue.11.datatype": {
+                "field": "properties.temp_import.11.name"
+            },
+            "DataValue.11.reference_1": {
+                "field": "properties.temp_import.11.datasources.0"
+            },
+            "DataValue.11.reference_2": {
+                "field": "properties.temp_import.11.datasources.1"
+            },
+            "DataValue.11.unc_a": {
+                "field": "properties.temp_import.11.errors"
+            },
+            "DataValue.11.a": {
+                "field": "properties.temp_import.11.values.0"
+            },
+            "DataValue.11.b": {
+                "field": "properties.temp_import.11.values.1"
+            },
+            "DataValue.11.c": {
+                "field": "properties.temp_import.11.values.5"
+            },
+            "DataValue.11.d": {
+                "field": "properties.temp_import.11.values.2"
+            },
+            "DataValue.11.e": {
+                "field": "properties.temp_import.11.values.4"
+            },
+            "DataValue.11.f": {
+                "field": "properties.temp_import.11.values.3"
+            },
+            "DataValue.11.maxpbar": {
+                "field": "properties.temp_import.11.values.6",
+                "script": "field = field*1e5"
+            },
+            "DataValue.11.maxtk": {
+                "field": "properties.temp_import.11.values.7"
+            },
+            "DataValue.11.minpbar": {
+                "field": "properties.temp_import.11.values.8",
+                "script": "field = field*1e5"
+            },
+            "DataValue.11.mintk": {
+                "field": "properties.temp_import.11.values.9"
+            },
+            "DataValue.11.tpfunc": {
+                "field": "properties.temp_import.11.comment"
+            },
+            "DataValue.11.dataclass": {
+                "field": "properties.temp_import.11.names.0",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.11.dataquality": {
+                "field": "properties.temp_import.11.names.1",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.11.editor": {
+                "field": "properties.temp_import.11.names.2"
+            },
+            "DataValue.11.calcmode": {
+                "field": "properties.temp_import.11.names.3"
+            },
+            "DataValue.12.datatype": {
+                "field": "properties.temp_import.12.name"
+            },
+            "DataValue.12.reference_1": {
+                "field": "properties.temp_import.12.datasources.0"
+            },
+            "DataValue.12.reference_2": {
+                "field": "properties.temp_import.12.datasources.1"
+            },
+            "DataValue.12.unc_a": {
+                "field": "properties.temp_import.12.errors"
+            },
+            "DataValue.12.a": {
+                "field": "properties.temp_import.12.values.0"
+            },
+            "DataValue.12.b": {
+                "field": "properties.temp_import.12.values.1"
+            },
+            "DataValue.12.c": {
+                "field": "properties.temp_import.12.values.5"
+            },
+            "DataValue.12.d": {
+                "field": "properties.temp_import.12.values.2"
+            },
+            "DataValue.12.e": {
+                "field": "properties.temp_import.12.values.4"
+            },
+            "DataValue.12.f": {
+                "field": "properties.temp_import.12.values.3"
+            },
+            "DataValue.12.maxpbar": {
+                "field": "properties.temp_import.12.values.6",
+                "script": "field = field*1e5"
+            },
+            "DataValue.12.maxtk": {
+                "field": "properties.temp_import.12.values.7"
+            },
+            "DataValue.12.minpbar": {
+                "field": "properties.temp_import.12.values.8",
+                "script": "field = field*1e5"
+            },
+            "DataValue.12.mintk": {
+                "field": "properties.temp_import.12.values.9"
+            },
+            "DataValue.12.tpfunc": {
+                "field": "properties.temp_import.12.comment"
+            },
+            "DataValue.12.dataclass": {
+                "field": "properties.temp_import.12.names.0",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.12.dataquality": {
+                "field": "properties.temp_import.12.names.1",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.12.editor": {
+                "field": "properties.temp_import.12.names.2"
+            },
+            "DataValue.12.calcmode": {
+                "field": "properties.temp_import.12.names.3"
+            },
+            "DataValue.13.datatype": {
+                "field": "properties.temp_import.13.name"
+            },
+            "DataValue.13.reference_1": {
+                "field": "properties.temp_import.13.datasources.0"
+            },
+            "DataValue.13.reference_2": {
+                "field": "properties.temp_import.13.datasources.1"
+            },
+            "DataValue.13.unc_a": {
+                "field": "properties.temp_import.13.errors"
+            },
+            "DataValue.13.a": {
+                "field": "properties.temp_import.13.values.0"
+            },
+            "DataValue.13.b": {
+                "field": "properties.temp_import.13.values.1"
+            },
+            "DataValue.13.c": {
+                "field": "properties.temp_import.13.values.5"
+            },
+            "DataValue.13.d": {
+                "field": "properties.temp_import.13.values.2"
+            },
+            "DataValue.13.e": {
+                "field": "properties.temp_import.13.values.4"
+            },
+            "DataValue.13.f": {
+                "field": "properties.temp_import.13.values.3"
+            },
+            "DataValue.13.maxpbar": {
+                "field": "properties.temp_import.13.values.6",
+                "script": "field = field*1e5"
+            },
+            "DataValue.13.maxtk": {
+                "field": "properties.temp_import.13.values.7"
+            },
+            "DataValue.13.minpbar": {
+                "field": "properties.temp_import.13.values.8",
+                "script": "field = field*1e5"
+            },
+            "DataValue.13.mintk": {
+                "field": "properties.temp_import.13.values.9"
+            },
+            "DataValue.13.tpfunc": {
+                "field": "properties.temp_import.13.comment"
+            },
+            "DataValue.13.dataclass": {
+                "field": "properties.temp_import.13.names.0",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.13.dataquality": {
+                "field": "properties.temp_import.13.names.1",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.13.editor": {
+                "field": "properties.temp_import.13.names.2"
+            },
+            "DataValue.13.calcmode": {
+                "field": "properties.temp_import.13.names.3"
+            },
+            "DataValue.14.datatype": {
+                "field": "properties.temp_import.14.name"
+            },
+            "DataValue.14.reference_1": {
+                "field": "properties.temp_import.14.datasources.0"
+            },
+            "DataValue.14.reference_2": {
+                "field": "properties.temp_import.14.datasources.1"
+            },
+            "DataValue.14.unc_a": {
+                "field": "properties.temp_import.14.errors"
+            },
+            "DataValue.14.a": {
+                "field": "properties.temp_import.14.values.0"
+            },
+            "DataValue.14.b": {
+                "field": "properties.temp_import.14.values.1"
+            },
+            "DataValue.14.c": {
+                "field": "properties.temp_import.14.values.5"
+            },
+            "DataValue.14.d": {
+                "field": "properties.temp_import.14.values.2"
+            },
+            "DataValue.14.e": {
+                "field": "properties.temp_import.14.values.4"
+            },
+            "DataValue.14.f": {
+                "field": "properties.temp_import.14.values.3"
+            },
+            "DataValue.14.maxpbar": {
+                "field": "properties.temp_import.14.values.6",
+                "script": "field = field*1e5"
+            },
+            "DataValue.14.maxtk": {
+                "field": "properties.temp_import.14.values.7"
+            },
+            "DataValue.14.minpbar": {
+                "field": "properties.temp_import.14.values.8",
+                "script": "field = field*1e5"
+            },
+            "DataValue.14.mintk": {
+                "field": "properties.temp_import.14.values.9"
+            },
+            "DataValue.14.tpfunc": {
+                "field": "properties.temp_import.14.comment"
+            },
+            "DataValue.14.dataclass": {
+                "field": "properties.temp_import.14.names.0",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.14.dataquality": {
+                "field": "properties.temp_import.14.names.1",
+                "script": "field = tostring(field)"
+            },
+            "DataValue.14.editor": {
+                "field": "properties.temp_import.14.names.2"
+            },
+            "DataValue.14.calcmode": {
+                "field": "properties.temp_import.14.names.3"
+            }
+        },
+        "script": "rintable.properties.name = rintable.properties.symbol;
+        local function calcmode_status(cm)
+        local code, name
+        if cm == 'Entered' then code, name = '1', 'ENTERED'
+        elseif cm == 'NotYetDetermined' then code, name = '0', 'EMPTY'
+        elseif cm == 'CGHF' or cm == 'CF' or cm == 'CRLOGK' or cm == 'CGHR' or cm == 'CTPFUNC' or cm == 'CR' or cm == 'CXTERMEXTRAP' or cm == 'CRLOGKT' or cm == 'CV' or cm == 'CXTERMEXTRAP2' or cm == 'CRHO' then code, name = '3', 'CALCULATED'
+        end;
+        if code == nil then return nil end;
+        return {[1] = {[code] = name}}
+        end;
+        for k, v in pairs(rintable.properties.temp_import) do
+        if v.name == 'DRG298' and v.values[1] ~= '---' then rintable.properties.drsm_gibbs_energy = v rintable.properties.drsm_gibbs_energy.values = {v.values[1]} end;
+        if v.name == 'DRH298' and v.values[1] ~= '---' then rintable.properties.drsm_enthalpy = v rintable.properties.drsm_enthalpy.values = {v.values[1]} end;
+        if v.name == 'LOGK298' and v.values[1] ~= '---' then rintable.properties.logKr = v rintable.properties.logKr.values = {v.values[1]} end;
+        if v.name == 'DRCP298' and v.values[1] ~= '---' then rintable.properties.drsm_heat_capacity_p = v rintable.properties.drsm_heat_capacity_p.values = {v.values[1]} end;
+        if v.name == 'DRS298' and v.values[1] ~= '---' then rintable.properties.drsm_entropy = v rintable.properties.drsm_entropy.values = {v.values[1]} end;
+        if v.name == 'DRV298' and v.values[1] ~= '---' then rintable.properties.drsm_volume = v rintable.properties.drsm_volume.values = {v.values[1]} end;
+        if v.name == 'LOGKT' and v.values[1] ~= '---' then rintable.properties.TPMethods[1].limitsTP.lowerT = v.values[10] v.values[10] = nil
+        rintable.properties.TPMethods[1].limitsTP.upperT = v.values[8] v.values[8] = nil 
+        rintable.properties.TPMethods[1].limitsTP.lowerP = v.values[9] v.values[9] = nil rintable.properties.TPMethods[1].limitsTP.upperP = v.values[7] v.values[7] = nil
+        rintable.properties.TPMethods[1].logk_ft_coeffs.values = v.values 
+	if v.comment ~= 'NEA-transformed' and rintable.properties.TPMethods ~= nil then rintable.properties.TPMethods = nil end;
+	--[[ if v.name == 'LOGKT' and v.names[4] ~= 'CXTERMEXTRAP2' then print(rintable.properties.symbol .. ' does not have 3-term extrpolation and will not be correctly represented in GEMS') end;--]]
+        end;
+        if v.names ~= nil then
+        local meta = 'dataclass: ' .. tostring(v.names[1]) .. '; dataquality: ' .. tostring(v.names[2]) .. '; editor: ' .. tostring(v.names[3])
+        if v.comment == nil then v.comment = meta else v.comment = v.comment .. '; ' .. meta end
+        v.status = calcmode_status(v.names[4])
+        v.names = nil
+        end;
+  end;
+        if rintable.properties.logKr ~= nil and rintable.properties.drsm_gibbs_energy == nil and rintable.properties.drsm_enthalpy == nil and rintable.properties.drsm_entropy == nil and rintable.properties.drsm_heat_capacity_p == nil and rintable.properties.drsm_volume == nil then
+        local logk_val = rintable.properties.logKr.values[1]
+        if rintable.properties.TPMethods ~= nil then rintable.properties.TPMethods[1].logk_ft_coeffs.values[1] = logk_val end;
+        rintable.properties.drsm_gibbs_energy = { values = { -8.31451 * 298.15 * math.log(10) * logk_val }, status = {[1] = {['3'] = 'CALCULATED'}}, comment = 'calculated from logKr (R=8.31451 J/(mol*K), T=298.15 K)' }
+        end;
+	if rintable.properties.TPMethods ~= nil then x = rintable.properties.TPMethods[1].logk_ft_coeffs.values
+	if x[1] == 0 and x[2] == 0 and x[3] == 0 and x[4] == 0 and x[5] == 0 and x[6] == 0 then   rintable.properties.TPMethods = nil end; end;
+        if rintable.properties.drsm_gibbs_energy ~= nil then rintable.properties.drsm_gibbs_energy.units = {'J/mol'} end
+        if rintable.properties.drsm_enthalpy ~= nil then rintable.properties.drsm_enthalpy.units = {'J/mol'} end 
+        if rintable.properties.drsm_entropy ~= nil then rintable.properties.drsm_entropy.units = {'J/(mol*K)'} end
+        if rintable.properties.drsm_heat_capacity_p ~= nil then rintable.properties.drsm_heat_capacity_p.units = {'J/(mol*K)'} end
+        if rintable.properties.drsm_volume ~= nil then rintable.properties.drsm_volume.units = {'J/bar'} if rintable.properties.drsm_volume.values ~= nil then rintable.properties.drsm_volume.values[1] = rintable.properties.drsm_volume.values[1]/10 end end;
+        rintable.properties.temp_import = nil
+        "
+    },
+    "renderer": "JSON",
+    "label": "VertexReaction",
+    "comment": "",
+    "fname": "",
+    "Nblocks": 0,
+    "Nlines": 0
+}

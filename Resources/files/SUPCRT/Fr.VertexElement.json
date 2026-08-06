@@ -1,0 +1,63 @@
+[
+     {
+          "_id" :   "elements/Fr;0:ELEMENT;2:SUPCRT07",
+          "_key" :   "Fr;0:ELEMENT;2:SUPCRT07",
+          "_rev" :   "_ZXZoYzO---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Fr",
+               "isotope_mass" :   0,
+               "name" :   "francium",
+               "atomic_mass" :   {
+                    "values" :   [
+                         132.905395507812
+                    ],
+                    "name" :   "M0i"
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "isotope_abundance" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "name" :   "IXi"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         95.4
+                    ],
+                    "name" :   "S0i"
+               },
+               "number" :   87,
+               "sourcetdb" :   {
+                    "21" :   "SUPCRT07"
+               },
+               "formula" :   "Fr",
+               "substance" :   "---",
+               "comment" :   "CRC Handbook of Chemistry and Physics\ned William M. Haynes",
+               "datasources" :   [
+                    "Supcrt"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   2,
+                    "hour" :   17,
+                    "minute" :   31,
+                    "second" :   17
+               }
+          }
+     }
+]

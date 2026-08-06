@@ -1,0 +1,211 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.TPMethods" :   "[{\"method\":{}}, {\"method\":{}}, {\"method\":{}}]"
+          },
+          "matches" :   {
+               "properties.sourcetdb" :   {
+                    "field" :   "properties.sourcetdb",
+                    "convert" :   {
+                         "0" :   "{\"0\" : \"CODATA\"}",
+                         "1" :   "{\"1\" : \"NIST\"}",
+                         "2" :   "{\"2\" : \"SUPCRT\"}",
+                         "3" :   "{\"3\" : \"HOLLAND_POWELL\"}",
+                         "4" :   "{\"4\" : \"BERMAN_BROWN\"}",
+                         "5" :   "{\"5\" : \"ROBIE_HEMINGWAY\"}",
+                         "6" :   "{\"6\" : \"GOTTSCHALK\"}",
+                         "7" :   "{\"7\" : \"BABUSHKIN\"}",
+                         "8" :   "{\"8\" : \"KUBASCHEWSKI\"}",
+                         "9" :   "{\"9\" : \"KONINGS\"}",
+                         "10" :   "{\"10\" : \"REID_GL\"}",
+                         "11" :   "{\"11\" : \"NEA\"}",
+                         "12" :   "{\"12\" : \"THEREDA\"}",
+                         "13" :   "{\"13\" : \"THERMODDEM\"}",
+                         "14" :   "{\"14\" : \"SMITH_MARTELL\"}",
+                         "15" :   "{\"15\" : \"PSI_NAGRA\"}",
+                         "16" :   "{\"1111\" : \"OTHER\"}",
+                         "17" :   "{\"16\" : \"MOIETY\"}",
+                         "18" :   "{\"17\" : \"HKF_DEW\"}",
+                         "19" :   "{\"18\" : \"MINES\"}",
+                         "20" :   "{\"19\" : \"AQ17\"}",
+                         "21" :   "{\"20\" : \"CEMDATA18\"}",
+                         "22" :   "{\"21\" : \"SUPCRT07\"}",
+                         "1001" :   "{\"1001\" : \"WORK1\"}",
+                         "1002" :   "{\"1002\" : \"WORK2\"}",
+                         "1003" :   "{\"1003\" : \"WORK3\"}",
+                         "1004" :   "{\"1004\" : \"WORK4\"}"
+                    }
+               },
+               "properties.Tst" :   {
+                    "field" :   "properties.Tst"
+               },
+               "properties.Pst" :   {
+                    "field" :   "properties.Pst"
+               },
+               "properties.aggregate_state" :   {
+                    "field" :   "properties.aggregate_state",
+                    "convert" :   {
+                         "4" :   "{\"4\" :   \"AS_AQUEOUS\"}",
+                         "0" :   "{\"0\" :   \"AS_GAS\"}",
+                         "3" :   "{\"3\" :   \"AS_CRYSTAL\"}",
+                         "5" :   "{\"3\" :   \"AS_CRYSTAL\"}",
+                         "1" :   "{\"1\" :   \"AS_LIQUID\"}"
+                    }
+               },
+               "properties.name" :   {
+                    "field" :   "properties.name"
+               },
+               "properties.formula" :   {
+                    "field" :   "properties.formula"
+               },
+               "properties.method_genEoS" :   {
+                    "field" :   "properties.TPMethods.0.method",
+                    "convert" :   {
+                         "100" :   "{\"0\" :   \"cp_ft_equation\"}",
+                         "101" :   "{\"2\" :   \"solute_hkf88_gems\"}",
+                         "119" :   "{\"3\" :   \"solute_hkf88_reaktoro\"}",
+                         "117" :   "{\"25\" :   \"water_diel_jnort91_reaktoro\"}",
+                         "118" :   "{\"26\" :   \"water_diel_jnort91_gems\"}",
+                         "120" :   "{\"27\" :   \"water_diel_sverj14\"}",
+                         "121" :   "{\"28\" :   \"water_diel_fern97\"}"
+                    }
+               },
+               "properties.method_corrT" :   {
+                    "field" :   "properties.TPMethods.1.method",
+                    "convert" :   {
+                         "201" :   "{\"5\" :   \"landau_holland_powell98\"}",
+                         "202" :   "{\"6\" :   \"landau_berman88\"}",
+                         "203" :   "{\"1\" :   \"cp_ft_equation_saxena86\"}",
+                         "206" :   "{\"29\" :   \"water_eos_hgk84_lvs83_gems\"}",
+                         "207" :   "{\"30\" :   \"water_eos_iapws95_gems\"}",
+                         "221" :   "{\"31\" :   \"water_eos_hgk84_reaktoro\"}",
+                         "222" :   "{\"32\" :   \"water_eos_iapws95_reaktoro\"}",
+                         "223" :   "{\"33\" :   \"water_pvt_zhang_duan05\"}"
+                    }
+               },
+               "properties.method_corrP" :   {
+                    "field" :   "properties.TPMethods.2.method",
+                    "convert" :   {
+                         "300" :   "{\"40\" :   \"mv_pvnrt\"}",
+                         "305" :   "{\"34\" :   \"mv_constant\"}",
+                         "306" :   "{\"35\" :   \"mv_equation_dorogokupets88\"}",
+                         "307" :   "{\"36\" :   \"mv_equation_berman88\"}",
+                         "308" :   "{\"37\" :   \"mv_eos_birch_murnaghan_gott97\"}",
+                         "309" :   "{\"38\" :   \"mv_eos_murnaghan_hp98\"}",
+                         "310" :   "{\"39\" :   \"mv_eos_tait_hp11\"}",
+                         "311" :   "{\"8\" :    \"fug_critical_param\"}",
+                         "312" :   "{\"9\" :    \"fluid_prsv\"}",
+                         "313" :   "{\"10\" :   \"fluid_churakov_gottschalk\"}",
+                         "314" :   "{\"11\" :   \"fluid_soave_redlich_kwong\"}",
+                         "315" :   "{\"12\" :   \"fluid_sterner_pitzer\"}",
+                         "316" :   "{\"13\" :   \"fluid_peng_robinson78\"}",
+                         "317" :   "{\"14\" :   \"fluid_comp_redlich_kwong_hp91\"}",
+                         "320" :   "{\"4\" :    \"solute_aknifiev_diamond03\"}"
+                    }
+               },
+               "properties.m_heat_capacity_p_t_coeffs.values" :   {
+                    "field" :   "properties.TPMethods.0.m_heat_capacity_ft_coeffs.values",
+                    "script" :   "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
+               },
+               "properties.eos_ad_coeffs.values" :   {
+                    "field" :   "properties.TPMethods.2.eos_akinfiev_diamond_coeffs.values",
+                    "script" :   "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
+               },
+               "properties.eos_hkf_coeffs.values" :   {
+                    "field" :   "properties.TPMethods.0.eos_hkf_coeffs.values",
+                    "script" :   "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
+               },
+               "properties.m_volume_pt_coeffs.values" :   {
+                    "field" :   "properties.TPMethods.2.m_volume_fpt_coeffs.values",
+                    "script" :   "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
+               },
+               "properties.eos_gas_crit_props.values" :   {
+                    "field" :   "properties.TPMethods.2.eos_gas_crit_props.values",
+                    "script" :   "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
+               },
+               "properties.m_phase_trans_props.values" :   {
+                    "field" :   "properties.TPMethods.1.m_landau_phase_trans_props.values",
+                    "script" :   "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
+               },
+               "properties.eos_cg_coeffs.values" :   {
+                    "field" :   "properties.TPMethods.2.eos_churakov_gottschalk_coeffs.values",
+                    "script" :   "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
+               },
+               "properties.m_lambda_trans_props.values" :   {
+                    "field" :   "properties.TPMethods.1.m_lambda_trans_props.values",
+                    "script" :   "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
+               },
+               "properties.symbol" :   {
+                    "field" :   "properties.symbol"
+               },
+               "properties.class_" :   {
+                    "field" :   "properties.class_",
+                    "convert" :   {
+                         "2" :   "{\"2\" :   \"SC_AQSOLUTE\"}",
+                         "4" :   "{\"4\" :   \"SC_SURFSPECIES\"}",
+                         "3" :   "{\"3\" :   \"SC_AQSOLVENT\"}",
+                         "---" :   "{\"101\" :   \"AS_OTHER\"}",
+                         "1" :   "{\"1\" :   \"SC_GASFLUID\"}",
+                         "5" :   "{\"5\" :   \"SC_SITEMOIETY\"}",
+                         "0" :   "{\"0\" :   \"SC_COMPONENT\"}"
+                    }
+               },
+               "properties.formula_charge" :   {
+                    "field" :   "properties.formula_charge"
+               },
+               "properties.mass_per_mole" :   {
+                    "field" :   "properties.mass_per_mole"
+               },
+               "properties.sm_volume.values" :   {
+                    "field" :   "properties.sm_volume.values"
+               },
+               "properties.sm_gibbs_energy.values" :   {
+                    "field" :   "properties.sm_gibbs_energy.values"
+               },
+               "properties.sm_enthalpy.values" :   {
+                    "field" :   "properties.sm_enthalpy.values"
+               },
+               "properties.sm_entropy_abs.values" :   {
+                    "field" :   "properties.sm_entropy_abs.values"
+               },
+               "properties.sm_heat_capacity_p.values" :   {
+                    "field" :   "properties.sm_heat_capacity_p.values"
+               },
+               "properties.m_compressibility.values" :   {
+                    "field" :   "properties.m_compressibility.values"
+               },
+               "properties.m_expansivity.values" :   {
+                    "field" :   "properties.m_expansivity.values"
+               },
+               "properties.aq_edh_props.values" :   {
+                    "field" :   "properties.aq_edh_props.values",
+                    "script" :   "count=0 count2=0 for k,v in pairs(field) do if v==0 then count = count + 1 end end for k,v in pairs(field) do count2 = count2 + 1 end if count==count2 then field = nil end;"
+               },
+               "properties.comment" :   {
+                    "field" :   "properties.comment"
+               },
+               "properties.datasources" :   {
+                    "field" :   "properties.datasources"
+               },
+               "properties.sm_gibbs_energy.errors" :   {
+                    "field" :   "properties.sm_gibbs_energy.errors"
+               },
+               "properties.sm_volume.errors" :   {
+                    "field" :   "properties.sm_volume.errors"
+               },
+               "properties.sm_enthalpy.errors" :   {
+                    "field" :   "properties.sm_enthalpy.errors"
+               },
+               "properties.sm_entropy_abs.errors" :   {
+                    "field" :   "properties.sm_entropy_abs.errors"
+               },
+               "properties.sm_heat_capacity_p.errors" :   {
+                    "field" :   "properties.sm_heat_capacity_p.errors"
+               }
+          },
+          "script" :   "if rintable.properties.formula == 'H2O@' or rintable.properties.formula == 'H2O' then if rintable.properties.class_['3'] then if rintable.properties.class_['3'] == 'SC_AQSOLVENT' then temp=rintable.properties.TPMethods[1] rintable.properties.TPMethods[1]=rintable.properties.TPMethods[2] rintable.properties.TPMethods[2]=temp end end end;\r\n          if next(rintable.properties.TPMethods[3].method) == nil then table.remove(rintable.properties.TPMethods, 3) end;\r\n          if next(rintable.properties.TPMethods[2].method) == nil then table.remove(rintable.properties.TPMethods, 2) end;\r\n          if next(rintable.properties.TPMethods[1].method) == nil then table.remove(rintable.properties.TPMethods, 1) end;"
+     },
+     "renderer" :   "JSON",
+     "label" :   "VertexSubstance",
+     "comment" :   "Import"
+}

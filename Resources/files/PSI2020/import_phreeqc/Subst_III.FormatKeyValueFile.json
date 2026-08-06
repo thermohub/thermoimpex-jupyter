@@ -1,0 +1,76 @@
+{
+     "block" :   {
+          "defaults" :   {
+            "properties.datasources" :   "[\"PSINagra:2020:data\"]",
+            "properties.sourcetdb" :    "{\"26\" :   \"PSI_NAGRA20\"}",
+            "properties.class_" :   "{\"2\" :   \"SC_AQSOLUTE\"}",
+            "properties.aggregate_state" : "{\"4\" :   \"AS_AQUEOUS\"}",
+            "properties.standard_cscale" : "{\"3\" :   \"CS_MOLALITY\"}"
+          },
+          "pairs" :   {
+               
+          },
+          "matches" :   {
+               "head2" :   {
+                    "field" :   "properties.formula",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "head0" :   {
+                    "field" :   "properties.comment",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               }
+          },
+          "script" :   "rintable.properties.symbol = string.match(rintable.properties.formula, \'%s*([^%s]*)\');\n
+                        rintable.properties.name = rintable.properties.symbol; \n
+                        rintable.properties.formula = rintable.properties.symbol;
+                        if string.match(rintable.properties.formula, \'[-+].*\') == '+' then formula_charge = 1 \n elseif string.match(rintable.properties.formula, \'[-+].*\') == '-' then formula_charge = -1 \n elseif tonumber(string.match(rintable.properties.formula, \'[-+].*\')) == tonumber('+') then formula_charge = 0 \n else formula_charge = tonumber(string.match(rintable.properties.formula, \'[-+].*\')) end rintable.properties.formula_charge = formula_charge
+rintable.properties.name = \'_rdc_\' .. rintable.properties.name;
+rintable.properties.formula = string.gsub(rintable.properties.formula, \'Acetate\', \'Ace\')
+rintable.properties.formula = string.gsub(rintable.properties.formula, \'Adipate\', \'Adi\')
+rintable.properties.formula = string.gsub(rintable.properties.formula, \'Malonate\', \'Mal\')
+rintable.properties.formula = string.gsub(rintable.properties.formula, \'Nta\', \'Nta\')
+rintable.properties.formula = string.gsub(rintable.properties.formula, \'Ox\', \'Oxa\')
+rintable.properties.formula = string.gsub(rintable.properties.formula, \'Phthalat\', \'Pht\')
+rintable.properties.formula = string.gsub(rintable.properties.formula, \'Pyrophos\', \'Pyr\')
+-- rintable.properties.formula = string.gsub(rintable.properties.formula, \'Scn\', \'Scn\')
+rintable.properties.formula = string.gsub(rintable.properties.formula, \'Suberate\', \'Sub\')
+rintable.properties.formula = string.gsub(rintable.properties.formula, \'Succinat\', \'Suc\')
+rintable.properties.formula = string.gsub(rintable.properties.formula, \'Edta\', \'Edt\')
+"
+     },
+     "format" :   {
+          "head_regexp" :   "(([\\.\\w\\t \\+\\-\\(\\):]*)\\s*=\\s*([^\\n;]*))[\\n;]{1}",
+          "end_regexp" :   "",
+          "key_regexp" :   "\\s*;*\\s*\\-{0,1}([a-z_A-Z]\\w*)\\s*",
+          "value_regexp" :   "\\s*([^#;\\n]*)",
+          "value_next" :   "",
+          "value_token_regexp" :   "\\s+",
+          "comment_regexp" :   "#([^\\n]*)\\n*",
+          "Ndata" :   0
+     },
+     "renderer" :   " ",
+     "label" :   "VertexSubstance",
+     "separators" :   {
+          "v_sep" :   "",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0
+}

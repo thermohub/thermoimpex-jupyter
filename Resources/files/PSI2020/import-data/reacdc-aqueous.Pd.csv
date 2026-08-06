@@ -1,0 +1,13 @@
+﻿Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
+Pd(aq),Pd(aq),Pd|0|(aq),aq,-9.5,0.5,,,,,,,1 Pd(cr) = Pd(aq)
+PdOH+,PdOH+,PdOH+,aq,-2,,,,,,,,1 Pd+2 1 H2O(l) -1 H+ = PdOH+
+Pd(OH)2(aq),Pd(OH)2(aq),Pd(OH)2(aq),aq,-4.6,,,,,,,,1 Pd+2 2 H2O(l) -2 H+ = Pd(OH)2(aq)
+Pd(OH)3-,Pd(OH)3-,Pd(OH)3-,aq,-16.6,,,,,,,,1 Pd+2 3 H2O(l) -3 H+ = Pd(OH)3-
+PdCl+,PdCl+,PdCl+,aq,5.02,0.04,-18.6,0.8,121,21,5,125,1 Pd+2 1 Cl- = PdCl+
+PdCl2(aq),PdCl2(aq),PdCl2(aq),aq,3.45,0.06,-10.9,1.2,124,32,5,125,1 PdCl+ 1 Cl- = PdCl2(aq)
+PdCl3-,PdCl3-,PdCl3-,aq,2.1,0.06,-3.5,1.1,30,32,5,125,1 PdCl2(aq) 1 Cl- = PdCl3-
+PdCl4-2,PdCl4-2,PdCl4-2,aq,0.88,0.09,-13.6,1.9,113,52,5,125,1 PdCl3- 1 Cl- = PdCl4-2
+PdNH3+2,PdNH3+2,PdN|-3|H3+2,aq,9.6,0.2,,,,,,,1 Pd+2 1 NH3(aq) = PdNH3+2
+Pd(NH3)2+2,Pd(NH3)2+2,Pd(N|-3|H3)2+2,aq,18.5,0.2,,,,,,,1 Pd+2 2 NH3(aq) = Pd(NH3)2+2
+Pd(NH3)3+2,Pd(NH3)3+2,Pd(N|-3|H3)3+2,aq,26,0.2,,,,,,,1 Pd+2 3 NH3(aq) = Pd(NH3)3+2
+Pd(NH3)4+2,Pd(NH3)4+2,Pd(N|-3|H3)4+2,aq,32.8,0.2,,,,,,,1 Pd+2 4 NH3(aq) = Pd(NH3)4+2

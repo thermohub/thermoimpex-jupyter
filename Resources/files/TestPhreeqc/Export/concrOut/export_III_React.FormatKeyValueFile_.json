@@ -1,0 +1,80 @@
+{
+     "block" :   {
+          "defaults" :   {
+
+          },
+          "pairs" :   {
+               "analytical_expression" :   {
+                    "datatype" :   "string",
+                    "organization" :   "list"
+               },
+               "gamma" :   {
+                    "datatype" :   "string",
+                    "organization" :   "list"
+               }
+          },
+          "matches" :   {
+               "head2" :   {
+                    "field" :   "properties.name",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "head0" :   {
+                    "field" :   "properties.equation",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "analytical_expression" :   {
+                    "field" :   "properties.logk_ft_coeffs.values",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "log_K" :   {
+                    "field" :   "properties.logKr.values",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               }
+          },
+          "script" :   "frm = rintable.properties.equation;\n  frm = string.gsub(frm, \'Zz\',  \'e-\' );\n frm = string.gsub(frm, \'|(.-)|\',  \'\' );\n frm = string.gsub(frm, \'@\',  \'\' ); rintable.properties.equation = frm;"
+     },
+     "format" :   {
+          "head_regexp" :   "\n%head0\n",
+          "end_regexp" :   "",
+          "key_regexp" :   "\t-%key\t",
+          "value_regexp" :   "%value",
+          "value_next" :   "\n",
+          "value_token_regexp" :   " ",
+          "comment_regexp" :   "# ",
+          "Ndata" :   0
+     },
+     "renderer" :   " ",
+     "label" :   "VertexReaction",
+     "separators" :   {
+          "v_sep" :   "",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0,
+     "direction" :   1
+}

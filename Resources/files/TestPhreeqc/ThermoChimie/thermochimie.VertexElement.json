@@ -1,0 +1,6072 @@
+[
+     {
+          "_id" :   "elements/Ac;0:ELEMENT;1001:WORK1",
+          "_key" :   "Ac;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_ZiaZO---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Ac",
+               "isotope_mass" :   0,
+               "name" :   "Ac",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         61.9
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         26
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         3
+                    ]
+               },
+               "number" :   89,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Ace;2:LIGAND;1001:WORK1",
+          "_key" :   "Ace;2:LIGAND;1001:WORK1",
+          "_rev" :   "_c_ZiaZ6--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Ace",
+               "isotope_mass" :   0,
+               "name" :   "Acetate",
+               "atomic_mass" :   {
+                    "values" :   [
+                         59.01
+                    ]
+               },
+               "class_" :   {
+                    "2" :   "LIGAND"
+               },
+               "valences" :   {
+                    "values" :   [
+                         -1
+                    ]
+               },
+               "number" :   102,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Ace",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   46
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Adi;2:LIGAND;1001:WORK1",
+          "_key" :   "Adi;2:LIGAND;1001:WORK1",
+          "_rev" :   "_c_Ziaai--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Adi",
+               "isotope_mass" :   0,
+               "name" :   "Adipate",
+               "atomic_mass" :   {
+                    "values" :   [
+                         144.07
+                    ]
+               },
+               "class_" :   {
+                    "2" :   "LIGAND"
+               },
+               "valences" :   {
+                    "values" :   [
+                         -2
+                    ]
+               },
+               "number" :   103,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Adi",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   46
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Ag;0:ELEMENT;1001:WORK1",
+          "_key" :   "Ag;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Ziaba--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Ag",
+               "isotope_mass" :   0,
+               "name" :   "Ag",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         42.55
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         25.35
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         1
+                    ]
+               },
+               "number" :   47,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Al;0:ELEMENT;1001:WORK1",
+          "_key" :   "Al;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_ZiacC--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Al",
+               "isotope_mass" :   0,
+               "name" :   "Al",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         28.3
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         24.2
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         3
+                    ]
+               },
+               "number" :   13,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Alk;0:ELEMENT;1001:WORK1",
+          "_key" :   "Alk;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Ziacq--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Alk",
+               "isotope_mass" :   0,
+               "name" :   "Alkalinity",
+               "atomic_mass" :   {
+                    "values" :   [
+                         50.05
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Alkalinity",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   46
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Am;0:ELEMENT;1001:WORK1",
+          "_key" :   "Am;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_ZiadW--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Am",
+               "isotope_mass" :   0,
+               "name" :   "Am",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         55.4
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         3
+                    ]
+               },
+               "number" :   95,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Am;1:ISOTOPE;1001:WORK1",
+          "_key" :   "Am;1:ISOTOPE;1001:WORK1",
+          "_rev" :   "_c_Ziad6--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Am",
+               "isotope_mass" :   2,
+               "name" :   "Am(+2)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         243
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Am(+2)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   46
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Am;1:ISOTOPE;1001:WORK1_0",
+          "_key" :   "Am;1:ISOTOPE;1001:WORK1_0",
+          "_rev" :   "_c_Ziaee--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Am",
+               "isotope_mass" :   3,
+               "name" :   "Am(+3)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         243
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Am(+3)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   46
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Am;1:ISOTOPE;1001:WORK1_1",
+          "_key" :   "Am;1:ISOTOPE;1001:WORK1_1",
+          "_rev" :   "_c_ZiafG--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Am",
+               "isotope_mass" :   4,
+               "name" :   "Am(+4)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         243
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Am(+4)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   46
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Am;1:ISOTOPE;1001:WORK1_2",
+          "_key" :   "Am;1:ISOTOPE;1001:WORK1_2",
+          "_rev" :   "_c_Ziafq--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Am",
+               "isotope_mass" :   5,
+               "name" :   "Am(+5)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         243
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Am(+5)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   46
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Am;1:ISOTOPE;1001:WORK1_3",
+          "_key" :   "Am;1:ISOTOPE;1001:WORK1_3",
+          "_rev" :   "_c_ZiagS--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Am",
+               "isotope_mass" :   6,
+               "name" :   "Am(+6)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         243
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Am(+6)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   46
+               }
+          }
+     },
+     {
+          "_id" :   "elements/As;0:ELEMENT;1001:WORK1",
+          "_key" :   "As;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Ziag2--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "As",
+               "isotope_mass" :   0,
+               "name" :   "As",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         35.1
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         24.64
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         5
+                    ]
+               },
+               "number" :   33,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/As;1:ISOTOPE;1001:WORK1",
+          "_key" :   "As;1:ISOTOPE;1001:WORK1",
+          "_rev" :   "_c_Ziahe--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "As",
+               "isotope_mass" :   3,
+               "name" :   "As(+3)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         74.9216
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "As(+3)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   46
+               }
+          }
+     },
+     {
+          "_id" :   "elements/As;1:ISOTOPE;1001:WORK1_0",
+          "_key" :   "As;1:ISOTOPE;1001:WORK1_0",
+          "_rev" :   "_c_ZiaiC--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "As",
+               "isotope_mass" :   5,
+               "name" :   "As(+5)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         74.9216
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "As(+5)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   46
+               }
+          }
+     },
+     {
+          "_id" :   "elements/B;0:ELEMENT;1001:WORK1",
+          "_key" :   "B;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Ziaiq--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "B",
+               "isotope_mass" :   0,
+               "name" :   "B",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         5.9
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         11.087
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         3
+                    ]
+               },
+               "number" :   5,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Ba;0:ELEMENT;1001:WORK1",
+          "_key" :   "Ba;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_ZiajO--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Ba",
+               "isotope_mass" :   0,
+               "name" :   "Ba",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         62.42
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "number" :   56,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Br;0:ELEMENT;1001:WORK1",
+          "_key" :   "Br;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Ziaj2--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Br",
+               "isotope_mass" :   0,
+               "name" :   "Br",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         76.105
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         37.845
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         -1
+                    ]
+               },
+               "number" :   35,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/C;0:ELEMENT;1001:WORK1",
+          "_key" :   "C;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Ziake--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "C",
+               "isotope_mass" :   0,
+               "name" :   "C",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         5.74
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         8.517
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         4
+                    ]
+               },
+               "number" :   6,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/C;1:ISOTOPE;1001:WORK1",
+          "_key" :   "C;1:ISOTOPE;1001:WORK1",
+          "_rev" :   "_c_ZialC--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "C",
+               "isotope_mass" :   4,
+               "name" :   "C(+4)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         12.011
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "C(+4)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   46
+               }
+          }
+     },
+     {
+          "_id" :   "elements/C;1:ISOTOPE;1001:WORK1_0",
+          "_key" :   "C;1:ISOTOPE;1001:WORK1_0",
+          "_rev" :   "_c_Zialu--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "C",
+               "isotope_mass" :   -4,
+               "name" :   "C(-4)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         12.011
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "C(-4)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   46
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Ca;0:ELEMENT;1001:WORK1",
+          "_key" :   "Ca;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_ZiamS--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Ca",
+               "isotope_mass" :   0,
+               "name" :   "Ca",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         41.59
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         25.929
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "number" :   20,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Cd;0:ELEMENT;1001:WORK1",
+          "_key" :   "Cd;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Ziam6--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Cd",
+               "isotope_mass" :   0,
+               "name" :   "Cd",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         51.8
+                    ],
+                    "errors" :   [
+                         0.15
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         26.02
+                    ],
+                    "errors" :   [
+                         0.04
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "number" :   48,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Cf;0:ELEMENT;1001:WORK1",
+          "_key" :   "Cf;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Ziani---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Cf",
+               "isotope_mass" :   0,
+               "name" :   "Cf",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         81
+                    ],
+                    "errors" :   [
+                         5
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         3
+                    ]
+               },
+               "number" :   98,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Cit;0:ELEMENT;1001:WORK1",
+          "_key" :   "Cit;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_ZiaoG--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Cit",
+               "isotope_mass" :   0,
+               "name" :   "Cit",
+               "atomic_mass" :   {
+                    "values" :   [
+                         189.1013
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "valences" :   {
+                    "values" :   [
+                         -3
+                    ]
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cit",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   46
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Cl;0:ELEMENT;1001:WORK1",
+          "_key" :   "Cl;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Ziaoa--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Cl",
+               "isotope_mass" :   0,
+               "name" :   "Cl",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         111.54
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         16.974
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         -1
+                    ]
+               },
+               "number" :   17,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Cm;0:ELEMENT;1001:WORK1",
+          "_key" :   "Cm;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_ZiapG--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Cm",
+               "isotope_mass" :   0,
+               "name" :   "Cm",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         70.8
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         3
+                    ]
+               },
+               "number" :   96,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Cn;0:ELEMENT;1001:WORK1",
+          "_key" :   "Cn;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Ziapu--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Cn",
+               "isotope_mass" :   0,
+               "name" :   "Cn",
+               "atomic_mass" :   {
+                    "values" :   [
+                         26.018
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cn",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   46
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Co;0:ELEMENT;1001:WORK1",
+          "_key" :   "Co;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_ZiaqW--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Co",
+               "isotope_mass" :   0,
+               "name" :   "Co",
+               "atomic_mass" :   {
+                    "values" :   [
+                         58.9332
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Co",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   46
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Cr;0:ELEMENT;1001:WORK1",
+          "_key" :   "Cr;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_sONp---_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Cr",
+               "isotope_mass" :   0,
+               "name" :   "Cr",
+               "atomic_mass" :   {
+                    "values" :   [
+                         51.9961
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         23.77
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "volume" :   {
+                    "values" :   [
+                         7.231
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         23.35
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         3
+                    ]
+               },
+               "number" :   24,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   46
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Cr;1:ISOTOPE;1001:WORK1",
+          "_key" :   "Cr;1:ISOTOPE;1001:WORK1",
+          "_rev" :   "_c_Ziare--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Cr",
+               "isotope_mass" :   2,
+               "name" :   "Cr(+2)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         51.9961
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr(+2)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   46
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Cr;1:ISOTOPE;1001:WORK1_0",
+          "_key" :   "Cr;1:ISOTOPE;1001:WORK1_0",
+          "_rev" :   "_c_ZiasK--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Cr",
+               "isotope_mass" :   3,
+               "name" :   "Cr(+3)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         51.9961
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr(+3)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   46
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Cr;1:ISOTOPE;1001:WORK1_1",
+          "_key" :   "Cr;1:ISOTOPE;1001:WORK1_1",
+          "_rev" :   "_c_Ziasy--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Cr",
+               "isotope_mass" :   6,
+               "name" :   "Cr(+6)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         51.9961
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr(+6)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   46
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Cs;0:ELEMENT;1001:WORK1",
+          "_key" :   "Cs;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_ZiatW--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Cs",
+               "isotope_mass" :   0,
+               "name" :   "Cs",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         85.23
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         32.21
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         1
+                    ]
+               },
+               "number" :   55,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Cu;0:ELEMENT;1001:WORK1",
+          "_key" :   "Cu;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_ZiauK--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Cu",
+               "isotope_mass" :   0,
+               "name" :   "Cu",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         33.15
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         24.44
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "number" :   29,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Cu;1:ISOTOPE;1001:WORK1",
+          "_key" :   "Cu;1:ISOTOPE;1001:WORK1",
+          "_rev" :   "_c_Ziau2--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Cu",
+               "isotope_mass" :   1,
+               "name" :   "Cu(+1)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         63.546
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cu(+1)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   46
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Cu;1:ISOTOPE;1001:WORK1_0",
+          "_key" :   "Cu;1:ISOTOPE;1001:WORK1_0",
+          "_rev" :   "_c_Ziavi--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Cu",
+               "isotope_mass" :   2,
+               "name" :   "Cu(+2)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         63.546
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cu(+2)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   46
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Edt;2:LIGAND;1001:WORK1",
+          "_key" :   "Edt;2:LIGAND;1001:WORK1",
+          "_rev" :   "_c_ZiawO--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Edt",
+               "isotope_mass" :   0,
+               "name" :   "Edta",
+               "atomic_mass" :   {
+                    "values" :   [
+                         288.2134
+                    ]
+               },
+               "class_" :   {
+                    "2" :   "LIGAND"
+               },
+               "valences" :   {
+                    "values" :   [
+                         -4
+                    ]
+               },
+               "number" :   112,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Edt",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   46
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Eu;0:ELEMENT;1001:WORK1",
+          "_key" :   "Eu;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Ziaw6--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Eu",
+               "isotope_mass" :   0,
+               "name" :   "Eu",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         77.8
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         27.65
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         3
+                    ]
+               },
+               "number" :   63,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Eu;1:ISOTOPE;1001:WORK1",
+          "_key" :   "Eu;1:ISOTOPE;1001:WORK1",
+          "_rev" :   "_c_Ziaxm--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Eu",
+               "isotope_mass" :   2,
+               "name" :   "Eu(+2)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         151.965
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Eu(+2)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   46
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Eu;1:ISOTOPE;1001:WORK1_0",
+          "_key" :   "Eu;1:ISOTOPE;1001:WORK1_0",
+          "_rev" :   "_c_ZiayS--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Eu",
+               "isotope_mass" :   3,
+               "name" :   "Eu(+3)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         151.965
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Eu(+3)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   46
+               }
+          }
+     },
+     {
+          "_id" :   "elements/F;0:ELEMENT;1001:WORK1",
+          "_key" :   "F;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Ziaz---_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "F",
+               "isotope_mass" :   0,
+               "name" :   "F",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         101.395
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         15.652
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         -1
+                    ]
+               },
+               "number" :   9,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Fe;0:ELEMENT;1001:WORK1",
+          "_key" :   "Fe;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Ziazm--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Fe",
+               "isotope_mass" :   0,
+               "name" :   "Fe",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         27.085
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         25.084
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "number" :   26,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Fe;1:ISOTOPE;1001:WORK1",
+          "_key" :   "Fe;1:ISOTOPE;1001:WORK1",
+          "_rev" :   "_c_Zia0S--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Fe",
+               "isotope_mass" :   2,
+               "name" :   "Fe(+2)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         55.847
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Fe(+2)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Fe;1:ISOTOPE;1001:WORK1_0",
+          "_key" :   "Fe;1:ISOTOPE;1001:WORK1_0",
+          "_rev" :   "_c_Zia1K--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Fe",
+               "isotope_mass" :   3,
+               "name" :   "Fe(+3)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         55.847
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Fe(+3)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Glu;0:ELEMENT;1001:WORK1",
+          "_key" :   "Glu;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Zia1y--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Glu",
+               "isotope_mass" :   0,
+               "name" :   "Glu",
+               "atomic_mass" :   {
+                    "values" :   [
+                         194.138
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "valences" :   {
+                    "values" :   [
+                         -1
+                    ]
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Glu",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/H;0:ELEMENT;1001:WORK1",
+          "_key" :   "H;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Zia2e--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "H",
+               "isotope_mass" :   0,
+               "name" :   "H",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         65.34
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         14.418
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         1
+                    ]
+               },
+               "number" :   1,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/H;1:ISOTOPE;1001:WORK1",
+          "_key" :   "H;1:ISOTOPE;1001:WORK1",
+          "_rev" :   "_c_Zia3G--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "H",
+               "isotope_mass" :   1,
+               "name" :   "H(+1)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         1.0079
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "H(+1)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/H;1:ISOTOPE;1001:WORK1_0",
+          "_key" :   "H;1:ISOTOPE;1001:WORK1_0",
+          "_rev" :   "_c_Zia3q--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "H",
+               "isotope_mass" :   0,
+               "name" :   "H(0)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         1.0079
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "H(0)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Hf;0:ELEMENT;1001:WORK1",
+          "_key" :   "Hf;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Zia4a--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Hf",
+               "isotope_mass" :   0,
+               "name" :   "Hf",
+               "atomic_mass" :   {
+                    "values" :   [
+                         178.49
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Hf",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Hg;0:ELEMENT;1001:WORK1",
+          "_key" :   "Hg;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Zia5C---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Hg",
+               "isotope_mass" :   0,
+               "name" :   "Hg",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         75.9
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "number" :   80,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Ho;0:ELEMENT;1001:WORK1",
+          "_key" :   "Ho;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Zia5u--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Ho",
+               "isotope_mass" :   0,
+               "name" :   "Ho",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         75.76
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         27.15
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         3
+                    ]
+               },
+               "number" :   67,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "elements/I;0:ELEMENT;1001:WORK1",
+          "_key" :   "I;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Zia6a--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "I",
+               "isotope_mass" :   0,
+               "name" :   "I",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         58.07
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         27.219
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         -1
+                    ]
+               },
+               "number" :   53,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/I;1:ISOTOPE;1001:WORK1",
+          "_key" :   "I;1:ISOTOPE;1001:WORK1",
+          "_rev" :   "_c_Zia7C--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "I",
+               "isotope_mass" :   5,
+               "name" :   "I(+5)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         126.9045
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "I(+5)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/I;1:ISOTOPE;1001:WORK1_0",
+          "_key" :   "I;1:ISOTOPE;1001:WORK1_0",
+          "_rev" :   "_c_Zia7u--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "I",
+               "isotope_mass" :   -1,
+               "name" :   "I(-1)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         126.9045
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "I(-1)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Isa;0:ELEMENT;1001:WORK1",
+          "_key" :   "Isa;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Zia8a--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Isa",
+               "isotope_mass" :   0,
+               "name" :   "Isa",
+               "atomic_mass" :   {
+                    "values" :   [
+                         178.1421
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "valences" :   {
+                    "values" :   [
+                         -1
+                    ]
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Isa",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/K;0:ELEMENT;1001:WORK1",
+          "_key" :   "K;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Zia9---_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "K",
+               "isotope_mass" :   0,
+               "name" :   "K",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         64.68
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         29.6
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         1
+                    ]
+               },
+               "number" :   19,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Li;0:ELEMENT;1001:WORK1",
+          "_key" :   "Li;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Zia9u--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Li",
+               "isotope_mass" :   0,
+               "name" :   "Li",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         29.12
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         24.86
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         1
+                    ]
+               },
+               "number" :   3,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Mal;2:LIGAND;1001:WORK1",
+          "_key" :   "Mal;2:LIGAND;1001:WORK1",
+          "_rev" :   "_c_Zib-a--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Mal",
+               "isotope_mass" :   0,
+               "name" :   "Malonate",
+               "atomic_mass" :   {
+                    "values" :   [
+                         63.99
+                    ]
+               },
+               "class_" :   {
+                    "2" :   "LIGAND"
+               },
+               "valences" :   {
+                    "values" :   [
+                         -2
+                    ]
+               },
+               "number" :   104,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Mal",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Mg;0:ELEMENT;1001:WORK1",
+          "_key" :   "Mg;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Zib_C--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Mg",
+               "isotope_mass" :   0,
+               "name" :   "Mg",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         32.67
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         24.869
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "number" :   12,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Mn;0:ELEMENT;1001:WORK1",
+          "_key" :   "Mn;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Zib_u--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Mn",
+               "isotope_mass" :   0,
+               "name" :   "Mn",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         32.01
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         26.32
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "number" :   25,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Mo;0:ELEMENT;1001:WORK1",
+          "_key" :   "Mo;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_ZibAW--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Mo",
+               "isotope_mass" :   0,
+               "name" :   "Mo",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         28.581
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         24.06
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         6
+                    ]
+               },
+               "number" :   42,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/N;0:ELEMENT;1001:WORK1",
+          "_key" :   "N;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_ZibB---_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "N",
+               "isotope_mass" :   0,
+               "name" :   "N",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         95.805
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         14.562
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         5
+                    ]
+               },
+               "number" :   7,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/N;1:ISOTOPE;1001:WORK1",
+          "_key" :   "N;1:ISOTOPE;1001:WORK1",
+          "_rev" :   "_c_ZibBm--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "N",
+               "isotope_mass" :   5,
+               "name" :   "N(+5)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         14.0067
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "N(+5)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/N;1:ISOTOPE;1001:WORK1_0",
+          "_key" :   "N;1:ISOTOPE;1001:WORK1_0",
+          "_rev" :   "_c_ZibCS--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "N",
+               "isotope_mass" :   -3,
+               "name" :   "N(-3)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         14.0067
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "N(-3)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Na;0:ELEMENT;1001:WORK1",
+          "_key" :   "Na;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_ZibD---_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Na",
+               "isotope_mass" :   0,
+               "name" :   "Na",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         51.3
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         28.23
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         1
+                    ]
+               },
+               "number" :   11,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Nb;0:ELEMENT;1001:WORK1",
+          "_key" :   "Nb;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_ZibDq--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Nb",
+               "isotope_mass" :   0,
+               "name" :   "Nb",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         36.4
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         24.6
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         5
+                    ]
+               },
+               "number" :   41,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Ni;0:ELEMENT;1001:WORK1",
+          "_key" :   "Ni;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_ZibES--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Ni",
+               "isotope_mass" :   0,
+               "name" :   "Ni",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         29.87
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         26.07
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "number" :   28,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Np;0:ELEMENT;1001:WORK1",
+          "_key" :   "Np;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_ZibE6--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Np",
+               "isotope_mass" :   0,
+               "name" :   "Np",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         50.46
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         29.62
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         6
+                    ]
+               },
+               "number" :   93,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Np;1:ISOTOPE;1001:WORK1",
+          "_key" :   "Np;1:ISOTOPE;1001:WORK1",
+          "_rev" :   "_c_ZibFi--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Np",
+               "isotope_mass" :   3,
+               "name" :   "Np(+3)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         237.048
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Np(+3)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Np;1:ISOTOPE;1001:WORK1_0",
+          "_key" :   "Np;1:ISOTOPE;1001:WORK1_0",
+          "_rev" :   "_c_ZibGS--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Np",
+               "isotope_mass" :   4,
+               "name" :   "Np(+4)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         237.048
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Np(+4)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Np;1:ISOTOPE;1001:WORK1_1",
+          "_key" :   "Np;1:ISOTOPE;1001:WORK1_1",
+          "_rev" :   "_c_ZibGu---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Np",
+               "isotope_mass" :   5,
+               "name" :   "Np(+5)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         237.048
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Np(+5)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Np;1:ISOTOPE;1001:WORK1_2",
+          "_key" :   "Np;1:ISOTOPE;1001:WORK1_2",
+          "_rev" :   "_c_ZibHW--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Np",
+               "isotope_mass" :   6,
+               "name" :   "Np(+6)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         237.048
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Np(+6)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Nta;2:LIGAND;1001:WORK1",
+          "_key" :   "Nta;2:LIGAND;1001:WORK1",
+          "_rev" :   "_c_ZibIC--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Nta",
+               "isotope_mass" :   0,
+               "name" :   "Nta",
+               "atomic_mass" :   {
+                    "values" :   [
+                         188.1165
+                    ]
+               },
+               "class_" :   {
+                    "2" :   "LIGAND"
+               },
+               "valences" :   {
+                    "values" :   [
+                         -3
+                    ]
+               },
+               "number" :   105,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Nta",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/O;0:ELEMENT;1001:WORK1",
+          "_key" :   "O;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_ZibIu--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "O",
+               "isotope_mass" :   0,
+               "name" :   "O",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         102.576
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         14.689
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         -2
+                    ]
+               },
+               "number" :   8,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/O;1:ISOTOPE;1001:WORK1",
+          "_key" :   "O;1:ISOTOPE;1001:WORK1",
+          "_rev" :   "_c_ZibJS--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "O",
+               "isotope_mass" :   0,
+               "name" :   "O(0)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         15.9994
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "O(0)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/O;1:ISOTOPE;1001:WORK1_0",
+          "_key" :   "O;1:ISOTOPE;1001:WORK1_0",
+          "_rev" :   "_c_ZibKC--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "O",
+               "isotope_mass" :   -2,
+               "name" :   "O(-2)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         15.9994
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "O(-2)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Oxa;2:LIGAND;1001:WORK1",
+          "_key" :   "Oxa;2:LIGAND;1001:WORK1",
+          "_rev" :   "_c_ZibKq--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Oxa",
+               "isotope_mass" :   0,
+               "name" :   "Ox",
+               "atomic_mass" :   {
+                    "values" :   [
+                         88.0196
+                    ]
+               },
+               "class_" :   {
+                    "2" :   "LIGAND"
+               },
+               "valences" :   {
+                    "values" :   [
+                         -2
+                    ]
+               },
+               "number" :   106,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Oxa",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/P;0:ELEMENT;1001:WORK1",
+          "_key" :   "P;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_ZibLS--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "P",
+               "isotope_mass" :   0,
+               "name" :   "P",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         41.09
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         23.824
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         5
+                    ]
+               },
+               "number" :   15,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Pa;0:ELEMENT;1001:WORK1",
+          "_key" :   "Pa;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_ZibL6--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Pa",
+               "isotope_mass" :   0,
+               "name" :   "Pa",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         51.6
+                    ],
+                    "errors" :   [
+                         0.8
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         28.2
+                    ],
+                    "errors" :   [
+                         0.4
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         5
+                    ]
+               },
+               "number" :   46,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Pa;1:ISOTOPE;1001:WORK1",
+          "_key" :   "Pa;1:ISOTOPE;1001:WORK1",
+          "_rev" :   "_c_ZibMi--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Pa",
+               "isotope_mass" :   4,
+               "name" :   "Pa(+4)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         231.0359
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Pa(+4)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Pa;1:ISOTOPE;1001:WORK1_0",
+          "_key" :   "Pa;1:ISOTOPE;1001:WORK1_0",
+          "_rev" :   "_c_ZibNK--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Pa",
+               "isotope_mass" :   5,
+               "name" :   "Pa(+5)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         231.0359
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Pa(+5)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Pb;0:ELEMENT;1001:WORK1",
+          "_key" :   "Pb;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_ZibN2--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Pb",
+               "isotope_mass" :   0,
+               "name" :   "Pb",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         64.8
+                    ],
+                    "errors" :   [
+                         0.3
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         26.65
+                    ],
+                    "errors" :   [
+                         0.1
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "number" :   82,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Pd;0:ELEMENT;1001:WORK1",
+          "_key" :   "Pd;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_ZibOe--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Pd",
+               "isotope_mass" :   0,
+               "name" :   "Pd",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         37.8
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         25.9
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "number" :   46,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Pht;2:LIGAND;1001:WORK1",
+          "_key" :   "Pht;2:LIGAND;1001:WORK1",
+          "_rev" :   "_c_ZibPG--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Pht",
+               "isotope_mass" :   0,
+               "name" :   "Phthalat",
+               "atomic_mass" :   {
+                    "values" :   [
+                         164.084
+                    ]
+               },
+               "class_" :   {
+                    "2" :   "LIGAND"
+               },
+               "valences" :   {
+                    "values" :   [
+                         -2
+                    ]
+               },
+               "number" :   107,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Pht",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Po;0:ELEMENT;1001:WORK1",
+          "_key" :   "Po;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_ZibP2---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Po",
+               "isotope_mass" :   0,
+               "name" :   "Po",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         62.8
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         4
+                    ]
+               },
+               "number" :   84,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Pu;0:ELEMENT;1001:WORK1",
+          "_key" :   "Pu;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_ZibQi--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Pu",
+               "isotope_mass" :   0,
+               "name" :   "Pu",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         54.46
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         31.49
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         6
+                    ]
+               },
+               "number" :   94,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Pu;1:ISOTOPE;1001:WORK1",
+          "_key" :   "Pu;1:ISOTOPE;1001:WORK1",
+          "_rev" :   "_c_ZibRO--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Pu",
+               "isotope_mass" :   3,
+               "name" :   "Pu(+3)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         244
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Pu(+3)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Pu;1:ISOTOPE;1001:WORK1_0",
+          "_key" :   "Pu;1:ISOTOPE;1001:WORK1_0",
+          "_rev" :   "_c_ZibS---_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Pu",
+               "isotope_mass" :   4,
+               "name" :   "Pu(+4)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         244
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Pu(+4)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Pu;1:ISOTOPE;1001:WORK1_1",
+          "_key" :   "Pu;1:ISOTOPE;1001:WORK1_1",
+          "_rev" :   "_c_ZibSq--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Pu",
+               "isotope_mass" :   5,
+               "name" :   "Pu(+5)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         244
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Pu(+5)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Pu;1:ISOTOPE;1001:WORK1_2",
+          "_key" :   "Pu;1:ISOTOPE;1001:WORK1_2",
+          "_rev" :   "_c_ZibTW--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Pu",
+               "isotope_mass" :   6,
+               "name" :   "Pu(+6)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         244
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Pu(+6)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Pyr;2:LIGAND;1001:WORK1",
+          "_key" :   "Pyr;2:LIGAND;1001:WORK1",
+          "_rev" :   "_c_ZibUO--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Pyr",
+               "isotope_mass" :   0,
+               "name" :   "Pyrophos",
+               "atomic_mass" :   {
+                    "values" :   [
+                         173.95
+                    ]
+               },
+               "class_" :   {
+                    "2" :   "LIGAND"
+               },
+               "number" :   108,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Pyr",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Ra;0:ELEMENT;1001:WORK1",
+          "_key" :   "Ra;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_ZibU6---",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Ra",
+               "isotope_mass" :   0,
+               "name" :   "Ra",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         71
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "number" :   88,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Rb;0:ELEMENT;1001:WORK1",
+          "_key" :   "Rb;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_ZibVe--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Rb",
+               "isotope_mass" :   0,
+               "name" :   "Rb",
+               "atomic_mass" :   {
+                    "values" :   [
+                         85.4678
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Rb",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/S;0:ELEMENT;1001:WORK1",
+          "_key" :   "S;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_ZibWK--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "S",
+               "isotope_mass" :   0,
+               "name" :   "S",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         32.054
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         22.75
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         6
+                    ]
+               },
+               "number" :   16,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/S;1:ISOTOPE;1001:WORK1",
+          "_key" :   "S;1:ISOTOPE;1001:WORK1",
+          "_rev" :   "_c_ZibWy--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "S",
+               "isotope_mass" :   2,
+               "name" :   "S(+2)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         32.066
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "S(+2)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/S;1:ISOTOPE;1001:WORK1_0",
+          "_key" :   "S;1:ISOTOPE;1001:WORK1_0",
+          "_rev" :   "_c_ZibXi--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "S",
+               "isotope_mass" :   3,
+               "name" :   "S(+3)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         128.128
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "S(+3)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/S;1:ISOTOPE;1001:WORK1_1",
+          "_key" :   "S;1:ISOTOPE;1001:WORK1_1",
+          "_rev" :   "_c_ZibYK--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "S",
+               "isotope_mass" :   4,
+               "name" :   "S(+4)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         32.066
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "S(+4)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/S;1:ISOTOPE;1001:WORK1_2",
+          "_key" :   "S;1:ISOTOPE;1001:WORK1_2",
+          "_rev" :   "_c_ZibY2--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "S",
+               "isotope_mass" :   6,
+               "name" :   "S(+6)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         32.066
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "S(+6)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/S;1:ISOTOPE;1001:WORK1_3",
+          "_key" :   "S;1:ISOTOPE;1001:WORK1_3",
+          "_rev" :   "_c_ZibZq--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "S",
+               "isotope_mass" :   -2,
+               "name" :   "S(-2)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         32.066
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "S(-2)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Sb;0:ELEMENT;1001:WORK1",
+          "_key" :   "Sb;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_ZibaS--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Sb",
+               "isotope_mass" :   0,
+               "name" :   "Sb",
+               "atomic_mass" :   {
+                    "values" :   [
+                         121.76
+                    ]
+               },
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Sb",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Sb;1:ISOTOPE;1001:WORK1",
+          "_key" :   "Sb;1:ISOTOPE;1001:WORK1",
+          "_rev" :   "_c_Ziba6--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Sb",
+               "isotope_mass" :   3,
+               "name" :   "Sb(+3)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         121.76
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Sb(+3)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Sb;1:ISOTOPE;1001:WORK1_0",
+          "_key" :   "Sb;1:ISOTOPE;1001:WORK1_0",
+          "_rev" :   "_c_Zibbi--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Sb",
+               "isotope_mass" :   5,
+               "name" :   "Sb(+5)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         121.76
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Sb(+5)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Scn;2:LIGAND;1001:WORK1",
+          "_key" :   "Scn;2:LIGAND;1001:WORK1",
+          "_rev" :   "_c_ZibcG--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Scn",
+               "isotope_mass" :   0,
+               "name" :   "Scn",
+               "atomic_mass" :   {
+                    "values" :   [
+                         58.084
+                    ]
+               },
+               "class_" :   {
+                    "2" :   "LIGAND"
+               },
+               "valences" :   {
+                    "values" :   [
+                         -1
+                    ]
+               },
+               "number" :   109,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Scn",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Se;0:ELEMENT;1001:WORK1",
+          "_key" :   "Se;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Zibcu--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Se",
+               "isotope_mass" :   0,
+               "name" :   "Se",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         42.09
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         25.09
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         4
+                    ]
+               },
+               "number" :   34,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Se;1:ISOTOPE;1001:WORK1",
+          "_key" :   "Se;1:ISOTOPE;1001:WORK1",
+          "_rev" :   "_c_Zibda--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Se",
+               "isotope_mass" :   4,
+               "name" :   "Se(+4)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         78.96
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Se(+4)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Se;1:ISOTOPE;1001:WORK1_0",
+          "_key" :   "Se;1:ISOTOPE;1001:WORK1_0",
+          "_rev" :   "_c_ZibeG--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Se",
+               "isotope_mass" :   6,
+               "name" :   "Se(+6)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         78.96
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Se(+6)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Se;1:ISOTOPE;1001:WORK1_1",
+          "_key" :   "Se;1:ISOTOPE;1001:WORK1_1",
+          "_rev" :   "_c_Zibeu--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Se",
+               "isotope_mass" :   -2,
+               "name" :   "Se(-2)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         78.96
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Se(-2)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Si;0:ELEMENT;1001:WORK1",
+          "_key" :   "Si;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_ZibfW--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Si",
+               "isotope_mass" :   0,
+               "name" :   "Si",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         18.81
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         19.789
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         4
+                    ]
+               },
+               "number" :   14,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Sm;0:ELEMENT;1001:WORK1",
+          "_key" :   "Sm;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_ZibgC--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Sm",
+               "isotope_mass" :   0,
+               "name" :   "Sm",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         69.64
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         29.53
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         3
+                    ]
+               },
+               "number" :   62,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Sn;0:ELEMENT;1001:WORK1",
+          "_key" :   "Sn;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Zibgq--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Sn",
+               "isotope_mass" :   0,
+               "name" :   "Sn",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         51.18
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         27.11
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "number" :   50,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Sn;1:ISOTOPE;1001:WORK1",
+          "_key" :   "Sn;1:ISOTOPE;1001:WORK1",
+          "_rev" :   "_c_Zibha--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Sn",
+               "isotope_mass" :   2,
+               "name" :   "Sn(+2)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         118.71
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Sn(+2)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Sn;1:ISOTOPE;1001:WORK1_0",
+          "_key" :   "Sn;1:ISOTOPE;1001:WORK1_0",
+          "_rev" :   "_c_ZibiK--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Sn",
+               "isotope_mass" :   4,
+               "name" :   "Sn(+4)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         118.71
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Sn(+4)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Sr;0:ELEMENT;1001:WORK1",
+          "_key" :   "Sr;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Zibju--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Sr",
+               "isotope_mass" :   0,
+               "name" :   "Sr",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         55.7
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "number" :   38,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Sub;2:LIGAND;1001:WORK1",
+          "_key" :   "Sub;2:LIGAND;1001:WORK1",
+          "_rev" :   "_c_Zibka--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Sub",
+               "isotope_mass" :   0,
+               "name" :   "Suberate",
+               "atomic_mass" :   {
+                    "values" :   [
+                         170.16
+                    ]
+               },
+               "class_" :   {
+                    "2" :   "LIGAND"
+               },
+               "valences" :   {
+                    "values" :   [
+                         -2
+                    ]
+               },
+               "number" :   110,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Sub",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Suc;2:LIGAND;1001:WORK1",
+          "_key" :   "Suc;2:LIGAND;1001:WORK1",
+          "_rev" :   "_c_ZiblG--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Suc",
+               "isotope_mass" :   0,
+               "name" :   "Succinat",
+               "atomic_mass" :   {
+                    "values" :   [
+                         116.07
+                    ]
+               },
+               "class_" :   {
+                    "2" :   "LIGAND"
+               },
+               "valences" :   {
+                    "values" :   [
+                         -2
+                    ]
+               },
+               "number" :   111,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Suc",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Tc;0:ELEMENT;1001:WORK1",
+          "_key" :   "Tc;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Ziblu--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Tc",
+               "isotope_mass" :   0,
+               "name" :   "Tc",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         32.5
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         24.9
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         7
+                    ]
+               },
+               "number" :   43,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   23
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Tc;1:ISOTOPE;1001:WORK1",
+          "_key" :   "Tc;1:ISOTOPE;1001:WORK1",
+          "_rev" :   "_c_ZibmS--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Tc",
+               "isotope_mass" :   4,
+               "name" :   "Tc(+4)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         98
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Tc(+4)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Tc;1:ISOTOPE;1001:WORK1_0",
+          "_key" :   "Tc;1:ISOTOPE;1001:WORK1_0",
+          "_rev" :   "_c_ZibnC--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Tc",
+               "isotope_mass" :   6,
+               "name" :   "Tc(+6)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         98
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Tc(+6)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Tc;1:ISOTOPE;1001:WORK1_1",
+          "_key" :   "Tc;1:ISOTOPE;1001:WORK1_1",
+          "_rev" :   "_c_Zibnm--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Tc",
+               "isotope_mass" :   7,
+               "name" :   "Tc(+7)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         98
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Tc(+7)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Th;0:ELEMENT;1001:WORK1",
+          "_key" :   "Th;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_ZiboS--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Th",
+               "isotope_mass" :   0,
+               "name" :   "Th",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         52.64
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         26.23
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         4
+                    ]
+               },
+               "number" :   90,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Ti;0:ELEMENT;1001:WORK1",
+          "_key" :   "Ti;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Zibp----",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Ti",
+               "isotope_mass" :   0,
+               "name" :   "Ti",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         30.72
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         4
+                    ]
+               },
+               "number" :   22,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "elements/U;0:ELEMENT;1001:WORK1",
+          "_key" :   "U;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Zibpq--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "U",
+               "isotope_mass" :   0,
+               "name" :   "U",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         50.2
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         27.66
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         6
+                    ]
+               },
+               "number" :   92,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "elements/U;1:ISOTOPE;1001:WORK1",
+          "_key" :   "U;1:ISOTOPE;1001:WORK1",
+          "_rev" :   "_c_ZibqS--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "U",
+               "isotope_mass" :   3,
+               "name" :   "U(+3)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         238.0289
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "U(+3)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/U;1:ISOTOPE;1001:WORK1_0",
+          "_key" :   "U;1:ISOTOPE;1001:WORK1_0",
+          "_rev" :   "_c_Zibq6--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "U",
+               "isotope_mass" :   4,
+               "name" :   "U(+4)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         238.0289
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "U(+4)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/U;1:ISOTOPE;1001:WORK1_1",
+          "_key" :   "U;1:ISOTOPE;1001:WORK1_1",
+          "_rev" :   "_c_Zibri--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "U",
+               "isotope_mass" :   5,
+               "name" :   "U(+5)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         238.0289
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "U(+5)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/U;1:ISOTOPE;1001:WORK1_2",
+          "_key" :   "U;1:ISOTOPE;1001:WORK1_2",
+          "_rev" :   "_c_ZibsK--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "U",
+               "isotope_mass" :   6,
+               "name" :   "U(+6)",
+               "atomic_mass" :   {
+                    "values" :   [
+                         238.0289
+                    ]
+               },
+               "class_" :   {
+                    "1" :   "ISOTOPE"
+               },
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "U(+6)",
+               "datasources" :   [
+                    "ThermoChimie"
+               ],
+               "radioactivity" :   {
+                    "decay_type" :   {
+                         "0" :   "STABLE"
+                    },
+                    "half_life_lambda" :   {
+                         "values" :   [
+                              0
+                         ]
+                    }
+               },
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   16,
+                    "minute" :   1,
+                    "second" :   47
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Zn;0:ELEMENT;1001:WORK1",
+          "_key" :   "Zn;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Zibsy--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Zn",
+               "isotope_mass" :   0,
+               "name" :   "Zn",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         41.63
+                    ],
+                    "errors" :   [
+                         0.15
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         25.39
+                    ],
+                    "errors" :   [
+                         0.04
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         2
+                    ]
+               },
+               "number" :   30,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Zr;0:ELEMENT;1001:WORK1",
+          "_key" :   "Zr;0:ELEMENT;1001:WORK1",
+          "_rev" :   "_c_Zibta--_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Zr",
+               "isotope_mass" :   0,
+               "name" :   "Zr",
+               "class_" :   {
+                    "0" :   "ELEMENT"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         39.08
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         26.08
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         4
+                    ]
+               },
+               "number" :   40,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     },
+     {
+          "_id" :   "elements/Zz;4:CHARGE;1001:WORK1",
+          "_key" :   "Zz;4:CHARGE;1001:WORK1",
+          "_rev" :   "_c_Zibu---_",
+          "_type" :   "vertex",
+          "_label" :   "element",
+          "properties" :   {
+               "symbol" :   "Zz",
+               "isotope_mass" :   0,
+               "name" :   "Zz",
+               "class_" :   {
+                    "4" :   "CHARGE"
+               },
+               "entropy" :   {
+                    "values" :   [
+                         -65.34
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "heat_capacity" :   {
+                    "values" :   [
+                         -14.418
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "valences" :   {
+                    "values" :   [
+                         0
+                    ]
+               },
+               "number" :   0,
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   9,
+                    "hour" :   12,
+                    "minute" :   51,
+                    "second" :   24
+               }
+          }
+     }
+]

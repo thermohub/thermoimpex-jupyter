@@ -1,0 +1,12 @@
+FOR s IN substances
+    //FILTER s.properties.symbol LIKE '%Fe%'
+    //FILTER s.properties.aggregate_state == {'4':'AS_AQUEOUS'}
+    //FILTER s.properties.aggregate_state == {'3':'AS_CRYSTAL'}
+    //FILTER s.properties.aggregate_state == {'1':'AS_LIQUID'}
+    //FILTER s.properties.aggregate_state == {'0':'AS_GAS'}
+    //FOR r IN 1..1 INBOUND s defines
+    //FOR st IN 1..1 INBOUND r takes
+    FILTER s.properties.symbol IN ["SiO2@","AlO2-","FeO2-","PO4-3","Ca+2","Cl-","CO3-2","H2O@","H+","K+","Na+","Mg+2","NO3-","SO4-2","Sr+2","O2"]
+    SORT s.properties.symbol 
+    //FILTER s.properties.name NOT LIKE '%_rdc_%'
+    RETURN { name: s.properties.symbol, formula: s.properties.formula, dGf: s.properties.sm_gibbs_energy.values[0], dGf_error: s.properties.sm_gibbs_energy.errors[0], dGf_unit: s.properties.sm_gibbs_energy.units[0], dGf_status: s.properties.sm_gibbs_energy.status[0], dHf: s.properties.sm_enthalpy.values[0], dHf_error: s.properties.sm_enthalpy.errors[0], dHf_unit: s.properties.sm_enthalpy.units[0], dHf_status: s.properties.sm_enthalpy.status[0], dSabs: s.properties.sm_entropy_abs.values[0], dSabs_error: s.properties.sm_entropy_abs.errors[0], dSabs_unit: s.properties.sm_entropy_abs.units[0], dSabs_status: s.properties.sm_entropy_abs.status[0], Cp: s.properties.sm_heat_capacity_p.values[0], Cp_error: s.properties.sm_heat_capacity_p.errors[0], Cp_unit: s.properties.sm_heat_capacity_p.units[0], Cp_status: s.properties.sm_heat_capacity_p.status[0],  V: s.properties.sm_volume.values[0], V_error: s.properties.sm_volume.errors[0], V_unit: s.properties.sm_volume.units[0], V_status: s.properties.sm_volume.status[0] } 

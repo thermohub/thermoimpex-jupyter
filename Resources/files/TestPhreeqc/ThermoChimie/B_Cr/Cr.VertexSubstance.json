@@ -1,0 +1,2018 @@
+[
+     {
+          "_id" :   "substances/CrO4-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "CrO4-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_Cq_Vu---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "CrO4-2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "CrO4-2",
+               "name" :   "CrO4-2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "1.000CrO4-2     = CrO4-2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   0
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Ca4Al2O6(CrO4):15H2O(s);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "Ca4Al2O6(CrO4):15H2O(s);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_CqvjW---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Ca4Al2O6(CrO4):15H2O(s)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Ca4Al2O6(CrO4)(H2O)15",
+               "name" :   "_rdc_Ca4Al2O6(CrO4):15H2O",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "Ca4Al2O6(CrO4):15H2O     = 4.000Ca+2     + 2.000Al+3     - 12.000H+     + 1.000CrO4-2     + 21.000H2O",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   50
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Ca6(Al(OH)6)2(CrO4)3:26H2O(s);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "Ca6(Al(OH)6)2(CrO4)3:26H2O(s);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_Cqvq6---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Ca6(Al(OH)6)2(CrO4)3:26H2O(s)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Ca6(Al(OH)6)2(CrO4)3(H2O)26",
+               "name" :   "_rdc_Ca6(Al(OH)6)2(CrO4)3:26H2O",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "Ca6(Al(OH)6)2(CrO4)3:26H2O     = 6.000Ca+2     + 2.000Al+3     - 12.000H+     + 3.000CrO4-2     + 38.000H2O",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   50
+               }
+          }
+     },
+     {
+          "_id" :   "substances/CaCrO4(s);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "CaCrO4(s);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_Cqv9----",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "CaCrO4(s)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "CaCrO4",
+               "name" :   "_rdc_CaCrO4",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "CaCrO4     = 1.000Ca+2     + 1.000CrO4-2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   50
+               }
+          }
+     },
+     {
+          "_id" :   "substances/CaCrO4;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "CaCrO4;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqIJW---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "CaCrO4",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "CaCrO4",
+               "name" :   "_rdc_CaCrO4",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   0,
+               "comment" :   "1.000Ca+2     + 1.000CrO4-2     = CaCrO4",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   9
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cr(cr);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "Cr(cr);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_Cqze6---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cr(cr)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr",
+               "name" :   "_rdc_Cr",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "Cr     = 2.000H+     + 1.000CrO4-2     - 1.000H2O     - 1.500O2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   54
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cr(H2PO4)+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cr(H2PO4)+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqLOK---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cr(H2PO4)+2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr(H2PO4)+2",
+               "name" :   "_rdc_Cr(H2PO4)+2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   2,
+               "comment" :   "1.000H2(PO4)-     + 1.000Cr+3     = Cr(H2PO4)+2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   13
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cr(HPO4)+;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cr(HPO4)+;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqLQ----",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cr(HPO4)+",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr(HPO4)+",
+               "name" :   "_rdc_Cr(HPO4)+",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   1,
+               "comment" :   "- 1.000H+     + 1.000H2(PO4)-     + 1.000Cr+3     = Cr(HPO4)+",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   13
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cr(OH)(CO3)2-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cr(OH)(CO3)2-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqLSW---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cr(OH)(CO3)2-2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr(OH)(CO3)2-2",
+               "name" :   "_rdc_Cr(OH)(CO3)2-2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   -2,
+               "comment" :   "- 1.000H+     + 2.000CO3-2     + 1.000Cr+3     + 1.000H2O     = Cr(OH)(CO3)2-2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   13
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cr(OH)+;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cr(OH)+;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqLUa---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cr(OH)+",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr(OH)+",
+               "name" :   "_rdc_Cr(OH)+",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   1,
+               "comment" :   "- 1.000H+     + 1.000Cr+2     + 1.000H2O     = Cr(OH)+",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   13
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cr(OH)+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cr(OH)+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqLWW---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cr(OH)+2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr(OH)+2",
+               "name" :   "_rdc_Cr(OH)+2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   2,
+               "comment" :   "- 1.000H+     + 1.000Cr+3     + 1.000H2O     = Cr(OH)+2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   13
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cr(OH)2(cr);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "Cr(OH)2(cr);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_CqzZy---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cr(OH)2(cr)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr(OH)2",
+               "name" :   "_rdc_Cr(OH)2",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "Cr(OH)2     = - 2.000H+     + 1.000Cr+2     + 2.000H2O",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   54
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cr(OH)2(H2PO4)(s);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "Cr(OH)2(H2PO4)(s);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_CqzXO---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cr(OH)2(H2PO4)(s)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr(OH)2(H2PO4)",
+               "name" :   "_rdc_Cr(OH)2(H2PO4)",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "Cr(OH)2(H2PO4)     = - 2.000H+     + 1.000H2(PO4)-     + 1.000Cr+3     + 2.000H2O",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   54
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cr(OH)2+;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cr(OH)2+;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqLYW---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cr(OH)2+",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr(OH)2+",
+               "name" :   "_rdc_Cr(OH)2+",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   1,
+               "comment" :   "- 2.000H+     + 1.000Cr+3     + 2.000H2O     = Cr(OH)2+",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   13
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cr(OH)3(cr);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "Cr(OH)3(cr);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_Cqzce---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cr(OH)3(cr)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr(OH)3",
+               "name" :   "_rdc_Cr(OH)3",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "Cr(OH)3     = - 3.000H+     + 1.000Cr+3     + 3.000H2O",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   54
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cr(OH)3;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cr(OH)3;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqLae---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cr(OH)3",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr(OH)3",
+               "name" :   "_rdc_Cr(OH)3",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   0,
+               "comment" :   "- 3.000H+     + 1.000Cr+3     + 3.000H2O     = Cr(OH)3",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   13
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cr(OH)3(H2PO4)-;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cr(OH)3(H2PO4)-;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqLcK---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cr(OH)3(H2PO4)-",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr(OH)3(H2PO4)-",
+               "name" :   "_rdc_Cr(OH)3(H2PO4)-",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   -1,
+               "comment" :   "- 3.000H+     + 1.000H2(PO4)-     + 1.000Cr+3     + 3.000H2O     = Cr(OH)3(H2PO4)-",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   13
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cr(OH)3(H2PO4)2-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cr(OH)3(H2PO4)2-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqLe----",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cr(OH)3(H2PO4)2-2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr(OH)3(H2PO4)2-2",
+               "name" :   "_rdc_Cr(OH)3(H2PO4)2-2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   -2,
+               "comment" :   "- 3.000H+     + 2.000H2(PO4)-     + 1.000Cr+3     + 3.000H2O     = Cr(OH)3(H2PO4)2-2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   13
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cr(OH)3(HPO4)-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cr(OH)3(HPO4)-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqLfm---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cr(OH)3(HPO4)-2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr(OH)3(HPO4)-2",
+               "name" :   "_rdc_Cr(OH)3(HPO4)-2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   -2,
+               "comment" :   "- 4.000H+     + 1.000H2(PO4)-     + 1.000Cr+3     + 3.000H2O     = Cr(OH)3(HPO4)-2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   13
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cr(OH)3(PO4)-3;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cr(OH)3(PO4)-3;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqLhi---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cr(OH)3(PO4)-3",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr(OH)3(PO4)-3",
+               "name" :   "_rdc_Cr(OH)3(PO4)-3",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   -3,
+               "comment" :   "- 5.000H+     + 1.000H2(PO4)-     + 1.000Cr+3     + 3.000H2O     = Cr(OH)3(PO4)-3",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   13
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cr(OH)4(CO3)-3;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cr(OH)4(CO3)-3;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqLjm---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cr(OH)4(CO3)-3",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr(OH)4(CO3)-3",
+               "name" :   "_rdc_Cr(OH)4(CO3)-3",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   -3,
+               "comment" :   "- 4.000H+     + 1.000CO3-2     + 1.000Cr+3     + 4.000H2O     = Cr(OH)4(CO3)-3",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   13
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cr(OH)4(HPO4)(H2PO4)-4;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cr(OH)4(HPO4)(H2PO4)-4;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqLla---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cr(OH)4(HPO4)(H2PO4)-4",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr(OH)4(HPO4)(H2PO4)-4",
+               "name" :   "_rdc_Cr(OH)4(HPO4)(H2PO4)-4",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   -4,
+               "comment" :   "- 5.000H+     + 2.000H2(PO4)-     + 1.000Cr+3     + 4.000H2O     = Cr(OH)4(HPO4)(H2PO4)-4",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   13
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cr(OH)4-;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cr(OH)4-;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqLnm---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cr(OH)4-",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr(OH)4-",
+               "name" :   "_rdc_Cr(OH)4-",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   -1,
+               "comment" :   "- 4.000H+     + 1.000Cr+3     + 4.000H2O     = Cr(OH)4-",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   13
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cr(OH)CO3;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cr(OH)CO3;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqLpe---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cr(OH)CO3",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr(OH)CO3",
+               "name" :   "_rdc_Cr(OH)CO3",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   0,
+               "comment" :   "- 1.000H+     + 1.000CO3-2     + 1.000Cr+3     + 1.000H2O     = Cr(OH)CO3",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   13
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cr(OH)Cl2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cr(OH)Cl2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqLrW---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cr(OH)Cl2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr(OH)Cl2",
+               "name" :   "_rdc_Cr(OH)Cl2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   0,
+               "comment" :   "- 1.000H+     + 2.000Cl-     + 1.000Cr+3     + 1.000H2O     = Cr(OH)Cl2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   13
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cr+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cr+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqBA6---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cr+2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr+2",
+               "name" :   "_rdc_Cr+2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   2,
+               "comment" :   "4.000H+     + 1.000CrO4-2     - 2.000H2O     - 1.000O2     = Cr+2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   2
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cr+3;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cr+3;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqBDG---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cr+3",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr+3",
+               "name" :   "_rdc_Cr+3",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   3,
+               "comment" :   "5.000H+     + 1.000CrO4-2     - 2.500H2O     - 0.750O2     = Cr+3",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   2
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cr2(OH)2+4;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cr2(OH)2+4;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqLtK---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cr2(OH)2+4",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr2(OH)2+4",
+               "name" :   "_rdc_Cr2(OH)2+4",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   4,
+               "comment" :   "- 2.000H+     + 2.000Cr+3     + 2.000H2O     = Cr2(OH)2+4",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   13
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cr2(SO4)3(s);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "Cr2(SO4)3(s);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_Cqzhe---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cr2(SO4)3(s)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr2(SO4)3",
+               "name" :   "_rdc_Cr2(SO4)3",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "Cr2(SO4)3     = 3.000SO4-2     + 2.000Cr+3",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   54
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cr2O3(cr);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "Cr2O3(cr);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_CqzlC---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cr2O3(cr)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr2O3",
+               "name" :   "_rdc_Cr2O3",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "Cr2O3     = - 6.000H+     + 2.000Cr+3     + 3.000H2O",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   54
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cr2O7-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cr2O7-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqLvq---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cr2O7-2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr2O7-2",
+               "name" :   "_rdc_Cr2O7-2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   -2,
+               "comment" :   "2.000H+     + 2.000CrO4-2     - 1.000H2O     = Cr2O7-2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   13
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cr2S3(s);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "Cr2S3(s);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_Cqzoq---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cr2S3(s)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr2S3",
+               "name" :   "_rdc_Cr2S3",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "Cr2S3     = - 3.000H+     + 3.000HS-     + 2.000Cr+3",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   54
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cr3(OH)4+5;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cr3(OH)4+5;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqLxO---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cr3(OH)4+5",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cr3(OH)4+5",
+               "name" :   "_rdc_Cr3(OH)4+5",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   5,
+               "comment" :   "- 4.000H+     + 3.000Cr+3     + 4.000H2O     = Cr3(OH)4+5",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   13
+               }
+          }
+     },
+     {
+          "_id" :   "substances/CrBr+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "CrBr+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqLzG---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "CrBr+2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "CrBr+2",
+               "name" :   "_rdc_CrBr+2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   2,
+               "comment" :   "1.000Br-     + 1.000Cr+3     = CrBr+2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   13
+               }
+          }
+     },
+     {
+          "_id" :   "substances/CrCl+;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "CrCl+;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqL1e---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "CrCl+",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "CrCl+",
+               "name" :   "_rdc_CrCl+",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   1,
+               "comment" :   "1.000Cl-     + 1.000Cr+2     = CrCl+",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   13
+               }
+          }
+     },
+     {
+          "_id" :   "substances/CrCl+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "CrCl+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqL3a---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "CrCl+2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "CrCl+2",
+               "name" :   "_rdc_CrCl+2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   2,
+               "comment" :   "1.000Cl-     + 1.000Cr+3     = CrCl+2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   13
+               }
+          }
+     },
+     {
+          "_id" :   "substances/CrCl2(cr);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "CrCl2(cr);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_Cqzr----",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "CrCl2(cr)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "CrCl2",
+               "name" :   "_rdc_CrCl2",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "CrCl2     = 2.000Cl-     + 1.000Cr+2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   54
+               }
+          }
+     },
+     {
+          "_id" :   "substances/CrCl2+;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "CrCl2+;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqL5a---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "CrCl2+",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "CrCl2+",
+               "name" :   "_rdc_CrCl2+",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   1,
+               "comment" :   "2.000Cl-     + 1.000Cr+3     = CrCl2+",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   13
+               }
+          }
+     },
+     {
+          "_id" :   "substances/CrCl3(cr);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "CrCl3(cr);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_CqztO---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "CrCl3(cr)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "CrCl3",
+               "name" :   "_rdc_CrCl3",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "CrCl3     = 3.000Cl-     + 1.000Cr+3",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   54
+               }
+          }
+     },
+     {
+          "_id" :   "substances/CrF+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "CrF+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqL7q---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "CrF+2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "CrF+2",
+               "name" :   "_rdc_CrF+2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   2,
+               "comment" :   "1.000F-     + 1.000Cr+3     = CrF+2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   13
+               }
+          }
+     },
+     {
+          "_id" :   "substances/CrF2+;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "CrF2+;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqL9m---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "CrF2+",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "CrF2+",
+               "name" :   "_rdc_CrF2+",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   1,
+               "comment" :   "2.000F-     + 1.000Cr+3     = CrF2+",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   13
+               }
+          }
+     },
+     {
+          "_id" :   "substances/CrF3;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "CrF3;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqM_m---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "CrF3",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "CrF3",
+               "name" :   "_rdc_CrF3",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   0,
+               "comment" :   "3.000F-     + 1.000Cr+3     = CrF3",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   13
+               }
+          }
+     },
+     {
+          "_id" :   "substances/CrO2(cr);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "CrO2(cr);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_CqzwW---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "CrO2(cr)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "CrO2",
+               "name" :   "_rdc_CrO2",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "CrO2     = 2.000H+     + 1.000CrO4-2     - 1.000H2O     - 0.500O2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   54
+               }
+          }
+     },
+     {
+          "_id" :   "substances/CrO3(cr);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "CrO3(cr);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_Cqzyu---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "CrO3(cr)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "CrO3",
+               "name" :   "_rdc_CrO3",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "CrO3     = 2.000H+     + 1.000CrO4-2     - 1.000H2O",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   54
+               }
+          }
+     },
+     {
+          "_id" :   "substances/CrO3Cl-;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "CrO3Cl-;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqMBy---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "CrO3Cl-",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "CrO3Cl-",
+               "name" :   "_rdc_CrO3Cl-",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   -1,
+               "comment" :   "2.000H+     + 1.000Cl-     + 1.000CrO4-2     - 1.000H2O     = CrO3Cl-",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   13
+               }
+          }
+     },
+     {
+          "_id" :   "substances/CrPO4(green);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "CrPO4(green);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_Cqz0y---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "CrPO4(green)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "CrPO4",
+               "name" :   "_rdc_CrPO4",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "CrPO4     = - 2.000H+     + 1.000H2(PO4)-     + 1.000Cr+3",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   54
+               }
+          }
+     },
+     {
+          "_id" :   "substances/CrPO4(purple);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "CrPO4(purple);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_Cqz2q---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "CrPO4(purple)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "CrPO4",
+               "name" :   "_rdc_CrPO4",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "CrPO4     = - 2.000H+     + 1.000H2(PO4)-     + 1.000Cr+3",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   54
+               }
+          }
+     },
+     {
+          "_id" :   "substances/CrS(s);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "CrS(s);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_Cqz5W---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "CrS(s)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "CrS",
+               "name" :   "_rdc_CrS",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "CrS     = - 1.000H+     + 1.000HS-     + 1.000Cr+2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   54
+               }
+          }
+     },
+     {
+          "_id" :   "substances/CrSO4+;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "CrSO4+;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqMDq---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "CrSO4+",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "CrSO4+",
+               "name" :   "_rdc_CrSO4+",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   1,
+               "comment" :   "1.000SO4-2     + 1.000Cr+3     = CrSO4+",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   13
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Chromite;0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "Chromite;0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_Cqxc6---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Chromite",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "FeCr2O4",
+               "name" :   "_rdc_FeCr2O4",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "FeCr2O4     = 1.000Fe+2     - 8.000H+     + 2.000Cr+3     + 4.000H2O",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   52
+               }
+          }
+     },
+     {
+          "_id" :   "substances/FeCrO4+;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "FeCrO4+;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqQIu---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "FeCrO4+",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "FeCrO4+",
+               "name" :   "_rdc_FeCrO4+",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   1,
+               "comment" :   "1.000Fe+3     + 1.000CrO4-2     = FeCrO4+",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   18
+               }
+          }
+     },
+     {
+          "_id" :   "substances/H2CrO4;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "H2CrO4;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqRc6---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "H2CrO4",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "H2CrO4",
+               "name" :   "_rdc_H2CrO4",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   0,
+               "comment" :   "2.000H+     + 1.000CrO4-2     = H2CrO4",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   19
+               }
+          }
+     },
+     {
+          "_id" :   "substances/H2CrPO7-;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "H2CrPO7-;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqRey---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "H2CrPO7-",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "H2CrPO7-",
+               "name" :   "_rdc_H2CrPO7-",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   -1,
+               "comment" :   "2.000H+     + 1.000H2(PO4)-     + 1.000CrO4-2     - 1.000H2O     = H2CrPO7-",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   19
+               }
+          }
+     },
+     {
+          "_id" :   "substances/HCrO4-;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "HCrO4-;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqSK6---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "HCrO4-",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "HCrO4-",
+               "name" :   "_rdc_HCrO4-",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   -1,
+               "comment" :   "1.000H+     + 1.000CrO4-2     = HCrO4-",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   20
+               }
+          }
+     },
+     {
+          "_id" :   "substances/HCrPO7-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "HCrPO7-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_c_CqSMy---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "HCrPO7-2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "HCrPO7-2",
+               "name" :   "_rdc_HCrPO7-2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "formula_charge" :   -2,
+               "comment" :   "1.000H+     + 1.000H2(PO4)-     + 1.000CrO4-2     - 1.000H2O     = HCrPO7-2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   20
+               }
+          }
+     },
+     {
+          "_id" :   "substances/KFe(CrO4)2:2H2O(s);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "KFe(CrO4)2:2H2O(s);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_Cq6n----",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "KFe(CrO4)2:2H2O(s)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "KFe(CrO4)2(H2O)2",
+               "name" :   "_rdc_KFe(CrO4)2:2H2O",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "KFe(CrO4)2:2H2O     = 1.000K+     + 1.000Fe+3     + 2.000CrO4-2     + 2.000H2O",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   31,
+                    "second" :   1
+               }
+          }
+     },
+     {
+          "_id" :   "substances/KFe3(CrO4)2(OH)6(cr);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "KFe3(CrO4)2(OH)6(cr);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_Cq6pq---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "KFe3(CrO4)2(OH)6(cr)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "KFe3(CrO4)2(OH)6",
+               "name" :   "_rdc_KFe3(CrO4)2(OH)6",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "KFe3(CrO4)2(OH)6     = 1.000K+     + 3.000Fe+3     - 6.000H+     + 2.000CrO4-2     + 6.000H2O",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   31,
+                    "second" :   1
+               }
+          }
+     },
+     {
+          "_id" :   "substances/MgCr2O4(s);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "MgCr2O4(s);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_Cq8wy---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "MgCr2O4(s)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "MgCr2O4",
+               "name" :   "_rdc_MgCr2O4",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "MgCr2O4     = 1.000Mg+2     - 8.000H+     + 2.000Cr+3     + 4.000H2O",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   31,
+                    "second" :   3
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Crocoite;0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "Crocoite;0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_Cq0-----",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Crocoite",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "PbCrO4",
+               "name" :   "_rdc_PbCrO4",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "PbCrO4     = 1.000Pb+2     + 1.000CrO4-2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   30,
+                    "second" :   54
+               }
+          }
+     },
+     {
+          "_id" :   "substances/SrCrO4(s);0:SC_COMPONENT;1001:WORK1",
+          "_key" :   "SrCrO4(s);0:SC_COMPONENT;1001:WORK1",
+          "_rev" :   "_c_CrIAi---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "SrCrO4(s)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "SrCrO4",
+               "name" :   "_rdc_SrCrO4",
+               "class_" :   {
+                    "0" :   "SC_COMPONENT"
+               },
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "standard_cscale" :   {
+                    "3" :   "CS_MOLALITY"
+               },
+               "comment" :   "SrCrO4     = 1.000Sr+2     + 1.000CrO4-2",
+               "time_stamp" :   {
+                    "year" :   2021,
+                    "month" :   3,
+                    "day" :   8,
+                    "hour" :   10,
+                    "minute" :   31,
+                    "second" :   15
+               }
+          }
+     }
+]

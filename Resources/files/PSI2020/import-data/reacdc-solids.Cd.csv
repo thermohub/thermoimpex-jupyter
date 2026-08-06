@@ -1,0 +1,6 @@
+﻿Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
+Cd(OH)2(s),Cd(OH)2(s),Cd(OH)2,s,-13.72,0.12,94.6,5,,,25,,1 Cd+2 2 H2O(l) -2 H+ = Cd(OH)2(s)
+CdCO3(cr),Otavite,CdCO3,s,12.06,0.04,0,,0,,5,75,1 Cd+2 1 CO3-2 = CdCO3(cr)
+Cd3(PO4)2(s),Cd3(PO4)2(s),Cd3(PO4)2,s,36.9,0.4,,,,,,,3 Cd+2 2 PO4-3 = Cd3(PO4)2(s)
+Cd5H2(PO4)4w4(s),Cd5H2(PO4)4:4H2O(s),Cd5H2(PO4)4(H2O)4,s,31.8,1,,,,,,,5 Cd+2 4 HPO4-2 4 H2O(l) -2 H+ = Cd5H2(PO4)4w4(s)
+CdS(s),CdS(s),CdS|-2|,s,14.1,0.3,,,,,,,1 Cd+2 1 HS- -1 H+ = CdS(s)

@@ -1,0 +1,47 @@
+SOLUTION_MASTER_SPECIES 
+
+
+#        ATOMIC WEIGHTS 
+#        Naturally occuring elements: IUPAC 1993 Table 1 rounded to 0.001
+#        Radioelements: Mass number of longest-lived isotope
+#
+#
+#
+#  elemen     species        alk   gfw_formula element_gfw atomic
+#                                                          number
+#
+Fe(2)	 	0.0	Fe	55.845	 	
+H(1)	 	0.0	H	1.00795	 	
+Se(4)	 	0.0	Se	78.96	 	
+Zz(0)	 	0.0	Zz	0	 	
+
+
+SOLUTION_SPECIES 
+
+# PMATCH MASTER SPECIES 
+
+
+H+	=	H+
+	-log_k 	0.0  
+
+e-	=	e-
+	-log_k 	0.0  
+
+Fe+2	=	Fe+2
+	-log_k 	0.0  
+
+H2Se	=	H2Se
+	-log_k 	0.0  
+
+# PMATCH SECONDARY MASTER SPECIES 
+
+
+
+PHASES 
+
+
+
+Fe1.042Se(cr)
+	FeFe0.042Se + 2H+ = H2Se + 1.042Fe+2 + 0.084e-
+	-analytical_expression	-1.2799724479437 0 265.34527808167 0 0 0 0 
+	-log_K	-0.39 

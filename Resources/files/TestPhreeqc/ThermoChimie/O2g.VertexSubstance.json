@@ -1,0 +1,88 @@
+[
+     {
+          "_id" :   "substances/O2(g);1:SC_GASFLUID;1001:WORK1",
+          "_key" :   "O2(g);1:SC_GASFLUID;1001:WORK1",
+          "_rev" :   "_bwTqWzi--_",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "O2(g)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "O|0|2",
+               "name" :   "_rdc_O2(g)",
+               "class_" :   {
+                    "1" :   "SC_GASFLUID"
+               },
+               "aggregate_state" :   {
+                    "0" :   "AS_GAS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         1.21235
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         205.153409
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "values" :   [
+                         29.374
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "datasources" :   [
+                    "PSI2020"
+               ],
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   3,
+                    "hour" :   14,
+                    "minute" :   47,
+                    "second" :   28
+               }
+          }
+     }
+]

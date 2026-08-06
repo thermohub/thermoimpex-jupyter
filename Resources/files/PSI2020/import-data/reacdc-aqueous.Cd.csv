@@ -1,0 +1,22 @@
+﻿Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
+CdOH+,CdOH+,CdOH+,aq,-9.8,0.1,54.8,2,,,25,,1 Cd+2 1 H2O(l) -1 H+ = CdOH+
+Cd(OH)2(aq),Cd(OH)2(aq),Cd(OH)2(aq),aq,-20.19,0.13,,,,, ,,1 Cd+2 2 H2O(l) -2 H+ = Cd(OH)2(aq)
+Cd(OH)3-,Cd(OH)3-,Cd(OH)3-,aq,-33.5,0.5,,,,, ,,1 Cd+2 3 H2O(l) -3 H+ = Cd(OH)3-
+Cd(OH)4-2,Cd(OH)4-2,Cd(OH)4-2,aq,-47.28,0.15,,,,,,,1 Cd+2 4 H2O(l) -4 H+ = Cd(OH)4-2
+Cd2OH+3,Cd2OH+3,Cd2OH+3,aq,-8.74,0.1,45.6,2,,,25,,2 Cd+2 1 H2O(l) -1 H+ = Cd2OH+3
+CdCl+,CdCl+,CdCl+,aq,1.98,0.06,3.3,0.6,,,25,,1 Cd+2 1 Cl- = CdCl+
+CdCl2(aq),CdCl2(aq),CdCl2(aq),aq,2.64,0.09,7.9,1.4,,,25,,1 Cd+2 2 Cl- = CdCl2(aq)
+CdCl3-,CdCl3-,CdCl3-,aq,2.3,0.21,,,,,25,,1 Cd+2 3 Cl- = CdCl3-
+CdCl4-2,CdCl4-2,CdCl4-2,aq,1.7,,,,,, ,,1 Cd+2 4 Cl- = CdCl4-2
+CdCO3(aq),CdCO3(aq),CdCO3(aq),aq,4.4,0.2,,,,, ,,1 Cd+2 1 CO3-2 = CdCO3(aq)
+Cd(CO3)2-2,Cd(CO3)2-2,Cd(CO3)2-2,aq,6.2,,,,,, ,,1 Cd+2 2 CO3-2 = Cd(CO3)2-2
+CdHCO3+,CdHCO3+,CdHCO3+,aq,1.7,0.4,,,,, ,,1 Cd+2 1 HCO3- = CdHCO3+
+CdHPO4(aq),CdHPO4(aq),CdHPO4(aq),aq,3.72,0.2,,,,, ,,1 Cd+2 1 HPO4-2 = CdHPO4(aq)
+CdH2PO4+,CdH2PO4+,CdH2PO4+,aq,1.9,0.4,,,,, ,,1 Cd+2 1 H2PO4- = CdH2PO4+
+CdSO4(aq),CdSO4(aq),CdSO4(aq),aq,2.36,0.04,8.3,0.5,,,25,,1 Cd+2 1 SO4-2 = CdSO4(aq)
+Cd(SO4)2-2,Cd(SO4)2-2,Cd(SO4)2-2,aq,3.32,0.15,5.7,2.5,,,25,,1 Cd+2 2 SO4-2 = Cd(SO4)2-2
+CdHS+,CdHS+,CdHS|-2|+,aq,7.4,0.7,,,,, ,,1 Cd+2 1 HS- = CdHS+
+Cd(HS)2(aq),Cd(HS)2(aq),Cd(HS|-2|)2(aq),aq,14.43,0.05,,,,, ,,1 Cd+2 2 HS- = Cd(HS)2(aq)
+Cd(HS)3-,Cd(HS)3-,Cd(HS|-2|)3-,aq,16.3,0.6,,,,, ,,1 Cd+2 3 HS- = Cd(HS)3- 
+Cd(HS)4-2,Cd(HS)4-2,Cd(HS|-2|)4-2,aq,18.43,0.05,,,,, ,,1 Cd+2 4 HS- = Cd(HS)4-2
+CdS(HS)-,CdS(HS)-,CdS|-2|(HS|-2|)-,aq,6.8,0.2,,,,, ,,1 Cd+2 2 HS- -1 H+ = CdS(HS)-

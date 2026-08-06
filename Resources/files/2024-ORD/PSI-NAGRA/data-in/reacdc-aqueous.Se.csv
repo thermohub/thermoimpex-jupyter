@@ -1,0 +1,18 @@
+﻿Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
+SeO4-2,SeO4-2,Se|+6|O4-2,aq,-1.75,0.1,-20.8,3.2,0,,0,45,1 HSeO4- -1 H+ = SeO4-2
+NiSeO4(aq),NiSeO4(aq),NiSe|+6|O4(aq),aq,2.67,0.05,,,,,,,1 Ni+2 1 SeO4-2 = NiSeO4(aq)
+MnSeO4(aq),MnSeO4(aq),MnSe|+6|O4(aq),aq,2.43,0.05,,,,,,,1 Mn+2 1 SeO4-2 = MnSeO4(aq)
+MgSeO4(aq),MgSeO4(aq),MgSe|+6|O4(aq),aq,2.2,0.2,,,,,,,1 Mg+2 1 SeO4-2 = MgSeO4(aq)
+CaSeO4(aq),CaSeO4(aq),CaSe|+6|O4(aq),aq,2,0.1,,,,,,,1 Ca+2 1 SeO4-2 = CaSeO4(aq)
+HSeO3-,HSeO3-,HSe|+4|O3-,aq,8.36,0.23,,,,,,,1 SeO3-2 1 H+ = HSeO3-
+H2SeO3(aq),H2SeO3(aq),H2Se|+4|O3(aq),aq,2.64,0.14,,,,,,,1 HSeO3- 1 H+ = H2SeO3(aq)
+SeCN-,SeCN-,Se|0|C|0|N|-1|-,aq,57.3,0.6,,,,,,,1 HCN(aq) 1 SeO3-2 5 H+ 4 e- -3 H2O(l) = SeCN-
+NiSeCN+,NiSeCN+,NiSe|0|C|0|N|-1|+,aq,1.77,0.06,-12.8,0.4,,,25,,1 Ni+2 1 SeCN- = NiSeCN+
+Ni(SeCN)2(aq),Ni(SeCN)2(aq),Ni(Se|0|C|0|N|-1|)2(aq),aq,2.24,0.14,-25,4,,,25,,1 Ni+2 2 SeCN- = Ni(SeCN)2(aq)
+Se2-2,Se2-2,Se|-2|Se|0|-2,aq,25.32,0.33,,,,,,,2 Se-2 -2 e- = Se2-2
+Se3-2,Se3-2,Se|-2|Se|0|2-2,aq,49.97,0.68,,,,,,,3 Se-2 -4 e- = Se3-2
+Se4-2,Se4-2,Se|-2|Se|0|3-2,aq,-16.71,0.11,,,,,,,4 Se(cr) 2 e- = Se4-2
+HSe-,HSe-,HSe|-2|-,aq,-3.85,0.05,,,,,,,1 H2Se(aq) -1 H+ = HSe-
+Se-2,Se-2,Se|-2|-2,aq,-14.91,0.2,,,,,,,1 HSe- -1 H+ = Se-2
+Se(aq),Se(aq),Se|0|,aq,-6,1,,,,,,,1 Se(cr) = Se(aq)
+HSe4-,HSe4-,HSe|-2|Se|0|3-,aq,-7.16,0.15,,,,,,,4 Se(cr) 1 H+ 2 e- = HSe4-

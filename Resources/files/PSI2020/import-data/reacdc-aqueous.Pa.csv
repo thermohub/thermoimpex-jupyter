@@ -1,0 +1,14 @@
+﻿Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
+PaOH+3,PaOH+3,Pa|+4|OH+3,aq,1.3,0.5,,,,,,,1 Pa+4 1 H2O(l) -1 H+ = PaOH+3
+Pa(OH)2+2,Pa(OH)2+2,Pa|+4|(OH)2+2,aq,1.9,0.5,,,,,,,1 Pa+4 2 H2O(l) -2 H+ = Pa(OH)2+2
+Pa(OH)3+,Pa(OH)3+,Pa|+4|(OH)3+,aq,0.9,0.5,,,,,,,1 Pa+4 3 H2O(l) -3 H+ = Pa(OH)3+
+PaO+3,PaO+3,PaO+3,aq,0.04,0.36,,,,,,,1 PaO(OH)+2 1 H+ -1 H2O(l) = PaO+3
+PaO(OH)2+,PaO(OH)2+,PaO(OH)2+,aq,-1.26,0.14,4.7,2.5,,,10,60,1 PaO(OH)+2 1 H2O(l) -1 H+ = PaO(OH)2+
+PaO(OH)3(aq),PaO(OH)3(aq),PaO(OH)3(aq),aq,-5.04,0.35,57,35,,,10,60,1 PaO(OH)2+ 1 H2O(l) -1 H+ = PaO(OH)3(aq)
+PaO(OH)4-,PaO(OH)4-,PaO(OH)4-,aq,-9.4,0.2,,,,,,,1 PaO(OH)3(aq) 1 H2O(l) -1 H+ = PaO(OH)4-
+PaOF+2,PaOF+2,PaOF+2,aq,3.8,0.5,,,,,,,1 PaO(OH)+2 1 HF(aq) -1 H2O(l) = PaOF+2
+PaOF2+,PaOF2+,PaOF2+,aq,7.9,0.5,,,,,,,1 PaO(OH)+2 2 HF(aq) -1 H+ -1 H2O(l) = PaOF2+
+PaOF3(aq),PaOF3(aq),PaOF3(aq),aq,10.9,0.5,,,,,,,1 PaO(OH)+2 3 HF(aq) -2 H+ -1 H2O(l) = PaOF3(aq)
+PaOSO4+,PaOSO4+,PaOSO4+,aq,3.89,0.18,,,,,,,1 PaO(OH)+2 1 SO4-2 1 H+ -1 H2O(l) = PaOSO4+
+PaO(SO4)2-,PaO(SO4)2-,PaO(SO4)2-,aq,7,0.2,,,,,,,1 PaO(OH)+2 2 SO4-2 1 H+ -1 H2O(l) = PaO(SO4)2-
+PaO(SO4)3-3,PaO(SO4)3-3,PaO(SO4)3-3,aq,8.59,0.23,,,,,,,1 PaO(OH)+2 3 SO4-2 1 H+ -1 H2O(l) = PaO(SO4)3-3

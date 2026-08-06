@@ -1,0 +1,44 @@
+B O, H, F, Ba, Ca, Cd, Cu, Fe, Mg, Na, Ni, Pb, Sr Zn
+
+Cr O, H, Ca, Al, P, C, S, Br, Cl, F, K, Mg, Sr, Fe, Pb
+
+
+Ca4Al2O6(CrO4):15H2O(s)
+Ca6(Al(OH)6)2(CrO4)3:26H2O(s)
+CaCrO4(s)
+FeCr2O4
+PbCrO4
+KFe(CrO4)2:2H2O(s)
+KFe3(CrO4)2(OH)6(cr)
+MgCr2O4(s)
+SrCrO4(s)
+
+organic elements
+organic substances formula fix
+B and Cr valences in formula 
+
+102 up, class 2 LIGAND
+
+Ace Acetate
+Adi Adipate
+Mal Malonate
+Nta Nta
+Ox Ox
+Pht Phthalat
+Pyr Pyrophos
+Scn Scn
+Sub Suberate
+Suc Succinat
+
+FOR s IN substances
+FILTER s.properties.formula IN ['Ace-','Adi-2','Ag+','Al+3','Am+3','AsO4-3','B(OH)4-','Ba+2','Br-','Ca+2','Cd+2','Cit-3','Cl-','Cm+3','Cn-','Co+2','CO3-2','CrO4-2','Cs+','Cu+2','-','Edt-4','Eu+3','F-','Fe+2','H+','H2(PO4)-','H2O','H4(SiO4)','Hf+4','HGlu-','HIsa-','Ho+3','I-','K+','Li+','Mal-2','Mg+2','Mn+2','MoO4-2','Na+','Nb(OH)6-','Ni+2','NO3-','NpO2+2','Nta-3','Oxa-2','Pa+4','Pb+2','Pd+2','Pht-2','PuO2+2','Pyr-4','Ra+2','Rb+','Sb(OH)3','Scn-','SeO4-2','Sm+3','Sn+2','SO4-2','Sr+2','Sub-2','Suc-2','TcO(OH)2','Th+4','UO2+2','Zn+2','Zr+4']
+FILTER s.properties.aggregate_state == {'4':'AS_AQUEOUS'}
+RETURN s
+
+make the list with master species and retireve them from PSI nagra database. 
+upload master file and O2_e file
+
+ H+ + B(OH)4- <=> B(OH)3 + H2O
+PSI 2020 / thermochimie
+dHr -14.053 -13.514
+logK 9.235 9.34

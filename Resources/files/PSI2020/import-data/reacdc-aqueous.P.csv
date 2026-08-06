@@ -1,0 +1,22 @@
+﻿Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
+LiPO4-2,LiPO4-2,LiPO4-2,aq,1.8,0.3,,,,,,,1 Li+ 1 PO4-3 = LiPO4-2
+LiHPO4-,LiHPO4-,LiHPO4-,aq,1.28,0.12,20,12,0,,0,37,1 Li+ 1 HPO4-2 = LiHPO4-
+LiH2PO4(aq),LiH2PO4(aq),LiH2PO4(aq),aq,0.6,0.4,,,,,,,1 Li+ 1 H2PO4- = LiH2PO4(aq)
+NaPO4-2,NaPO4-2,NaPO4-2,aq,1.56,0.17,7,8,0,,25,37,1 Na+ 1 PO4-3 = NaPO4-2
+NaHPO4-,NaHPO4-,NaHPO4-,aq,1.03,0.07,23,15,0,,0,37,1 Na+ 1 HPO4-2 = NaHPO4-
+NaH2PO4(aq),NaH2PO4(aq),NaH2PO4(aq),aq,0.3,0.17,17,8,0,,25,37,1 Na+ 1 H2PO4- = NaH2PO4(aq)
+KPO4-2,KPO4-2,KPO4-2,aq,1.46,0.16,6,8,0,,25,37,1 K+ 1 PO4-3 = KPO4-2
+KHPO4-,KHPO4-,KHPO4-,aq,0.88,0.07,18,15,0,,0,37,1 K+ 1 HPO4-2 = KHPO4-
+KH2PO4(aq),KH2PO4(aq),KH2PO4(aq),aq,0.29,0.16,5,8,0,,25,37,1 K+ 1 H2PO4- = KH2PO4(aq)
+MgPO4-,MgPO4-,MgPO4-,aq,4.9,0.5,,,,,,,1 Mg+2 1 PO4-3 = MgPO4-
+MgHPO4(aq),MgHPO4(aq),MgHPO4(aq),aq,2.73,0.06,13.3,7.4,0,,0,50,1 Mg+2 1 HPO4-2 = MgHPO4(aq)
+MgH2PO4+,MgH2PO4+,MgH2PO4+,aq,1.11,0.2,,,,,,,1 Mg+2 1 H2PO4- = MgH2PO4+
+CaPO4-,CaPO4-,CaPO4-,aq,6.46,0.11,-1,18,0,,18,45,1 Ca+2 1 PO4-3 = CaPO4-
+CaHPO4(aq),CaHPO4(aq),CaHPO4(aq),aq,2.58,0.05,13.1,6.3,0,,0,45,1 Ca+2 1 HPO4-2 = CaHPO4(aq)
+CaH2PO4+,CaH2PO4+,CaH2PO4+,aq,0.99,0.09,3,13,0,,5,45,1 Ca+2 1 H2PO4- = CaH2PO4+
+SrPO4-,SrPO4-,SrPO4-,aq,5.62,0.2,,,,,,,1 Sr+2 1 PO4-3 = SrPO4-
+SrHPO4(aq),SrHPO4(aq),SrHPO4(aq),aq,2.35,0.12,9,15,0,,0,25,1 Sr+2 1 HPO4-2 = SrHPO4(aq)
+SrH2PO4+,SrH2PO4+,SrH2PO4+,aq,0.69,0.2,,,,,,,1 Sr+2 1 H2PO4- = SrH2PO4+
+BaPO4-,BaPO4-,BaPO4-,aq,4.7,0.3,,,,,,,1 Ba+2 1 PO4-3 = BaPO4-
+BaHPO4(aq),BaHPO4(aq),BaHPO4(aq),aq,2.25,0.2,,,,,,,1 Ba+2 1 HPO4-2 = BaHPO4(aq)
+BaH2PO4+,BaH2PO4+,BaH2PO4+,aq,0.6,0.3,,,,,,,1 Ba+2 1 H2PO4- = BaH2PO4+

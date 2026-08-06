@@ -1,0 +1,235 @@
+{
+     "block" :   {
+          "defaults" :   {
+               "properties.sourcetdb" :   "{\"24\" : \"NASA-TDB\"}",
+               "properties.temp_import" :   "[{}, {}, {}, {}]",
+               "properties.TPMethods" :   "[{\"method\":{}}, {\"method\":{}}, {\"method\":{}}]",
+               "properties.Tst" :   "298.15",
+               "properties.Pst" :   "1e05"
+          },
+          "matches" :   {
+               "name" :   {
+                    "field" :   "properties.symbol",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "comment" :   {
+                    "field" :   "properties.datasources",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "formula" :   {
+                    "field" :   "properties.formula",
+                    "ignore" :   false,
+                    "script" :   "f = '' \nfor c1, c2, val in string.gmatch(field, '(%a)([%a%s])%s*(-*%d*.%d*)') do \n  v = tonumber(val) \n  if c2 ~= ' ' then c1= c1..c2:lower() end \n  if c1 == 'E' and val:sub(0,1) == '-' then c1 = '+' v= v*(-1) end \n  if c1 == 'E' and val:sub(0,1) ~= '-' then c1 = '-'  end \n  f = f..c1 \n  if v == math.floor(v) then v = math.floor(v) end\n  if v~=1 then f = f..tostring(v) end \nend \nfield = f"
+               },
+               "isgas" :   {
+                    "field" :   "properties.class_",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+                         "0" :   "{\"1\" : \"SC_GASFLUID\"}",
+                         "1" :   "{\"0\" : \"SC_COMPONENT\"}",
+                         "2" :   "{\"0\" : \"SC_COMPONENT\"}",
+                         "3" :   "{\"0\" : \"SC_COMPONENT\"}",
+                         "4" :   "{\"0\" : \"SC_COMPONENT\"}",
+                         "5" :   "{\"0\" : \"SC_COMPONENT\"}"
+                    }
+               },
+               "molecular_weight" :   {
+                    "field" :   "properties.mass_per_mole",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "heat" :   {
+                    "field" :   "properties.sm_enthalpy.values",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+              "Tintervals" :   {
+                    "field" :   "properties.temp_import.0.values",
+                    "ignore" :   false,
+                    "script" :   ""
+               },
+               "repeat0" :   {
+                    "field" :   "properties.temp_import.0.comment",
+                    "ignore" :   false,
+                    "script" :   "field = string.gsub(field, '^([%d%.]*)(..........%d)', '%1%2 '); \nfield = string.gsub(field, '(%d)([%-%+])', '%1 %2'); \nfield = string.gsub(field, 'D', 'e');"
+               },
+               "repeat1" :   {
+                    "field" :   "properties.temp_import.1.comment",
+                    "ignore" :   false,
+                    "script" :   "field = string.gsub(field, '^([%d%.]*)(..........%d)', '%1%2 '); \nfield = string.gsub(field, '(%d)([%-%+])', '%1 %2'); \nfield = string.gsub(field, 'D', 'e');"
+               },
+               "repeat2" :   {
+                    "field" :   "properties.temp_import.2.comment",
+                    "ignore" :   false,
+                    "script" :   "field = string.gsub(field, '^([%d%.]*)(..........%d)', '%1%2 '); \nfield = string.gsub(field, '(%d)([%-%+])', '%1 %2'); \nfield = string.gsub(field, 'D', 'e');"
+               },
+               "repeat3" :   {
+                    "field" :   "properties.temp_import.3.comment",
+                    "ignore" :   false,
+                    "script" :   "field = string.gsub(field, '^([%d%.]*)(..........%d)', '%1%2 '); \nfield = string.gsub(field, '(%d)([%-%+])', '%1 %2'); \nfield = string.gsub(field, 'D', 'e');"
+               }
+          },
+          "script" :   "rintable.properties.name = rintable.properties.symbol; \nfor k, v in pairs(rintable.properties.temp_import) do\nif v.comment then v.values = {}; for match in (v.comment):gmatch('([^%s]+)'..'%s*') do  table.insert( v.values, match) end end  \nend
+local function extract_polynomyal(input_string)
+    -- print(input_string)
+    -- Split the input string into lines
+    lines = {}
+    for line in input_string:gmatch('[^\\n]+') do
+        -- print('line:', line)
+        table.insert(lines, line)
+    end
+
+    -- Function to extract the first two numbers from the string
+    local function extract_numbers(input_str)
+        -- Pattern to capture the first two numbers (floating point or integer)
+        Tmin, Tmax = string.match(input_str, '(%-?%d+%.?%d*)%s+(%-?%d+%.?%d*)')
+        return tonumber(Tmin), tonumber(Tmax)
+    end
+
+    -- Extract Tmin and Tmax
+    local Tmin, Tmax = extract_numbers(lines[1])
+
+    -- Extract 9 coefficients from the last two lines
+    local coefficients = {}
+    -- Check if there are at least three lines to combine
+    if #lines > 2 then
+        local combined_lines = lines[2] .. ' ' .. lines[3]
+
+        -- Function to extract all numbers from the string
+        local function extract_all_numbers(input_str)
+            local numbers = {}
+            -- Pattern to match scientific notation and floating point numbers
+            for num in string.gmatch(input_str, '[+-]?%d+%.?%d*[eE]?[+-]?%d*') do
+                table.insert(numbers, tonumber(num))
+            end
+            return numbers
+        end
+
+        -- Extract all numbers
+        coefficients = extract_all_numbers(combined_lines)
+    else
+    coefficients={}
+    end
+
+    return Tmin, Tmax, coefficients
+end
+
+local nr = 0
+
+for k, v in pairs(rintable.properties.temp_import) do
+    if v.comment ~= nil then
+        nr = nr+1
+        local Tmin, Tmax, coefficients = extract_polynomyal(v.comment)
+        rintable.properties.TPMethods[k] = {}
+        rintable.properties.TPMethods[k].method = {}
+        rintable.properties.TPMethods[k].method['44'] = 'nasa_polynomial'
+        rintable.properties.TPMethods[k].limitsTP = {}
+        rintable.properties.TPMethods[k].limitsTP.range = true
+        rintable.properties.TPMethods[k].limitsTP.lowerT = Tmin
+        rintable.properties.TPMethods[k].limitsTP.upperT = Tmax
+
+        --cp_coeffs = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+
+        rintable.properties.TPMethods[k].m_heat_capacity_ft_coeffs = {}
+        rintable.properties.TPMethods[k].m_heat_capacity_ft_coeffs.values = coefficients
+
+        rintable.properties.TPMethods[k].m_heat_capacity_ft_coeffs.names = {
+            'a1',
+            'a2',
+            'a3',
+            'a4',
+            'a5',
+            'a6',
+            'a7',
+            'b1',
+            'b2'
+        }
+    end
+end
+
+--print(nr)
+
+if nr == 2 then
+   table.remove(rintable.properties.TPMethods, 3) 
+end
+
+if nr == 1 then
+   table.remove(rintable.properties.TPMethods, 3)
+   table.remove(rintable.properties.TPMethods, 2)  
+end
+
+if nr == 0 then
+   table.remove(rintable.properties.TPMethods, 3)
+   table.remove(rintable.properties.TPMethods, 2)
+   table.remove(rintable.properties.TPMethods, 1)  
+end
+     
+rintable.properties.temp_import = nil
+
+if #rintable.properties.TPMethods[1].m_heat_capacity_ft_coeffs.values == 0 then
+rintable.properties.TPMethods = nil
+end
+
+          "
+     },
+     "format" :   {
+          "Nhcols" :   12,
+          "Nhrows" :   0,
+          "headers" :   [
+               "name",
+               "comment",
+               "Tintervals",
+               "reference",
+               "formula",
+               "isgas",
+               "molecular_weight",
+               "heat",
+               "repeat0",
+               "repeat1",
+               "repeat2",
+               "repeat3"
+          ],
+          "rowend" :   "\n",
+          "rows_one_block" :   6,
+          "row_header_regexp" :   "^[a-zA-Z].*",
+          "colends" :   " \t\n",
+          "usequotes" :   false,
+          "usemore" :   false,
+          "comment_regexp" :   "!([^\\n]*)\\n*",
+          "row_size" :   80,
+          "colsizes" :   [
+               18,
+               63,
+               3,
+               7,
+               41,
+               2,
+               13,
+               16,
+               243,
+               243,
+               243,
+               243
+          ]
+     },
+     "renderer" :   "",
+     "label" :   "VertexSubstance",
+     "separators" :   {
+          "v_sep" :   "",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0
+}

@@ -1,0 +1,1127 @@
+[
+     {
+          "_id" :   "substances/Al+3;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Al+3;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_bwN0ALC--_",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Al+3",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Al+3",
+               "name" :   "Al+3",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -487.2
+                    ],
+                    "errors" :   [
+                         2.3
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -539.4
+                    ],
+                    "errors" :   [
+                         2.7
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         -342.8
+                    ],
+                    "errors" :   [
+                         5
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "values" :   [
+                         -96
+                    ],
+                    "errors" :   [
+                         30
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "datasources" :   [
+                    "PSI2020"
+               ],
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   11,
+                    "day" :   16,
+                    "hour" :   15,
+                    "minute" :   9,
+                    "second" :   55
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Ca+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Ca+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_bwN0AdW--_",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Ca+2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Ca+2",
+               "name" :   "Ca+2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -552.806
+                    ],
+                    "errors" :   [
+                         1.05
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -543
+                    ],
+                    "errors" :   [
+                         1
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         -56.2
+                    ],
+                    "errors" :   [
+                         1
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "datasources" :   [
+                    "PSI2020"
+               ],
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   11,
+                    "day" :   16,
+                    "hour" :   15,
+                    "minute" :   9,
+                    "second" :   55
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cl-;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Cl-;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_bwN0Aky--_",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cl-",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Cl-",
+               "name" :   "Cl-",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -131.217
+                    ],
+                    "errors" :   [
+                         0.117
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -167.08
+                    ],
+                    "errors" :   [
+                         0.1
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         56.6
+                    ],
+                    "errors" :   [
+                         0.2
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "datasources" :   [
+                    "PSI2020"
+               ],
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   3,
+                    "hour" :   14,
+                    "minute" :   47,
+                    "second" :   27
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Fe+3;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Fe+3;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_bwN0AyS--_",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Fe+3",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Fe|+3|+3",
+               "name" :   "Fe+3",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -16.23
+                    ],
+                    "errors" :   [
+                         0.65
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -50.06
+                    ],
+                    "errors" :   [
+                         0.97
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         -282.4
+                    ],
+                    "errors" :   [
+                         3.93
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "values" :   [
+                         -108
+                    ],
+                    "errors" :   [
+                         20
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "datasources" :   [
+                    "PSI2020"
+               ],
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   11,
+                    "day" :   17,
+                    "hour" :   8,
+                    "minute" :   26,
+                    "second" :   57
+               }
+          }
+     },
+     {
+          "_id" :   "substances/H+;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "H+;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_bwN0Azy--_",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "H+",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "H+",
+               "name" :   "H+",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         0
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         0
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         0
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "values" :   [
+                         0
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "datasources" :   [
+                    "PSI2020"
+               ],
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   3,
+                    "hour" :   14,
+                    "minute" :   47,
+                    "second" :   27
+               }
+          }
+     },
+     {
+          "_id" :   "substances/H2O(l);2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "H2O(l);2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_bwN0A02--_",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "H2O(l)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "H2O@",
+               "name" :   "H2O(l)",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -237.14
+                    ],
+                    "errors" :   [
+                         0.041
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -285.83
+                    ],
+                    "errors" :   [
+                         0.04
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         69.95
+                    ],
+                    "errors" :   [
+                         0.03
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "values" :   [
+                         75.351
+                    ],
+                    "errors" :   [
+                         0.08
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "datasources" :   [
+                    "PSI2020"
+               ],
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   3,
+                    "hour" :   14,
+                    "minute" :   47,
+                    "second" :   27
+               }
+          }
+     },
+     {
+          "_id" :   "substances/HCO3-;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "HCO3-;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_bwB9DF2---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "HCO3-",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "HCO3-",
+               "name" :   "HCO3-",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -586.875
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -690.215
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         98.4
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "datasources" :   [
+                    "PSI2020"
+               ],
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   3,
+                    "hour" :   14,
+                    "minute" :   47,
+                    "second" :   27
+               }
+          }
+     },
+     {
+          "_id" :   "substances/HPO4-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "HPO4-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_bwC-Lgy---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "HPO4-2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "HPO4-2",
+               "name" :   "HPO4-2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -1095.985
+                    ],
+                    "errors" :   [
+                         1.567
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -1299
+                    ],
+                    "errors" :   [
+                         1.5
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         -33.5
+                    ],
+                    "errors" :   [
+                         1.5
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "datasources" :   [
+                    "PSI2020"
+               ],
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   3,
+                    "hour" :   14,
+                    "minute" :   47,
+                    "second" :   27
+               }
+          }
+     },
+     {
+          "_id" :   "substances/K+;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "K+;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_bwN0BHC--_",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "K+",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "K+",
+               "name" :   "K+",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -282.51
+                    ],
+                    "errors" :   [
+                         0.116
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -252.14
+                    ],
+                    "errors" :   [
+                         0.08
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         101.2
+                    ],
+                    "errors" :   [
+                         0.2
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "datasources" :   [
+                    "PSI2020"
+               ],
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   11,
+                    "day" :   16,
+                    "hour" :   15,
+                    "minute" :   9,
+                    "second" :   55
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Mg+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Mg+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_bwN0BL6--_",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Mg+2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Mg+2",
+               "name" :   "Mg+2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -455.375
+                    ],
+                    "errors" :   [
+                         1.335
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -467
+                    ],
+                    "errors" :   [
+                         0.6
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         -137
+                    ],
+                    "errors" :   [
+                         4
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "datasources" :   [
+                    "PSI2020"
+               ],
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   11,
+                    "day" :   16,
+                    "hour" :   15,
+                    "minute" :   9,
+                    "second" :   55
+               }
+          }
+     },
+     {
+          "_id" :   "substances/NO3-;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "NO3-;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_bwN0Bi6--_",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "NO3-",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "NO3-",
+               "name" :   "NO3-",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -110.794
+                    ],
+                    "errors" :   [
+                         0.417
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -206.85
+                    ],
+                    "errors" :   [
+                         0.4
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         146.7
+                    ],
+                    "errors" :   [
+                         0.4
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "datasources" :   [
+                    "PSI2020"
+               ],
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   3,
+                    "hour" :   14,
+                    "minute" :   47,
+                    "second" :   27
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Na+;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Na+;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_bwN0BkG--_",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Na+",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Na+",
+               "name" :   "Na+",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -261.953
+                    ],
+                    "errors" :   [
+                         0.096
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -240.34
+                    ],
+                    "errors" :   [
+                         0.06
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         58.45
+                    ],
+                    "errors" :   [
+                         0.15
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "datasources" :   [
+                    "PSI2020"
+               ],
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   11,
+                    "day" :   16,
+                    "hour" :   15,
+                    "minute" :   9,
+                    "second" :   55
+               }
+          }
+     },
+     {
+          "_id" :   "substances/O2(g);1:SC_GASFLUID;1001:WORK1",
+          "_key" :   "O2(g);1:SC_GASFLUID;1001:WORK1",
+          "_rev" :   "_bwTqWzi--_",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "O2(g)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "O|0|2",
+               "name" :   "_rdc_O2(g)",
+               "class_" :   {
+                    "1" :   "SC_GASFLUID"
+               },
+               "aggregate_state" :   {
+                    "0" :   "AS_GAS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         1.21235
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         1
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         205.153409
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "values" :   [
+                         29.374
+                    ],
+                    "status" :   [
+                         {
+                              "3" :   "CALCULATED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "datasources" :   [
+                    "PSI2020"
+               ],
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   3,
+                    "hour" :   14,
+                    "minute" :   47,
+                    "second" :   28
+               }
+          }
+     },
+     {
+          "_id" :   "substances/SO4-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "SO4-2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_bwN0CCC--_",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "SO4-2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "SO4-2",
+               "name" :   "SO4-2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -744.004
+                    ],
+                    "errors" :   [
+                         0.418
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -909.34
+                    ],
+                    "errors" :   [
+                         0.4
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         18.5
+                    ],
+                    "errors" :   [
+                         0.4
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "datasources" :   [
+                    "PSI2020"
+               ],
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   3,
+                    "hour" :   14,
+                    "minute" :   47,
+                    "second" :   27
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Si(OH)4(aq);2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Si(OH)4(aq);2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_bwN0CO6--_",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Si(OH)4(aq)",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Si(OH)4@",
+               "name" :   "Si(OH)4(aq)",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -1309.183
+                    ],
+                    "errors" :   [
+                         1.12
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -1461.723
+                    ],
+                    "errors" :   [
+                         1.082
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         178.851
+                    ],
+                    "errors" :   [
+                         2.178
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "values" :   [
+                         237.37
+                    ],
+                    "errors" :   [
+                         2.024
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "datasources" :   [
+                    "PSI2020"
+               ],
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   12,
+                    "day" :   1,
+                    "hour" :   16,
+                    "minute" :   13,
+                    "second" :   12
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Sr+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_key" :   "Sr+2;2:SC_AQSOLUTE;1001:WORK1",
+          "_rev" :   "_bwN0CXm---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Sr+2",
+               "sourcetdb" :   {
+                    "1001" :   "WORK1"
+               },
+               "formula" :   "Sr+2",
+               "name" :   "Sr+2",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -563.864
+                    ],
+                    "errors" :   [
+                         0.781
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -550.9
+                    ],
+                    "errors" :   [
+                         0.5
+                    ],
+                    "units" :   [
+                         "kJ/mol"
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         -31.5
+                    ],
+                    "errors" :   [
+                         2
+                    ],
+                    "units" :   [
+                         "J/(K*mol)"
+                    ]
+               },
+               "datasources" :   [
+                    "PSI2020"
+               ],
+               "time_stamp" :   {
+                    "year" :   2020,
+                    "month" :   11,
+                    "day" :   16,
+                    "hour" :   15,
+                    "minute" :   9,
+                    "second" :   55
+               }
+          }
+     }
+]

@@ -1,0 +1,393 @@
+[
+     {
+          "_id" :   "substances/N2_1:SC_GASFLUID_2:SUPCRT_0",
+          "_key" :   "N2_1:SC_GASFLUID_2:SUPCRT_0",
+          "_rev" :   "_Xy8Ui9y---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "N2",
+               "sourcetdb" :   {
+                    "2" :   "SUPCRT"
+               },
+               "formula" :   "Nia2",
+               "name" :   "NITROGEN GAS (atmosphere)",
+               "class_" :   {
+                    "1" :   "SC_GASFLUID"
+               },
+               "aggregate_state" :   {
+                    "0" :   "AS_GAS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "formula_charge" :   0,
+               "mass_per_mole" :   28.013399124146,
+               "sm_volume" :   {
+                    "values" :   [
+                         2478.9711914062
+                    ],
+                    "errors" :   [
+                         0
+                    ]
+               },
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         0
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         0
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         191.61047363281
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "values" :   [
+                         29.134622573852
+                    ],
+                    "errors" :   [
+                         0
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "cp_ft_equation"
+                         },
+                         "limitsTP" :   {
+                              "lowerT" :   273.15,
+                              "upperT" :   3000.15
+                         },
+                         "m_heat_capacity_ft_coeffs" :   {
+                              "values" :   [
+                                   28.576719284058,
+                                   0.0037655998021364,
+                                   -50208,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ]
+                         }
+                    },
+                    {
+                         "method" :   {
+                              "40" :   "mv_pvnrt"
+                         }
+                    }
+               ],
+               "comment" :   "ref:6,8",
+               "datasources" :   [
+                    "Slop98_dat:1998:data:           "
+               ],
+               "time_stamp" :   {
+                    "year" :   2018,
+                    "month" :   11,
+                    "day" :   26,
+                    "hour" :   11,
+                    "minute" :   35,
+                    "second" :   27
+               }
+          }
+     },
+     {
+          "_id" :   "substances/N2@_2:SC_AQSOLUTE_2:SUPCRT_0",
+          "_key" :   "N2@_2:SC_AQSOLUTE_2:SUPCRT_0",
+          "_rev" :   "_Xy8Uh6q---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "N2@",
+               "sourcetdb" :   {
+                    "2" :   "SUPCRT"
+               },
+               "formula" :   "Nia2@",
+               "name" :   "N2 (atmospheric nitrogen, decoupled from NO3- system)",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "formula_charge" :   0,
+               "mass_per_mole" :   28.013399124146,
+               "sm_volume" :   {
+                    "values" :   [
+                         3.3406999111176
+                    ],
+                    "errors" :   [
+                         0
+                    ]
+               },
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         18188
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -10439
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         95.814002990723
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "values" :   [
+                         234.16000366211
+                    ],
+                    "errors" :   [
+                         0
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "2" :   "solute_hkf88_gems"
+                         },
+                         "eos_hkf_coeffs" :   {
+                              "values" :   [
+                                   0.6204599738121,
+                                   736.85003662109,
+                                   2.8538999557495,
+                                   -30836,
+                                   35.79109954834,
+                                   83725.9921875,
+                                   -34680,
+                                   0
+                              ]
+                         }
+                    }
+               ],
+               "comment" :   "ref:3",
+               "datasources" :   [
+                    "Slop98_dat:1998:data:           "
+               ],
+               "time_stamp" :   {
+                    "year" :   2018,
+                    "month" :   11,
+                    "day" :   26,
+                    "hour" :   11,
+                    "minute" :   35,
+                    "second" :   26
+               }
+          }
+     },
+     {
+          "_id" :   "substances/N2@_2:SC_AQSOLUTE_15:PSI_NAGRA_1",
+          "_key" :   "N2@_2:SC_AQSOLUTE_15:PSI_NAGRA_1",
+          "_rev" :   "_Xy8PcaK---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "N2@",
+               "sourcetdb" :   {
+                    "15" :   "PSI_NAGRA"
+               },
+               "formula" :   "Nit2@",
+               "name" :   "N2 aq  (dissolved atmospheric N2, decoupled from NO3- system)",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "formula_charge" :   0,
+               "mass_per_mole" :   28.013399124146,
+               "sm_volume" :   {
+                    "values" :   [
+                         3.3406913280487
+                    ],
+                    "errors" :   [
+                         0
+                    ]
+               },
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         18194
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -10367.856988678
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         95.814002990723
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "values" :   [
+                         234.15531921387
+                    ],
+                    "errors" :   [
+                         0
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "2" :   "solute_hkf88_gems"
+                         },
+                         "eos_hkf_coeffs" :   {
+                              "values" :   [
+                                   0.6204599738121,
+                                   736.84997558594,
+                                   2.8538999557495,
+                                   -30836,
+                                   35.79109954834,
+                                   83725.9765625,
+                                   -34680,
+                                   0
+                              ]
+                         }
+                    }
+               ],
+               "aq_edh_props" :   {
+                    "values" :   [
+                         -1,
+                         0
+                    ]
+               },
+               "comment" :   "ref:3          ",
+               "datasources" :   [
+                    "Slop98_dat:1998:dat:            ",
+                    "AUG20_GEMS:2001:dat:  "
+               ],
+               "time_stamp" :   {
+                    "year" :   2018,
+                    "month" :   11,
+                    "day" :   26,
+                    "hour" :   11,
+                    "minute" :   29,
+                    "second" :   53
+               }
+          }
+     },
+     {
+          "_id" :   "substances/N2_1:SC_GASFLUID_15:PSI_NAGRA_1",
+          "_key" :   "N2_1:SC_GASFLUID_15:PSI_NAGRA_1",
+          "_rev" :   "_Xy8Pcy2---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "N2",
+               "sourcetdb" :   {
+                    "15" :   "PSI_NAGRA"
+               },
+               "formula" :   "Nit|0|2",
+               "name" :   "N2  g (decoupled N2,g and N2,aq)",
+               "class_" :   {
+                    "1" :   "SC_GASFLUID"
+               },
+               "aggregate_state" :   {
+                    "0" :   "AS_GAS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "formula_charge" :   0,
+               "mass_per_mole" :   28.013399124146,
+               "sm_volume" :   {
+                    "values" :   [
+                         2478.9711914062
+                    ],
+                    "errors" :   [
+                         0
+                    ]
+               },
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         0
+                    ],
+                    "errors" :   [
+                         0
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         0
+                    ],
+                    "errors" :   [
+                         0
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         191.61000061035
+                    ],
+                    "errors" :   [
+                         0
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "values" :   [
+                         29.134721755981
+                    ],
+                    "errors" :   [
+                         0
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "cp_ft_equation"
+                         },
+                         "limitsTP" :   {
+                              "lowerT" :   273.15,
+                              "upperT" :   1273.15
+                         },
+                         "m_heat_capacity_ft_coeffs" :   {
+                              "values" :   [
+                                   28.576700210571,
+                                   0.0037660000380129,
+                                   -50208,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ]
+                         }
+                    },
+                    {
+                         "method" :   {
+                              "40" :   "mv_pvnrt"
+                         }
+                    }
+               ],
+               "comment" :   "ref:6,8                 ",
+               "datasources" :   [
+                    "Slop98_dat:1998:dat:           ",
+                    "AUG20_GEMS:2001:dat:            "
+               ],
+               "time_stamp" :   {
+                    "year" :   2018,
+                    "month" :   11,
+                    "day" :   26,
+                    "hour" :   11,
+                    "minute" :   29,
+                    "second" :   53
+               }
+          }
+     }
+]

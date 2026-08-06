@@ -1,0 +1,81 @@
+{
+     "block" :   {
+          "defaults" :   {
+            "properties.sourcetdb" :   "{\"1001\" :   \"WORK1\"}",
+            "properties.class_" :   "{\"0\" :   \"SC_COMPONENT\"}",
+            "properties.aggregate_state" : "{\"3\" :   \"AS_CRYSTAL\"}",
+            "properties.standard_cscale" : "{\"3\" :   \"CS_MOLALITY\"}"
+          },
+          "pairs" :   {
+               "gamma" :   {
+                    "datatype" :   "string",
+                    "organization" :   "list"
+               }
+          },
+          "matches" :   {
+               "head0" :   {
+                    "field" :   "properties.symbol",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "head1" :   {
+                    "field" :   "properties.comment",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "head2" :   {
+                    "field" :   "properties.name",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "gamma" :   {
+                    "field" :   "properties.eos_ad_coeffs.values",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               }
+          },
+          "script" :   "rintable.properties.symbol = string.match(rintable.properties.symbol, \'%s*([^%s]*)\');\n
+          rintable.properties.name = string.match(rintable.properties.name, \'%s*([^%s]*)\');\n 
+          rintable.properties.formula = string.gsub( rintable.properties.name, ':([%d%.]*)H2O',  '(H2O)%1' );\n
+          if string.match(rintable.properties.symbol, \'%(g%)\') then rintable.properties.class_ = {} rintable.properties.aggregate_state = {} rintable.properties.class_['1'] = 'SC_GASFLUID' rintable.properties.aggregate_state['0'] = 'AS_GAS' end; "
+     },
+     "format" :   {
+          "head_regexp" :   "\\s*([^\\s]+)\\s*;\\s*(([\\w\\t \\+\\-\\(\\):\\.]+)\\s*=\\s*([^;]+))",
+          "end_regexp" :   "",
+          "key_regexp" :   "\\s*;\\s*\\-{0,1}([a-zA-Z]\\w*)\\s*",
+          "value_regexp" :   "\\s*([^#\\n;]*)",
+          "value_next" :   "",
+          "value_token_regexp" :   "\\s+",
+          "comment_regexp" :   "#([^\\n]*)\\n*",
+          "Ndata" :   0
+     },
+     "renderer" :   " ",
+     "label" :   "VertexSubstance",
+     "separators" :   {
+          "v_sep" :   "",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0
+}

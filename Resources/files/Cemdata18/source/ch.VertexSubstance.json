@@ -1,0 +1,85 @@
+[
+     {
+          "_id" :   "substances/e-;2:SC_AQSOLUTE;15:PSI_NAGRA",
+          "_key" :   "e-;2:SC_AQSOLUTE;15:PSI_NAGRA",
+          "_rev" :   "_bPGV9X----",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "e-",
+               "sourcetdb" :   {
+                    "15" :   "PSI_NAGRA"
+               },
+               "formula" :   "-1",
+               "name" :   "electron",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "formula_charge" :   -1,
+               "mass_per_mole" :   0,
+               "sm_volume" :   {
+                    "values" :   [
+                         0
+                    ],
+                    "errors" :   [
+                         0
+                    ],
+                    "units" :   [
+                         "J/bar"
+                    ]
+               },
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         0
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         0
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         65.34
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "values" :   [
+                         14.418
+                    ],
+                    "errors" :   [
+                         0
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ]
+               },
+               "comment" :   "",
+               "datasources" :   [
+                    "AUG20_GEMS:2001:dat:         "
+               ],
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   10,
+                    "day" :   29,
+                    "hour" :   13,
+                    "minute" :   15,
+                    "second" :   30
+               }
+          }
+     }
+]

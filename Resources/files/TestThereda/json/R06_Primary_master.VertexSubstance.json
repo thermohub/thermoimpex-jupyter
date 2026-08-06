@@ -1,0 +1,1721 @@
+[
+     {
+          "_id" :   "substances/Al(OH)4-;2:SC_AQSOLUTE;12:THEREDA",
+          "_key" :   "Al(OH)4-;2:SC_AQSOLUTE;12:THEREDA",
+          "_rev" :   "_Y0RXlSK---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Al(OH)4<->",
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "formula" :   "Al(OH)4-",
+               "name" :   "Al(OH)4<->",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "formula_charge" :   -1,
+               "mass_per_mole" :   95.0114,
+               "sm_volume" :   {
+                    "name" :   "V298"
+               },
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -1305635.8184
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ],
+                    "name" :   "DFG298",
+                    "datasources" :   [
+                         "InternallyCalculated",
+                         ""
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -1500645
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ],
+                    "name" :   "DFH298",
+                    "datasources" :   [
+                         "KON/MAY2006",
+                         ""
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         111.24
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ],
+                    "name" :   "S298",
+                    "datasources" :   [
+                         "KON/MAY2006",
+                         ""
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "values" :   [
+                         97.35
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ],
+                    "name" :   "CP298",
+                    "datasources" :   [
+                         "KON/MAY2006",
+                         ""
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "cp_ft_equation"
+                         },
+                         "limitsTP" :   {
+                              "range" :   false,
+                              "lowerP" :   100000,
+                              "lowerT" :   298.15,
+                              "upperP" :   100000,
+                              "upperT" :   298.15
+                         },
+                         "m_heat_capacity_ft_coeffs" :   {
+                              "values" :   [
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ]
+                         }
+                    }
+               ],
+               "limitsTP" :   {
+                    "range" :   false,
+                    "lowerP" :   0.1,
+                    "lowerT" :   273.15,
+                    "upperP" :   1000000,
+                    "upperT" :   298.15
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   6,
+                    "day" :   17,
+                    "hour" :   11,
+                    "minute" :   51,
+                    "second" :   51
+               }
+          }
+     },
+     {
+          "_id" :   "substances/CO32-;2:SC_AQSOLUTE;12:THEREDA",
+          "_key" :   "CO32-;2:SC_AQSOLUTE;12:THEREDA",
+          "_rev" :   "_Y0RXlUe---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "CO3<2->",
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "formula" :   "CO3-2",
+               "name" :   "CO3<2->",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "formula_charge" :   -2,
+               "mass_per_mole" :   60.01,
+               "sm_volume" :   {
+                    "name" :   "V298"
+               },
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -527899.7738
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "errors" :   [
+                         390
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ],
+                    "name" :   "DFG298",
+                    "datasources" :   [
+                         "InternallyCalculated",
+                         ""
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -675230
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "errors" :   [
+                         250
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ],
+                    "name" :   "DFH298",
+                    "datasources" :   [
+                         "GUI/FAN2003",
+                         ""
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         -50
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "errors" :   [
+                         1
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ],
+                    "name" :   "S298",
+                    "datasources" :   [
+                         "GUI/FAN2003",
+                         ""
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ],
+                    "name" :   "CP298",
+                    "datasources" :   [
+                         "NotYetDetermined",
+                         ""
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "cp_ft_equation"
+                         },
+                         "limitsTP" :   {
+                              "range" :   false,
+                              "lowerP" :   100000,
+                              "lowerT" :   298.15,
+                              "upperP" :   100000,
+                              "upperT" :   298.15
+                         },
+                         "m_heat_capacity_ft_coeffs" :   {
+                              "values" :   [
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ]
+                         }
+                    }
+               ],
+               "limitsTP" :   {
+                    "range" :   false,
+                    "lowerP" :   0.1,
+                    "lowerT" :   273.15,
+                    "upperP" :   1000000,
+                    "upperT" :   298.15
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   6,
+                    "day" :   17,
+                    "hour" :   11,
+                    "minute" :   51,
+                    "second" :   51
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Ca2+;2:SC_AQSOLUTE;12:THEREDA",
+          "_key" :   "Ca2+;2:SC_AQSOLUTE;12:THEREDA",
+          "_rev" :   "_Y0RXlS6---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Ca<2+>",
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "formula" :   "Ca+2",
+               "name" :   "Ca<2+>",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "formula_charge" :   2,
+               "mass_per_mole" :   40.077,
+               "sm_volume" :   {
+                    "name" :   "V298"
+               },
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -552806.1535
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ],
+                    "name" :   "DFG298",
+                    "datasources" :   [
+                         "InternallyCalculated",
+                         ""
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -543000
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "errors" :   [
+                         1000
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ],
+                    "name" :   "DFH298",
+                    "datasources" :   [
+                         "GUI/FAN2003",
+                         ""
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         -56.2
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "errors" :   [
+                         1
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ],
+                    "name" :   "S298",
+                    "datasources" :   [
+                         "GUI/FAN2003",
+                         ""
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ],
+                    "name" :   "CP298",
+                    "datasources" :   [
+                         "NotYetDetermined",
+                         ""
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "cp_ft_equation"
+                         },
+                         "limitsTP" :   {
+                              "range" :   false,
+                              "lowerP" :   100000,
+                              "lowerT" :   298.15,
+                              "upperP" :   100000,
+                              "upperT" :   298.15
+                         },
+                         "m_heat_capacity_ft_coeffs" :   {
+                              "values" :   [
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ]
+                         }
+                    }
+               ],
+               "limitsTP" :   {
+                    "range" :   false,
+                    "lowerP" :   0.1,
+                    "lowerT" :   273.15,
+                    "upperP" :   1000000,
+                    "upperT" :   298.15
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   6,
+                    "day" :   17,
+                    "hour" :   11,
+                    "minute" :   51,
+                    "second" :   51
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Cl-;2:SC_AQSOLUTE;12:THEREDA",
+          "_key" :   "Cl-;2:SC_AQSOLUTE;12:THEREDA",
+          "_rev" :   "_Y0RXlTu---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Cl<->",
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "formula" :   "Cl-",
+               "name" :   "Cl<->",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "formula_charge" :   -1,
+               "mass_per_mole" :   35.454,
+               "sm_volume" :   {
+                    "name" :   "V298"
+               },
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -131218.368925
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ],
+                    "name" :   "DFG298",
+                    "datasources" :   [
+                         "InternallyCalculated",
+                         ""
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -167080
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "errors" :   [
+                         100
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ],
+                    "name" :   "DFH298",
+                    "datasources" :   [
+                         "GUI/FAN2003",
+                         ""
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         56.6
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "errors" :   [
+                         0.2
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ],
+                    "name" :   "S298",
+                    "datasources" :   [
+                         "GUI/FAN2003",
+                         ""
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ],
+                    "name" :   "CP298",
+                    "datasources" :   [
+                         "NotYetDetermined",
+                         ""
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "cp_ft_equation"
+                         },
+                         "limitsTP" :   {
+                              "range" :   false,
+                              "lowerP" :   100000,
+                              "lowerT" :   298.15,
+                              "upperP" :   100000,
+                              "upperT" :   298.15
+                         },
+                         "m_heat_capacity_ft_coeffs" :   {
+                              "values" :   [
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ]
+                         }
+                    }
+               ],
+               "limitsTP" :   {
+                    "range" :   false,
+                    "lowerP" :   0.1,
+                    "lowerT" :   273.15,
+                    "upperP" :   1000000,
+                    "upperT" :   298.15
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   6,
+                    "day" :   17,
+                    "hour" :   11,
+                    "minute" :   51,
+                    "second" :   51
+               }
+          }
+     },
+     {
+          "_id" :   "substances/H+;2:SC_AQSOLUTE;12:THEREDA",
+          "_key" :   "H+;2:SC_AQSOLUTE;12:THEREDA",
+          "_rev" :   "_Y0RXlRi---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "H<+>",
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "formula" :   "H+",
+               "name" :   "H<+>",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "formula_charge" :   1,
+               "mass_per_mole" :   1.00739,
+               "sm_volume" :   {
+                    "name" :   "V298"
+               },
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         0
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ],
+                    "name" :   "DFG298",
+                    "datasources" :   [
+                         "GUI/FAN2003",
+                         "COX/WAG1989"
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         0
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ],
+                    "name" :   "DFH298",
+                    "datasources" :   [
+                         "GUI/FAN2003",
+                         "COX/WAG1989"
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         0
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ],
+                    "name" :   "S298",
+                    "datasources" :   [
+                         "GUI/FAN2003",
+                         "COX/WAG1989"
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "values" :   [
+                         0
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ],
+                    "name" :   "CP298",
+                    "datasources" :   [
+                         "GUI/FAN2003",
+                         "COX/WAG1989"
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "cp_ft_equation"
+                         },
+                         "limitsTP" :   {
+                              "range" :   false,
+                              "lowerP" :   100000,
+                              "lowerT" :   298.15,
+                              "upperP" :   100000,
+                              "upperT" :   298.15
+                         },
+                         "m_heat_capacity_ft_coeffs" :   {
+                              "values" :   [
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ]
+                         }
+                    }
+               ],
+               "limitsTP" :   {
+                    "range" :   false,
+                    "lowerP" :   0.1,
+                    "lowerT" :   273.15,
+                    "upperP" :   1000000,
+                    "upperT" :   298.15
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   6,
+                    "day" :   17,
+                    "hour" :   11,
+                    "minute" :   51,
+                    "second" :   51
+               }
+          }
+     },
+     {
+          "_id" :   "substances/H2(g);1:SC_GASFLUID;12:THEREDA",
+          "_key" :   "H2(g);1:SC_GASFLUID;12:THEREDA",
+          "_rev" :   "_Y0RXlQG---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "H2(g)",
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "formula" :   "H|0|2",
+               "name" :   "H2(g)",
+               "class_" :   {
+                    "1" :   "SC_GASFLUID"
+               },
+               "aggregate_state" :   {
+                    "0" :   "AS_GAS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "formula_charge" :   0,
+               "mass_per_mole" :   2.01588,
+               "sm_volume" :   {
+                    "name" :   "V298"
+               },
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         0
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ],
+                    "name" :   "DFG298",
+                    "datasources" :   [
+                         "InternallyCalculated",
+                         ""
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         0
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ],
+                    "name" :   "DFH298",
+                    "datasources" :   [
+                         "Definition/Convention",
+                         ""
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         130.68
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "errors" :   [
+                         0.003
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ],
+                    "name" :   "S298",
+                    "datasources" :   [
+                         "COX/WAG1989",
+                         ""
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "values" :   [
+                         28.836
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "errors" :   [
+                         0.002
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ],
+                    "name" :   "CP298",
+                    "datasources" :   [
+                         "GUI/FAN2003",
+                         ""
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "cp_ft_equation"
+                         },
+                         "limitsTP" :   {
+                              "range" :   false,
+                              "lowerP" :   100000,
+                              "lowerT" :   298.15,
+                              "upperP" :   100000,
+                              "upperT" :   298.15
+                         },
+                         "m_heat_capacity_ft_coeffs" :   {
+                              "values" :   [
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ]
+                         }
+                    }
+               ],
+               "limitsTP" :   {
+                    "range" :   false,
+                    "lowerP" :   0.1,
+                    "lowerT" :   273.15,
+                    "upperP" :   1000000,
+                    "upperT" :   298.15
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   6,
+                    "day" :   17,
+                    "hour" :   11,
+                    "minute" :   51,
+                    "second" :   51
+               }
+          }
+     },
+     {
+          "_id" :   "substances/H2O(l);3:SC_AQSOLVENT;12:THEREDA",
+          "_key" :   "H2O(l);3:SC_AQSOLVENT;12:THEREDA",
+          "_rev" :   "_Y0RXlQy---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "H2O(l)",
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "formula" :   "H2O@",
+               "name" :   "H2O(l)",
+               "class_" :   {
+                    "3" :   "SC_AQSOLVENT"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "formula_charge" :   0,
+               "mass_per_mole" :   18.0153,
+               "sm_volume" :   {
+                    "name" :   "V298"
+               },
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -237140.3161
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "errors" :   [
+                         41
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ],
+                    "name" :   "DFG298",
+                    "datasources" :   [
+                         "InternallyCalculated",
+                         ""
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -285830
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "errors" :   [
+                         40
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ],
+                    "name" :   "DFH298",
+                    "datasources" :   [
+                         "GUI/FAN2003",
+                         "COX/WAG1989"
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         69.95
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "errors" :   [
+                         0.03
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ],
+                    "name" :   "S298",
+                    "datasources" :   [
+                         "GUI/FAN2003",
+                         "COX/WAG1989"
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "values" :   [
+                         75.30091161505
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "errors" :   [
+                         0.08
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ],
+                    "name" :   "CP298",
+                    "datasources" :   [
+                         "InternallyCalculated",
+                         ""
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "cp_ft_equation"
+                         },
+                         "limitsTP" :   {
+                              "range" :   false,
+                              "lowerP" :   101325,
+                              "lowerT" :   273.15,
+                              "upperP" :   101325,
+                              "upperT" :   400.15
+                         },
+                         "m_heat_capacity_ft_coeffs" :   {
+                              "values" :   [
+                                   2348.29602,
+                                   -4.5477525,
+                                   0.0034374024,
+                                   -507654.831,
+                                   42672174.7,
+                                   0
+                              ]
+                         }
+                    }
+               ],
+               "limitsTP" :   {
+                    "range" :   false,
+                    "lowerP" :   0.1,
+                    "lowerT" :   273.15,
+                    "upperP" :   1000000,
+                    "upperT" :   298.15
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   6,
+                    "day" :   17,
+                    "hour" :   11,
+                    "minute" :   51,
+                    "second" :   51
+               }
+          }
+     },
+     {
+          "_id" :   "substances/K+;2:SC_AQSOLUTE;12:THEREDA",
+          "_key" :   "K+;2:SC_AQSOLUTE;12:THEREDA",
+          "_rev" :   "_Y0RXlVK---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "K<+>",
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "formula" :   "K+",
+               "name" :   "K<+>",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "formula_charge" :   1,
+               "mass_per_mole" :   39.0978,
+               "sm_volume" :   {
+                    "name" :   "V298"
+               },
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -282509.559
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ],
+                    "name" :   "DFG298",
+                    "datasources" :   [
+                         "InternallyCalculated",
+                         ""
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -252140
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "errors" :   [
+                         80
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ],
+                    "name" :   "DFH298",
+                    "datasources" :   [
+                         "GUI/FAN2003",
+                         ""
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         101.2
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "errors" :   [
+                         0.2
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ],
+                    "name" :   "S298",
+                    "datasources" :   [
+                         "GUI/FAN2003",
+                         ""
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ],
+                    "name" :   "CP298",
+                    "datasources" :   [
+                         "NotYetDetermined",
+                         ""
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "cp_ft_equation"
+                         },
+                         "limitsTP" :   {
+                              "range" :   false,
+                              "lowerP" :   100000,
+                              "lowerT" :   298.15,
+                              "upperP" :   100000,
+                              "upperT" :   298.15
+                         },
+                         "m_heat_capacity_ft_coeffs" :   {
+                              "values" :   [
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ]
+                         }
+                    }
+               ],
+               "limitsTP" :   {
+                    "range" :   false,
+                    "lowerP" :   0.1,
+                    "lowerT" :   273.15,
+                    "upperP" :   1000000,
+                    "upperT" :   298.15
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   6,
+                    "day" :   17,
+                    "hour" :   11,
+                    "minute" :   51,
+                    "second" :   51
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Mg2+;2:SC_AQSOLUTE;12:THEREDA",
+          "_key" :   "Mg2+;2:SC_AQSOLUTE;12:THEREDA",
+          "_rev" :   "_Y0RXlVy---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Mg<2+>",
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "formula" :   "Mg+2",
+               "name" :   "Mg<2+>",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "formula_charge" :   2,
+               "mass_per_mole" :   24.304,
+               "sm_volume" :   {
+                    "name" :   "V298"
+               },
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -455375.1315
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ],
+                    "name" :   "DFG298",
+                    "datasources" :   [
+                         "InternallyCalculated",
+                         ""
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -467000
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "errors" :   [
+                         600
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ],
+                    "name" :   "DFH298",
+                    "datasources" :   [
+                         "GUI/FAN2003",
+                         ""
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         -137
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "errors" :   [
+                         4
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ],
+                    "name" :   "S298",
+                    "datasources" :   [
+                         "GUI/FAN2003",
+                         ""
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ],
+                    "name" :   "CP298",
+                    "datasources" :   [
+                         "NotYetDetermined",
+                         ""
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "cp_ft_equation"
+                         },
+                         "limitsTP" :   {
+                              "range" :   false,
+                              "lowerP" :   100000,
+                              "lowerT" :   298.15,
+                              "upperP" :   100000,
+                              "upperT" :   298.15
+                         },
+                         "m_heat_capacity_ft_coeffs" :   {
+                              "values" :   [
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ]
+                         }
+                    }
+               ],
+               "limitsTP" :   {
+                    "range" :   false,
+                    "lowerP" :   0.1,
+                    "lowerT" :   273.15,
+                    "upperP" :   1000000,
+                    "upperT" :   298.15
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   6,
+                    "day" :   17,
+                    "hour" :   11,
+                    "minute" :   51,
+                    "second" :   51
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Na+;2:SC_AQSOLUTE;12:THEREDA",
+          "_key" :   "Na+;2:SC_AQSOLUTE;12:THEREDA",
+          "_rev" :   "_Y0RXlWm---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Na<+>",
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "formula" :   "Na+",
+               "name" :   "Na<+>",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "formula_charge" :   1,
+               "mass_per_mole" :   22.9892207,
+               "sm_volume" :   {
+                    "name" :   "V298"
+               },
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -261952.8935
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ],
+                    "name" :   "DFG298",
+                    "datasources" :   [
+                         "InternallyCalculated",
+                         ""
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -240340
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "errors" :   [
+                         60
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ],
+                    "name" :   "DFH298",
+                    "datasources" :   [
+                         "GUI/FAN2003",
+                         ""
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         58.45
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "errors" :   [
+                         0.15
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ],
+                    "name" :   "S298",
+                    "datasources" :   [
+                         "GUI/FAN2003",
+                         ""
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ],
+                    "name" :   "CP298",
+                    "datasources" :   [
+                         "NotYetDetermined",
+                         ""
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "cp_ft_equation"
+                         },
+                         "limitsTP" :   {
+                              "range" :   false,
+                              "lowerP" :   100000,
+                              "lowerT" :   298.15,
+                              "upperP" :   100000,
+                              "upperT" :   298.15
+                         },
+                         "m_heat_capacity_ft_coeffs" :   {
+                              "values" :   [
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ]
+                         }
+                    }
+               ],
+               "limitsTP" :   {
+                    "range" :   false,
+                    "lowerP" :   0.1,
+                    "lowerT" :   273.15,
+                    "upperP" :   1000000,
+                    "upperT" :   298.15
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   6,
+                    "day" :   17,
+                    "hour" :   11,
+                    "minute" :   51,
+                    "second" :   51
+               }
+          }
+     },
+     {
+          "_id" :   "substances/SO42-;2:SC_AQSOLUTE;12:THEREDA",
+          "_key" :   "SO42-;2:SC_AQSOLUTE;12:THEREDA",
+          "_rev" :   "_Y0RXlYC---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "SO4<2->",
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "formula" :   "SO4-2",
+               "name" :   "SO4<2->",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "formula_charge" :   -2,
+               "mass_per_mole" :   96.064,
+               "sm_volume" :   {
+                    "name" :   "V298"
+               },
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -744004.4953
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "errors" :   [
+                         418
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ],
+                    "name" :   "DFG298",
+                    "datasources" :   [
+                         "InternallyCalculated",
+                         ""
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -909340
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "errors" :   [
+                         400
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ],
+                    "name" :   "DFH298",
+                    "datasources" :   [
+                         "GUI/FAN2003",
+                         "COX/WAG1989"
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         18.5
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "errors" :   [
+                         0.4
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ],
+                    "name" :   "S298",
+                    "datasources" :   [
+                         "GUI/FAN2003",
+                         "COX/WAG1989"
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ],
+                    "name" :   "CP298",
+                    "datasources" :   [
+                         "NotYetDetermined",
+                         ""
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "cp_ft_equation"
+                         },
+                         "limitsTP" :   {
+                              "range" :   false,
+                              "lowerP" :   100000,
+                              "lowerT" :   298.15,
+                              "upperP" :   100000,
+                              "upperT" :   298.15
+                         },
+                         "m_heat_capacity_ft_coeffs" :   {
+                              "values" :   [
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ]
+                         }
+                    }
+               ],
+               "limitsTP" :   {
+                    "range" :   false,
+                    "lowerP" :   0.1,
+                    "lowerT" :   273.15,
+                    "upperP" :   1000000,
+                    "upperT" :   298.15
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   6,
+                    "day" :   17,
+                    "hour" :   11,
+                    "minute" :   51,
+                    "second" :   51
+               }
+          }
+     },
+     {
+          "_id" :   "substances/Si(OH)40;2:SC_AQSOLUTE;12:THEREDA",
+          "_key" :   "Si(OH)40;2:SC_AQSOLUTE;12:THEREDA",
+          "_rev" :   "_Y0RXlXW---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "Si(OH)4<0>",
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "formula" :   "Si(OH)4@",
+               "name" :   "Si(OH)4<0>",
+               "class_" :   {
+                    "2" :   "SC_AQSOLUTE"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "formula_charge" :   0,
+               "mass_per_mole" :   96.1149,
+               "sm_volume" :   {
+                    "name" :   "V298"
+               },
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -1309183.385335
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "errors" :   [
+                         1156
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ],
+                    "name" :   "DFG298",
+                    "datasources" :   [
+                         "InternallyCalculated",
+                         ""
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -1461723.2163
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "errors" :   [
+                         1416.47
+                    ],
+                    "units" :   [
+                         "J/mol"
+                    ],
+                    "name" :   "DFH298",
+                    "datasources" :   [
+                         "GUN/ARN2000",
+                         ""
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         178.8529
+                    ],
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "errors" :   [
+                         10.25
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ],
+                    "name" :   "S298",
+                    "datasources" :   [
+                         "GUN/ARN2000",
+                         ""
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "status" :   [
+                         {
+                              "4" :   "IMPORTED"
+                         }
+                    ],
+                    "units" :   [
+                         "J/(mol*K)"
+                    ],
+                    "name" :   "CP298",
+                    "datasources" :   [
+                         "NotYetDetermined",
+                         ""
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "0" :   "cp_ft_equation"
+                         },
+                         "limitsTP" :   {
+                              "range" :   false,
+                              "lowerP" :   100000,
+                              "lowerT" :   298.15,
+                              "upperP" :   100000,
+                              "upperT" :   298.15
+                         },
+                         "m_heat_capacity_ft_coeffs" :   {
+                              "values" :   [
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0,
+                                   0
+                              ]
+                         }
+                    }
+               ],
+               "limitsTP" :   {
+                    "range" :   false,
+                    "lowerP" :   0.1,
+                    "lowerT" :   273.15,
+                    "upperP" :   1000000,
+                    "upperT" :   298.15
+               },
+               "time_stamp" :   {
+                    "year" :   2019,
+                    "month" :   6,
+                    "day" :   17,
+                    "hour" :   11,
+                    "minute" :   51,
+                    "second" :   51
+               }
+          }
+     }
+]

@@ -1,0 +1,77 @@
+{
+     "block" :   {
+          "defaults" :   {
+
+          },
+          "pairs" :   {
+               "gamma" :   {
+                    "datatype" :   "string",
+                    "organization" :   "list"
+               }
+          },
+          "matches" :   {
+               "head2" :   {
+                    "field" :   "properties.name",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "gamma" :   {
+                    "field" :   "properties.eos_ad_coeffs.values",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+               "head0" :   {
+                    "field" :   "properties.name",
+                    "ignore" :   false,
+                    "script" :   "",
+                    "convert" :   {
+
+                    }
+               },
+	       "Vm" :   {
+                    "field" :   "properties.sm_volume.values",
+                    "ignore" :   false,
+                    "script" :   "field = field * 10;",
+                    "convert" :   {
+
+                    }
+               }
+          },
+          "script" :   "if rintable.properties.class_['1'] then rintable.properties.symbol = rintable.properties.symbol..\'(g)\' end
+rintable.properties.name = string.gsub(rintable.properties.name, '_rdc_', '')"
+     },
+     "format" :   {
+          "head_regexp" :   "\n%head0\n\t%head1\n",
+          "end_regexp" :   "",
+          "key_regexp" :   "\t-%key\t",
+          "value_regexp" :   "%value",
+          "value_next" :   "\n",
+          "value_token_regexp" :   " ",
+          "comment_regexp" :   "#",
+          "Ndata" :   0
+     },
+     "renderer" :   " ",
+     "label" :   "VertexSubstance",
+     "separators" :   {
+          "v_sep" :   "",
+          "l_sep" :   "",
+          "r_sep" :   "",
+          "c_head" :   "",
+          "c_end" :   "",
+          "eod" :   "",
+          "encoding" :   "",
+          "str_delim" :   "",
+          "bod" :   ""
+     },
+     "comment" :   "",
+     "fname" :   "",
+     "Nblocks" :   0,
+     "Nlines" :   0,
+     "direction" :   1
+}
