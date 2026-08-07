@@ -1,0 +1,394 @@
+[
+    {
+        "dod": {
+            "Cp0i": 24.200000762939453,
+            "IC_DC": "",
+            "ICform": "Al",
+            "ICname": "Aluminum NEA(CODATA) ",
+            "IXi": 1,
+            "M0i": 26.98154067993164,
+            "Ri": null,
+            "S0i": 28.299999237060547,
+            "StdSt": "s   ",
+            "V0i": 9.993000030517578,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 13
+        },
+        "key": [
+            "Al",
+            "e",
+            "Aluminum_"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 8.682000160217285,
+            "IC_DC": "s:C0:Gr:dnp:",
+            "ICform": "C ",
+            "ICname": "Carbon (graphite)",
+            "IXi": 1,
+            "M0i": 12.0108003616333,
+            "Ri": null,
+            "S0i": 5.739999771118164,
+            "StdSt": "s  ",
+            "V0i": 4.584400177001953,
+            "Valen": 4,
+            "Zi": null,
+            "indMT": 6
+        },
+        "key": [
+            "C",
+            "e",
+            "Carbon_"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 25.929000854492188,
+            "IC_DC": "---",
+            "ICform": "Ca",
+            "ICname": "Calcium NEA(CODATA)",
+            "IXi": 1,
+            "M0i": 40.077999114990234,
+            "Ri": null,
+            "S0i": 41.59000015258789,
+            "StdSt": "s  ",
+            "V0i": 25.860000610351562,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 20
+        },
+        "key": [
+            "Ca",
+            "e",
+            "Calcium_"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 16.97450065612793,
+            "IC_DC": "---",
+            "ICform": "Cl",
+            "ICname": "Chlorine NEA(CODATA)",
+            "IXi": 1,
+            "M0i": 35.452999114990234,
+            "Ri": null,
+            "S0i": 111.54049682617188,
+            "StdSt": "g   ",
+            "V0i": 12395,
+            "Valen": -1,
+            "Zi": null,
+            "indMT": 17
+        },
+        "key": [
+            "Cl",
+            "e",
+            "Chlorine_"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 24.961000442504883,
+            "IC_DC": "s:Fe0:Fe:dnp:",
+            "ICform": "Fe",
+            "ICname": "Iron",
+            "IXi": 1,
+            "M0i": 55.845001220703125,
+            "Ri": null,
+            "S0i": 27.280000686645508,
+            "StdSt": "s  ",
+            "V0i": 7.0920000076293945,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 26
+        },
+        "key": [
+            "Fe",
+            "e",
+            "Iron_"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 14.409000396728516,
+            "IC_DC": "g:H0:H2:enp:",
+            "ICform": "H",
+            "ICname": "Hydrogen",
+            "IXi": 1,
+            "M0i": 1.007949948310852,
+            "Ri": null,
+            "S0i": 65.33999633789062,
+            "StdSt": "g   ",
+            "V0i": 12395,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 1
+        },
+        "key": [
+            "H",
+            "h",
+            "Hydrogen_"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 29.600000381469727,
+            "IC_DC": "---",
+            "ICform": "K",
+            "ICname": "Potassium NEA(CODATA)",
+            "IXi": 1,
+            "M0i": 39.09830093383789,
+            "Ri": null,
+            "S0i": 64.67999267578125,
+            "StdSt": "s  ",
+            "V0i": 45.4630012512207,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 19
+        },
+        "key": [
+            "K",
+            "e",
+            "Potassium_"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 24.868999481201172,
+            "IC_DC": "---",
+            "ICform": "Mg",
+            "ICname": "Magnesium NEA(CODATA)",
+            "IXi": 1,
+            "M0i": 24.30500030517578,
+            "Ri": null,
+            "S0i": 32.66999816894531,
+            "StdSt": "s  ",
+            "V0i": 13.996000289916992,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 12
+        },
+        "key": [
+            "Mg",
+            "e",
+            "Magnesium_"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 14.567000389099121,
+            "IC_DC": "g:N0:N2:enp:",
+            "ICform": "N",
+            "ICname": "Nitrogen",
+            "IXi": 1,
+            "M0i": 14.006699562072754,
+            "Ri": null,
+            "S0i": 95.80449676513672,
+            "StdSt": "g   ",
+            "V0i": 12395,
+            "Valen": 5,
+            "Zi": null,
+            "indMT": 7
+        },
+        "key": [
+            "N",
+            "e",
+            "Nitrogen_"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 28.229999542236328,
+            "IC_DC": "---",
+            "ICform": "Na",
+            "ICname": "Sodium NEA(CODATA)",
+            "IXi": 1,
+            "M0i": 22.98979949951172,
+            "Ri": null,
+            "S0i": 51.29999923706055,
+            "StdSt": "s ",
+            "V0i": 23.799999237060547,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 11
+        },
+        "key": [
+            "Na",
+            "e",
+            "Sodium_"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 14.567000389099121,
+            "IC_DC": "g:N0:N2:add:",
+            "ICform": "N",
+            "ICname": "Nitrogen (decoupled)",
+            "IXi": 1,
+            "M0i": 14.006699562072754,
+            "Ri": null,
+            "S0i": 95.80449676513672,
+            "StdSt": "g   ",
+            "V0i": 12395,
+            "Valen": 0,
+            "Zi": null,
+            "indMT": 99
+        },
+        "key": [
+            "Nit",
+            "a",
+            "Nitrogen_atm_"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 14.66100025177002,
+            "IC_DC": "g:O0:O2:enp:",
+            "ICform": "O",
+            "ICname": "Oxygen",
+            "IXi": 1,
+            "M0i": 15.99940013885498,
+            "Ri": null,
+            "S0i": 102.56900024414062,
+            "StdSt": "g   ",
+            "V0i": 12395,
+            "Valen": -2,
+            "Zi": null,
+            "indMT": 8
+        },
+        "key": [
+            "O",
+            "o",
+            "Oxygen_"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 23.823999404907227,
+            "IC_DC": "---",
+            "ICform": "P",
+            "ICname": "Phosphorus (white) NEA(CODATA)",
+            "IXi": 1,
+            "M0i": 30.9737606048584,
+            "Ri": null,
+            "S0i": 41.09000015258789,
+            "StdSt": "s  ",
+            "V0i": 17.020000457763672,
+            "Valen": 5,
+            "Zi": null,
+            "indMT": 15
+        },
+        "key": [
+            "P",
+            "e",
+            "Phosphorus_"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 22.76300048828125,
+            "IC_DC": "s:S0:Sulfur:dnp:",
+            "ICform": "S",
+            "ICname": "Sulfur",
+            "IXi": 1,
+            "M0i": 32.06700134277344,
+            "Ri": null,
+            "S0i": 31.79800033569336,
+            "StdSt": "s  ",
+            "V0i": 15.510000228881836,
+            "Valen": 6,
+            "Zi": null,
+            "indMT": 16
+        },
+        "key": [
+            "S",
+            "e",
+            "Sulfur_"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 19.788999557495117,
+            "IC_DC": "---",
+            "ICform": "Si",
+            "ICname": "Silicon NEA(CODATA)",
+            "IXi": 1,
+            "M0i": 28.085500717163086,
+            "Ri": null,
+            "S0i": 18.809999465942383,
+            "StdSt": "s  ",
+            "V0i": 12.055999755859375,
+            "Valen": 4,
+            "Zi": null,
+            "indMT": 14
+        },
+        "key": [
+            "Si",
+            "e",
+            "Silicon_"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 26.399999618530273,
+            "IC_DC": "---",
+            "ICform": "Sr",
+            "ICname": "Strontium NEA, NBS",
+            "IXi": 1,
+            "M0i": 87.62000274658203,
+            "Ri": null,
+            "S0i": 55.70000076293945,
+            "StdSt": "s  ",
+            "V0i": 33.91999816894531,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 38
+        },
+        "key": [
+            "Sr",
+            "e",
+            "Strontium_"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": -14.418000221252441,
+            "IC_DC": "`",
+            "ICform": "Zz",
+            "ICname": "Electrical (proton) charge",
+            "IXi": null,
+            "M0i": 0,
+            "Ri": null,
+            "S0i": -65.33999633789062,
+            "StdSt": null,
+            "V0i": 0,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 0
+        },
+        "key": [
+            "Zz",
+            "z",
+            "Electric_charge_"
+        ],
+        "project": "elements"
+    }
+]
+

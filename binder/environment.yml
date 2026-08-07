@@ -7,6 +7,12 @@
 # IS kept here, same as in the root file, since it's needed for GEMSGUI's
 # json2db CLI tool -- see ../environment.devenv.yml and ../TECHINFO.md).
 #
+# jupyter-archive adds a right-click "Extract Archive"/"Download as archive"
+# option to the JupyterLab file browser (zip/tar/tar.gz/...) -- not part of
+# core JupyterLab. Useful for extracting the tracked data-in/*.zip drops
+# (see e.g. databases/THEREDA/data-in/2026/THEREDA_2026-01_JSON_r17.zip)
+# without a system `unzip` binary, which the mybinder image doesn't ship.
+#
 # No `name:` key on purpose: repo2docker's conda buildpack installs straight
 # into the default notebook/kernel environment when none is given, so
 # $CONDA_PREFIX in binder/postBuild points at it directly.
@@ -26,3 +32,4 @@ dependencies:
   - ipykernel
   - gems3k
   - qt6-main
+  - jupyter-archive

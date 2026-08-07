@@ -1,0 +1,1889 @@
+[
+    {
+        "dod": {
+            "Cp0i": 25.350000381469727,
+            "IC_DC": "s:AG:Ag_cr:cd:",
+            "ICform": "Ag",
+            "ICname": "Silver",
+            "IXi": 1,
+            "M0i": 107.86820220947266,
+            "Ri": null,
+            "S0i": 42.54999923706055,
+            "StdSt": "cr  ",
+            "V0i": 10.272000312805176,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 47
+        },
+        "key": [
+            "Ag",
+            "e",
+            "silveR"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 24.200000762939453,
+            "IC_DC": "",
+            "ICform": "Al",
+            "ICname": "Aluminum NEA(CODATA) ",
+            "IXi": 1,
+            "M0i": 26.98154067993164,
+            "Ri": null,
+            "S0i": 28.299999237060547,
+            "StdSt": "s   ",
+            "V0i": 9.993000030517578,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 13
+        },
+        "key": [
+            "Al",
+            "e",
+            "aluminuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 25.5,
+            "IC_DC": "---",
+            "ICform": "Am",
+            "ICname": "Americium NEA",
+            "IXi": 1,
+            "M0i": 243.06100463867188,
+            "Ri": null,
+            "S0i": 55.400001525878906,
+            "StdSt": "s   ",
+            "V0i": 17.6299991607666,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 95
+        },
+        "key": [
+            "Am",
+            "e",
+            "americiuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 20.785999298095703,
+            "IC_DC": "g:AR:Ar:cd:",
+            "ICform": "Ar",
+            "ICname": "Argon",
+            "IXi": 1,
+            "M0i": 39.948001861572266,
+            "Ri": null,
+            "S0i": 154.8459930419922,
+            "StdSt": "g   ",
+            "V0i": 24790,
+            "Valen": 0,
+            "Zi": null,
+            "indMT": 18
+        },
+        "key": [
+            "Ar",
+            "e",
+            "argoN"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 24.65399932861328,
+            "IC_DC": "s:As0:As:dnp:",
+            "ICform": "As",
+            "ICname": "Arsenic",
+            "IXi": 1,
+            "M0i": 74.92159271240234,
+            "Ri": null,
+            "S0i": 35.689998626708984,
+            "StdSt": "s  ",
+            "V0i": 12.963000297546387,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 33
+        },
+        "key": [
+            "As",
+            "e",
+            "arseniC"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 11.086999893188477,
+            "IC_DC": "---",
+            "ICform": "B",
+            "ICname": "Boron NEA(CODATA)",
+            "IXi": 1,
+            "M0i": 10.812000274658203,
+            "Ri": null,
+            "S0i": 5.900000095367432,
+            "StdSt": "s  ",
+            "V0i": 4.386000156402588,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 5
+        },
+        "key": [
+            "B",
+            "e",
+            "boroN"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 28.06999969482422,
+            "IC_DC": "---",
+            "ICform": "Ba",
+            "ICname": "Barium NEA, NBS",
+            "IXi": 1,
+            "M0i": 137.3280029296875,
+            "Ri": null,
+            "S0i": 62.41999816894531,
+            "StdSt": "s  ",
+            "V0i": 39.2400016784668,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 56
+        },
+        "key": [
+            "Ba",
+            "e",
+            "bariuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 16.44300079345703,
+            "IC_DC": "s:BE:Be_cr:cd:",
+            "ICform": "Be",
+            "ICname": "Beryllium",
+            "IXi": 1,
+            "M0i": 9.01218032836914,
+            "Ri": null,
+            "S0i": 9.5,
+            "StdSt": "cr  ",
+            "V0i": 4.880000114440918,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 4
+        },
+        "key": [
+            "Be",
+            "e",
+            "berylliuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 25.520000457763672,
+            "IC_DC": "s:BI:Bi_cr:nbs:",
+            "ICform": "Bi",
+            "ICname": "Bismuth",
+            "IXi": 1,
+            "M0i": 208.97999572753906,
+            "Ri": null,
+            "S0i": 56.7400016784668,
+            "StdSt": "cr  ",
+            "V0i": 21.30900001525879,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 83
+        },
+        "key": [
+            "Bi",
+            "e",
+            "bismutH"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 37.845001220703125,
+            "IC_DC": "---",
+            "ICform": "Br",
+            "ICname": "Bromine NEA(CODATA), NBS",
+            "IXi": 1,
+            "M0i": 79.90399932861328,
+            "Ri": null,
+            "S0i": 76.1050033569336,
+            "StdSt": "l   ",
+            "V0i": 27.290000915527344,
+            "Valen": -1,
+            "Zi": null,
+            "indMT": 35
+        },
+        "key": [
+            "Br",
+            "e",
+            "brominE"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 8.682000160217285,
+            "IC_DC": "s:C0:Gr:dnp:",
+            "ICform": "C ",
+            "ICname": "Carbon (graphite)",
+            "IXi": 1,
+            "M0i": 12.0108003616333,
+            "Ri": null,
+            "S0i": 5.739999771118164,
+            "StdSt": "s  ",
+            "V0i": 4.584400177001953,
+            "Valen": 4,
+            "Zi": null,
+            "indMT": 6
+        },
+        "key": [
+            "C",
+            "e",
+            "carboN"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 25.929000854492188,
+            "IC_DC": "---",
+            "ICform": "Ca",
+            "ICname": "Calcium NEA(CODATA)",
+            "IXi": 1,
+            "M0i": 40.077999114990234,
+            "Ri": null,
+            "S0i": 41.59000015258789,
+            "StdSt": "s  ",
+            "V0i": 25.860000610351562,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 20
+        },
+        "key": [
+            "Ca",
+            "e",
+            "calciuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 25.93000030517578,
+            "IC_DC": "s:CD:Cd_cr:cd:",
+            "ICform": "Cd",
+            "ICname": "Cadmium",
+            "IXi": 1,
+            "M0i": 112.41000366210938,
+            "Ri": null,
+            "S0i": 51.78900146484375,
+            "StdSt": "cr  ",
+            "V0i": 12.994999885559082,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 48
+        },
+        "key": [
+            "Cd",
+            "e",
+            "cadmiuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 26.940000534057617,
+            "IC_DC": "s:CE:Ce_cr:nbs:",
+            "ICform": "Ce",
+            "ICname": "Cerium",
+            "IXi": 1,
+            "M0i": 140.1199951171875,
+            "Ri": null,
+            "S0i": 72,
+            "StdSt": "cr  ",
+            "V0i": 20.670000076293945,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 58
+        },
+        "key": [
+            "Ce",
+            "e",
+            "ceriuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 16.97450065612793,
+            "IC_DC": "---",
+            "ICform": "Cl",
+            "ICname": "Chlorine NEA(CODATA)",
+            "IXi": 1,
+            "M0i": 35.452999114990234,
+            "Ri": null,
+            "S0i": 111.54049682617188,
+            "StdSt": "g   ",
+            "V0i": 12395,
+            "Valen": -1,
+            "Zi": null,
+            "indMT": 17
+        },
+        "key": [
+            "Cl",
+            "e",
+            "chlorinE"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 28.57710075378418,
+            "IC_DC": "---",
+            "ICform": "Cm",
+            "ICname": "Curium",
+            "IXi": 1,
+            "M0i": 247.07029724121094,
+            "Ri": null,
+            "S0i": 70.80000305175781,
+            "StdSt": "s  ",
+            "V0i": 17.739999771118164,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 96
+        },
+        "key": [
+            "Cm",
+            "e",
+            "curiuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 24.809999465942383,
+            "IC_DC": "s:CO:Co_a:nbs:",
+            "ICform": "Co",
+            "ICname": "Cobalt",
+            "IXi": 1,
+            "M0i": 58.93320083618164,
+            "Ri": null,
+            "S0i": 30.040000915527344,
+            "StdSt": "cr  ",
+            "V0i": 6.619999885559082,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 27
+        },
+        "key": [
+            "Co",
+            "e",
+            "cobalT"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 23.350000381469727,
+            "IC_DC": "s:CR:Cr:nbs:",
+            "ICform": "Cr",
+            "ICname": "Chromium",
+            "IXi": 1,
+            "M0i": 51.99599838256836,
+            "Ri": null,
+            "S0i": 23.770000457763672,
+            "StdSt": "cr  ",
+            "V0i": 7.230999946594238,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 24
+        },
+        "key": [
+            "Cr",
+            "e",
+            "chromiuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 32.209999084472656,
+            "IC_DC": "---",
+            "ICform": "Cs",
+            "ICname": "Cesium NEA(CODATA)",
+            "IXi": 1,
+            "M0i": 132.9053955078125,
+            "Ri": null,
+            "S0i": 85.2300033569336,
+            "StdSt": "s  ",
+            "V0i": 69.7300033569336,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 55
+        },
+        "key": [
+            "Cs",
+            "e",
+            "cesiuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 24.440000534057617,
+            "IC_DC": "s:CU:Cu_cr:cd:",
+            "ICform": "Cu",
+            "ICname": "Copper",
+            "IXi": 1,
+            "M0i": 63.54600143432617,
+            "Ri": null,
+            "S0i": 33.150001525878906,
+            "StdSt": "cr  ",
+            "V0i": 7.11299991607666,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 29
+        },
+        "key": [
+            "Cu",
+            "e",
+            "coppeR"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 27.65999984741211,
+            "IC_DC": "---",
+            "ICform": "Eu",
+            "ICname": "Europium NBS",
+            "IXi": 1,
+            "M0i": 151.96400451660156,
+            "Ri": null,
+            "S0i": 77.77999877929688,
+            "StdSt": "s  ",
+            "V0i": 28.889999389648438,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 63
+        },
+        "key": [
+            "Eu",
+            "e",
+            "europiuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 15.652000427246094,
+            "IC_DC": "---",
+            "ICform": "F",
+            "ICname": "Fluorine NEA(CODATA)",
+            "IXi": 1,
+            "M0i": 18.99839973449707,
+            "Ri": null,
+            "S0i": 101.39600372314453,
+            "StdSt": "g   ",
+            "V0i": 12395,
+            "Valen": -1,
+            "Zi": null,
+            "indMT": 9
+        },
+        "key": [
+            "F",
+            "e",
+            "fluorinE"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 24.961000442504883,
+            "IC_DC": "s:Fe0:Fe:dnp:",
+            "ICform": "Fe",
+            "ICname": "Iron",
+            "IXi": 1,
+            "M0i": 55.845001220703125,
+            "Ri": null,
+            "S0i": 27.280000686645508,
+            "StdSt": "s  ",
+            "V0i": 7.0920000076293945,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 26
+        },
+        "key": [
+            "Fe",
+            "e",
+            "iroN"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 25.860000610351562,
+            "IC_DC": "s:GA:Ga_cr:nbs:",
+            "ICform": "Ga",
+            "ICname": "Gallium",
+            "IXi": 1,
+            "M0i": 69.7199935913086,
+            "Ri": null,
+            "S0i": 40.880001068115234,
+            "StdSt": "cr  ",
+            "V0i": 11.789999961853027,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 31
+        },
+        "key": [
+            "Ga",
+            "e",
+            "galliuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 23.222000122070312,
+            "IC_DC": "s:GE:Ge_cr:cd:",
+            "ICform": "Ge",
+            "ICname": "Germanium",
+            "IXi": 1,
+            "M0i": 72.58999633789062,
+            "Ri": null,
+            "S0i": 31.09000015258789,
+            "StdSt": "cr  ",
+            "V0i": 13.630000114440918,
+            "Valen": 4,
+            "Zi": null,
+            "indMT": 32
+        },
+        "key": [
+            "Ge",
+            "e",
+            "germaniuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 14.409000396728516,
+            "IC_DC": "g:H0:H2:enp:",
+            "ICform": "H",
+            "ICname": "Hydrogen",
+            "IXi": 1,
+            "M0i": 1.007949948310852,
+            "Ri": null,
+            "S0i": 65.33999633789062,
+            "StdSt": "g   ",
+            "V0i": 12395,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 1
+        },
+        "key": [
+            "H",
+            "h",
+            "hydrogeN"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 20.785999298095703,
+            "IC_DC": "g:HE:He:cd:",
+            "ICform": "He",
+            "ICname": "Helium",
+            "IXi": 1,
+            "M0i": 4.002600193023682,
+            "Ri": null,
+            "S0i": 126.15299987792969,
+            "StdSt": "g   ",
+            "V0i": 24790,
+            "Valen": 0,
+            "Zi": null,
+            "indMT": 2
+        },
+        "key": [
+            "He",
+            "e",
+            "heliuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 25.729999542236328,
+            "IC_DC": "s:HF:Hf_cr:nbs:",
+            "ICform": "Hf",
+            "ICname": "Hafnium (www.qivx.com/ispt/elements)",
+            "IXi": 1,
+            "M0i": 178.49000549316406,
+            "Ri": null,
+            "S0i": 43.560001373291016,
+            "StdSt": "cr  ",
+            "V0i": 13.526000022888184,
+            "Valen": 4,
+            "Zi": null,
+            "indMT": 72
+        },
+        "key": [
+            "Hf",
+            "e",
+            "hafniuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 27.982999801635742,
+            "IC_DC": "l:HG:Hg:nbs:",
+            "ICform": "Hg",
+            "ICname": "Mercury",
+            "IXi": 1,
+            "M0i": 200.58999633789062,
+            "Ri": null,
+            "S0i": 76.0199966430664,
+            "StdSt": "l   ",
+            "V0i": 14.826000213623047,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 80
+        },
+        "key": [
+            "Hg",
+            "e",
+            "mercurY"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 27.2189998626709,
+            "IC_DC": "---",
+            "ICform": "I",
+            "ICname": "Iodine NEA(CODATA), NBS",
+            "IXi": 1,
+            "M0i": 126.90399932861328,
+            "Ri": null,
+            "S0i": 58.06999969482422,
+            "StdSt": "s  ",
+            "V0i": 25.79400062561035,
+            "Valen": -1,
+            "Zi": null,
+            "indMT": 53
+        },
+        "key": [
+            "I",
+            "e",
+            "iodinE"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 26.739999771118164,
+            "IC_DC": "s:IN:In_cr:nbs:",
+            "ICform": "In",
+            "ICname": "Indium",
+            "IXi": 1,
+            "M0i": 114.81999969482422,
+            "Ri": null,
+            "S0i": 57.81999969482422,
+            "StdSt": "cr  ",
+            "V0i": 15.75,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 49
+        },
+        "key": [
+            "In",
+            "e",
+            "indiuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 25.100000381469727,
+            "IC_DC": "s:IR:Ir_cr:nbs:",
+            "ICform": "Ir",
+            "ICname": "Iridium",
+            "IXi": 1,
+            "M0i": 192.1999969482422,
+            "Ri": null,
+            "S0i": 35.47999954223633,
+            "StdSt": "cr  ",
+            "V0i": 8.541999816894531,
+            "Valen": 4,
+            "Zi": null,
+            "indMT": 77
+        },
+        "key": [
+            "Ir",
+            "e",
+            "iridiuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 29.600000381469727,
+            "IC_DC": "---",
+            "ICform": "K",
+            "ICname": "Potassium",
+            "IXi": 1,
+            "M0i": 39.09830093383789,
+            "Ri": null,
+            "S0i": 64.67999267578125,
+            "StdSt": "s  ",
+            "V0i": 45.4630012512207,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 19
+        },
+        "key": [
+            "K",
+            "e",
+            "potassiuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 20.785999298095703,
+            "IC_DC": "g:KR:Kr:cd:",
+            "ICform": "Kr",
+            "ICname": "Krypton",
+            "IXi": 1,
+            "M0i": 83.80000305175781,
+            "Ri": null,
+            "S0i": 164.0850067138672,
+            "StdSt": "g   ",
+            "V0i": 24789,
+            "Valen": 0,
+            "Zi": null,
+            "indMT": 36
+        },
+        "key": [
+            "Kr",
+            "e",
+            "kryptoN"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 27.110000610351562,
+            "IC_DC": "s:LA:La_cr:nbs:",
+            "ICform": "La",
+            "ICname": "Lanthanum",
+            "IXi": 1,
+            "M0i": 138.91000366210938,
+            "Ri": null,
+            "S0i": 56.900001525878906,
+            "StdSt": "cr  ",
+            "V0i": 22.469999313354492,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 57
+        },
+        "key": [
+            "La",
+            "e",
+            "lanthanuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 24.62689971923828,
+            "IC_DC": "---",
+            "ICform": "Li",
+            "ICname": "Lithium NEA(CODATA)",
+            "IXi": 1,
+            "M0i": 6.940999984741211,
+            "Ri": 5.309999942779541,
+            "S0i": 28.006000518798828,
+            "StdSt": "s  ",
+            "V0i": 13.095999717712402,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 3
+        },
+        "key": [
+            "Li",
+            "e",
+            "lithiuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 24.868999481201172,
+            "IC_DC": "---",
+            "ICform": "Mg",
+            "ICname": "Magnesium NEA(CODATA)",
+            "IXi": 1,
+            "M0i": 24.30500030517578,
+            "Ri": null,
+            "S0i": 32.66999816894531,
+            "StdSt": "s  ",
+            "V0i": 13.996000289916992,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 12
+        },
+        "key": [
+            "Mg",
+            "e",
+            "magnesiuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 26.31999969482422,
+            "IC_DC": "---",
+            "ICform": "Mn",
+            "ICname": "Manganese NBS",
+            "IXi": 1,
+            "M0i": 54.9379997253418,
+            "Ri": null,
+            "S0i": 32.0099983215332,
+            "StdSt": "s ",
+            "V0i": 7.394000053405762,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 25
+        },
+        "key": [
+            "Mn",
+            "e",
+            "manganesE"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 23.899999618530273,
+            "IC_DC": "s:Mo0:Mo:dnp:",
+            "ICform": "Mo",
+            "ICname": "Molybdenum",
+            "IXi": 1,
+            "M0i": 95.93998718261719,
+            "Ri": null,
+            "S0i": 28.65999984741211,
+            "StdSt": "s  ",
+            "V0i": 9.399999618530273,
+            "Valen": 4,
+            "Zi": null,
+            "indMT": 42
+        },
+        "key": [
+            "Mo",
+            "e",
+            "molybdenuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 14.567000389099121,
+            "IC_DC": "g:N0:N2:enp:",
+            "ICform": "N",
+            "ICname": "Nitrogen",
+            "IXi": 1,
+            "M0i": 14.006699562072754,
+            "Ri": null,
+            "S0i": 95.80449676513672,
+            "StdSt": "g   ",
+            "V0i": 12395,
+            "Valen": 5,
+            "Zi": null,
+            "indMT": 7
+        },
+        "key": [
+            "N",
+            "e",
+            "nitrogeN"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 28.229999542236328,
+            "IC_DC": "---",
+            "ICform": "Na",
+            "ICname": "Sodium NEA(CODATA)",
+            "IXi": 1,
+            "M0i": 22.98979949951172,
+            "Ri": null,
+            "S0i": 51.29999923706055,
+            "StdSt": "s ",
+            "V0i": 23.799999237060547,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 11
+        },
+        "key": [
+            "Na",
+            "e",
+            "sodiuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 24.600000381469727,
+            "IC_DC": "---",
+            "ICform": "Nb",
+            "ICname": "Niobium NBS",
+            "IXi": 1,
+            "M0i": 92.90599822998047,
+            "Ri": null,
+            "S0i": 36.400001525878906,
+            "StdSt": "s  ",
+            "V0i": 10.866000175476074,
+            "Valen": 5,
+            "Zi": null,
+            "indMT": 41
+        },
+        "key": [
+            "Nb",
+            "e",
+            "niobiuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 27.49799919128418,
+            "IC_DC": "s:ND:Nd_cr:nbs:",
+            "ICform": "Nd",
+            "ICname": "Neodymium",
+            "IXi": 1,
+            "M0i": 144.24000549316406,
+            "Ri": null,
+            "S0i": 71.0999984741211,
+            "StdSt": "cr  ",
+            "V0i": 20.56999969482422,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 60
+        },
+        "key": [
+            "Nd",
+            "e",
+            "neodymiuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 20.785999298095703,
+            "IC_DC": "g:NE:Ne:cd:",
+            "ICform": "Ne",
+            "ICname": "Neon",
+            "IXi": 1,
+            "M0i": 20.179000854492188,
+            "Ri": null,
+            "S0i": 146.3280029296875,
+            "StdSt": "g   ",
+            "V0i": 24789,
+            "Valen": 0,
+            "Zi": null,
+            "indMT": 10
+        },
+        "key": [
+            "Ne",
+            "e",
+            "neoN"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 26.06999969482422,
+            "IC_DC": "---",
+            "ICform": "Ni",
+            "ICname": "Nickel NBS",
+            "IXi": 1,
+            "M0i": 58.69300079345703,
+            "Ri": null,
+            "S0i": 29.8700008392334,
+            "StdSt": "s  ",
+            "V0i": 6.589000225067139,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 28
+        },
+        "key": [
+            "Ni",
+            "e",
+            "nickeL"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 29.6200008392334,
+            "IC_DC": "---",
+            "ICform": "Np",
+            "ICname": "Neptunium NEA",
+            "IXi": 1,
+            "M0i": 237.04820251464844,
+            "Ri": null,
+            "S0i": 50.459999084472656,
+            "StdSt": "s   ",
+            "V0i": 11.589200019836426,
+            "Valen": 5,
+            "Zi": null,
+            "indMT": 93
+        },
+        "key": [
+            "Np",
+            "e",
+            "neptuniuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 14.66100025177002,
+            "IC_DC": "g:O0:O2:enp:",
+            "ICform": "O",
+            "ICname": "Oxygen",
+            "IXi": 1,
+            "M0i": 15.99940013885498,
+            "Ri": null,
+            "S0i": 102.56900024414062,
+            "StdSt": "g   ",
+            "V0i": 12395,
+            "Valen": -2,
+            "Zi": null,
+            "indMT": 8
+        },
+        "key": [
+            "O",
+            "o",
+            "oxygeN"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 24.700000762939453,
+            "IC_DC": "s:OS:Os_cr:nbs:",
+            "ICform": "Os",
+            "ICname": "Osmium",
+            "IXi": 1,
+            "M0i": 190.1999969482422,
+            "Ri": null,
+            "S0i": 32.599998474121094,
+            "StdSt": "cr  ",
+            "V0i": 8.423999786376953,
+            "Valen": 4,
+            "Zi": null,
+            "indMT": 76
+        },
+        "key": [
+            "Os",
+            "e",
+            "osmiuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 23.823999404907227,
+            "IC_DC": "---",
+            "ICform": "P",
+            "ICname": "Phosphorus (white) NEA(CODATA)",
+            "IXi": 1,
+            "M0i": 30.9737606048584,
+            "Ri": null,
+            "S0i": 41.09000015258789,
+            "StdSt": "s  ",
+            "V0i": 17.020000457763672,
+            "Valen": 5,
+            "Zi": null,
+            "indMT": 15
+        },
+        "key": [
+            "P",
+            "e",
+            "phosphoruS"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 26.836000442504883,
+            "IC_DC": "---",
+            "ICform": "Pa",
+            "ICname": "Protactinium",
+            "IXi": 1,
+            "M0i": 231.03590393066406,
+            "Ri": null,
+            "S0i": 51.599998474121094,
+            "StdSt": "s  ",
+            "V0i": 14.979999542236328,
+            "Valen": 5,
+            "Zi": null,
+            "indMT": 91
+        },
+        "key": [
+            "Pa",
+            "e",
+            "protactiniuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 26.649999618530273,
+            "IC_DC": "s:PB:Pb_cr:cd:",
+            "ICform": "Pb",
+            "ICname": "Lead",
+            "IXi": 1,
+            "M0i": 207.1999969482422,
+            "Ri": null,
+            "S0i": 64.80000305175781,
+            "StdSt": "cr  ",
+            "V0i": 18.18000030517578,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 82
+        },
+        "key": [
+            "Pb",
+            "e",
+            "leaD"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 25.34000015258789,
+            "IC_DC": "s:Pd:Pd:dnp:",
+            "ICform": "Pd",
+            "ICname": "Palladium [1998SAS/SHO]",
+            "IXi": 1,
+            "M0i": 106.41999816894531,
+            "Ri": null,
+            "S0i": 37.81999969482422,
+            "StdSt": "s",
+            "V0i": 8.862000465393066,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 46
+        },
+        "key": [
+            "Pd",
+            "e",
+            "palladiuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 26.399999618530273,
+            "IC_DC": "s:Po:Po_cr:nbs:",
+            "ICform": "Po",
+            "ICname": "Polonium",
+            "IXi": 1,
+            "M0i": 209.97999572753906,
+            "Ri": null,
+            "S0i": 62.79999923706055,
+            "StdSt": "cr  ",
+            "V0i": 23,
+            "Valen": 5,
+            "Zi": null,
+            "indMT": 84
+        },
+        "key": [
+            "Po",
+            "e",
+            "poloniuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 27.200000762939453,
+            "IC_DC": "s:PR:Pr_cr:nbs:",
+            "ICform": "Pr",
+            "ICname": "Praseodymium",
+            "IXi": 1,
+            "M0i": 140.90699768066406,
+            "Ri": null,
+            "S0i": 73.19999694824219,
+            "StdSt": "cr  ",
+            "V0i": 20.809999465942383,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 59
+        },
+        "key": [
+            "Pr",
+            "e",
+            "praseodymiuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 25.860000610351562,
+            "IC_DC": "s:PT:Pt_cr:nbs:",
+            "ICform": "Pt",
+            "ICname": "Platinum",
+            "IXi": 1,
+            "M0i": 195.08999633789062,
+            "Ri": null,
+            "S0i": 41.630001068115234,
+            "StdSt": "cr  ",
+            "V0i": 9.090999603271484,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 78
+        },
+        "key": [
+            "Pt",
+            "e",
+            "platinuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 31.489999771118164,
+            "IC_DC": "---",
+            "ICform": "Pu",
+            "ICname": "Plutonium NEA",
+            "IXi": 1,
+            "M0i": 244.06399536132812,
+            "Ri": null,
+            "S0i": 54.459999084472656,
+            "StdSt": "s  ",
+            "V0i": 12.085000038146973,
+            "Valen": 5,
+            "Zi": null,
+            "indMT": 94
+        },
+        "key": [
+            "Pu",
+            "e",
+            "plutoniuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 28.700000762939453,
+            "IC_DC": "---",
+            "ICform": "Ra",
+            "ICname": "Radium NBS, ?",
+            "IXi": 1,
+            "M0i": 226.02499389648438,
+            "Ri": null,
+            "S0i": 71,
+            "StdSt": "s  ",
+            "V0i": 45.20000076293945,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 88
+        },
+        "key": [
+            "Ra",
+            "e",
+            "radiuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 31.059999465942383,
+            "IC_DC": "s:RB:Rb_cr:cd:",
+            "ICform": "Rb",
+            "ICname": "Rubidium",
+            "IXi": 1,
+            "M0i": 85.4677963256836,
+            "Ri": null,
+            "S0i": 76.77999877929688,
+            "StdSt": "cr  ",
+            "V0i": 55.849998474121094,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 37
+        },
+        "key": [
+            "Rb",
+            "e",
+            "rubidiuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 25.479999542236328,
+            "IC_DC": "s:RE:Re_cr:nbs:",
+            "ICform": "Re",
+            "ICname": "Rhenium",
+            "IXi": 1,
+            "M0i": 186.1999969482422,
+            "Ri": null,
+            "S0i": 36.86000061035156,
+            "StdSt": "cr  ",
+            "V0i": 8.859999656677246,
+            "Valen": 4,
+            "Zi": null,
+            "indMT": 75
+        },
+        "key": [
+            "Re",
+            "e",
+            "rheniuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 24.979999542236328,
+            "IC_DC": "s:RH:Rh_cr:nbs:",
+            "ICform": "Rh",
+            "ICname": "Rhodium",
+            "IXi": 1,
+            "M0i": 102.90499877929688,
+            "Ri": null,
+            "S0i": 31.510000228881836,
+            "StdSt": "Rh  ",
+            "V0i": 8.281999588012695,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 45
+        },
+        "key": [
+            "Rh",
+            "e",
+            "rhodiuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 20.785999298095703,
+            "IC_DC": "g:RN:Rn:nbs:",
+            "ICform": "Rn",
+            "ICname": "Radon",
+            "IXi": 1,
+            "M0i": 222,
+            "Ri": null,
+            "S0i": 176.2100067138672,
+            "StdSt": "g   ",
+            "V0i": 24789,
+            "Valen": 0,
+            "Zi": null,
+            "indMT": 86
+        },
+        "key": [
+            "Rn",
+            "e",
+            "radoN"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 24.059999465942383,
+            "IC_DC": "s:RU:Ru_cr:nbs:",
+            "ICform": "Ru",
+            "ICname": "Ruthenium",
+            "IXi": 1,
+            "M0i": 101.06999969482422,
+            "Ri": null,
+            "S0i": 28.530000686645508,
+            "StdSt": "cr  ",
+            "V0i": 8.170999526977539,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 44
+        },
+        "key": [
+            "Ru",
+            "e",
+            "rutheniuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 22.76300048828125,
+            "IC_DC": "s:S0:Sulfur:dnp:",
+            "ICform": "S",
+            "ICname": "Sulfur",
+            "IXi": 1,
+            "M0i": 32.06700134277344,
+            "Ri": null,
+            "S0i": 31.79800033569336,
+            "StdSt": "s  ",
+            "V0i": 15.510000228881836,
+            "Valen": 6,
+            "Zi": null,
+            "indMT": 16
+        },
+        "key": [
+            "S",
+            "e",
+            "sulfuR"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 25.229999542236328,
+            "IC_DC": "s:SB:Sb_cr:nbs:",
+            "ICform": "Sb",
+            "ICname": "Antimony",
+            "IXi": 1,
+            "M0i": 121.75,
+            "Ri": null,
+            "S0i": 45.689998626708984,
+            "StdSt": "cr  ",
+            "V0i": 18.229999542236328,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 51
+        },
+        "key": [
+            "Sb",
+            "e",
+            "antimonY"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 25.030000686645508,
+            "IC_DC": "s:Se0:Se:dnp:",
+            "ICform": "Se",
+            "ICname": "Selenium",
+            "IXi": 1,
+            "M0i": 78.95999908447266,
+            "Ri": null,
+            "S0i": 42.27000045776367,
+            "StdSt": "s  ",
+            "V0i": 16.420000076293945,
+            "Valen": 6,
+            "Zi": null,
+            "indMT": 34
+        },
+        "key": [
+            "Se",
+            "e",
+            "seleniuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 19.788999557495117,
+            "IC_DC": "---",
+            "ICform": "Si",
+            "ICname": "Silicon NEA(CODATA)",
+            "IXi": 1,
+            "M0i": 28.085500717163086,
+            "Ri": null,
+            "S0i": 18.809999465942383,
+            "StdSt": "s  ",
+            "V0i": 12.055999755859375,
+            "Valen": 4,
+            "Zi": null,
+            "indMT": 14
+        },
+        "key": [
+            "Si",
+            "e",
+            "silicoN"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 26.351999282836914,
+            "IC_DC": "s:Sn0:Sn:dnp:",
+            "ICform": "Sn",
+            "ICname": "Tin (white, tet.)",
+            "IXi": 1,
+            "M0i": 118.71099853515625,
+            "Ri": null,
+            "S0i": 51.21200180053711,
+            "StdSt": "s  ",
+            "V0i": 16.290000915527344,
+            "Valen": 4,
+            "Zi": null,
+            "indMT": 50
+        },
+        "key": [
+            "Sn",
+            "e",
+            "tiN"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 26.399999618530273,
+            "IC_DC": "---",
+            "ICform": "Sr",
+            "ICname": "Strontium NEA, NBS",
+            "IXi": 1,
+            "M0i": 87.62000274658203,
+            "Ri": null,
+            "S0i": 55.70000076293945,
+            "StdSt": "s  ",
+            "V0i": 33.91999816894531,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 38
+        },
+        "key": [
+            "Sr",
+            "e",
+            "strontiuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 25.360000610351562,
+            "IC_DC": "s:TA:Ta_cr:nbs:",
+            "ICform": "Ta",
+            "ICname": "Tantalum",
+            "IXi": 1,
+            "M0i": 180.947998046875,
+            "Ri": null,
+            "S0i": 41.5099983215332,
+            "StdSt": "cr  ",
+            "V0i": 10.899999618530273,
+            "Valen": 5,
+            "Zi": null,
+            "indMT": 73
+        },
+        "key": [
+            "Ta",
+            "e",
+            "tantaluM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 28.90999984741211,
+            "IC_DC": "s:TB:Tb_cr:nbs:",
+            "ICform": "Tb",
+            "ICname": "Terbium",
+            "IXi": 1,
+            "M0i": 158.9239959716797,
+            "Ri": null,
+            "S0i": 73.22000122070312,
+            "StdSt": "cr  ",
+            "V0i": 19.219999313354492,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 65
+        },
+        "key": [
+            "Tb",
+            "e",
+            "terbiuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 24.899999618530273,
+            "IC_DC": "---",
+            "ICform": "Tc",
+            "ICname": "Technetium NEA",
+            "IXi": 1,
+            "M0i": 97.90699768066406,
+            "Ri": null,
+            "S0i": 32.5,
+            "StdSt": "s  ",
+            "V0i": 8.199999809265137,
+            "Valen": 4,
+            "Zi": null,
+            "indMT": 43
+        },
+        "key": [
+            "Tc",
+            "e",
+            "technetiuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 25.564599990844727,
+            "IC_DC": "s:Te:Te:ac1:",
+            "ICform": "Te",
+            "ICname": "Tellurium",
+            "IXi": 1,
+            "M0i": 127.5999984741211,
+            "Ri": null,
+            "S0i": 49.22200012207031,
+            "StdSt": "s  ",
+            "V0i": 2.0450000762939453,
+            "Valen": 6,
+            "Zi": null,
+            "indMT": 52
+        },
+        "key": [
+            "Te",
+            "e",
+            "TelluriuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 26.229999542236328,
+            "IC_DC": "---",
+            "ICform": "Th",
+            "ICname": "Thorium CODATA",
+            "IXi": 1,
+            "M0i": 232.03810119628906,
+            "Ri": null,
+            "S0i": 51.79999923706055,
+            "StdSt": "s  ",
+            "V0i": 19.790000915527344,
+            "Valen": 4,
+            "Zi": null,
+            "indMT": 90
+        },
+        "key": [
+            "Th",
+            "e",
+            "thoriuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 25.059999465942383,
+            "IC_DC": "s:Ti:Ti_cr:cd:",
+            "ICform": "Ti",
+            "ICname": "Titanium",
+            "IXi": 1,
+            "M0i": 47.880001068115234,
+            "Ri": null,
+            "S0i": 30.719999313354492,
+            "StdSt": "s  ",
+            "V0i": 10.630000114440918,
+            "Valen": 4,
+            "Zi": null,
+            "indMT": 22
+        },
+        "key": [
+            "Ti",
+            "e",
+            "titaniuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 26.31999969482422,
+            "IC_DC": "s:TL:Tl_cr:nbs:",
+            "ICform": "Tl",
+            "ICname": "Thallium",
+            "IXi": 1,
+            "M0i": 204.3699951171875,
+            "Ri": null,
+            "S0i": 64.17999267578125,
+            "StdSt": "cr  ",
+            "V0i": 17.209999084472656,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 81
+        },
+        "key": [
+            "Tl",
+            "e",
+            "thalliuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 27.65999984741211,
+            "IC_DC": "---",
+            "ICform": "U",
+            "ICname": "Uranium NEA(CODATA), NEA",
+            "IXi": 1,
+            "M0i": 238.02890014648438,
+            "Ri": null,
+            "S0i": 50.20000076293945,
+            "StdSt": "s  ",
+            "V0i": 12.496999740600586,
+            "Valen": 6,
+            "Zi": null,
+            "indMT": 92
+        },
+        "key": [
+            "U",
+            "e",
+            "uraniuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 24.25,
+            "IC_DC": "s:W:W_cr:nbs:",
+            "ICform": "W",
+            "ICname": "Tungsten",
+            "IXi": 1,
+            "M0i": 183.85000610351562,
+            "Ri": null,
+            "S0i": 32.63999938964844,
+            "StdSt": "cr  ",
+            "V0i": 9.526000022888184,
+            "Valen": 6,
+            "Zi": null,
+            "indMT": 74
+        },
+        "key": [
+            "W",
+            "e",
+            "tungsteN"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 20.785999298095703,
+            "IC_DC": "g:XE:Xe:cd:",
+            "ICform": "Xe",
+            "ICname": "Xenon",
+            "IXi": 1,
+            "M0i": 131.2899932861328,
+            "Ri": null,
+            "S0i": 169.68499755859375,
+            "StdSt": "g   ",
+            "V0i": 24789,
+            "Valen": 0,
+            "Zi": null,
+            "indMT": 54
+        },
+        "key": [
+            "Xe",
+            "e",
+            "xenoN"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 26.530000686645508,
+            "IC_DC": "s:Y:Y_cr:nbs:",
+            "ICform": "Y",
+            "ICname": "Yttrium",
+            "IXi": 1,
+            "M0i": 88.90499877929688,
+            "Ri": null,
+            "S0i": 44.43000030517578,
+            "StdSt": "cr  ",
+            "V0i": 15.039999961853027,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 39
+        },
+        "key": [
+            "Y",
+            "e",
+            "yttriuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 25.389999389648438,
+            "IC_DC": "s:ZN:Zn_cr:cd:",
+            "ICform": "Zn",
+            "ICname": "Zinc",
+            "IXi": 1,
+            "M0i": 65.37999725341797,
+            "Ri": null,
+            "S0i": 41.630001068115234,
+            "StdSt": "cr  ",
+            "V0i": 9.156999588012695,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 30
+        },
+        "key": [
+            "Zn",
+            "e",
+            "zinC"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": 25.360000610351562,
+            "IC_DC": "---",
+            "ICform": "Zr",
+            "ICname": "Zirconium NBS",
+            "IXi": 1,
+            "M0i": 91.2239990234375,
+            "Ri": null,
+            "S0i": 39,
+            "StdSt": "s  ",
+            "V0i": 14.050000190734863,
+            "Valen": 4,
+            "Zi": null,
+            "indMT": 40
+        },
+        "key": [
+            "Zr",
+            "e",
+            "zirconiuM"
+        ],
+        "project": "elements"
+    },
+    {
+        "dod": {
+            "Cp0i": -14.418000221252441,
+            "IC_DC": "`",
+            "ICform": "Zz",
+            "ICname": "Electrical (proton) charge",
+            "IXi": null,
+            "M0i": 0,
+            "Ri": null,
+            "S0i": -65.33999633789062,
+            "StdSt": null,
+            "V0i": 0,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 0
+        },
+        "key": [
+            "Zz",
+            "z",
+            "electric_chargE"
+        ],
+        "project": "elements"
+    }
+]
+

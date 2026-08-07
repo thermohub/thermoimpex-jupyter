@@ -1,0 +1,48 @@
+[
+     {
+          "_id" :   "phases/(CdSO4):(Na2SO4):2H2O(cr);3:AS_CRYSTAL;12:THEREDA",
+          "_key" :   "(CdSO4):(Na2SO4):2H2O(cr);3:AS_CRYSTAL;12:THEREDA",
+          "_rev" :   "_j35an2W---",
+          "_type" :   "vertex",
+          "_label" :   "phase",
+          "properties" :   {
+               "symbol" :   "(CdSO4):(Na2SO4):2H2O(cr)",
+               "sourcetdb" :   {
+                    "12" :   "THEREDA"
+               },
+               "thermodataset" :   "Imported",
+               "name" :   "(CdSO4):(Na2SO4):2H2O(cr)",
+               "aggregate_state" :   {
+                    "3" :   "AS_CRYSTAL"
+               },
+               "mixmod" :   {
+                    "0" :   "M_PURE"
+               },
+               "kinratemod" :   {
+                    "0" :   "KIN_INSTANT"
+               },
+               "substances" :   [
+                    "CdNa2(SO4)2:2H2O(cr)"
+               ],
+               "Ncomps" :   1,
+               "limitsTP" :   {
+                    "range" :   false,
+                    "lowerP" :   0.1,
+                    "lowerT" :   273.15,
+                    "upperP" :   1000000,
+                    "upperT" :   298.15
+               },
+               "time_stamp" :   {
+                    "year" :   2025,
+                    "month" :   6,
+                    "day" :   24,
+                    "hour" :   0,
+                    "minute" :   15,
+                    "second" :   46
+               },
+               "temp_import" :   [
+
+               ]
+          }
+     }
+]

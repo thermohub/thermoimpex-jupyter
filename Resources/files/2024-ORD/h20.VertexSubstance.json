@@ -1,0 +1,121 @@
+[
+     {
+          "_id" :   "substances/H2O@;3:SC_AQSOLVENT;27:MINES23",
+          "_key" :   "H2O@;3:SC_AQSOLVENT;27:MINES23",
+          "_rev" :   "_iXkj45O---",
+          "_type" :   "vertex",
+          "_label" :   "substance",
+          "properties" :   {
+               "symbol" :   "H2O@",
+               "sourcetdb" :   {
+                    "27" :   "MINES23"
+               },
+               "formula" :   "H2O@",
+               "name" :   "Water HGK",
+               "class_" :   {
+                    "3" :   "SC_AQSOLVENT"
+               },
+               "aggregate_state" :   {
+                    "4" :   "AS_AQUEOUS"
+               },
+               "Tst" :   298.15,
+               "Pst" :   100000,
+               "formula_charge" :   0,
+               "mass_per_mole" :   18.0153007507324,
+               "sm_volume" :   {
+                    "values" :   [
+                         1.80683970451355
+                    ],
+                    "errors" :   [
+                         0
+                    ]
+               },
+               "sm_gibbs_energy" :   {
+                    "values" :   [
+                         -237183
+                    ],
+                    "errors" :   [
+                         100
+                    ]
+               },
+               "sm_enthalpy" :   {
+                    "values" :   [
+                         -285881
+                    ],
+                    "errors" :   [
+                         200
+                    ]
+               },
+               "sm_entropy_abs" :   {
+                    "values" :   [
+                         69.9229965209961
+                    ],
+                    "errors" :   [
+                         0.100000001490116
+                    ]
+               },
+               "sm_heat_capacity_p" :   {
+                    "values" :   [
+                         75.3605270385742
+                    ],
+                    "errors" :   [
+                         0
+                    ]
+               },
+               "TPMethods" :   [
+                    {
+                         "method" :   {
+                              "3" :   "solute_hkf88_reaktoro"
+                         },
+                         "eos_hkf_coeffs" :   {
+                              "values" :   [
+
+                              ]
+                         }
+                    },
+                    {
+                         "method" :   {
+                              "31" :   "water_eos_hgk84_reaktoro"
+                         },
+                         "m_lambda_trans_props" :   {
+                              "values" :   [
+
+                              ]
+                         }
+                    },
+                    {
+                         "method" :   {
+
+                         }
+                    }
+               ],
+               "aq_edh_props" :   {
+                    "values" :   [
+                         -1,
+                         0
+                    ]
+               },
+               "comment" :   "fixed",
+               "datasources" :   [
+                    "Miron_al:2016:opt",
+                    "Slop98_dat:1998:data:"
+               ],
+               "time_stamp" :   {
+                    "year" :   2024,
+                    "month" :   8,
+                    "day" :   28,
+                    "hour" :   17,
+                    "minute" :   41,
+                    "second" :   13
+               },
+               "temp_import" :   [
+                    {
+
+                    },
+                    {
+
+                    }
+               ]
+          }
+     }
+]

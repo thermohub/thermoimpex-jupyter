@@ -1,0 +1,992 @@
+[
+    {
+        "dod": {
+            "Cp0i": 25.350000381469727,
+            "IC_DC": "s:AG:Ag_cr:cd:",
+            "ICform": "Ag",
+            "ICname": "Silver",
+            "IXi": 1,
+            "M0i": 107.86820220947266,
+            "Ri": null,
+            "S0i": 42.54999923706055,
+            "StdSt": "cr  ",
+            "V0i": 10.272000312805176,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 47
+        },
+        "key": [
+            "Ag",
+            "e",
+            "silver_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 24.200000762939453,
+            "IC_DC": "",
+            "ICform": "Al",
+            "ICname": "Aluminum NEA(CODATA) ",
+            "IXi": 1,
+            "M0i": 26.98154067993164,
+            "Ri": null,
+            "S0i": 28.299999237060547,
+            "StdSt": "s   ",
+            "V0i": 9.993000030517578,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 13
+        },
+        "key": [
+            "Al",
+            "e",
+            "aluminum_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 24.65399932861328,
+            "IC_DC": "s:As0:As:dnp:",
+            "ICform": "As",
+            "ICname": "Arsenic",
+            "IXi": 1,
+            "M0i": 74.92159271240234,
+            "Ri": null,
+            "S0i": 35.689998626708984,
+            "StdSt": "s  ",
+            "V0i": 12.963000297546387,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 33
+        },
+        "key": [
+            "As",
+            "e",
+            "arsenic_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 25.417999267578125,
+            "IC_DC": "s:AU:Au_cr:nbs:",
+            "ICform": "Au",
+            "ICname": "Gold",
+            "IXi": 1,
+            "M0i": 196.9669952392578,
+            "Ri": null,
+            "S0i": 47.400001525878906,
+            "StdSt": "cr  ",
+            "V0i": 10.21500015258789,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 79
+        },
+        "key": [
+            "Au",
+            "e",
+            "gold_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 28.06999969482422,
+            "IC_DC": "---",
+            "ICform": "Ba",
+            "ICname": "Barium NEA, NBS",
+            "IXi": 1,
+            "M0i": 137.3280029296875,
+            "Ri": null,
+            "S0i": 62.41999816894531,
+            "StdSt": "s  ",
+            "V0i": 39.2400016784668,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 56
+        },
+        "key": [
+            "Ba",
+            "e",
+            "barium_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 8.682000160217285,
+            "IC_DC": "s:C0:Gr:dnp:",
+            "ICform": "C ",
+            "ICname": "Carbon (graphite)",
+            "IXi": 1,
+            "M0i": 12.0108003616333,
+            "Ri": null,
+            "S0i": 5.739999771118164,
+            "StdSt": "s  ",
+            "V0i": 4.584400177001953,
+            "Valen": 4,
+            "Zi": null,
+            "indMT": 6
+        },
+        "key": [
+            "C",
+            "e",
+            "carbon_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 25.929000854492188,
+            "IC_DC": "---",
+            "ICform": "Ca",
+            "ICname": "Calcium NEA(CODATA)",
+            "IXi": 1,
+            "M0i": 40.077999114990234,
+            "Ri": null,
+            "S0i": 41.59000015258789,
+            "StdSt": "s  ",
+            "V0i": 25.860000610351562,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 20
+        },
+        "key": [
+            "Ca",
+            "e",
+            "calcium_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 26.940000534057617,
+            "IC_DC": "s:CE:Ce_cr:nbs:",
+            "ICform": "Ce",
+            "ICname": "Cerium",
+            "IXi": 1,
+            "M0i": 140.1199951171875,
+            "Ri": null,
+            "S0i": 72,
+            "StdSt": "cr  ",
+            "V0i": 20.670000076293945,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 58
+        },
+        "key": [
+            "Ce",
+            "e",
+            "cerium_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 16.97450065612793,
+            "IC_DC": "---",
+            "ICform": "Cl",
+            "ICname": "Chlorine NEA(CODATA)",
+            "IXi": 1,
+            "M0i": 35.452999114990234,
+            "Ri": null,
+            "S0i": 111.54049682617188,
+            "StdSt": "g   ",
+            "V0i": 12395,
+            "Valen": -1,
+            "Zi": null,
+            "indMT": 17
+        },
+        "key": [
+            "Cl",
+            "e",
+            "chlorine_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 24.440000534057617,
+            "IC_DC": "s:CU:Cu_cr:cd:",
+            "ICform": "Cu",
+            "ICname": "Copper",
+            "IXi": 1,
+            "M0i": 63.54600143432617,
+            "Ri": null,
+            "S0i": 33.150001525878906,
+            "StdSt": "cr  ",
+            "V0i": 7.11299991607666,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 29
+        },
+        "key": [
+            "Cu",
+            "e",
+            "copper_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 28.15999984741211,
+            "IC_DC": "s:DY:Dy_cr:nbs:",
+            "ICform": "Dy",
+            "ICname": "Dysprosium",
+            "IXi": 1,
+            "M0i": 162.5,
+            "Ri": null,
+            "S0i": 74.7699966430664,
+            "StdSt": "cr  ",
+            "V0i": 19.030000686645508,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 66
+        },
+        "key": [
+            "Dy",
+            "e",
+            "dysprosium_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 28.1200008392334,
+            "IC_DC": "s:ER:Er_cr:nbs:",
+            "ICform": "Er",
+            "ICname": "Erbium",
+            "IXi": 1,
+            "M0i": 167.25999450683594,
+            "Ri": null,
+            "S0i": 73.18000030517578,
+            "StdSt": "cr  ",
+            "V0i": 18.479999542236328,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 68
+        },
+        "key": [
+            "Er",
+            "e",
+            "erbium_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 27.65999984741211,
+            "IC_DC": "---",
+            "ICform": "Eu",
+            "ICname": "Europium NBS",
+            "IXi": 1,
+            "M0i": 151.96400451660156,
+            "Ri": null,
+            "S0i": 77.77999877929688,
+            "StdSt": "s  ",
+            "V0i": 28.889999389648438,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 63
+        },
+        "key": [
+            "Eu",
+            "e",
+            "europium_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 15.652000427246094,
+            "IC_DC": "---",
+            "ICform": "F",
+            "ICname": "Fluorine NEA(CODATA)",
+            "IXi": 1,
+            "M0i": 18.99839973449707,
+            "Ri": null,
+            "S0i": 101.39550018310547,
+            "StdSt": "g   ",
+            "V0i": 12395,
+            "Valen": -1,
+            "Zi": null,
+            "indMT": 9
+        },
+        "key": [
+            "F",
+            "e",
+            "fluorine_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 24.961000442504883,
+            "IC_DC": "s:Fe0:Fe:dnp:",
+            "ICform": "Fe",
+            "ICname": "Iron",
+            "IXi": 1,
+            "M0i": 55.845001220703125,
+            "Ri": null,
+            "S0i": 27.280000686645508,
+            "StdSt": "s  ",
+            "V0i": 7.0920000076293945,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 26
+        },
+        "key": [
+            "Fe",
+            "e",
+            "iron_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 37.029998779296875,
+            "IC_DC": "s:GD:Gd_cr:nbs:",
+            "ICform": "Gd",
+            "ICname": "Gadolinium",
+            "IXi": 1,
+            "M0i": 157.25,
+            "Ri": null,
+            "S0i": 68.06999969482422,
+            "StdSt": "cr  ",
+            "V0i": 19.889999389648438,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 64
+        },
+        "key": [
+            "Gd",
+            "e",
+            "gadolinium_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 14.409000396728516,
+            "IC_DC": "g:H0:H2:enp:",
+            "ICform": "H",
+            "ICname": "Hydrogen",
+            "IXi": 1,
+            "M0i": 1.007949948310852,
+            "Ri": null,
+            "S0i": 65.33999633789062,
+            "StdSt": "g   ",
+            "V0i": 12395,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 1
+        },
+        "key": [
+            "H",
+            "h",
+            "hydrogen_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 27.149999618530273,
+            "IC_DC": "s:HO:Ho_cr:nbs:",
+            "ICform": "Ho",
+            "ICname": "Holmium",
+            "IXi": 1,
+            "M0i": 164.92999267578125,
+            "Ri": null,
+            "S0i": 75.30000305175781,
+            "StdSt": "cr  ",
+            "V0i": 18.739999771118164,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 67
+        },
+        "key": [
+            "Ho",
+            "e",
+            "holmium_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 29.600000381469727,
+            "IC_DC": "---",
+            "ICform": "K",
+            "ICname": "Potassium NEA(CODATA)",
+            "IXi": 1,
+            "M0i": 39.09830093383789,
+            "Ri": null,
+            "S0i": 64.67999267578125,
+            "StdSt": "s  ",
+            "V0i": 45.4630012512207,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 19
+        },
+        "key": [
+            "K",
+            "e",
+            "potassium_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 27.110000610351562,
+            "IC_DC": "s:LA:La_cr:nbs:",
+            "ICform": "La",
+            "ICname": "Lanthanum",
+            "IXi": 1,
+            "M0i": 138.91000366210938,
+            "Ri": null,
+            "S0i": 56.900001525878906,
+            "StdSt": "cr  ",
+            "V0i": 22.469999313354492,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 57
+        },
+        "key": [
+            "La",
+            "e",
+            "lanthanum_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 26.860000610351562,
+            "IC_DC": "s:LU:lu_cr:nbs:",
+            "ICform": "Lu",
+            "ICname": "Lutetium",
+            "IXi": 1,
+            "M0i": 174.97000122070312,
+            "Ri": null,
+            "S0i": 50.959999084472656,
+            "StdSt": "cr  ",
+            "V0i": 17.770000457763672,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 71
+        },
+        "key": [
+            "Lu",
+            "e",
+            "lutetium_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 24.868999481201172,
+            "IC_DC": "---",
+            "ICform": "Mg",
+            "ICname": "Magnesium NEA(CODATA)",
+            "IXi": 1,
+            "M0i": 24.30500030517578,
+            "Ri": null,
+            "S0i": 32.66999816894531,
+            "StdSt": "s  ",
+            "V0i": 13.996000289916992,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 12
+        },
+        "key": [
+            "Mg",
+            "e",
+            "magnesium_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 23.899999618530273,
+            "IC_DC": "s:Mo0:Mo:dnp:",
+            "ICform": "Mo",
+            "ICname": "Molybdenum",
+            "IXi": 1,
+            "M0i": 95.93998718261719,
+            "Ri": null,
+            "S0i": 28.65999984741211,
+            "StdSt": "s  ",
+            "V0i": 9.399999618530273,
+            "Valen": 4,
+            "Zi": null,
+            "indMT": 42
+        },
+        "key": [
+            "Mo",
+            "e",
+            "molybdenum_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 28.229999542236328,
+            "IC_DC": "---",
+            "ICform": "Na",
+            "ICname": "Sodium NEA(CODATA)",
+            "IXi": 1,
+            "M0i": 22.98979949951172,
+            "Ri": null,
+            "S0i": 51.29999923706055,
+            "StdSt": "s ",
+            "V0i": 23.799999237060547,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 11
+        },
+        "key": [
+            "Na",
+            "e",
+            "sodium_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 27.450000762939453,
+            "IC_DC": "s:ND:Nd_cr:nbs:",
+            "ICform": "Nd",
+            "ICname": "Neodymium",
+            "IXi": 1,
+            "M0i": 144.24000549316406,
+            "Ri": null,
+            "S0i": 71.5,
+            "StdSt": "cr  ",
+            "V0i": 20.56999969482422,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 60
+        },
+        "key": [
+            "Nd",
+            "e",
+            "neodymium_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 14.66100025177002,
+            "IC_DC": "g:O0:O2:enp:",
+            "ICform": "O",
+            "ICname": "Oxygen",
+            "IXi": 1,
+            "M0i": 15.99940013885498,
+            "Ri": null,
+            "S0i": 102.56900024414062,
+            "StdSt": "g   ",
+            "V0i": 12395,
+            "Valen": -2,
+            "Zi": null,
+            "indMT": 8
+        },
+        "key": [
+            "O",
+            "o",
+            "oxygen_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 23.823999404907227,
+            "IC_DC": "---",
+            "ICform": "P",
+            "ICname": "Phosphorus (white) NEA(CODATA)",
+            "IXi": 1,
+            "M0i": 30.9737606048584,
+            "Ri": null,
+            "S0i": 41.09000015258789,
+            "StdSt": "s  ",
+            "V0i": 17.020000457763672,
+            "Valen": 5,
+            "Zi": null,
+            "indMT": 15
+        },
+        "key": [
+            "P",
+            "e",
+            "phosphorus_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 26.649999618530273,
+            "IC_DC": "s:PB:Pb_cr:cd:",
+            "ICform": "Pb",
+            "ICname": "Lead",
+            "IXi": 1,
+            "M0i": 207.1999969482422,
+            "Ri": null,
+            "S0i": 64.80000305175781,
+            "StdSt": "cr  ",
+            "V0i": 18.18000030517578,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 82
+        },
+        "key": [
+            "Pb",
+            "e",
+            "lead_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 27.200000762939453,
+            "IC_DC": "s:PR:Pr_cr:nbs:",
+            "ICform": "Pr",
+            "ICname": "Praseodymium",
+            "IXi": 1,
+            "M0i": 140.90699768066406,
+            "Ri": null,
+            "S0i": 73.19999694824219,
+            "StdSt": "cr  ",
+            "V0i": 20.809999465942383,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 59
+        },
+        "key": [
+            "Pr",
+            "e",
+            "praseodymium_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 22.76300048828125,
+            "IC_DC": "s:S0:Sulfur:dnp:",
+            "ICform": "S",
+            "ICname": "Sulfur",
+            "IXi": 1,
+            "M0i": 32.06700134277344,
+            "Ri": null,
+            "S0i": 31.79800033569336,
+            "StdSt": "s  ",
+            "V0i": 15.510000228881836,
+            "Valen": 6,
+            "Zi": null,
+            "indMT": 16
+        },
+        "key": [
+            "S",
+            "e",
+            "sulfur_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 19.788999557495117,
+            "IC_DC": "---",
+            "ICform": "Si",
+            "ICname": "Silicon NEA(CODATA)",
+            "IXi": 1,
+            "M0i": 28.085500717163086,
+            "Ri": null,
+            "S0i": 18.809999465942383,
+            "StdSt": "s  ",
+            "V0i": 12.055999755859375,
+            "Valen": 4,
+            "Zi": null,
+            "indMT": 14
+        },
+        "key": [
+            "Si",
+            "e",
+            "silicon_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 29.540000915527344,
+            "IC_DC": "s:SM:Sm_cr:nbs:",
+            "ICform": "Sm",
+            "ICname": "Samarium",
+            "IXi": 1,
+            "M0i": 150.35000610351562,
+            "Ri": null,
+            "S0i": 69.58000183105469,
+            "StdSt": "cr  ",
+            "V0i": 19.979999542236328,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 62
+        },
+        "key": [
+            "Sm",
+            "e",
+            "samarium_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 26.351999282836914,
+            "IC_DC": "s:Sn0:Sn:dnp:",
+            "ICform": "Sn",
+            "ICname": "Tin (white, tet.)",
+            "IXi": 1,
+            "M0i": 118.71099853515625,
+            "Ri": null,
+            "S0i": 51.21200180053711,
+            "StdSt": "s  ",
+            "V0i": 16.290000915527344,
+            "Valen": 4,
+            "Zi": null,
+            "indMT": 50
+        },
+        "key": [
+            "Sn",
+            "e",
+            "tin_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 28.90999984741211,
+            "IC_DC": "s:TB:Tb_cr:nbs:",
+            "ICform": "Tb",
+            "ICname": "Terbium",
+            "IXi": 1,
+            "M0i": 158.9239959716797,
+            "Ri": null,
+            "S0i": 73.22000122070312,
+            "StdSt": "cr  ",
+            "V0i": 19.219999313354492,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 65
+        },
+        "key": [
+            "Tb",
+            "e",
+            "terbium_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 25.700000762939453,
+            "IC_DC": "s:Te0:Te:dnp:",
+            "ICform": "Te",
+            "ICname": "Tellurium (Robie and Hemingway, 1995)",
+            "IXi": 1,
+            "M0i": 127.5999984741211,
+            "Ri": null,
+            "S0i": 49.709999084472656,
+            "StdSt": "s  ",
+            "V0i": 20.479999542236328,
+            "Valen": 4,
+            "Zi": null,
+            "indMT": 52
+        },
+        "key": [
+            "Te",
+            "e",
+            "Tellurium_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 25.059999465942383,
+            "IC_DC": "s:Ti:Ti_cr:cd:",
+            "ICform": "Ti",
+            "ICname": "Titanium",
+            "IXi": 1,
+            "M0i": 47.880001068115234,
+            "Ri": null,
+            "S0i": 30.719999313354492,
+            "StdSt": "s  ",
+            "V0i": 10.630000114440918,
+            "Valen": 4,
+            "Zi": null,
+            "indMT": 22
+        },
+        "key": [
+            "Ti",
+            "e",
+            "titanium_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 27.030000686645508,
+            "IC_DC": "s:TM:Tm_cr:nbs:",
+            "ICform": "Tm",
+            "ICname": "Thulium",
+            "IXi": 1,
+            "M0i": 168.9340057373047,
+            "Ri": null,
+            "S0i": 74.01000213623047,
+            "StdSt": "cr  ",
+            "V0i": 18.1299991607666,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 69
+        },
+        "key": [
+            "Tm",
+            "e",
+            "thulium_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 24.25,
+            "IC_DC": "s:W:W_cr:nbs:",
+            "ICform": "W",
+            "ICname": "Tungsten",
+            "IXi": 1,
+            "M0i": 183.85000610351562,
+            "Ri": null,
+            "S0i": 32.63999938964844,
+            "StdSt": "cr  ",
+            "V0i": 9.526000022888184,
+            "Valen": 6,
+            "Zi": null,
+            "indMT": 74
+        },
+        "key": [
+            "W",
+            "e",
+            "tungsten_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 26.530000686645508,
+            "IC_DC": "s:Y:Y_cr:nbs:",
+            "ICform": "Y",
+            "ICname": "Yttrium",
+            "IXi": 1,
+            "M0i": 88.90499877929688,
+            "Ri": null,
+            "S0i": 44.43000030517578,
+            "StdSt": "cr  ",
+            "V0i": 15.039999961853027,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 39
+        },
+        "key": [
+            "Y",
+            "e",
+            "yttrium_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 26.739999771118164,
+            "IC_DC": "s:YB:Yb_cr:nbs:",
+            "ICform": "Yb",
+            "ICname": "Ytterbium",
+            "IXi": 1,
+            "M0i": 173.0399932861328,
+            "Ri": null,
+            "S0i": 59.869998931884766,
+            "StdSt": "cr  ",
+            "V0i": 24.829999923706055,
+            "Valen": 3,
+            "Zi": null,
+            "indMT": 70
+        },
+        "key": [
+            "Yb",
+            "e",
+            "ytterbium_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 25.389999389648438,
+            "IC_DC": "s:ZN:Zn_cr:cd:",
+            "ICform": "Zn",
+            "ICname": "Zinc",
+            "IXi": 1,
+            "M0i": 65.37999725341797,
+            "Ri": null,
+            "S0i": 41.630001068115234,
+            "StdSt": "cr  ",
+            "V0i": 9.156999588012695,
+            "Valen": 2,
+            "Zi": null,
+            "indMT": 30
+        },
+        "key": [
+            "Zn",
+            "e",
+            "zinc_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": 26.079999923706055,
+            "IC_DC": "---",
+            "ICform": "Zr",
+            "ICname": "Zirconium 12/07 UPDATE SOi CpOi",
+            "IXi": 1,
+            "M0i": 91.2239990234375,
+            "Ri": null,
+            "S0i": 39.08000183105469,
+            "StdSt": "s  ",
+            "V0i": 14.050000190734863,
+            "Valen": 4,
+            "Zi": null,
+            "indMT": 40
+        },
+        "key": [
+            "Zr",
+            "e",
+            "zirconium_m23"
+        ],
+        "project": "mines23"
+    },
+    {
+        "dod": {
+            "Cp0i": -14.418000221252441,
+            "IC_DC": "`",
+            "ICform": "Zz",
+            "ICname": "Electrical (proton) charge",
+            "IXi": null,
+            "M0i": 0,
+            "Ri": null,
+            "S0i": -65.33999633789062,
+            "StdSt": null,
+            "V0i": 0,
+            "Valen": 1,
+            "Zi": null,
+            "indMT": 0
+        },
+        "key": [
+            "Zz",
+            "z",
+            "electric_charge_m23"
+        ],
+        "project": "mines23"
+    }
+]
+

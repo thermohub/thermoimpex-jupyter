@@ -1,0 +1,8 @@
+﻿Symbol,Name,Composition,agg_state,logK,sigma logK,DrHm [kJ/mol],sigma DrHm [kJ/mol],DrCpm [J/(K mol)],sigma DrCpm [J/(K mol)],T-min,T-max,Reaction
+SiO2(am),Silica(am),SiO2,s,2.714,0.044,-14.594,0.21,-2.35,1,0,350,1 Si(OH)4(aq) -2 H2O(l) = SiO2(am)
+Al2Si2O5(OH)4(cr),Kaolinite,Al2Si2O5(OH)4,s,-7.44,0.06,172.8,5,,,,,2 Al+3 2 Si(OH)4(aq) 1 H2O(l) -6 H+ = Al2Si2O5(OH)4(cr)
+(UO2)2SiO4w2(cr),Soddyite,(U|+6|O2)2SiO4(H2O)2,s,-5.75,0.26,,,,,,,2 UO2+2 1 Si(OH)4(aq) 2 H2O(l) -4 H+ = (UO2)2SiO4w2(cr)
+Na(UO2)(SiO3OH)w1(cr),Na-boltwoodite,Na(U|+6|O2)(SiO3OH)(H2O),s,-5.81,0.44,44.8,5.8,,,,,1 Na+ 1 UO2+2 1 Si(OH)4(aq) 1 H2O(l) -3 H+ = Na(UO2)(SiO3OH)w1(cr)
+K(UO2)(SiO3OH)w1(cr),Boltwoodite,K(U|+6|O2)(SiO3OH)(H2O),s,-4.48,1.17,27.7,8,,,,,1 K+ 1 UO2+2 1 Si(OH)4(aq) 1 H2O(l) -3 H+ = K(UO2)(SiO3OH)w1(cr)
+Ca(UO2)2(SiO3OH)2w5(cr),Uranophane,Ca(U|+6|O2)2(SiO3OH)2(H2O)5,s,-11.52,0.16,86,16,,,,,1 Ca+2 2 UO2+2 2 Si(OH)4(aq) 5 H2O(l) -6 H+ = Ca(UO2)2(SiO3OH)2w5(cr)
+USiO4(cr),Coffinite,U|+4|SiO4,s,4.5,,79,,,,,,1 U+4 1 Si(OH)4(aq) -4 H+ = USiO4(cr)
