@@ -190,6 +190,19 @@ install is missing the contrib script from its exec-path
 
 ### Pulling upstream changes into `Resources/`
 
+Which branch to pull from isn't fixed — check first. In practice the
+`ThermoMatch-config.json` tracked on `import_thereda` has repeatedly picked up
+other developers' machine-local absolute paths (`/home/sveta/devThermo/...`,
+`/home/dmiron/git/thermomatch/...`) baked in by accident, while `master`'s copy
+stays on the portable relative-path form (`../../Resources/...`) that every
+notebook in this repo actually needs
+(see [`Resources/ThermoMatch-config.json` / PyThermoMatch settings loading](CLAUDE.md)).
+Diff the two before picking one:
+```bash
+git fetch thermomatch master <other-branch>
+git diff --stat thermomatch/<other-branch>:Resources thermomatch/master:Resources --
+```
+
 ```bash
 git fetch thermomatch <branch>
 git subtree pull --prefix=Resources thermomatch <branch> -m "Add 'Resources/' from thermomatch commit <sha> (branch <branch>)"
@@ -201,8 +214,11 @@ Gotchas:
   work in progress, then `git stash pop` after.
 - If the branch you're pulling from has no shared history with whatever was
   previously merged into `Resources/` (e.g. switching to a different thermomatch
-  branch), you'll get `fatal: refusing to merge unrelated histories`. In that case,
-  don't force a merge — instead do a clean replace:
+  branch, or even re-pulling the *same* branch after a prior update used the
+  `split`/`read-tree` fallback below), you'll get
+  `fatal: refusing to merge unrelated histories`. As of this repo's history this is
+  the **normal case, not a rare edge case** — every real update done so far has hit
+  it. Don't force a merge — instead do a clean replace:
   ```bash
   git rm -rq Resources
   git commit -m "Remove Resources/ before re-importing from thermomatch/<branch>"
@@ -211,19 +227,36 @@ Gotchas:
 - **Always verify** the result before trusting it — `git subtree add --squash` has
   been observed to occasionally grab the entire thermomatch repo root instead of
   just the `Resources/` subtree (a tooling bug, not a conflict — it fails silently).
-  Check it directly:
+  This has now been seen twice, back to back, on real updates — treat it as likely,
+  not occasional. Check it directly:
   ```bash
   git ls-tree thermomatch/<branch> -- Resources   # expected tree hash
   git ls-tree HEAD -- Resources                   # what actually landed
   ```
-  If they don't match, discard the bad commit(s) and rebuild by hand from a plain
-  split instead, which is more reliable than `add`/`pull` with `--squash`:
+  If they don't match, discard the bad commit(s) (`git reset --hard <commit-before-add>`)
+  and rebuild by hand from a plain split instead, which has been reliable where
+  `add`/`pull --squash` wasn't:
   ```bash
-  git subtree split --prefix=Resources thermomatch/<branch>   # prints a commit sha
-  git rm -r --cached -q Resources && rm -rf Resources
+  git subtree split --prefix=Resources thermomatch/<branch>   # prints a split commit sha
+  echo "split tree:  $(git rev-parse <split-sha>^{tree})"
+  echo "remote tree: $(git rev-parse thermomatch/<branch>:Resources)"   # must match before proceeding
   git read-tree --prefix=Resources -u <split-sha>
   git commit -m "Add 'Resources/' from thermomatch commit <sha> (branch <branch>)"
   ```
+  Given `add --squash` has failed verification every time it's been tried, it's
+  simplest to skip straight to `subtree split` + `read-tree` rather than trying
+  `add --squash` first and checking whether it needs to be discarded.
+- **The `split`/`read-tree` fallback does not leave `git subtree` its own tracking
+  metadata behind.** `git subtree add/pull --squash` appends `git-subtree-dir:` /
+  `git-subtree-split:` trailers to the commit message, which is what lets a later
+  `subtree pull` find a common merge base and do an incremental update. A commit
+  made via plain `git commit` after `read-tree` has no such trailers (confirmed by
+  inspecting the commit object directly — `git cat-file -p <sha>` shows no
+  `git-subtree-*` lines). Practical effect: **every subsequent `subtree pull` will
+  keep hitting "unrelated histories" and need the same clean-replace + split dance
+  again** — this isn't something to try to fix, it's just the expected steady
+  state for this repo. Budget for the full remove → split → verify → read-tree →
+  commit sequence every time, not just the first time.
 
 ### Pushing local edits back to thermomatch
 
