@@ -169,4 +169,15 @@ cython_debug/
 databases/THEREDA/data-in/**/*.json
 !databases/THEREDA/data-in/scripts-in/**/*.json
 
+# Resources/files/ is thermomatch's own example/test-suite data pulled in by
+# the Resources/ git subtree import (~888MB) -- not read by any notebook/
+# script in this repo, and its size alone was breaking the mybinder.org
+# build (Docker build context over ~1GB). A root .dockerignore alone wasn't
+# reliable (mybinder's repo2docker version doesn't appear to honor it), so
+# untracked here instead. Re-add this line after every future Resources/
+# subtree resync (see the "Resources/ (git subtree from thermomatch)"
+# section in CLAUDE.md) -- the subtree merge will re-introduce these files
+# as tracked otherwise.
+Resources/files/
+
 CLAUDE.md
