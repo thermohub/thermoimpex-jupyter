@@ -32,7 +32,7 @@
             "_comment": "Match by substance_class only: the SC_* single-letter code already used at TPcMod/REcMod position 6 (O=SC_COMPONENT, G=SC_GASFLUID, S=SC_AQSOLUTE, W=SC_AQSOLVENT, K=SC_SURFSPECIES, X=SC_SITEMOIETY). W is effectively unique to H2O(l).",
             "record_type": "DComp",
             "substance_class": "W",
-            "set_method": { "0": "H", "1": "W", "2": "F", "3": "E" }
+            "set_method": { "0": "C", "1": "S", "2": "C", "3": "N" }
         },
         {
             "_comment": "Match by symbol_pattern: an ECMAScript regex searched (not required to match the whole string) against the substance/reaction symbol.",
