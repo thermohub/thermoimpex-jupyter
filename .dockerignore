@@ -1,0 +1,20 @@
+# Used by repo2docker/mybinder.org's docker build (see binder/environment.yml,
+# binder/postBuild). Confirmed 2026-08-07: without this, the build context is
+# ~1GB (992MB via `git archive HEAD | wc -c`), and mybinder.org builds fail
+# during "[internal] load build context" -- last known-good build was before
+# Resources/ was subtree-added on 2026-08-06, which alone accounts for ~888MB.
+# No documented hard limit was found in mybinder's docs, but empirically
+# builds succeeded around ~745MB and fail around ~1041MB.
+
+# Resources/files/ is thermomatch's own example/test-suite data (TestPhreeqc,
+# TestThereda, PSI2020, etc. -- see Resources/files/README.md), not something
+# any notebook/script in *this* repo reads: `git grep`-ing every .ipynb/.py
+# here for "Resources/files/" turns up nothing outside Resources/files/ itself.
+# Notebooks only use Resources/ThermoMatch-config.json, Resources/data/schemas/,
+# and Resources/lua -- see the "Resources/ThermoMatch-config.json / PyThermoMatch
+# settings loading" section in CLAUDE.md. Still tracked in git (unaffected by
+# this file); just excluded from what gets shipped into the Binder image.
+Resources/files/
+
+# Git history isn't needed inside the built image.
+.git/
