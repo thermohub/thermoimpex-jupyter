@@ -30,6 +30,9 @@
             "Declaration.description": {
                 "field": "properties.comment"
             },
+            "Declaration.enabled": {
+                "field": "properties.enabled"
+            },
             "DataValue.0.datatype": {
                 "field": "properties.temp_import.0.name"
             },
@@ -979,7 +982,7 @@
   end;
         if rintable.properties.logKr ~= nil and rintable.properties.drsm_gibbs_energy == nil and rintable.properties.drsm_enthalpy == nil and rintable.properties.drsm_entropy == nil and rintable.properties.drsm_heat_capacity_p == nil and rintable.properties.drsm_volume == nil then
         local logk_val = rintable.properties.logKr.values[1]
-        if rintable.properties.TPMethods ~= nil then rintable.properties.TPMethods[1].logk_ft_coeffs.values[1] = logk_val end;
+        if rintable.properties.TPMethods ~= nil then local c = rintable.properties.TPMethods[1].logk_ft_coeffs.values if c[1] == 0 and c[2] == 0 and c[3] == 0 and c[4] == 0 and c[5] == 0 and c[6] == 0 then c[1] = logk_val end end;
         rintable.properties.drsm_gibbs_energy = { values = { -8.31451 * 298.15 * math.log(10) * logk_val }, status = {[1] = {['3'] = 'CALCULATED'}}, comment = 'calculated from logKr (R=8.31451 J/(mol*K), T=298.15 K)' }
         end;
 	if rintable.properties.TPMethods ~= nil then x = rintable.properties.TPMethods[1].logk_ft_coeffs.values

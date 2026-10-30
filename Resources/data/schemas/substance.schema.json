@@ -699,6 +699,14 @@
           "required": "optional"
         },
         {
+          "key": 39,
+          "name": "enabled",
+          "typeId": "bool",
+          "doc": "False if the record is declared as not to be used in geochemical codes (e.g. THEREDA Declaration.enabled=false); absent means enabled. Not exported to GEMS3 when false.\n",
+          "required": "optional",
+          "default": 1
+        },
+        {
           "key": 36,
           "name": "datasources",
           "typeId": "set",

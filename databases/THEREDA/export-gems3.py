@@ -22,7 +22,7 @@ match.loadGems3ExportRulesFile("scripts-out/gems3-export-rules.json")
 
 # Last arg is the idThermoDataSet string (not a list - a list silently matches the different
 # reaction_keys overload and exports nothing).
-gem_export = match.ExportToGems3("http://localhost:8529", "root", "", "ORD_THEREDA_2026-01",
+gem_export = match.ExportToGems3("http://localhost:8529", "root", "", "ORD_THEREDA_R17",
                                   "thermodatasets/THEREDA2026;1:TDS_LMA;0")
 gem_export.ExportAllJson("data-out")
 print("done")

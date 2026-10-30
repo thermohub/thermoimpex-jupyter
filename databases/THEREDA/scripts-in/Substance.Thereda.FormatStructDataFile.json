@@ -22,7 +22,8 @@
             {\"datasources\" : [\"\",\"\"], \"names\" : [\"\",\"\",\"\",\"\"]},
             {\"datasources\" : [\"\",\"\"], \"names\" : [\"\",\"\",\"\",\"\"]},
             {\"datasources\" : [\"\",\"\"], \"names\" : [\"\",\"\",\"\",\"\"]},
-            {\"datasources\" : [\"\",\"\"], \"names\" : [\"\",\"\",\"\",\"\"]}]"
+            {\"datasources\" : [\"\",\"\"], \"names\" : [\"\",\"\",\"\",\"\"]},
+            {\"name\" : \"GasDataReal\", \"values\" : [0,0,0,0,0,0,0,0,0,0], \"datasources\" : [\"\",\"\",\"\",\"\",\"\"]}]"
         },
         "pairs": {},
         "matches": {
@@ -40,6 +41,9 @@
             },
             "Declaration.description": {
                 "field": "properties.comment"
+            },
+            "Declaration.enabled": {
+                "field": "properties.enabled"
             },
             "DataValue.0.datatype": {
                 "field": "properties.temp_import.0.name"
@@ -475,6 +479,54 @@
             },
             "DataValue.14.calcmode": {
                 "field": "properties.temp_import.14.names.3"
+            },
+            "GasDataReal.t_crit": {
+                "field": "properties.temp_import.15.values.0"
+            },
+            "GasDataReal.p_crit": {
+                "field": "properties.temp_import.15.values.1"
+            },
+            "GasDataReal.omega": {
+                "field": "properties.temp_import.15.values.2"
+            },
+            "GasDataReal.v_crit": {
+                "field": "properties.temp_import.15.values.3"
+            },
+            "GasDataReal.sr_a": {
+                "field": "properties.temp_import.15.values.4"
+            },
+            "GasDataReal.sr_b": {
+                "field": "properties.temp_import.15.values.5"
+            },
+            "GasDataReal.sr_c": {
+                "field": "properties.temp_import.15.values.6"
+            },
+            "GasDataReal.sr_d": {
+                "field": "properties.temp_import.15.values.7"
+            },
+            "GasDataReal.sr_e": {
+                "field": "properties.temp_import.15.values.8"
+            },
+            "GasDataReal.sr_f": {
+                "field": "properties.temp_import.15.values.9"
+            },
+            "GasDataReal.t_crit_reference": {
+                "field": "properties.temp_import.15.datasources.0"
+            },
+            "GasDataReal.p_crit_reference": {
+                "field": "properties.temp_import.15.datasources.1"
+            },
+            "GasDataReal.omega_reference": {
+                "field": "properties.temp_import.15.datasources.2"
+            },
+            "GasDataReal.v_crit_reference": {
+                "field": "properties.temp_import.15.datasources.3"
+            },
+            "GasDataReal.sr_reference": {
+                "field": "properties.temp_import.15.datasources.4"
+            },
+            "GasDataReal.editor": {
+                "field": "properties.temp_import.15.comment"
             }
         },
         "script":   "formula = rintable.properties.symbol;
@@ -532,6 +584,47 @@ rintable.properties.name = rintable.properties.symbol;
         if rintable.properties.symbol == 'H2O(l)' then
         if rintable.properties.sm_heat_capacity_p == nil or rintable.properties.sm_heat_capacity_p.values == nil or rintable.properties.sm_heat_capacity_p.values[1] == nil then rintable.properties.sm_heat_capacity_p = {values = {75.351}, units = {'J/(mol*K)'}} end;
         if rintable.properties.sm_volume == nil or rintable.properties.sm_volume.values == nil or rintable.properties.sm_volume.values[1] == nil then rintable.properties.sm_volume = {values = {1.8068}, units = {'J/bar'}} end;
+        end;
+        local gdr = rintable.properties.temp_import[16];
+        if gdr ~= nil and gdr.values ~= nil and string.match(rintable.properties.symbol, '%(g%)')
+        and gdr.values[1] ~= nil and gdr.values[1] > 0 and gdr.values[2] ~= nil and gdr.values[2] > 0 then
+        local gcrp = {name = 'gcrp',
+        values = {gdr.values[1], gdr.values[2], gdr.values[3] or 0, 0, 0, 0, gdr.values[4] or 0},
+        names = {'Tc', 'Pc', 'omega', 'k1', 'k2', 'k3', 'Vc'},
+        units = {'K', 'MPa', '1', '1', '1', '1', 'cm3/mol'},
+        comment = 'THEREDA GasDataReal critical properties, in THEREDA source units'};
+        local hassr = false;
+        for i = 5, 10 do if gdr.values[i] ~= nil and gdr.values[i] ~= 0 then hassr = true end end;
+        if hassr then
+        local srnames = {'sr_a', 'sr_b', 'sr_c', 'sr_d', 'sr_e', 'sr_f'};
+        for i = 5, 10 do
+        gcrp.values[#gcrp.values+1] = gdr.values[i] or 0;
+        gcrp.names[#gcrp.names+1] = srnames[i-4];
+        gcrp.units[#gcrp.units+1] = '1' end
+        end;
+        local refs = {};
+        local seen = {};
+        if gdr.datasources ~= nil then
+        for i = 1, 5 do local r = gdr.datasources[i];
+        if r ~= nil and r ~= '' and string.match(r, 'NotYetDetermined') == nil and seen[r] == nil then
+        seen[r] = true; refs[#refs+1] = r end end
+        end;
+        if #refs > 0 then gcrp.datasources = refs end;
+        if gdr.comment ~= nil and gdr.comment ~= '' then gcrp.comment = gcrp.comment .. '; editor: ' .. gdr.comment end;
+        rintable.properties.eos_gas_crit_props = gcrp;
+        end;
+        local cp298 = nil;
+        if rintable.properties.sm_heat_capacity_p ~= nil and rintable.properties.sm_heat_capacity_p.values ~= nil then
+        cp298 = rintable.properties.sm_heat_capacity_p.values[1] end;
+        if cp298 ~= nil and rintable.properties.TPMethods ~= nil and rintable.properties.symbol ~= 'H2O(l)' then
+        table.insert(rintable.properties.TPMethods, 1, {method = {['0'] = 'cp_ft_equation'},
+        limitsTP = {range = false, lowerT = 298.15, upperT = 298.15, lowerP = 0.1, upperP = 1e6},
+        m_heat_capacity_ft_coeffs = {name = 'CpTc',
+        values = {cp298, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+        names = {'a0', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9', 'a10'},
+        units = {'J/(mol*K)', 'J/(mol*K^2)', '(J*K)/mol', 'J/(mol*K^0.5)', 'J/(mol*K^3)',
+        'J/(mol*K^4)', 'J/(mol*K^5)', '(J*K^2)/mol', 'J/mol', 'J/(mol*K^1.5)', 'J/(mol*K)'},
+        comment = 'Constant Cp from THEREDA CP298: a0 = Cp(298.15 K), higher-order terms 0'}})
         end;
         rintable.properties.temp_import = nil"
     },

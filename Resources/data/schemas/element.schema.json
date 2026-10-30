@@ -260,6 +260,11 @@
           "doc": "CEMDATA 26 Lothenbach et al. (2026)\n"
         },
         {
+          "name": "SOREDA",
+          "value": 30,
+          "doc": "SOREDA sorption reference database, Marinich et al. (2027)\n"
+        },
+        {
           "name": "WORK1",
           "value": 1001,
           "doc": "SourceTDB code for data under work\/development\n"
@@ -506,6 +511,14 @@
           "typeId": "string",
           "doc": "E.g. who entered\/modified, ...\n",
           "required": "optional"
+        },
+        {
+          "key": 21,
+          "name": "enabled",
+          "typeId": "bool",
+          "doc": "False if the record is declared as not to be used in geochemical codes (e.g. THEREDA Declaration.enabled=false); absent means enabled. Not exported to GEMS3 when false.\n",
+          "required": "optional",
+          "default": 1
         },
         {
           "key": 18,

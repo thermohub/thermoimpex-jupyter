@@ -27,7 +27,7 @@ import os
 import shutil
 import subprocess
 
-KEYWORDS = ("icomp", "dcomp", "phase", "reacdc", "sdref")
+KEYWORDS = ("icomp", "dcomp", "compos", "phase", "reacdc", "sdref")
 
 
 def _conda_prefix():
@@ -48,7 +48,8 @@ def json_to_db(json_file, keyword, output_dir, tag):
         thermomatch's ExportToGems3(...).ExportAllJson(...) produces, e.g.
         databases/THEREDA/data-out/IComp.backup.json).
     keyword: which GEM-Selektor keyword the records belong to -- one of
-        icomp, dcomp, phase, reacdc, sdref.
+        icomp, dcomp, compos, phase, reacdc, sdref ("compos" needs a json2db
+        built with the compos keyword, benchcomp/json2db_main.cpp).
     output_dir: directory the <keyword>.<tag>.pdb/.ndx pair is written into
         (created if missing). Safe to reuse across multiple keywords/tags --
         each call only ever touches its own <keyword>.<tag>.* files.
